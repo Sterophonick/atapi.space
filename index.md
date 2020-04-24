@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Hello!</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>sterophonick.github.io/omegamanual.html</p>
+<p>Welcome to my own little world</p>
+<a href="sterophonick.github.io/omegamanual.html">EZ-Flash Omega Manual</a>
 </body>
 </html>
