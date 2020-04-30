@@ -1,4 +1,7 @@
 <html>
+<head>
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+</head>
 <body>
 <h1>Hello!</h1>
 <p>Preliminary website for my projects and stuff</p>
