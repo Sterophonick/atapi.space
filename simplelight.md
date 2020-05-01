@@ -5,6 +5,6 @@
 <img src="images/simplelight/simplelight-0.png">
 <img src="images/simplelight/simplelight-1.png">
 <img src="images/simplelight/simplelight-2.png">
-<a href="omegamanual">SimpleLight-specific EZ-Flash Omega Manual</a><br />
+<a href="omegamanual.html">SimpleLight-specific EZ-Flash Omega Manual</a><br />
 </body>
 </html>
