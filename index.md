@@ -1,4 +1,5 @@
 <html>
+<title>Sterophonick's Own Little World</title>
 <head>
 </head>
 <body>
