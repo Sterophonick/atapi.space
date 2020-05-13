@@ -5,5 +5,6 @@
 <a href="https://gbatemp.net/members/sterophonick.457315/">GBAtemp</a><br />
 <a href="https://www.youtube.com/channel/UCqzyZUJL_Tak9wPztDgT6aA">YouTube</a><br />
 <a href="https://twitter.com/Sterophonick">Twitter</a><br />
+<a href="https://archive.org/details/@sterophonick">archive.org</a><br />
 </body>
 </html>
