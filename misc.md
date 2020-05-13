@@ -1,7 +1,7 @@
 <html>
 <body>
 <a href="freeroms.htm">FreeROMs.com nag htm file.</a><br />
-<a href="WavePluginManual.html">PogoShell GSM Plugin ps2gsm Guide (Japanese)</a><br />
+<a href="WavePluginManual.html">PogoShell GSM Plugin ps2gsm Guide (Japanese)</a><a href="PogoShell%20Plugins/ps2gsm003.zip">Plugin download</a><br />
 <a href="JpegPluginManual.html">PogoShell JPEG Plugin ps2jpg Guide (Japanese)</a><br />
 <a href="TextPluginManual.html">PogoShell Text Plugin ps2txt Guide (Japanese)</a><br />
 <a href="https://github.com/Sterophonick/Archive-PogoShell">The PogoShell Version Archive</a><br />
