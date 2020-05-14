@@ -899,7 +899,7 @@ Prism.languages.yaml={scalar:{pattern:/([\-:]\s*(?:![^\s]+)?[ \t]*[|>])[ \t]*(?:
 
         <p>The author's native language is not English. There may be grammatical errors in the document. We have done our best to translate and correct.</p>
 
-        <p>The current document applies to kernel 1.04</p>
+        <p>The current document applies to Kernel 1.06 fw 7, Simple version 3.31.</p>
 
         <ul>
             <li>
@@ -1025,6 +1025,9 @@ Prism.languages.yaml={scalar:{pattern:/([\-:]\s*(?:![^\s]+)?[ \t]*[|>])[ \t]*(?:
                                     </li>
                                     <li>
                                         <a href="https://sterophonick.github.io/omegamanual.html#toc_41">The SELECT Menu</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://sterophonick.github.io/omegamanual.html#toc_42">Converting Wave Files</a>
                                     </li>
                                 </ul>
                             </li>
@@ -1245,30 +1248,33 @@ card size ≤ 128 GB  exFAT       32KB or Larger
 
         <p><code>.bmp</code>: Windows Bitmap Image</p>
         <p><code>.gg</code>: Sega Game Gear ROM File</p>
-        <p><code>.jpg/.jpeg</code>: JPEG Image</p>
+        <p><code>.jpg/.jpeg</code>: JPEG Image (YUV411, YUV111 or YUV100 formatted)</p>
         <p><code>.mod</code>: ProTracker Module</p>
         <p><code>.ngc/.ngp/.ngpc</code>: Neo Geo Pocket ROM File</p>
         <p><code>.pce</code>: NEC PC-Engine/TurboGrafx-16 ROM File</p>
         <p><code>.rom</code>: MSX ROM File (Not a .DSK)</p>
         <p><code>.sg</code>: Sega SG-1000 ROM File</p>
-		<p><code>.sc</code>: Sega SC-3000 ROM Image</p>
+		<p><code>.sc</code>: Sega SC-3000 ROM File</p>
         <p><code>.sms</code>: Sega Master System ROM File</p>
         <p><code>.sv</code>: Watara Supervision ROM File</p>
         <p><code>.ws/.wsc</code>: WonderSwan ROM File</p>
-        <p><code>.z80</code>: ZX-Spectrum Z80 Snapshot</p>
+        <p><code>.z80</code>: ZX Spectrum Z80 Snapshot</p>
 		<p><code>.txt</code>: Text Document</p>
 		<p><code>.pcx</code>: ZSoft Paintbrush PCX Image</p>
 		<p><code>.c8</code>: RCA CHIP-8 ROM</p>
 		<p><code>.arc</code>: Emerson Arcadia 2001 ROM</p>
-		<p><code>.nsf</code>: NSF Format Music</p>
+		<p><code>.nsf</code>: NSF Format Music (2A03 Only)</p>
 		<p><code>.k3m</code>: Krawall Advance Music</p>
 		<p><code>.bgf</code>: BoyScout Module</p>
-		<p><code>.wav</code>: Wave Format Sound</p>
+		<p><code>.wav</code>: Wave Format Sound (GSM 6.10 format)</p>
 		<p><code>.vgm</code>: SMS/GG VGM Music</p>
 		<p><code>.sb</code>: MaxMod Soundbank</p>
+		<p><code>.mda</code>: Sharp X68000 Music</p>
+		<p><code>.cwz</code>: [Unknown] Music File</p>
 
         <h4 id="toc_39">Plugins</h4>
         <p>Every single extension listed above is controlled by a file known as a Pogoshell plugin.</p>
+		<p>If you want to add or make plugins of your own, the filename has to be the extension that it uses in <code>/SYSTEM/PLUG</code></p>
 
 
         <h4 id="toc_40">Playing ColecoVision ROMs</h4>
@@ -1283,11 +1289,23 @@ card size ≤ 128 GB  exFAT       32KB or Larger
 
         <h4 id="toc_41">The SELECT Menu</h4>
 		<p>Pressing the SELECT button in the SD Card menu will open up a menu.</p>
-		<p>There are three options there. Thumbnail, reset, and backup.</p>
+		<p>There are three options there. Thumbnail, reset, backup, and bold.</p>
 		<p>Thumbnail will toggle whether or not you want to see the thumbnail of GBA Games.</p>
 		<p>Reset will toggle the hard reset when you launch a game. If you hold L while this is turned on, it will not perform the hard reset. If the option is off, holding L will perform a hard reset.</p>
-		<p>Backup will toggle the Save backup feature. This feature is to ensure you don't lose all of your saves when your SD card will inevitably become corrupted due to a flaw in the way saving works.</p>
+		<p>Backup will toggle the Save backup feature. This feature is to ensure you don\'t lose all of your saves when your SD card will inevitably become corrupted due to a flaw in the way saving works.</p>
+		<p>Bold will make the text bolded for ASCII characters. This may help for people who are nearsighted.</p>
+		<img src="images/bold.png">
 
+		<h4 id="toc_42">Converting Wave Files</h4>
+		<p>This will require Audacity.</p>
+		<p>Step 1:</p>
+		<img src="images/wav1.png">
+		<p>Step 2:</p>
+		<img src="images/wav2.png">
+		<p>Step 3:</p>
+		<img src="images/wav3.png">
+		<p>Step 4:</p>
+		<img src="images/wav4.png">
 
             <h2 id="toc_27">System Settings</h2>
 
