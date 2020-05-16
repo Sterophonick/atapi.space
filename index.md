@@ -11,6 +11,6 @@
 <a href="homebrew-hub">Homebrew Hub</a><br />
 <a href="misc">Miscellaneous Stuff</a><br />
 <a href="sites">Sites that I'm on</a><br />
-<a href="Archive">Some old stuff I made</a><br />
+<a href="archive">Some old stuff I made</a><br />
 </body>
 </html>
