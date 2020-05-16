@@ -6,6 +6,5 @@
 <a href="TextPluginManual.html">PogoShell Text Plugin ps2txt Guide (Translated)</a><a href="PogoShell%20Plugins/ps2txt014.zip">  (Plugin download)</a><br />
 <a href="PogoShell%20Plugins/ps2mda.txt">PogoShell X68000 Music Plugin ps2mda Guide (Translated)</a><a href="PogoShell%20Plugins/ps2mda005.zip">  (Plugin download)</a><br />
 <a href="https://github.com/Sterophonick/Archive-PogoShell">The PogoShell Version Archive</a><br />
-<a href="archive">Some old stuff I made</a><br />
 </body>
 </html>
