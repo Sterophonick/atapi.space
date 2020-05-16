@@ -15,6 +15,6 @@
 <a href="https://scratch.mit.edu/projects/33047346">Original Game</a><br />
 <br />
 <br />
-<a href="../downloads/SbjGba2016src.zip">A copy of the source code from 2016</a><br />
+<a href="../downloads/SbjGba2016src.zip">A copy of the source code from 2016 (WARNING: This code is HORRENDOUS)</a><br />
 </body>
 </html>
