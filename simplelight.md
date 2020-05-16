@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Simple</h1>
-<p>A new kernel for your EZ-Flash Omega</p><br />
+<h3>A new kernel for your EZ-Flash Omega</h3><br />
 <p>Simple comes with loads of new options and plugins from the era of PogoShell (remember when that was popular? :) ).</p>
 <p>It also comes with a new theme that in my opinion looks better than the stock firmware.</p>
 <p>Using this kernel you can view images, listen to music, read text documents, and play many more systems such as the Sega Master System for Sinclair ZX Spectrum!</p>
