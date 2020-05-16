@@ -12,5 +12,6 @@
 <a href="misc">Miscellaneous Stuff</a><br />
 <a href="sites">Sites that I'm on</a><br />
 <a href="archive">Some old stuff I made</a><br />
+<a href="greetz">Some people i want to thank for helping me get to where i am now</a><br />
 </body>
 </html>
