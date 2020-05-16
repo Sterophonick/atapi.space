@@ -4,7 +4,9 @@
 </head>
 <body>
 <h1>Hello!</h1>
-<p>Preliminary website for my projects and stuff</p>
+<h2>Preliminary website for my projects and stuff</h2>
+<p>Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.</p><br />
+<p>This is where you can find some of my projects along with an archive of my cringy old stuff as well!</P.
 <a href="heartlib">HeartLib</a><br />
 <a href="simplelight">Simple</a><br />
 <a href="es-theme-homebrew">ES-Theme-Homebrew</a><br />
