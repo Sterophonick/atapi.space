@@ -7,6 +7,7 @@
 <a href="PogoShell%20Plugins/ps2mda.txt">PogoShell X68000 Music Plugin ps2mda Guide (Translated)</a><a href="PogoShell%20Plugins/ps2mda005.zip">  (Plugin download)</a><br />
 <a href="https://github.com/Sterophonick/Archive-PogoShell">The PogoShell Version Archive</a><br />
 </body>
-
+<br />
+<br />
 <a href="..">Back</a><br />
 </html>
