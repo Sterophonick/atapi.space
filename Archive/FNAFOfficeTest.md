@@ -12,5 +12,5 @@
 </body>
 <br />
 <br />
-<a href="javascript:history.back()">Go Back</a>
+<a href="../archive">Go Back</a>
 </html>

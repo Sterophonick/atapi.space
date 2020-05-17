@@ -22,5 +22,5 @@
 </body>
 <br />
 <br />
-<a href="archive">Go Back</a>
+<a href="../archive">Go Back</a>
 </html>
