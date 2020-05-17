@@ -1,17 +1,15 @@
 <html>
 <style>
 p.small {
-  line-height: 0.7;
-}
-
-p.big {
-  line-height: 1.8;
+  line-height: 0.9;
 }
 </style>
 <body>
 <h1>Greetz</h1>
-<p>FluBBa</p> <br />
-<p>Dwedit</p> <br />
+<p class="small">
+FluBBa<br />
+Dwedit<br />
+</p>
 <p>3DSage</p> <br />
 <p>krom</p> <br />
 <p>Loopy</p> <br />
