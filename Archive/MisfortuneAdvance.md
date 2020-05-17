@@ -1,4 +1,9 @@
 <html>
+<style>
+p.small {
+  line-height: 1;
+}
+</style>
 <body>
 <h1>Misfortune Advance</h1>
 <h3>A decent conversion of Misfortune.GB to the Game Boy Advance</h3> <br />
@@ -13,7 +18,7 @@
 <br />
 <br />
 <a href="../downloads/Misfortune Advance.gba">ROM Download</a><br />
-<a href="https://github.com/Sterophonick/Misfortune-Advance">Source Code (here for archival purposes)</a><br />
+<a href="https://github.com/Sterophonick/Misfortune-Advance">Source Code</a><br />
 </body>
 <br />
 <br />
