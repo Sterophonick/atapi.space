@@ -1,4 +1,13 @@
 <html>
+<style>
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+</style>
 <body>
 <h1>Greetz</h1>
 <p>FluBBa</p> <br />

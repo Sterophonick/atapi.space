@@ -2,6 +2,7 @@
 <body>
 <h1>Super Block Jump</h1>
 <h3>A game for the Nintendo Game Boy Advance that is a port of a Scratch game I made back in late 2014.</h3> <br />
+<p>A platformer with a very simple goal in mind, to get to the goal on the right side of the screen.</p>
 <img src="../images/sbjgba/sbjgba0.png">
 <img src="../images/sbjgba/sbjgba1.png">
 <img src="../images/sbjgba/sbjgba2.png">
