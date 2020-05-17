@@ -5,5 +5,5 @@
 </body>
 <br />
 <br />
-<a href="javascript:history.back()">Go Back</a>
+<a href="..">Go Back</a><br />
 </html>
