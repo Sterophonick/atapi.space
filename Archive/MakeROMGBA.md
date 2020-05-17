@@ -13,5 +13,5 @@
 </body>
 <br />
 <br />
-<a href="..">Back</a><br />
+<a href="javascript:history.back()">Go Back</a>
 </html>
