@@ -1,7 +1,7 @@
 <html>
 <style>
 p.small {
-  line-height: 0.9;
+  line-height: 1;
 }
 </style>
 <body>
@@ -9,22 +9,22 @@ p.small {
 <p class="small">
 FluBBa<br />
 Dwedit<br />
+3DSage<br />
+krom<br />
+Loopy<br />
+Mark Holloway<br />
+MIT<br />
+Kuwanger<br />
+veikkos<br />
+Jeffman<br />
+WinterMute<br />
+Jason Wilkins<br />
+Jay Van Hutten<br />
+inside-cap<br />
+Bung Enterprises<br />
+EZ-Flash<br />
+Moonlight<br />
 </p>
-<p>3DSage</p> <br />
-<p>krom</p> <br />
-<p>Loopy</p> <br />
-<p>Mark Holloway</p> <br />
-<p>MIT</p> <br />
-<p>Kuwanger</p> <br />
-<p>veikkos</p> <br />
-<p>Jeffman</p> <br />
-<p>WinterMute</p> <br />
-<p>Jason Wilkins</p> <br />
-<p>Jay Van Hutten</p> <br />
-<p>inside-cap</p> <br />
-<p>Bung Enterprises</p> <br />
-<p>EZ-Flash</p> <br />
-<p>Moonlight</p> <br />
 </body>
 <br />
 <br />
