@@ -10,4 +10,7 @@
 <a href="../downloads/FNaF Office Test.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/Archive-FNAF-Advance">Source Code (spaghetti warning)</a><br />
 </body>
+<br />
+<br />
+<a href="..">Back</a><br />
 </html>

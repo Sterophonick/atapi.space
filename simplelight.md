@@ -16,4 +16,7 @@
 <a href="omegamanual.html">Simple-specific EZ-Flash Omega Manual</a><br />
 <a href="https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665/page-15">GBAtemp thread</a><br />
 </body>
+<br />
+<br />
+<a href="..">Back</a><br />
 </html>

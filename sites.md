@@ -7,4 +7,7 @@
 <a href="https://twitter.com/Sterophonick">Twitter</a><br />
 <a href="https://archive.org/details/@sterophonick">archive.org</a><br />
 </body>
+<br />
+<br />
+<a href="..">Back</a><br />
 </html>
