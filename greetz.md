@@ -19,4 +19,5 @@
 <p>EZ-Flash</p> <br />
 <p>Moonlight</p> <br />
 </body>
+<a href="..">Back</a><br />
 </html>
