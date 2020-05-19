@@ -6,7 +6,7 @@
 <a href="Archive/FNAFOfficeTest">FNaF Office Test</a><br />
 <a href="Archive/MakeROMGBA">MakeROMGBA</a><br />
 <a href="Archive/MisfortuneAdvance">Misfortune Advance</a><br />
-<a href="Archive/SonicEXEGBA">Sonic.EXE (Game Boy Advance)</a><br />
+<a href="Archive/SonicExeGBA">Sonic.EXE (Game Boy Advance)</a><br />
 </body>
 <br />
 <br />
