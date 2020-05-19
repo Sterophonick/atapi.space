@@ -20,6 +20,7 @@
 <img src="../images/archive-misc/teasercyc0.png">
 <img src="../images/archive-misc/teasercyc1.png"><br />
 <a href="../downloads/FNaF World Teaser Cycle.gba">ROM Download</a><br />
+<a href="../downloads/FNaFWorldTeaserCycle_src.zip">Source Code (For archival purposes)</a><br />
 <br />
 <br />
 <h2>FNaF GBA Teaser (Game Boy Advance)</h2>
