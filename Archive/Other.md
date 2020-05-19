@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Some old stuff that doesn't really warrant its own page.</h1>
-<p>I have lost the source code to most, if not all, of this stuff. :(</p><br />
+<p>The source code for some of these was recovered from a Windows XP VM.</p><br />
 <h2>Undertale Tech Demo (Game Boy Advance)</h2>
 <h3>A demo I made using HAM and a Windows XP Virtual Machine.</h3> <br />
 <img src="../images/archive-misc/undertale.png"><br />
@@ -12,6 +12,7 @@
 <h3>Annoy your friends!</h3> <br />
 <img src="../images/archive-misc/fidget.png"><br />
 <a href="../downloads/Fidget Spinner Simulator.gba">ROM Download</a><br />
+<a href="../downloads/Fidget Spinner_src.zip">Source Code (For archival purposes)</a><br />
 <br />
 <br />
 <h2>FNaF World Teaser Cycle (Game Boy Advance)</h2>
@@ -33,6 +34,7 @@
 <img src="../images/archive-misc/megademo1.png">
 <img src="../images/archive-misc/megademo2.png"><br />
 <a href="../downloads/MegaDemo.gba">ROM Download</a><br />
+<a href="../downloads/MegaDemo_src.zip">Source Code (For archival purposes)</a><br />
 <br />
 <br />
 <h2>Corrupted Image (Game Boy Advance)</h2>
