@@ -47,6 +47,16 @@
 <h3>A demo I made of palette cycling, using an asset from Super Block Jump.</h3> <br />
 <img src="../images/archive-misc/plasma.gif"><br />
 <a href="../downloads/Cool Looking BG Plasma (SBJ).gba">ROM Download</a><br />
+<br />
+<br />
+<h2>Rabbit Quiz (Game Boy Advance)</h2>
+<h3>A dumb quiz I made about rabbits in 2016 for a science class.</h3> <br />
+<img src="../images/archive-misc/rabbit0.png">
+<img src="../images/archive-misc/rabbit1.png">
+<img src="../images/archive-misc/rabbit2.png">
+<img src="../images/archive-misc/rabbit3.png"><br />
+<a href="../downloads/Rabbit Quiz.gba">ROM Download</a><br />
+<a href="../downloads/RabbitQuiz_src.zip">Source Code (For archival purposes)</a><br />
 </body>
 <br />
 <br />
