@@ -6,6 +6,7 @@
 <h3>A demo I made using HAM and a Windows XP Virtual Machine.</h3> <br />
 <img src="../images/archive-misc/undertale.png"><br />
 <a href="../downloads/Undertale Tech Demo.gba">ROM Download</a><br />
+<p>Source Code is lost...</p>
 <br />
 <br />
 <h2>Fidget Spinner Simulator (Game Boy Advance)</h2>
@@ -27,6 +28,7 @@
 <h3>One of the weakest demos I made, using Magic ARM Compiler. Just shows an image and thats it.</h3> <br />
 <img src="../images/archive-misc/fnafteaser.png"><br />
 <a href="../downloads/FNaF GBA Teaser.gba">ROM Download</a><br />
+<p>Source Code is lost...</p>
 <br />
 <br />
 <h2>MegaDemo (Game Boy Advance)</h2>
@@ -42,16 +44,19 @@
 <h3>A crappy "demo" that I made back in early 2016 because I didn't know how Dovoto's pcx2gba program worked.</h3> <br />
 <img src="../images/archive-misc/corrupt.png"><br />
 <a href="../downloads/Corrupted Image.gba">ROM Download</a><br />
+<p>Source Code is lost...</p>
 <br />
 <br />
 <h2>Cool Looking BG Plasma (Game Boy Advance)</h2>
 <h3>A demo I made of palette cycling, using an asset from Super Block Jump.</h3> <br />
 <img src="../images/archive-misc/plasma.gif"><br />
 <a href="../downloads/Cool Looking BG Plasma (SBJ).gba">ROM Download</a><br />
+<p>Source Code is lost...</p>
 <br />
 <br />
 <h2>Rabbit Quiz (Game Boy Advance)</h2>
 <h3>A dumb quiz I made about rabbits in 2016 for a science class.</h3> <br />
+<p>Fun fact: I made this when I had no idea what I was doing with the GBA, and it literally took me months to get this to work.</p>
 <img src="../images/archive-misc/rabbit0.png">
 <img src="../images/archive-misc/rabbit1.png">
 <img src="../images/archive-misc/rabbit2.png">
