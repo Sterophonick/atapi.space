@@ -7,7 +7,8 @@
 <img src="../images/fnafofficetest/fnafofficetest2.png">
 <img src="../images/fnafofficetest/fnafofficetest3.gif">
 <br />
-<a href="../downloads/FNaF Office Test.gba">ROM Download (I have lost the source code for this)</a><br />
+<a href="../downloads/FNaF Office Test.gba">ROM Download</a><br />
+<a href="../downloads/FNaFOfficeTest_src.zip">Source Code</a><br />
 <a href="https://github.com/Sterophonick/Archive-FNAF-Advance">Unfinished code from my attempt to port FNaF (spaghetti warning)</a><br />
 </body>
 <br />
