@@ -57,6 +57,13 @@
 <img src="../images/archive-misc/rabbit3.png"><br />
 <a href="../downloads/Rabbit Quiz.gba">ROM Download</a><br />
 <a href="../downloads/RabbitQuiz_src.zip">Source Code (For archival purposes)</a><br />
+<br />
+<br />
+<h2>Direct Sound Demo (Game Boy Advance)</h2>
+<h3>A demo I made using code from 3DSage that will play a sound through DMA.</h3> <br />
+<img src="../images/archive-misc/dsdemo.png"><br />
+<a href="../downloads/Direct Sound Demo.gba">ROM Download</a><br />
+<a href="../downloads/DirectSoundDemo_src.zip">Source Code (For archival purposes)</a><br />
 </body>
 <br />
 <br />
