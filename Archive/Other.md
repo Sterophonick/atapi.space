@@ -41,6 +41,12 @@
 <a href="../downloads/Corrupted Image.gba">ROM Download</a><br />
 <br />
 <br />
+<h2>Cool Looking BG Plasma (Game Boy Advance)</h2>
+<h3>A demo I made of palette cycling, using an asset from Super Block Jump.</h3> <br />
+<img src="../images/archive-misc/plasma.gif"><br />
+<a href="../downloads/Cool Looking BG Plasma (SBJ).gba">ROM Download</a><br />
+<br />
+<br />
 </body>
 <br />
 <br />
