@@ -70,6 +70,14 @@
 <img src="../images/archive-misc/dsdemo.png"><br />
 <a href="../downloads/Direct Sound Demo.gba">ROM Download</a><br />
 <a href="../downloads/DirectSoundDemo_src.zip">Source Code (For archival purposes)</a><br />
+<br />
+<br />
+<h2>The Most Difficult Platformer Advance! Demo (Game Boy Advance)</h2>
+<h3>A PoC of a game I made on Scratch back in 2015, reusing the physics engine from Super Block Jump.</h3> <br />
+<img src="../images/archive-misc/tmdpead.gif"><br />
+<a href="../downloads/The Most Difficult Platformer Ever Advance! Demo.gba">ROM Download</a><br />
+<p>Source Code is lost...</p>
+<a href="../downloads/The Most Difficult Platformer Ever!.sb2">Original Game (Broken in Scratch 3.0)</a><br />
 </body>
 <br />
 <br />
