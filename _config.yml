@@ -1,4 +1,5 @@
 theme: jekyll-theme-hacker
 header:
-    overlay_image: /images/banner.png
+    image: /images/banner.png
+    image_description: test
 title: Sterophonick's Own Little World
