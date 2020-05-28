@@ -15,6 +15,8 @@
 <a href="https://github.com/Sterophonick/SuperBlockJumpGBA">Source Code</a><br />
 <br />
 <a href="https://scratch.mit.edu/projects/33047346">Original Game</a><br />
+<a href="../downloads/Super Block Jump (A LONG platforming game).sb2">A prototype of the Scratch version, as of 2/22/2015.</a><br />
+
 <br />
 <br />
 <p>Apparently, I was also really good at backing up old versions of this because I managed to dig up like 5 versions of the source code.</p>
