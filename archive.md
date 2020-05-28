@@ -8,6 +8,7 @@
 <a href="Archive/MisfortuneAdvance">Misfortune Advance</a><br />
 <a href="Archive/SonicExeGBA">Sonic.EXE (Game Boy Advance)</a><br />
 <a href="Archive/Other">Other smaller stuff that I made</a><br />
+<a href="Archive/OtherScratch">An archive of some of my old Scratch projects</a><br />
 </body>
 <br />
 <br />
