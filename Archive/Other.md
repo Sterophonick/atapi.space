@@ -78,6 +78,13 @@
 <a href="../downloads/The Most Difficult Platformer Ever Advance! Demo.gba">ROM Download</a><br />
 <p>Source Code is lost...</p>
 <a href="../downloads/The Most Difficult Platformer Ever!.sb2">Original Game (Broken in Scratch 3.0)</a><br />
+<br />
+<br />
+<h2>Pixel Color Detection Demo (Game Boy Advance)</h2>
+<h3>A demo from 2016 that showcases the reading of VRAM so that color collision in the Bitmap modes is possible.</h3> <br />
+<img src="../images/archive-misc/PixelColor.png"><br />
+<a href="../downloads/Pixel Color Detection.gba">ROM Download</a><br />
+<a href="../downloads/PixelColorDetect_src.zip">Source Code (For archival purposes)</a><br />
 </body>
 <br />
 <br />
