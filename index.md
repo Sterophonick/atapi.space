@@ -8,7 +8,7 @@
 		}
 		h1 {
 			font-family: AppleKid;
-			font-size-adjust: 0.58;
+			font-weight: bold;
 			line-height: 1;
 		}
 		@font-face {
