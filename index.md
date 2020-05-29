@@ -45,7 +45,9 @@
         <a href="greetz">Special Greetz</a><br />
 		</div>
     </body>
-	<br />
-	<br />
-	<a href="https://github.com/Sterophonick">GitHub</a><br />
+	<div class="mainContent">
+		<br />
+		<br />
+		<a href="https://github.com/Sterophonick">GitHub</a><br />
+	<div>
 </html>
