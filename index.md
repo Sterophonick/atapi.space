@@ -3,12 +3,13 @@
     <style>
 		h2 {
 			font-family: AppleKid;
-			font-size: 28px;
+			font-size: 120%;
 			color:red;
 		}
 		h1 {
 			font-family: AppleKid;
-			font-size: 42px;
+			font-size: 150%;
+			color:red;
 		}
 		@font-face {
 			font-family: AppleKid;
@@ -29,8 +30,8 @@
     </head>
     <body>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <h1 style="font-size:42px;">Hello!</h1>
-        <h2 style="font-size:28px;">Preliminary website for my projects and stuff</h2>
+        <h1">Hello!</h1>
+        <h2">Preliminary website for my projects and stuff</h2>
 		<div class="mainContent">
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
