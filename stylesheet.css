@@ -1,14 +1,8 @@
-		@font-face {
+		h2 {
 			font-family: AppleKid;
-			src: url('images/Apple-Kid.woff2') format('woff2'),
-				url('images/Apple-Kid.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
+			font-size: 28px;
 		}
-        p.small {
-            line-height: 1;
-        }
-		.mainContent {
+		h1 {
 			font-family: AppleKid;
-			font-size: 18
+			font-size: 32px;
 		}

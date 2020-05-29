@@ -13,10 +13,11 @@
         }
 		.mainContent {
 			font-family: AppleKid;
-			font-size: 28px;
+			font-size: 24px;
 		}
     </style>
     <head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
         <h1>Hello!</h1>
