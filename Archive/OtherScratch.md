@@ -58,6 +58,13 @@
 <a href="../downloads/Gravity Dude.sb2">Scratch .sb2 Download</a><br />
 <br />
 <br />
+<h2 style="font-size:28pt">Monkey Mayhem</h2>
+<h3 style="font-size:24pt">A simple arcade game about a monkey who must protect the city from flying starfish.</h3>
+<p>This game was in the book</p><i>Help Your Kids With Computer Coding.</i>
+<img src="../images/scratch/MonkeyMayhem.png"><br />
+<a href="../downloads/Monkey Mayhem.sb2">Scratch .sb2 Download</a><br />
+<br />
+<br />
 <a href="../archive">Go Back</a>
 </div>
 </body>
