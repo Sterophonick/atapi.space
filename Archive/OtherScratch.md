@@ -14,8 +14,8 @@
 		}
 		@font-face {
 			font-family: AppleKid;
-			src: url('images/Apple-Kid.woff2') format('woff2'),
-				url('images/Apple-Kid.woff') format('woff');
+			src: url('../images/Apple-Kid.woff2') format('woff2'),
+				url('../images/Apple-Kid.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 		}
@@ -28,8 +28,9 @@
 		}
 </style>
 <body>
-<h1>Backups of my old Scratch stuff.</h1>
-<h3>SOME OF THESE PROJECTS DO NOT WORK ON SCRATCH 3.0!!!!!</h3>
+<div class="mainContent">
+<h1 style="font-size:32pt">Backups of my old Scratch stuff.</h1>
+<h3 style="font-size:34pt">SOME OF THESE PROJECTS DO NOT WORK ON SCRATCH 3.0!!!!!</h3>
 <p>also the intro to these is 𝚌 𝚛 𝚒 𝚗 𝚐 𝚎 .</p>
 <h2>Wayback Machine Crawls of my profile</h2>
 <a href="https://web.archive.org/web/20141020115214/http://scratch.mit.edu/users/imadog54/">October 20, 2014</a><br />
@@ -48,8 +49,9 @@
 <h3>A simple platformer where you have to complete the stage in the alotted time. Music by Danny B.</h3>
 <img src="../images/scratch/RUN!!.png"><br />
 <a href="../downloads/RUN!.sb2">Scratch .sb2 Download</a><br />
-</body>
 <br />
 <br />
 <a href="../archive">Go Back</a>
+</div>
+</body>
 </html>
