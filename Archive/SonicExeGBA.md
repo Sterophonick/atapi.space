@@ -39,7 +39,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">onic.EXE (Game Boy Advance)</h1>
-<h3 style="font-size:24pt">A crappy conversion of MY5TCrimson's Sonic.EXE fan remake to the Nintendo Game Boy Advance.</h3> <br />
+<h3 style="font-size:24pt">A crappy conversion of MY5TCrimson's Sonic.EXE fan remake to the Nintendo Game Boy Advance.</h3>
 <p>
 I hate this code now.<br />
 It was so lazily done and rushed.<br />

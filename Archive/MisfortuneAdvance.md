@@ -39,7 +39,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Misfortune Advance</h1>
-<h3 style="font-size:24pt">A decent conversion of Misfortune.GB to the Game Boy Advance</h3> <br />
+<h3 style="font-size:24pt">A decent conversion of Misfortune.GB to the Game Boy Advance</h3>
 <p>the port of misfortune to the PC was decent, but i wanted it on an actual Game Boy.</p><br />
 <p>I think I did OK on it, but i made it like 2 years ago, and it definitely could be improved on.</p>
 <img src="../images/misfortune/misfortune0.png">

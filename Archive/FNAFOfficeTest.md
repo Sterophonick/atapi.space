@@ -34,7 +34,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">FNaF Office Test</h1>
-<h3 style="font-size:24pt">A crappy demo I made in 2016 because I wanted to port FNAF to the Game Boy Advance like a dumdum</h3> <br />
+<h3 style="font-size:24pt">A crappy demo I made in 2016 because I wanted to port FNAF to the Game Boy Advance like a dumdum</h3>
 <img src="../images/fnafofficetest/fnafofficetest0.png">
 <img src="../images/fnafofficetest/fnafofficetest1.png">
 <img src="../images/fnafofficetest/fnafofficetest2.png">

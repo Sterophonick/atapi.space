@@ -39,7 +39,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">MakeROMGBA</h1>
-<h3 style="font-size:24pt">A crappy tool I wrote in 2016 to compile GBA ROMs with DevKit Advance</h3> <br />
+<h3 style="font-size:24pt">A crappy tool I wrote in 2016 to compile GBA ROMs with DevKit Advance</h3>
 <h4 style="font-size:20pt">DO NOT USE THIS OR DO ANYTHING LIKE THIS!! PLEASE I BEG OF YOU IT'S AWFUL!!</h4>
 <p>why did i make this. please for the love of humanity, use makefiles, it saves a ton of hassle</p>
 <img src="../images/makeromgba/god why.png">
