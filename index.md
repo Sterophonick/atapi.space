@@ -3,7 +3,10 @@
     <style>
 		@font-face {
 			font-family: AppleKid;
-			src: url(images/apple_kid.ttf) format('truetype');
+			src: url('images/Apple-Kid.woff2') format('woff2'),
+				url('images/Apple-Kid.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
 		}
         p.small {
             line-height: 1;
@@ -19,7 +22,7 @@
     <head>
     </head>
     <body>
-        <h1>Hello!</h1>
+        <h1 style="font-family: 'Apple Kid'">Hello!</h1>
         <h2>Preliminary website for my projects and stuff</h2>
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
