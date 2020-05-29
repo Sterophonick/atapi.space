@@ -1,5 +1,9 @@
 <html>
 <style>
+		h3 {
+			font-family: AppleKid;
+			line-height: 1;
+		}
 		h2 {
 			font-family: AppleKid;
 			line-height: 1;
@@ -20,7 +24,7 @@
         }
 		.mainContent {
 			font-family: AppleKid;
-			font-size: 24pt;
+			font-size: 20pt;
 		}
 </style>
 <body>
