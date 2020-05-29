@@ -11,19 +11,16 @@
         p.small {
             line-height: 1;
         }
-		body {
-			background-image: url('images/banner.jpg');
-		}
-		h1 {
-			font-family: AppleKid !important
-			font-size: 12pt !important
+		.mainContent {
+			font-family: AppleKid;
 		}
     </style>
     <head>
     </head>
     <body>
-        <h1 style="font-family: 'AppleKid'">Hello!</h1>
+        <h1>Hello!</h1>
         <h2>Preliminary website for my projects and stuff</h2>
+		<div class="mainContent">
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
             This is where you can find some of my projects along with an archive of my cringy old stuff as well!<br />
@@ -36,6 +33,7 @@
         <a href="sites">Links</a><br />
         <a href="archive">Some old stuff I made</a><br />
         <a href="greetz">Special Greetz</a><br />
+		</div>
     </body>
 	<br />
 	<br />
