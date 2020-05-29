@@ -11,11 +11,15 @@
 		body {
 			background-image: url('images/banner.jpg');
 		}
+		h1 {
+			font-family: AppleKid !important
+			font-size: 12pt !important
+		}
     </style>
     <head>
     </head>
     <body>
-        <h1 style="font-family:AppleKid;">Hello!</h1>
+        <h1>Hello!</h1>
         <h2>Preliminary website for my projects and stuff</h2>
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
