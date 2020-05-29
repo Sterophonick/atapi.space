@@ -6,6 +6,7 @@
 <a href="https://www.youtube.com/channel/UCqzyZUJL_Tak9wPztDgT6aA">YouTube</a><br />
 <a href="https://twitter.com/Sterophonick">Twitter</a><br />
 <a href="https://archive.org/details/@sterophonick">archive.org</a><br />
+<a href="https://discord.com/invite/qrctgHJ">Mother 1+2 Fan Translation Discord Server</a><br />
 </body>
 <br />
 <br />
