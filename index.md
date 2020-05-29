@@ -1,14 +1,8 @@
 <html>
     <title>Sterophonick's Own Little World</title>
     <style>
-		h2 {
+		h1 h2 h3 {
 			font-family: AppleKid;
-			font-size: 28pt;
-			line-height: 1;
-		}
-		h1 {
-			font-family: AppleKid;
-			font-size-adjust: 3pt;
 			line-height: 1;
 		}
 		@font-face {
@@ -29,9 +23,8 @@
     <head>
     </head>
     <body>
-		<blink>test</blink>
         <h1 style="font-size:32pt">Hello!</h1>
-        <h2>Preliminary website for my projects and stuff</h2>
+        <h2 style="font-size:28pt">Preliminary website for my projects and stuff</h2>
 		<div class="mainContent">
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
