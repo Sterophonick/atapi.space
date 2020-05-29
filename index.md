@@ -23,7 +23,7 @@
         }
 		.mainContent {
 			font-family: AppleKid;
-			font-size: 24px;
+			font-size: 24pt;
 		}
     </style>
     <head>
