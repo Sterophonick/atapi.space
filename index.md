@@ -4,6 +4,9 @@
         p.small {
             line-height: 1;
         }
+		body {
+			background-image: url('images/banner.jpg');
+		}
     </style>
     <head>
     </head>
