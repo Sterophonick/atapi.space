@@ -43,11 +43,9 @@
         <a href="sites">Links</a><br />
         <a href="archive">Some old stuff I made</a><br />
         <a href="greetz">Special Greetz</a><br />
-		</div>
-    </body>
-	<div class="mainContent">
 		<br />
 		<br />
 		<a href="https://github.com/Sterophonick">GitHub</a><br />
-	<div>
+		</div>
+    </body>
 </html>
