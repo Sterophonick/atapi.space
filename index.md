@@ -29,8 +29,8 @@
     </head>
     <body>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <h1>Hello!</h1>
-        <h2>Preliminary website for my projects and stuff</h2>
+        <h1 style="font-size:42px;">Hello!</h1>
+        <h2 style="font-size:28px;">Preliminary website for my projects and stuff</h2>
 		<div class="mainContent">
         <p class="small">
             Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
