@@ -3,14 +3,17 @@
 		h3 {
 			font-family: AppleKid;
 			line-height: 1;
+			letter-spacing: 1px;
 		}
 		h2 {
 			font-family: AppleKid;
 			line-height: 1;
+			letter-spacing: 1.5px;
 		}
 		h1 {
 			font-family: AppleKid;
 			line-height: 1;
+			letter-spacing: 2px;
 		}
 		@font-face {
 			font-family: AppleKid;
