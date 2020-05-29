@@ -30,7 +30,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Homebrew Hub</h1>
-<p>An irresponsible number of homebrew for an irresponsible number of platforms</p><br />'
+<p>An irresponsible number of homebrew for an irresponsible number of platforms</p><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
