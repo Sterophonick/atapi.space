@@ -14,7 +14,7 @@
 <a href="../downloads/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/SuperBlockJumpGBA">Source Code</a><br />
 <br />
-<a href../downloads/Super Block Jump.sb3">Original Game</a><br />
+<a href="../downloads/Super Block Jump.sb3">Original Game</a><br />
 <a href="../downloads/Super Block Jump (A LONG platforming game).sb2">A prototype of the Scratch version, as of 12:30 PM, 2/22/2015.</a><br />
 
 <br />
