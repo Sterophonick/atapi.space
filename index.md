@@ -13,7 +13,7 @@
         }
 		.mainContent {
 			font-family: AppleKid;
-			font-size: 32
+			font-size: 18px;
 		}
     </style>
     <head>
