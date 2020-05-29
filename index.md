@@ -4,6 +4,7 @@
 		h2 {
 			font-family: AppleKid;
 			font-size: 28px;
+			color:red;
 		}
 		h1 {
 			font-family: AppleKid;
