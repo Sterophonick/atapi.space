@@ -33,6 +33,7 @@
 		.mainContent {
 			font-family: AppleKid;
 			font-size: 20pt;
+			line-height: 1;
 		}
 </style>
 <body>

@@ -23,12 +23,10 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-        p.small {
-            line-height: 1;
-        }
 		.mainContent {
 			font-family: AppleKid;
 			font-size: 20pt;
+			line-height: 1;
 		}
     </style>
     <head>

@@ -22,18 +22,16 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-        p.small {
-            line-height: 1;
-        }
 		.mainContent {
 			font-family: AppleKid;
 			font-size: 20pt;
+			line-height: 1;
 		}
 </style>
 <body>
 <h1 style="font-size:32pt">Greetz</h1>
 <div class="mainContent">
-<p class="small">
+<p>
 FluBBa<br />
 Dwedit<br />
 3DSage<br />
