@@ -1,6 +1,28 @@
 <html>
     <title>Sterophonick's Own Little World</title>
     <style>
+		h2 {
+			font-family: AppleKid;
+			font-size: 28px;
+		}
+		h1 {
+			font-family: AppleKid;
+			font-size: 42px;
+		}
+		@font-face {
+			font-family: AppleKid;
+			src: url('images/Apple-Kid.woff2') format('woff2'),
+				url('images/Apple-Kid.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+        p.small {
+            line-height: 1;
+        }
+		.mainContent {
+			font-family: AppleKid;
+			font-size: 24px;
+		}
     </style>
     <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
