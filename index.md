@@ -1,7 +1,11 @@
 <html>
     <title>Sterophonick's Own Little World</title>
     <style>
-		h1 h2 h3 {
+		h2 {
+			font-family: AppleKid;
+			line-height: 1;
+		}
+		h1 {
 			font-family: AppleKid;
 			line-height: 1;
 		}
