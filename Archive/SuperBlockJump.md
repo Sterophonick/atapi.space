@@ -34,7 +34,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Super Block Jump</h1>
-<h3 style="font-size:24pt">A game for the Nintendo Game Boy Advance that is a port of a Scratch game I made back in late 2014.</h3> <br />
+<h3 style="font-size:24pt">A game for the Nintendo Game Boy Advance that is a port of a Scratch game I made back in late 2014.</h3>
 <p>A platformer with a very simple goal in mind, to get to the goal on the right side of the screen.</p>
 <img src="../images/sbjgba/sbjgba0.png">
 <img src="../images/sbjgba/sbjgba1.png">
