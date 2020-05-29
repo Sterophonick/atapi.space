@@ -77,6 +77,10 @@
 <img src="../images/archive-misc/tmdpea.gif"><br />
 <a href="../downloads/The Most Difficult Platformer Ever Advance! Demo.gba">ROM Download</a><br />
 <p>Source Code is lost...</p>
+<h3>However, there was also a demo that SCROLLED. It was made using HAM, and a Windows XP VM.</h3> <br />
+<img src="../images/archive-misc/tmdpea.gif"><br />
+<a href="../downloads/TMDPEA Scrolling Demo">ROM Download</a><br />
+<a href="../downloads/TMDPEAScroller_src.zip">Source Code (For archival purposes)</a><br />
 <a href="../downloads/The Most Difficult Platformer Ever!.sb2">Original Game (Broken in Scratch 3.0)</a><br />
 <br />
 <br />
