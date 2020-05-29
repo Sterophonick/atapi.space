@@ -30,7 +30,7 @@
 </style>
 <body>
 <h1 style="font-size:32pt">Simple</h1>
-<h3 style="font-size:24pt">A new kernel for your EZ-Flash Omega</h3><br />
+<h3 style="font-size:24pt">A new kernel for your EZ-Flash Omega</h3>
 <div class="mainContent">
 <p>Simple comes with loads of new options and plugins from the era of PogoShell (remember when that was popular? :) ).</p>
 <p>It also comes with a new theme that in my opinion looks better than the stock firmware.</p>
