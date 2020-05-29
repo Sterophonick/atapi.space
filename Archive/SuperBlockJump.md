@@ -1,7 +1,39 @@
 <html>
+<style>
+		h3 {
+			font-family: AppleKid;
+			line-height: 1;
+			letter-spacing: 0.8px;
+		}
+		h2 {
+			font-family: AppleKid;
+			line-height: 1;
+			letter-spacing: 0.8px;
+		}
+		h1 {
+			font-family: AppleKid;
+			line-height: 1;
+			letter-spacing: 0.8px;
+		}
+		@font-face {
+			font-family: AppleKid;
+			src: url('../images/Apple-Kid.woff2') format('woff2'),
+				url('../images/Apple-Kid.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+        p.small {
+            line-height: 1;
+        }
+		.mainContent {
+			font-family: AppleKid;
+			font-size: 20pt;
+		}
+</style>
 <body>
-<h1>Super Block Jump</h1>
-<h3>A game for the Nintendo Game Boy Advance that is a port of a Scratch game I made back in late 2014.</h3> <br />
+<div class="mainContent">
+<h1 style="font-size:32pt">Super Block Jump</h1>
+<h3 style="font-size:24pt">A game for the Nintendo Game Boy Advance that is a port of a Scratch game I made back in late 2014.</h3> <br />
 <p>A platformer with a very simple goal in mind, to get to the goal on the right side of the screen.</p>
 <img src="../images/sbjgba/sbjgba0.png">
 <img src="../images/sbjgba/sbjgba1.png">
@@ -25,8 +57,9 @@
 <a href="../downloads/SbjGba2016src.zip">A copy of the source code from August 2016 (WARNING: This code is also HORRENDOUS)</a><br />
 <a href="../downloads/SbjGba03_2017_src.zip">The source code from March 2017. (THIS DOES NOT COMPILE)</a><br />
 <a href="../downloads/SbjGba2017.zip">The ROM + Source code from when it released on Scratch on May 11, 2017.</a><br />
-</body>
 <br />
 <br />
 <a href="../archive">Go Back</a>
+</div>
+</body>
 </html>
