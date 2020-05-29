@@ -29,13 +29,8 @@
     <head>
     </head>
     <body>
-		<style>
-			h1 {
-				font-size: 32pt
-			}
-		</style>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <h1>Hello!</h1>
+		<blink>test</blink>
+        <h1 style="font-size:32pt">Hello!</h1>
         <h2>Preliminary website for my projects and stuff</h2>
 		<div class="mainContent">
         <p class="small">
