@@ -3,13 +3,15 @@
     <style>
 		h2 {
 			font-family: AppleKid;
-			font-size: 120%;
+			font-size: 28pt;
 			color:red;
+			line-height: 1;
 		}
 		h1 {
 			font-family: AppleKid;
-			font-size: 150%;
+			font-size: 32pt;
 			color:red;
+			line-height: 1;
 		}
 		@font-face {
 			font-family: AppleKid;
