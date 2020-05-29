@@ -8,12 +8,12 @@
 		h2 {
 			font-family: AppleKid;
 			line-height: 1;
-			letter-spacing: 1.5px;
+			letter-spacing: 1px;
 		}
 		h1 {
 			font-family: AppleKid;
 			line-height: 1;
-			letter-spacing: 2px;
+			letter-spacing: 1px;
 		}
 		@font-face {
 			font-family: AppleKid;
