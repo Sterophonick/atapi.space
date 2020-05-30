@@ -43,7 +43,7 @@
 <img src="../images/sbjgba/sbjgba4.png">
 <img src="../images/sbjgba/sbjgba5.png">
 <img src="../images/sbjgba/sbjgba6.png">
-<img src="../images/sbjgba/sbjgba7.png">
+<img src="../images/sbjgba/sbjgba7.png"><br />
 <a href="../downloads/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/SuperBlockJumpGBA">Source Code</a><br />
 <br />
