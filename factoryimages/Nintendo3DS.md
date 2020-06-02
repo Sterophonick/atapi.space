@@ -41,11 +41,24 @@
 <h1 style="font-size:32pt">Nintendo 3DS Factory Images</h1>
 <img src="../images/factoryimages/Nintendo3DS/AccAgain.jpg">
 <img src="../images/factoryimages/Nintendo3DS/BarcodeScanner.jpg">
-<img src="../images/factoryimages/Nintendo3DS/CheckLed2.jpg">
-<img src="../images/factoryimages/Nintendo3DS/CloseAndPushR.jpg"><br />
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushR.jpg">
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushR_75.jpg">
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushR_136.jpg">
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushR_KTR.jpg">
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushRforCIS.jpg">
+<img src="../images/factoryimages/Nintendo3DS/CloseAndPushRforCIS.jpg">
+<img src="../images/factoryimages/Nintendo3DS/gyro_Prepare.bmp">
+<img src="../images/factoryimages/Nintendo3DS/gyro_XAxisTest.bmp">
+<img src="../images/factoryimages/Nintendo3DS/gyro_YAxisTest.bmp">
+<img src="../images/factoryimages/Nintendo3DS/gyro_ZAxisTest.bmp">
+<img src="../images/factoryimages/Nintendo3DS/pit_open.jpg">
+<img src="../images/factoryimages/Nintendo3DS/PushR_KTR.jpg">
+<img src="../images/factoryimages/Nintendo3DS/PushR_RED.jpg">
+<img src="../images/factoryimages/Nintendo3DS/QtmCal_PushButtonLR_320_240.jpg">
+<img src="../images/factoryimages/Nintendo3DS/QtmCal_SetUp.jpg"><br />
 <br />
 <br />
-<a href="../archive">Go Back</a>
+<a href="../FactoryImages">Go Back</a>
 </div>
 </body>
 </html>
