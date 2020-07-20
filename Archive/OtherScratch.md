@@ -32,7 +32,7 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Backups of my old Scratch stuff.</h1>
 <h3 style="font-size:24pt">SOME OF THESE PROJECTS DO NOT WORK ON SCRATCH 3.0!!!!!</h3>
-<span>also the intro to these is</span><span style="font-size: 18pt"> 𝚌 𝚛 𝚒 𝚗 𝚐 𝚎 .</span><br />
+<span>also the intro to these is<marquee width="10%">cringe</marquee><br />
 <h2 style="font-size:28pt">Wayback Machine Crawls of my profile</h2>
 <a href="https://web.archive.org/web/20141020115214/http://scratch.mit.edu/users/imadog54/">October 20, 2014</a><br />
 <a href="https://web.archive.org/web/20150111055739/http://scratch.mit.edu:80/users/imadog54/">January 11, 2015</a><br />
