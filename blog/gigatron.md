@@ -47,6 +47,7 @@ The Gigatron is a relatively simple machine, every hardware aspect is controlled
 sound, blinkenlights, everything.</p>
 <p>The Gigatron has no CPU, it's all 7400-series TTL logic chips, but those specific chips allow for an instruction set with 256 unique instructions, with a few registers that are able to control 
 the video signal, the sound, and blinkenlights.</p>
+<img src="https://gigatron.io/wp-content/uploads/2020/03/Diagram-768x576.png">
 
 <br />
 <br />
