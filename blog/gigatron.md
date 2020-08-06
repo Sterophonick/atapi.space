@@ -48,6 +48,7 @@ sound, blinkenlights, everything.</p>
 <p>The Gigatron has no CPU, it's all 7400-series TTL logic chips, but those specific chips allow for an instruction set with 256 unique instructions, with a few registers that are able to control 
 the video signal, the sound, and blinkenlights. In fact, the most difficult thing about it would be learning MAME's framework.</p>
 <img src="https://gigatron.io/wp-content/uploads/2020/03/Diagram-768x576.png">
+<p>This block diagram shows how everything in the machine is connected together.</p>
 <br/>
 <br/>
 <h2 style="font-size:28pt">Phil Thomas' Emulator</h2>
@@ -71,6 +72,14 @@ Lines 3-5 simply attach a voltage regulator and route that to the DAC, though I 
 <img src="..\images\blog\gigatron\gigatron-2.png"><br/>
 <p>And port_outx() is tied to the outx register of the CPU through this simple line in the machine configuration:</P>
 <img src="..\images\blog\gigatron\gigatron-3.png"><br/>
+<p>As you can see, the upper 4 bits of register outx are responsible for controlling what sound sample is currently playing.</p>
+<br/>
+<h2 style="font-size:28pt">Video</h2>
+<img src="..\images\blog\gigatron\gigatron-4.png"><br/>
+<p>The Gigatron is capable of displaying 6-bit color on the VGA screen, with a maximum of 64 colors.
+As you can see in the above image, register out is responsible for generating the video signal.</p><br/>
+<p>We can attach a screen to the machine using these few lines in the machine configuration:</p>
+<img src="..\images\blog\gigatron\gigatron-5.png"><br/>
 <br />
 <br />
 <a href="../blog">Go Back</a>
