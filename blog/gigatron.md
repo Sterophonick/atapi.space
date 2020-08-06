@@ -65,6 +65,12 @@ control the blinkenlights, and some are used for audio.</p> <br/>
 The biggest challenge of it was figuring out the way I can attach and control a DAC in MAME. Thankfully, it's not too difficult to do that!
 I just had to use this bit of code in the machine configuration:</p>
 <img src="..\images\blog\gigatron\gigatron-1.png"><br/>
+<p>The first line attaches a speaker, with audio playing at equal volumes in both the left and right ears. The second line attaches a 4-Bit R-2R DAC, and routes it to the speaker.
+Lines 3-5 simply attach a voltage regulator and route that to the DAC, though I still have yet to figure out what the point of the voltage regulator is.</p>
+<p>Here's the code that is responsible for controlling the DAC:</p>
+<img src="..\images\blog\gigatron\gigatron-2.png"><br/>
+<p>And port_outx() is tied to the outx register of the CPU through this simple line in the machine configuration:</P>
+<img src="..\images\blog\gigatron\gigatron-3.png"><br/>
 <br />
 <br />
 <a href="../blog">Go Back</a>
