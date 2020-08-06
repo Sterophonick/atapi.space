@@ -38,7 +38,9 @@
 </style>
 <body>
 <div class="mainContent">
-
+<h1 style="font-size:32pt">Emulating the Gigatron TTL Microcomputer in MAME</h1>
+<p>Sometimes you just gotta make the onions cry...</p><br />
+<p>8/6/2020</p><br />
 <br />
 <br />
 <a href="../blog">Go Back</a>
