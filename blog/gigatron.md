@@ -43,7 +43,9 @@
 <br />
 <br />
 <h2 style="font-size:28pt">The Concept</h2>
-<p>Basically I did it because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot.</p>
+<p>Basically I did it because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot. 
+The Gigatron is a relatively simple machine, every hardware aspect is controlled by the "CPU" (there isn't a CPU, but it does read and execute instructions like a CPU), the screen,
+sound, blinkenlights, everything.</p>
 <br />
 <br />
 <a href="../blog">Go Back</a>
