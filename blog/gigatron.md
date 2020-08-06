@@ -104,14 +104,14 @@ The machine ships with a Nintendo Famicom-like controller, so we just need to em
 <img src="..\images\blog\gigatron\gigatron-c.png"><br/>
 <br/>
 <h2 style="font-size:28pt">Conclusion</h2>
-<p>Overall, I had a lot of fun on this! I learned a lot more on the way one of my favorite emulators hooks up all of the necessary components together.
+<p>So that's a relatively basic explanation of how I ported Gigatron.js to MAME!</p>
+<p>Overall, I had a lot of fun on this! I learned a lot more on the way one of my favorite emulators hooks up all of the necessary components together. 
 Not everything has to be cutting edge to be fun! ;)</p>
 <br />
-<br />
-<a href="https://gigatron.io/">Gigatron website</a>
+<a href="https://gigatron.io/">Gigatron website</a><br />
 <a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
-<a href="https://github.com/mamedev/mame/blob/master/src/mame/drivers/gigatron.cpp">My Gigatron driver</a>
-<a href="https://github.com/mamedev/mame/blob/master/src/devices/cpu/gigatron/gigatron.cpp">My Gigatron CPU code</a>
+<a href="https://github.com/mamedev/mame/blob/master/src/mame/drivers/gigatron.cpp">My Gigatron driver</a><br />
+<a href="https://github.com/mamedev/mame/blob/master/src/devices/cpu/gigatron/gigatron.cpp">My Gigatron CPU code</a><br />
 <br />
 <br />
 <a href="../blog">Go Back</a>
