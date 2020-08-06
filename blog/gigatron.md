@@ -77,9 +77,14 @@ Lines 3-5 simply attach a voltage regulator and route that to the DAC, though I 
 <h2 style="font-size:28pt">Video</h2>
 <img src="..\images\blog\gigatron\gigatron-4.png"><br/>
 <p>The Gigatron is capable of displaying 6-bit color on the VGA screen, with a maximum of 64 colors.
-As you can see in the above image, register out is responsible for generating the video signal.</p><br/>
+As you can see in the above image, register out is responsible for generating the video signal.</p>
 <p>We can attach a screen to the machine using these few lines in the machine configuration:</p>
 <img src="..\images\blog\gigatron\gigatron-5.png"><br/>
+<p>These set the screen size to 640x480 with a refresh rate of 59.98Hz. It also points at what the emulator should to to update the screen.</p>
+<img src="..\images\blog\gigatron\gigatron-6.png"><br/>
+<p>This is the code that is responsible for taking the value of register out, and drawing pixels with it. It detects all the standard VBlank and HBlank stuff,
+you know, resetting the position of the beam, stuff like that. Towards the bottom, you can see where it draws the pixels. It grabs the 2-bits per color
+needed to convert the signal from 6-bit to 24-bit color, and simply draws those pixels as 32-bit colors instead. Simple.</p>
 <br />
 <br />
 <a href="../blog">Go Back</a>
