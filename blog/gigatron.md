@@ -42,7 +42,7 @@
 <p>8/6/2020</p><br />
 <br />
 <br />
-<h2 style="font-size:28pt">The Concept</h1>
+<h2 style="font-size:28pt">The Concept</h2>
 <p>Basically I did it because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot.</p>
 <br />
 <br />
