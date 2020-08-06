@@ -48,6 +48,9 @@ sound, blinkenlights, everything.</p>
 <p>The Gigatron has no CPU, it's all 7400-series TTL logic chips, but those specific chips allow for an instruction set with 256 unique instructions, with a few registers that are able to control 
 the video signal, the sound, and blinkenlights.</p>
 <img src="https://gigatron.io/wp-content/uploads/2020/03/Diagram-768x576.png">
+<h2 style="font-size:28pt">Phil Thomas' Emulator</h2>
+<p>Turns out, there was already a JS-based emulator on the official website, made by Phil Thomas. That emulator uses a BSD-2-clause license, which is compatible with MAME's BSD-3-clause license, so it
+wouldn't be of much concern if I ported that emulator to MAME.</p>
 
 <br />
 <br />
