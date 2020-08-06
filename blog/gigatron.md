@@ -42,7 +42,7 @@
 <p>8/6/2020</p>
 <br />
 <h2 style="font-size:28pt">The Concept</h2>
-<p>Basically, I did it because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot. 
+<p>Basically, I made this driver because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot. It was also a good programming exercise for me.
 The Gigatron is a relatively simple machine, every hardware aspect is controlled by the "CPU", the screen,
 sound, blinkenlights, everything.</p>
 <p>The Gigatron has no CPU, it's all 7400-series TTL logic chips, but those specific chips allow for an instruction set with 256 unique instructions, with a few registers that are able to control 
