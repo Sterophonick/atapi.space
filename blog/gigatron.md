@@ -64,7 +64,7 @@ control the blinkenlights, and some are used for audio.</p> <br/>
 <p>Audio on the Gigatron is incredibly simple. It uses a 4-bit R-2R DAC, using a few resistors to do the digital to analog conversion.
 The biggest challenge of it was figuring out the way I can attach and control a DAC in MAME. Thankfully, it's not too difficult to do that!
 I just had to use this bit of code in the machine configuration:</p>
-<img src="..\images\blog\gigatron\gigatron-1.png"</img>
+<img src="..\images\blog\gigatron\gigatron-1.png"><br/>
 <br />
 <br />
 <a href="../blog">Go Back</a>
