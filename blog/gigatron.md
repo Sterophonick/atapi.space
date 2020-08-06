@@ -54,7 +54,6 @@ the video signal, the sound, and blinkenlights. In fact, the most difficult thin
 <h2 style="font-size:28pt">Phil Thomas' Emulator</h2>
 <p>Turns out, there was already a JS-based emulator on the official website, made by Phil Thomas. That emulator uses a BSD-2-clause license, which is compatible with MAME's BSD-3-clause license, so it
 wouldn't be of much concern if I ported that emulator to MAME.</p>
-<a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
 <br/>
 <h2 style="font-size:28pt">CPU</h2>
 <img src="https://gigatron.io/wp-content/uploads/2019/11/Native-instruction-overview-2019-11-25-768x613.png"><br/>
@@ -72,7 +71,8 @@ Lines 3-5 simply attach a voltage regulator and route that to the DAC, though I 
 <img src="..\images\blog\gigatron\gigatron-2.png"><br/>
 <p>And port_outx() is tied to the outx register of the CPU through this simple line in the machine configuration:</P>
 <img src="..\images\blog\gigatron\gigatron-3.png"><br/>
-<p>As you can see, the upper 4 bits of register outx are responsible for controlling what sound sample is currently playing.</p>
+<p>As you can see, the upper 4 bits of register outx are responsible for controlling what sound sample is currently playing.
+The lower 4 bits are for controlling the LEDs on the machine.</p>
 <br/>
 <h2 style="font-size:28pt">Video</h2>
 <img src="..\images\blog\gigatron\gigatron-4.png"><br/>
@@ -82,11 +82,12 @@ As you can see in the above image, register out is responsible for generating th
 <img src="..\images\blog\gigatron\gigatron-5.png"><br/>
 <p>These set the screen size to 640x480 with a refresh rate of 59.98Hz. It also points at what the emulator should to to update the screen.</p>
 <img src="..\images\blog\gigatron\gigatron-6.png"><br/>
-<p>This is the code that is responsible for taking the value of register out, and drawing pixels with it. It detects all the standard VBlank and HBlank stuff,
+<p>This is the code that is responsible for taking the value of register "out", and drawing pixels with it. It detects all the standard VBlank and HBlank stuff,
 you know, resetting the position of the beam, stuff like that. Towards the bottom, you can see where it draws the pixels. It grabs the 2-bits per color
-needed to convert the signal from 6-bit to 24-bit color, and simply draws those pixels as 24-bit colors instead. Simple.</p>
+needed to convert the signal from 6-bit to 24-bit color, and draws those pixels as 24-bit colors instead. Simple.</p>
 <p>We let the machine know how to use port_out by using this simple line in the configuration:</p>
 <img src="..\images\blog\gigatron\gigatron-7.png"><br/>
+<br/>
 <h2 style="font-size:28pt">Input</h2>
 <img src="..\images\blog\gigatron\gigatron-8.png"><br/>
 <p>The Gigatron handles input through a DB-9 joystick port, used in several older consoles and home computers such as the Sega Genesis, Commodore Amiga, and Atari 2600.
@@ -95,6 +96,22 @@ The machine ships with a Nintendo Famicom-like controller, so we just need to em
 <p>But there's more that we have to do to attach the keypad. So, we add this line to our machine configuration:</p>
 <img src="..\images\blog\gigatron\gigatron-a.png"><br/>
 <p>This will attach the value that the keypad reads to the register called inReg. This is what allows the CPU to read the joystick state.</p>
+<br/>
+<h2 style="font-size:28pt">Memory</h2>
+<p>Attaching memory maps was easy. I had to define them like this:</p>
+<img src="..\images\blog\gigatron\gigatron-b.png"><br/>
+<p>And then let the CPU know which is ROM and which is RAM.</p>
+<img src="..\images\blog\gigatron\gigatron-c.png"><br/>
+<br/>
+<h2 style="font-size:28pt">Conclusion</h2>
+<p>Overall, I had a lot of fun on this! I learned a lot more on the way one of my favorite emulators hooks up all of the necessary components together.
+Not everything has to be cutting edge to be fun! ;)</p>
+<br />
+<br />
+<a href="https://gigatron.io/">Gigatron website</a>
+<a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
+<a href="https://github.com/mamedev/mame/blob/master/src/mame/drivers/gigatron.cpp">My Gigatron driver</a>
+<a href="https://github.com/mamedev/mame/blob/master/src/devices/cpu/gigatron/gigatron.cpp">My Gigatron CPU code</a>
 <br />
 <br />
 <a href="../blog">Go Back</a>
