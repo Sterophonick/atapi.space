@@ -84,7 +84,17 @@ As you can see in the above image, register out is responsible for generating th
 <img src="..\images\blog\gigatron\gigatron-6.png"><br/>
 <p>This is the code that is responsible for taking the value of register out, and drawing pixels with it. It detects all the standard VBlank and HBlank stuff,
 you know, resetting the position of the beam, stuff like that. Towards the bottom, you can see where it draws the pixels. It grabs the 2-bits per color
-needed to convert the signal from 6-bit to 24-bit color, and simply draws those pixels as 32-bit colors instead. Simple.</p>
+needed to convert the signal from 6-bit to 24-bit color, and simply draws those pixels as 24-bit colors instead. Simple.</p>
+<p>We let the machine know how to use port_out by using this simple line in the configuration:</p>
+<img src="..\images\blog\gigatron\gigatron-7.png"><br/>
+<h2 style="font-size:28pt">Input</h2>
+<img src="..\images\blog\gigatron\gigatron-8.png"><br/>
+<p>The Gigatron handles input through a DB-9 joystick port, used in several older consoles and home computers such as the Sega Genesis, Commodore Amiga, and Atari 2600.
+The machine ships with a Nintendo Famicom-like controller, so we just need to emulate the buttons on the controller. This code can do that:</p>
+<img src="..\images\blog\gigatron\gigatron-9.png"><br/>
+<p>But there's more that we have to do to attach the keypad. So, we add this line to our machine configuration:</p>
+<img src="..\images\blog\gigatron\gigatron-a.png"><br/>
+<p>This will attach the value that the keypad reads to the register called inReg. This is what allows the CPU to read the joystick state.</p>
 <br />
 <br />
 <a href="../blog">Go Back</a>
