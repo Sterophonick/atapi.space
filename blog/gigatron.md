@@ -51,12 +51,14 @@ the video signal, the sound, and blinkenlights. In fact, the most difficult thin
 <br/>
 <h2 style="font-size:28pt">Phil Thomas' Emulator</h2>
 <p>Turns out, there was already a JS-based emulator on the official website, made by Phil Thomas. That emulator uses a BSD-2-clause license, which is compatible with MAME's BSD-3-clause license, so it
-wouldn't be of much concern if I ported that emulator to MAME.</p><br/>
+wouldn't be of much concern if I ported that emulator to MAME.</p>
 <a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
+<br/>
 <h2 style="font-size:28pt">CPU</h2>
 <img src="https://gigatron.io/wp-content/uploads/2019/11/Native-instruction-overview-2019-11-25-768x613.png"><br/>
 <p>This diagram can show just how simple the Gigatron CPU is. There are so few instructions, and each instruction takes 1 cycle, out of 6.25 MHz.
-</p>
+Of course, not all of that is for program code. A good few hundred thousand cycles or so is used to draw the frame to the screen, some are used to
+control the blinkenlights, and some are used for audio.</p>
 <br />
 <br />
 <a href="../blog">Go Back</a>
