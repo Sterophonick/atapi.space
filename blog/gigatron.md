@@ -38,12 +38,10 @@
 </style>
 <body>
 <div class="mainContent">
-<h1 style="font-size:32pt">Factory Images</h1>
-<h3 style="font-size:24pt">Leaked images from the factories of various consoles</h3>
-<a href="factoryimages/NewNintendo3DSXL">New Nintendo 3DS XL</a><br />
+
 <br />
 <br />
-<a href="../archive">Go Back</a>
+<a href="../blog">Go Back</a>
 </div>
 </body>
 </html>

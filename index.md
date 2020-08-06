@@ -42,7 +42,8 @@
         <a href="heartlib">HeartLib</a><br />
         <a href="simplelight">Simple</a><br />
         <a href="es-theme-homebrew">ES-Theme-Homebrew</a><br />
-        <a href="homebrew-hub">Homebrew Hub</a><br />
+        <a href="homebrew-hub">Homebrew Hub</a><br />\
+		<a href="blog">Blog</a><br />
         <a href="misc">Miscellaneous Stuff</a><br />
         <a href="sites">Links</a><br />
         <a href="archive">Some old stuff I made</a><br />
