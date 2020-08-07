@@ -105,7 +105,7 @@ The machine ships with a Nintendo Famicom-like controller, so we just need to em
 <br/>
 <h2 style="font-size:28pt">Conclusion</h2>
 <p>So that's a relatively basic explanation of how I ported Gigatron.js to MAME!</p>
-<p> Not everything has to be cutting edge to be fun! ;)</p>
+<p>Not everything has to be cutting edge to be fun! ;)</p>
 <br />
 <a href="https://gigatron.io/">Gigatron website</a><br />
 <a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
