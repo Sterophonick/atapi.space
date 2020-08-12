@@ -42,7 +42,7 @@
 <p>8/6/2020</p>
 <br />
 <h2 style="font-size:28pt">The Concept</h2>
-<p>Basically, I made this driver because I wanted to use a Gigatron TTL without having to go online. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot. It was also a good programming exercise for me.
+<p>Basically, I made this driver because I wanted to learn how one of my favorite emulators worked. Plus, MAME hasn't really had a machine like this before, so I figured I'd give it a shot. It was also a good programming exercise for me.
 The Gigatron is a relatively simple machine, every hardware aspect is controlled by the "CPU", the screen,
 sound, blinkenlights, everything.</p>
 <p>The Gigatron has no CPU, it's all 7400-series TTL logic chips, but those specific chips allow for an instruction set with 256 unique instructions, with a few registers that are able to control 
@@ -83,8 +83,8 @@ As you can see in the above image, register out is responsible for generating th
 <p>These set the screen size to 640x480 with a refresh rate of 59.98Hz. It also points at what the emulator should to to update the screen.</p>
 <img src="..\images\blog\gigatron\gigatron-6.png"><br/>
 <p>This is the code that is responsible for taking the value of register "out", and drawing pixels with it. It detects all the standard VBlank and HBlank stuff,
-you know, resetting the position of the beam, stuff like that. Towards the bottom, you can see where it draws the pixels. It grabs the 2-bits per color
-needed to convert the signal from 6-bit to 24-bit color, and draws those pixels as 24-bit colors instead. Simple.</p>
+you know, resetting the position of the beam, stuff like that. Towards the bottom, you can see where it draws the pixels. It grabs the necessary color values out of the R, G, and B bits of the OUT
+register and converts them to a single 24-bit value that can be displayed on any modern display. Simple.</p>
 <p>We let the machine know how to use port_out by using this simple line in the configuration:</p>
 <img src="..\images\blog\gigatron\gigatron-7.png"><br/>
 <br/>
@@ -105,7 +105,12 @@ The machine ships with a Nintendo Famicom-like controller, so we just need to em
 <br/>
 <h2 style="font-size:28pt">Conclusion</h2>
 <p>So that's a relatively basic explanation of how I ported Gigatron.js to MAME!</p>
-<p>Not everything has to be cutting edge to be fun! ;)</p>
+<p>Not everything has to be cutting-edge to be fun! ;)</p>
+<br />
+<h2 style="font-size:28pt">Thanks</h2>
+<p>TheMogMiner and ajrhacker for some programming help</p>
+<p>Phil Thomas for his JS-Based emulator</p>
+<p>Marcel van Kervinck (RIP) / Walter Belgers for creating such a fun little machine</p>
 <br />
 <a href="https://gigatron.io/">Gigatron website</a><br />
 <a href="https://github.com/PhilThomas/gigatron/">Phil's emulator</a><br />
