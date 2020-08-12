@@ -61,6 +61,7 @@ wouldn't be of much concern if I ported that emulator to MAME.</p>
 Of course, not all of that is for program code. A good few hundred thousand cycles or so is used to draw the frame to the screen, some are used to
 control the blinkenlights, and some are used for audio.</p> <br/>
 <h2 style="font-size:28pt">Audio</h2>
+<img src="..\images\blog\gigatron\gigatron-d.png"><br/>
 <p>Audio on the Gigatron is incredibly simple. It uses a 4-bit R-2R DAC, using a few resistors to do the digital to analog conversion.
 The biggest challenge of it was figuring out the way I can attach and control a DAC in MAME. Thankfully, it's not too difficult to do that!
 I just had to use this bit of code in the machine configuration:</p>
@@ -73,6 +74,7 @@ Lines 3-5 simply attach a voltage regulator and route that to the DAC, though I 
 <img src="..\images\blog\gigatron\gigatron-3.png"><br/>
 <p>As you can see, the upper 4 bits of register outx are responsible for controlling what sound sample is currently playing.
 The lower 4 bits are for controlling the LEDs on the machine.</p>
+<img src="..\images\blog\gigatron\gigatron-e.png"><br/>
 <br/>
 <h2 style="font-size:28pt">Video</h2>
 <img src="..\images\blog\gigatron\gigatron-4.png"><br/>
