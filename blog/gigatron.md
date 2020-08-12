@@ -110,7 +110,7 @@ The machine ships with a Nintendo Famicom-like controller, so we just need to em
 <p>Not everything has to be cutting-edge to be fun! ;)</p>
 <br />
 <h2 style="font-size:28pt">Greetz</h2>
-<p>TheMogMiner and ajrhacker for some programming help</p>
+<p>TheMogMiner, Osso13 and ajrhacker for some programming help</p>
 <p>Phil Thomas for his JS-Based emulator</p>
 <p>Marcel van Kervinck (RIP) / Walter Belgers for creating such a fun little machine</p>
 <br />
