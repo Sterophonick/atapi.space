@@ -36,8 +36,8 @@
         <h2 style="font-size:28pt">Preliminary website for my projects and stuff</h2>
 		<div class="mainContent">
         <p class="small">
-            Hi! I'm Sterophonick! I do homebrew stuff, and I like homebrew stuff.<br />
-            This is where you can find some of my projects along with an archive of my cringy old stuff as well!<br />
+            Hi! I'm Sterophonick! I like emulators and homebrew.<br />
+            This is where you can find some of my projects along with an archive of my cringy old stuff as well! :)<br />
         </p>
         <a href="heartlib">HeartLib</a><br />
         <a href="simplelight">Simple</a><br />
@@ -52,5 +52,11 @@
 		<br />
 		<a href="https://github.com/Sterophonick">GitHub</a><br />
 		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<p style="font-size:10pt">No copyright infringment is intended. I own everything here unless explicitly stated otherwise. Thank you!</p>
     </body>
 </html>
