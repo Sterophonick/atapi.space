@@ -43,7 +43,14 @@
 <img src="images/HeartLib/objwin-0.png">
 <img src="images/HeartLib/parallax-0.png">
 <img src="images/HeartLib/advcadia-0.png">
-<img src="images/HeartLib/alpha-0.png">
+<img src="images/HeartLib/alpha-0.png"><br />
+<p>HeartLib supports most functions of the Nintendo Game Boy Advance, with the exception of Serial I/O.</p> <br />
+<p>It even supports some undocumented features such as SWI 0x26 (HardReset) or the Green Swap (?) register!</p> <br />
+<p>It has powered some of my Game Boy Advance homebrews such as Super Block Jump and Misfortune Advance. It even powered Chip8Adv and Advcadia, my RCA CHIP-8 and Emerson Arcadia 2001 emulators respectively.</p> <br />
+<br />
+<h1 style="font-size:32pt">AGB_Lib</h1>
+<p>AGB_Lib was a crappy library based on gba.h by eloist from 2001. It has some of the most pointless functions in the world, such as one that will add numbers together. It was the predecessor to HeartLib, and HeartLib still has some of its DNA.</p>
+<a href="downloads/gba_lib.h">AGB_Lib download (For archival purposes)</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
