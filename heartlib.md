@@ -40,10 +40,10 @@
 <img src="images/HeartLib/maxmod-0.png">
 <img src="images/sbjgba/sbjgba3.png">
 <img src="images/misfortune/misfortune0.png">
-<img src="images/misfortune/objwin-0.png">
-<img src="images/misfortune/parallax-0.png">
-<img src="images/misfortune/advcadia-0.png">
-<img src="images/misfortune/alpha-0.png">
+<img src="images/HeartLib/objwin-0.png">
+<img src="images/HeartLib/parallax-0.png">
+<img src="images/HeartLib/advcadia-0.png">
+<img src="images/HeartLib/alpha-0.png">
 <br />
 <br />
 <a href="..">Go Back</a><br />
