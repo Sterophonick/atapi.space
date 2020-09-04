@@ -42,6 +42,7 @@
 <a href="https://www.defectivebydesign.org/">Defective by Design</a><br />
 <a href="https://repair.org/">Right to Repair</a><br />
 <a href="http://seanriddle.com/">Sean Riddle's website</a><br />
+<a href="http://fsf.org/">Free Software Foundation</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
