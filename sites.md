@@ -41,6 +41,7 @@
 <h1 style="font-size:32pt">Other sites that are interesting or I feel are important</h1>
 <a href="https://www.defectivebydesign.org/">Defective by Design</a><br />
 <a href="https://repair.org/">Right to Repair</a><br />
+<a href="http://seanriddle.com/">Sean Riddle's website</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
