@@ -35,6 +35,15 @@
 <h1 style="font-size:32pt">HeartLib</h1>
 <div class="mainContent">
 <p>A Game Boy Advance development library inspired by HAMLib and HELlib.</p> <br />
+<img src="images/HeartLib/assert-0.png">
+<img src="images/HeartLib/key-0.png">
+<img src="images/HeartLib/maxmod-0.png">
+<img src="images/sbjgba/sbjgba3.png">
+<img src="images/misfortune/misfortune0.png">
+<img src="images/misfortune/objwin-0.png">
+<img src="images/misfortune/parallax-0.png">
+<img src="images/misfortune/advcadia-0.png">
+<img src="images/misfortune/alpha-0.png">
 <br />
 <br />
 <a href="..">Go Back</a><br />
