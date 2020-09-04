@@ -38,6 +38,10 @@
 <a href="https://archive.org/details/@sterophonick">archive.org</a><br />
 <a href="https://discord.com/invite/qrctgHJ">Mother 1+2 Fan Translation Discord Server</a><br />
 <br />
+<h1 style="font-size:32pt">Other sites that are interesting or I feel are important</h1>
+<a href="https://www.defectivebydesign.org/">Defective by Design</a><br />
+<a href="https://repair.org/">Right to Repair</a><br />
+<br />
 <br />
 <a href="..">Go Back</a><br />
 </div>
