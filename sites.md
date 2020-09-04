@@ -43,6 +43,7 @@
 <a href="https://repair.org/">Right to Repair</a><br />
 <a href="http://seanriddle.com/">Sean Riddle's website</a><br />
 <a href="http://fsf.org/">Free Software Foundation</a><br />
+<a href="https://web.archive.org/web/20200611015937/https://gefiltergate.com/">GE FILTERGATE</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
