@@ -40,10 +40,11 @@
 <br />
 <h1 style="font-size:32pt">Other sites that are interesting or I feel are important</h1>
 <a href="https://www.defectivebydesign.org/">Defective by Design</a><br />
-<a href="https://repair.org/">Right to Repair</a><br />
+<a href="https://repair.org/">Repair Association</a><br />
+<a href="https://www.ifixit.com/Right-to-Repair/Intro">Right to Repair</a><br />
 <a href="http://seanriddle.com/">Sean Riddle's website</a><br />
 <a href="http://fsf.org/">Free Software Foundation</a><br />
-<a href="https://web.archive.org/web/20200611015937/https://gefiltergate.com/">GE FILTERGATE</a><br />
+<a href="https://web.archive.org/web/20200611015937/https://gefiltergate.com/">GE FILTERGATE (vulgarity warning)</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
