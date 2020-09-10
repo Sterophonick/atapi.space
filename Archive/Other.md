@@ -31,9 +31,9 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Some old stuff that doesn't really warrant its own page.</h1>
-<p>The source code for some of these was recovered from a Windows XP VM.</p><br />
+<br />
 <h2 style="font-size:28pt">Undertale Tech Demo (Game Boy Advance)</h2>
-<h3 style="font-size:24pt">A demo I made using HAM and a Windows XP Virtual Machine.</h3> <br />
+<h3 style="font-size:24pt">A simple demo I made using HAM that helped me figure out how scrolling worked.</h3> <br />
 <img src="../images/archive-misc/undertale.png"><br />
 <a href="../downloads/Undertale Tech Demo.gba">ROM Download</a><br />
 <a href="../downloads/UndertaleTechDemo_src.zip">Source Code (For archival purposes)</a><br />
@@ -62,7 +62,7 @@
 <br />
 <br />
 <h2 style="font-size:28pt">MegaDemo (Game Boy Advance)</h2>
-<h3 style="font-size:24pt">A crappy demo I made because I was bored. Does more than just an image. More like demoscene stuff.</h3> <br />
+<h3 style="font-size:24pt">A crappy demo I made during my classes because I was bored. It's more like demoscene stuff as it has sprite movement and palette cycling.</h3> <br />
 <img src="../images/archive-misc/megademo0.png">
 <img src="../images/archive-misc/megademo1.png">
 <img src="../images/archive-misc/megademo2.png"><br />
@@ -107,7 +107,7 @@
 <img src="../images/archive-misc/tmdpea.gif"><br />
 <a href="../downloads/The Most Difficult Platformer Ever Advance! Demo.gba">ROM Download</a><br />
 <p>Source Code is lost...</p>
-<h3 style="font-size:24pt">However, there was also a demo that SCROLLED. It was made using HAM, and a Windows XP VM.</h3> <br />
+<h3 style="font-size:24pt">However, there was also a demo that SCROLLED. It was made using HAM in conjunction with a Windows XP VM.</h3> <br />
 <img src="../images/archive-misc/tmdpea_scroll.png"><br />
 <a href="../downloads/TMDPEA Scrolling Demo">ROM Download</a><br />
 <a href="../downloads/TMDPEAScroller_src.zip">Source Code (For archival purposes)</a><br />
