@@ -36,7 +36,7 @@
 <h3 style="font-size:24pt">A demo I made using HAM and a Windows XP Virtual Machine.</h3> <br />
 <img src="../images/archive-misc/undertale.png"><br />
 <a href="../downloads/Undertale Tech Demo.gba">ROM Download</a><br />
-<p>Source Code is lost...</p>
+<a href="../downloads/UndertaleTechDemo_src.zip">Source Code (For archival purposes)</a><br />
 <br />
 <br />
 <h2 style="font-size:28pt">Fidget Spinner Simulator (Game Boy Advance)</h2>
@@ -119,6 +119,13 @@
 <img src="../images/archive-misc/PixelColor.png"><br />
 <a href="../downloads/Pixel Color Detection.gba">ROM Download</a><br />
 <a href="../downloads/PixelColorDetect_src.zip">Source Code (For archival purposes)</a><br />
+<br />
+<br />
+<h2 style="font-size:28pt">Undertale Fight Demo (Game Boy Advance)</h2>
+<h3 style="font-size:24pt">There was a second Undertale tech demo, but all it was an image, but hey it was a tilemap instead of a bitmap!</h3> <br />
+<img src="../images/archive-misc/utfight.png"><br />
+<a href="../downloads/Undertale Fight Demo.gba">ROM Download</a><br />
+<a href="../downloads/UndertaleFightDemo_src.zip">Source Code (For archival purposes)</a><br />
 <br />
 <br />
 <a href="../archive">Go Back</a>
