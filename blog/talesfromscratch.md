@@ -57,6 +57,13 @@
 <p>NVIDIA GeForce 6200</p>
 <p>and an outdated version of Firefox</p>
 <br />
+<h2 style="font-size:28pt">The Disappearing Data Bug</h2>
+<p>Ah yes, finally an explanation for why my Monkey Mayhem description is this:</p>
+<img src="..\images\blog\talesfromscratch\mmdesc.png"><br/>
+<p>Essentially what happened was whenever I made a change to that project, the secondary costume for the Monkey would be completely deleted.</p>
+<p>I eventually made a forum thread about this, entitled <a href="https://scratch.mit.edu/discuss/topic/49002/"><i>Missing Costumes?</i></a></p>
+<p>The users on there basically told me that Firefox has problems with Scratch and that the Scratch Team was working on it</p>
+<br />
 <br />
 <a href="../blog">Go Back</a>
 </div>
