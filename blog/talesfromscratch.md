@@ -38,8 +38,9 @@
 </style>
 <body>
 <div class="mainContent">
-<h1 style="font-size:32pt">Tales from Scratch and other nonsense</h1>
-<p>?/?/202?</p>
+<h1 style="font-size:32pt">Tales from Scratch and Other Nonsense</h1>
+<h2 style="font-size:28pt">?/?/202?</h2>
+<p>This page kinda serves as me rambling on about things that happened on Scratch and other computery tomfoolery that I did when I was really young.</p>
 <br />
 <h2 style="font-size:28pt">The Beginning</h2>
 <p>I first started Scratch in late July (I think it was 28?) of 2014, when I was 10 years old. My mother had just bought me a book called <i>Help Your Kids With Computer Coding</i>. I had always wanted to make games of my own but never knew where to start.</p>
