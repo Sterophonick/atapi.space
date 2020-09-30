@@ -50,6 +50,7 @@
 <h2 style="font-size:28pt">RUN!</h2>
 <h3 style="font-size:24pt">A simple platformer where you have to complete the stage in the alotted time. Music by Danny B.</h3>
 <img src="../images/scratch/RUN!!.png"><br />
+<a href="ScratchGames/RUN!">Play Game</a><br />
 <a href="../downloads/RUN!.sb2">Scratch .sb2 Download</a><br />
 <br />
 <br />
