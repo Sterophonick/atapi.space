@@ -48,7 +48,7 @@
 <p>Every day I would make changes to it and some friends from school would play it and think it was cool.</p>
 <p>Eventually this escalated to me using Scratch for school projects, but that's getting a little ahead of ourselves.</p>
 <br />
-<h2 style="font-size:28pt">The Specs of the Machine</h2>
+<h2 style="font-size:28pt">The Specs of Machine #1</h2>
 <p>Dell Dimension 4550</p>
 <p>Intel Northwood Pentium 4 @2524 MHz x86, supporting MMX, SSE, and SSE2</p>
 <p>1 GB of RAM</p>
@@ -76,6 +76,19 @@
 <img src="..\images\blog\talesfromscratch\mustache2.png"><img src="..\images\blog\talesfromscratch\sbj2.png"><br/>
 <img src="..\images\blog\talesfromscratch\mustache3.png"><img src="..\images\blog\talesfromscratch\sbj3.png"><br/>
 <p>Even the physics engine was copied verbatim. And the Game Boy Advance port used that script as a reference!</p>
+<br/>
+<br/>
+<h2 style="font-size:28pt">The Specs of Machine #2</h2>
+<p>Lenovo ThinkPad T410</p>
+<p>Intel Core i5-520M @2.4GHz</p>
+<p>4 GB RAM (later upgraded to 6, then 8)</p>
+<p>NVIDIA NVS 3100M</p>
+<p>250GB HDD, later upgraded to 500GB then 1TB because of hard drive failures lol</p>
+<p>Windows 7, later upgraded to Windows 10</p>
+<br/>
+<h2 style="font-size:28pt">Super Block Jump Wiki</h2>
+<p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i> incomplete Wayback Machine crawl, which is probably for the better.</p>
+<img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png">
 <br />
 <br />
 <a href="../blog">Go Back</a>
