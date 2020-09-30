@@ -35,12 +35,10 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Super Block Jump</h1>
 <p>The original Scratch game.</p><br />
-<object type="application/x-shockwave-flash" 
-  data="../../downloads/Super Block Jump.swf" 
-  width="0" height="0">
-  <param name="movie" value="../../downloads/Super Block Jump.swf" />
-  <param name="quality" value="high"/>
-</object>
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+		swfobject.registerObject("myId", "9.0.0", "../../downloads/Super Block Jump.swf");
+		</script>
 <a href="../../downloads/Super Block Jump.swf">SWF Download</a><br />
 <br />
 <br />
