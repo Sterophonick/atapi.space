@@ -35,7 +35,8 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Roll the die!</h1>
 <p>Roll the die!</p><br/>
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/33047346/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/25130022/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<br/>
 <a href="../../downloads/Roll the die!.sb2">Scratch 2.0 .sb2 Download</a><br />
 <a href="../../downloads/Roll the die!.sb3">Scratch 3.0 .sb3 Download</a><br />
 <br />

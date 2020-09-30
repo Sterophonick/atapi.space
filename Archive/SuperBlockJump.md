@@ -52,7 +52,6 @@
 <a href="./ScratchGames/SuperBlockJumpDarkWorld">Play Super Block Jump (Dark World)</a><br />
 <a href="../downloads/Super Block Jump (01282016).sb2">Jan 28, 2016 5:28 AM Prototype</a><br />
 <a href="../downloads/Super Block Jump (A LONG platforming game).sb2">Feb 22, 2015 12:30 PM Prototype</a><br />
-
 <br />
 <br />
 <p>Apparently, I was also really good at backing up old versions of this because I managed to dig up like 5 versions of the source code.</p>
