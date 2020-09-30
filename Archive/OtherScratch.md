@@ -44,7 +44,7 @@
 <h3 style="font-size:24pt">A simple platformer that uses a tile system. Music by FearOfDark.</h3>
 <img src="../images/scratch/16bitplatformer.png"><br />
 <a href="ScratchGames/16BitPlatformer">Play Game</a><br />
-<a href="../downloads/16-bit Platformer.sb2">Scratch .sb2 Download</a><br />
+<a href="../downloads/16-bit platformer.sb2">Scratch .sb2 Download</a><br />
 <br />
 <br />
 <h2 style="font-size:28pt">RUN!</h2>
