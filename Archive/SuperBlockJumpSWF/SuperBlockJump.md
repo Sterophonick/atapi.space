@@ -40,10 +40,11 @@ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#ve
 width="600" height="400">
 <param name="movie" value="../../downloads/Super Block Jump.swf">
 <param name="quality" value="high">
-<embed src="The-Game.swf" quality="high"
+<embed src="../../downloads/Super Block Jump.swf" quality="high"
 pluginspage="http://www.macromedia.com/go/getflashplayer"
 type="application/x-shockwave-flash" width="960" height="720">
 </object>
+<br/>
 <a href="../../downloads/Super Block Jump.swf">SWF Download</a><br />
 <br />
 <br />
