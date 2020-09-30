@@ -35,7 +35,7 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Super Block Jump</h1>
 <p>The original Scratch game.</p><br />
-<script src='https://sulfurous.aau.at/js/embed.js?id=33047346&resolution-x=960&resolution-y=480&auto-start=true&light-content=false'></script>
+<iframe allowtransparency=“true” width=“960” height=“720" src="https://scratch.mit.edu/projects/33047346/embed“ frameborder=”0" allowfullscreen></iframe>
 <br/>
 <a href="../../downloads/Super Block Jump.sb2">Scratch 2.0 SB2 Download</a><br />
 <a href="../../downloads/Super Block Jump.sb3">Scratch 3.0 SB3 Download</a><br />
