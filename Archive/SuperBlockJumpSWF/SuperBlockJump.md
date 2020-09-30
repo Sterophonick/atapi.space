@@ -35,10 +35,7 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Super Block Jump</h1>
 <p>The original Scratch game.</p><br />
-		<script type="text/javascript" src="swfobject.js"></script>
-		<script type="text/javascript">
-		swfobject.registerObject("myId", "9.0.0", "../../downloads/Super Block Jump.swf");
-		</script>
+<script src='https://sulfurous.aau.at/js/embed.js?id=33047346&resolution-x=960&resolution-y=480&auto-start=true&light-content=false'></script>
 <a href="../../downloads/Super Block Jump.swf">SWF Download</a><br />
 <br />
 <br />
