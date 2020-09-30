@@ -57,6 +57,7 @@
 <h2 style="font-size:28pt">Gravity Dude</h2>
 <h3 style="font-size:24pt">A simple platformer where you can flip gravity. Music by Disasterpeace.</h3>
 <img src="../images/scratch/GravityDude.png"><br />
+<a href="ScratchGames/GravityDude">Play Game</a><br />
 <a href="../downloads/Gravity Dude.sb2">Scratch .sb2 Download</a><br />
 <br />
 <br />
