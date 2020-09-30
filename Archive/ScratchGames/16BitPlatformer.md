@@ -43,6 +43,7 @@ width="970" height="720">
 <embed src="16BitPlatformer.swf" quality="high"
 pluginspage="http://www.macromedia.com/go/getflashplayer"
 type="application/x-shockwave-flash" width="960" height="720">
+</object>
 <br />
 <br />
 <a href="https://sterophonick.github.io/Archive/OtherScratch">Go Back</a><br />
