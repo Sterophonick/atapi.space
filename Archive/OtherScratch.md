@@ -68,6 +68,8 @@
 <a href="ScratchGames/MonkeyMayhem">Play Game</a><br />
 <a href="ScratchGames/MonkeyMayhemAlt">Play Alternate Version</a><br />
 <a href="../downloads/Monkey Mayhem.sb2">Scratch .sb2 Download</a><br />
+<a href="../downloads/Monkey Mayhem Advance.gba">Game Boy Advance ROM</a><br />
+<a href="https://github.com/Sterophonick/Monkey-Mayhem-Advance">Game Boy Advance Source Code</a><br/>
 <br />
 <br />
 <h2 style="font-size:28pt">Space Raider</h2>
@@ -85,6 +87,14 @@
 <a href="ScratchGames/Rollthedie!">Roll the die!</a><br />
 <a href="../downloads/Roll the die!.sb2">Scratch 2.0 .sb2 Download</a><br />
 <a href="../downloads/Roll the die!.sb3">Scratch 3.0 .sb3 Download</a><br />
+<br />
+<br />
+<h2 style="font-size:28pt">Escape the Dragon!</h2>
+<h3 style="font-size:24pt">Use the mouse to guide the cat away from the dragon!</h3>
+<img src="../images/scratch/EscapeTheDragon.png"><br />
+<a href="ScratchGames/EscapetheDragon!">Play Game</a><br />
+<a href="../downloads/Escape the Dragon!.sb2">Scratch 2.0 .sb2 Download</a><br />
+<a href="../downloads/Escape the Dragon!.sb3">Scratch 3.0 .sb3 Download</a><br />
 <br />
 <br />
 <a href="../archive">Go Back</a>
