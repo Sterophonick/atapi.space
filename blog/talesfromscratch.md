@@ -75,7 +75,7 @@
 <img src="..\images\blog\talesfromscratch\mustache1.png"><img src="..\images\blog\talesfromscratch\sbj1.png"><br/>
 <img src="..\images\blog\talesfromscratch\mustache2.png"><img src="..\images\blog\talesfromscratch\sbj2.png"><br/>
 <img src="..\images\blog\talesfromscratch\mustache3.png"><img src="..\images\blog\talesfromscratch\sbj3.png"><br/>
-<p>Even the physics engine was copied verbatim. And the Game Boy Advance port used that script as a reference!<p/>
+<p>Even the physics engine was copied verbatim. And the Game Boy Advance port used that script as a reference!</p>
 <br />
 <br />
 <a href="../blog">Go Back</a>
