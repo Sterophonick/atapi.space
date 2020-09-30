@@ -38,9 +38,9 @@
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
 codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
 width="970" height="720">
-<param name="movie" value="16-Bit Platformer.swf">
+<param name="movie" value="16BitPlatformer.swf">
 <param name="quality" value="high">
-<embed src="16-Bit Platformer.swf" quality="high"
+<embed src="16BitPlatformer.swf" quality="high"
 pluginspage="http://www.macromedia.com/go/getflashplayer"
 type="application/x-shockwave-flash" width="960" height="720">
 <br />
