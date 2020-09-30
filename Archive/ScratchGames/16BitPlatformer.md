@@ -33,16 +33,19 @@
 </style>
 <body>
 <div class="mainContent">
-<h1 style="font-size:32pt">Super Block Jump</h1>
-<p>The original Scratch game.</p><br />
-<iframe allowtransparency="true" width="960" height="720" src="//scratch.mit.edu/projects/embed/33047346/?autostart=false" frameborder="0" allowfullscreen></iframe>
-<br/>
-<a href="../../downloads/Super Block Jump.sb2">Scratch 2.0 SB2 Download</a><br />
-<a href="../../downloads/Super Block Jump.sb3">Scratch 3.0 SB3 Download</a><br />
-<a href="../../downloads/Super Block Jump.swf">Scratch 2.0-based SWF Download</a><br />
+<h1 style="font-size:32pt">16-Bit Platformer</h1>
+<p>One of my several 2D platformers that I made. Music is by Danny B.</p><br />
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+width="970" height="720">
+<param name="movie" value="16-Bit Platformer.swf">
+<param name="quality" value="high">
+<embed src="16-Bit Platformer.swf" quality="high"
+pluginspage="http://www.macromedia.com/go/getflashplayer"
+type="application/x-shockwave-flash" width="960" height="720">
 <br />
 <br />
-<a href="https://sterophonick.github.io/Archive/SuperBlockJump">Go Back</a><br />
+<a href="https://sterophonick.github.io/Archive/OtherScratch">Go Back</a><br />
 </div>
 </body>
 </html>
