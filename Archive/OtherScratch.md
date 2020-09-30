@@ -73,7 +73,10 @@
 <h2 style="font-size:28pt">Space Raider</h2>
 <h3 style="font-size:24pt">A simple arcade shooter.</h3>
 <img src="../images/scratch/SpaceRaider.png"><br />
-<a href="../downloads/Space Raider.sb2">Scratch .sb2 Download</a><br />
+<a href="ScratchGames/SpaceRaider">Play Game</a><br />
+<a href="../downloads/Shoot the rockets.sb2">August 24, 2014 10:10 AM Prototype Download</a><br />
+<a href="../downloads/Space Raider.sb2">Scratch 2.0 .sb2 Download</a><br />
+<a href="../downloads/Space Raider.sb3">Scratch 3.0 .sb3 Download</a><br />
 <br />
 <br />
 <h2 style="font-size:28pt">Roll the die!</h2>
