@@ -62,7 +62,20 @@
 <img src="..\images\blog\talesfromscratch\mmdesc.png"><br/>
 <p>Essentially what happened was whenever I made a change to that project, the secondary costume for the Monkey would be completely deleted.</p>
 <p>I eventually made a forum thread about this, entitled <a href="https://scratch.mit.edu/discuss/topic/49002/"><i>Missing Costumes?</i></a></p>
-<p>The users on there basically told me that Firefox has problems with Scratch and that the Scratch Team was working on it</p>
+<p>The users on there basically told me that Firefox has problems with Scratch and that the Scratch Team was working on it.</p>
+<br/>
+<h2 style="font-size:28pt">The engoodening of eggman15</h2>
+<p>Basically I found this project and wanted to help the user who went by eggman15.</p>
+<p>You can find the beginning of the remix chain <a href="https://scratch.mit.edu/projects/18296042">here.</a></p>
+<br/>
+<h2 style="font-size:28pt">Super Block Jump and Plagiarism</h2>
+<p>Oh boy. Literally the first 20 or so stages were ripped directly from another Scratch game called <a href="https://scratch.mit.edu/projects/24495248/">Mustache Kitty.</a></p>
+<p>Literally that's what the first few prototypes were. Just a clone of Mustache Kitty.</p>
+<p>I eventually made more original levels, but what do you want of me, I was 10.</p>
+<img src="..\images\blog\talesfromscratch\mustache1.png"><img src="..\images\blog\talesfromscratch\sbj1.png"><br/>
+<img src="..\images\blog\talesfromscratch\mustache2.png"><img src="..\images\blog\talesfromscratch\sbj2.png"><br/>
+<img src="..\images\blog\talesfromscratch\mustache3.png"><img src="..\images\blog\talesfromscratch\sbj3.png"><br/>
+<p>Even the physics engine was copied verbatim. And the Game Boy Advance port used that script as a reference!<p/>
 <br />
 <br />
 <a href="../blog">Go Back</a>
