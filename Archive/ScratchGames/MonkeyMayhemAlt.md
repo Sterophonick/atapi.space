@@ -41,7 +41,7 @@
 <a href="../../downloads/Monkey Mayhem (starter).sb3">Scratch 3.0 SB3 Download</a><br />
 <br />
 <br />
-<a href="https://sterophonick.github.io/Archive/SuperBlockJump">Go Back</a><br />
+<a href="https://sterophonick.github.io/Archive/OtherScratch">Go Back</a><br />
 </div>
 </body>
 </html>
