@@ -34,7 +34,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Escape the Dragon!</h1>
-<p>Roll the die!</p><br/>
+<p>Guide the cat away from the dragon!</p><br/>
 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/25130011/?autostart=false" frameborder="0" allowfullscreen></iframe>
 <br />
 <a href="../../downloads/Escape the Dragon!.sb2">Scratch 2.0 .sb2 Download</a><br />
