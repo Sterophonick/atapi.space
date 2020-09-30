@@ -34,7 +34,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">16-Bit Platformer</h1>
-<p>One of my several 2D platformers that I made. Music is by Danny B.</p><
+<p>One of my several 2D platformers that I made. Music is by Fearofdark.</p>
 <p>Fun fact: I stole this idea from user bowytowy. Check out his original game <a href="https://scratch.mit.edu/projects/70667958/">here.</a></p>
 <p>This page requires Shockwave Flash as this game is broken in Scratch 3.0, THANKS A LOT MIT MEDIA LAB!!!</p><br />
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
