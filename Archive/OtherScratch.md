@@ -65,6 +65,8 @@
 <h3 style="font-size:24pt">A simple arcade game about a monkey who must protect the city from flying starfish.</h3>
 <p>This game was in the book <i>Help Your Kids With Computer Coding</i>.</p>
 <img src="../images/scratch/MonkeyMayhem.png"><br />
+<a href="ScratchGames/MonkeyMayhem">Play Game</a><br />
+<a href="ScratchGames/MonkeyMayhemAlt">Play Alternate Version</a><br />
 <a href="../downloads/Monkey Mayhem.sb2">Scratch .sb2 Download</a><br />
 <br />
 <br />

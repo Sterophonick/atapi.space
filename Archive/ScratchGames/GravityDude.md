@@ -34,8 +34,8 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Gravity Dude</h1>
-<p>Another platformer. This time you can flip gravity! :)</p>
-<p>Fun fact: I stole this idea from user JamesOuO.</a></p>
+<p>Another platformer. This time you can flip gravity! :) Music is by Disasterpeace from the 2012 video game FEZ.</p>
+<p>Fun fact: I stole this idea from user JamesOuO.</p>
 <p>This page requires Shockwave Flash as the release of Scratch 3.0 was a disaster for old projects. :/</p><br />
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
 codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
