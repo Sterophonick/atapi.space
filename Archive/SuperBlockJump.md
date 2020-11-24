@@ -45,6 +45,7 @@
 <img src="../images/sbjgba/sbjgba6.png">
 <img src="../images/sbjgba/sbjgba7.png"><br />
 <a href="../downloads/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
+<a href="../downloads/Super Block Jump.cia">Nintendo 3DS .CIA Download</a><br />
 <a href="https://github.com/Sterophonick/SuperBlockJumpGBA">Source Code</a><br />
 <br />
 <a href="./ScratchGames/SuperBlockJump">Play Super Block Jump</a><br />
