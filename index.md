@@ -47,6 +47,7 @@
         <a href="misc">Miscellaneous Stuff</a><br />
         <a href="sites">Links</a><br />
         <a href="archive">Archive</a><br />
+		<a href="dumps">Dumps</a><br />
         <a href="greetz">Special Greetz</a><br />
 		<br />
 		<br />
