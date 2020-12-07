@@ -59,13 +59,21 @@
 <p>One of the earlier games I played on that machine was that online BeyBlade game by Hasbro. LOL remember BeyBlades??</p>
 <p>It's a small footnote, just deserved to be mentioned.</p>
 <br />
+<h2 style="font-size:28pt">Mattel EasyLink</h2>
+<p>This was when I was <i>really</i> young. My mother had bought me a Mattel EasyLink, which was this children's toy that connected to a Windows PC, this machine be a Windows XP laptop from Dell.</p>
+<p>This toy had a bunch of figurines of Disney PlayHouse and PBS Kids characters, such as Arthur, Elmo, or Mickey Mouse.</p>
+<p>I don't remember many details about the software, I'm going off of what I remember.</p>
+<p>So, what I believed happened was there was this sort of hub that the parent would launch that a child couldn't escape with ease. The child would place one of the figures onto the green slot, reading what I think was an NFC tag or similar. The hub software would then either open a browser to play the associated game, or it had a built-in version of Adobe Flash in order to play these games.</p>
+<p>I only remember one game being played on it, and that was the Arthur game, titled <i>Alien: Assembly Required</i>.</p>
+<p>Perhaps I should track one down and mess with it one day.</p>
+<br />
 <h2 style="font-size:28pt">Dig Dug on Fupa</h2>
 <p>When I was much younger, I played a lot of Dig Dug on Xbox Live Arcade, and eventually, I convinced my mother to find a version on the internet.</p>
 <p>It was on a site called "Fupa."</p>
 <p>Only recently did I realize that version was the Nintendo Game Boy version running in a Flash-based emulator named <i>PlayR</i>.</p>
 <br />
 <h2 style="font-size:28pt">ChromaDepth 3D</h2>
-<p>The Nintendo 3DS is what kickstarted the obsession with 3D that eight-year-old me had. After that, My mother found some glasses that gave the illusion of 3D depending on the color.</p>
+<p>The Nintendo 3DS is what kickstarted the obsession with 3D that eight-year-old me had. After that. At some point, my mother found some glasses that gave the illusion of 3D depending on the color.</p>
 <p>Like, the depth of the object depended on the color of it, it was <i>super</i> cool. To this day it's still kinda cool.</p>
 <p>I also hung up 3D anaglyph Minecraft screenshots all around my room. Ha.</p>
 <br />
@@ -107,6 +115,8 @@
 <h2 style="font-size:28pt">Super Block Jump Wiki</h2>
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i> incomplete Wayback Machine crawl, which is probably for the better.</p>
 <img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png">
+<br />
+<h2 style="font-size:28pt">The Rabbit Quiz</h2>
 <br />
 <br />
 <a href="../blog">Go Back</a>
