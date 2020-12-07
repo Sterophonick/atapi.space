@@ -59,8 +59,8 @@
 <p>One of the earlier games I played on that machine was that online BeyBlade game by Hasbro. LOL remember BeyBlades??</p>
 <p>It's a small footnote, just deserved to be mentioned.</p>
 <br />
-<h2 style="font-size:28pt">Mattel EasyLink</h2>
-<p>This was when I was <i>really</i> young. My mother had bought me a Mattel EasyLink, which was this children's toy that connected to a Windows PC, this machine be a Windows XP laptop from Dell.</p>
+<h2 style="font-size:28pt">Fisher-Price EasyLink</h2>
+<p>This was when I was <i>really</i> young. My mother had bought me a Fisher-Price EasyLink, which was this children's toy that connected to a Windows PC, this machine be a Windows XP laptop from Dell.</p>
 <p>This toy had a bunch of figurines of Disney PlayHouse and PBS Kids characters, such as Arthur, Elmo, or Mickey Mouse.</p>
 <p>I don't remember many details about the software, I'm going off of what I remember.</p>
 <p>So, what I believed happened was there was this sort of hub that the parent would launch that a child couldn't escape with ease. The child would place one of the figures onto the green slot, reading what I think was an NFC tag or similar. The hub software would then either open a browser to play the associated game, or it had a built-in version of Adobe Flash in order to play these games.</p>
