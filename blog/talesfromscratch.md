@@ -65,6 +65,7 @@
 <p>I don't remember many details about the software, I'm going off of what I remember.</p>
 <p>So, what I believed happened was there was this sort of hub that the parent would launch that a child couldn't escape with ease. The child would place one of the figures onto the green slot, reading what I think was an NFC tag or similar. The hub software would then either open a browser to play the associated game, or it had a built-in version of Adobe Flash in order to play these games.</p>
 <p>I only remember one game being played on it, and that was the Arthur game, titled <i>Alien: Assembly Required</i>.</p>
+<p>It's like a very primitive version of Nintendo's amiibo.</p>
 <p>Perhaps I should track one down and mess with it one day.</p>
 <br />
 <h2 style="font-size:28pt">Dig Dug on Fupa</h2>
