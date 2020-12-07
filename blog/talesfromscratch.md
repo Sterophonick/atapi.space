@@ -38,24 +38,42 @@
 </style>
 <body>
 <div class="mainContent">
-<h1 style="font-size:32pt">Tales from Scratch and Other Nonsense</h1>
+<h1 style="font-size:32pt">Tales from the Computery Nonsense folder</h1>
 <h2 style="font-size:28pt">?/?/202?</h2>
 <p>This page kinda serves as me rambling on about things that happened on Scratch and other computery tomfoolery that I did when I was really young.</p>
-<br />
-<h2 style="font-size:28pt">The Beginning</h2>
-<p>I first started Scratch in late July (I think it was 28?) of 2014, when I was 10 years old. My mother had just bought me a book called <i>Help Your Kids With Computer Coding</i>. I had always wanted to make games of my own but never knew where to start.</p>
-<p>The first thing I did was copy the project <a href="https://sterophonick.github.io/Archive/ScratchGames/MonkeyMayhem"><i>Monkey Mayhem</i></a>.</p>
-<p>Every day I would make changes to it and some friends from school would play it and think it was cool.</p>
-<p>Eventually this escalated to me using Scratch for school projects, but that's getting a little ahead of ourselves.</p>
 <br />
 <h2 style="font-size:28pt">The Specs of Machine #1</h2>
 <p>Dell Dimension 4550</p>
 <p>Intel Northwood Pentium 4 @2524 MHz x86, supporting MMX, SSE, and SSE2</p>
 <p>1 GB of RAM</p>
 <p>60 GB hard disk space</p>
+<p>250 GB Secondary drive</p>
 <p>Windows XP Professional 5.1.2600 Service Pack 3 Build 2600</p>
 <p>NVIDIA GeForce 6200</p>
 <p>and an outdated version of Firefox</p>
+<p></p>
+<p>This was my primary machine up to late 2014, and it definitely was not good for flash programs.</p>
+<p>Eventually I used a 32-bit Linux distribution running off of a USB drive to make a complete backup of the 60 GB drive, which took around 12 hours to complete, finishing at around 2:20 AM. That image was eventually copied to a home server, taking ANOTHER 12 hours, where it resides to this day.</p>
+<br />
+<h2 style="font-size:28pt">BeyBlade</h2>
+<p>One of the earlier games I played on that machine was that online BeyBlade game by Hasbro. LOL remember BeyBlades??</p>
+<p>It's a small footnote, just deserved to be mentioned.</p>
+<br />
+<h2 style="font-size:28pt">Dig Dug on Fupa</h2>
+<p>When I was much younger, I played a lot of Dig Dug on Xbox Live Arcade, and eventually, I convinced my mother to find a version on the internet.</p>
+<p>It was on a site called "Fupa."</p>
+<p>Only recently did I realize that version was the Nintendo Game Boy version running in a Flash-based emulator named <i>PlayR</i>.</p>
+<br />
+<h2 style="font-size:28pt">ChromaDepth 3D</h2>
+<p>The Nintendo 3DS is what kickstarted the obsession with 3D that eight-year-old me had. After that, My mother found some glasses that gave the illusion of 3D depending on the color.</p>
+<p>Like, the depth of the object depended on the color of it, it was <i>super</i> cool. To this day it's still kinda cool.</p>
+<p>I also hung up 3D anaglyph Minecraft screenshots all around my room. Ha.</p>
+<br />
+<h2 style="font-size:28pt">The Beginning of Scratch</h2>
+<p>I first started Scratch in late July (I think it was 28?) of 2014, when I was 10 years old. My mother had just bought me a book called <i>Help Your Kids With Computer Coding</i>. I had always wanted to make games of my own but never knew where to start.</p>
+<p>The first thing I did was copy the project <a href="https://sterophonick.github.io/Archive/ScratchGames/MonkeyMayhem"><i>Monkey Mayhem</i></a>.</p>
+<p>Every day I would make changes to it and some friends from school would play it and think it was cool.</p>
+<p>Eventually this escalated to me using Scratch for school projects, but that's getting a little ahead of ourselves.</p>
 <br />
 <h2 style="font-size:28pt">The Disappearing Data Bug</h2>
 <p>Ah yes, finally an explanation for why my Monkey Mayhem description is this:</p>

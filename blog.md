@@ -35,7 +35,7 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Blog</h1>
 <a href="blog/gigatron">Emulating the Gigatron TTL Microcomputer in MAME</a><br />
-<a href="blog/talesfromscratch">Tales from Scratch and Other Nonsense</a><br />
+<a href="blog/talesfromscratch">Tales from the Computery Nonsense folder</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
