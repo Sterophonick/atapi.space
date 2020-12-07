@@ -117,8 +117,6 @@
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i> incomplete Wayback Machine crawl, which is probably for the better.</p>
 <img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png">
 <br />
-<h2 style="font-size:28pt">The Rabbit Quiz</h2>
-<br />
 <br />
 <a href="../blog">Go Back</a>
 </div>
