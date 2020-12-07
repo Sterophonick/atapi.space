@@ -37,12 +37,12 @@
 <p>One of the several 2D platformers that I made. Music is by Danny B.</p>
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
 codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
-width="480" height="360">
+width="970" height="720">
 <param name="movie" value="TMDPE!.swf">
 <param name="quality" value="high">
 <embed src="TMDPE!.swf" quality="high"
 pluginspage="http://www.macromedia.com/go/getflashplayer"
-type="application/x-shockwave-flash" width="480" height="360">
+type="application/x-shockwave-flash" width="960" height="720">
 </object>
 <br />
 <br />
