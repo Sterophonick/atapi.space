@@ -52,6 +52,9 @@
 <a href="https://archive.org/details/xblig_the-impossible-game">The Impossible Game</a><br />
 <a href="https://archive.org/details/xblig_tig-level-pack">The Impossible Game Level Pack</a><br />
 <br />
+<h3 style="font-size:24pt">Google Chrome Apps</h3>
+<p>Most, if not all of these are not accessible anymore on the Chrome Web Store.</p>
+<a href="https://archive.org/details/chrome_dont-giveup">Don't GiveUp</a><br />
 <br />
 <a href="..">Go Back</a><br />
 </div>
