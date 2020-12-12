@@ -34,7 +34,7 @@
 <body>
 <div class="mainContent">
 <h1 style="font-size:32pt">Dumps</h1>
-<p>Game preservation stuff that I have done. Dev wants it gone and it's gone!</p><br />
+<p>Software preservation stuff that I have done. Dev wants it gone and it's gone!</p><br />
 <h3 style="font-size:24pt">Microsoft Xbox 360 (Indie Games)</h3>
 <p>The Xbox Live Indie Games store shut down in 2017, but I managed to snag these games a little before they went down. Enjoy!</p>
 <a href="https://archive.org/details/xblig_3dstruction">3D-struction</a><br />
@@ -55,7 +55,8 @@
 <br />
 <h3 style="font-size:24pt">Google Chrome Apps</h3>
 <p>Most, if not all of these are not accessible anymore on the Chrome Web Store.</p>
-<a href="https://archive.org/details/chrome_dont-giveup">Don't GiveUp</a><br />
+<a href="dumps/Don't GiveUp.crx">Don't GiveUp</a><br />
+<a href="dumps/Block Jump.crx">Block Jump</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
