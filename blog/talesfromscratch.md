@@ -44,12 +44,13 @@
 <br />
 <h2 style="font-size:28pt">The Specs of Machine #1</h2>
 <p>Dell Dimension 4550</p>
-<p>Intel Northwood Pentium 4 @2524 MHz x86, supporting MMX, SSE, and SSE2</p>
+<p>Intel Northwood Pentium 4 SL6S2 @2524 MHz x86, supporting MMX, SSE, and SSE2, 478-pin FC-PGA2, 512K of L2 cache, OEM. <a href="https://www.cpu-world.com/sspec/SL/SL6S2.html">CPU-World Page</a></p>
 <p>1 GB of RAM</p>
 <p>60 GB hard disk space</p>
 <p>250 GB Secondary drive</p>
 <p>Windows XP Professional 5.1.2600 Service Pack 3 Build 2600</p>
 <p>NVIDIA GeForce 6200</p>
+<p>SoundBlaster Audigy 2 ZS</p>
 <p>and an outdated version of Firefox</p>
 <p></p>
 <p>This was my primary machine up to late 2014, and it definitely was not good for flash programs.</p>
@@ -115,7 +116,15 @@
 <br/>
 <h2 style="font-size:28pt">Super Block Jump Wiki</h2>
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i> incomplete Wayback Machine crawl, which is probably for the better.</p>
-<img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png">
+<img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png"><img src="..\images\blog\talesfromscratch\wiki4.png"><img src="..\images\blog\talesfromscratch\wiki5.png">
+<br/>
+<h2 style="font-size:28pt">The Forest Cafe or something</h2>
+<p>In 6th grade Social Studies, we had a project where we had to design a restaurant. We were to make a drawing and a menu, and I chose to make the drawing in Microsoft 3D builder.</p>
+<p>This was back in January of 2016, and I had next to no experience in 3D modelling.</p>
+<p>What ended up happening was I made the entire building out of cubes</p>
+<p>By the end, there were so many cubes that my NVS 3100M struggled to render it, there was render clipping and Z-Fighting all over it.</p>
+<p>The file no longer survives, but I still have screenshots.</p>
+<img src="..\images\blog\talesfromscratch\cafe1.png"><img src="..\images\blog\talesfromscratch\cafe2.png"><img src="..\images\blog\talesfromscratch\cafe3.png">
 <br />
 <br />
 <a href="../blog">Go Back</a>
