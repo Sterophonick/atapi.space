@@ -120,6 +120,7 @@
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i> incomplete Wayback Machine crawl, which is probably for the better.</p>
 <img src="..\images\blog\talesfromscratch\wiki1.png"><img src="..\images\blog\talesfromscratch\wiki2.png"><img src="..\images\blog\talesfromscratch\wiki3.png"><img src="..\images\blog\talesfromscratch\wiki4.png"><img src="..\images\blog\talesfromscratch\wiki5.png">
 <br/>
+<br/>
 <h2 style="font-size:28pt">The Forest Cafe or something</h2>
 <p>In 6th grade Social Studies, we had a project where we had to design a restaurant. We were to make a drawing and a menu, and I chose to make the drawing in Microsoft 3D builder.</p>
 <p>This was back in January of 2016, and I had next to no experience in 3D modelling.</p>
@@ -127,7 +128,8 @@
 <p>By the end, there were so many cubes that my NVS 3100M struggled to render it, there were opject priority issues and Z-Fighting all over it.</p>
 <p>The file no longer survives, but I still have screenshots.</p>
 <img src="..\images\blog\talesfromscratch\cafe1.png"><img src="..\images\blog\talesfromscratch\cafe2.png"><img src="..\images\blog\talesfromscratch\cafe3.png"><<img src="..\images\blog\talesfromscratch\cafe4.png">
-</br>
+<br />
+<br/>
 <h2 style="font-size:28pt">Nesbox Emulator (UWP)</h2>
 <p>Back in early 2016, I did some experiments in emulation. More specifically, Game Boy emulation through Nesbox Emulator that was on the Microsoft Store at one point.</p>
 <p>Nowadays, I know that Nesbox Emulator is <i>hot garbage</i> but what can I say, I didn't know very much.</p>
