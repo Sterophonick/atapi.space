@@ -124,7 +124,7 @@
 <p>What ended up happening was I made the entire building out of cubes</p>
 <p>By the end, there were so many cubes that my NVS 3100M struggled to render it, there was render clipping and Z-Fighting all over it.</p>
 <p>The file no longer survives, but I still have screenshots.</p>
-<img src="..\images\blog\talesfromscratch\cafe1.png"><img src="..\images\blog\talesfromscratch\cafe2.png"><img src="..\images\blog\talesfromscratch\cafe3.png">
+<img src="..\images\blog\talesfromscratch\cafe1.png"><img src="..\images\blog\talesfromscratch\cafe2.png"><img src="..\images\blog\talesfromscratch\cafe3.png"><<img src="..\images\blog\talesfromscratch\cafe4.png">
 <br />
 <br />
 <a href="../blog">Go Back</a>
