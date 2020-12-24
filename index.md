@@ -55,7 +55,7 @@
 		<br/>
 		<br/>
 		<img src="images\doge.jpg"><br/>
-		<p style="font-size:10pt">Dear Nintendo, Samsung, Apple, etc. I BOUGHT THE DAMN DEVICE, I HAVE THE RIGHT TO USE IT HOW I PLEASE. Yours, Sterophonick. :)</p>
+		<p style="font-size:15pt">Dear Nintendo, Samsung, Apple, etc. I BOUGHT THE DAMN DEVICE, I HAVE THE RIGHT TO USE IT HOW I PLEASE. Yours, Sterophonick. :)</p>
 		</div>
 		<br/>
 		<br/>
