@@ -55,6 +55,7 @@
 		</div>
 		<br/>
 		<br/>
+		<img src="images\doge.jpg">
 		<br/>
 		<br/>
 		<br/>
