@@ -33,7 +33,7 @@
     </head>
     <body>
         <h1 style="font-size:32pt">Hello!</h1>
-        <h2 style="font-size:28pt">Preliminary website for my projects and stuff</h2>
+        <img src="images\welcome.webp"><br/>
 		<div class="mainContent">
         <p class="small">
             Hi! I'm Sterophonick! I like emulators and homebrew.<br />
@@ -56,6 +56,10 @@
 		<br/>
 		<img src="images\doge.jpg"><br/>
 		<p style="font-size:15pt">Dear Nintendo, Samsung, Apple, etc. I BOUGHT THE DAMN DEVICE, I HAVE THE RIGHT TO USE IT HOW I PLEASE. Yours, Sterophonick. :)</p>
+		<br/>
+		<br/>
+		<img src="images\construction.webp"><br/>
+		
 		</div>
 		<br/>
 		<br/>
