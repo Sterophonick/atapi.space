@@ -37,7 +37,7 @@
 <p>Linux packages hosted here for easy installation</p><br />
 <br />
 <h2 style="font-size:28pt">Arch Linux</h2>
-<a href="downloads/xjump-2.7.5-1-x86_64.pkg.tar">XJump</a><br />
+<a href="downloads/xjump-2.7.5-1-x86_64.pkg.tar.zst">XJump</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
