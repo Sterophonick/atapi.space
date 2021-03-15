@@ -47,7 +47,7 @@
 <img src="images/simplelight/simplelight-1l.png">
 <img src="images/simplelight/simplelight-2l.png"><br />
 <a href="omegamanual.html">Simple-specific EZ-Flash Omega Manual</a><br />
-<a href="https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665/page-15">GBAtemp thread</a><br />
+<a href="https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665">GBAtemp thread</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
