@@ -45,7 +45,7 @@
         <a href="homebrew-hub">Homebrew Hub</a><br />
 		<a href="blog">Blog</a><br />
         <a href="misc">Miscellaneous Stuff</a><br />
-		<a href="packages">Packages</a><br />
+		<a href="packages">Linux related stuff</a><br />
         <a href="sites">Links</a><br />
         <a href="archive">Archive</a><br />
 		<a href="dumps">Dumps</a><br />
