@@ -33,13 +33,17 @@
 </style>
 <body>
 <div class="mainContent">
-<h1 style="font-size:32pt">Packages</h1>
-<p>Linux packages hosted here for easy installation</p><br />
+<h1 style="font-size:32pt">Linux Related Stuff</h1>
 <br />
-<h2 style="font-size:28pt">Arch Linux (x86_64)</h2>
+<h2 style="font-size:28pt">Arch Linux (x86_64) Packages</h2>
 <a href="packages/xjump-x86_64.pkg.tar.zst">XJump</a><br />
 <a href="packages/nikwi-x86_64.pkg.tar.zst">Nikwi Deluxe</a><br />
 <a href="packages/nikwi-data-any.pkg.tar.zst">Nikwi Deluxe (Data)</a><br />
+<br />
+<h1 style="font-size:32pt">Proton variants</h1>
+<p>The following variant of Proton, which is a fork of GloriousEggroll's Proton-4.11-GE-1, has a few fixes that allow IMSCARED to work properly. It includes all of the windowing fixes of Proton-4.11-GE-1, but also has an updated version of DXVK and a script that will create a symlink to the current user's desktop.</p><br/>
+<a href="packages/Proton-4.11-GE-1-IMSCARED.7z">Proton-4.11-GE-1-IMSCARED Download</a><br />
+<br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
