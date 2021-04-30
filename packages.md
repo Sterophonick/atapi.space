@@ -42,7 +42,7 @@
 <br />
 <h1 style="font-size:32pt">Proton variants</h1>
 <p>The following variant of Proton, which is a fork of GloriousEggroll's Proton-4.11-GE-1, has a few fixes that allow IMSCARED to work properly. It includes all of the windowing fixes of Proton-4.11-GE-1, but also has an updated version of DXVK and a script that will create a symlink to the current user's desktop.</p><br/>
-<a href="packages/Proton-4.11-GE-1-IMSCARED.7z">Proton-4.11-GE-1-IMSCARED Download</a><br />
+<a href="https://archive.org/details/proton-4.11-ge-1-imscared.-7z">Proton-4.11-GE-1-IMSCARED Download</a><br />
 <br />
 <br />
 <br />
