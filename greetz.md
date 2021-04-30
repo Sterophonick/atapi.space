@@ -50,6 +50,11 @@ Bung Enterprises<br />
 EZ-Flash<br />
 Moonlight<br />
 WazzoTV<br />
+GloriousEggroll<br />
+CodeWeavers<br />
+Linus Torvalds<br />
+Valve<br />
+Collabora<br />
 Everyone else that I have met on the internet<br />
 </p>
 <br />
