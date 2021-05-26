@@ -40,10 +40,10 @@
 <a href="packages/nikwi-x86_64.pkg.tar.zst">Nikwi Deluxe</a><br />
 <a href="packages/nikwi-data-any.pkg.tar.zst">Nikwi Deluxe (Data)</a><br />
 <br />
-<h2 style="font-size:28pt">Proton/Wine variants</h1>
-<h3 style="font-size:24pt">Proton-4.11-GE-1-IMSCARED</h2>
-<p>The following variant of Proton, which is a fork of GloriousEggroll's Proton-4.11-GE-1, has a few fixes that allow IMSCARED to work properly. It includes all of the windowing fixes of Proton-4.11-GE-1, but also has an updated version of DXVK and a script that will create a symlink to the current user's desktop.</p><br/>
-<a href="https://archive.org/details/proton-4.11-ge-1-imscared.-7z">Proton-4.11-GE-1-IMSCARED Download</a><br />
+<h2 style="font-size:28pt">Proton/Wine variants</h2>
+<h3 style="font-size:24pt">Proton-4.11-GE-1-IMSCARED</h3>
+<p>The following variant of Proton, which is a fork of GloriousEggroll's Proton-4.11-GE-1, has a few fixes that allow IMSCARED to work properly. It includes all of the windowing fixes of Proton-4.11-GE-1, but also has an updated version of DXVK and a script that will create a symlink to the current user's desktop.</p>
+<a href="https://archive.org/details/proton-4.11-ge-1-imscared.-7z">Proton-4.11-GE-1-IMSCARED Download</a><br /><br />
 <h3 style="font-size:24pt">Wine-6.4-DDrawFix</h3>
 <p>The following variant of Wine, based on Wine 6.4, has included a patch that allows for LEGO Island to function properly. In mainline builds of Wine, it crashes when clicking on anything because of some stubbed functions in ddraw that allow for the user to click on objects in a 3D space.<p>
 <p>Shoutouts to MattKC for linking me to the patch so I can apply it.</p>
