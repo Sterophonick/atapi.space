@@ -35,10 +35,9 @@
 <div class="mainContent">
 <h1 style="font-size:32pt">Linux Related Stuff</h1>
 <br />
-<h2 style="font-size:28pt">Arch Linux (x86_64) Packages</h2>
-<a href="packages/xjump-x86_64.pkg.tar.zst">XJump</a><br />
-<a href="packages/nikwi-x86_64.pkg.tar.zst">Nikwi Deluxe</a><br />
-<a href="packages/nikwi-data-any.pkg.tar.zst">Nikwi Deluxe (Data)</a><br />
+<h2 style="font-size:28pt">Arch Linux AUR Packages</h2>
+<a href="https://aur.archlinux.org/packages/nikwi-deluxe-bin/">Nikwi Deluxe (Binary)</a><br />
+<a href="https://aur.archlinux.org/packages/xjump/">XJump</a><br />
 <br />
 <h2 style="font-size:28pt">Proton/Wine variants</h2>
 <h3 style="font-size:24pt">Proton-4.11-GE-1-IMSCARED</h3>
@@ -48,7 +47,7 @@
 <p>The following variant of Wine, based on Wine 6.4, has included a patch that allows for LEGO Island to function properly. In mainline builds of Wine, it crashes when clicking on anything because of some stubbed functions in ddraw that allow for the user to click on objects in a 3D space.<p>
 <p>Shoutouts to MattKC for linking me to the patch so I can apply it.</p>
 <a href="downloads/wine-6.4-ddrawfix.tar.xz">Wine-6.4-DDrawFix Download</a><br />
-<a href="https://www.winehq.org/pipermail/wine-devel/2020-September/173902.html">The thread that MattKC linked me to. It contains a diff with all the necessary changes so that you can place it into pretty much any version of Wine.</a><br />
+<a href="https://www.winehq.org/pipermail/wine-devel/2020-September/173902.html">The WineHQ thread that MattKC linked me to. Contains a diff.</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
