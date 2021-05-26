@@ -48,6 +48,7 @@
 <p>The following variant of Wine, based on Wine 6.4, has included a patch that allows for LEGO Island to function properly. In mainline builds of Wine, it crashes when clicking on anything because of some stubbed functions in ddraw that allow for the user to click on objects in a 3D space.<p>
 <p>Shoutouts to MattKC for linking me to the patch so I can apply it.</p>
 <a href="downloads/wine-6.4-ddrawfix.tar.xz">Wine-6.4-DDrawFix Download</a><br />
+<a href="https://www.winehq.org/pipermail/wine-devel/2020-September/173902.html">The thread that MattKC linked me to. It contains a diff with all the necessary changes so that you can place it into pretty much any version of Wine.</a><br />
 <br />
 <br />
 <a href="..">Go Back</a><br />
