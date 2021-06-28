@@ -55,6 +55,7 @@ CodeWeavers<br />
 Linus Torvalds<br />
 Valve<br />
 Collabora<br />
+Near (RIP)<br />
 Everyone else that I have met on the internet<br />
 </p>
 <br />
