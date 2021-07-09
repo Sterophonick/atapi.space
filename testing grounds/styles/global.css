@@ -76,3 +76,9 @@ a {
 .mainContent {
 	margin-left: 19rem;
 }
+
+#navigation.a {
+	line-height: 1.5;
+	vertical-align: middle;
+	
+}
