@@ -1,6 +1,6 @@
 document.write( '		<div class=\"column sidebar\">\n' );
 document.write( '			<div class=\"header\">\n' );
-document.write( '				<a href=\"./index.html\"><img src=\"./assets/img/global/pfp.png\" title=\"Atapi PFP by @ScottAllRubin!\"></a>\n' );
+document.write( '				<a href=\"./index.html\"><img src=\"{{site.basurl}}/assets/img/global/pfp.png\" title=\"Atapi PFP by @ScottAllRubin!\"></a>\n' );
 document.write( '				<h1>Sterophonick\'s Own Little World</h1>\n' );
 document.write( '				<p>wait i have a website now?</p>\n' );
 document.write( '			</div>\n' );
