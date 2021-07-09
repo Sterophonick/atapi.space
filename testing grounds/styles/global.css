@@ -7,6 +7,10 @@ body {
 	line-height: 1;
 }
 
+* {
+	font-smooth: never;
+}
+
 h3 {
 	font-family: AppleKid;
 	line-height: 1;
