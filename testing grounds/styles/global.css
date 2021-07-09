@@ -1,5 +1,5 @@
 body {
-	background-image: url("../assets/img/bkg.png");
+	background-image: url("../assets/img/global/bkg.png");
 	background-repeat: repeat;
 	font-family: AppleKid;
 		color:#eaeaea;
@@ -52,19 +52,25 @@ a {
 }
 
 .sidebar {
-	background-image: url("../assets/img/bkg.png");
+	background-image: url("../assets/img/global/bkg.png");
 	width: 260px;
 	overflow: auto;
 	text-align: center;
 	position: fixed;
+	overflow: none;
+}
+
+.sidebar-bottom {
+	margin-top: 2rem;
 }
 
 .sidebar-border {
-	background-image: url("../assets/img/border.png");
+	background-image: url("../assets/img/global/border.png");
 	width: 6px;
 	padding: 0px;
 	position: fixed;
 	margin-left: 18rem;
+	overflow: none;
 }
 
 .mainContent {
