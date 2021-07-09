@@ -22,7 +22,6 @@
 				<img src="https://gigatron.io/wp-content/uploads/2020/03/Diagram-768x576.png">
 				<p>This block diagram shows how everything in the machine is connected together.</p>
 				<br/>
-				<br/>
 				<h2 style="font-size:28pt">Phil Thomas' Emulator</h2>
 				<p>Turns out, there was already a JS-based emulator on the official website, made by Phil Thomas. That emulator uses a BSD-2-clause license, which is compatible with MAME's BSD-3-clause license, so it
 				wouldn't be of much concern if I ported that emulator to MAME.</p>
@@ -47,6 +46,7 @@
 				<p>As you can see, the upper 4 bits of register outx are responsible for controlling what sound sample is currently playing.
 				The lower 4 bits are for controlling the LEDs on the machine.</p>
 				<img src="..\..\assets\img\blog\gigatron\gigatron-e.png"><br/>
+				<p>These blinkenlights are controlled through software, not hardware. If you were to use TinyBASIC (you cannot yet in MAME), you would be able to control these lights.</p>
 				<br/>
 				<h2 style="font-size:28pt">Video</h2>
 				<img src="..\..\assets\img\blog\gigatron\gigatron-4.png"><br/>
