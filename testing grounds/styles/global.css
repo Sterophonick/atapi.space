@@ -6,6 +6,7 @@ body {
 		font-size:20pt;
 	line-height: 1;
 }
+
 h3 {
 	font-family: AppleKid;
 	line-height: 1;
@@ -37,4 +38,23 @@ h1 {
 a {
     color: #63c0f5;
     text-shadow: 0 0 5px rgba(104,182,255,0.5);
+}
+
+.column {
+	float: left;
+	padding: 10px;
+	padding-right: 15px;
+	height: 100%;
+}
+
+.sidebar {
+	width: 260px;
+	overflow: auto;
+	text-align: center;
+}
+
+.sidebar-border {
+	background-image: url("../assets/img/border.png");
+	width: 6px;
+	padding: 0px;
 }
