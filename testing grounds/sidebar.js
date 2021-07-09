@@ -6,6 +6,7 @@ document.write( '				<p>wait i have a website now?</p>\n' );
 document.write( '			</div>\n' );
 document.write( '			<div class=\"navigation\">\n' );
 document.write( '				<a href=\"projects.html\"><img src=\"./assets/img/global/folder.png\"> Projects and Stuff</a><br />\n' );
+document.write( '				<a href=\"misc.html\"><img src=\"./assets/img/global/misc.png\"> Miscellaneous Stuff</a><br />\n' );
 document.write( '				<a href=\"dumps.html\"><img src=\"./assets/img/global/chip.png\"> Dumps</a><br />\n' );
 document.write( '				<a href=\"blog.html\"><img src=\"./assets/img/global/notepad.png\"> Blog</a><br />\n' );
 document.write( '				<a href=\"gallery.html\"><img src=\"./assets/img/global/gallery.png\"> Gallery</a><br />\n' );
