@@ -1,0 +1,24 @@
+ultjava = 1;function ULTRA() {Z = document.referrer;DC = document.cookie;R = document.referrer;A = '';PC = screen.width + "X" + screen.height + "-" + screen.colorDepth+ 'LC=' ;ultpage = unescape(document.location); ultdomain = document.domain;ultcook = ultpage.substring(ultpage.indexOf(ultdomain) + document.domain.length,ultpage.lastIndexOf("/",99));if ((ultframe != 'off') && (ultframe != 'off1')) {    n = DC.indexOf('ULTADV=');    if (n == -1) {        WL = '' + window.location;        n = WL.lastIndexOf('?');        l = WL.length;        if (ultframe == 'on1') {            if (n != -1)   document.cookie = "ULTADV="+WL.substring(n,l)+"; path=/;";        }        else {            if (n != -1)   document.cookie = "ULTADV="+WL.substring(n,l)+"; path="+ultcook+";";        }    }    else {        n = n + 7;        w = DC.substring(n,200);        n = w.indexOf(';');        if (n != -1) w = w.substring(0,n);        if (w == "*") {            WL = '' + window.location;            n = WL.lastIndexOf('?');            l = WL.length;            if (ultframe == 'on1') {                if (n != -1)   document.cookie = "ULTADV="+WL.substring(n,l)+"; path=/;";            }            else {                if (n != -1)   document.cookie = "ULTADV="+WL.substring(n,l)+"; path="+ultcook+";";            }        }    };    if (Z == "" ) Z = "0";        if (ultframe == 'on1') {            document.cookie = "ULTREF="+Z+"; path=/;";        }        else {            document.cookie = "ULTREF="+Z+"; path="+ultcook+";";        }}else{    n = DC.indexOf('ULTREF=');    if (n == -1) {        R = document.referrer;    }    else {        n = n + 7;        w = DC.substring(n,200);        n = w.indexOf(';');        if (n != -1) w = w.substring(0,n);        if (w != "*"){            if (w == '0') {               R = '';            }else {               R = w;            };        }else{             R = document.referrer;        };    };    n = DC.indexOf('ULTADV=');    if (n == -1) {    }    else {        n = n + 7;        w = DC.substring(n,200);        n = w.indexOf(';');        if (n != -1) w = w.substring(0,n);        if (w != "*") A = w;    };if (ultframe == 'off1') {    document.cookie = "ULTREF=*; path=/;";}else {    document.cookie = "ULTREF=*; path="+ultcook+";";}if (ultframe == 'off1') {    document.cookie = "ULTADV=*; path=/;";}else {    document.cookie = "ULTADV=*; path="+ultcook+";";}PC = PC + escape( A );       RN = Math.random();if (R == '[unknown origin]') R = "";    document.write("<A HREF='https://web.archive.org/web/20070212232148/http://s003.ultraranking.com/cgi-shl/ultrago.asp?2943' target=_blank><IMG SRC='https://web.archive.org/web/20070212232148/http://s003.ultraranking.com/cgi-shl/"+RN+"?2943&"+PC+"&"+R+"' BORDER='0' WIDTH='224' HEIGHT='60' ISMAP ALT='Click Here !'></A>");}}ULTRA()
+/*
+     FILE ARCHIVED ON 23:21:48 Feb 12, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:15:00 May 13, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 510.317
+  PetaboxLoader3.datanode: 1045.231 (4)
+  RedisCDXSource: 23.418
+  LoadShardBlock: 1458.346 (3)
+  exclusion.robots.policy: 510.301
+  xauthn.chkprivs: 0.058
+  xauthn.identify: 509.905
+  CDXLines.iter: 14.591 (3)
+  esindex: 0.014
+  load_resource: 252.339
+  captures_list: 2010.093
+  PetaboxLoader3.resolve: 442.776 (3)
+*/
