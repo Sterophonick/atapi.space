@@ -52,13 +52,21 @@ a {
 }
 
 .sidebar {
+	background-image: url("../assets/img/bkg.png");
 	width: 260px;
 	overflow: auto;
 	text-align: center;
+	position: fixed;
 }
 
 .sidebar-border {
 	background-image: url("../assets/img/border.png");
 	width: 6px;
 	padding: 0px;
+	position: fixed;
+	margin-left: 18rem;
+}
+
+.mainContent {
+	margin-left: 19rem;
 }
