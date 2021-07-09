@@ -1,0 +1,40 @@
+body {
+	background-image: url("../assets/img/bkg.png");
+	background-repeat: repeat;
+	font-family: AppleKid;
+		color:#eaeaea;
+		font-size:20pt;
+	line-height: 1;
+}
+h3 {
+	font-family: AppleKid;
+	line-height: 1;
+	letter-spacing: 0.8px;
+	font-size:24pt;
+	color:#b5e853;
+}
+h2 {
+	font-family: AppleKid;
+	line-height: 1;
+	letter-spacing: 0.8px;
+	font-size:28pt;
+	color:#b5e853;
+}
+h1 {
+	font-family: AppleKid;
+	line-height: 1;
+	letter-spacing: 0.8px;
+	font-size:32pt;
+	color:#b5e853;
+}
+@font-face {
+	font-family: AppleKid;
+	src: url('../assets/woff/Apple-Kid.woff2') format('woff2'),
+		url('../assets/woff/Apple-Kid.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+a {
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104,182,255,0.5);
+}
