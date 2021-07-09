@@ -10,7 +10,7 @@ document.write( '				<a href=\"../../misc.html\"><img src=\"../../assets/img/glo
 document.write( '				<a href=\"../../dumps.html\"><img src=\"../../assets/img/global/chip.png\"> Dumps</a><br />\n' );
 document.write( '				<a href=\"../../blog.html\"><img src=\"../../assets/img/global/notepad.png\"> Blog</a><br />\n' );
 document.write( '				<a href=\"../../gallery.html\"><img src=\"../../assets/img/global/gallery.png\"> Gallery</a><br />\n' );
-document.write( '				<a href=\"../../greetz.html\"><img src=\"../../assets/img/global/greetz.png\"> Greetz</a><br />\n' );
+document.write( '				<a href=\"../../greetz.html\"><img src=\"../../assets/img/global/greetz.png\"> Special Greetz</a><br />\n' );
 document.write( '				<a href=\"../../links.html\"><img src=\"../../assets/img/global/links.png\"> Links</a><br />\n' );
 document.write( '			</div>\n' );
 document.write( '			<div class=\"sidebar-bottom\">\n' );
