@@ -77,8 +77,16 @@ a {
 	margin-left: 19rem;
 }
 
-#navigation.a {
+#navigation a {
 	line-height: 1.5;
 	vertical-align: middle;
 	
+}
+
+#galleryContent p {
+	text-align: center;
+}
+
+#galleryFriends h2 {
+	margin-bottom: 0rem;
 }
