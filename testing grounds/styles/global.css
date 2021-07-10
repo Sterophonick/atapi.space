@@ -87,6 +87,7 @@ a {
 	text-align: center;
 }
 
-#galleryFriends h2 {
-	margin-bottom: 0rem;
+.imgContainer{
+    float:left;
+	padding-left: 20px;
 }
