@@ -83,7 +83,7 @@ a {
 	
 }
 
-#galleryMyself, #galleryTheQuickSlash {
+#galleryMyself, #galleryTheQuickSlash, #galleryIsaiahDeluxe {
 	display: grid;
 	text-align: center;
 	align-items: center;
@@ -94,4 +94,12 @@ a {
 
 .galleryImg {
 	width: 100%
+}
+
+.shruggie {
+	font-family: AppleKid;
+}
+
+.shruggie shruggieTag {
+	font-family: Helvetica;
 }
