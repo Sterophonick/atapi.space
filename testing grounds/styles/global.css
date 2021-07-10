@@ -1,3 +1,8 @@
+.imgContainer{
+    float:left;
+	padding-left: 20px;
+}
+
 body {
 	background-image: url("../assets/img/global/bkg.png");
 	background-repeat: repeat;
@@ -85,9 +90,4 @@ a {
 
 #galleryContent p {
 	text-align: center;
-}
-
-.imgContainer{
-    float:left;
-	padding-left: 20px;
 }
