@@ -13,21 +13,21 @@ body {
 
 h3 {
 	font-family: AppleKid;
-	line-height: 1;
+	line-height: 0.3;
 	letter-spacing: 0.8px;
 	font-size:24pt;
 	color:#b5e853;
 }
 h2 {
 	font-family: AppleKid;
-	line-height: 1;
+	line-height: 0.3;
 	letter-spacing: 0.8px;
 	font-size:28pt;
 	color:#b5e853;
 }
 h1 {
 	font-family: AppleKid;
-	line-height: 1;
+	line-height: 0.3;
 	letter-spacing: 0.8px;
 	font-size:32pt;
 	color:#b5e853;
