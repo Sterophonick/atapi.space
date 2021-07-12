@@ -11,6 +11,13 @@ body {
 	font-smooth: never;
 }
 
+h4 {
+	font-family: AppleKid;
+	line-height: 0.3;
+	letter-spacing: 0.8px;
+	font-size:20pt;
+	color:#b5e853;
+}
 h3 {
 	font-family: AppleKid;
 	line-height: 0.3;
