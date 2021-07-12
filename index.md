@@ -39,6 +39,13 @@
             Hi! I'm Sterophonick! I like emulators and homebrew.<br />
             This is where you can find some of my projects along with an archive of my cringy old stuff as well! :)<br />
         </p>
+		<br/>
+		<p>
+		NOTICE:<br/>
+		THIS PAGE WILL BE OVERHAULED EVENTUALLY.<br/>
+		TO VIEW THE CURRENT STATE OF THE OVERHAUL, GO <a href="testing grounds/index.html">HERE.</a>
+		Thank you!<br/>
+		<p>
         <a href="heartlib">HeartLib</a><br />
         <a href="simplelight">Simple</a><br />
         <a href="es-theme-homebrew">ES-Theme-Homebrew</a><br />
