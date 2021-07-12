@@ -45,7 +45,7 @@
 		THIS PAGE WILL BE OVERHAULED EVENTUALLY.<br/>
 		TO VIEW THE CURRENT STATE OF THE OVERHAUL, GO <a href="testing grounds/index.html">HERE.</a>
 		Thank you!<br/>
-		<p>
+		</p>
         <a href="heartlib">HeartLib</a><br />
         <a href="simplelight">Simple</a><br />
         <a href="es-theme-homebrew">ES-Theme-Homebrew</a><br />
