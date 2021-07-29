@@ -90,7 +90,7 @@ a {
 	
 }
 
-#galleryMyself, #galleryTheQuickSlash, #galleryIsaiahDeluxe, #galleryScottAllRubin, #galleryKarmageddon, #galleryQueerKobold, #galleryFerris, #galleryAlt, #galleryUbecas {
+#galleryMyself, #galleryTheQuickSlash, #galleryIsaiahDeluxe, #galleryScottAllRubin, #galleryKarmageddon, #galleryQueerKobold, #galleryFerris, #galleryAlt, #galleryUbecas, #galleryCrs100, #galleryHertzko {
 	display: grid;
 	text-align: center;
 	align-items: center;
@@ -109,4 +109,12 @@ a {
 
 .shruggie shruggieTag {
 	font-family: Helvetica;
+}
+
+.greentext {
+	font-family: AppleKid;
+}
+
+.greentext greentextTag {
+	color: #789922;
 }
