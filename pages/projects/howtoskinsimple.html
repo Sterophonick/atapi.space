@@ -40,6 +40,7 @@
 						<a href="https://www.coranac.com/projects/usenti/">Usenti</a><br/>
 						Any text editor<br/>
 						<a href="https://github.com/Sterophonick/SimpleLight">Simple</a> or <a href="https://github.com/Sterophonick/omega-de-kernel">Simple-DE source code</a><br/>
+						File Extensions enabled in Explorer<br/>
 						A lot of patience<br/>
 					<br/>
 					<h2 id="InstallingDevKitPro">Step 1: Installing devkitPro</h2>
@@ -78,10 +79,24 @@
 					<p>Here comes the fun part.</p>
 					<p>In the source code directory, you'll notice a folder named "images."<br/>Contained within are all of the backgrounds and icons that are displayed in this kernel.</p>
 					<img src="../../assets/img/projects/gba/simple/guide_9.png">
-					<h4 id="PrimaryFiles">Editing Primary Source Files</h3>
+					<h4 id="PrimaryFiles">Editing Primary Source Files</h4>
 					<p>What I mean by "Primary Source Files" are the images contained within the folders named "DARK" and "LIGHT."<br/>These files are what make up the majority of the kernel's visual identity.</p>
 					<img src="../../assets/img/projects/gba/simple/guide_10.png">
-					<p>You can open the .BMP/.PNG files in whatever 
+					<p>You can open and edit the .BMP/.PNG files in whatever image editor you want.</p>
+					
+					<h4 id="FixingColors">Fixing Colors</h4>
+					<p>There needs to be some tweaks done to the source code depending on the brightness of your theme, though.<br/>Don't worry, it's nothing major.</p>
+					<p>Go into the folder at the root of the project labeled "source."<br/>You'll notice a header file named "draw.h"</p>
+					<img src="../../assets/img/projects/gba/simple/guide_11.png">
+					<p>Open this file in the text editor of your choice. Notepad will suffice.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_12.png">
+					<p>If your theme has more of a lighter color scheme, then change the text in the "#define" from "DARK" to "LIGHT"</p>
+					<img src="../../assets/img/projects/gba/simple/guide_13.png">
+					<p>What this does is let the rest of the source code know that you are compiling against the lighter color scheme and will adjust things like the text color and other things acoordingly.</p>
+					
+					<h4 id="EditingIcons">Editing Icons</h4>
+					<p>Going back into the "images" folder, you'll notice a handful of files named "icon_(XX).png" or "icon_(XX).bmp"<br/>These are the icons that are displayed for certain file types.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_9.png">
 				</div>
 			</div>
 		</div>
