@@ -97,6 +97,15 @@
 					<h4 id="EditingIcons">Editing Icons</h4>
 					<p>Going back into the "images" folder, you'll notice a handful of files named "icon_(XX).png" or "icon_(XX).bmp"<br/>These are the icons that are displayed for certain file types.</p>
 					<img src="../../assets/img/projects/gba/simple/guide_9.png">
+					<p>These can be edited in the same way as the primary source files.</p>
+					
+					<h4 id="EditingColors">Editing UI Colors</h4>
+					<p>The next step is not <i>strictly</i> necessary but it might be a good idea to match up with your theme.</p>
+					<p>Going back into the "source" directory, you'll find a file named "ezkernel.c."<br/>If you're using the Definitive Edition variant, it's named "ezkernelnew.c."</p>
+					<img src="../../assets/img/projects/gba/simple/guide_14.png">
+					<p>Search for the phrase "gl_color_selected" in that file. The code surrounding that should look like this:</p>
+					<img src="../../assets/img/projects/gba/simple/guide_15.png">
+					<p>These are the colors that are used in the UI. You'll notice that the maximum value is 31.<br/>These are 15-bit RGB values, and so instead of values between 0-255, you get values between 0-31.<br/>Use trial and error to get the color you desire.</p>
 				</div>
 			</div>
 		</div>
