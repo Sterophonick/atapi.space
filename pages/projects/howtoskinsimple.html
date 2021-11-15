@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Sterophonick's Homepage! :: Projects :: Simple :: Skinning Guide</title>
+	</head>
+	<meta property="test:baseurl" content="/">
+	<link rel="stylesheet" href="../../styles/global.css">
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="../../assets/img/global/favicon.ico">
+	<body>
+		<div class="mainContainer">
+			<script src="../sidebar_pages.js"></script> 
+			<div class="column mainContent">
+				<h1>How to skin the Simple kernel for the EZ-Flash Omega family</h1>
+				<p>This is a step-by-step guide for skinning the Simple kernel for the EZ-Flash Omega family of Game Boy Advance flashcarts. </p>
+				<p>This guide is made with users of Microsoft Windows in mind.</p>
+				<p>macOS and Linux users will have to follow their respective <a href="https://devkitpro.org/wiki/Getting_Started">Getting Started</a> guide from devkitPro.</p>
+				<br/>
+				<h2>Navigation</h2>
+				<div id="toc" class="toc">
+					<ul>
+						<li>
+							<a href="#Prerequisites">Prerequisites</a>
+						</li>
+						<li>
+							<a href="#InstallingDevKitPro">Step 1: Installing devkitPro</a>
+						</li>
+					</ul>
+				</div>
+				<br/>
+				<div id="content">
+					<h2 id="Prerequisites">Prerequisites</h2>
+					<p>
+						<a href="https://github.com/devkitPro/installer/releases">devkitPro</a><br/>
+						<a href="https://www.coranac.com/projects/usenti/">Usenti</a><br/>
+						Any text editor<br/>
+						<a href="https://github.com/Sterophonick/SimpleLight">Simple</a> or <a href="https://github.com/Sterophonick/omega-de-kernel">Simple-DE source code</a><br/><br/>
+						A lot of patience<br/>
+					<br/>
+					<h2 id="InstallingDevKitPro">Step 1: Installing devkitPro</h2>
+					<h3 id="Installation">Installation</h3>
+					<p>Installing devkitPro will give you access to a suite of tools such as GCC that will allow you to compile the source code of the kernel into a functioning binary that can be applied to your flashcart.</p>
+					<p>First, go to the <a href="https://github.com/devkitPro/installer/releases">devkitPro releases page</a> and download the "devkitProUpdater-3.0.3.exe" executable.</p>
+					<p>Once you run it (and satisfy Windows UAC),  you will be greeted with a screen that looks something like this:</p>
+					<img src="../../assets/img/projects/gba/simple/guide_1.png">
+					<p>Click next, and select "Download and install/install from downloaded files," then, hit next again.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_2.png">
+					<p>The "Keep downloaded files after install?" option is your choice. I would recommend removing the downloaded files to save space.</p>
+					<p>Coming up next, we will see a screen that looks like this:</p>
+					<img src="../../assets/img/projects/gba/simple/guide_3.png">
+					<p>Here, you'll notice that I have unchecked everything except for "GBA Development."<br/>We are only concerned about the Game Boy Advance here, but if you want to enable things like GameCube or 3DS development, go ahead.</p>
+					<p>Up next, you'll be asked where you want to put the devkitPro installation.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_4.png">
+					<p>I always opt for "C:\devkitPro" but you can put it wherever you want, but make a note of where you put it, it's important.</p>
+					<p>Create a Start Menu folder named "devkitPro" and hit "Install."</p>
+					<p>And now, watch as it does its magic.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_5.png">
+					<p>After it's completed, hit next, and you'll be asked if you want to donate to devkitPro.<br/>...please do!</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
