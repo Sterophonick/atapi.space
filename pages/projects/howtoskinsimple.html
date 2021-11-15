@@ -79,6 +79,7 @@
 					<p>Here comes the fun part.</p>
 					<p>In the source code directory, you'll notice a folder named "images."<br/>Contained within are all of the backgrounds and icons that are displayed in this kernel.</p>
 					<img src="../../assets/img/projects/gba/simple/guide_9.png">
+					
 					<h4 id="PrimaryFiles">Editing Primary Source Files</h4>
 					<p>What I mean by "Primary Source Files" are the images contained within the folders named "DARK" and "LIGHT."<br/>These files are what make up the majority of the kernel's visual identity.</p>
 					<img src="../../assets/img/projects/gba/simple/guide_10.png">
@@ -105,7 +106,18 @@
 					<img src="../../assets/img/projects/gba/simple/guide_14.png">
 					<p>Search for the phrase "gl_color_selected" in that file. The code surrounding that should look like this:</p>
 					<img src="../../assets/img/projects/gba/simple/guide_15.png">
-					<p>These are the colors that are used in the UI. You'll notice that the maximum value is 31.<br/>These are 15-bit RGB values, and so instead of values between 0-255, you get values between 0-31.<br/>Use trial and error to get the color you desire.</p>
+					<p>These are the colors that are used in the UI, drawn over the image files from before. You'll notice that the maximum value is 31.<br/>These are 15-bit RGB values, and so instead of values between 0-255, you get values between 0-31.<br/>Use trial and error to get the color you desire.</p>
+					
+					<h4 id="Converting">Converting Your Assets</h4>
+					<p>For your primary assets, this isn't a big deal. It's with other things such as icons that the tedium begins.</p>
+					<p>In the root directory, there is a folder named "Grit." Enter that directory.</p>
+					<p>The two files of importance here are "Build Skin Files.bat" and "Config.ini"</p>
+					<img src="../../assets/img/projects/gba/simple/guide_16.png">
+					<p>Remember how if your theme is on the brighter side, you edited the file "source/draw.h?"<br/>You'll wanna do a similar thing here.</p>
+					<p>Open up the file "Config.ini."</p>
+					<img src="../../assets/img/projects/gba/simple/guide_17.png">
+					<p>If you're making a lighter theme, then change the text on the first line to read "LIGHT" rather than "DARK."</p>
+					<img src="../../assets/img/projects/gba/simple/guide_18.png">
 				</div>
 			</div>
 		</div>
