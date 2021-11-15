@@ -138,6 +138,17 @@
 					<img src="../../assets/img/projects/gba/simple/guide_25.png">
 					<p>Set these options to how they appear in the following image:</p>
 					<img src="../../assets/img/projects/gba/simple/guide_26.png">
+					<p>Next, hit the OK button.</p>
+					<p>If you look back in the "images" directory, you'll notice that there is now a new file.<br/>The name of this file will vary depending on the icon you just exported, but in our case we chose "icon_EXE."</p>
+					<img src="../../assets/img/projects/gba/simple/guide_27.png">
+					<p>Delete the old "icon_EXE.h" file. We do not need it anymore.</p>
+					<p>Now, rename the new "icon_EXE.c" file to "icon_EXE.h"</p>
+					<p>Next, open up the new "icon_EXE.h" in your text editor.</p>
+					<img src="../../assets/img/projects/gba/simple/guide_28.png">
+					<p>Notice the name of the array? This is a problem. If we do not change this as necessary, our kernel will not compile.</p>
+					<p>Delete the "Bitmap" suffix and affix "gImage_" to the beginning of the name, like this:</p>
+					<img src="../../assets/img/projects/gba/simple/guide_29.png">
+					<p>And now you repeat this for every icon you want to change.</p>
 				</div>
 			</div>
 		</div>
