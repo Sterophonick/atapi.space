@@ -30,6 +30,7 @@
                      - Intel's Mesa3D Linux drivers are dramatically unperformant compared to their Windows counterparts.<br/>
                      - Controller support works unless stated otherwise. The exception being Nintendo Switch Pro controllers because as of writing this, wired NS Pro Controllers cause most games in Proton to crash.<br/>
                      - These notes target SteamOS 3.0 for Steam Deck. I will not be using Lutris.<br/>
+                     - Games not scaling to 16:10 isn't a huge enough issue to warrant lowering the rating.<br/>
                     </p>
                     <h3 id="ImportantCompatibility">Game Compatibility Notes</h3>
                     <p>
@@ -56,6 +57,27 @@
                     GPU: Mesa Intel CometLake-U GT2 (UHD Graphics)<br/>
                     RAM: 16GB<br/>
                     Distro: EndeavourOS Linux, Manjaro Linux, Garuda Linux<br/>
+                    </p>
+                    <br/>
+                    <h2 id="GameCompat">Game Compatibility</h2>
+                    <h3 id="Celeste">Celeste</h3>
+                    <p>
+                    Native<br/>
+                    Technology: FNA/XNA, OpenGL<br/>
+                    Controller support: Perfect<br/>
+                    Notes:<br/>
+                     - See <a href="#XNA_FNA">XNA/FNA</a>.<br/>
+                     - Doesn't scale to 16:10<br/>
+                    <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img src="../../assets/img/projects/linuxnotes/celeste1.png"><br/>
+                    </p>
+                    <br/>
+                    <h2 id="Technology">Technology Compatibility</h3>
+                    <h3 id="XNA_FNA">XNA/FNA</h3>
+                    <p>
+                     - Many XNA games will use FNA for ports<br/>
+                     - Many XNA games have issues with the Steam Overlay. This is fixable with gamescope but gamescope is jank<br/>
+                     - FNA games have issues with screen tearing, thanks Xorg.<br/>
                     </p>
 				</div>
 			</div>
