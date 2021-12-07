@@ -31,6 +31,7 @@
                      - Controller support works unless stated otherwise. The exception being Nintendo Switch Pro controllers because as of writing this, wired NS Pro Controllers cause most games in Proton to crash. This will not lower compatibility ratings because of the new HID driver coming in 5.16.<br/>
                      - These notes target SteamOS 3.0 for Steam Deck. I will not be using Lutris.<br/>
                      - Games not scaling to 16:10 isn't a huge enough issue to warrant lowering the rating.<br/>
+                     - I expect some games to get updated to fix the issues.<br/>
                     </p>
                     <h3 id="ImportantCompatibility">Game Compatibility Notes</h3>
                     <p>
@@ -407,9 +408,9 @@
                     <p>
                     Native<br/>
                     Technology: Source, ToGL (DXVK-Native available)<br/>
-                    Controller support: <i>Almost</i> perfect.<br/>
+                    Controller support: Imperfect<br/>
                     Notes:<br/>
-                     - Joysticks were borked ingame with Steam Input enabled. Tested with Xbox One and DualShock 4 controllers.<br/>
+                     - Joysticks were borked ingame with Steam Input enabled. Fixed by forcing Steam Linux Runtime.<br/>
                      - Title screen menus were jank with controller. Thankfully touchscreen will alleviate this.<br/>
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/portalmel1.png"><br/>
@@ -460,6 +461,9 @@
                     ToGL: Valve's Direct3D->OpenGL abstraction layer used in their earlier Linux ports.<br/>
                     DXVK-Native: A version of DXVK designed for usage outside of Wine.<br/>
                     dgVoodoo2: A reimplementation of 3dfx Glide and Direct3D versions < 9 in Direct3D 11<br/>
+                    Steam Linux Runtime: A debian container as part of Steam Play that games can be run inside in attempt to fix any issues.<br/>
+                    Proton: A Steam Play compatibility tool that utilizes a heavily modified fork of Wine in conjunction with a few other components such as DXVK to assist games on Linux<br/>
+                    DXVK: A DirectX compatibility layer designed for Wine that will translate Direct3D 9, 10 and 11 to Vulkan.<br/>
                     </p>
 				</div>
 			</div>
