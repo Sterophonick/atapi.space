@@ -8,6 +8,7 @@ document.write( '			</div>\n' );
 document.write( '			<div class=\"navigation\">\n' );
 document.write( '				<a href=\"projects.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/folder.png\"> Projects and Stuff</a><br />\n' );
 document.write( '				<a href=\"misc.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/misc.png\"> Miscellaneous Stuff</a><br />\n' );
+document.write( '				<a href=\"pages/projects/linuxnotes.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/linuxgame.png\"> Linux Gaming Notes</a><br />\n' );
 document.write( '				<a href=\"dumps.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/chip.png\"> Dumps</a><br />\n' );
 document.write( '				<a href=\"blog.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/notepad.png\"> Blog</a><br />\n' );
 document.write( '				<a href=\"gallery.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/gallery.png\"> Gallery</a><br />\n' );
