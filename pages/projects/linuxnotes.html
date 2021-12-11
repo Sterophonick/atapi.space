@@ -32,6 +32,7 @@
                      - These notes target SteamOS 3.0 for Steam Deck. I will not be using Lutris.<br/>
                      - Games not scaling to 16:10 isn't a huge enough issue to warrant lowering the rating.<br/>
                      - I expect some games to get updated to fix the issues, such as Portal Stories: Mel<br/>
+                     - Once Steam Deck is released, THIS WILL ALL BE OUTDATED. I do not recieve my Deck until sometime after Q2 2022.<br/>
                     </p>
                     <h3 id="ImportantCompatibility">Game Compatibility Notes</h3>
                     <p>
@@ -58,6 +59,23 @@
                     GPU: Mesa Intel CometLake-U GT2 (UHD Graphics)<br/>
                     RAM: 16GB<br/>
                     Distro: EndeavourOS Linux, Manjaro Linux, Garuda Linux<br/>
+                    </p>
+                    <h3 id="Steam Deck">Steam Deck</h3>
+                    <p>
+                    What I Know:<br/>
+                    - Arch Linux-based OS<br/>
+                    - Immutable Filesystem (basically means you can't write to it without dev mode enabled)<br/>
+                    - Valve Aerith APU is around an R7 3750H + Vega 10<br/>
+                    - Games will be forcing Gamescope by default<br/>
+                    - Controls will not work without games run through Steam<br/>
+                    - Valve improving non-Steam experience<br/>
+                    - New in-house Proton version in development; will be released alongside Deck.<br/>
+                    <br/>
+                    What I Wanna Know:<br/>
+                    - Fixing controller issues? (See: <a href="#DuckGame">Duck Game</a>)<br/>
+                    - Mainline Dolphin?<br/>
+                    - WinMM SDL support? (See: <a href="WinMM">WinMM</a>)<br/>
+                    - Couch experience?<br/>
                     </p>
                     <br/>
                     <h2 id="GameCompat">Game Compatibility</h2>
@@ -370,14 +388,14 @@
                     <h3 id="JazzJackrabbit2">Jazz Jackrabbit 2</h3>
                     <p>
                     Proton (Any modern version)<br/>
-                    Technology: Unknown, Direct3D < 9<br/>
+                    Technology: Unknown, DDraw, WinMM<br/>
                     Controller support: Bad (Steam Input works decently well)<br/>
                     Notes:<br/>
                      - Locked to 4:3<br/>
                      - Requires dgVoodoo2, add ddraw.dll as native to winecfg<br/>
                      - <a href="steam://controllerconfig/jazz%20jackrabbit%202/2673462395">Steam Input Config</a><br/>
                      - Credits render as black and flicker when you skip them.<br/>
-                     - Delete C:\Windows\SysWOW64\winejoystick.drv to fix the ghost joystick issue. (This unfortunately makes multiplayer inaccessible). <a href="https://github.com/ValveSoftware/Proton/issues/5388">GitHub Issue</a><br/>
+                     - Delete C:\Windows\SysWOW64\winejoystick.drv to fix the ghost joystick issue. (This unfortunately makes multiplayer inaccessible).
                      - TODO: Stability issues?<br/>
                     <img src="../../assets/img/projects/linuxnotes/silver.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/jazz2_1.png"><br/>
@@ -453,7 +471,7 @@
                     <h3 id="LunaGame">Luna Game</h3>
                     <p>
                     Proton (Any modern version)<br/>
-                    Technology: GameMaker, Direct3D<br/>
+                    Technology: GameMaker, DirectDraw<br/>
                     Controller support: None, use Steam Input<br/>
                     Notes:<br/>
                      - Forcing gamescope is required for Steam Overlay.<br/>
@@ -482,7 +500,6 @@
                     Notes:<br/>
                      - GZDoom has a ton of options and looks really bad by default.<br/>
                      - Controller support will take a bit of fiddling, but after that, it's perfect. Certain things like the map or the main menu aren't assignable though.<br/>
-                     -
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/doom1.png"><br/>
                     </p>
@@ -520,7 +537,7 @@
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/petscop1.png"><br/>
                     </p>
-                    <h3 id="Sword With Sauce">Sword With Sauce</h3>
+                    <h3 id="SwordWithSauce">Sword With Sauce</h3>
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: Unreal, Direct3D<br/>
@@ -529,6 +546,50 @@
                      - Developer has abandoned this game<br/>
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/swordwithsauce1.png"><br/>
+                    </p>
+                    <h3 id="YumeNikki">Yume Nikki</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: RPG Maker, DirectDraw<br/>
+                    Controller support: None (Steam Input works perfectly!)<br/>
+                    Notes:<br/>
+                     - <a href="steam://controllerconfig/650700/2678803681">Steam Input Config</a><br/>
+                     - Game uses DirectDraw, and as a result has issues with Steam Overlay. Use Gamescope or dgVoodoo2<br/>
+                    <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/yumenikki1.png"><br/>
+                    </p>
+                    <h3 id="FEZ">FEZ</h3>
+                    <p>
+                    Native (Thanks Flibitijibibo!)<br/>
+                    Technology: XNA/FNA, OpenGL<br/>
+                    Controller support: Perfect<br/>
+                    Notes:<br/>
+                     - None!<br/>
+                    <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/fez1.png"><br/>
+                    </p>
+                    <h3 id="DuckGame">Duck Game</h3>
+                    <p>
+                    Proton (Use GloriousEggroll)<br/>
+                    Technology: XNA, OpenGL<br/>
+                    Controller support: Imperfect<br/>
+                    Notes:<br/>
+                     - Requires Proton-GE because using controllers in mainline Proton will not work.<br/>
+                     - DualShock 4 controllers have a <a href="https://www.youtube.com/watch?v=6rFyewDEFN4">phantom issue.</a><br/>
+                     - Text in the configuration menu is <a href="../../assets/img/projects/linuxnotes/duckgame_text.png">corrupted but still legible.</a><br/>
+                     - When not using Proton-GE the "-linux" flag must be used otherwise the game will crash.<br/>
+                    <img src="../../assets/img/projects/linuxnotes/silver.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/duckgame1.png"><br/>
+                    </p>
+                    <h3 id="GeometryWarsRE">Geometry Wars: Retro Evolved</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Unknown, Direct3D<br/>
+                    Controller support: Perfect<br/>
+                    Notes:<br/>
+                     - None!<br/>
+                    <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/geometrywarsre1.png"><br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
@@ -546,10 +607,22 @@
                      - To work around it, you can use either Proton-GE (Imperfect) or rip the DLLs from a Windows installation (perfect).<br/>
                      - Otherwise, more often then not, games will just display a test pattern.<br/>
                     </p>
+                    <h3 id="DDraw">DirectDraw</h3>
+                    <p>
+                     - Examples: Yume Nikki, Luna Game, Jazz Jackrabbit 2<br/>
+                     - Outdated DirectX graphics API that renders in WineD3D. Will cause problems with Steam Overlay.<br/>
+                     - The workaround is to force dgVoodoo2 or use Gamescope.<br/>
+                    </p>
+                    <h3 id="WinMM">Windows Multimedia API</h3>
+                    <p>
+                     - Examples: Jazz Jackrabbit 2<br/>
+                     - Causes issues with Joysticks because Proton's implementation currently relies on /dev/jsX and not SDL2.<br/>
+                     - Fixing this is in their roadmap. <a href="https://github.com/ValveSoftware/Proton/issues/5388">GitHub Issue</a><br/>
+                    </p>
                     <h3 id="dgVoodoo2">dgVoodoo2</h3>
                     <p>
                      - Closed source.<br/>
-		     - Doesn't respond to configuration changes in Wine, dgVoodoo logo is stuck permanently! >:(<br/>
+                     - Doesn't respond to configuration changes in Wine, dgVoodoo logo is stuck permanently! >:(<br/>
                     </p>
                     <br/>
                     <h2 id="Glossary">Glossary</h3>
@@ -570,12 +643,10 @@
                      - Grand Theft Auto: San Andreas<br/>
                      - Grand Theft Auto: Vice City<br/>
                      - Quake II<br/>
-                     - Sword With Sauce<br/>
                      - Deus Ex: Game of the Year Edition<br/>
                      - Unreal Tournament: Game of the Year Edition<br/>
                      - Wolfenstein 3D<br/>
                      - Stick Fight: The Game<br/>
-                     - Sonic Adventure DX<br/>
                      - Sonic CD<br/>
                      - Sara Is Missing<br/>
                      - SIMULACRA<br/>
@@ -592,9 +663,7 @@
                      - Half-Life (Steam Release)<br/>
                      - Guacamelee! Super Turbo Championship Edition!<br/>
                      - Five Nights at Freddy's<br/>
-                     - FEZ<br/>
                      - Braid<br/>
-                     - Duck Game<br/>
                      - Ultimate Chicken Horse<br/>
                      - The Basement Collection<br/>
                      - LEGO Island<br/>
@@ -604,7 +673,6 @@
                      - Commander Keen Complete Pack<br/>
                      - Streets of Rage 4<br/>
                      - Cave Story<br/>
-                     - Yume Nikki<br/>
                      - Gang Beasts<br/>
                      - SpeedRunners<br/>
                      - Gang Beasts<br/>
