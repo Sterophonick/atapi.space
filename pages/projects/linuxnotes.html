@@ -55,6 +55,7 @@
                      - These notes target SteamOS 3.0 for Steam Deck. I will not be using Lutris.<br/>
                      - Games not scaling to 16:10 isn't a huge enough issue to warrant lowering the rating.<br/>
                      - I expect some games to get updated to fix the issues, such as Portal Stories: Mel<br/>
+                     - DualShock 4 and Nintendo Switch Pro Controllers have phantoming issues as of writing this.<br/>
                      - Once Steam Deck is released, THIS WILL ALL BE OUTDATED. I do not recieve my Deck until sometime after Q2 2022.<br/>
                     </p>
                     <h3 id="ImportantCompatibility">Game Compatibility Notes</h3>
@@ -674,6 +675,7 @@
                     Controller support: Perfect<br/>
                     Notes:<br/>
                      - Windowed mode by default. Not a big deal since Deck uses Gamescope. Can be forced in configuration.<br/>
+                     - Doesn't have the fancy borders of the Nintendo Switch version.<br/>
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/precious_baby.png"><br/>
                     </p>
@@ -686,8 +688,47 @@
                      - Brings up a generic Unity configuration screen.<br/>
                      - MangoHUD and Steam Overlay have loads of trouble here.<br/>
                      - Requires Media Foundation for 60SEGA intro.<br/>
+                     = Does not scale to 16:10.</br>
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/goldenaxed1.png"><br/>
+                    </p>
+                    <h3 id="TuxRacer">TuxRacer</h3>
+                    <p>
+                    Native<br/>
+                    Technology: Unknown, OpenGL<br/>
+                    Controller support: Bad (Steam Input works fine)<br/>
+                    Notes:<br/>
+                     - Responded to Steam Input keyboard emulation but not alternate controller schemes (e.g. swapping buttons); it's based on SDL 1.2.<br/>
+                     - Gamescope is highly recommended as it will mess with X server resolutions.<br/>
+                    <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/tuxracer1.png"><br/>
+                    </p>
+                    <h3 id="IMSCARED">IMSCARED</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: GameMaker, Direct3D<br/>
+                    Controller support: None (Steam Input works fine)<br/>
+                    Notes:<br/>
+                     - Game relies on file manipulation.<br/>
+                     - Desktop folder is created in WinePrefix, but not in ~/Desktop.<br/>
+                     - Cannot refocus game after alt-tabbing when in Windowed mode.<br/>
+                     - Some versions of Proton have issues with a stuttery mouse.<br/>
+                     - THIS GAME, IN ITS CURRENT STATE, WILL NEVER BE GOOD ON A HANDHELD.<br/>
+                    <img src="../../assets/img/projects/linuxnotes/bronze.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/imscared1.png"><br/>
+                    </p>
+                    <h3 id="Undertale">Undertale</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: GameMaker: Studio, Direct3D<br/>
+                    Controller support: Perfect<br/>
+                    Notes:<br/>
+                    - Always windowed by default. Gamescope fixes this.<br/>
+                    - Linux: HORRIBLE frame pacing.<br/>
+                    - Linux: No joystick support (Steam Input works perfectly)<br/>
+                    - Linux: Crashes with Feral GameMode.<br/>
+                    <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="../../assets/img/projects/linuxnotes/undertale1.png"><br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
@@ -798,7 +839,6 @@
                      - Duke Nukem 3D<br/>
                      - SuperTux<br/>
                      - SuperTuxKart<br/>
-                     - TuxRacer<br/>
                      - 3D Pinball for Windows: Space Cadet<br/>
                      - Super Mario War<br/>
                      - Mari0<br/>
