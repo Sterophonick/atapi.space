@@ -239,7 +239,10 @@
                                     <a href="#PuttPuttPBS">Putt-Putt: Pep's Birthday Surprise</a>
                                 </li>
                                 <li>
-                                    <a href="#TF2">Team Fortress 2</a>
+                                    <a href="#TeamFortress2">Team Fortress 2</a>
+                                </li>
+                                <li>
+                                    <a href="#GangBeasts">Gang Beasts</a>
                                 </li>
 							</ul>
                         </li>
@@ -279,7 +282,7 @@
                     <br/>
 				</div>
 				<div id="content">
-                    <h2 id="Important">Important Information</h2>
+                    <h2 id="Important">README.TXT</h2>
                     <h3 id="ImportantGeneral">General Information</h3>
                     <p>
                      - Intel's Mesa3D Linux drivers are dramatically unperformant compared to their Windows counterparts.<br/>
@@ -291,7 +294,7 @@
                      - Once Steam Deck is released, THIS WILL ALL BE OUTDATED. I do not recieve my Deck until sometime after Q2 2022.<br/>
                      - My machine is nowhere close to the power of Steam Deck.<br/>
                      - These notes are not like Steam Deck verified, this is more targeting enthusiasts such as myself who are more than willing to tinker to get games working.<br/>
-                     -
+                     - All controllers I'm testing are wired.<br/>
                     </p>
                     <h3 id="ImportantCompatibility">Game Compatibility Notes</h3>
                     <p>
@@ -355,7 +358,10 @@
                     <p>
                     Native<br/>
                     Technology: Unity, OpenGL (Vulkan optional)<br/>
-                    Controller support: Imperfect<br/>
+                    Controller support:<br/>
+                    - Xbox One: Supported<br/>
+                    - DualShock 4: Supported<br/>
+                    - Nintendo Switch: Unpredictable<br/>
                     Notes:<br/>
                      - Triggers, Stick Buttons, and D-Pad are bored out of the box. Fixed with <a href="steam://controllerconfig/519860/2679061214">this controller config.</a><br/>
                      - -force-vulkan can be used to force Vulkan</br>
@@ -617,7 +623,10 @@
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: Custom, Direct3D<br/>
-                    Controller support: Perfect<br/>
+                    Controller support: Steam Input<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Does not scale to 16:10<br/>
                     <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -918,10 +927,14 @@
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: GameMaker, Direct3D<br/>
-                    Controller support: Perfect<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Crashed<br/>
                     Notes:<br/>
                      - Windowed mode by default. Not a big deal since Deck uses Gamescope. Can be forced in configuration.<br/>
                      - Doesn't have the fancy borders of the Nintendo Switch version.<br/>
+                     - Doesn't change button icons by default like it does on Windows.<br/>
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="../../assets/img/projects/linuxnotes/precious_baby.png"><br/>
                     </p>
@@ -1115,6 +1128,19 @@
                     <img src="../../assets/img/projects/linuxnotes/silver.png"><br/>
                     <img src="../../assets/img/projects/linuxnotes/tf2.png"><br/>
                     </p>
+                    <h3 id="GangBeasts">Gang Beasts</h3>
+                    <p>
+                    Native<br/>
+                    Technology: Unity, OpenGL (Vulkan available)<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Broken, unpredictable<br/>
+                    Notes:<br/>
+                     - Vulkan available with -force-vulkan<br/>
+                    <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img src="../../assets/img/projects/linuxnotes/gangbeasts1.png"><br/>
+                    </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
                     <h3 id="XNA_FNA">XNA/FNA</h3>
@@ -1158,10 +1184,15 @@
                      - Crashes most games running in Proton.<br/>
                      - This is likely due to the lack of a proper kernel driver up until Kernel 5.16.<br/>
                      - Steam is incredibly jank with them on Linux when compared to Windows.<br/>
+                     - If games don't crash with them, often times they will express unpredictable, erratic behavior. Doesn't occur over bluetooth.<br/>
                      - I expect this to get remedied with SteamOS.<br/>
                     </p>
                     <br/>
-                    <h2 id="Glossary">Glossary</h3>
+                    <h2 id="Random">Random Thoughts</h2>
+                    - Can we disable creation of device files for real controllers and only allow for the visibility of Steam Virtual Gamepads?<br/>
+                    - Will it be possible for Gamescope to handle multiple XWayland clients?<br/>
+                    - BtrFS compression?<br/>
+                    <h2 id="Glossary">Glossary</h2>
                     <p>
                     Gamescope: An XWayland window compositor by Plagman that will force windows into fullscreen<br/>
                     Steam Input: Valve's powerful controller configuration software<br/>
@@ -1203,9 +1234,7 @@
                      - The Neverhood<br/>
                      - Commander Keen Complete Pack<br/>
                      - Streets of Rage 4<br/>
-                     - Gang Beasts<br/>
                      - SpeedRunners<br/>
-                     - Gang Beasts<br/>
                      - Quake III Arena<br/>
                      - NiGHTS Into Dreams...<br/>
                      - Return to Castle Wolfenstein<br/>
