@@ -869,7 +869,10 @@
                     <p>
                     Native (Thanks Flibitijibibo!)<br/>
                     Technology: XNA/FNA, OpenGL<br/>
-                    Controller support: Perfect<br/>
+                    Controller support:<br/>
+                     - Xbox One: Ignores Steam Input<br/>
+                     - DualShock 4: Ignores Steam Input<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - None!<br/>
                     <img src="../../assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -879,10 +882,12 @@
                     <p>
                     Proton (Use GloriousEggroll)<br/>
                     Technology: XNA, OpenGL<br/>
-                    Controller support: Imperfect<br/>
+                    Controller support:<br/>
+                    - Xbox One: Perfect<br/>
+                    - DualShock 4: Phantom Second Controller<br/>
+                    - Nintendo Switch: Untested<br/>
                     Notes:<br/>
                      - Requires Proton-GE because using controllers in mainline Proton will not work.<br/>
-                     - DualShock 4 controllers have a <a href="https://www.youtube.com/watch?v=6rFyewDEFN4">phantom issue.</a><br/>
                      - Text in the configuration menu is <a href="../../assets/img/projects/linuxnotes/duckgame_text.png">corrupted but still legible.</a><br/>
                      - When not using Proton-GE the "-linux" flag must be used otherwise the game will crash.<br/>
                     <img src="../../assets/img/projects/linuxnotes/silver.png"><br/>
@@ -972,7 +977,10 @@
                     <p>
                     Proton (GloriousEggroll)<br/>
                     Technology: Unity, Direct3D<br/>
-                    Controller support: Perfect<br/>
+                    Controller support:<br/>
+                    - Xbox One: Perfect<br/>
+                    - DualShock 4: Phantom Second Controller<br/>
+                    - Nintendo Switch: Phantom Second Controller<br/>
                     Notes:<br/>
                      - Brings up a generic Unity configuration screen.<br/>
                      - MangoHUD and Steam Overlay have loads of trouble here.<br/>
@@ -1222,6 +1230,7 @@
                     - Can we disable creation of device files for real controllers and only allow for the visibility of Steam Virtual Gamepads?<br/>
                     - Will it be possible for Gamescope to handle multiple XWayland clients?<br/>
                     - BtrFS compression?<br/>
+                    <br/>
                     <h2 id="Glossary">Glossary</h2>
                     <p>
                     Gamescope: An XWayland window compositor by Plagman that will force windows into fullscreen<br/>
