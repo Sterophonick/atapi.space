@@ -627,7 +627,11 @@
                     <p>
                     Native<br/>
                     Technology: QuakeSpasm-Spiked, OpenGL<br/>
-                    Controller support: Very Imperfect (Steam Input works great!)<br/>
+                    Controller support:<br/>
+                     - Xbox One: Supported<br/>
+                     - DualShock 4: Second Phantom Controller<br/>
+                     - Nintendo Switch: Second Phantom Controller<br/>
+                     - Google Stadia: Second Phantom Controller<br/>
                     Notes:<br/>
                      - Using a Steam Input config with an analog stick but everything else as KB/M is a good idea.<br/>
                      - <a href="steam://controllerconfig/slayer%27s%20testaments/2679545071">Steam Input Controller Config</a><br/>
@@ -893,7 +897,8 @@
                     Controller support:<br/>
                     - Xbox One: Perfect<br/>
                     - DualShock 4: Phantom Second Controller<br/>
-                    - Nintendo Switch: Untested<br/>
+                    - Nintendo Switch: Crashed<br/>
+                    - Google Stadia: Phantom Second Controller<br/>
                     Notes:<br/>
                      - Requires Proton-GE because using controllers in mainline Proton will not work.<br/>
                      - Text in the configuration menu is <a href="../../assets/img/projects/linuxnotes/duckgame_text.png">corrupted but still legible.</a><br/>
@@ -1245,9 +1250,22 @@
                     </p>
                     <br/>
                     <h2 id="Random">Random Thoughts</h2>
-                    - Can we disable creation of device files for real controllers and only allow for the visibility of Steam Virtual Gamepads?<br/>
-                    - Will it be possible for Gamescope to handle multiple XWayland clients?<br/>
+                    - How can we prevent programs outside of the Steam client from reading controllers other than the Steam Virtual Gamepad? (This is a MASSIVE conern of mine)<br/>
+                    - Will it be possible for Gamescope to handle multiple XWayland clients? (This would allow much greater usability eith the standalone release of Dolphin Emulator)<br/>
                     - BtrFS compression?<br/>
+                    <br/>
+                    <h2 id="Controllers">Me Yelling About Controller Jank</h2>
+                    - The controller experience is... less than stellar.<br/>
+                    - My goal is to have Steam Input enabled for <i>every</i> game because the configuration it provides is nothing short of stellar.<br/>
+                    - I've noticed that a lot of games and emulators will detect both the Steam Virtual Gamepad and real controller at the same time when Steam Input is enabled.<br/>
+                    - Along with that, Nintendo Switch controllers will cause most games in Proton to just crash outright.<br/>
+                    - In some cases, such as Slayer's Testaments and Proton, these two problems can be fixed with SDL_JOYSTICK_HIDAPI=0 in Steam's launch options<br/>
+                    - In other cases, such as RetroArch and Duck Game, this will just cause more issues.<br/>
+                    - For example, RetroArch doesn't have the capability of not detecting controllers outside of SVG.<br/>
+                    - And in DUSK, Nintendo Switch controllers cause the game to freak out no matter what you do.<br/>
+                    - The solution to all of these problems would be to devise of a method to hide physical joystick activity to the games, only letting Steam read that.<br/>
+                    - My hope is that Valve is working on it for SteamOS but i'm not confident and it'll really hamper the Steam Deck as a couch gaming machine.<br/>
+                    - While Deck is primarily a handheld, many people such as myself are gonna want to play on the couch as well, and that's where this controller nonsense is necessary.<br/>
                     <br/>
                     <h2 id="Glossary">Glossary</h2>
                     <p>
