@@ -1292,21 +1292,21 @@
                     - BtrFS compression?<br/>
                     <br/>
                     <h2 id="Controllers">Me Yelling About Controller Jank</h2>
-                    - The controller experience is... less than stellar.<br/>
+                    - The controller experience is... less than great out of the box.<br/>
                     - My goal is to have Steam Input enabled for <i>every</i> game because the configuration it provides is nothing short of stellar.<br/>
-                    - I've noticed that a lot of games and emulators will detect both the Steam Virtual Gamepad and real controller at the same time when Steam Input is enabled.<br/>
-                    - Along with that, Nintendo Switch controllers will cause most games in Proton to just crash outright.<br/>
-                    - In some cases, such as Slayer's Testaments and Proton, these two problems can be fixed with SDL_JOYSTICK_HIDAPI=0 in Steam's launch options<br/>
-                    - In other cases, such as RetroArch and Duck Game, this will just cause more issues.<br/>
-                    - For example, RetroArch doesn't have the capability of ignoring controllers outside of Steam Virtual Gamepad.<br/>
-                    - And in DUSK, Nintendo Switch controllers cause the game to freak out no matter what you do.<br/>
-                    - The solution to all of these problems would be to devise of a method to hide physical joystick activity to the games, only letting Steam read that.<br/>
-                    - My hope is that Valve is working on it for SteamOS but i'm not confident and it'll really hamper the Steam Deck as a couch gaming machine.<br/>
-                    - While Deck is primarily a handheld, many people such as myself are gonna want to play on the couch as well, and that's where this controller nonsense is necessary.<br/>
-                    - Possible solutions:
-                    - chmod 000'ing every pertinent device file and forcing SDL_JOYSTICK_HIDAPI to 0 upon launching each game<br/>
-                    - Prevent creation of non-SI related device files in the first place<br/>
                     <br/>
+                    Issues:<br/>
+                     - Games ignoring Steam Input<br/>
+                     - Games reading multiple controllers when one controller is plugged in (Phantom Controllers)<br/>
+                     - Nintendo Switch controllers behaving unpredictably<br/>
+                    <br/>
+                    <b>Solution</b>:<br/>
+                    - SDL_JOYSTICK_HIDAPI=0<br/>
+                    - chmod 000'ing every related device file in /dev/input/by-id<br/>
+                    - I've done some testing and it has fixed the issues in every single game as far as I've seen.<br/>
+                    <br/>
+                    Concerns:<br/>
+                    - Hopefully SteamOS gets implements a fix like this into SteamOS
                     <h2 id="Glossary">Glossary</h2>
                     <p>
                     Gamescope: An XWayland window compositor by Plagman that will force windows into fullscreen<br/>
