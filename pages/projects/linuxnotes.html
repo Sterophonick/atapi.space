@@ -1319,6 +1319,19 @@
                     <img src="../../assets/img/projects/linuxnotes/gold.png"><br/>
                     <img src="../../assets/img/projects/linuxnotes/clonedrone1.png"><br/>
                     </p>
+                    <h3 id="Sonic2Exe">SONIC2.EXE</h3>
+                    <p>
+                    Proton (GloriousEggroll)<br/>
+                    Technology: GameMaker 8, Direct3D 8, Media Foundation<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - See <a href="#GameMaker8">GameMaker 8</a>.<br/>
+                     - Audio for intro FMV plays, but video is black and shows a window that's not present in Windows.<br/>
+                     - Awful frame times when scenes change.<br/>
+                     - Game locks up after intro FMV in standard Wine.<br/>
+                    <img src="../../assets/img/projects/linuxnotes/bronze.png"><br/>
+                    <img src="../../assets/img/projects/linuxnotes/sonic2_exe1.png"><br/>
+                    </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
                     <h3 id="XNA_FNA">XNA/FNA</h3>
@@ -1363,7 +1376,16 @@
                      - This is likely due to the lack of a proper kernel driver up until Kernel 5.16.<br/>
                      - Steam is incredibly jank with them on Linux when compared to Windows.<br/>
                      - If games don't crash with them, often times they will express unpredictable, erratic behavior. Doesn't occur over bluetooth.<br/>
-                     - I expect this to get remedied with SteamOS.<br/>
+                     - I expect this to get remedied out of the box with SteamOS.<br/>
+                    </p>
+                    <h3 id="GameMaker8">GameMaker 8</h3>
+                    <p>
+                     - Relies on DirectPlay and DirectMusic.<br/>
+                     - A lot of methods in DPlay and DMusic are stubbed, leading to missing audio. The big stub is IDirectMusicPerformance8Impl_PlaySegmentEx in dmime.dll.<br/>
+                     - Music often times works, but sound effects are completely missing.<br/>
+                     - Using Winetricks for dmime allows for sound effects to function, but then music gets interrupted.<br/>
+                     - Using Winetricks for the entirety of DPlay and DMusic will lead to audio latency of ~0.3 seconds.<br/>
+                     - Also bad performance in a handful of games, despite them being simple 2D games.<br/>
                     </p>
                     <br/>
                     <h2 id="Random">Random Thoughts</h2>
@@ -1382,8 +1404,9 @@
                     <br/>
                     <b>Solution</b>:<br/>
                     - SDL_JOYSTICK_HIDAPI=0<br/>
-                    - chmod 000'ing every related device file in /dev/input/by-id<br/>
+                    - Running <a href="../../files/SteamControllerFix.sh">this script I wrote</a> in the background while Steam is open.<br/>
                     - I've done some testing and it has fixed the issues in every single game as far as I've seen.<br/>
+                    - This unfortunately causes Rumble to stop working entirely with Xbox controllers.<br/>
                     <br/>
                     Concerns:<br/>
                     - Hopefully SteamOS gets implements a fix like this into SteamOS 3.0 for Steam Deck<br/>
