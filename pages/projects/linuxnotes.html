@@ -1509,6 +1509,9 @@
                     - Running <a href="../../files/SteamControllerFix.sh">this script I wrote</a> in the background while Steam is open.<br/>
                     - I've done some testing and it has fixed the issues in every single game as far as I've seen.<br/>
                     - This unfortunately causes Rumble to stop working entirely with Xbox controllers.<br/>
+                    - This script is not a clean solution, unfortunately.<br/>
+                    - The more elegant solution would be to implement Xbox and Stadia controllers using HID and then set up udev rules to chmod 000 the joydev and evdev device files.<br/>
+                    - This has a much higher likelihood of allowing for hotplugging support while a game is running.<br/>
                     <br/>
                     Concerns:<br/>
                     - Hopefully SteamOS gets implements a fix like this into SteamOS 3.0 for Steam Deck<br/>
