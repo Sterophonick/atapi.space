@@ -1,120 +1,142 @@
-body {
-	background-image: url("../assets/img/global/bkg.png");
-	background-repeat: repeat;
-	font-family: AppleKid;
-		color:#eaeaea;
-		font-size:20pt;
-	line-height: 1;
+@font-face {
+  font-family: AppleKid;
+  src: url("../assets/woff/Apple-Kid.woff2") format("woff2"),
+    url("../assets/woff/Apple-Kid.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-	font-smooth: never;
+  font-smooth: never;
+}
+
+body {
+  background-image: url("../assets/img/global/bkg.png");
+  background-repeat: repeat;
+  font-family: AppleKid;
+  color: #eaeaea;
+  font-size: 20pt;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: AppleKid;
+  line-height: 0.3;
+  letter-spacing: 0.8px;
+  color: #b5e853;
+}
+
+h1 {
+  font-size: 35pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-size: 25pt;
 }
 
 h4 {
-	font-family: AppleKid;
-	line-height: 0.3;
-	letter-spacing: 0.8px;
-	font-size:20pt;
-	color:#b5e853;
+  font-size: 20pt;
 }
-h3 {
-	font-family: AppleKid;
-	line-height: 0.3;
-	letter-spacing: 0.8px;
-	font-size:25pt;
-	color:#b5e853;
-}
-h2 {
-	font-family: AppleKid;
-	line-height: 0.3;
-	letter-spacing: 0.8px;
-	font-size:30pt;
-	color:#b5e853;
-}
-h1 {
-	font-family: AppleKid;
-	line-height: 0.3;
-	letter-spacing: 0.8px;
-	font-size:35pt;
-	color:#b5e853;
-}
-@font-face {
-	font-family: AppleKid;
-	src: url('../assets/woff/Apple-Kid.woff2') format('woff2'),
-		url('../assets/woff/Apple-Kid.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
+
 a {
-    color: #63c0f5;
-    text-shadow: 0 0 5px rgba(104,182,255,0.5);
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 .column {
-	float: left;
-	padding: 10px;
-	padding-right: 15px;
-	height: 100%;
+  float: left;
+  padding: 10px;
+  padding-right: 15px;
+  height: 100%;
 }
 
-.sidebar {
-	background-image: url("../assets/img/global/bkg.png");
-	width: 260px;
-	overflow: auto;
-	text-align: center;
-	position: fixed;
-	overflow: none;
+#sidebar {
+  background-image: url("../assets/img/global/bkg.png");
+  width: 260px;
+  overflow: auto;
+  text-align: center;
+  position: fixed;
+  overflow: none;
 }
 
-.sidebar-bottom {
-	margin-top: 2.5rem;
+#sidebar h1 {
+  line-height: 1;
+  font-size: 32pt;
+}
+
+#sidebar-bottom {
+  margin-top: 2.5rem;
+}
+
+#sidebar-bottom .icon {
+  width: 42px;
+  height: 42px;
 }
 
 .sidebar-border {
-	background-image: url("../assets/img/global/border.png");
-	width: 6px;
-	padding: 0px;
-	position: fixed;
-	margin-left: 18rem;
-	overflow: none;
+  background-image: url("../assets/img/global/border.png");
+  width: 6px;
+  padding: 0px;
+  position: fixed;
+  margin-left: 18rem;
+  overflow: none;
 }
 
 .mainContent {
-	margin-left: 19rem;
+  margin-left: 19rem;
 }
 
-#navigation a {
-	line-height: 1.5;
-	vertical-align: middle;
-	
+/* TODO: this should be a class rather than a large amount of id's */
+#galleryMyself,
+#galleryQuickStars,
+#galleryIsaiahDeluxe,
+#galleryScottAllRubin,
+#galleryKarmageddon,
+#galleryQueerKobold,
+#galleryFerris,
+#galleryAlt,
+#galleryUbecas,
+#galleryCrs100,
+#galleryHertzko,
+#galleryPigDan,
+#galleryMkMuffi,
+#galleryPeakJuggler {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 265px 265px 265px;
+  grid-gap: 10px;
 }
-
-#galleryMyself, #galleryQuickStars, #galleryIsaiahDeluxe, #galleryScottAllRubin, #galleryKarmageddon, #galleryQueerKobold, #galleryFerris, #galleryAlt, #galleryUbecas, #galleryCrs100, #galleryHertzko, #galleryPigDan, #galleryMkMuffi, #galleryPeakJuggler{
-	display: grid;
-	text-align: center;
-	align-items: center;
-	grid-template-columns: 265px 265px 265px;
-	grid-gap: 10px;
-}
-
 
 .galleryImg {
-	width: 100%
+  width: 100%;
 }
 
 .shruggie {
-	font-family: AppleKid;
+  font-family: AppleKid;
 }
 
 .shruggie shruggieTag {
-	font-family: Helvetica;
+  font-family: Helvetica;
 }
 
 .greentext {
-	font-family: AppleKid;
+  font-family: AppleKid;
 }
 
 .greentext greentextTag {
-	color: #789922;
+  color: #789922;
+}
+
+small {
+  font-size: 14pt;
 }
