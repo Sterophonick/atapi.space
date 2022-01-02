@@ -16,11 +16,11 @@ document.write(`
         <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br />
     </nav>
     <div id="sidebar-bottom">
-        <a href="https://github.com/Sterophonick" title="GitHub"><img src="./assets/img/global/github.png" class="icon" /></a>
-        <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp"><img src="./assets/img/global/tempy.webp" class="icon" /></a>
-        <a href="https://youtube.com/sterophonick" title="YouTube"><img src="./assets/img/global/youtube.webp" class="icon" /></a>
-        <a href="https://twitter.com/sterophonick" title="Twitter"><img src="./assets/img/global/twitter.png" class="icon" /></a><br/>
-        <a href="https://github.com/Sterophonick/sterophonick.github.io"><small>Website Source</small></a>
+        <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img src="./assets/img/global/github.png" class="icon" /></a>
+        <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img src="./assets/img/global/tempy.webp" class="icon" /></a>
+        <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img src="./assets/img/global/youtube.webp" class="icon" /></a>
+        <a href="https://twitter.com/sterophonick" title="Twitter" target="_blank"><img src="./assets/img/global/twitter.png" class="icon" /></a><br/>
+        <a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>
     </div>
 </div>
 <div class="column sidebar-border">
