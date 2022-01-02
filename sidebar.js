@@ -1,7 +1,7 @@
 document.write(`
 <div id="sidebar" class="column">
     <div class="header">
-        <a href="./index.html"><img src="./assets/img/global/pfp.png" title="Atapi PFP by @ScottAllRubin!"></a>
+        <a href="./index.html" id="logo"><img src="./assets/img/global/pfp.png" title="Atapi PFP by @ScottAllRubin!"></a>
         <h1>Sterophonick's Own<br>Little World</h1>
         <p>wait i have a website now?</p>
     </div>

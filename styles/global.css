@@ -73,6 +73,10 @@ a {
   font-size: 32pt;
 }
 
+#logo{
+	display: inline-block;
+}
+
 #sidebar-bottom {
   margin-top: 2.5rem;
 }
@@ -133,8 +137,9 @@ a {
   font-family: AppleKid;
 }
 
-.greentext greentextTag {
+.greentext i {
   color: #789922;
+  font-style: normal;
 }
 
 small {
