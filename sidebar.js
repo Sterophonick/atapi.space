@@ -1,28 +1,29 @@
-document.write( '		<div class=\"column sidebar\">\n' );
-document.write( '			<div class=\"header\">\n' );
-document.write( '				<a href=\"./index.html\"><img src=\"./assets/img/global/pfp.png\" title=\"Atapi PFP by @ScottAllRubin!\"></a>\n' );
-document.write( '				<h1 style="font-size:32pt">Sterophonick\'s Own</h1>\n' );
-document.write( '				<h1 style="font-size:32pt">Little World</h1>\n' );
-document.write( '				<p>wait i have a website now?</p>\n' );
-document.write( '			</div>\n' );
-document.write( '			<div class=\"navigation\">\n' );
-document.write( '				<a href=\"projects.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/folder.png\"> Projects and Stuff</a><br />\n' );
-document.write( '				<a href=\"misc.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/misc.png\"> Miscellaneous Stuff</a><br />\n' );
-document.write( '				<a href=\"pages/projects/linuxnotes.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/linuxgame.png\"> Linux Gaming Notes</a><br />\n' );
-document.write( '				<a href=\"dumps.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/chip.png\"> Dumps</a><br />\n' );
-document.write( '				<a href=\"blog.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/notepad.png\"> Blog</a><br />\n' );
-document.write( '				<a href=\"gallery.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/gallery.png\"> Gallery</a><br />\n' );
-document.write( '				<a href=\"greetz.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/greetz.png\"> Special Greetz</a><br />\n' );
-document.write( '				<a href=\"links.html\"><img style=\"vertical-align:middle\" src=\"./assets/img/global/links.png\"> Links</a><br />\n' );
-document.write( '			</div>\n' );
-document.write( '			<div class=\"sidebar-bottom\">\n' );
-document.write( '				<a href=\"https://github.com/Sterophonick" title="GitHub"><img src=\"./assets/img/global/github.png\" style=\"width:42px;height:42px;\"></a>\n' );
-document.write( '				<a href=\"https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp"><img src=\"./assets/img/global/tempy.webp\" style=\"width:42px;height:42px;\"></a>\n' );
-document.write( '				<a href=\"https://youtube.com/sterophonick" title="YouTube"><img src=\"./assets/img/global/youtube.webp\" style=\"width:42px;height:42px;\"></a>\n' );
-document.write( '				<a href=\"https://twitter.com/sterophonick" title="Twitter"><img src=\"./assets/img/global/twitter.png\" style=\"width:42px;height:42px;\"></a><br/>\n' );
-document.write( '				<a href=\"https://github.com/Sterophonick/sterophonick.github.io" style=\"font-size:14pt\">Website Source</a>\n ');
-document.write( '			</div>' );
-document.write( '		</div>\n' );
-document.write( '		<div class=\"column sidebar-border\">\n' );
-document.write( '			<!--bruh-->\n' );
-document.write( '		</div>' );
+document.write(`
+<div id="sidebar" class="column">
+    <div class="header">
+        <a href="./index.html" id="logo"><img src="./assets/img/global/pfp.png" title="Atapi PFP by @ScottAllRubin!"></a>
+        <h1>Sterophonick's Own<br>Little World</h1>
+        <p>wait i have a website now?</p>
+    </div>
+    <nav id="navigation">
+        <a href="projects.html"><img style="vertical-align:middle" src="./assets/img/global/folder.png"> Projects and Stuff</a><br />
+        <a href="misc.html"><img style="vertical-align:middle" src="./assets/img/global/misc.png"> Miscellaneous Stuff</a><br />
+        <a href="pages/projects/linuxnotes.html"><img style="vertical-align:middle" src="./assets/img/global/linuxgame.png"> Linux Gaming Notes</a><br />
+        <a href="dumps.html"><img style="vertical-align:middle" src="./assets/img/global/chip.png"> Dumps</a><br />
+        <a href="blog.html"><img style="vertical-align:middle" src="./assets/img/global/notepad.png"> Blog</a><br />
+        <a href="gallery.html"><img style="vertical-align:middle" src="./assets/img/global/gallery.png"> Gallery</a><br />
+        <a href="greetz.html"><img style="vertical-align:middle" src="./assets/img/global/greetz.png"> Special Greetz</a><br />
+        <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br />
+    </nav>
+    <div id="sidebar-bottom">
+        <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img src="./assets/img/global/github.png" class="icon" /></a>
+        <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img src="./assets/img/global/tempy.webp" class="icon" /></a>
+        <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img src="./assets/img/global/youtube.webp" class="icon" /></a>
+        <a href="https://twitter.com/sterophonick" title="Twitter" target="_blank"><img src="./assets/img/global/twitter.png" class="icon" /></a><br/>
+        <a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>
+    </div>
+</div>
+<div class="column sidebar-border">
+    <!--bruh-->
+</div>
+`);
