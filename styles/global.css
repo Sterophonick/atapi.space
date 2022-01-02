@@ -99,21 +99,7 @@ a {
   margin-left: 19rem;
 }
 
-/* TODO: this should be a class rather than a large amount of id's */
-#galleryMyself,
-#galleryQuickStars,
-#galleryIsaiahDeluxe,
-#galleryScottAllRubin,
-#galleryKarmageddon,
-#galleryQueerKobold,
-#galleryFerris,
-#galleryAlt,
-#galleryUbecas,
-#galleryCrs100,
-#galleryHertzko,
-#galleryPigDan,
-#galleryMkMuffi,
-#galleryPeakJuggler {
+.gallery {
   display: grid;
   text-align: center;
   align-items: center;
@@ -137,9 +123,8 @@ a {
   font-family: AppleKid;
 }
 
-.greentext i {
+.greentext {
   color: #789922;
-  font-style: normal;
 }
 
 small {
