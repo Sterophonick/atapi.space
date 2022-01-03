@@ -1,9 +1,8 @@
 document.write(`
 <div id="sidebar" class="column">
     <div class="header">
-        <a href="./index.html" id="logo"><img src="./assets/img/global/pfp.png" title="Atapi PFP by @ScottAllRubin!"></a>
+        <a href="./index.html" id="logo"><img src="./assets/img/global/pfp.png" title="look it's the boye! :3"></a>
         <h1>Sterophonick's Own<br>Little World</h1>
-        <p>wait i have a website now?</p>
     </div>
     <nav id="navigation">
         <a href="projects.html"><img style="vertical-align:middle" src="./assets/img/global/folder.png"> Projects and Stuff</a><br />
@@ -13,7 +12,7 @@ document.write(`
         <a href="blog.html"><img style="vertical-align:middle" src="./assets/img/global/notepad.png"> Blog</a><br />
         <a href="gallery.html"><img style="vertical-align:middle" src="./assets/img/global/gallery.png"> Gallery</a><br />
         <a href="greetz.html"><img style="vertical-align:middle" src="./assets/img/global/greetz.png"> Special Greetz</a><br />
-        <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br />
+        <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br/>
     </nav>
     <div id="sidebar-bottom">
         <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img src="./assets/img/global/github.png" class="icon" /></a>
