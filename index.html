@@ -12,12 +12,14 @@
 			<div class="column mainContent">
 				<div class="header"> </div>
 				<div class="content">
-					<img src="assets/img/home/welcome.webp" title="Welcome to GeoCities Home Page">
+					<img src="assets/img/home/welcome.webp" title="Welcome to GeoCities Home Page" onclick="togglePotato()">
 					<h1><img style="vertical-align:middle" src="assets\img\home\icon.png"> Hiya!</h1>
-					<p>My name is Sterophonick! I like homebrew, emulation, demoscene, malware, and the like!</p>
-					<p>This website is more or less a place for me to put all the stuff I have made.</p>
-					<p>Come in and take a look! :)</p>
-					<p>Have fun!</p>
+					<p>
+					My name is Sterophonick! I like homebrew, emulation, demoscene, malware, and the like!<br/>
+					This website is more or less a place for me to put all the stuff I have made.<br/>
+					Come in and take a look! :)<br/>
+					Have fun!<br/>
+					</p>
 					<img src="assets/img/home/construction.webp" title="Under construction!"><br />
 					<br />
 					<img src="assets/img/home/doge.jpg" title="NOOOOOOO DOGE WATCH OUT!"><br/>
@@ -33,11 +35,19 @@
 					<img src="assets/img/home/userbar_keygen.png" title="keygen music is an art"><br/>
 					<img src="assets/img/home/userbar_cmd.gif" title="i use (and hate) windows but i really want to use arch linux im sorry "><br/>
 					<p>*this site is best viewed using Ned's cape 1.0 or lower</p>
-					</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-					test
 				</div>
 			</div>
-			<marquee><img src="assets/img/home/potato.gif"></marquee>
+			<marquee id="potat" style="display: none;"><img src="assets/img/home/potato.gif"></marquee>
+			<script>
+                function togglePotato() {
+                    var potato = document.getElementById("potat");
+                    if (potato.style.display == "none") {
+                        potato.style.display = "block";
+                    } else {
+                        potato.style.display = "none";
+                    }
+                }
+            </script>
 		</div>
 	</body>
 </html>
