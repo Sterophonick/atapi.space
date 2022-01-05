@@ -124,7 +124,7 @@
                                     <a href="#PacManChampionship">PAC-MAN Championship Edition</a>
                                 </li>
                                 <li>
-                                    <a href="#JazzJackrabbit2">Jazz Jackrabbit 2</a>
+                                    <a href="#JazzJackrabbit2">Jazz Jackrabbit 2: The Secret Files (GOG Re-release)</a>
                                 </li>
                                 <li>
                                     <a href="#RikkiVikki">Rikki & Vikki</a>
@@ -700,15 +700,15 @@
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/pacmanchedx_1.png"><br/>
                     </p>
-                    <h3 id="JazzJackrabbit2">Jazz Jackrabbit 2</h3>
+                    <h3 id="JazzJackrabbit2">Jazz Jackrabbit 2: The Secret Files (GOG Re-release)</h3>
                     <p>
-                    Proton-7.0rc2-GE-1 and later<br/>
+                    Proton-7.0rc3-GE-1 or later<br/>
                     Technology: Unknown, DDraw, WinMM<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
-                     - DualShock 4: Phantom Second Controller<br/>
-                     - Nintendo Switch: Phantom Second Controller<br/>
-                     - Google Stadia: Phantom Second Controller<br/>
+                     - DualShock 4: Phantom Joystick, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Phantom Joystick, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Google Stadia: Phantom Joystick, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
                     Notes:<br/>
                      - Requires dgVoodoo2, add ddraw.dll as native to winecfg<br/>
                      - Force the start button as Escape in Steam Input<br/>
@@ -1488,6 +1488,7 @@
                     Notes:<br/>
                     - Performance issues.<br/>
                     - Game doesn't scale to 16:10<br/>
+                    - Game is no longer purchasable from Steam.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img src="assets/img/projects/linuxnotes/pnati1.png"><br/>
                     </p>
@@ -1516,6 +1517,24 @@
                     - -noeac flag required because of anticheat.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img src="assets/img/projects/linuxnotes/brawlhalla1.png"><br/>
+                    </p>
+                    <h3 id="Flywrench">Flywrench</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: GameMaker: Studio, Direct3D<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Ignored Steam Input.<br/>
+                     - Nintendo Switch: Unpredictable.<br/>
+                     - Google Stadia: Ignored Steam Input.<br/>
+                    Notes:<br/>
+                    - Game does not scale to 16:10.<br/>
+                    - Requires you to enable DirectInput in the settings for joypad to work. Needs keyboard or mouse.<br/>
+                    - Native Linux depot does not have an executable. lmao<br/>
+                    - Apply the fixes in <a href="#Controllers">Me Yelling About Controller Jank</a>.<br/>
+                    - PROTON_USE_WINED3D=1 improves performance<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/flywrench1.png"><br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
@@ -1629,7 +1648,7 @@
                      - Psychonauts<br/>
                      - Tomb Raider I<br/>
                      - Guacamelee! Super Turbo Championship Edition!<br/>
-                     - Five Nights at Freddy's<br/>
+                     - Flywrench
                      - Braid<br/>
                      - Ultimate Chicken Horse<br/>
                      - The Basement Collection<br/>
