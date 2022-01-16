@@ -332,25 +332,46 @@
                     RAM: 16GB<br/>
                     Distro: EndeavourOS Linux, Manjaro Linux, Garuda Linux<br/>
                     Steam Input is always enabled.<br/>
+                    Kernel: 5.16<br/>
                     </p>
                     <h3 id="ImportantSteamDeck">Steam Deck</h3>
                     <p>
                     What I Know:<br/>
                     - Arch Linux-based OS<br/>
-                    - Immutable Filesystem (basically means you can't write to it without dev mode enabled)<br/>
-                    - Valve Aerith APU is around an R7 3750H + Vega 10<br/>
+                    - Immutable Filesystem (basically means you can't write to the system partition without dev mode enabled)<br/>
+                    - Valve recommends a 3750H+Vega 10 NUC for testers<br/>
                     - Games will be forcing Gamescope by default<br/>
-                    - Controls will not work without games run through Steam<br/>
+                    - Controls can work with software outside of Steam, only on Linux though<br/>
                     - Valve improving non-Steam experience<br/>
-                    - New in-house Proton version in development; will be released alongside Deck.<br/>
+                    - New in-house Proton version in development; will be released alongside SteamOS 3.0<br/>
                     <br/>
                     What I Wanna Know:<br/>
-                    - Fixing controller issues? (See: <a href="pages/projects/linuxnotes.html#DuckGame">Duck Game</a>)<br/>
+                    - Fixing controller issues? (See: <a href="pages/projects/linuxnotes.html#Controllers">Duck Game</a>)<br/>
                     - Mainline Dolphin?<br/>
                     - WinMM SDL support? (See: <a href="WinMM">WinMM</a>)<br/>
                     - Couch experience?<br/>
                     - Better WineD3D support?<br/>
                     - Steam Overlay fixes?<br/>
+                    <br/>
+                    Hopes:<br/>
+                    - Emulator devs implement controller-friendly UIs<br/>
+                    - Couch gaming<br/>
+                    - Extra Steam Input support in games<br/>
+                    - Easy to get much older games working properly<br/>
+                    -
+                    Performance:<br/>
+                    - This is something I see people often getting wrong.<br/>
+                    - In terms of graphical capability, the Steam Deck still absolutely stomps machines like the AYA NEO and GPD WIN 3<br/>
+                    - First, we have <a href="assets/img/projects/linuxnotes/steamdeck/steamdeck1.png">this image</a> from ETA PRIME's <a href="https://www.youtube.com/watch?v=nDeZQP8-I2s">video on the AYA NEO NEXT</a>.<br/>
+                    - It shows DOOM Eternal runninng at 800p, low settings with the dynamic resolution scale enabled.<br/>
+                    - But notice how the TDP is set to 30W.<br/>
+                    - Secondly, we have <a href="assets/img/projects/linuxnotes/steamdeck/steamdeck2.png">this image</a> from Linus' <a href="https://www.youtube.com/watch?v=SElZABp5M3U"> hands-on video.</a><br/>
+                    - It shows DOOM Eternal at medium settings, 800p, and the resolution scale at 100%<br/>
+                    - In fairness, we're never explicitly told what the TDP was set to.<br/>
+                    - But I'd say it's safe to assume that Deck was set to a 15W TDP since Deck runs the much newer RDNA 2 GPU architecture compared to VEGA, along with for marketing reasons.<br/>
+                    - The other handhelds have the leg up with the CPU, with the AYA NEO NEXT running an 8-core Ryzen 7 5800U, being able to play PS3 games such as Skate 3, albeit only at a much higher TDP such as 35W.<br/>
+                    - I think the limit with emulation on Steam Deck is gonna be Nintendo Switch emulation, but there will be a handful of easier-to-run games in RPCS3, such as Persona 5.<br/>
+                    - If I had to take a wild guess as to a rough comparison of the CPU in Steam Deck... Ryzen 5300U<br/>
                     </p>
                     <h3 id="TODO">TODO</h3>
                     <p>
@@ -368,7 +389,7 @@
                      - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
-                    Notes:
+                    Notes:<br/>
                      - Doesn't scale to 16:10<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/celeste1.png"><br/>
@@ -380,7 +401,8 @@
                     Controller support:<br/>
                     - Xbox One: Supported<br/>
                     - DualShock 4: Supported<br/>
-                    - Nintendo Switch: Unpredictable<br/>
+                    - Nintendo Switch: Supported<br/>
+                    - Google Stadia: Supported<br/>
                     Notes:<br/>
                      - Triggers, Stick Buttons, and D-Pad are bored out of the box. Fixed with <a href="steam://controllerconfig/519860/2679061214">this controller config.</a><br/>
                      - -force-vulkan can be used to force Vulkan</br>
@@ -447,13 +469,11 @@
                     </p>
                     <h3 id="UnrealGold">Unreal Gold</h3>
                     <p>
-                    !!!!!!OUTDATED!!!!!!<br/>
-                    Proton (GloriousEggroll)<br/>
-                    Technology: Unreal (1998), Direct3D+3dfx<br/>
-                    Controller support: None (Steam Input works great!)<br/>
+                    Proton (Any modern version)<br/>
+                    Technology: Unreal Engine, Direct3D+3dfx<br/>
+                    Controller support: Borked<br/>
                     Notes:<br/>
-                     - Using any mainline Proton causes colors to be reduced<br/>
-                     - No working controller support, use Steam Input<br/>
+                    - See <a href="UE98">Unreal Engine (1998)<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/unrealgold1.png"><br/>
                     </p>
@@ -1221,7 +1241,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Broken, unpredictable<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Vulkan available with -force-vulkan<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -1270,7 +1290,7 @@
                     Notes:<br/>
                      - Very few players are online.<br/>
                      - I'm incredibly bad at this.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img src="assets/img/projects/linuxnotes/ricochet.png"><br/>
                     </p>
                     <h3 id="CookieClicker">Cookie Clicker (Steam Release)</h3>
@@ -1301,7 +1321,7 @@
                     Controller support:<br/>
                      - Xbox One: Phantom Controller<br/>
                      - DualShock 4: Phantom Controller<br/>
-                     - Nintendo Switch: Unpredictable + Phantom<br/>
+                     - Nintendo Switch: Phantom Controller<br/>
                      - Google Stadia: Phantom Controller<br/>
                     Notes:<br/>
                      - Game relies on SDL 1.2 for controllers. Apply the fixes in <a href="pages/projects/linuxnotes.html#Controllers">Me Yelling About Controller Jank</a>.<br/>
@@ -1428,12 +1448,12 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Unpredictable<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                     - Gamescope required for Controllers<br/>
                     - On-Screen Keyboard may be required<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img src="assets/img/projects/linuxnotes/pico8_1.png"><br/>
                     </p>
                     <h3 id="HollowKnight">Hollow Knight</h3>
@@ -1443,12 +1463,12 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Unpredictable<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                     - Vulkan enabled with -force-vulkan.<br/>
                     - Game does not scale to 16:10.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img src="assets/img/projects/linuxnotes/hollowknight1.png"><br/>
                     </p>
                     <h3 id="Ganbare">Ganbare! Natsuki-San!</h3>
@@ -1458,7 +1478,7 @@
                     Controller support:<br/>
                      - Xbox One: Phantom Controller<br/>
                      - DualShock 4: Phantom Controller<br/>
-                     - Nintendo Switch: Unpredictable + Phantom Controller<br/>
+                     - Nintendo Switch: Phantom Controller<br/>
                      - Google Stadia: Phantom Controller<br/>
                     Notes:<br/>
                     - Game relies on SDL 1.2 for controllers. Apply the fixes in <a href="pages/projects/linuxnotes.html#Controllers">Me Yelling About Controller Jank</a>.<br/>
@@ -1541,7 +1561,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Ignored Steam Input.<br/>
-                     - Nintendo Switch: Unpredictable.<br/>
+                     - Nintendo Switch: Ignored Steam Input.<br/>
                      - Google Stadia: Ignored Steam Input.<br/>
                     Notes:<br/>
                     - Game does not scale to 16:10.<br/>
@@ -1559,7 +1579,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Broken, unpredictable<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - None?<br/>
@@ -1629,7 +1649,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Unpredictable<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Vulkan renderer accessible with -force-vulkan<br/>
@@ -1720,9 +1740,7 @@
                     Technology: Unreal Engine, 3dfx, DDraw<br/>
                     Controller support: Borked<br/>
                     Installation:<br/>
-                    - Copy dgVoodoo2's ddraw.dll and D3Dlmm.dll to the game's System directory<br/>
-                    - WINEDLLOVERRIDES="ddraw=n"<br/>
-                    - Use the Direct3D renderer<br/>
+                     - See <a href="pages/projects/linuxnotes.html#UE98">Unreal Engine (1998)</a><br/>
                     Notes:<br/>
                      - Unstable when going in and out of focus. Not a huge deal for Deck<br/>
                     TODO:<br/>
@@ -1746,6 +1764,111 @@
                      - None?<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img src="assets/img/projects/linuxnotes/soniccd1.png"><br/>
+                    </p>
+                    <h3 id="sbw">Super Bernie World</h3>
+                    <p>
+                    Native<br/>
+                    Technology: XNA/FNA, OpenGL<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
+                     - Google Stadia: Perfect<br/>
+                    Notes:<br/>
+                     - Fullscreen mode doesn't work correctly, Gamescope recommended for fullscreen<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/bernie1.png"><br/>
+                    </p>
+                    <h3 id="DeusExGOTY">Deus Ex: Game of the Year Edition</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Unreal Engine, 3dfx, DDraw<br/>
+                    Controller support: Borked<br/>
+                    Installation:<br/>
+                     - See <a href="pages/projects/linuxnotes.html#UE98">Unreal Engine (1998)</a><br/>
+                    Notes:<br/>
+                     - Unstable when going in and out of focus. Not a huge deal for Deck<br/>
+                    TODO:<br/>
+                     - Should I attempt to get that freely available Vulkan renderer working or nah?<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/deusex1.png"><br/>
+                    </p>
+                    <h3 id="feddy">Five Nights at Freddy's</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, D3D9<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Poor performance on D3D9. Use dgVoodoo2's D3D9 DLL to greatly boost performance.<br/>
+                     - Requires Gamescope to render anything<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnaf1.png"><br/>
+                    Screenshot note: I don't like Scott.<br/>
+                    </p>
+                    <h3 id="feddy2">Five Nights at Freddy's 2</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, D3D9<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Poor performance on D3D9. Use dgVoodoo2's D3D9 DLL to greatly boost performance.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnaf2.png"><br/>
+                    </p>
+                    <h3 id="feddy3">Five Nights at Freddy's 3</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, D3D9<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Poor performance on D3D9. Use dgVoodoo2's D3D9 DLL to greatly boost performance.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnaf3.png"><br/>
+                    </p>
+                    <h3 id="feddy4">Five Nights at Freddy's 4</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, (Unknown Renderer)<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Has trouble windowing no matter what. Use Gamescope.<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnaf4.png"><br/>
+                    </p>
+                    <h3 id="feddy5">Five Nights at Freddy's: Sister Location</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, D3D9<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Poor performance on D3D9. Use dgVoodoo2's D3D9 DLL to greatly boost performance.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnafsl.png"><br/>
+                    </p>
+                    <h3 id="feddyworld">FNaF World</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Clickteam, D3D9<br/>
+                    Controller support: None<br/>
+                    Notes:<br/>
+                     - Poor performance on D3D9. Use dgVoodoo2's D3D9 DLL to greatly boost performance.<br/>
+                     - Has trouble windowing no matter what. Use Gamescope.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/fnafworld.png"><br/>
+                    </p>
+                    <h3 id="GoatSimulator">Goat Simulator</h3>
+                    <p>
+                    Native<br/>
+                    Technology: Unreal Engine 3, OpenGL<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Phantom Controller<br/>
+                     - Nintendo Switch: Phantom Controller<br/>
+                     - Google Stadia: Phantom Controller<br/>
+                    Notes:<br/>
+                     - Oddball loading times.<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/goat1.png"><br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
@@ -1789,7 +1912,7 @@
                      - Crashes most games running in Proton.<br/>
                      - This is likely due to the lack of a proper kernel driver up until Kernel 5.16.<br/>
                      - Steam is incredibly jank with them on Linux when compared to Windows.<br/>
-                     - If games don't crash with them, often times they will express unpredictable, erratic behavior. Doesn't occur over bluetooth.<br/>
+                     - Kernels below 5.16 <br/>
                      - I expect this to get remedied out of the box with SteamOS.<br/>
                     </p>
                     <h3 id="GameMaker8">GameMaker 8</h3>
@@ -1800,6 +1923,12 @@
                      - Using Winetricks for dmime allows for sound effects to function, but then music gets interrupted.<br/>
                      - Using Winetricks for the entirety of DSound and DMusic will lead to audio latency of ~0.3 seconds.<br/>
                      - Also bad performance in a handful of games, despite them being simple 2D games.<br/>
+                    </p>
+                    <h3 id="UE98">Unreal Engine (1998)</h3>
+                    <p>
+                     - Proton Experimental has problems with <a href="assets/img/projects/linuxnotes/unreal_bad_colors.png">bad colors</a> unless you use dgVoodoo2.<br/>
+                     - Proton-GE fixes these problems.<br/>
+                     - I would recommend using dgVoodoo2 for the fixed overlay on the desktop<br/>
                     </p>
                     <br/>
                     <h2 id="Random">Random Thoughts</h2>
@@ -1814,7 +1943,7 @@
                     Issues:<br/>
                      - Games ignoring Steam Input<br/>
                      - Games reading multiple controllers when one controller is plugged in (Phantom Controllers)<br/>
-                     - Nintendo Switch controllers behaving unpredictably<br/>
+                     - Nintendo Switch controllers crashing games running in mainline Proton<br/>
                     <br/>
                     <b>Solution</b>:<br/>
                     - SDL_JOYSTICK_HIDAPI=0<br/>
@@ -1847,7 +1976,6 @@
                      - Grand Theft Auto III<br/>
                      - Grand Theft Auto: Vice City<br/>
                      - Quake II<br/>
-                     - Deus Ex: Game of the Year Edition<br/>
                      - LEGO Batman: The Videogame<br/>
                      - The LEGO Movie Videogame<br/>
                      - Psychonauts<br/>
