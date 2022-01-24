@@ -1903,25 +1903,6 @@
                      - The truly perfect solution would be for emulators like this to implement a controller-friendly UI accessible via a hotkey.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/cemu1.png"><br/>
-                    </p>
-                    <h3 id="Cemu">Cemu</h3>
-                    <p>
-                    Proton (Any modern version)<br/>
-                    Technology: OpenGL, Vulkan, DirectSound, XAudio2<br/>
-                    Controller support:<br/>
-                     - Xbox One: Perfect<br/>
-                     - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Nothing<br/>
-                     - Google Stadia: Perfect<br>
-                    Notes:<br/>
-                     - Emulator works just fine but there's one massive problem.<br/>
-                     - To access the configuration menus, a keyboard and mouse is required, and does not work in any current version of Gamescope.<br/>
-                     - This presents a problem as often times with emulation you need to change settings on a game-by-game basis.<br/>
-                     - While you *can* temporaily use the desktop mode for this, it's inconvenient.<br/>
-                     - The truly perfect solution would be for emulators like this to implement a controller-friendly UI accessible via a hotkey.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
-                    <img class="preview" src="assets/img/projects/linuxnotes/cemu1.png"><br/>
-                    </p>
                     <h3 id="feddybruh">Ultimate Custom Night</h3>
                     <p>
                     Proton (Any modern version)<br/>
@@ -1942,7 +1923,7 @@
                      - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - None?
+                     - Game does not scale to 16:10<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/chicken1.png"><br/>
                     </p>
@@ -1967,9 +1948,36 @@
                      - Game cannot be paused with controller. ESC must be mapped with Steam Input<br/>
                      - Forces 30FPS by default.<br/>
                      - Configuring your controller can be jank, best to use a keyboard for this.<br/>
-
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/halo1.png"><br/>
+                    </p>
+                    <h3 id="RetroArch">RetroArch</h3>
+                    <p>
+                    Native<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Phantom Controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Phantom Controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Google Stadia: Phantom Controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                    Notes:<br/>
+                     - You MUST use the SDL2 joystick input driver when running through Steam.<br/>
+                     - Do NOT use the AppImage on Arch, it crashes when using Vulkan.<br/>
+                     - There is <b>a lot</b> of tinkering involved.<br/>
+                     - Flycast: Crashes on save state.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <h4 id="lr-duckstation">DuckStation</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_duckstation.png"><br/>
+                    <h4 id="lr-flycast">Flycast</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_flycast.png"><br/>
+                    <h4 id="lr-mesen">Mesen</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_mesen.png"><br/>
+                    <h4 id="lr-bsnes">BSNES</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_bsnes.png"><br/>
+                    <h4 id="lr-mgba">mGBA</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_mgba.png"><br/>
+                    <h4 id="lr-parallel">ParaLLEl</h4>
+                    <img class="preview" src="assets/img/projects/linuxnotes/retroarch_parallel.png"><br/>
+                    Note: TwinAphex and Mudlord are horrible people.<br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
