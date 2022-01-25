@@ -1979,6 +1979,57 @@
                     <img class="preview" src="assets/img/projects/linuxnotes/retroarch_parallel.png"><br/>
                     Note: TwinAphex and Mudlord are horrible people.<br/>
                     </p>
+                    <h3 id="SimpsonsHaR">The Simpsons: Hit and Run</h3>
+                    <p>
+                    Proton (GloriousEggroll)<br/>
+                    Technology: Unknown, D3D9<br/>
+                    Controller support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Ignored Steam Input, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Nothing, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Google Stadia: Ignored Steam Input, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                    Installation:<br/>
+                     - Mount ISO and install the game to your directory of choice.<br/>
+                     - Install <a href="https://donutteam.com/releases/view/lucas-mod-launcher">Lucas' Simpsons Hit & Run Mod Launcher</a> to the game directory.<br/>
+                     - Add the mod launcher to Steam, forcing the usage of Proton-GE<br/>
+                     - In the mod launcher, enable the D3D9 and XInput hacks.<br/>
+                     - Start the game using the Launch button.<br/>
+                     - In Steam, now add the -launch flag to the launch options.<br/>
+                     - You may need to configure your controller ingame.<br/>
+                     - You will need to map your Start button to Escape in Steam Input.<br/>
+                    Notes:<br/>
+                     - Proton-GE automatically installs Wine-Mono. LSHaRML requires Wine-Mono to work.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/simpsons1.png"><br/>
+                    </p>
+                    <h3 id="Scratch2">Scratch 2 Offline Editor</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Adobe AIR, D3D9<br/>
+                    Controller support: None<br/>
+                    Installation:<br/>
+                     - Install Adobe AIR to the Prefix.<br/>
+                     - Use this <a href="http://llk.github.io/scratch-msi/Scratch2_MSI_454.zip">Scratch 2.0 MSI Installer</a> to work around the issues with Adobe AIR installers.<br/>
+                     - Bonus step: Install Scratch v461 on Windows and copy the files to your Wine prefix directory.<br/>
+                    Notes:<br/>
+                     - Make Steam Input profiles for all of the games you want to play.<br/>
+                     - Window does not update unless mouse is clicked.<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/scratch2.0_1.png"><br/>
+                    </p>
+                    <h3 id="Scratch3">Scratch 3.0 Desktop</h3>
+                    <p>
+                    Native<br/>
+                    Technology: Electron, OpenGL(?)<br/>
+                    Controller support: None<br/>
+                    Installation:<br/>
+                     - Use the <a href="https://aur.archlinux.org/packages/scratch-desktop/">scratch-desktop</a> AUR package.<br/>
+                    Notes:<br/>
+                     - Make Steam Input profiles for all of the games you want to play.<br/>
+                     - Cannot exit editor without Steam Overlay<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/scratch3.0_1.png"><br/>
+                    </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
                     <h3 id="XNA_FNA">XNA/FNA</h3>

@@ -1,5 +1,5 @@
 document.write(`
-<div id="sidebar" class="column">
+<div class="column sidebar">
     <div class="header">
         <a href="./index.html" id="logo"><img src="./assets/img/global/pfp.png" title="look it's the boye! :3"></a>
         <h1>Sterophonick's Own<br>Little World</h1>
