@@ -5,6 +5,18 @@
 		<link rel="stylesheet" href="styles/global.css">
 		<meta charset="utf-8"/>
 		<link rel="shortcut icon" href="assets/img/global/favicon.ico">
+		<script type="text/javascript">
+            var imageURLs = [
+                "assets/img/projects/linuxnotes/XCURSOR.png", "assets/img/projects/linuxnotes/butgodsaid.png"
+            ];
+            function getImageTag() {
+                var img = '<img width=\"300px\" src=\"';
+                var randomIndex = Math.floor(Math.random() * imageURLs.length);
+                img += imageURLs[randomIndex];
+                img += '\" alt=\"funny meme\"/>';
+                return img;
+            }
+        </script>
 	</head>
 	<body>
 		<div class="mainContainer">
@@ -14,7 +26,9 @@
 				<p>Some very crude notes about Linux gaming and game compatibility in my experience.</p>
 				<p>Last updated: February 3, 2022</p>
 				<base href="pages/projects/linuxnotes.html" />
-                <img width="256px" src="assets/img/projects/linuxnotes/XCURSOR.png"><br/>
+                <script type="text/javascript">
+  document.write(getImageTag());
+</script>
 				<h2>Navigation</h2>
 				<div id="toc" class="toc">
 					<ul>
