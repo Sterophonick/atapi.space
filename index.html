@@ -6,13 +6,35 @@
 		<meta charset="utf-8"/>
 		<link rel="shortcut icon" href="assets/img/global/favicon.ico">
 	</head>
+    <script>
+        function togglePotato() {
+            var potato = document.getElementById("potat");
+            if (potato.style.display == "none") {
+                potato.style.display = "block";
+            } else {
+                potato.style.display = "none";
+            }
+        }
+        var imageURLs = [
+            "assets/img/home/welcome.webp", "assets/img/home/welcome2.gif", "assets/img/home/welcome3.gif"
+        ];
+        function getImageTag() {
+            var img = '<img height=\"200px\" src=\"';
+            var randomIndex = Math.floor(Math.random() * imageURLs.length);
+            img += imageURLs[randomIndex];
+            img += '\" alt=\"funny meme\" onclick=\"togglePotato()\"/>';
+            return img;
+        }
+    </script>
 	<body>
 		<div class="mainContainer">
 			<script src="scripts/sidebar.js"></script>
 			<div class="column mainContent">
 				<div class="header"> </div>
 				<div class="content">
-					<img src="assets/img/home/welcome.webp" title="Welcome to GeoCities Home Page" onclick="togglePotato()">
+					<script type="text/javascript">
+                        document.write(getImageTag());
+                    </script>
 					<h1><img style="vertical-align:middle" src="assets\img\home\icon.png"> Hiya!</h1>
 					<p>
 					My name is Sterophonick! I like homebrew, emulation, demoscene, malware, and the like!<br/>
@@ -34,20 +56,20 @@
 					<img src="assets/img/home/userbar_chiptune.png" title="chiptune is based compared to overproduced radio music"><br/>
 					<img src="assets/img/home/userbar_keygen.png" title="keygen music is an art"><br/>
 					<img src="assets/img/home/userbar_cmd.gif" title="i use (and hate) windows but i really want to use arch linux im sorry "><br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<img src="assets/img/home/gcbutton_gbanet.gif">
+					<img src="assets/img/home/gcbutton_mame.gif">
+					<img src="assets/img/home/gcbutton_linux.gif">
+					<img src="assets/img/home/gcbutton_netscape.gif">
+					<img src="assets/img/home/gcbutton_notepad.gif">
+					<img src="assets/img/home/gcbutton_sucks.gif">
 					<p>*this site is best viewed using Ned's cape 1.0 or lower</p>
 				</div>
 			</div>
 			<marquee id="potat" style="display: none;"><img src="assets/img/home/potato.gif"></marquee>
-			<script>
-                function togglePotato() {
-                    var potato = document.getElementById("potat");
-                    if (potato.style.display == "none") {
-                        potato.style.display = "block";
-                    } else {
-                        potato.style.display = "none";
-                    }
-                }
-            </script>
 		</div>
 	</body>
 </html>
