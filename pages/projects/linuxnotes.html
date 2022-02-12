@@ -2446,18 +2446,21 @@
                     <h3 id="watchdogs">Watch_Dogs</h3>
                     <p>
                     Proton (Any modern version)<br/>
-                    Technology: Disrupt, Direct3D<br/>
+                    Technology: Disrupt, Direct3D, XAct<br/>
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
                      - Google Stadia: Perfect<br/>
+                    Installation:<br/>
+                     - Game must have been previously activated on Windows beforehand.<br/>
+                     - Use protontricks to open winecfg and add watch_dogs.exe to the application override list.<br/>
+                     - Set the Windows version for watch_dogs.exe to Windows XP<br/>
+                     - WINEDLLOVERRIDES="xaudio2_7=n,b" must be set in launch options<br/>
                     Notes:<br/>
-                     - Game is incredibly unstable on booting. Sometime it completely ceases functioning.<br/>
-                     - Ubisoft Connect does not close when the game is quit.<br/>
-                    TODO:<br/>
-                     - Does it completely stop working in GE?<br/>
-                    <img src="assets/img/projects/linuxnotes/bronze.png"><br/>
+                     - Performance issues.<br/>
+                     - Always use the Steam Overlay to quit the game so Ubisoft Connect closes as well<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/watch_dogs1.png"><br/>
                     </p>
                     <h3 id="pttr">Paint The Town Red</h3>
