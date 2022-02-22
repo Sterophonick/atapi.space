@@ -2760,6 +2760,9 @@
                     Technology: Unknown, DirectDraw(?)<br/>
                     Controller Support: None<br/>
                      - <a href="steam://controllerconfig/kao%20the%20kangaroo/2761260678">Controller Configuration</a><br/>
+                    Installation:<br/>
+                     - Use Wine or Protontricks Launcher on the GOG installer to extract the game to whereever<br/>
+                     - Add kao.exe to Steam<br/>
                     Notes:<br/>
                      - No options to force resolution, always drew at maximum available. Use Gamescope to force the resolution.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -2787,12 +2790,6 @@
                      - Outdated DirectX graphics API that renders in WineD3D. Will cause problems with Steam Overlay.<br/>
                      - Also has trouble scaling correctly in Wine 7.0 and above, dgVoodoo D3D8 and DDraw fix that.<br/>
                      - The workaround is to force dgVoodoo2 or use Gamescope.<br/>
-                    </p>
-                    <h3 id="WinMM">Windows Multimedia API</h3>
-                    <p>
-                     - Examples: Jazz Jackrabbit 2<br/>
-                     - Causes issues with Joysticks because Proton's implementation currently relies on /dev/jsX and not SDL2.<br/>
-                     - Fixed in Wine commit <a href="https://github.com/wine-mirror/wine/commit/4f1095a0ee4c7577e5287e56e388c36d0ba659ad#diff-bb5a0495bfd2b09090c2474f706011f3e89d2c74d761d87afbcafe1a7cb175c1">4f1095a0ee4c7577e5287e56e388c36d0ba659ad</a>.<br/>
                     </p>
                     <h3 id="dgVoodoo2">dgVoodoo2</h3>
                     <p>
