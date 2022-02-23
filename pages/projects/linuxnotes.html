@@ -365,7 +365,6 @@
                     What I Wanna Know:<br/>
                     - Fixing controller issues? (See: <a href="pages/projects/linuxnotes.html#Controllers">Duck Game</a>)<br/>
                     - Mainline Dolphin?<br/>
-                    - WinMM SDL support? (See: <a href="WinMM">WinMM</a>)<br/>
                     - Couch experience?<br/>
                     - Better WineD3D support?<br/>
                     - Steam Overlay fixes?<br/>
@@ -748,7 +747,7 @@
                     </p>
                     <h3 id="JazzJackrabbit2">Jazz Jackrabbit 2: The Secret Files (GOG Re-release)</h3>
                     <p>
-                    Proton-7.0rc3-GE-1 or later<br/>
+                    Proton (7.0 or similar)<br/>
                     Technology: Unknown, DDraw, WinMM<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
@@ -2625,18 +2624,16 @@
                     </p>
                     <h3 id="shaaaaaauuun">Heavy Rain</h3>
                     <p>
-                    Proton (Any modern version)<br/>
+                    Proton 7.3-GE-1 or later<br/>
                     Technology: Unknown, Direct3D, XACT<br/>
                     Controller Support: Steam Input<br/>
                      - YOU USED STEAM INPUT TO EMULATE AN XBOX CONTROLLER ARE YOU KIDDING ME<br/>
-                    Installation:<br/>
-                     - protontricks xact required to fix lip syncing<br/>
                     Notes:<br/>
                      - Right Stick doesn't work fully. Set the curve to aggressive and set the deadzone to use the full range in Steam Input.<br/>
                      - There is heavy stuttering when loading new camera angles due to shader compilation. DXVK_ASYNC=1 helps with this, but it introduces mesh pop-in that can get really annoying.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/heavyraind1.png"><br/>
-                    Screenshot note: This is of the DEMO.<br/>
+                    Screenshot note: This is of the DEMO. I tested the full release later on.<br/>
                     </p>
                     <h3 id="rtcw">Return to Castle Wolfenstein</h3>
                     <p>
@@ -2768,6 +2765,34 @@
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/kao1.png"><br/>
                     </p>
+                    <h3 id="LEGOIsland">LEGO Island</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Direct3D Restricted Mode<br/>
+                    Controller Support: None<br/>
+                     - <a href="steam://controllerconfig/lego%20island/2762007356">Controller Configuration</a><br/>
+                    Installation:<br/>
+                     - Use SteamTinkerLaunch<br/>
+                     - Add a dummy executable to Steam and launch it once.<br/>
+                     - Mount ISO image to system<br/>
+                     - Use <a href="https://github.com/le717/Island-Alternate-Installer/releases">LEGO Island Alternate Installer</a> using your Proton's Wine executable in the terminal<br/>
+                     - Perform a full install to wherever you want.<br/>
+                     - Copy dgVoodoo2's d3dlmm.dll and ddraw.dll to the game's directory<br/>
+                     - Copy <a href="https://github.com/itsmattkc/LEGOIslandRebuilder">LEGO Island Rebuilder</a> to the game's directory (You may need to winetricks netcore20)<br/>
+                     - Reroute the Steam shortcut to the LEGO Island Rebuilder executable<br/>
+                     - Launch it and configure Rebuilder to your desires<br/>
+                     - Close it and go into the SteamTinkerLaunch game menu, and enable Gamescope, and force the -f flag in the Gamescope options.<br/>
+                     - Add ddraw=n;d3drm=n to the Wine DLL Overrides in STL.<br/>
+                     - In the dgVooodoo2 configuration, force the DirectX resolution to 640x480, this fixes the pixel transition performance.<br/>
+                     - Add the -r flag to the Steam launch options.<br/>
+                     - Done!<br/>
+                    Notes:<br/>
+                     - Rebuilder is necessary because of the game's crappy controls on modern hardware.<br/>
+                    TODO:<br/>
+                     - Is it normal for the mouse cursor clicks to be slightly vertically offset?<br/>
+                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/legoisland_1.png"><br/>
+                    </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
                     <h3 id="XNA_FNA">XNA/FNA</h3>
@@ -2871,7 +2896,6 @@
                      - Quake II<br/>
                      - Tomb Raider I<br/>
                      - The Basement Collection<br/>
-                     - LEGO Island<br/>
                      - LEGO Racers<br/>
                      - The Neverhood<br/>
                      - Commander Keen Complete Pack<br/>
@@ -2883,7 +2907,6 @@
                      - Myst: Masterpiece Edition<br/>
                      - Angry Video Game Nerd Adventures<br/>
                      - Perspective<br/>
-                     - Duke Nukem 3D<br/>
                      - SuperTuxKart<br/>
                      - 3D Pinball for Windows: Space Cadet<br/>
                      - The Powder Toy<br/>
@@ -2893,7 +2916,6 @@
                      - Minetest<br/>
                      - System Shock: Definitive Edition<br/>
                      - System Shock 2<br/>
-                     - Kao the Kangaroo<br/>
                      - Tonic Trouble<br/>
 				</div>
 			</div>
