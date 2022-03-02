@@ -432,7 +432,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0.<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Doesn't scale to 16:10<br/>
@@ -456,7 +456,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Window will always shrink when in windowed mode, doesn't occur in Proton-4.11<br/>
                      - Game requires that you set controls to controller manually.<br/>
@@ -522,7 +522,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - None? <br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -550,8 +550,8 @@
                     DRM Protection: SecuROM<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
-                     - DualShock 4: Perfect (Untested)<br/>
-                     - Nintendo Switch: Crashed (Untested)<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Requires user input for installing PunkBuster and GameSpy Comrade.</br>
                      - SecuROM build is completely borked on AMD. Use <a href="https://github.com/ccomrade/c1-launcher">C1-Launcher</a>.<br/>
@@ -962,9 +962,9 @@
                     Technology: XNA, OpenGL<br/>
                     Controller support:<br/>
                     - Xbox One: Perfect<br/>
-                    - DualShock 4: Phantom Second Controller<br/>
-                    - Nintendo Switch: Crashed<br/>
-                    - Google Stadia: Phantom Second Controller<br/>
+                    - DualShock 4: Perfect<br/>
+                    - Nintendo Switch: Perfect<br/>
+                    - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Requires Proton-GE because using controllers in mainline Proton will not work.<br/>
                      - Text in the configuration menu is <a href="assets/img/projects/linuxnotes/duckgame_text.png">corrupted but still legible.</a><br/>
@@ -979,7 +979,7 @@
                     Controller support:<br/>
                     - Xbox One: Perfect<br/>
                     - DualShock 4: Perfect<br/>
-                    - Nintendo Switch: Crashed. Fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                    - Nintendo Switch: Perfect<br/>
                     - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - None!<br/>
@@ -1012,10 +1012,10 @@
                     Technology: Unknown, OpenGL<br/>
                     Controller support:<br/>
                     - Xbox One: Perfect<br/>
-                    - DualShock 4: Phantom Second Controller<br/>
+                    - DualShock 4: Phantom, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
                     - Nintendo Switch: Crashed ingame<br/>
                     Notes:<br/>
-                     - None...?<br/>
+                     - Linux release is known for being somewhat unstable, probably a better idea to use Proton. :P<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/anotherworld1.png"><br/>
                     </p>
@@ -1048,7 +1048,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed. Fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Windowed mode by default. Not a big deal since Deck uses Gamescope. Can be forced in configuration.<br/>
@@ -1063,8 +1063,8 @@
                     Technology: Unity, Direct3D<br/>
                     Controller support:<br/>
                     - Xbox One: Perfect<br/>
-                    - DualShock 4: Phantom Second Controller<br/>
-                    - Nintendo Switch: Phantom Second Controller<br/>
+                    - DualShock 4: Perfect<br/>
+                    - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Brings up a generic Unity configuration screen.<br/>
                      - MangoHUD and Steam Overlay have loads of trouble here.<br/>
@@ -1436,7 +1436,7 @@
                     Native<br/>
                     Technology: SDL2<br/>
                     Controller support:<br/>
-                     - All controllers had phantom issues.<br/>
+                     - SDL_JOYSTICK_HIDAPI=0 is required for HID devices.<br/>
                     Notes:<br/>
                      - MAME is MAME. Not gonna be as user-friendly on a handheld.<br/>
                      - Unable to access the menu by default. Thankfully you can set a hotkey with Steam Input.<br/>
@@ -1509,10 +1509,9 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Perfect?<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                    - Using GE causes phantom controllers for ALL joysticks.<br/>
                     - Game doesn't scale to 16:10<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/stickfight1.png"><br/>
@@ -1561,7 +1560,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Anti-Cheat: Easy Anti-Cheat<br/>
                     Notes:<br/>
@@ -1771,7 +1770,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Installation:<br/>
                      - protontricks 200490 d3dx9_43 d3dcompiler_43<br/>
@@ -1875,6 +1874,7 @@
                     </p>
                     <h3 id="GoatSimulator">Goat Simulator</h3>
                     <p>
+                    !!!GAME NEEDS RETEST!!!<br/>
                     Native<br/>
                     Technology: Unreal Engine 3, OpenGL<br/>
                     Controller support:<br/>
@@ -1909,7 +1909,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Nothing<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br>
                     Notes:<br/>
                      - Emulator works just fine but there's one massive problem.<br/>
@@ -2001,9 +2001,9 @@
                     Technology: Unknown, D3D9<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
-                     - DualShock 4: Ignored Steam Input, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
-                     - Nintendo Switch: Nothing, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
-                     - Google Stadia: Ignored Steam Input, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
+                     - Google Stadia: Perfect<br/>
                     Installation:<br/>
                      - Mount ISO and install the game to your directory of choice.<br/>
                      - Install <a href="https://donutteam.com/releases/view/lucas-mod-launcher">Lucas' Simpsons Hit & Run Mod Launcher</a> to the game directory.<br/>
@@ -2222,7 +2222,7 @@
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed without SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Installation:<br/>
                      - Boot up game without any flags.<br/>
@@ -2347,7 +2347,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Goodle Stadia: Perfect<br/>
                     Notes:<br/>
                      - Game uses WMF for its FMVs. Either use the Windows DLLs or use GloriousEggroll<br/>
@@ -2363,7 +2363,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Goodle Stadia: Perfect<br/>
                     Notes:<br/>
                      - None?<br/>
@@ -2432,7 +2432,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - First-time setup will require a touchscreen or keyboard and mouse.<br/>
@@ -2445,22 +2445,17 @@
                     </p>
                     <h3 id="watchdogs">Watch_Dogs</h3>
                     <p>
-                    Proton (Any modern version)<br/>
+                    Proton (GloriousEggroll)<br/>
                     Technology: Disrupt, Direct3D, XAct<br/>
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
-                    Installation:<br/>
-                     - Game must have been previously activated on Windows beforehand.<br/>
-                     - Use protontricks to open winecfg and add watch_dogs.exe to the application override list.<br/>
-                     - Set the Windows version for watch_dogs.exe to Windows XP<br/>
-                     - WINEDLLOVERRIDES="xaudio2_7=n,b" must be set in launch options<br/>
                     Notes:<br/>
-                     - Performance issues.<br/>
-                     - Always use the Steam Overlay to quit the game so Ubisoft Connect closes as well<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                     - Performance issues?<br/>
+                     - Uplay doesn't close with the game, must be quit via the Steam overlay or manually.<br/>
+                    <img src="assets/img/projects/linuxnotes/silverp.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/watch_dogs1.png"><br/>
                     </p>
                     <h3 id="pttr">Paint The Town Red</h3>
@@ -2499,7 +2494,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, Fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Game does not scale to 16:10<br/>
@@ -2513,7 +2508,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Crashed, Fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Installation:<br/>
                      - Copy your Steam CD key<br/>
@@ -2557,9 +2552,9 @@
                     Technology: Unreal, Direct3D 11 + Direct3D 12<br/>
                     Controller Support:<br/>
                      - Xbox One: Perfect<br/>
-                     - DualShock 4: Phantom controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
-                     - Nintendo Switch: Phantom controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
-                     - Google Stadia: Phantom controller, fixed with SDL_JOYSTICK_HIDAPI=0<br/>
+                     - DualShock 4: Perfectbr/>
+                     - Nintendo Switch: Perfect<br/>
+                     - Google Stadia: Perfect<br/>
                     Notes:<br/>
                      - Not everything is available in the default controller configuration<br/>
                     <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
@@ -2600,7 +2595,7 @@
                     Controller Support:<br/>
                      - Xbox One: Perfect (Linux has doubling?)<br/>
                      - DualShock 4: Perfect (Linux has doubling)<br/>
-                     - Nintendo Switch: Crashed, fixed with SDL_JOYSTICK_HIDAPI=0 (Linux has doubling)<br/>
+                     - Nintendo Switch: Perfect (Linux has doubling)<br/>
                      - Google Stadia: Perfect (Linux has doubling)<br/>
                     Notes:<br/>
                      - Cross-platform saves do not carry over, but can coexist.<br/>
@@ -2857,8 +2852,9 @@
                     <p>
                      - Examples: Night Trap, Persona 5 Strikers, Nioh 1+2, Monster Hunter World<br/>
                      - There are a handful of games that use Media Foundation for FMVs and they don't work in Wine by default.<br/>
-                     - To work around it, you can use either Proton-GE (Imperfect) or rip the DLLs from a Windows installation (perfect).<br/>
+                     - To work around it, you can use Proton-GE, but it's not perfect.<br/>
                      - Otherwise, more often then not, games will just display a test pattern.<br/>
+                     - You used to be able to rip the DLLs from Windows and that would work fine, but that seems to have been broken.<br/>
                     </p>
                     <h3 id="DDraw">DirectDraw</h3>
                     <p>
@@ -2878,11 +2874,8 @@
                     </p>
                     <h3 id="NSPC">Nintendo Switch Pro Controller</h3>
                     <p>
-                     - Crashes most games running in Proton.<br/>
-                     - This is likely due to the lack of a proper kernel driver up until Kernel 5.16.<br/>
-                     - Steam is incredibly jank with them on Linux when compared to Windows.<br/>
-                     - Kernels below 5.16 <br/>
-                     - I expect this to get remedied out of the box with SteamOS.<br/>
+                     - Unusable in many native titles when using kernels below 5.16.<br/>
+                     - Affected by the SDL_JOYSTICK_HIDAPI problem.<br/>
                     </p>
                     <h3 id="GameMaker8">GameMaker 8</h3>
                     <p>
@@ -2901,8 +2894,7 @@
                     </p>
                     <br/>
                     <h2 id="Random">Random Thoughts</h2>
-                    - How can we prevent programs outside of the Steam client from reading controllers other than the Steam Virtual Gamepad? (This is a MASSIVE conern of mine)<br/>
-                    - Will it be possible for Gamescope to handle multiple XWayland clients? (This would allow much greater usability eith the standalone release of Dolphin Emulator)<br/>
+                    - How can we prevent games running in Steam from reading controllers other than the Steam Virtual Gamepad? (This is a MASSIVE conern of mine)<br/>
                     - BtrFS compression?<br/>
                     <br/>
                     <h2 id="Controllers">Me Yelling About Controller Jank</h2>
