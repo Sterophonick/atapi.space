@@ -2846,7 +2846,7 @@
                     <h3 id="jazzjackrabbit">Jazz Jackrabbit Collection (GOG Re-release)</h3>
                     <p>
                     DOSBox<br/>
-                    Technology: Turbo Pascal, ProTracker<br/>
+                    Technology: Turbo Pascal, ProTracker Studio<br/>
                     Controller Support:<br/>
                      - <a href="steam://controllerconfig/jazz%20jackrabbit%20collection/2771145785">Steam Input Controller Configuration</a><br/>
                      - This controller config allows you to select between the CD-ROM release and Holiday Hare '95 using LT and RT respectively.<br/>
@@ -2854,11 +2854,44 @@
                      - You may also need to disable the Alt+Space shortcut in KDE.<br/>
                     Notes:<br/>
                      - Game will stutter at times because it runs at DOS' default of 70Hz.<br/>
-                     - You might want to configure your sound card settings first, you will probably need a keyboard.<br/>
+                     - You might want to configure your sound card settings first, you will probably need a keyboard. I recommend attaching a Gravis UltraSound<br/>
                     Recommended Improvements:<br/>
                      - You can edit line 161 of support/gog_com.shlib to force the game to use an alternate DOSBox release such as DOSBox-Staging.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/jazzjackrabbit1.png"><br/>
+                    </p>
+                    <h3 id="epicpinballcomplete">Epic Pinball: The Complete Collection (GOG Re-release)</h3>
+                    <p>
+                    DOSBox<br/>
+                    Technology: x86 Assembly, ProTracker Studio<br/>
+                    Controller Support:<br/>
+                     - <a href="steam://controllerconfig/epic%20pinball%20the%20complete%20collection/2776411984">Steam Input Controller Configuration</a><br/>
+                     - This controller config allows you to play the game without a hitch.<br/>
+                     - You may wanna map the Right Stick or something to your initials, since the on-screen keyboard is inoperable because the screen stops drawing, unless you are in SteamOS Game Mode.<br/>
+                    Notes:<br/>
+                     - You might want to configure your sound card settings first, you will probably need a keyboard. I recommend attaching a Gravis UltraSound.<br/>
+                    Recommended Improvements:<br/>
+                     - You can edit line 161 of support/gog_com.shlib to force the game to use an alternate DOSBox release such as DOSBox-Staging.<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/epicpinballgog1.png"><br/>
+                    </p>
+                    <h3 id="raymanforevergog">Rayman Forever (GOG Re-release)</h3>
+                    <p>
+                    DOSBox<br/>
+                    Technology: Custom<br/>
+                    Controller Support:<br/>
+                     - <a href="steam://controllerconfig/rayman%20forever/2776441357">Steam Input Controller Configuration</a><br/>
+                     - Right Stick up for Rayman, Left for Rayman Designer, and Right for Rayman by his Fans.<br/>
+                    Installation:<br/>
+                     - You must have DOSBox installed locally.<br/>
+                     - Execute the GOG installer and extract it to wherever<br/>
+                     - Edit the file "dosboxRayman_single.conf" and remove all instances of "..\"<br/>
+                     - Replace the music in the directory with <a href="https://www.mediafire.com/file/qxqatkzd9d04jc4/Rayman_GOG_Complete_Soundtrack.zip/file">this.</a><br/>
+                     - Your command should be "dosbox -conf dosboxRayman.conf -conf dosboxRayman_single.conf" and the working directory should be the root of the GOG game installation.<br/>
+                    Notes:<br/>
+                     - Rayman Designer and Rayman by his Friends have weird framerate issues.<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/raymanforever1.png"><br/>
                     </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
