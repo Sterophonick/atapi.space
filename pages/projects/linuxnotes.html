@@ -167,7 +167,7 @@
                                     <a href="pages/projects/linuxnotes.html#DokiDoki">Doki Doki Literature Club!</a>
                                 </li>
                                 <li>
-                                    <a href="pages/projects/linuxnotes.html#DOOM">DOOM (GZDoom)</a>
+                                    <a href="pages/projects/linuxnotes.html#DOOM">The Ultimate DOOM + DOOM II</a>
                                 </li>
                                 <li>
                                     <a href="pages/projects/linuxnotes.html#DOOMUnity">DOOM (Nerve Unity Port)</a>
@@ -443,9 +443,14 @@
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: Unity, Direct3D<br/>
-                    Controller support: None<br/>
+                    Controller support: Imperfect<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
+                     - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - Create a Steam Input controller profile, it works great!<br/>
+                     - ULTRAKILL has controller support that's missing a big feature, and that's in-game controller mapping.<br/>
+                     - This will conflict with Steam Input, so just use keyboard and mouse emulation in Steam Input.<br/>
                     <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/ultrakill1.png"><br/>
                     </p>
@@ -869,14 +874,16 @@
                     <img class="preview" src="assets/img/projects/linuxnotes/dokidoki1.png"><br/>
                     Screenshot note: Just Monika.<br/>
                     </p>
-                    <h3 id="DOOM">DOOM (GZDoom)</h3>
+                    <h3 id="DOOM">The Ultimate DOOM + DOOM II</h3>
                     <p>
-                    Native (Luxtorpeda)<br/>
-                    Technology: GZDoom, Vulkan, OpenGL<br/>
+                    Native (Luxtorpeda, GZDoom)<br/>
+                    Technology: idTech 1, Vulkan, OpenGL<br/>
                     Controller support: <i>Almost</i> perfect.<br/>
                     Notes:<br/>
                      - GZDoom has a ton of options and looks really bad by default.<br/>
                      - Controller support will take a bit of fiddling, but after that, it's perfect. Certain things like the map or the main menu aren't assignable though.<br/>
+                    Recommended Improvements:<br/>
+                     - You can set LUX_DISABLE_DEFAULT_CONFIRM=1 after selecting your default engine to skip the confirmation dialog.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/doom1.png"><br/>
                     </p>
@@ -1181,6 +1188,8 @@
                     Notes:<br/>
                      - Using dhewm3 over Proton provides a functionally identical experience.<br/>
                      - Gamescope is probably recommended for dhewm3 because of X server nonsense.<br/>
+                    Recommended Improvements:<br/>
+                     - You can set LUX_DISABLE_DEFAULT_CONFIRM=1 after selecting your default engine to skip the confirmation dialog.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/dhewm3_1.png"><br/>
                     Screenshot note: Game is not rendered in Vulkan, that's just Gamescope. Also using dhewm3 here.<br/>
@@ -1697,6 +1706,8 @@
                      - Requires Gamescope to be attached for Steam Overlay to work<br/>
                     TODO:<br/>
                      - Double check controller support<br/>
+                    Recommended Improvements:<br/>
+                     - You can set LUX_DISABLE_DEFAULT_CONFIRM=1 after selecting your default engine to skip the confirmation dialog.<br/>
                     <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/wolf3d_1.png"><br/>
                     Screenshot note: Game is rendered in OpenGL.<br/>
@@ -2643,6 +2654,8 @@
                     Notes:<br/>
                      - Performance issues for some reason.<br/>
                      - ioRtCW allows for widescreen over using the Windows build<br/>
+                    Recommended Improvements:<br/>
+                     - You can set LUX_DISABLE_DEFAULT_CONFIRM=1 after selecting your default engine to skip the confirmation dialog.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/rtcw1.png"><br/>
                     </p>
@@ -2730,7 +2743,7 @@
                      - Reads both real and virtual devices because evdev. Not a huge deal since they're not automatically configured but still annoying. Everything works though.<br/>
                     Notes:<br/>
                      - Emulator does not have a means of configuration with a controller. At least having an option to render the game to the main window would bump this up to a silver.<br/>
-                    Improvements:<br/>
+                    Needed Improvements:<br/>
                      - Optional SDL2 joystick backend<br/>
                      - Controller-friendly UI<br/>
                     <img src="assets/img/projects/linuxnotes/bronze.png"><br/>
@@ -2744,7 +2757,7 @@
                      - Like RPCS3, uses evdev for controller support.<br/>
                     Notes:<br/>
                      - Emulator has a means of rendering the game to the main Window which will make it possible to configure in handheld mode.<br/>
-                    Improvements:<br/>
+                    Needed Improvements:<br/>
                      - SDL2 input emulation backend<br/>
                      - Controller-friendly UI<br/>
                     <img src="assets/img/projects/linuxnotes/silver.png"><br/>
@@ -2839,6 +2852,8 @@
                      - Use Steam Input for the best possible experience.<br/>
                     Notes:<br/>
                      - No options for resolution scale.<br/>
+                    Recommended Improvements:<br/>
+                     - You can set LUX_DISABLE_DEFAULT_CONFIRM=1 after selecting your default engine to skip the confirmation dialog.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/quake2_1.png"><br/>
                     Screenshot note: The resolution was lowered by forcing the Gamescope resolution. This might not be possible in SteamOS.<br/>
@@ -2893,13 +2908,45 @@
                     <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <img class="preview" src="assets/img/projects/linuxnotes/raymanforever1.png"><br/>
                     </p>
+                    <h3 id="SpaceQuestCollection">Space Quest Collection</h3>
+                    <p>
+                    Native (Luxtorpeda, ScummVM)<br/>
+                    Technology: Sierra's Creative Interpreter, Adventure Game Interpreter<br/>
+                    Controller Support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Phantom without SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Nintendo Switch: Phantom without SDL_JOYSTICK_HIDAPI=0<br/>
+                     - Google Stadia: Phantom without SDL_JOYSTICK_HIDAPI=0<br/>
+                    Notes:<br/>
+                     - Game collection defaults to WASD controls, manually set Gamepad configuration<br/>
+                    Recommended Improvements:<br/>
+                     - For Space Quest III-VI, you can use ScummVM's Roland MT-32 emulation mode for the best quality sound possible. This requires "MT32_CONTROL.ROM" and "MT32_PCM.ROM"<br/>
+                     - These two ROM images will go in the game's respective directories, sqX, with X being a number corresponding to a game in the series.<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/spacequestcollection1.png"><br/>
+                    </p>
+                    <h3 id="QuantumConundrum">Quantum Conundrum</h3>
+                    <p>
+                    Proton (Any modern version)<br/>
+                    Technology: Unreal Engine 3, D3D9<br/>
+                    Controller Support:<br/>
+                     - Xbox One: Perfect<br/>
+                     - DualShock 4: Perfect<br/>
+                     - Nintendo Switch: Perfect<br/>
+                     - Google Stadia: Perfect<br/>
+                    Notes:<br/>
+                     - Menus do not scale to 16:10 correctly, however gameplay does.<br/>
+                     - Input glyphs will swap between keyboard and controller if using the touchpad as a mouse.<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
+                    <img class="preview" src="assets/img/projects/linuxnotes/quantumconundrum1.png"><br/>
+                    </p>
                     <br/>
                     <h2 id="Technology">Technology Compatibility</h3>
                     <h3 id="XNA_FNA">XNA/FNA</h3>
                     <p>
                      - Examples: FEZ, Celeste, Duck Game, Dust: AET<br/>
                      - Many XNA games will use FNA for ports<br/>
-                     - Many XNA games have issues with the Steam Overlay. This is fixable with gamescope but gamescope is jank<br/>
+                     - Many XNA games have issues with the Steam Overlay. This is fixable with gamescope.<br/>
                      - FNA games have issues with screen tearing, thanks Xorg.<br/>
                     </p>
                     <h3 id="MF">Windows Media Foundation</h3>
@@ -2929,7 +2976,7 @@
                     <h3 id="NSPC">Nintendo Switch Pro Controller</h3>
                     <p>
                      - Unusable in many native titles when using kernels below 5.16. SteamOS uses kernel 5.13 as of now.<br/>
-                     - Affected by the SDL_JOYSTICK_HIDAPI problem.<br/>
+                     - Affected by the SDL_JOYSTICK_HIDAPI problem, and will crash XInput games in versions of Proton before 7.0.<br/>
                     </p>
                     <h3 id="GameMaker8">GameMaker 8</h3>
                     <p>
@@ -2958,7 +3005,6 @@
                     Issues:<br/>
                      - Games ignoring Steam Input<br/>
                      - Games reading multiple controllers when one controller is plugged in (Phantom Controllers)<br/>
-                     - Nintendo Switch controllers crashing games running in mainline Proton<br/>
                     <br/>
                     <b>Solution</b>:<br/>
                     - SDL_JOYSTICK_HIDAPI=0<br/>
@@ -2990,7 +3036,6 @@
                     Games to test:<br/>
                      - Grand Theft Auto III<br/>
                      - Grand Theft Auto: Vice City<br/>
-                     - Quake II<br/>
                      - Tomb Raider I<br/>
                      - The Basement Collection<br/>
                      - The Neverhood<br/>
@@ -2999,13 +3044,11 @@
                      - SpeedRunners<br/>
                      - Quake III Arena<br/>
                      - NiGHTS Into Dreams...<br/>
-                     - Quantum Conundrum<br/>
                      - Myst: Masterpiece Edition<br/>
                      - Angry Video Game Nerd Adventures<br/>
                      - SuperTuxKart<br/>
                      - 3D Pinball for Windows: Space Cadet<br/>
                      - The Powder Toy<br/>
-                     - Space Quest Collection<br/>
                      - Giana's Return<br/>
                      - Xonotic<br/>
                      - Minetest<br/>
