@@ -61,7 +61,7 @@ a {
 
 #sidebar {
   background-image: url("../assets/img/global/bkg.png");
-  width: 260px;
+  width: 195px;
   overflow: auto;
   text-align: center;
   position: fixed;
@@ -70,11 +70,16 @@ a {
 
 #sidebar h1 {
   line-height: 1;
-  font-size: 28pt;
+  font-size: 23pt;
 }
 
 #logo{
 	display: inline-block;
+}
+
+#pfp {
+  width: 195px;
+  height: 195px;
 }
 
 #sidebar-bottom {
@@ -91,12 +96,12 @@ a {
   width: 6px;
   padding: 0px;
   position: fixed;
-  margin-left: 18rem;
+  margin-left: 14rem;
   overflow: none;
 }
 
 .mainContent {
-  margin-left: 19rem;
+  margin-left: 15rem;
 }
 
 .gallery {
