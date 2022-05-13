@@ -19,7 +19,7 @@
             "assets/img/home/welcome.webp", "assets/img/home/welcome2.gif", "assets/img/home/welcome3.gif"
         ];
         function getImageTag() {
-            var img = '<img height=\"200px\" src=\"';
+            var img = '<img id=\"welcome\" src=\"';
             var randomIndex = Math.floor(Math.random() * imageURLs.length);
             img += imageURLs[randomIndex];
             img += '\" alt=\"funny meme\" onclick=\"togglePotato()\"/>';

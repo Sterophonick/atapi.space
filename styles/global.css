@@ -8,6 +8,7 @@
 
 * {
   font-smooth: never;
+  box-sizing: border-box;
 }
 
 body {
@@ -53,42 +54,37 @@ a {
 }
 
 .column {
-  float: left;
   padding: 10px;
-  padding-right: 15px;
   height: 100%;
 }
 
-#sidebar {
+.sidebar {
   background-image: url("../assets/img/global/bkg.png");
-  width: 195px;
+  width: 220px;
   overflow: auto;
-  text-align: center;
   position: fixed;
-  overflow: none;
+  left: 0px;
+  top: 0px;
+  float: left;
 }
 
-#sidebar h1 {
+.sidebar h1 {
   line-height: 1;
   font-size: 23pt;
+  text-align: center;
 }
 
-#logo{
-	display: inline-block;
+#navigation {
+  text-align: center;
+}
+
+.nav-icon {
+  width: 42px;
 }
 
 #pfp {
-  width: 195px;
-  height: 195px;
-}
-
-#sidebar-bottom {
-  margin-top: 2.5rem;
-}
-
-#sidebar-bottom .icon {
-  width: 42px;
-  height: 42px;
+  width: 200px;
+  height: 200px;
 }
 
 .sidebar-border {
@@ -96,12 +92,15 @@ a {
   width: 6px;
   padding: 0px;
   position: fixed;
+  top: 0px;
+  left: 0px;
   margin-left: 14rem;
   overflow: none;
 }
 
 .mainContent {
-  margin-left: 15rem;
+  margin-left: 14rem;
+  overflow-x: hidden;
 }
 
 .gallery {
@@ -132,3 +131,7 @@ a {
 small {
   font-size: 14pt;
 }
+
+#welcome {
+  max-width: 728px;
+  max-height: 170px;
