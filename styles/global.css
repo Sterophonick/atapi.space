@@ -107,7 +107,7 @@ a {
   display: grid;
   text-align: center;
   align-items: center;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 240px 240px 240px;
   grid-gap: 8px;
 }
 
