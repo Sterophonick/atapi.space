@@ -14,6 +14,8 @@ document.write(`
         <a href="greetz.html"><img style="vertical-align:middle" src="./assets/img/global/greetz.png"> Special Greetz</a><br />
         <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br/>
 
+        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img style="vertical-align:middle" src="./assets/img/global/guestbook.png"> Sign the Guestbook!</a><br/>
+
         <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img class="nav-icon" src="./assets/img/global/github.png" /></a>
         <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img class="nav-icon" src="./assets/img/global/tempy.webp" /></a>
         <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img class="nav-icon" src="./assets/img/global/youtube.webp" /></a>
