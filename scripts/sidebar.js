@@ -17,8 +17,8 @@ document.write(`
         <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img style="vertical-align:middle" src="./assets/img/global/guestbook.png"> Sign the Guestbook!</a><br/>
 
         <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img class="nav-icon" src="./assets/img/global/github.png" /></a>
-        <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img class="nav-icon" src="./assets/img/global/tempy.webp" /></a>
-        <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img class="nav-icon" src="./assets/img/global/youtube.webp" /></a>
+        <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img class="nav-icon" src="./assets/img/global/tempy.png" /></a>
+        <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img class="nav-icon" src="./assets/img/global/youtube.png" /></a>
         <a href="https://twitter.com/sterophonick" title="Twitter" target="_blank"><img class="nav-icon" src="./assets/img/global/twitter.png" /></a><br/>
         <a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>
     </div>
