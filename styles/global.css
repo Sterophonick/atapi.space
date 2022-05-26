@@ -66,6 +66,7 @@ a {
   left: 0px;
   top: 0px;
   float: left;
+  overflow-x: hidden;
 }
 
 .sidebar h1 {
@@ -135,3 +136,4 @@ small {
 #welcome {
   max-width: 728px;
   max-height: 170px;
+}
