@@ -15,7 +15,7 @@ body {
   background-image: url("../assets/img/global/bkg.png");
   background-repeat: repeat;
   font-family: AppleKid;
-  color: #eaeaea;
+  color: #ffffff;
   font-size: 20pt;
   line-height: 1;
 }
@@ -29,7 +29,8 @@ h6 {
   font-family: AppleKid;
   line-height: 0.3;
   letter-spacing: 0.8px;
-  color: #b5e853;
+  color: #e82525;
+  text-shadow: 0px 0px 10px #e82525;
 }
 
 h1 {
