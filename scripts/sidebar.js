@@ -11,8 +11,7 @@ document.write(`
         <a href="dumps.html"><img style="vertical-align:middle" src="./assets/img/global/chip.png"> Dumps</a><br />
         <a href="blog.html"><img style="vertical-align:middle" src="./assets/img/global/notepad.png"> Blog</a><br />
         <a href="gallery.html"><img style="vertical-align:middle" src="./assets/img/global/gallery.png"> Gallery</a><br />
-        <a href="greetz.html"><img style="vertical-align:middle" src="./assets/img/global/greetz.png"> Special Greetz</a><br />
-        <a href="links.html"><img style="vertical-align:middle" src="./assets/img/global/links.png"> Links</a><br/>
+        <a href="greetz.html"><img style="vertical-align:middle" src="./assets/img/global/greetz.png"> Greetz & Links</a><br />
 
         <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img style="vertical-align:middle" src="./assets/img/global/guestbook.png"> Sign the Guestbook!</a><br/>
 
