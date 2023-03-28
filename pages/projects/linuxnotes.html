@@ -24,7 +24,7 @@
 			<div class="column mainContent">
 				<h1><img style="vertical-align:middle" src="assets/img/projects/linuxnotes/icon.png"> Linux Gaming Notes</h1>
 				<p>Some very crude notes about Linux gaming and game compatibility in my experience.</p>
-				<p>Last updated: May 21st, 2022</p>
+				<p>Last updated: March 28, 2023</p>
 				<base href="pages/projects/linuxnotes.html" />
                 <script type="text/javascript">
                     document.write(getImageTag());
@@ -413,16 +413,17 @@
                     </p>
                     <h3 id="DUSK">DUSK</h3>
                     <p>
-                    Native<br/>
+                    Proton (Any modern version)<br/>
                     Technology: Unity, OpenGL (Vulkan optional)<br/>
                     Controller support:<br/>
-                    - Xbox One: Supported<br/>
-                    - DualShock 4: Supported<br/>
-                    - Nintendo Switch: Supported<br/>
-                    - Google Stadia: Supported<br/>
+                    - Xbox One: Perfect<br/>
+                    - DualShock 4: Perfect<br/>
+                    - Nintendo Switch: Perfect<br/>
+                    - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - Triggers, Stick Buttons, and D-Pad are bored out of the box. Fixed with <a href="steam://controllerconfig/519860/2679061214">this controller config.</a><br/>
-                     - -force-vulkan can be used to force Vulkan</br>
+                     - Controller support on native has ghosting. Use Proton.<br/>
+                     - Cannot use mouse+joystick simultaneously.<br/>
+                     - Does not automatically adapt to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/dusk1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/dusk1.jpg"></a><br/>
                     </p>
@@ -444,15 +445,14 @@
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: Unity, Direct3D<br/>
-                    Controller support: Imperfect<br/>
+                    Controller support: Perfect<br/>
                      - Xbox One: Perfect<br/>
                      - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - ULTRAKILL has controller support that's missing a big feature, and that's in-game controller mapping.<br/>
-                     - This will conflict with Steam Input, so just use keyboard and mouse emulation in Steam Input.<br/>
-                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                     - None!<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/ultrakill1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/ultrakill1.jpg"></a><br/>
                     </p>
                     <h3 id="MutantMudds">Mutant Mudds Deluxe</h3>
@@ -464,8 +464,7 @@
                      - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
-                     - Window will always shrink when in windowed mode, doesn't occur in Proton-4.11<br/>
-                     - Game requires that you set controls to controller manually.<br/>
+                     - Requires the user set joystick mode in Desktop.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/mutantmudds1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/mutantmudds1.jpg"></a><br/>
                     </p>
@@ -485,7 +484,7 @@
                     Technology: Nu2, Direct3D<br/>
                     Controller support: Perfect<br/>
                     Notes:<br/>
-                     - None!<br/>
+                     - Does not automatically adapt to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/legostarwarstcs1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/legostarwarstcs1.jpg"></a><br/>
                     </p>
@@ -506,8 +505,8 @@
                     Controller support:<br/>
                      - All of them need Gamescope<br/>
                     Notes:<br/>
-                     - Steam Overlay doesn't work, causing controllers to be totally borked. Fixed with Gamescope.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                     - Runs very poorly.<br/>
+                    <img src="assets/img/projects/linuxnotes/silver.png"><br/>
                     <a href="assets/img/projects/linuxnotes/hrot1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/hrot1.jpg"></a><br/>
                     </p>
                     <h3 id="DOOM64">DOOM 64</h3>
@@ -516,8 +515,8 @@
                     Technology: KEX, D3D+Vulkan+OpenGL<br/>
                     Controller support: Perfect<br/>
                     Notes:<br/>
-                     - Stutters to no end when using a controller.<br/>
-                    <img src="assets/img/projects/linuxnotes/bronze.png"><br/>
+                     - None!<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/doom64_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/doom64_1.jpg"></a><br/>
                     </p>
                     <h3 id="QuakeRemastered">Quake (2021 Remaster)</h3>
@@ -544,8 +543,7 @@
                     Notes:<br/>
                      - Requires user input for installing NVIDIA PhysX.</br>
                      - Does not scale to 16:10 properly.<br/>
-                    TODO:<Br/>
-                     - Does it have the issue with the sound effects playing at full volume?<br/>
+                     - Does not automatically adjust to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/mirrorsedge1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/mirrorsedge1.jpg"></a><br/>
                     </p>
@@ -561,12 +559,14 @@
                     Notes:<br/>
                      - Requires user input for installing PunkBuster and GameSpy Comrade.</br>
                      - SecuROM build is completely borked on AMD. Use <a href="https://github.com/ccomrade/c1-launcher">C1-Launcher</a>.<br/>
+                     - Would be a good idea to limit to four threads.<br/>
+                     - Does not automatically adjust to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/crysis1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/crysis1.jpg"></a><br/>
                     </p>
                     <h3 id="AHiT">A Hat in Time</h3>
                     <p>
-                    Proton (GloriousEggroll)<br/>
+                    Proton (Any modern version)<br/>
                     Technology: Unreal Engine 3, Direct3D<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
@@ -574,9 +574,10 @@
                      - Nintendo Switch: Perfect<br/>
                      - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - Proton 6.3 and Experimental just cause the game to hang.</br>
-                     - You cannot use a mouse and controller in tandem, breaking the Steam Deck touchpads.<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                     - Heavy on shaders. Will likely stutter for a while.<br/>
+                     - Does not allow mouse for camera.<br/>
+                     - Does not automatically adjust to new resolutions.<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/ahatintime1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/ahatintime1.jpg"></a><br/>
                     </p>
                     <h3 id="CastleCrashers">Castle Crashers</h3>
@@ -588,9 +589,8 @@
                      - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
-                     - Proton 6.3 causes the audio to stop working.<br/>
-                     - Has an option to stretch the game to 16:10 (shown here). I think it's meh but you be the judge.</br>
-                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                     - Does not automatically adjust to new resolutions.<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/castlecrashers1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/castlecrashers1.jpg"></a><br/>
                     </p>
                     <h3 id="BridgeConstructorPortal">Bridge Constructor Portal</h3>
@@ -615,9 +615,9 @@
                      - Forced itself to 1024x768 by default.<br/>
                      - Menus are only navigable with D-Pad, unsure why.</br>
                     TODO:<br/>
-                     - Does it force 1024x768 in Gamescope?<br/>
-                     - Test other controllers<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                     - Does not automatically adjust to new resolutions.<br/>
+                     - I would recommend making a keyboard/mouse config.<br/>
+                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <a href="assets/img/projects/linuxnotes/postal2_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/postal2_1.jpg"></a><br/>
                     </p>
                     <h3 id="Portal">Portal</h3>
@@ -625,11 +625,9 @@
                     Native<br/>
                     Technology: Source, ToGL, DXVK-Native<br/>
                     Controller support: Steam Input<br/>
-                     - Screwed by SDL_JOYSTICK_HIDAPI<br/>
                     Notes:<br/>
-                     - Gamepad UI accessible with -gamepadui<br/>
-                     - DXVK available through -vulkan<br/>
-                    <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
+                     - None!<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/portal1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/portal1.jpg"></a><br/>
                     </p>
                     <h3 id="Portal2">Portal 2</h3>
@@ -637,9 +635,8 @@
                     Native<br/>
                     Technology: Source, ToGL (DXVK-Native available)<br/>
                     Controller support: Full Steam Input Support<br/>
-                     - Screwed by SDL_JOYSTICK_HIDAPI<br/>
                     Notes:<br/>
-                     - Vulkan support with -vulkan flag</br>
+                     - None!<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/portal2_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/portal2_1.jpg"></a><br/>
                     </p>
@@ -654,6 +651,7 @@
                     Notes:<br/>
                      - Doesn't scale to 16:10.</br>
                      - Cannot be purchased on Steam.<br/>
+                     - Does not automatically adjust to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/pokernight2_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/pokernight2_1.jpg"></a><br/>
                     </p>
@@ -665,6 +663,7 @@
                     Notes:<br/>
                      - Doesn't scale to 16:10.</br>
                      - Linux version is currently outdated, compared to Windows with version 1.2.5</br>
+                     - Does not automatically adjust to new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/goldp.png"><br/>
                     <a href="assets/img/projects/linuxnotes/supermeatboy1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/supermeatboy1.jpg"></a><br/>
                     </p>
@@ -684,12 +683,10 @@
                     <p>
                     Proton (Any modern version)<br/>
                     Technology: Custom, Direct3D<br/>
-                    Controller support: Borked (Steam Input works great!)<br/>
+                    Controller support: Perfect<br/>
                     Notes:<br/>
-                     - It is recommended to use Sonic R Mod Launcher for D3D9 support. Wine-Mono will be required.<br/>
-                    TODO:<br/>
-                     - Multiplayer requires a joystick?<br/>
-                    <img src="assets/img/projects/linuxnotes/gold.png"><br/>
+                     - Recommended to use Sonic R Mod Launcher as well as d8vk.<br/>
+                    <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/sonicr_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/sonicr_1.jpg"></a><br/>
                     </p>
                     <h3 id="SlayerTest">Slayer's Testaments</h3>
@@ -698,9 +695,9 @@
                     Technology: QuakeSpasm-Spiked, OpenGL<br/>
                     Controller support:<br/>
                      - Xbox One: Supported<br/>
-                     - DualShock 4: Second Phantom Controller<br/>
-                     - Nintendo Switch: Second Phantom Controller<br/>
-                     - Google Stadia: Second Phantom Controller<br/>
+                     - DualShock 4: Supported<br/>
+                     - Nintendo Switch: Supported<br/>
+                     - Google Stadia: Supported<br/>
                     Notes:<br/>
                      - Using a Steam Input config with an analog stick but everything else as KB/M is a good idea.<br/>
                      - <a href="steam://controllerconfig/slayer%27s%20testaments/2679545071">Steam Input Controller Config</a><br/>
@@ -713,8 +710,8 @@
                     Technology: Custom, Direct3D<br/>
                     Controller support: None (Steam Input works great!)<br/>
                     Notes:<br/>
-                     - protontricks d3dx9_35<br/>
                      - Does not scale to 16:10<br/>
+                     - Would recommend using dgVoodoo2 for upscaling.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/tagtpop1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/tagtpop1.jpg"></a><br/>
                     </p>
@@ -723,9 +720,6 @@
                     Proton (Any modern version)<br/>
                     Technology: Custom, Direct3D<br/>
                     Controller support: Steam Input<br/>
-                     - Xbox One: Perfect<br/>
-                     - DualShock 4: Perfect<br/>
-                     - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
                      - Does not scale to 16:10<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
@@ -741,8 +735,11 @@
                      - Nintendo Switch: Crashes (Untested)<br/>
                     Notes:<br/>
                      - Stretches screen for 16:10. Blegh<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                      - Brings up configuration screen on first boot. Might need desktop access.<br/>
                      - <i>Really bad</i> performance issues<br/>
+                    TODO:<br/>
+                     - Try the funny perf mods.<br/>
                     <img src="assets/img/projects/linuxnotes/silver.png"><br/>
                     <a href="assets/img/projects/linuxnotes/sonicgenerations1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/sonicgenerations1.jpg"></a><br/>
                     </p>
@@ -758,7 +755,7 @@
                     </p>
                     <h3 id="JazzJackrabbit2">Jazz Jackrabbit 2: The Secret Files (GOG Re-release)</h3>
                     <p>
-                    Proton (7.0 or higher)<br/>
+                    Proton (Any modern version)<br/>
                     Technology: Unknown, DDraw, WinMM<br/>
                     Controller support:<br/>
                      - Xbox One: Perfect<br/>
@@ -772,8 +769,6 @@
                     Notes:<br/>
                      - Force the start button as Escape in Steam Input<br/>
                      - Credits screen is just black and flickers when skipping it.<br/>
-                    TODO:<br/>
-                     - Are the stability issues when using standard Wine present here as well?<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/jazz2_1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/jazz2_1.jpg"></a><br/>
                     </p>
@@ -803,6 +798,7 @@
                     Notes:<br/>
                      - Native build was completely borked, even when replacing the executable.<br/>
                      - Title screen menus were jank with controller. Thankfully touchscreen will alleviate this.<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/aperturetag1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/aperturetag1.jpg"></a><br/>
                     </p>
@@ -813,6 +809,7 @@
                      - Perfect<br/>
                     Notes:<br/>
                      - Proton because broken controller support.<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/portalmel1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/portalmel1.jpg"></a><br/>
                     </p>
@@ -846,6 +843,7 @@
                      - Native Linux build is unstable. Works perfectly in Proton.<br/>
                      - Multiplayer works.<br/>
                      - Official Steam Input config doesn't allow for everything. Get creative! <img src="assets/img/smileys/wink.jpg"><br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/garrysmod1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/garrysmod1.jpg"></a><br/>
                     </p>
@@ -854,10 +852,9 @@
                     Proton (Any modern version)<br/>
                     Technology: GameMaker, Direct3D 8<br/>
                     Controller support: None, use Steam Input<br/>
-                    Installation:<br/>
-                     - Attach dgVoodoo2's D3D8 DLL<br/>
                     Notes:<br/>
                      - See <a href="pages/projects/linuxnotes.html#GameMaker8">GameMaker 8</a>.<br/>
+                     - d8vk recommended.<br/.
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/lunagame1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/lunagame1.jpg"></a><br/>
                     </p>
@@ -940,7 +937,8 @@
                     Technology: Unreal, Direct3D<br/>
                     Controller support: None (Steam Input works great)<br/>
                     Notes:<br/>
-                     - Developer has abandoned this game<br/>
+                     - Developer has abandoned this game.<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/swordwithsauce1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/swordwithsauce1.jpg"></a><br/>
                     </p>
@@ -960,11 +958,11 @@
                     Native (Thanks Flibitijibibo!)<br/>
                     Technology: XNA/FNA, OpenGL<br/>
                     Controller support:<br/>
-                     - Xbox One: Ignores Steam Input<br/>
-                     - DualShock 4: Ignores Steam Input<br/>
+                     - Xbox One: Perect<br/>
+                     - DualShock 4: Perfect<br/>
                      - Nintendo Switch: Perfect<br/>
                     Notes:<br/>
-                     - None!<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/fez1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/fez1.jpg"></a><br/>
                     </p>
@@ -992,7 +990,7 @@
                     - Nintendo Switch: Perfect<br/>
                     - Google Stadia: Perfect<br/>
                     Notes:<br/>
-                     - None!<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/geometrywarsre1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/geometrywarsre1.jpg"></a><br/>
                     </p>
@@ -1003,6 +1001,7 @@
                     Controller support: Perfect<br/>
                     Notes:<br/>
                      - Native build crashes upon closing FMVs, and the "linuxtest" branch as audio issues. I talked with The Behemoth and they can't do anything about it yet. :/<br/>
+                     - Does not automatically adjust for new resolutions.<br/>
                     <img src="assets/img/projects/linuxnotes/gold.png"><br/>
                     <a href="assets/img/projects/linuxnotes/battleblock1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/battleblock1.jpg"></a><br/>
                     </p>
@@ -1012,7 +1011,7 @@
                     Technology: Java (LWJGL?), OpenGL<br/>
                     Controller support: None, use touchscreen<br/>
                     Notes:<br/>
-                     - I'm using GE for this screenshot so MangoHUD works.<br/>
+                     - Really weird to play at 800p.<br/>
                     <img src="assets/img/projects/linuxnotes/platinum.png"><br/>
                     <a href="assets/img/projects/linuxnotes/sim1.png"><img class="preview" src="assets/img/projects/linuxnotes/small/sim1.jpg"></a><br/>
                     </p>
