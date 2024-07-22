@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Sterophonick's Homepage! :: Projects :: OneShot Complete Fix for Linux & Steam Deck</title>
+		<base href="../../" />
+		<meta property="test:baseurl" content="/">
+		<link rel="stylesheet" href="styles/global.css">
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="assets/img/global/favicon.ico">
+	</head>
+	<body>
+		<div class="mainContainer">
+			<script src="scripts/sidebar.js"></script>
+			<div class="column mainContent">
+				<h1>OneShot Complete Fix for Linux & Steam Deck</h1>
+				<img src="assets/img/projects/misc/oneshot_linux.png" width="720px" title="on little cat feet!"><br />
+				<p>An all-in-one fix for OneShot to be playable on Linux and Steam Deck!</p
+				<p>This package fixes:<br/>
+					- Startup crashes due to libstdc++<br/>
+					- Startup crashes due to Mesa<br/>
+					- Consistent hang towards the end that inhibits all progress<br/>
+					- Broken ending sequence tools<br/>
+				</p>
+				<p>Notes:<br/>
+					- If you're on KDE Plasma or Steam Deck, make sure that user applications cannot disable compositing.<br/>
+					- I have not tested this on Wayland. Play this way at your own risk.<br/>
+					- Steam Deck users, you need to run this through the <a href="https://github.com/Scrumplex/Steam-Play-None">Steam-Play-None</a> compatibility tool, as Steam Linux Runtime messes with this game a bit.<br/>
+					- Steam Deck users, do not play this in Game Mode. This game is ideally played in Desktop mode. Configure your controllers accordingly.<br/>
+					- This package DOES NOT distribute assets that are not publicly available. You need to buy the Steam release of OneShot to use this package.<br/>
+				<p>Credits:<br/>
+					- Main executable built with <a href="https://github.com/thehatkid/ModShot-mkxp-z">ModShot-mkxp</a>.<br/>
+					- Journal built with the original <a href="https://github.com/elizagamedev/mkxp-oneshot">mkxp-oneshot</a> repository.<br/>
+					- This package contains a build of <a href="https://github.com/ruby/ruby">Ruby 3.0.5</a>.<br/>
+				</p>
+				<p>Installation:<br/>
+					- Extract the contents of the .7z to your game folder.<br/>
+					- Execute the setup.sh script.<br/>
+					- You're done!<br/>
+				</p>
+				<p><a href="https://archive.org/details/one-shot-linu">Package Download</a><br />
+			</div>
+		</div>
+	</body>
+</html>
