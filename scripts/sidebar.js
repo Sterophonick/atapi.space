@@ -18,7 +18,7 @@ document.write(`
         <a href="https://github.com/Sterophonick" title="GitHub" target="_blank"><img class="nav-icon" src="./assets/img/global/github.png" /></a>
         <a href="https://gbatemp.net/members/sterophonick.457315/" title="GBAtemp" target="_blank"><img class="nav-icon" src="./assets/img/global/tempy.png" /></a>
         <a href="https://youtube.com/sterophonick" title="YouTube" target="_blank"><img class="nav-icon" src="./assets/img/global/youtube.png" /></a>
-        <a href="https://twitter.com/sterophonick" title="Twitter" target="_blank"><img class="nav-icon" src="./assets/img/global/twitter.png" /></a><br/>
+        <a href="https://bitbang.social/@sterophonick" title="Fedi" target="_blank"><img class="nav-icon" src="./assets/img/global/fedi.png" /></a><br/>
         <a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>
     </div>
 </div>
