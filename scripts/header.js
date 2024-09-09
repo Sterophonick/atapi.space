@@ -215,6 +215,11 @@ var quoteStrings = [
     "Also try ilomilo!",
     "Also try Castle Crashers!",
     "Also try Half-Life!",
+    "billy gates why do you make this possible ? Stop making money and fix your software!!",
+    "BOOM! No more RedX !!!",
+    "Your PC is now STONED!",
+    "Copy me, I want to travel!",
+    "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
 ];
 
 function getQuoteTag() {
