@@ -181,6 +181,8 @@ var quoteStrings = [
     "they put the mamsnrhbr chehfde in the soder",
     "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/tiger.png\">",
     "BUT WHO WAS PHONE??",
+    "Kup teraz!",
+    "Oh, there's a burning super death sword!",
 ];
 
 function getQuoteTag() {
