@@ -10,7 +10,7 @@ var quoteStrings = [
     "Redundant adjective is redundant",
     "Hi, Super Nintendo Chalmers!",
     "Thank god you're here, look what Antifa did!",
-    "1) Cover yourself in oil",
+    "2) Cover yourself in oil",
     "Reject humanity, embrace meow",
     "\"Hard Luck.\" Classy.",
     "にゃ～",
@@ -104,6 +104,8 @@ var quoteStrings = [
     "Achtung! Achtung!",
     "YANKEE. HOTEL. FOXTROT.",
     "DELTA. FOXTROT. DELTA. ZWEI EINS.",
+    "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715",
+    "COORDINATED UNIVERSAL TIME.",
     "Buzz, look! An alien!",
     "sudo make me a sandwich",
     "You got, like, three feet of air that time.",
@@ -115,6 +117,11 @@ var quoteStrings = [
     "They called it Xbox 360 because you turn 360 degrees and walk away.",
     "Hamboning will save your life someday.",
     "It's now safe to turn off your computer.",
+    "It's a paradox, there is NO answer!",
+    "Bailing out, you are on your own. Good luck.",
+    "You probably just broke your system. Congratulations.",
+    "The Creeper is a spy!",
+
 ];
 
 function getQuoteTag() {
