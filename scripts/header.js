@@ -121,6 +121,23 @@ var quoteStrings = [
     "Bailing out, you are on your own. Good luck.",
     "You probably just broke your system. Congratulations.",
     "The Creeper is a spy!",
+    "Sir. Big DS.",
+    "I Love Bees!",
+    "I love this place, I've been coming here since I was a Homunculus.",
+    "That's my point, good times are fleeting. It doesn't change the fact the Sun is going to Explode.",
+    "Hooray! I have reached level 987,413 in Mouse Quest!",
+    "Apply directly to the forehead!",
+    "Leaks are over, go home!",
+    "me want beytah right now",
+    "bad daytah, no beytah",
+    "Coming Winter 2014!",
+    "You guys can’t envision the final collapse of Capitalism? Incredible!",
+    "For some reason, a pencil-shaped iron statue is blocking the path.",
+    "No, no we cant! This baby is a demon child!",
+    "[[Hyperlink Blocked.]]",
+    "Now's your chance to be a [[BIG SHOT!]]",
+    "Despite everything, it's still you.",
+    "Doggo blocks the way!",
 
 ];
 
