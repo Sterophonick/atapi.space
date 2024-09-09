@@ -175,6 +175,9 @@ var quoteStrings = [
     "In the game of life, we're all NPCs in someone else's speedrun.",
     "He's in a better place now. Just kidding. He's in hell.",
     "I'm somewhere where I don't know where I am!",
+    "Waiter, waiter! More Wineserver instances please!",
+    "Processing Vulkan shaders...",
+    "That's a Y.P., not an M.P.!",
 ];
 
 function getQuoteTag() {
