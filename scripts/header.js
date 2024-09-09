@@ -4,7 +4,7 @@ document.write(`
         <!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->
         <table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">
             <tr>
-            <td><a href="./index.html"><img id="logo" border="0" src="assets/img/global/pfp.png" width="128"></a></td>
+            <td><a href="./index.html"><img id="logo" border="0" src="assets/img/global/quickpfp.png" width="128"></a></td>
             <td>
             <h1 style="margin-top:30px">Atapi's Own Little World</h1>
             </tr>
