@@ -180,6 +180,7 @@ var quoteStrings = [
     "That's a Y.P., not an M.P.!",
     "they put the mamsnrhbr chehfde in the soder",
     "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/tiger.png\">",
+    "BUT WHO WAS PHONE??",
 ];
 
 function getQuoteTag() {
