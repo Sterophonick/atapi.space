@@ -84,6 +84,7 @@ var quoteStrings = [
     "Everybody do the flop!",
     "Hi, babe, yes I am real man, you wanna go skateboards?",
     "NEDM",
+    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress."
     "An Evil Kumquat ate this blurb.",
     "I will make hat from you, little bunny!",
     "sfc /scannow chkdsk",
@@ -134,11 +135,28 @@ var quoteStrings = [
     "You guys can’t envision the final collapse of Capitalism? Incredible!",
     "For some reason, a pencil-shaped iron statue is blocking the path.",
     "No, no we cant! This baby is a demon child!",
+    "After all, it could only cost you your life, and you got that for free!",
+    "On days like these, kids like you should be playing Nintendo games.",
+    "Fuzzy Pickles!",
+    "Argh, Yagh!",
+    "You cannot grasp the true form of Giygas' attack!",
+    "Boing! Zoom! Dakota!",
+    "You're awfully kind taking time out to talk to a mouse. This mouse loves you!",
+    "We had fun one snowy day. I melted, but I am still real in your memory.",
+    "All of the info is there, except for the info that isn't there.",
+    "Broken down, old submarine. The yellow color is purely coincidental.",
+    "Clear out. Of way out get my",
+    "I want them all to listen, even if it requires kicking their butts.",
     "[[Hyperlink Blocked.]]",
     "Now's your chance to be a [[BIG SHOT!]]",
     "Despite everything, it's still you.",
     "Doggo blocks the way!",
-
+    "I'M UNDYNE AND I'M PILING ON THE SMOOCHES!",
+    "I can't go to hell. I'm already out of vacation days.",
+    "You're a wimpy loser with a big heart!",
+    "You can't use the fire exit because you're not made of fire.",
+    "First, ghosts are real, now anime's real. All my nightmares are true.",
+    "Perhaps mankind was not meant to pet this much.",
 ];
 
 function getQuoteTag() {
