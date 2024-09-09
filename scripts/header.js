@@ -174,6 +174,7 @@ var quoteStrings = [
     "I'm not a doctor, but I play one in Microsoft Paint.",
     "In the game of life, we're all NPCs in someone else's speedrun.",
     "He's in a better place now. Just kidding. He's in hell.",
+    "I'm somewhere where I don't know where I am!",
 ];
 
 function getQuoteTag() {
