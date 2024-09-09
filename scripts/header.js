@@ -6,7 +6,7 @@ document.write(`
             <tr>
             <td><a href="./index.html"><img id="logo" border="0" src="assets/img/global/pfp.png" width="128"></a></td>
             <td>
-            <h1 style="margin-top:30px">Sterophonick's Own Little World</h1>
+            <h1 style="margin-top:30px">Atapi's Own Little World</h1>
             </tr>
         </table>
     </div>
