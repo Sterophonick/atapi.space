@@ -1,4 +1,5 @@
 var quoteStrings = [
+    "haiiii ^_^ hi!! <3 haiiiiiii hiii :3",
     "duck in game stop. what will he buy.",
     "swag money. money money swag.",
     "New mission: refuse this mission!",
