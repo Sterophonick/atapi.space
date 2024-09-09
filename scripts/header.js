@@ -158,6 +158,13 @@ var quoteStrings = [
     "You can't use the fire exit because you're not made of fire.",
     "First, ghosts are real, now anime's real. All my nightmares are true.",
     "Perhaps mankind was not meant to pet this much.",
+    "nyanyanya!",
+    "trans rights are human rights, now and forever",
+    "YO SKRILL, DROP IT HARD!",
+    "Picard Approves",
+    "Heh... High five, brain.",
+    "Comedy? There's no place for <i>comedy</i> in a yakuza story...",
+    "Yo. Kiryu-chan~!",
 ];
 
 function getQuoteTag() {
