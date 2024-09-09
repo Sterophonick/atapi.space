@@ -164,7 +164,16 @@ var quoteStrings = [
     "Picard Approves",
     "Heh... High five, brain.",
     "Comedy? There's no place for <i>comedy</i> in a yakuza story...",
-    "Yo. Kiryu-chan~!"
+    "Yo. Kiryu-chan~!",
+    "Ghostbusters! They're back in town!",
+    "Grand Dad!? Fleenstones!?",
+    "He had all the DLL files in the world... but at what cost?",
+    "One day, Mario came to my house and he drank all my Pepsi.",
+    "Guys, there's analog dabbing.",
+    "Luigi, I got Terminal 7! This is what it looks like, Luigi!",
+    "I'm not a doctor, but I play one in Microsoft Paint.",
+    "In the game of life, we're all NPCs in someone else's speedrun.",
+    "He's in a better place now. Just kidding. He's in hell.",
 ];
 
 function getQuoteTag() {
