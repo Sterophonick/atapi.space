@@ -85,7 +85,7 @@ var quoteStrings = [
     "Everybody do the flop!",
     "Hi, babe, yes I am real man, you wanna go skateboards?",
     "NEDM",
-    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress."
+    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress.",
     "An Evil Kumquat ate this blurb.",
     "I will make hat from you, little bunny!",
     "sfc /scannow chkdsk",
@@ -164,7 +164,7 @@ var quoteStrings = [
     "Picard Approves",
     "Heh... High five, brain.",
     "Comedy? There's no place for <i>comedy</i> in a yakuza story...",
-    "Yo. Kiryu-chan~!",
+    "Yo. Kiryu-chan~!"
 ];
 
 function getQuoteTag() {
