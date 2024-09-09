@@ -76,10 +76,10 @@ var quoteStrings = [
     "Jason! Jason! Jason!",
     "Me Gusta!",
     "Door stuck! DOOR STUCK!",
-    "are you guys going trick or treating?".
+    "are you guys going trick or treating?",
     "How does one patch KDE2 under FreeBSD?",
     "Wololo!",
-    "This is sewious!",
+    "This is sewious!"
 
 ];
 
