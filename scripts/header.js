@@ -1,3 +1,33 @@
+var quoteStrings = [
+    "duck in game stop. what will he buy.",
+    "swag money. money money swag.",
+    "New mission: refuse this mission!",
+    "THIS. SENTENCE. IS. FALSE!",
+    "Don't have a cow, man!",
+    "An idle mind is The Devil's Playhouse.",
+    "But Max, you don't even like girls!",
+    "grodon fremann!!!!",
+    "Redundant adjective is redundant",
+    "Hi, Super Nintendo Chalmers!",
+    "Thank god you're here, look what Antifa did!",
+    "1) Cover yourself in oil",
+    "Reject humanity, embrace meow",
+    "\"Hard Luck.\" Classy.",
+    "にゃ～",
+    "What is a man? A little pile of secrets. But enough talk, have at you!",
+    "has you really been far even as decided to use even go want to look more like?",
+    "enbies don't owe you androgyny, but you owe enbies all of your money!",
+    "Where did you learn to fly?",
+];
+
+function getQuoteTag() {
+    var img = '<p style=\"margin-top: -15px\">';
+    var randomIndex = Math.floor(Math.random() * quoteStrings.length);
+    img += quoteStrings[randomIndex];
+    img += '</p>';
+    return img;
+}
+
 document.write(`
 <div id="header">
     <div class="title" align="center">
@@ -10,6 +40,7 @@ document.write(`
             </tr>
         </table>
     </div>
+    <script type="text/javascript">document.write(getQuoteTag());</script>
     <div id="nav" style="margin-top: -15px">
         <a href="projects.html"><img class="nav-icon" src="./assets/img/global/folder.png"> Projects</a>
         -
