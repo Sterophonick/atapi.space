@@ -178,6 +178,8 @@ var quoteStrings = [
     "Waiter, waiter! More Wineserver instances please!",
     "Processing Vulkan shaders...",
     "That's a Y.P., not an M.P.!",
+    "they put the mamsnrhbr chehfde in the soder",
+    "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/tiger.png\">",
 ];
 
 function getQuoteTag() {
