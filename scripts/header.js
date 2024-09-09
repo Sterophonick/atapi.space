@@ -20,7 +20,7 @@ document.write(`
         <a href="blog.html"><img class="nav-icon" src="./assets/img/global/notepad.png"> Blog</a>
         -
         <a href="gallery.html"><img class="nav-icon" src="./assets/img/global/gallery.png"> Gallery</a>
-        -
+        <br/>
         <a href="greetz.html"><img class="nav-icon" src="./assets/img/global/greetz.png"> Greetz</a>
         -
         <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img class="nav-icon" src="./assets/img/global/guestbook.png"> Guestbook!</a>
