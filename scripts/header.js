@@ -191,7 +191,7 @@ var quoteStrings = [
     "Also try Like a Dragon: Gaiden!",
     "Also try Lost Judgment!",
     "Also try MadWorld!",
-    "Also try American McGee's Alice",
+    "Also try American McGee's Alice!",
     "Also try Peter Jackson's King Kong!",
     "Also try Bayonetta!",
     "Also try Halo: ODST!",
