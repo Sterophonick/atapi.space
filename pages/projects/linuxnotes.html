@@ -20,17 +20,18 @@
 	</head>
 	<body>
 		<div class="mainContainer">
-			<script src="scripts/sidebar.js"></script>
-			<div class="column mainContent">
+			<script src="scripts/header.js"></script>
+			<div class="column mainContent"">
 				<h1><img style="vertical-align:middle" src="assets/img/projects/linuxnotes/icon.png"> Linux Gaming Notes</h1>
 				<p>Some very crude notes about Linux gaming and game compatibility in my experience.</p>
 				<p>Last updated: March 28, 2023</p>
+				<h2>PLEASE NOTE: THIS PAGE HASN'T BEEN UPDATED IN A WHILE!<br/><br/><br/>IT WILL BE VERY OUTDATED!</h2>
 				<base href="pages/projects/linuxnotes.html" />
                 <script type="text/javascript">
                     document.write(getImageTag());
                 </script>
 				<h2>Navigation</h2>
-				<div id="toc" class="toc">
+				<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
 					<ul>
 						<li>
 							<a href="pages/projects/linuxnotes.html#Important">Important Information</a>
@@ -303,7 +304,7 @@
                     <br/>
 				</div>
 				<base href="../../" />
-				<div id="content">
+				<div id="content" style="width:80%; margin:auto; text-align: left;>
                     <h2 id="Important">README.TXT</h2>
                     <h3 id="ImportantGeneral">General Information</h3>
                     <p>
@@ -330,17 +331,19 @@
                     - Performance</br>
                     - Other flaws</br>
                     </p>
-                    <h3 id="ImportantRatings">Compatibility Rating Scale</h3>
-                    <p>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/platinum.png"> - Game works perfectly out of the box</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/platinumm.png"> - Game works <i>almost</i> perfectly out of the box, but there's an issue that can't be fixed with tweaks.</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/goldp.png"> - Game works with minimal tinkering, usually with controller configs</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/gold.png"> - Game works but tinkering will be needed</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/silverp.png"> - Game plays perfectly with one minor issue but is perfect otherwise.</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/silver.png"> - Game doesn't play perfectly even with tinkering, but remains playable.</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/bronze.png"> - Game has notable issues that prevent comfortable play.</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/borked.png"> - Game is outright broken</br>
-                    <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/anticheat.png"> - Game is screwed because devs don't bother updating Anticheat.<br/>
+                    <div id="ratingscale">
+                        <h3 style="text-align: center;" id="ImportantRatings">Compatibility Rating Scale</h3>
+                        <p>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/platinum.png"> - Game works perfectly out of the box</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/platinumm.png"> - Game works <i>almost</i> perfectly out of the box, but there's an issue that can't be fixed with tweaks.</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/goldp.png"> - Game works with minimal tinkering, usually with controller configs</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/gold.png"> - Game works but tinkering will be needed</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/silverp.png"> - Game plays perfectly with one minor issue but is perfect otherwise.</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/silver.png"> - Game doesn't play perfectly even with tinkering, but remains playable.</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/bronze.png"> - Game has notable issues that prevent comfortable play.</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/borked.png"> - Game is outright broken</br>
+                        <img height="27px" style="vertical-align:middle" src="assets/img/projects/linuxnotes/anticheat.png"> - Game is screwed because devs don't bother updating Anticheat.<br/>
+                    </div>
                     </p>
                     <h3 id="ImportantSystem">System Specifications</h3>
                     <p>
@@ -3178,6 +3181,7 @@
                      - System Shock: Definitive Edition<br/>
                      - System Shock 2<br/>
 				</div>
+				<script src="scripts/footer.js"></script>
 			</div>
 		</div>
 	</body>

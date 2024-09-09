@@ -1,23 +1,49 @@
 @font-face {
   font-family: AppleKid;
   src: url("../assets/woff/Apple-Kid.woff2") format("woff2"),
-    url("../assets/woff/Apple-Kid.woff") format("woff");
+  url("../assets/woff/Apple-Kid.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-* {
-  font-smooth: never;
+.mainContainer {
+  text-align: center;
+  align-items: center;
+  max-width: 1024px;
+  padding: 0px 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: auto;
+  border: 3px solid white;
   box-sizing: border-box;
+  background-image: url("../assets/img/global/bkg.png");
 }
 
 body {
-  background-image: url("../assets/img/global/bkg.png");
-  background-repeat: repeat;
+    background-image: url("../assets/img/global/bkg_red.png");
   font-family: AppleKid;
-  color: #ffffff;
   font-size: 20pt;
   line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 5px;
+}
+
+#titleTable {
+  text-align: center;
+}
+
+.nav-icon {
+  width: 32px;
+  vertical-align:middle;
+}
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 h1,
@@ -49,64 +75,13 @@ h4 {
   font-size: 20pt;
 }
 
-a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-}
-
-.column {
-  padding: 10px;
-  height: 100%;
-}
-
-.sidebar {
-  background-image: url("../assets/img/global/bkg.png");
-  width: 220px;
-  overflow: auto;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  float: left;
-  overflow-x: hidden;
-}
-
-.sidebar h1 {
-  line-height: 1;
-  font-size: 20.6pt;
-  text-align: center;
-}
-
-#navigation {
-  text-align: center;
-}
-
-.nav-icon {
-  width: 42px;
-}
-
-#pfp {
-  width: 200px;
-  height: 200px;
-}
-
-.sidebar-border {
-  background-image: url("../assets/img/global/border.png");
-  width: 6px;
-  padding: 0px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  margin-left: 14rem;
-  overflow: none;
-}
-
-.mainContent {
-  margin-left: 14rem;
-  overflow-x: hidden;
+#welcome {
+  max-width: 728px;
+  max-height: 170px;
 }
 
 .gallery {
-  display: grid;
+  display: inline-grid;
   text-align: center;
   align-items: center;
   grid-template-columns: 240px 240px 240px;
@@ -132,9 +107,4 @@ a {
 
 small {
   font-size: 14pt;
-}
-
-#welcome {
-  max-width: 728px;
-  max-height: 170px;
 }
