@@ -5,6 +5,7 @@ document.write(`
     </div>
     <div id="message">
         <p>
+            <img src="assets/img/home/web_button.gif"> <img src="assets/img/global/cc-by-nc.png"><br/>
             made with love 2020-2024 Atapi / Sterophonick<br/>
             any and all mentions of properties not mine belong to their respective owners<br/>
             <a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>
