@@ -233,7 +233,8 @@ var quoteStrings = [
     "Dis is one half. Press any key to continue ...",
     "Kuku! Kuku! Kuku! Kuku! Kuku! Kuku!",
     "USSR     ViruSoft  (c)  v1. 1990",
-    "Don't be afraid. I am a very kind virus. You have do many works today."
+    "Don't be afraid. I am a very kind virus. You have do many works today.",
+    "Think fast, chucklenuts!"
 ];
 
 function getQuoteTag() {
