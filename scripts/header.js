@@ -230,6 +230,10 @@ var quoteStrings = [
     "RELOADED has done it again. Another key generator released by the best.",
     "WRG's back with it's first GBA release of the year!",
     "-= dumping trash, so you can play with it =-",
+    "Dis is one half. Press any key to continue ...",
+    "Kuku! Kuku! Kuku! Kuku! Kuku! Kuku!",
+    "USSR     ViruSoft  (c)  v1. 1990",
+    "Don't be afraid. I am a very kind virus. You have do many works today."
 ];
 
 function getQuoteTag() {
