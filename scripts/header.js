@@ -215,11 +215,21 @@ var quoteStrings = [
     "Also try ilomilo!",
     "Also try Castle Crashers!",
     "Also try Half-Life!",
+    "Also try Epic Pinball!",
+    "Also try Jazz Jackrabbit 2!",
     "billy gates why do you make this possible ? Stop making money and fix your software!!",
     "BOOM! No more RedX !!!",
     "Your PC is now STONED!",
     "Copy me, I want to travel!",
     "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
+    "Click to enable Adobe Flash Player",
+    "PURE EVIL SINCE 1996!",
+    "See you in the next release!",
+    "eURASiA 2003+ - fOR pLEASURE, nOT pRESSURE",
+    "mugs - look sally, its purple haze! oh john! thats so amazing!",
+    "RELOADED has done it again. Another key generator released by the best.",
+    "WRG's back with it's first GBA release of the year!",
+    "-= dumping trash, so you can play with it =-",
 ];
 
 function getQuoteTag() {
