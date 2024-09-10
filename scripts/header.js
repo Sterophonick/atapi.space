@@ -234,7 +234,10 @@ var quoteStrings = [
     "Kuku! Kuku! Kuku! Kuku! Kuku! Kuku!",
     "USSR     ViruSoft  (c)  v1. 1990",
     "Don't be afraid. I am a very kind virus. You have do many works today.",
-    "Think fast, chucklenuts!"
+    "Think fast, chucklenuts!",
+    "Ten years in the joint made you a [[DATA EXPUNGED]]!",
+    "What's the square root of a fish? Now I'm sad.",
+
 ];
 
 function getQuoteTag() {
