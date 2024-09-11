@@ -305,6 +305,8 @@ var quoteStrings = [
     "duck in game stop. what will he buy.",
     "swag money. money money swag.",
     "No bobux :(", // no bobux
+    "Get Psyched!", // Wolfenstein 3D
+    "Call Apogee Say Aardwolf", // Wolfenstein 3D
 ];
 
 function getQuoteTag() {
