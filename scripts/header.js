@@ -1,72 +1,38 @@
 var quoteStrings = [
-    "haiiii ^_^ hi!! \<3 haiiiiiii hiii :3",
-    "duck in game stop. what will he buy.",
-    "swag money. money money swag.",
-    "New mission: refuse this mission!",
-    "THIS. SENTENCE. IS. FALSE!",
-    "Don't have a cow, man!",
-    "An idle mind is The Devil's Playhouse.",
-    "But Max, you don't even like girls!",
-    "grodon fremann!!!!",
-    "Redundant adjective is redundant",
-    "Hi, Super Nintendo Chalmers!",
-    "Thank god you're here, look what Antifa did!",
-    "2) Cover yourself in oil",
-    "Reject humanity, embrace meow",
-    "\"Hard Luck.\" Classy.",
-    "にゃ～",
-    "What is a man? A little pile of secrets. But enough talk, have at you!",
-    "has you really been far even as decided to use even go want to look more like?",
-    "enbies don't owe you androgyny, but you owe enbies all of your money!",
-    "Where did you learn to fly?",
-    "i may be cringe but you're mean and that's worse <img style=\"vertical-align:middle;\" src=\"assets/img/smileys/sad.png\">",
-    "everyday i'm tacoing. woah, i'm so random!",
-    "WATCH OUT FOR GAS STATION TWEAKERS!",
-    "i was never book smart, i'm money smart, makes me more intelligent",
-    "unattended children will be taught x86 assembly",
-    "all my friends are creepers they explode",
-    "jgjsdjfghkahkfjhkshlalksd",
-    "hey girl can we go on a wii sports resort date",
-    "long live the queen. you woulda loved skibidi toilet.",
-    "i am suffering from a GNOME issue",
-    "Maclunkey!",
-    "wow i'm so gay and dumb and i like girls and awagga",
-    "Hi! I'm not Hugh Bliss!",
-    "sometimes the side chick ain't even a chick, it be Microsoft DirectX 9.0c Redistributables",
-    "Holy knuckle-cracking kringles on a bullet train with a sack full of ketchup-covered cheese logs!",
-    "Oh hi. So, how are you holding up? BECAUSE I'M A POTATO.",
-    "Welcome to www.worm.com ! Hacked by Chinese!",
+    // asdfmovie
+    "Everybody do the flop!",
+    "Hi, babe, yes I am real man, you wanna go skateboards?",
+
+    // Poker Night at the Inventory / Poker Night 2
+    "I will make hat from you, little bunny!",
+    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress.",
+
+    // Homestar Runner
+    "The system is down, yo!",
     "how do you type with boxing gloves on?",
     "What is this? Did the quadratic formula explode?",
-    "All your base are belong to us.",
-    "My ROFLcopter goes soi soi soi soi soi soi",
-    "I like turtles.",
-    "lol, internet",
-    "O RLY?",
-    "The school books say it can't be here again.",
-    "Can't sleep, clown will eat me",
-    "I know you can read my thoughts, boy. Meow meow meow meow meow meow",
-    "LEEEEROOOOOOOOY JEEENKINS!",
-    "WHO IS THIS 4CHAN",
-    "How do I shot web?",
-    "Ceiling GLaDOS is watching you die.",
-    "<a href=\"https://i.kym-cdn.com/entries/icons/mobile/000/000/305/duckroll169.jpg\">Click here for epic</a>",
-    "FYI I am a spy",
-    "Burenyuu~",
-    "THIS WEBSITE CONTAINS WIN",
-    "Kiani, Biscuit!",
-    "Queer cats? In MY website? It's more likely than you think.",
-    "Can you feel the sunshine?",
-    "INVISIBLE BIKE",
-    "Lurk Moar.",
-    "I can haz cheezburger?",
-    "That's Mama Luigi to you, Mario!",
-    "My spoon is too big!",
-    "You're the man now, dog!",
-    "PUNCH THE KEYS, FOR GOD'S SAKE!",
-    "i has a shuvel",
-    "I AM ERROR.",
-    "PUSH START TO RICH.",
+
+    // Shortwave Radio
+    "Achtung! Achtung!",
+    "YANKEE. HOTEL. FOXTROT.",
+    "DELTA. FOXTROT. DELTA. ZWEI EINS.",
+    "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715",
+    "COORDINATED UNIVERSAL TIME.",
+    "I lied. I don't have Netflix. Take off your shoes, we're listening to shortwave radio numbers stations.",
+
+    // Napoleon Dynamite
+    "You got, like, three feet of air that time.",
+    "I told you! I spent it with my uncle in Alaska hunting wolverines!",
+    "Who's the one that knows illegal ninja moves from the government?",
+
+    // Old Internet Memes
+    "Picard Approves",
+    "They called it Xbox 360 because you turn 360 degrees and walk away.",
+    "Windmills do not work that way!", // Futurama
+    "You can't ground Spider-Man!",
+    "Can I be drawn better?",
+    "SOPA, Y U NO LEAVE INTERNET ALONE?",
+    "NEDM",
     "Good luck, I'm behind 7 proxies!",
     "y u brake game",
     "missingno",
@@ -81,57 +47,54 @@ var quoteStrings = [
     "How does one patch KDE2 under FreeBSD?",
     "Wololo!",
     "This is sewious!",
-    "Low quality Hideo Kojima thinking: <img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/low_quality_hideo_kojima_thinking.jpg\">",
-    "Everybody do the flop!",
-    "Hi, babe, yes I am real man, you wanna go skateboards?",
-    "NEDM",
-    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress.",
-    "An Evil Kumquat ate this blurb.",
-    "I will make hat from you, little bunny!",
-    "sfc /scannow chkdsk",
-    "me when d8vk merge",
-    "I am not an atomic playboy!",
-    "Not my fault, Tucker did it!",
-    "The system is down, yo!",
-    "SOPA, Y U NO LEAVE INTERNET ALONE?",
-    "My body is ready.",
-    "Can I be drawn better?",
-    "WHAT A HORRIBLE NIGHT TO HAVE A CURSE.",
-    "I only upload high quality video game rips.",
-    "\"That's what.\"    -she",
-    "What do you mean \"you people?\"",
-    "It's just a flesh wound.",
-    "Nobody expects the Spanish Inquisition!",
-    "Remember our promise.",
-    "Achtung! Achtung!",
-    "YANKEE. HOTEL. FOXTROT.",
-    "DELTA. FOXTROT. DELTA. ZWEI EINS.",
-    "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715",
-    "COORDINATED UNIVERSAL TIME.",
-    "Buzz, look! An alien!",
-    "sudo make me a sandwich",
-    "You got, like, three feet of air that time.",
-    "I told you! I spent it with my uncle in Alaska hunting wolverines!",
-    "Who's the one that knows illegal ninja moves from the government?",
-    "You can't ground Spider-Man!",
-    "Windmills do not work that way!",
-    "we can't kiss girls anymore. because of woke.",
-    "They called it Xbox 360 because you turn 360 degrees and walk away.",
-    "Hamboning will save your life someday.",
-    "It's now safe to turn off your computer.",
+    "Can you feel the sunshine?", // Tails Doll
+    "INVISIBLE BIKE",
+    "Lurk Moar.",
+    "I can haz cheezburger?",
+    "That's Mama Luigi to you, Mario!",
+    "My spoon is too big!",
+    "You're the man now, dog!",
+    "PUNCH THE KEYS, FOR GOD'S SAKE!",
+    "i has a shuvel",
+    "Kiani, Biscuit!", // Try not to laugh or grin at this video https://www.youtube.com/watch?v=hw3jkIUnvVc
+    "THIS WEBSITE CONTAINS WIN",
+    "FYI I am a spy",
+    "<a href=\"https://i.kym-cdn.com/entries/icons/mobile/000/000/305/duckroll169.jpg\">Click here for epic</a>", // Duckroll\
+    "LEEEEROOOOOOOOY JEEENKINS!",
+    "WHO IS THIS 4CHAN",
+    "How do I shot web?",
+    "All your base are belong to us.",
+    "My ROFLcopter goes soi soi soi soi soi soi",
+    "I like turtles.",
+    "lol, internet",
+    "O RLY?",
+    "Redundant adjective is redundant",
+
+    // Portal
     "It's a paradox, there is NO answer!",
-    "Bailing out, you are on your own. Good luck.",
-    "You probably just broke your system. Congratulations.",
+    "New mission: refuse this mission!",
+    "THIS. SENTENCE. IS. FALSE!",
+    "Ceiling GLaDOS is watching you die.",
+    "Oh hi. So, how are you holding up? BECAUSE I'M A POTATO.",
+
+    // Minecraft
     "The Creeper is a spy!",
+
+    // Halo
     "Sir. Big DS.",
     "I Love Bees!",
+
+    // Smiling Friends
     "I love this place, I've been coming here since I was a Homunculus.",
     "That's my point, good times are fleeting. It doesn't change the fact the Sun is going to Explode.",
     "Hooray! I have reached level 987,413 in Mouse Quest!",
-    "Apply directly to the forehead!",
+
+    // /ppg/
     "Leaks are over, go home!",
     "me want beytah right now",
     "bad daytah, no beytah",
+
+    // EarthBound
     "Coming Winter 2014!",
     "You guys can’t envision the final collapse of Capitalism? Incredible!",
     "For some reason, a pencil-shaped iron statue is blocking the path.",
@@ -148,6 +111,8 @@ var quoteStrings = [
     "Broken down, old submarine. The yellow color is purely coincidental.",
     "Clear out. Of way out get my",
     "I want them all to listen, even if it requires kicking their butts.",
+
+    // Undertale / Deltarune
     "[[Hyperlink Blocked.]]",
     "Now's your chance to be a [[BIG SHOT!]]",
     "Despite everything, it's still you.",
@@ -158,31 +123,39 @@ var quoteStrings = [
     "You can't use the fire exit because you're not made of fire.",
     "First, ghosts are real, now anime's real. All my nightmares are true.",
     "Perhaps mankind was not meant to pet this much.",
-    "nyanyanya!",
+
+    // Political / LGBTQ+
     "trans rights are human rights, now and forever",
-    "YO SKRILL, DROP IT HARD!",
-    "Picard Approves",
-    "Heh... High five, brain.",
-    "Comedy? There's no place for <i>comedy</i> in a yakuza story...",
-    "Yo. Kiryu-chan~!",
-    "Ghostbusters! They're back in town!",
-    "Grand Dad!? Fleenstones!?",
-    "He had all the DLL files in the world... but at what cost?",
-    "One day, Mario came to my house and he drank all my Pepsi.",
-    "Guys, there's analog dabbing.",
-    "Luigi, I got Terminal 7! This is what it looks like, Luigi!",
-    "I'm not a doctor, but I play one in Microsoft Paint.",
-    "In the game of life, we're all NPCs in someone else's speedrun.",
+    "we can't kiss girls anymore. because of woke.",
+    "Queer cats? In MY website? It's more likely than you think.",
+    "enbies don't owe you androgyny, but you owe enbies all of your money!",
+    "Thank god you're here, look what Antifa did!",
+
+    // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
+    "Holy knuckle-cracking kringles on a bullet train with a sack full of ketchup-covered cheese logs!",
+    "Hi! I'm not Hugh Bliss!",
+    "\"Hard Luck.\" Classy.",
+    "An idle mind is The Devil's Playhouse.",
+    "But Max, you don't even like girls!",
+
+    // The Simpsons
     "I'm somewhere where I don't know where I am!",
+    "Can't sleep, clown will eat me",
+    "I know you can read my thoughts, boy. Meow meow meow meow meow meow",
+    "Hi, Super Nintendo Chalmers!",
+    "Don't have a cow, man!",
+
+    // Linux
     "Waiter, waiter! More Wineserver instances please!",
     "Processing Vulkan shaders...",
-    "That's a Y.P., not an M.P.!",
-    "they put the mamsnrhbr chehfde in the soder",
-    "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/tiger.png\">",
-    "BUT WHO WAS PHONE??",
-    "Kup teraz!",
-    "Oh, there's a burning super death sword!",
+    "Bailing out, you are on your own. Good luck.",
+    "You probably just broke your system. Congratulations.",
+    "sudo make me a sandwich",
+    "me when d8vk merge",
+    "i am suffering from a GNOME issue",
+
+    // Game recommends
     "Also try Titanfall 2!",
     "Also try Messiah!",
     "Also try Yakuza 0!",
@@ -217,34 +190,108 @@ var quoteStrings = [
     "Also try Half-Life!",
     "Also try Epic Pinball!",
     "Also try Jazz Jackrabbit 2!",
-    "billy gates why do you make this possible ? Stop making money and fix your software!!",
-    "BOOM! No more RedX !!!",
-    "Your PC is now STONED!",
-    "Copy me, I want to travel!",
-    "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
-    "Click to enable Adobe Flash Player",
-    "PURE EVIL SINCE 1996!",
+
+    // Warez
     "See you in the next release!",
     "eURASiA 2003+ - fOR pLEASURE, nOT pRESSURE",
     "mugs - look sally, its purple haze! oh john! thats so amazing!",
     "RELOADED has done it again. Another key generator released by the best.",
     "WRG's back with it's first GBA release of the year!",
     "-= dumping trash, so you can play with it =-",
+
+    // Yakuza
+    "Ten years in the joint made you a [[DATA EXPUNGED]]!",
+    "Heh... High five, brain.",
+    "Comedy? There's no place for <i>comedy</i> in a yakuza story...",
+    "Yo. Kiryu-chan~!",
+
+    // Malware
     "Dis is one half. Press any key to continue ...",
     "Kuku! Kuku! Kuku! Kuku! Kuku! Kuku!",
     "USSR     ViruSoft  (c)  v1. 1990",
     "Don't be afraid. I am a very kind virus. You have do many works today.",
-    "Think fast, chucklenuts!",
-    "Ten years in the joint made you a [[DATA EXPUNGED]]!",
-    "What's the square root of a fish? Now I'm sad.",
-    "I lied. I don't have Netflix. Take off your shoes, we're listening to shortwave radio numbers stations.",
-    "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.",
+    "billy gates why do you make this possible ? Stop making money and fix your software!!",
+    "BOOM! No more RedX !!!",
+    "Your PC is now STONED!",
+    "Copy me, I want to travel!",
+    "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
+    "Welcome to www.worm.com ! Hacked by Chinese!",
+
+    // Just images
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_ace.gif\">",
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_nb.gif\">",
+    "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/tiger.png\">",
+    "Low quality Hideo Kojima thinking: <img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/low_quality_hideo_kojima_thinking.jpg\">",
+
+    //Vinesauce
     "I am your friend and BonziBUDDY! I have the ability to learn from you.",
     "It's been nice gnawing you!",
     "Animated Christmas tree for desktop!",
     "Ok I'll.",
+    "Kup teraz!",
+    "Oh, there's a burning super death sword!",
+    "Ghostbusters! They're back in town!",
+    "Grand Dad!? Fleenstones!?",
+    "He had all the DLL files in the world... but at what cost?",
+    "One day, Mario came to my house and he drank all my Pepsi.",
+    "Guys, there's analog dabbing.",
+    "Luigi, I got Terminal 7! This is what it looks like, Luigi!",
+    "I'm not a doctor, but I play one in Microsoft Paint.",
+    "In the game of life, we're all NPCs in someone else's speedrun.",
+
+    // Misc
+    "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
+    "What's the square root of a fish? Now I'm sad.", // Skullgirls
+    "Think fast, chucklenuts!", // Team Fortress 2
+    "Click to enable Adobe Flash Player", // Adobe Flash
+    "PURE EVIL SINCE 1996!", // Rotten dot com
+    "That's a Y.P., not an M.P.!", // Super Diaper Baby / Captain Underpants
+    "they put the mamsnrhbr chehfde in the soder",  // funny gifs
+    "BUT WHO WAS PHONE??", // Copypasta
+    "YO SKRILL, DROP IT HARD!", // Skrillex - Kyoto
+    "nyanyanya!",
+    "Apply directly to the forehead!", // HeadOn!
+    "It's now safe to turn off your computer.", // Pre-ACPI Windows
+    "Hamboning will save your life someday.", // Regular Show
+    "Buzz, look! An alien!", // Toy Story
+    "It's just a flesh wound.", // Monty Python
+    "Nobody expects the Spanish Inquisition!", // Monty Python
+    "Remember our promise.", // SIGNALIS
+    "What do you mean \"you people?\"", // Unknown
+    "\"That's what.\"    -she",
+    "My body is ready.", // Reggie
+    "WHAT A HORRIBLE NIGHT TO HAVE A CURSE.", // Castlevania
+    "I only upload high quality video game rips.", // SiIvaGunner
+    "Not my fault, Tucker did it!", // RedvsBlue
+    "I am not an atomic playboy!", // Second Reality
+    "sfc /scannow chkdsk", // joe biden
+    "An Evil Kumquat ate this blurb.", // Scratch
+    "PUSH START TO RICH.", // Dian Shi Ma Li
+    "I AM ERROR.", // Castlevania
+    "Burenyuu~", // Neco Arc
+    "The school books say it can't be here again.", // Tay Zonday - Chocolate Rain
+    "sometimes the side chick ain't even a chick, it be Microsoft DirectX 9.0c Redistributables",
+    "wow i'm so gay and dumb and i like girls and awagga", // literally me
+    "にゃ～", // Meow~
+    "What is a man? A little pile of secrets. But enough talk, have at you!", // Castlevania
+    "has you really been far even as decided to use even go want to look more like?",
+    "Where did you learn to fly?",
+    "i may be cringe but you're mean and that's worse <img style=\"vertical-align:middle;\" src=\"assets/img/smileys/sad.png\">",
+    "everyday i'm tacoing. woah, i'm so random!",
+    "WATCH OUT FOR GAS STATION TWEAKERS!", // Ghetto Smosh
+    "i was never book smart, i'm money smart, makes me more intelligent", // Jay Easy hasn't Dropped Yet!!
+    "unattended children will be taught x86 assembly",
+    "all my friends are creepers they explode",
+    "jgjsdjfghkahkfjhkshlalksd",
+    "hey girl can we go on a wii sports resort date",
+    "long live the queen. you woulda loved skibidi toilet.", // Ding Dong
+    "Maclunkey!", // Star Wars / Han Shot First!
+    "Reject humanity, embrace meow",
+    "2) Cover yourself in oil", // Troll Physics
+    "grodon fremann!!!!", // Freaky Half-Life
+    "haiiii ^_^ hi!! \<3 haiiiiiii hiii :3",
+    "duck in game stop. what will he buy.",
+    "swag money. money money swag.",
 ];
 
 function getQuoteTag() {
