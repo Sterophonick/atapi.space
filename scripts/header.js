@@ -69,6 +69,7 @@ var quoteStrings = [
     "lol, internet",
     "O RLY?",
     "Redundant adjective is redundant",
+    "Play him off, Keyboard Cat!",
 
     // Portal
     "It's a paradox, there is NO answer!",
@@ -292,6 +293,7 @@ var quoteStrings = [
     "haiiii ^_^ hi!! \<3 haiiiiiii hiii :3",
     "duck in game stop. what will he buy.",
     "swag money. money money swag.",
+    "No bobux :(", // no bobux
 ];
 
 function getQuoteTag() {
