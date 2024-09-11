@@ -319,6 +319,7 @@ var quoteStrings = [
     "No bobux :(", // no bobux
     "Get Psyched!", // Wolfenstein 3D
     "Call Apogee Say Aardwolf", // Wolfenstein 3D
+    "Ready for Round 2, Jeff?", // Sonic.EXE
 ];
 
 function getQuoteTag() {
