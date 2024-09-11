@@ -241,7 +241,7 @@ var quoteStrings = [
     "1 tumbler clicks. 4 gears turn.",
     "TURN OFF PLAYSTATION",
     "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside.",
-    "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home."
+    "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home.",
     "In a way, recordings have the power to raise the dead. They're kind of scary.",
     "Under the Newmaker plane.",
     "Good grief and alas",
