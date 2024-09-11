@@ -131,6 +131,7 @@ var quoteStrings = [
     "Queer cats? In MY website? It's more likely than you think.",
     "enbies don't owe you androgyny, but you owe enbies all of your money!",
     "Thank god you're here, look what Antifa did!",
+    "It's too bad that stupidity isn't painful.", // Anton LaVey
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
@@ -139,6 +140,9 @@ var quoteStrings = [
     "\"Hard Luck.\" Classy.",
     "An idle mind is The Devil's Playhouse.",
     "But Max, you don't even like girls!",
+    "My innocence has been shattered by this blatant tourist trap. I want my money back.",
+    "My mind is a swirling miasma of scintillating thoughts and turgid ideas.",
+    "I work for the largest division of Hell, the FCC!",
 
     // The Simpsons
     "I'm somewhere where I don't know where I am!",
@@ -146,6 +150,7 @@ var quoteStrings = [
     "I know you can read my thoughts, boy. Meow meow meow meow meow meow",
     "Hi, Super Nintendo Chalmers!",
     "Don't have a cow, man!",
+    "I'm the mascot of an evil corporation!",
 
     // Linux
     "Waiter, waiter! More Wineserver instances please!",
