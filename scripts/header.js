@@ -236,6 +236,16 @@ var quoteStrings = [
     "<img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/tiger.png\">",
     "Low quality Hideo Kojima thinking: <img style=\"vertical-align:middle; height:24px; width: 128px;\" src=\"assets/img/global/blerbs/low_quality_hideo_kojima_thinking.jpg\">",
 
+    // Petscop / Giftscop
+    "Wellcome to puzzle hell.",
+    "1 tumbler clicks. 4 gears turn.",
+    "TURN OFF PLAYSTATION",
+    "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside.",
+    "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home."
+    "In a way, recordings have the power to raise the dead. They're kind of scary.",
+    "Under the Newmaker plane.",
+    "Good grief and alas",
+
     //Vinesauce
     "I am your friend and BonziBUDDY! I have the ability to learn from you.",
     "It's been nice gnawing you!",
