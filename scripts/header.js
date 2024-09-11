@@ -229,6 +229,7 @@ var quoteStrings = [
     "Copy me, I want to travel!",
     "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
     "Welcome to www.worm.com ! Hacked by Chinese!",
+    "As you reboot, you find that something has overwritten your MBR! IT is a sad thing your adventures have ended here!",
 
     // Just images
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_ace.gif\">",
