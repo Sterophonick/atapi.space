@@ -12,6 +12,12 @@ var quoteStrings = [
     "how do you type with boxing gloves on?",
     "What is this? Did the quadratic formula explode?",
 
+    // Half-Life
+    "grodon fremann!!!!",
+    "Does anyone know who ate all the donuts?",
+    "I still have nightmares about that cat.",
+    "The right man in the wrong place can make all the difference in the world.",
+
     // Shortwave Radio
     "Achtung! Achtung!",
     "YANKEE. HOTEL. FOXTROT.",
@@ -132,6 +138,7 @@ var quoteStrings = [
     "enbies don't owe you androgyny, but you owe enbies all of your money!",
     "Thank god you're here, look what Antifa did!",
     "It's too bad that stupidity isn't painful.", // Anton LaVey
+    "Be kind to people, be ruthless to systems.", // PinkWug
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
@@ -294,7 +301,6 @@ var quoteStrings = [
     "Maclunkey!", // Star Wars / Han Shot First!
     "Reject humanity, embrace meow",
     "2) Cover yourself in oil", // Troll Physics
-    "grodon fremann!!!!", // Freaky Half-Life
     "haiiii ^_^ hi!! \<3 haiiiiiii hiii :3",
     "duck in game stop. what will he buy.",
     "swag money. money money swag.",
