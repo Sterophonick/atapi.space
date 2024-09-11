@@ -83,6 +83,7 @@ var quoteStrings = [
     "THIS. SENTENCE. IS. FALSE!",
     "Ceiling GLaDOS is watching you die.",
     "Oh hi. So, how are you holding up? BECAUSE I'M A POTATO.",
+    "Testing is the future, and the future starts with you!",
 
     // Minecraft
     "The Creeper is a spy!",
@@ -229,7 +230,7 @@ var quoteStrings = [
     "Copy me, I want to travel!",
     "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO",
     "Welcome to www.worm.com ! Hacked by Chinese!",
-    "As you reboot, you find that something has overwritten your MBR! IT is a sad thing your adventures have ended here!",
+    "As you reboot, you find that something has overwritten your MBR! It is a sad thing your adventures have ended here!",
 
     // Just images
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_ace.gif\">",
