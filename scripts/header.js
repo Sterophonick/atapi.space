@@ -327,6 +327,7 @@ var quoteStrings = [
     "Get Psyched!", // Wolfenstein 3D
     "Call Apogee Say Aardwolf", // Wolfenstein 3D
     "Ready for Round 2, Jeff?", // Sonic.EXE
+    "holy freaking bingle. what!? :3", // bingle
 ];
 
 function getQuoteTag() {
