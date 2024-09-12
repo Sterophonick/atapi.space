@@ -245,8 +245,15 @@ var quoteStrings = [
     "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside.",
     "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home.",
     "In a way, recordings have the power to raise the dead. They're kind of scary.",
-    "Under the Newmaker plane.",
-    "Good grief and alas",
+    "Under the Newmaker Plane.",
+    "GOOD GRIEF AND ALAS",
+    "Keep watching the windmill.",
+    "Care left the room.",
+    "They wander the Newmaker Plane.",
+    "I LOVE YOU NEWMAKER PLEASE SHOW MARVIN WHERE HIS HOUSE IS",
+    "ALSO WANTS 1000 PIECES FOR \"MACHINE BEYOND SCHOOL BASEMENT STAIRWAY\"",
+    "You found her. You may visit her room.",
+    "Why would I be in a car? I'm playing Petscop.",
 
     //Vinesauce
     "I am your friend and BonziBUDDY! I have the ability to learn from you.",
