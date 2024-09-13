@@ -278,6 +278,7 @@ var quoteStrings = [
     "I miss my wife, Tails.",
     "Silver! Silver! The Denny's is that way!",
     "I just get so tilted at the towers.",
+    "I had to trap Sonic in the hell dimension because he disrespected gamers.",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
