@@ -140,6 +140,7 @@ var quoteStrings = [
     "Thank god you're here, look what Antifa did!",
     "It's too bad that stupidity isn't painful.", // Anton LaVey
     "Be kind to people, be ruthless to systems.", // PinkWug
+    "Live so that if your life was a book, fascists would ban it.",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
