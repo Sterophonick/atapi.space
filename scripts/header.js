@@ -279,6 +279,7 @@ var quoteStrings = [
     "Silver! Silver! The Denny's is that way!",
     "I just get so tilted at the towers.",
     "I had to trap Sonic in the hell dimension because he disrespected gamers.",
+    "PUBG's old news, Eggman! Tetris 99's where it's at!",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
