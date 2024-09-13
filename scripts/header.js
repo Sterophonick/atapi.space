@@ -277,6 +277,7 @@ var quoteStrings = [
     "Anyway, welcome to my purple orb, it's time to go.",
     "I miss my wife, Tails.",
     "Silver! Silver! The Denny's is that way!",
+    "I just get so tilted at the towers.",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
