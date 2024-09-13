@@ -19,6 +19,12 @@
   background-image: url("../assets/img/global/bkg.png");
 }
 
+.mainContent p {
+  width: 65%;
+  margin: auto;
+}
+
+
 body {
     background-image: url("../assets/img/global/bkg_red.png");
     background-attachment: fixed;
