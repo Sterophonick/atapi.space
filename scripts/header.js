@@ -340,6 +340,7 @@ var quoteStrings = [
     "holy freaking bingle. what!? :3", // bingle
     "This station will not be participating in digital conversion at this time.", // LOCAL58TV
     "System Error. Contact Xbox Customer Support.", // Xbox 360 Error Screen
+    "if your grave doesnt say \"rest in peace\" on it you are automatically drafted into the skeleton war", //dril
 ];
 
 function getQuoteTag() {
