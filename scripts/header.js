@@ -271,6 +271,13 @@ var quoteStrings = [
     "I'm not a doctor, but I play one in Microsoft Paint.",
     "In the game of life, we're all NPCs in someone else's speedrun.",
 
+    // SnapCube RTFandub
+    "So, this is the fabled Tilted Towers...",
+    "I'm the devil... from the Bible.",
+    "Anyway, welcome to my purple orb, it's time to go.",
+    "I miss my wife, Tails.",
+    "Silver! Silver! The Denny's is that way!",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
     "What's the square root of a fish? Now I'm sad.", // Skullgirls
