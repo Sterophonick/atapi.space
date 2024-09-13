@@ -339,6 +339,7 @@ var quoteStrings = [
     "Ready for Round 2, Jeff?", // Sonic.EXE
     "holy freaking bingle. what!? :3", // bingle
     "This station will not be participating in digital conversion at this time.", // LOCAL58TV
+    "System Error. Contact Xbox Customer Support.", // Xbox 360 Error Screen
 ];
 
 function getQuoteTag() {
