@@ -242,7 +242,7 @@ var quoteStrings = [
 
     // Petscop / Giftscop
     "Wellcome to puzzle hell.",
-    "1 tumbler clicks. 4 gears turn.",
+    "1 tumbler clicks. 4 gears turn.", //specifically relating to test-place of old giftscop versions
     "TURN OFF PLAYSTATION",
     "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside.",
     "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home.",
@@ -343,6 +343,7 @@ var quoteStrings = [
     "This station will not be participating in digital conversion at this time.", // LOCAL58TV
     "System Error. Contact Xbox Customer Support.", // Xbox 360 Error Screen
     "if your grave doesnt say \"rest in peace\" on it you are automatically drafted into the skeleton war", //dril
+    "the doritos corporation thanks you", // from kyle gospo at bazzite
 ];
 
 function getQuoteTag() {
