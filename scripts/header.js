@@ -141,6 +141,7 @@ var quoteStrings = [
     "It's too bad that stupidity isn't painful.", // Anton LaVey
     "Be kind to people, be ruthless to systems.", // PinkWug
     "Live so that if your life was a book, fascists would ban it.",
+    "Be silly, be kind, be weird. There's no time for anything else.",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
