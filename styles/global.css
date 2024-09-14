@@ -85,7 +85,6 @@ h4 {
 #welcome {
   max-width: 728px;
   height: 170px;
-  image-rendering: crisp-edges;
 }
 
 .gallery {
