@@ -346,6 +346,7 @@ var quoteStrings = [
     "the doritos corporation thanks you", // from kyle gospo at bazzite
     "Marcianito 100% real bailando cumbia.wmv", // Marcianito 100% real bailando cumbia.wmv
     "Let's face it... I'm cute.", // :3
+    "Hey, you can't have that! That snorkel's been just like a snorkel to me!", // Weird Al - "Albuquerque"
 ];
 
 function getQuoteTag() {
