@@ -345,6 +345,7 @@ var quoteStrings = [
     "if your grave doesnt say \"rest in peace\" on it you are automatically drafted into the skeleton war", //dril
     "the doritos corporation thanks you", // from kyle gospo at bazzite
     "Marcianito 100% real bailando cumbia.wmv", // Marcianito 100% real bailando cumbia.wmv
+    "Let's face it... I'm cute.", // :3
 ];
 
 function getQuoteTag() {
