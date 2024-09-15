@@ -353,7 +353,7 @@ var quoteStrings = [
     "Let's face it... I'm cute.", // :3
     "Hey, you can't have that! That snorkel's been just like a snorkel to me!", // Weird Al - "Albuquerque"
     "You question the words of the mighty Jimmy!?", // Aqua Teen Hunger Forces
-    "You look at him and tell me there's a god." // Ditto.
+    "You look at him and tell me there's a god.", // Ditto.
     "Get the X-ROM 512 for your GameBoy Advance TODAY!", // EasyBuy2000
 ];
 
