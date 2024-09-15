@@ -283,6 +283,11 @@ var quoteStrings = [
     "I had to trap Sonic in the hell dimension because he disrespected gamers.",
     "PUBG's old news, Eggman! Tetris 99's where it's at!",
 
+    // Bubsy 3d: Bubsy visits the James Turrell Retrospective
+    "hello bubsy. PLEase delete me im just a tech demo",
+    "Art's cool :^)",
+    "Look! It's the Los Angeles County Museum of Art! 5905 Wilshire Blvd Los Angeles, CA 90036",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
     "What's the square root of a fish? Now I'm sad.", // Skullgirls
@@ -347,6 +352,8 @@ var quoteStrings = [
     "Marcianito 100% real bailando cumbia.wmv", // Marcianito 100% real bailando cumbia.wmv
     "Let's face it... I'm cute.", // :3
     "Hey, you can't have that! That snorkel's been just like a snorkel to me!", // Weird Al - "Albuquerque"
+    "You question the words of the mighty Jimmy!?", // Aqua Teen Hunger Forces
+    "You look at him and tell me there's a god." // Ditto.
 ];
 
 function getQuoteTag() {
