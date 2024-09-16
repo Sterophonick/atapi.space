@@ -142,6 +142,8 @@ var quoteStrings = [
     "Be kind to people, be ruthless to systems.", // PinkWug
     "Live so that if your life was a book, fascists would ban it.",
     "Be silly, be kind, be weird. There's no time for anything else.",
+    "Better a pig than a fascist.", // Porco Rosso quote
+
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.",
@@ -288,6 +290,10 @@ var quoteStrings = [
     "Art's cool :^)",
     "Look! It's the Los Angeles County Museum of Art! 5905 Wilshire Blvd Los Angeles, CA 90036",
 
+    // Calvin and Hobbes
+    "It's a magical world, Hobbes, ol' buddy... Let's go exploring!",
+    "I think TRUE happiness can only be found in the wanton indulgence of animals.",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", // Creepypasta
     "What's the square root of a fish? Now I'm sad.", // Skullgirls
@@ -355,6 +361,8 @@ var quoteStrings = [
     "You question the words of the mighty Jimmy!?", // Aqua Teen Hunger Forces
     "You look at him and tell me there's a god.", // Ditto.
     "Get the X-ROM 512 for your GameBoy Advance TODAY!", // EasyBuy2000
+    "How lucky I am to have something that makes saying goodbye so hard.", // Winnie the Pooh
+    "Pika Pika!", // Pikachu (that punch-out stage from Super Smash Bros.)
 ];
 
 function getQuoteTag() {
