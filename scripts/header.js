@@ -19,7 +19,7 @@ var quoteStrings = [
     "The right man in the wrong place can make all the difference in the world.", "-- G-Man",
 
     // Shortwave Radio
-    "Achtung! 59811 59811 Achtung!", "-- G02 \"The Swedish Rhapsody\" Numbers Station",
+    "Achtung! Achtung!", "-- G04 \"Three Note Oddity\" Numbers Station",
     "YANKEE. HOTEL. FOXTROT.", "-- Unknown NATO Alphabet Station, The Conet Project",
     "DELTA. FOXTROT. DELTA. ZWEI EINS.", "-- DFD21, The Conet Project",
     "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715", "-- The Linconshire Poacher",
