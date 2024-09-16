@@ -22,6 +22,7 @@ var quoteStrings = [
     "You guys might want to work on your poker faces before going up against a trained spy.", "-- Brock Samson, Poker Night 2",
     "Well, duh, you're a doof, Sam!", "-- Max, Poker Night 2",
     "You're just gonna fold? But now I can't guilt you into betting bad cards by putting on my cute rabbit face!", "-- Max, Poker Night at the Inventory",
+    "Well, of COURSE you won with those cards. Even Steve could've won with those cards, and all he can say is \"Hey-o!\"", "-- Claptrap, Poker Night 2",
 
     // Homestar Runner
     "The system is down, yo!","-- Strong Bad",
