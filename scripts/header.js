@@ -83,6 +83,7 @@ var quoteStrings = [
     "Ceiling GLaDOS is watching you die.", "-- Valve Fan Store T-Shirt",
     "Oh hi. So, how are you holding up? BECAUSE I'M A POTATO.", "-- GLaDOS",
     "Testing is the future, and the future starts with you!", "-- Announcer, Portal 2",
+    "Let me answer those questions with a question: Who wants to make sixty dollars? Cash.", "-- Cave Johonson",
 
     // Minecraft
     "The Creeper is a spy!", "-- Minecraft",
