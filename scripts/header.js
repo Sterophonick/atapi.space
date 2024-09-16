@@ -385,10 +385,10 @@ var quoteStrings = [
     "Pika Pika!", "-- Pikachu",
     "Katarn will never come near this ship.", "-- General Mohc, STAR WARS: Dark Forces",
     "Better to let your opponent have his pot, than to build him a new one", "-- Artie Flopshark, Telltale Texas Hold'Em",
-    "You know, like a liar.", "-- John Mulaney"
-    "This is the height of luxury!", "-- John Mulaney"
-    "We want a GIFT! But only if it's MONEY!", "-- John Mulaney"
-    "Get some rest, tall child!", "-- John Mulaney"
+    "You know, like a liar.", "-- John Mulaney",
+    "This is the height of luxury!", "-- John Mulaney",
+    "We want a GIFT! But only if it's MONEY!", "-- John Mulaney",
+    "Get some rest, tall child!", "-- John Mulaney",
 
 ];
 
