@@ -26,7 +26,7 @@ var quoteStrings = [
     // Shortwave Radio
     "Achtung! Achtung!", "-- G04 \"Three Note Oddity\" Numbers Station",
     "YANKEE. HOTEL. FOXTROT.", "-- Unknown NATO Alphabet Station, The Conet Project",
-    "DELTA. FOXTROT. DELTA. ZWEI EINS.", "-- DFD21, The Conet Project",
+    "DELTA. FOXTROT. DELTA. ZWEI EINS.", "-- G14 \"DFC37 / DFD21\" Numbers Station",
     "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715", "-- The Linconshire Poacher",
     "COORDINATED UNIVERSAL TIME.", "-- WWV Time Station, 10000 KHz",
     "I lied. I don't have Netflix. Take off your shoes, we're listening to shortwave radio numbers stations.", "-- some meme i found on kym",
@@ -373,6 +373,7 @@ var quoteStrings = [
     "How lucky I am to have something that makes saying goodbye so hard.", "-- Winnie the Pooh",
     "Pika Pika!", "-- Pikachu",
     "Katarn will never come near this ship.", "-- General Mohc, STAR WARS: Dark Forces",
+    "Better to let your opponent have his pot, than to build him a new one", "-- Artie Flopshark, Telltale Texas Hold'Em",
 ];
 
 function getQuoteTag() {
