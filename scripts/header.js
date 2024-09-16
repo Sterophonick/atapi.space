@@ -316,6 +316,13 @@ var quoteStrings = [
     "Only the foolish believe that suffering is just wages for being different.", "-- Cheshire Cat, American McGee's Alice",
     "Think of it as a Chinese Box or a stubborn lid. A tap in the right spot might do the trick.", "-- Cheshire Cat, American McGee's Alice",
 
+    // BattleBlock Theater
+    "Get the best time to win! Get the worst time to lose!", "-- Announcer, BattleBlock Theater",
+    "Milk, milk lemonade, bring the hat and you'll get paid!", "-- Announcer, BattleBlock Theater",
+    "There was explosions! And dancing girls! Dancing girls who exploded!", "-- Announcer, BattleBlock Theater",
+    "Now it goes without saying, but cats REALLY don't like to be ignored.", "-- Announcer, BattleBlock Theater",
+    "I see them lurking in the shadows... lurking hard! Or hardly lurking, seeee?", "-- Announcer, BattleBlock Theater",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
