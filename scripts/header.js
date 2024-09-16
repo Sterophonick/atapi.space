@@ -390,7 +390,7 @@ var quoteStrings = [
     "This is the height of luxury!", "-- John Mulaney",
     "We want a GIFT! But only if it's MONEY!", "-- John Mulaney",
     "Get some rest, tall child!", "-- John Mulaney",
-
+    "whats that? you dont drink wet cement? you couldnt be more pathetic.", "-- bunnipop",
 ];
 
 function getQuoteTag() {
