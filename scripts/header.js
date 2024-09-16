@@ -1,7 +1,12 @@
 var quoteStrings = [
     // asdfmovie
-    "Everybody do the flop!", "-- Do the Flop Guy",
-    "Hi, babe, yes I am real man, you wanna go skateboards?", "-- Real Man",
+    "Everybody do the flop!", "-- Do the Flop Guy, asdfmovie6",
+    "Hi, babe, yes I am real man, you wanna go skateboards?", "-- Real Man, asdfmovie8",
+    "Beep, Beep, I'm a sheep, I said, Beep, Beep, I'm a sheep!", "-- Sheep, asdfmovie10",
+    "look a ball! bal man!", "-- TomSka",
+    "Look out, he's got a nose!", "-- Cop, asdfmovie",
+    "Piano! *CRASH* Who's idea was this!?", "-- asdfmovie4",
+    "Hey, Bobby! Play that one about fallin' down the stairs!", "-- Johnny, asdfmovie5",
 
     // Poker Night at the Inventory / Poker Night 2
     "I will make hat from you, little bunny!", "-- The Heavy, Poker Night at the Inventory",
@@ -317,7 +322,7 @@ var quoteStrings = [
     "It's just a flesh wound.", "-- The Black Knight",
     "Nobody expects the Spanish Inquisition!", "-- Monty Python's Flying Circus",
     "Remember our promise.", "-- SIGNALIS",
-    "\"That's what.\"    -she","",
+    "\"That's what.\"", "-- she",
     "My body is ready.", "-- Reggie Fils-Aime",
     "WHAT A HORRIBLE NIGHT TO HAVE A CURSE.", "-- Castlevania II: Simon's Quest",
     "I only upload high quality video game rips.", "-- SiIvaGunner",
@@ -367,6 +372,7 @@ var quoteStrings = [
     "Get the X-ROM 512 for your GameBoy Advance TODAY!", "-- EasyBuy2000",
     "How lucky I am to have something that makes saying goodbye so hard.", "-- Winnie the Pooh",
     "Pika Pika!", "-- Pikachu",
+    "Katarn will never come near this ship.", "-- General Mohc, STAR WARS: Dark Forces",
 ];
 
 function getQuoteTag() {
