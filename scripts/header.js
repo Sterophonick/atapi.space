@@ -290,6 +290,14 @@ var quoteStrings = [
     "It's a magical world, Hobbes, ol' buddy... Let's go exploring!", "-- Calvin, Calvin and Hobbes",
     "I think TRUE happiness can only be found in the wanton indulgence of animals.", "-- Hobbes, Calvin and Hobbes",
 
+    // American McGee's Alice
+    "You've gone quite mangy, cat, but your grin's a comfort.", "-- Alice, American McGee's Alice",
+    "As knowing where you're going is preferable to being lost, ask.", "-- Cheshire Cat, American McGee's Alice",
+    "The proper order of things is often a mystery to me. You too?", "-- Cheshire Cat, American McGee's Alice",
+    "Only the insane equate pain with success.", "-- Cheshire Cat, American McGee's Alice",
+    "Only the foolish believe that suffering is just wages for being different.", "-- Cheshire Cat, American McGee's Alice",
+    "Think of it as a Chinese Box or a stubborn lid. A tap in the right spot might do the trick.", "-- Cheshire Cat, American McGee's Alice",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
