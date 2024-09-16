@@ -12,6 +12,16 @@ var quoteStrings = [
     "I will make hat from you, little bunny!", "-- The Heavy, Poker Night at the Inventory",
     "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress.", "-- Sam, Poker Night 2",
     "I'm just going to turn my DS on, and you guys keep giving me your money. This is an incredible system we've got here.", "-- Tycho Brahe, Poker Night at the Inventory",
+    "My face is a universal symbol of death and destruction!", "-- Max, Poker Night 2",
+    "Nikola Tesla was in direct communication with intelligences from another dimension.", "-- GLaDOS, Poker Night 2",
+    "There's a hole in Siberia that leads directly to hell. It's 3 inches wide.", "-- GLaDOS, Poker Night 2",
+    "The Player has busted out, and must leave the table before everyone starts laughing.", "-- GLaDOS, Poker Night 2",
+    "I know something you don't know. Not about this hand. Just generally.", "-- GLaDOS, Poker Night 2",
+    "The judicious poker player knows the importance of a well-timed fold. And then there's you.", "-- GLaDOS, Poker Night 2",
+    "Congratulations. You're a universe-imperiling paradox in dog's clothing.", "-- GLaDOS, Poker Night 2",
+    "You guys might want to work on your poker faces before going up against a trained spy.", "-- Brock Samson, Poker Night 2",
+    "Well, duh, you're a doof, Sam!", "-- Max, Poker Night 2",
+    "You're just gonna fold? But now I can't guilt you into betting bad cards by putting on my cute rabbit face!", "-- Max, Poker Night at the Inventory",
 
     // Homestar Runner
     "The system is down, yo!","-- Strong Bad",
