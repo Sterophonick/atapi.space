@@ -254,6 +254,9 @@ var quoteStrings = [
     "As you reboot, you find that something has overwritten your MBR! It is a sad thing your adventures have ended here!", "-- Classic Shell / Audacity FOSShub trojan",
     "Ooops, your important files are encrypted.","-- Ransom:Win32/NotPetya",
     "sinkhole.tech - where the bots party hard and the researchers harder","-- WannaCry Killswitch Domain Sinkhole",
+    "Happy New Year 1999 !!","-- Worm:Win32/Happy99",
+    "Dedicated to the dynamic memories of millions of viruses who are no longer with us today - Thanks GOODNESS!!!","-- Virus:Boot/Brain",
+    "Between millions of people around the world i found you. Don't forget to remember this day every time MY FRIEND!","-- Virus:Win9x/Pikachu",
 
     // Just images
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_ace.gif\">", "",
