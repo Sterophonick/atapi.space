@@ -39,9 +39,11 @@ var quoteStrings = [
     "Achtung! Achtung!", "-- G04 \"Three Note Oddity\" Numbers Station",
     "YANKEE. HOTEL. FOXTROT.", "-- Unknown NATO Alphabet Station, The Conet Project",
     "DELTA. FOXTROT. DELTA. ZWEI EINS.", "-- G14 \"DFC37 / DFD21\" Numbers Station",
-    "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715", "-- The Linconshire Poacher",
+    "39715 39715 39715 39715 39715 39715 39715 39715 39715 39715", "-- E03 \"The Linconshire Poacher\" Numbers Station",
     "COORDINATED UNIVERSAL TIME.", "-- WWV Time Station, 10000 KHz",
     "I lied. I don't have Netflix. Take off your shoes, we're listening to shortwave radio numbers stations.", "-- some meme i found on kym",
+    "Our hen is about to lay an egg. All is good. Until I hear from you again.","-- G01 \"Tyrolean Music Station,\" translated from German",
+    "Two. Five. Six. Oblique. Zero. Zero. Two. Five. Six. Oblique. Zero. Zero. Out.","-- E11 \"Oblique\" Numbers Station",
 
     // Napoleon Dynamite
     "You got, like, three feet of air that time.", "-- Napoleon Dynamite",
@@ -250,6 +252,8 @@ var quoteStrings = [
     "TECHNO TECHNO TECHNO TECH >>Don't Touch the keyboard<< TECHNO TECHNO TECHNO TECHNO", "-- Virus:DOS/Techno",
     "Welcome to www.worm.com ! Hacked by Chinese!", "-- Worm:Win32/CodeRed",
     "As you reboot, you find that something has overwritten your MBR! It is a sad thing your adventures have ended here!", "-- Classic Shell / Audacity FOSShub trojan",
+    "Ooops, your important files are encrypted.","-- Ransom:Win32/NotPetya",
+    "sinkhole.tech - where the bots party hard and the researchers harder","-- WannaCry Killswitch Domain Sinkhole",
 
     // Just images
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"assets/img/global/blerbs/spinny_cat_ace.gif\">", "",
@@ -399,6 +403,7 @@ var quoteStrings = [
     "Get some rest, tall child!", "-- John Mulaney",
     "whats that? you dont drink wet cement? you couldnt be more pathetic.", "-- bunnipop",
     "I miss you, Cynthia, rest in power.","", //199? - 2021
+
 ];
 
 function getQuoteTag() {
