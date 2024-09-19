@@ -160,6 +160,7 @@ var quoteStrings = [
     "Live so that if your life was a book, fascists would ban it.", "-- Me",
     "Be silly, be kind, be weird. There's no time for anything else.", "-- @slhslhslh",
     "Better a pig than a fascist.", "-- Porco Rosso",
+    "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- Jenetrix",
 
 
     // Sam & Max
