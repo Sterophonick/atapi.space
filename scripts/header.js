@@ -331,6 +331,9 @@ var quoteStrings = [
     "Now it goes without saying, but cats REALLY don't like to be ignored.", "-- Announcer, BattleBlock Theater",
     "I see them lurking in the shadows... lurking hard! Or hardly lurking, seeee?", "-- Announcer, BattleBlock Theater",
 
+    // Hypnospace Outlaw
+    "Hypnospace? Did we really use it? Or did it use us?","-- Artie Dispenza, Hypnospace Outlaw",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
