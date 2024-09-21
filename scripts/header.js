@@ -103,6 +103,7 @@ var quoteStrings = [
     "Oh hi. So, how are you holding up? BECAUSE I'M A POTATO.", "-- GLaDOS",
     "Testing is the future, and the future starts with you!", "-- Announcer, Portal 2",
     "Let me answer those questions with a question: Who wants to make sixty dollars? Cash.", "-- Cave Johonson",
+    "If the laws of physics no longer apply in the future, God help you.","-- Announcer, Portal 2",
 
     // Minecraft
     "The Creeper is a spy!", "-- Minecraft",
