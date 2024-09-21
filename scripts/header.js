@@ -334,6 +334,8 @@ var quoteStrings = [
 
     // Hypnospace Outlaw
     "Hypnospace? Did we really use it? Or did it use us?","-- Artie Dispenza, Hypnospace Outlaw",
+    "I see you're exploring Hypnospace, can I help out?","-- Professor Helper, Hypnospace Outlaw",
+    "computer....shakespear....flamingo","-- Terry, Hypnospace Outlaw",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
