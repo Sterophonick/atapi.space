@@ -414,7 +414,7 @@ var quoteStrings = [
     "whats that? you dont drink wet cement? you couldnt be more pathetic.", "-- bunnipop",
     "I miss you, Cynthia, rest in power.","", //199? - 2021
     "It's bad enough wasting time without killing it.", "-- Tock, The Phantom Tollbooth",
-
+    "There is no data. There is only XUL!", "-- Mozilla XUL Namespace",
 ];
 
 function getQuoteTag() {
