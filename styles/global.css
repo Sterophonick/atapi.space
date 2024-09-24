@@ -97,10 +97,15 @@ h4 {
   align-items: center;
   grid-template-columns: 300px 300px 300px;
   grid-gap: 8px;
+  font-size: 20pt;
 }
 
 .gallery p {
   width: 90%;
+}
+
+#gallery {
+  font-size: 18pt;
 }
 
 .galleryImg {
