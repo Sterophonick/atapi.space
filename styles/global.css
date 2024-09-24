@@ -128,3 +128,7 @@ h4 {
 small {
   font-size: 14pt;
 }
+
+.pixelArt {
+  image-rendering: pixelated
+}

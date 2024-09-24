@@ -416,7 +416,7 @@ var quoteStrings = [
     "It's bad enough wasting time without killing it.", "-- Tock, The Phantom Tollbooth",
     "There is no data. There is only XUL!", "-- Mozilla XUL Namespace",
     "Even though you change shape, I still understand you.", "-- Epona, The Legend of Zelda: Twilight Princess",
-
+    "Hate has caused a lot of problems in this world, but it hasn't solved one yet.","-- Li'l Petey, Cat Kid Comic Club: Mothering Heights",
 ];
 
 function getQuoteTag() {
