@@ -162,7 +162,8 @@ var quoteStrings = [
     "Be silly, be kind, be weird. There's no time for anything else.", "-- @slhslhslh",
     "Better a pig than a fascist.", "-- Porco Rosso",
     "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- Jenetrix",
-
+    "Hate has caused a lot of problems in this world, but it hasn't solved one yet.","-- Li'l Petey, Cat Kid Comic Club: Mothering Heights",
+    "We don't exactly fit in. Anywhere. And we've made that our greatest strength.","-- Faith Connors, Mirror's Edge",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
@@ -416,7 +417,6 @@ var quoteStrings = [
     "It's bad enough wasting time without killing it.", "-- Tock, The Phantom Tollbooth",
     "There is no data. There is only XUL!", "-- Mozilla XUL Namespace",
     "Even though you change shape, I still understand you.", "-- Epona, The Legend of Zelda: Twilight Princess",
-    "Hate has caused a lot of problems in this world, but it hasn't solved one yet.","-- Li'l Petey, Cat Kid Comic Club: Mothering Heights",
 ];
 
 function getQuoteTag() {
