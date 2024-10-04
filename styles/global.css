@@ -9,7 +9,7 @@
 .mainContainer {
   text-align: center;
   align-items: center;
-  max-width: 1024px;
+  width: 1024px;
   padding: 0px 10px;
   overflow-x: hidden;
   overflow-y: auto;

@@ -432,39 +432,49 @@ function getQuoteTag() {
     return img;
 }
 
-document.write(`
-<div id="header">
-    <div class="title" align="center">
-        <!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->
-        <table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">
-            <tr>
-            <td><a href="/"><img id="logo" border="0" src="/assets/img/global/quickpfp.png" width="128"></a></td>
-            <td>
-            <h1 style="margin-top:30px">Atapi's Own Little World</h1>
-            </tr>
-        </table>
-    </div>
-    <script type="text/javascript">document.write(getQuoteTag());</script>
-    <div id="nav" style="margin-top: -15px">
-        <a href="/projects"><img class="nav-icon" src="/assets/img/global/folder.png"> Projects</a>
-        -
-        <a href="/misc"><img class="nav-icon" src="/assets/img/global/misc.png"> Misc</a>
-        -
-        <a href="/dumps"><img class="nav-icon" src="/assets/img/global/chip.png"> Dumps</a>
-        -
-        <a href="/blog"><img class="nav-icon" src="/assets/img/global/notepad.png"> Blog</a>
-        -
-        <a href="/gallery"><img class="nav-icon" src="/assets/img/global/gallery.png"> Gallery</a>
-        <br/>
-        <a href="/links"><img class="nav-icon" src="/assets/img/global/links.png"> Links</a>
-        -
-        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>
-        <br/>
-    </div>
-    <div id="separator" style="margin-top:5px; margin-bottom: 5px;">
-        <img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png"">
-        <br/>
-        <br/>
-    </div>
-</div>
-`);
+
+
+// since this file is included at the very bottom of the page let's exploit that
+// my hope is that i will be fired from every webdev job i potentially have if my boss ever sees this crap
+
+// i am aware this code is crap.
+// however github is a very bad webhost if you're trying to things that are even remotely more complex than the simplest html from geocities circa 1999
+// maybe one day i'll have a better webhost with php support (and also learn wtf php is) but for now this works. it's just really bad to edit.
+
+var htmlHeader = '<div id="header">';
+htmlHeader += '<div class="title" align="center">';
+htmlHeader += '<!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->';
+htmlHeader += '<table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">';
+htmlHeader += '<tr>';
+htmlHeader += '<td><a href="/"><img id="logo" border="0" src="/assets/img/global/quickpfp.png" width="128"></a></td>';
+htmlHeader += '<td>';
+htmlHeader += '<h1 style="margin-top:30px">Atapi\'s Own Little World</h1>';
+htmlHeader += '</tr>';
+htmlHeader += '</table>';
+htmlHeader += '</div>';
+htmlHeader += '<script type="text/javascript">document.write(getQuoteTag());</script>';
+htmlHeader += '<div id="nav" style="margin-top: -15px">';
+htmlHeader += '<a href="/projects"><img class="nav-icon" src="/assets/img/global/folder.png"> Projects</a>';
+htmlHeader += '-';
+htmlHeader += '<a href="/misc"><img class="nav-icon" src="/assets/img/global/misc.png"> Misc</a>';
+htmlHeader += '-';
+htmlHeader += '<a href="/dumps"><img class="nav-icon" src="/assets/img/global/chip.png"> Dumps</a>';
+htmlHeader += '-';
+htmlHeader += '<a href="/blog"><img class="nav-icon" src="/assets/img/global/notepad.png"> Blog</a>';
+htmlHeader += '-';
+htmlHeader += '<a href="/gallery"><img class="nav-icon" src="/assets/img/global/gallery.png"> Gallery</a>';
+htmlHeader += '-';
+htmlHeader += '<br/>';
+htmlHeader += '<a href="/links"><img class="nav-icon" src="/assets/img/global/links.png"> Links</a>';
+htmlHeader += '-';
+htmlHeader += '<a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>';
+htmlHeader += '<br/>';
+htmlHeader += '</div>';
+htmlHeader += '<div id="separator" style="margin-top:5px; margin-bottom: 5px;">';
+htmlHeader += '<img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">';
+htmlHeader += '<br/>';
+htmlHeader += '<br/>';
+htmlHeader += '</div>';
+htmlHeader += '</div>';
+
+document.write(htmlHeader);
