@@ -26,8 +26,9 @@
 
 
 body {
-    background-image: url("../assets/img/global/bkg_red.png");
-    background-attachment: fixed;
+  background-image: url("../assets/img/global/bkg_red.png");
+  background-attachment: fixed;
+  background-repeat: repeat;
   font-family: AppleKid;
   font-size: 24pt;
   line-height: 1;
