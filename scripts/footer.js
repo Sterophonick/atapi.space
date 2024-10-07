@@ -5,6 +5,9 @@ htmlFooter += '<br/>';
 htmlFooter += '<img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">';
 htmlFooter += '</div>';
 htmlFooter += '<div id="message">';
+htmlFooter += '<br/>';
+if (location.pathname != "/" && location.pathname != "/index.html") htmlFooter += '<a href="..">(Go Back)</a> ';
+htmlFooter += '<a href="#top">(Top of Page)</a><br/>'
 htmlFooter += '<p>';
 htmlFooter += '<img class="pixelArt" src="/assets/img/home/web_button.gif"> <img class="pixelArt" src="/assets/img/global/cc-by-nc.png"><br/>';
 htmlFooter += 'made with love 2020-2024 Atapi / Sterophonick<br/>';
