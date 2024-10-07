@@ -417,6 +417,8 @@ var quoteStrings = [
     "It's bad enough wasting time without killing it.", "-- Tock, The Phantom Tollbooth",
     "There is no data. There is only XUL!", "-- Mozilla XUL Namespace",
     "Even though you change shape, I still understand you.", "-- Epona, The Legend of Zelda: Twilight Princess",
+    "PLEASE CRANK THE SILLY THING AROUND", "-- Apollo 11 Guidance Computer Source Code",
+    "Even with the sun gone, the world is still a beautiful place.", "-- Kip, OneShot",
 ];
 
 function getQuoteTag() {
