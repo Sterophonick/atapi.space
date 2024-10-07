@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Atapi's Homepage! :: Projects :: Super Block Jump: Game Boy Advance Edition</title>
-		<link rel="stylesheet" href="/styles/global.css">
-		<meta charset="utf-8"/>
-		<link rel="shortcut icon" href="/assets/img/global/favicon.ico">
-	</head>
-	<script>
-		function constructFrame() {
-            var top = '<iframe allowtransparency="true" width="480" height="320" src="https://gba.ninja/?autorun=';
 
-            var url = 'https://sterophonick.github.io' + '/files/Super%20Block%20Jump%20-%20Game%20Boy%20Advance%20Edition.gba';
+<head>
+	<meta name="darkreader-lock">
+	<title>Atapi's Homepage! :: Projects :: Super Block Jump: Game Boy Advance Edition</title>
+	<link rel="stylesheet" href="/styles/global.css">
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="/assets/img/global/favicon.ico">
+</head>
+<script>
+	function constructFrame() {
+		var top = '<iframe allowtransparency="true" width="480" height="320" src="https://gba.ninja/?autorun=';
 
-            var bottom = '" frameborder="0" allowfullscreen></iframe>';
-            return top + url + bottom;
-        }
-	</script>
-	<body>
-		<div class="mainContainer">
-			<script src="/scripts/header.js"></script>
-			<div class="column mainContent">
-				<h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> Super Block Jump: Game Boy Advance Edition</h1>
-				<script type="text/javascript">document.write(constructFrame());</script><br/>
-				<p style="font-size:12pt">
-					Game Boy Advance emulation courtesy of <a href="https://github.com/simon-paris/gba.ninja/tree/master">Simon Paris</a>.<br>
-				</p>
-				<br/>
-				<div id="controls">
-					<p>Keybinds</p>
-					<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0" style="font-size:24pt; text-align: center;">
-						<col width="320px" />
-						<col width="320px" />
-						<tr>
-							<td>A Button - Z<br/></td>
-							<td>Select Button - Backspace<br/></td>
+		var url = 'https://sterophonick.github.io' + '/files/Super%20Block%20Jump%20-%20Game%20Boy%20Advance%20Edition.gba';
 
-						</tr>
-						<tr>
-							<td>B Button - X<br/></td>
-							<td>Start Button - Enter<br/></td>
-						</tr>
-						<tr>
-							<td>D-Pad - Arrow Keys<br/></td>
-							<td>L Button - Shift<br/></td>
-						</tr>
-					</table>
-					R Button - Control<br/>
-				</div>
-				<br/>
-				<p>Some emulation issues might be present. I recommend you download the ROM and play it in mGBA.</p>
+		var bottom = '" frameborder="0" allowfullscreen></iframe>';
+		return top + url + bottom;
+	}
+</script>
+
+<body>
+	<div class="mainContainer">
+		<script src="/scripts/header.js"></script>
+		<div class="column mainContent">
+			<h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> Super Block Jump: Game Boy
+				Advance Edition</h1>
+			<script type="text/javascript">document.write(constructFrame());</script><br />
+			<p style="font-size:12pt">
+				Game Boy Advance emulation courtesy of <a
+					href="https://github.com/simon-paris/gba.ninja/tree/master">Simon Paris</a>.<br>
+			</p>
+			<br />
+			<div id="controls">
+				<p>Keybinds</p>
+				<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
+					style="font-size:24pt; text-align: center;">
+					<col width="320px" />
+					<col width="320px" />
+					<tr>
+						<td>A Button - Z<br /></td>
+						<td>Select Button - Backspace<br /></td>
+
+					</tr>
+					<tr>
+						<td>B Button - X<br /></td>
+						<td>Start Button - Enter<br /></td>
+					</tr>
+					<tr>
+						<td>D-Pad - Arrow Keys<br /></td>
+						<td>L Button - Shift<br /></td>
+					</tr>
+				</table>
+				R Button - Control<br />
 			</div>
-			<script src="/scripts/footer.js"></script>
+			<br />
+			<p>Some emulation issues might be present. I recommend you download the ROM and play it in mGBA.</p>
 		</div>
-	</body>
+		<script src="/scripts/footer.js"></script>
+	</div>
+</body>
+
 </html>
