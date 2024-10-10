@@ -12,6 +12,7 @@ htmlFooter += '<p>';
 htmlFooter += '<img class="pixelArt" src="/assets/img/home/web_button.gif"> <img class="pixelArt" src="/assets/img/global/cc-by-nc.png"><br/>';
 htmlFooter += 'made with love 2020-2024 Atapi / Sterophonick<br/>';
 htmlFooter += 'any and all mentions of properties not mine belong to their respective owners<br/>';
+htmlFooter += "<div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=60115&s=1' border='0' alt='Free Website Counter'></a><br / ><small><a href='https://www.websitecounterfree.com' title='Free Website Counter'></a></small></div>"
 htmlFooter += '<a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>';
 htmlFooter += '</p>';
 htmlFooter += '</div>';
