@@ -104,6 +104,9 @@ var quoteStrings = [
     "Testing is the future, and the future starts with you!", "-- Announcer, Portal 2",
     "Let me answer those questions with a question: Who wants to make sixty dollars? Cash.", "-- Cave Johonson",
     "If the laws of physics no longer apply in the future, God help you.","-- Announcer, Portal 2",
+    "Science isn't about WHY, it's about WHY NOT!", "-- Cave Johnson",
+    "Look at you, sailing through the air majestically. Like an eagle. Piloting a blimp.", "-- GLaDOS",
+    "Space? Space! SPAAAAAAAAAAAAAAAAAAAAAAAACE!", "-- Space Core",
 
     // Minecraft
     "The Creeper is a spy!", "-- Minecraft",
@@ -183,6 +186,9 @@ var quoteStrings = [
     "Hi, Super Nintendo Chalmers!", "-- Ralph Wiggum",
     "Don't have a cow, man!", "-- Bart Simpson",
     "I'm the mascot of an evil corporation!", "-- Bart Simpson",
+    "Glove slap! Baby, glove slap! Glove slap! Shut your big yap!", "-- The Simpsons",
+    "I was thinking along the lines of \"No TV and no beer make Homer something something.\"","-- Homer Simpson",
+    "A gun is not a weapon, it’s a tool, like a hammer or a screwdriver or an alligator.", "-- Homer Simpson",
 
     // Linux
     "Waiter, waiter! More Wineserver instances please!", "-- IceFireFish",
@@ -228,6 +234,7 @@ var quoteStrings = [
     "Also try Half-Life!","",
     "Also try Epic Pinball!","",
     "Also try Jazz Jackrabbit 2!","",
+    "Also try Sword with Sauce!", "",
 
     // Warez
     "See you in the next release!", "-- Mode7(?)",
@@ -419,6 +426,9 @@ var quoteStrings = [
     "Even though you change shape, I still understand you.", "-- Epona, The Legend of Zelda: Twilight Princess",
     "PLEASE CRANK THE SILLY THING AROUND", "-- Apollo 11 Guidance Computer Source Code",
     "Even with the sun gone, the world is still a beautiful place.", "-- Kip, OneShot",
+    "i live in wayland she live in weston", "-- Me",
+    "i can't believe they made cortana british", "-- Me",
+    "it will be able to explode", "-- Me",
 ];
 
 function getQuoteTag() {
