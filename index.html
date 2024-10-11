@@ -27,6 +27,13 @@
 			potato.style.display = "none";
 		}
 	}
+	function friday() {
+		var d = new Date();
+		if (d.getDay() === 5) {
+			//$("#fridey").load("/img/fridey.gif");
+			document.getElementById('fridey').innerHTML = '<img src="/assets/img/home/yakuzafriday.gif"/><br/><br/>';
+		}
+	}
 </script>
 
 <body>
@@ -55,6 +62,7 @@
 					and i'm, like. really really queer. its so epic!<br />
 				</p>
 				<br />
+				<div id="fridey"><script type="text/javascript">friday()</script></div>
 				<p>
 					Here's my web button to link on your own site!<br />
 					<img class="pixelArt" src="assets/img/home/web_button.gif"
