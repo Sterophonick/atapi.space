@@ -17,6 +17,7 @@
   border: 3px solid red;
   box-sizing: border-box;
   background-color: #00002C;
+  border-radius: 8px;
 }
 
 .mainContent p {
