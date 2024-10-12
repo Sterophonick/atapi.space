@@ -433,12 +433,12 @@ var quoteStrings = [
 ];
 
 function getQuoteTag() {
-    var img = '<p style=\"margin-top: -15px\">';
+    var img = '<p style=\"margin-top: -15px; line-height:0.75;\">';
 
     var randomIndex = Math.floor(Math.random() * quoteStrings.length / 2) * 2; // get even random number
     img += quoteStrings[randomIndex];
     img += '<br/>';
-    img += '<span style=\"font-size:15pt; line-height:1.0;\"><i>';
+    img += '<span style=\"font-size:15pt;\"><i>';
     img += quoteStrings[randomIndex+1];
     img += '</i></span>';
     img += '</p>';
