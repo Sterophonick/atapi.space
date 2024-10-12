@@ -430,6 +430,11 @@ var quoteStrings = [
     "i live in wayland she live in weston", "-- Me",
     "i can't believe they made cortana british", "-- Me",
     "it will be able to explode", "-- Me",
+    "This website is NOT a safe space for Ed Sheeran.", "-- Me",
+    "This website is served by 700 rats.", "-- Me",
+    "Legalize swag.", "-- Me",
+    "Pain is temporary, swag is forever.", "-- Me",
+    
 ];
 
 function getQuoteTag() {
