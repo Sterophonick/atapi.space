@@ -37,6 +37,15 @@ body {
   text-align: center;
 }
 
+#scratchProject {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+#gbaGame {
+  border: 2px solid red;
+}
+
 #logo {
   border-radius: 5px;
 }
