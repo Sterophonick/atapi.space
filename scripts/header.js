@@ -490,7 +490,7 @@ htmlHeader += '</div>';
 htmlHeader += '<div id="separator" style="margin-top:5px; margin-bottom: 5px;">';
 htmlHeader += '<img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">';
 htmlHeader += '<br/>';
-htmlHeader += '<br/>';
+htmlHeader += '';
 htmlHeader += '</div>';
 htmlHeader += '</div>';
 
