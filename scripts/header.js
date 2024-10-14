@@ -439,6 +439,7 @@ var quoteStrings = [
     "<img style=\"vertical-align:middle; height:32px;\" src=\"/assets/img/global/blerbs/atari_bombs.png\">", "-- Atari ST",
     "Software Failure. Press left mouse button to continue.", "-- Commodore Amiga",
     "Removed Herobrine.","-- Minecraft Patch Notes",
+    "GOD is real, unless if declared Integer", "-- Old Fortan Joke",
 ];
 
 function getQuoteTag() {
