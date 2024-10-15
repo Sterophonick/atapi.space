@@ -440,6 +440,9 @@ var quoteStrings = [
     "Software Failure. Press left mouse button to continue.", "-- Commodore Amiga",
     "Removed Herobrine.","-- Minecraft Patch Notes",
     "GOD is real, unless if declared Integer", "-- Old Fortan Joke",
+    "I'll be dead long before you were born and I'll be dead long before you'll be dead.", "-- Space Ghost",
+    "Aaaawwww boy! You guys get away from my olive loaf!", "-- Brak",
+    "Is it hot in here, or am I sweating?", "-- Brak",
 ];
 
 function getQuoteTag() {
