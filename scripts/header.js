@@ -479,8 +479,6 @@ htmlHeader += '<script type="text/javascript">document.write(getQuoteTag());</sc
 htmlHeader += '<div id="nav" style="margin-top: -15px">';
 htmlHeader += '<a href="/projects"><img class="nav-icon" src="/assets/img/global/folder.png"> Projects</a>';
 htmlHeader += ' - ';
-htmlHeader += '<a href="/misc"><img class="nav-icon" src="/assets/img/global/misc.png"> Misc</a>';
-htmlHeader += ' - ';
 htmlHeader += '<a href="/dumps"><img class="nav-icon" src="/assets/img/global/chip.png"> Dumps</a>';
 htmlHeader += ' - ';
 htmlHeader += '<a href="/blog"><img class="nav-icon" src="/assets/img/global/notepad.png"> Blog</a>';
