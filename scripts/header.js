@@ -443,6 +443,7 @@ var quoteStrings = [
     "I'll be dead long before you were born and I'll be dead long before you'll be dead.", "-- Space Ghost",
     "Aaaawwww boy! You guys get away from my olive loaf!", "-- Brak",
     "Is it hot in here, or am I sweating?", "-- Brak",
+    "Why do you have to have a head?", "-- Gaz, Invader ZIM",
 ];
 
 function getQuoteTag() {
