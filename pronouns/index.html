@@ -9,6 +9,17 @@
 	<link rel="shortcut icon" href="/assets/img/global/favicon.ico">
 </head>
 
+<script>
+	// function i stole from stack overflow lmao
+	function toggle_visibility(cl){
+		var els = document.getElementsByClassName(cl);
+		for (var i = 0; i < els.length; i++){
+			var s = els[i].style;
+			s.display = s.display === 'none' ? 'block' : 'none';
+		}
+	}
+</script>
+
 <body>
 	<div class="mainContainer">
 		<script src="/scripts/header.js"></script>
@@ -87,7 +98,8 @@
 						<img style="vertical-align:middle" src="\assets\img\pronouns\heart.png"> Brother<br/>
 						<img style="vertical-align:middle" src="\assets\img\pronouns\yes.png"> Sister<br/>
 						<img style="vertical-align:middle" src="\assets\img\pronouns\yes.png"> Mate<br/>
-						<img style="vertical-align:middle" src="\assets\img\pronouns\close.png"> Any Slur<br/>
+						<span class="sensitive" style="display: none;"><img style="vertical-align:middle" src="\assets\img\pronouns\die.png"> Sissy<br/></span>
+						<span class="sensitive" style="display: none;"><img style="vertical-align:middle" src="\assets\img\pronouns\heart.png"> Faggot<br/></span>
 					</td>
 					<td>
 						<img style="vertical-align:middle" src="\assets\img\pronouns\yes.png"> Boyfriend<br/>
@@ -130,6 +142,11 @@
 					<td><img style="vertical-align:middle" src="\assets\img\pronouns\die.png"> Explodes you with my mind</td>
 				</tr>
 			</table>
+			<br/>
+			<p>
+				This page contains language or words that may be sensitive for some.<br/>
+				<a onclick="toggle_visibility('sensitive');">Click here to enable them.</a>
+			</p>
 		</div>
 		<script src="/scripts/footer.js"></script>
 	</div>
