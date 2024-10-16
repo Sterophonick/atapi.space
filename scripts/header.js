@@ -28,6 +28,8 @@ var quoteStrings = [
     "The system is down, yo!","-- Strong Bad",
     "how do you type with boxing gloves on?", "-- Strong Bad",
     "What is this? Did the quadratic formula explode?", "-- Strong Bad",
+    "Nope, nope, nope, the land of ten thousand nopes.", "-- Strong Bad",
+    "Hey, Strong Bad! I'm inside your house.", "-- Homestar Runner",
 
     // Half-Life
     "grodon fremann!!!!", "-- Me",
