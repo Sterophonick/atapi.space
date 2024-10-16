@@ -30,7 +30,7 @@ body {
   background: url("/assets/img/global/catbg.gif");
   background-attachment: fixed;
   background-repeat: repeat;
-  font-family: AppleKid;
+  font-family: AppleKid, sans-serif;
   font-size: 24pt;
   line-height: 1;
   color: white;
