@@ -446,6 +446,7 @@ var quoteStrings = [
     "Aaaawwww boy! You guys get away from my olive loaf!", "-- Brak",
     "Is it hot in here, or am I sweating?", "-- Brak",
     "Why do you have to have a head?", "-- Gaz, Invader ZIM",
+    "Hmm, tastes like prion disease....", "-- Mona, from Shift-JIS art",
 ];
 
 function getQuoteTag() {
@@ -475,7 +476,7 @@ htmlHeader += '<div class="title" align="center">';
 htmlHeader += '<!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->';
 htmlHeader += '<table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">';
 htmlHeader += '<tr>';
-htmlHeader += '<td><a href="/"><img id="logo" border="0" src="/assets/img/global/quickpfp.png" width="128"></a></td>';
+htmlHeader += '<td><a href="/"><img id="logo" border="0" src="/assets/img/global/2024pfp.png" width="128"></a></td>';
 htmlHeader += '<td>';
 htmlHeader += '<h1 style="margin-top:30px">Atapi\'s Own Little World</h1>';
 htmlHeader += '</tr>';
