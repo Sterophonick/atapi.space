@@ -200,6 +200,7 @@ var quoteStrings = [
     "sudo make me a sandwich", "-- Randall Munroe, xkcd",
     "me when d8vk merge", "-- Joshua \"Misyl\" Ashton",
     "i am suffering from a GNOME issue", "-- Bazzite developers",
+    "Your system at a SPARC! Gah!", "-- Linux kernel oops on PA-RISC", 
 
     // Game recommends
     "Also try Titanfall 2!", "",
