@@ -390,7 +390,7 @@ var quoteStrings = [
     "unattended children will be taught x86 assembly", "-- Me",
     "all my friends are creepers they explode", "-- ElegantAshes",
     "jgjsdjfghkahkfjhkshlalksd", "-- Me",
-    "hey girl can we go on a wii sports resort date", "-- star dog",
+    "hey girl can we go on a wii sports resort date", "-- @ellie@yearning.gay",
     "long live the queen. you woulda loved skibidi toilet.", "-- crs100",
     "Maclunkey!", "-- Greedo",
     "Reject humanity, embrace meow", "-- ZenithNeko",
