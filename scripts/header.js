@@ -198,7 +198,7 @@ var quoteStrings = [
     "Bailing out, you are on your own. Good luck.", "-- Arch Linux",
     "You probably just broke your system. Congratulations.", "-- Arch Linux",
     "sudo make me a sandwich", "-- Randall Munroe, xkcd",
-    "me when d8vk merge", "-- Joshua \"Misyl\" Ashton",
+    "me when d8vk merge", "-- misyltoad",
     "i am suffering from a GNOME issue", "-- Bazzite developers",
     "Your system at a SPARC! Gah!", "-- Linux kernel oops on PA-RISC", 
 
