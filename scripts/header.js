@@ -448,6 +448,7 @@ var quoteStrings = [
     "Is it hot in here, or am I sweating?", "-- Brak",
     "Why do you have to have a head?", "-- Gaz, Invader ZIM",
     "Hmm, tastes like prion disease....", "-- Mona, from Shift-JIS art",
+    "On power up or reset, Furby must go select a new name ,,, ahw how cute.", "-- 1997 Furby Source Code",
 ];
 
 function getQuoteTag() {
