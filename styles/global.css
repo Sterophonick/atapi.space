@@ -127,6 +127,15 @@ h4 {
   font-family: AppleKid;
 }
 
+code {
+  font-family: monospace;
+  font-size: 12pt;
+  border: 1px solid red;
+  background-color: black;
+  padding: 1px 4px;
+  border-radius: 6px;
+}
+
 .shruggie shruggieTag {
   font-family: Helvetica;
 }

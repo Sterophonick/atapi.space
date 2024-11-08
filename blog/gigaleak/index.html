@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="darkreader-lock">
+	<title>Atapi's Homepage! :: Blog :: Those Weird Numbers from the Sky</title>
+	<base href="../../" />
+	<meta property="test:baseurl" content="/">
+	<link rel="stylesheet" href="/styles/global.css">
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="assets/img/global/favicon.ico">
+</head>
+
+<body>
+	<div class="mainContainer">
+		<script src="scripts/header.js"></script>
+		<div class="column mainContent">
+			<h1><img style="vertical-align:middle" src="assets/img/blog/icon.png"> Interesting Observations from Nintendo</h1>
+			<p>
+				November ?, 2024<br/>
+				Category: Infodump<br/>
+			</p>
+			<br/>
+			<p>
+				Remember the 2020/21 Nintendo data leaks? I certainly do, remember them like I was yesterday. Certainly gave me a reason to wake up in the morning during the COVID-19 pandemic, when I was stuck at home with nothing to do for the remainder of 10th grade.<br/><br/>
+				I kinda wanna use this page to insert my own findings and things of interest that I found after a curory look back at them. :3<br/><br/>
+				<span style="color: red">
+					DISCLAIMER: experts it is okay if you cringe at my surface-level analysis of everything, i'm just poking at what i think is cool and curious and am not an expert in literally anything ever<br/><br/>
+				</span>
+			</p>
+			<h2>unsorted.7z</h2>
+			<p>
+				<code>unsorted.7z</code> is the name of one of the earliest archives from the BroadOn breach, appearing on May 1st, 2020. This comes hot onthe heels of various development files and CIAs for Pokémon games on the Nintendo 3DS, as well as all of the title keys for DSi, 3DS, and Wii U.<br/><br/>
+				This archive comes in the form of three CVS repositories.<br/><br/>
+				One of the first things I noticed is that the <code>depot</code> repository is that the earliest commit goes to 2002, and this repo is relating to the iQue Player, which released in November 2003.<br/>
+				<img src="/assets/img/blog/gigaleak/depot_firstcommit.png"><br/><br/>
+
+				<code>depot/hw/chip/lib/kilopass/081205/</code> is a folder that contains verilog files and documentation to the Kilopass XPM products as of 2005, which are proprietary one-time-programmable non-volatile memory solutions. This information is kept separate from the rest of the iQue Player project since it is property licensed from another firm.<br/><br/>
+				<code>depot/rf/</code> contains more interesting stuff. The <code>rf</code> in the path is supposed to designate <i>RouteFree</i>, which would later become <i>BroadOn</i>, and then <i>iGware</i>, and now the company exists as <i>Acer Cloud Technology</i>.<br/><br/>
+				Anyway,<br/>
+				<img src="/assets/img/blog/gigaleak/rf.png"><br/><br/>
+				<code>doc</code> contains documentation on something called the "BB Game System", or "BB Player", which is a recurring name throughout this repository.<br/>
+				<img src="/assets/img/blog/gigaleak/bb.png"><br/><br/>
+				"BB" was the working name for what would eventually become the iQue Player, and supposedly means "BroadOn Board.<br/><br/>
+				There are a handful of files under <code>bb_depot</code> that refer to <code>remote_mgmt_files</code> but I'm not sure if these graphs where intended to be used for anything. They seem to be about an internet connection on the iQue Player itself.<br/>
+				<img src="/assets/img/blog/gigaleak/ique_net_maybe.gif"><br/><br/>
+				
+				What ended up actually happening was we initially got the iQue Depot, which was a store Kiosk the user would bring their iQue Player to in order to purchase and download games.<br/>
+				<img src="/assets/img/blog/gigaleak/depot_b2.jpg"><br/><br/>
+
+				This later got replaced with some Windows software called "iQue@Home." All iQue Player units had to have their firmware "SKSA" updated in order to access iQue@Home.<br/><br/>
+
+				The rest of the documentation is pretty much the standard stuff: System software notes, SoC block diagrams, the works. Here's a cool picture of a really shiny iQue Player, its "Industrial Design."<br/>
+				<img src="/assets/img/blog/gigaleak/raw-ique.jpg"><br/><br/>
+
+				However they do have some extra docs on porting Nintendo 64 games to the iQue Player, which notes how the PIF (Peripheral Interface) was missing on the iQue. On the N64, the PIF was responsible for being a security chip, handling controller input, the soft reset button, and various other information about the current configuration. It also nows the differences in access timings between N64 Game Paks and the flash memory in the iQue, and mentions how they had to alter game save behavior due to lack of EEPROM/SRAM.<br/><br/>
+				The MIPS core was also slightly different, with the MIPS data cache line size being increased from 16 bytes in the original to 32 bytes. This also meant that DMA and RCP buffer alignment had to be altered.<br/><br/>
+				The iQue Player also had DDR memory over the N64's RDRAM. "Should not be any issues," the engineers wrote.<br/><br/>
+				Much of libultra, the N64 SDKs operating system, had to be altered to accomodate these changes. For example, the <code>osEeprom</code> routines were altered to emulate either a 256 byte or 2KB EEPROM using the onboard flash. For SRAM, libultra does not have any specific routines so they had to make those changes on a game-by-game basis.<br/><br/>
+			
+				<code>rf/hw/</code> contains source files behind the motherboard, the cartridge board (nicknamed "Dookie"), as well as various other things. The board layouts are in DSN format, which require OrCAD to view, but they probably don't work in modern versions of the software.<br/><br/>
+				<code>chip</code> contains verilog files for the iQue Player SoC and other components, with a top level verilog source file for the SoC appearing to be at <code>rf/hw/chip/src/bb.v</code>. This file, to my understanding, provides the skeleton for each of the specific units and describes how they are supposed to connect, like here in this screenshot they created an instance of the MIPS and are defining names for each of the pins.<br/>
+				<img src="/assets/img/blog/gigaleak/bbcpu.png"><br/><br/>
+
+				I do find it humorous that they renamed RCP to BCP.<br/>
+				<img src="/assets/img/blog/gigaleak/bcp.png"><br/><br/>
+
+				This section of the repostiory is reminiscient of the "Oman Archive," which was an old data dump from 1999 that came internally from a SiliconGraphics employee. It contained a lot of verilog and source files for the N64 and its hardware.<br/><br/>
+
+				<code>rt/sw/bbplayer</code> contains a lot of source code used in development. <code>apps</code> and <code>apps.released</code> contain a lot of testing programs used in-house. The <code>morphcube</code> demo contains this picture of batman that goes really hard.<br/>
+				<img class="pixelArt" width="450px" src="/assets/img/blog/gigaleak/batman.png"><br/><br/>
+				
+				Other than that, these demos are the usual testing programs.<br/><br/>
+
+				There is this cool demo from the N64 SDK that makes a return called <i>Mirror House Cornflakes</i>, developed by Monegi. Made simply as a demonstration of the libultra and the N64 SDK and how to program this strange machine.<br/>
+			</p>
+			<img width="320px" src="/assets/img/blog/gigaleak/mirror_house/-000.png"> <img width="320px" src="/assets/img/blog/gigaleak/mirror_house/-002.png"> <img width="320px" src="/assets/img/blog/gigaleak/mirror_house/-003.png"> <img width="320px" src="/assets/img/blog/gigaleak/mirror_house/-005.png"> <img width="320px" src="/assets/img/blog/gigaleak/mirror_house/-006.png"> <br/><br/>
+			<p>
+				<code>depot/rf/sw/n64os20l/lib/BringupBoot/IPL4</code> contains full source code to the Nintendo 64DD's IPL.<br/>
+				<img src="/assets/img/blog/gigaleak/ipl4.png"><br/><br/>
+				Since Super Mario appears in the IPL there is a handful of original source code from Super Mario 64 in here, mostly for animation data.<br/>
+				<img src="/assets/img/blog/gigaleak/u64mb.png"><br/><br/>
+
+				The first commit for <code>depotrvl</code> was made in January of 2006, despite having files that go back to much earlier than that.<br/>
+			</p>
+			<img src="/assets/img/blog/gigaleak/depotrvl.png"><br/><br/>
+			<p>
+				<code>depotrvl</code> is a repository that's dedicated to the Nintendo Wii, signified by the <code>rvl</code> suffix.<br/><br/>
+				Once again, we're given the folder structure of <code>doc</code>, <code>hw</code>, and <code>sw</code>. <code>doc</code> contains the usual set of documentation, <code>hw</code> contains a bunch of verilog source code (but not for anything really notable), and <code>sw</code> contains a lot of important source code.<br/><br/>
+				<code>hw/chip/sim/aes/compile</code> is a script designed for simulation of AES encryption circuitry, written in Verilog. What I find interesting here is that this script actually calls for CSH instead of something more common like Bash. On top of that, the script calls for a command called <code>ncverilog</code>, which a bit of digging showed that "Incisive" was their circuitry simulator.<br/>
+				<img src="/assets/img/blog/gigaleak/csh.png"><br/><br/>
+				<code>sw/nintendo/boot/</code> appears to have four revisions of firmware images for an early "Nintendo Revolution emulator" board, if the strings inside the ROM images are to be believed. Couldn't really dig up more information than that.<br/>
+			</p>
+			<img width="768px" src="/assets/img/blog/gigaleak/tdev.png"><br/><br/>
+			<p>
+				<code>sw/nintendo/di-dvd/DVD_src/build/libraries/dvd/src/</code> and <br/><code>sw/nintendo/di-dvd/DVD_src_PATCH_17Jun2005/build/libraries/dvd/src/</code><br/>
+				contain source code to what appears to be libraries for controlling the DVD drive, with dates going back to 1998.<br/><br/>
+
+				<code>sw/rvl/boot/boot0/</code> contains source code to the Wii's <code>boot0</code>. In here, <code>key.c</code> contains the key used to decrypt the <code>boot1</code> executable.<br/>
+				<img src="/assets/img/blog/gigaleak/key.png"><br/>
+				In fact, all of this code lines up with the <a href="https://wiibrew.org/wiki/Boot0/Code_dump">assembly dump</a> that is available on WiiBrew. Although since there's only one key here, it might be a much older version.<br/><br/>
+
+				<code>sw/rvl/boot/boot1/</code> contains the source code to <code>boot1</code>. The job of this thing is to initialize more hardware devices and load <code>boot2</code>. Interestingly enough, there are also folders for <code>boot1.diag</code> and <code>boot1.n</code>.<br/><br/>
+
+				<code>sw/rvl/boot/boot2/</code> contains a binary image of <code>boot2</code>.<br/>
+				<img src="/assets/img/blog/gigaleak/boot2.png"><br/>
+				There is however, an alternate version of <code>boot2</code> called <code>sd_boot</code>, located in <code>boot2.mfr</code>. This alternate variant is used in the factory setup process, after <code>boot0</code> has been imprinted into the MaskROM inside Hollywood. <code>sd_boot</code> would be contained inside a special "prewrite" NAND image that also contained the final <code>boot1</code>. Instead of reading or writing to the NAND, <code>sd_boot</code> instead would load some WAD files from an SD card, one of which contained an ARM binary that would be run on the IOP, better known as the Starlet. Typically, this image will install the NDEV menu and a couple versions of IOS.<br/><br/>
+				After this, a disc known as "123J" would be inserted into the Wii. Not much is known about this disc.<br/><br/>
+				The next disc used in the factory is <code>RVL_UJI_DIAG</code>, which is a disc that performs various diagnostics programs to ensure a working RVL unit, kinda like the AGING programs used in other consoles.<br/><br/>
+				Next, would be disc "122E," which installs DATA CHECK & LOG CHECK to ensure everything passed.<br/>
+			</p>
+			<img src="/assets/img/blog/gigaleak/datachk.png"><br/><br/>
+			<p>
+				<code>rvl-factory</code> is a small repository that contained various files used by BroadON and Nintendo during the factory, such as SD Card images and NAND blocks.<br/>
+				<img src="/assets/img/blog/gigaleak/rvl-factory.png"><br/>
+				Not exactly sure how to use these since none of the WADs are usable in Dolphin.<br/><br/>
+			</p>
+			<h2>3DS_manu.7z</h2>
+			<p>
+				<code>3DS_manu.7z</code> was a file that dropped on May 9th, 2020, containing the complete collection of files used for the European version of the New Nintendo 2DS XL, which I will from now on refer to as JAN units.<br/>
+				<img src="/assets/img/blog/gigaleak/3DS_manu.png"><br/><br/>
+
+				These programs are designed to validate all of the hardware for the JAN units. They can be run on RED (New 3DS XL) units, but cannot be run on Old 3DS units.<br/>
+				<iframe width="240px" height="135px" src="https://www.youtube-nocookie.com/embed/sjXN7kw8YiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<iframe width="240px" height="135px" src="https://www.youtube-nocookie.com/embed/yiIj7MuNDfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/>
+				None of these testing programs work on Citra, so please excuse the videos I recorded four years ago.<br/><br/>
+				And now, a collection of interesting looking images from inside the executables.<br/><br/>
+			</p>
+			<img src="/assets/img/blog/gigaleak/ctraging/AccAgain.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/BarcodeScanner.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/CheckLed1_RED.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/CloseAndPushR_KTR.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/CompositeApplication.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/FoldAndOpen.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/gyro_Prepare.png">
+			<img src="/assets/img/blog/gigaleak/ctraging/gyro_XAxisTest.png">
+			<img src="/assets/img/blog/gigaleak/ctraging/gyro_YAxisTest.png">
+			<img src="/assets/img/blog/gigaleak/ctraging/gyro_ZAxisTest.png">
+			<img src="/assets/img/blog/gigaleak/ctraging/MicOpening.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/pit_cover.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/pit_open.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/PushR_RED.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/QtmCal_PushButtonLR_320_240.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/QtmCal_SetUp.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/ShockTest.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_button_B_320_240.jpg">
+			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_stop_horror_400_240.jpg"><br/><br/>
+
+			<h2>ctr.7z</h2>
+			<p>
+				work in progress!
+			</p>
+		</div>
+		<script src="scripts/footer.js"></script>
+	</div>
+</body>
+
+</html>
