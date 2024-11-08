@@ -148,7 +148,34 @@
 
 			<h2>ctr.7z</h2>
 			<p>
-				work in progress!
+				<code>ctr.7z</code> consists of two folders, <code>ctr</code> and <code>svn</code>.<br/><br/>
+				<code>ctr/include/aoss/</code> is a folder that contains header files relating to A.O.S.S. by Buffalo Technology, which was an old way of quickly setting up Wi-Fi connections with a single button press.<br/><br/>
+				<code>ctr/include/gles2</code> has header files for OpenGL ES 2.<br/><br/>
+				<code>ctr/sources/bootrom/CTR/private/build/bootrom/ctr_bootrom</code> includes the source code to the Nintendo 3DS Boot ROMs, both the ARM9 and the ARM11.<br/><br/>
+				<code>ctr/sources/bootom/CTR/doc/CTR_BootRomInfo.vsd</code> contains this interesting page about the 3DS' Blue Screen error when it fails to boot.<br/>
+				<img src="/assets/img/blog/gigaleak/bootrom_error.png"><br/>
+				To translate, the formatting is as follows:<br/>
+				<code>BOOTROM</code> (ROM revision, usually 8046)<br/>
+				<code>ERRORCODE:</code><br/><br/>
+				- Byte 1: Lid closed detection: <code>00</code> for Open, <code>01</code>: for closed by DS_R7, and <code>02</code> for closed by MCU<br/>
+				- Byte 2: NOR Load Error<br/>
+				- Byte 3: Card Load Error<br/>
+				- Byte 4: NAND Load Error<br/>
+				Example error code: <code>00F800FE</code><br/><br/>
+
+				The top eight bytes of information show error codes for the first eight partitions of the NAND, in this order:<br/>
+				3, 2, 1, 0, 7, 6, 5, 4<br/><br/>
+
+				The bottom left four bytes refer to NAND control errors, and the bottom right four bytes refer to NAND internal errors.<br/><br/>
+
+				There are a lot of listed errors and I won't go into all of them, but take this following example message:<br/>
+				<code>BOOTROM 8046</code><br/>
+				<code>ERRCODE: 00F800FE</code><br/>
+				<code>00000000 00000000</code><br/>
+				<code>00000400 00000000</code><br/><br/>
+				
+				<code>F8</code> refers to recieving bad data from NOR, and <code>FE</code> refers to a NAND initialization error. The <code>00000400</code> refers to communication timeout when attempting to initialize the NAND.<br/><br/>
+				Since in this particular case, we cannot communicate with the NAND, we can't really get any data on its partitions or status, thus the other messages remain at zero. An error code like this usually occurs if the NAND has failed or if a hardmod has been botched.<br/><br/>
 			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
