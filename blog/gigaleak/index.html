@@ -27,6 +27,7 @@
 				<span style="color: red">
 					DISCLAIMER: experts it is okay if you cringe at my surface-level analysis of everything, i'm just poking at what i think is cool and curious and am not an expert in literally anything ever<br/><br/>
 				</span>
+				<h1>Also of note: if you have hobbies or responsibilities that would be<br/><br/><br/> compromised by viewing this material, please close this page now.</h1><br/>
 			</p>
 			<h2>unsorted.7z</h2>
 			<p>
@@ -98,7 +99,7 @@
 
 				<code>sw/rvl/boot/boot0/</code> contains source code to the Wii's <code>boot0</code>. In here, <code>key.c</code> contains the key used to decrypt the <code>boot1</code> executable.<br/>
 				<img src="/assets/img/blog/gigaleak/key.png"><br/>
-				In fact, all of this code lines up with the <a href="https://wiibrew.org/wiki/Boot0/Code_dump">assembly dump</a> that is available on WiiBrew. Although since there's only one key here, it might be a much older version.<br/><br/>
+				In fact, all of this code lines up with the <a href="https://wiibrew.org/wiki/Boot0/Code_dump">assembly dump</a> that is available on WiiBrew.<br/><br/>
 
 				<code>sw/rvl/boot/boot1/</code> contains the source code to <code>boot1</code>. The job of this thing is to initialize more hardware devices and load <code>boot2</code>. Interestingly enough, there are also folders for <code>boot1.diag</code> and <code>boot1.n</code>.<br/><br/>
 
@@ -144,7 +145,8 @@
 			<img src="/assets/img/blog/gigaleak/ctraging/QtmCal_SetUp.jpg">
 			<img src="/assets/img/blog/gigaleak/ctraging/ShockTest.jpg">
 			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_button_B_320_240.jpg">
-			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_stop_horror_400_240.jpg"><br/><br/>
+			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_stop_horror_400_240.jpg"><br/>
+			<br/>
 
 			<h2>ctr.7z</h2>
 			<p>
@@ -194,7 +196,43 @@
 				<code>ctr_Repair</code> contains the source code and development history of tools that were used in the 3DS repair centers.<br/>
 				<code>BoxyardEraser</code> is a tool that appears to be designed to remove 3D Movie Player videos, which were all codenamed "BOXYARD." I don't really have much more information than that.<br/>
 				I dunno what <code>CardCup</code> or <code>CardSaveData</code> are supposed to do.<br/>
-				<code>ConsoleDataMigration</code>
+				<code>ConsoleDataMigration</code> was a set of internal tools used by Nintendo to transfer data between Nintendo 3DS units. The program would require the operator to insert a blank SD card, and the <code>CTR Console Backup</code> would dump important system contents to it.<br/>
+				<img src="/assets/img/blog/gigaleak/Backup_Wait_PullOut.png"><br/><br/>
+
+				The contents of the newly created backup would be as follows:<br/>
+				<code>CTRBackup/</code> CTRNAND Contents<br/>
+				<code>TWLPhotoBackup/</code> DSi Camera Backup<br/>
+				<code>TWLSoundBackup/</code> DSi Sound Backup<br/>
+				<code>TWLBackup/</code> DSi NAND Backup<br/>
+				<code>MoveContext.bin</code> Unknown encrypted file<br/>
+				<code>Migration_Log.txt</code> Backup of the contents of the logging on the bottom screen<br/>
+				<code>movable.sed</code> Console-unique private key file<br/>
+				<code>NtrNorSetting.bin</code> Nintendo DS name, color, birthday, and message settings<br/>
+				<code>serial.bin</code> Console serial number.<br/>
+				<code>rtc.bin</code> Real-Time Clock Calibration<br/>
+				<code>CountrySetting.bin</code> Location information<br/>
+				<code>FileList.txt</code> List of files extracted on SD card<br/>
+				<code>TwlTitleList.txt</code> List of DSi installed titles<br/>
+				<code>version.bin</code> System version information<br/>
+				<code>deviceId.bin</code> Device ID (Unsure specifically what this is)<br/>
+				<code>Region.bin</code> Region information<br/><br/>
+
+				<code>CTR Console Restore</code> was another program that was used to to the reverse, using an SD backup to restore to a different Nintendo 3DS unit.<br/>
+				<img src="/assets/img/blog/gigaleak/Restore_Succeeded.png"><br/><br/>
+
+				It also has the ability to transfer the assignments of a user's SD Card over to the new system. Once it's done doing that, it will ask the operator to insert the SD Card used in the backup process, where it will then write the following files:<br/>
+				<code>WriteFinished</code> Write confirmation<br/>
+				<code>UpdateFinished</code> Update confirmation<br/>
+				<code>ConsoleInitialized</code> Init confirmation<br/>
+				<code>TryRestoreSameConsole</code> Init confirmation</br>
+				<code>tpCalibration.bin</code> More data extracted from NAND<br/>
+				<code>RtcSyncFinished</code> RTC sync confirmation<br/>
+				<code>AccountDeletedChecked</code> Confirmation that the old user account has been deleted(?)<br/>
+				<code>AccountTransferedChecked</code> Confirmation that the user account has been transferred<br/>
+				<code>DownloadSDCIFinished</code> SD Card management information has been successfully created<br/>
+				<code>cfgCalibration.bin</code> More data extracted from NAND<br/><br/>
+
+				That's pretty much all there is for ctr.7z that I found interesting. Everything else here is rather mundane.<br/><br/>
 			</p>
 		</div>
 		<script src="scripts/footer.js"></script>

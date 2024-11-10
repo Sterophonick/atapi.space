@@ -1,9 +1,18 @@
 @font-face {
-  font-family: AppleKid;
+  font-family: EarthBoundEx;
   src: url("../assets/woff/EarthBoundEx.woff2") format("woff2"),
   url("../assets/woff/EarthBoundEx.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: Jiskan-16;
+  src: url("../assets/woff/JF-Dot-jiskan16s-1990.woff2") format("woff2"),
+  url("../assets/woff/JF-Dot-jiskan16s-1990.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  size-adjust: 50%;
 }
 
 .mainContainer {
@@ -30,7 +39,7 @@ body {
   background: url("/assets/img/global/catbg.gif");
   background-attachment: fixed;
   background-repeat: repeat;
-  font-family: AppleKid, sans-serif;
+  font-family: EarthBoundEx, Jiskan-16, sans-serif;
   font-size: 24pt;
   line-height: 1;
   color: white;
@@ -74,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: AppleKid;
+  font-family: EarthBoundEx;
   line-height: 0.3;
   letter-spacing: 0.8px;
   color: #e82525;
@@ -124,7 +133,7 @@ h4 {
 }
 
 .shruggie {
-  font-family: AppleKid;
+  font-family: EarthBoundEx, Jiskan-16;
 }
 
 code {
@@ -141,7 +150,7 @@ code {
 }
 
 .greentext {
-  font-family: AppleKid;
+  font-family: EarthBoundEx;
   color: #789922;
 }
 
