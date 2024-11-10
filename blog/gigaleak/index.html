@@ -152,7 +152,7 @@
 				<code>ctr/include/aoss/</code> is a folder that contains header files relating to A.O.S.S. by Buffalo Technology, which was an old way of quickly setting up Wi-Fi connections with a single button press.<br/><br/>
 				<code>ctr/include/gles2</code> has header files for OpenGL ES 2.<br/><br/>
 				<code>ctr/sources/bootrom/CTR/private/build/bootrom/ctr_bootrom</code> includes the source code to the Nintendo 3DS Boot ROMs, both the ARM9 and the ARM11.<br/><br/>
-				<code>ctr/sources/bootom/CTR/doc/CTR_BootRomInfo.vsd</code> contains this interesting page about the 3DS' Blue Screen error when it fails to boot.<br/>
+				<code>ctr/sources/bootrom/CTR/doc/CTR_BootRomInfo.vsd</code> contains this interesting page about the 3DS' Blue Screen error when it fails to boot.<br/>
 				<img src="/assets/img/blog/gigaleak/bootrom_error.png"><br/>
 				To translate, the formatting is as follows:<br/>
 				<code>BOOTROM</code> (ROM revision, usually 8046)<br/>
@@ -176,6 +176,25 @@
 				
 				<code>F8</code> refers to recieving bad data from NOR, and <code>FE</code> refers to a NAND initialization error. The <code>00000400</code> refers to communication timeout when attempting to initialize the NAND.<br/><br/>
 				Since in this particular case, we cannot communicate with the NAND, we can't really get any data on its partitions or status, thus the other messages remain at zero. An error code like this usually occurs if the NAND has failed or if a hardmod has been botched.<br/><br/>
+
+				<code>ctr/sources/kernel</code> contains the source code to the Horizon OS kernel, written in C++ and Assembly.<br/><br/>
+
+				<code>ctr/sources/libraries</code> contains the source code to all of the system libraries. What I find curious is how they had built-in MP3 decoding support in here. They also had a random number generator, using the Mersenne Twister method.<br/><br/>
+
+				<code>ctr/sources/processes</code> contains the source code to all of the background processes of the Nintendo 3DS, including things like <code>boss</code>, <code>nwm</code>, <code>mcu</code>, and more. The <code>mcu</code> folder also contains 14 different builds of the MCU ROM image.<br/><br/>
+
+				<code>ctr/source/tools</code> contains the source code to many SDK tools, including things like DevMenu. The folder <code>makerom</code> contains the C# source to a Windows tool that I can only assume was used for producing CIAs, CSUs, and other 3DS package/executable formats.<br/><br/>
+			
+				<code>ctr/source/tools/USBDIO</code> contains a package relating to devices known as "USB-DIO." These are little USB breakout boards that can be controlled with libraries for Visual Basic, MSVC, and MSVC++. The folder also contains a driver for Windows XP and Vista.<br/>
+				<img src="/assets/img/blog/gigaleak/usbdio.png"><br/>
+				Perhaps Nintendo used this during development of the 3DS as a means of debugging? Dunno.<br/><br/>
+
+				<code>ctr/svn</code> contains two SVN repositories, <code>ctr_mcu</code> and <code>ctr_Repair</code>.<br/>
+				<code>ctr_mcu</code> contains the source code and development history of the Nintendo 3DS MCU ROM image.<br/>
+				<code>ctr_Repair</code> contains the source code and development history of tools that were used in the 3DS repair centers.<br/>
+				<code>BoxyardEraser</code> is a tool that appears to be designed to remove 3D Movie Player videos, which were all codenamed "BOXYARD." I don't really have much more information than that.<br/>
+				I dunno what <code>CardCup</code> or <code>CardSaveData</code> are supposed to do.<br/>
+				<code>ConsoleDataMigration</code>
 			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
