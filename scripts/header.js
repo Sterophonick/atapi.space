@@ -63,7 +63,7 @@ var quoteStrings = [
     "Good luck, I'm behind 7 proxies!", "-- Anon",
     "y u brake game", "-- Unknown",
     "missingno", "-- Minecraft",
-    "Be sure to drink your Ovaltine", "-- Little Orphan Annie",
+    "Be sure to drink your Ovaltine.", "-- Little Orphan Annie, A Christmas Story",
     "But can it run Crysis?", "-- Every PC gamer in 2007",
     "Terrible, terrible damage!", "-- Dustin Browder",
     "SHAAAAAAAAAAAUN!", "-- Ethan Mars",
@@ -129,7 +129,7 @@ var quoteStrings = [
 
     // EarthBound
     "Coming Winter 2014!", "-- Unknown",
-    "You guys can’t envision the final collapse of Capitalism? Incredible!", "-- Stoic Club patron, EarthBound",
+    "You guys can't envision the final collapse of Capitalism? Incredible!", "-- Stoic Club patron, EarthBound",
     "For some reason, a pencil-shaped iron statue is blocking the path.", "-- EarthBound",
     "After all, it could only cost you your life, and you got that for free!", "-- Summers Sailor, EarthBound",
     "On days like these, kids like you should be playing Nintendo games.", "-- Onett cop, EarthBound",
@@ -166,7 +166,7 @@ var quoteStrings = [
     "Live so that if your life was a book, fascists would ban it.", "-- Me",
     "Be silly, be kind, be weird. There's no time for anything else.", "-- @slhslhslh",
     "Better a pig than a fascist.", "-- Porco Rosso",
-    "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- Jenetrix",
+    "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- @Jenetrix",
     "Hate has caused a lot of problems in this world, but it hasn't solved one yet.","-- Li'l Petey, Cat Kid Comic Club: Mothering Heights",
     "We don't exactly fit in. Anywhere. And we've made that our greatest strength.","-- Faith Connors, Mirror's Edge",
 
@@ -348,6 +348,23 @@ var quoteStrings = [
     "I see you're exploring Hypnospace, can I help out?","-- Professor Helper, Hypnospace Outlaw",
     "computer....shakespear....flamingo","-- Terry, Hypnospace Outlaw",
 
+    // The Secret of Monkey Island
+    "How appropriate. You fight like a cow.", "-- Guybrush Threepwood, The Secret of Monkey Island",
+    "It's days like this that makes you glad to be dead.", "-- LeChuck, The Secret of Monkey Island",
+    "Never pay more than 20 bucks for a computer game.", "-- Guybrush Threepwood, The Secret of Monkey Island",
+
+    // Grim Fandango
+    "My scythe--I like to keep it next to where my heart used to be.", "-- Manny Calavera, Grim Fandango",
+    "Whatever you say, Jefe.", "-- Manny Calavera, Grim Fandango",
+    "You're not too big. The cars are just too small.", "-- Manny Calavera, Grim Fandango",
+    "Yeah, yeah. Pretty busy. My carpal tunnel syndrome is really acting up.", "-- Balloon Twister, Grim Fandango",
+    "The living still give me the creeps.", "-- Manny Calavera, Grim Fandango",
+
+    // Humongous Entertainment
+    'A spy without a gadget is like a shopping cart without a broken wheel.', '-- Spy Fox, Spy Fox in "Dry Cereal"',
+    "The name's Fox. Spy Fox.", "-- Spy Fox",
+    "Ah, Monkey Penny. Now this is a real TV dinner.", '-- Spy Fox, Spy Fox in "Dry Cereal"',
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
@@ -418,7 +435,7 @@ var quoteStrings = [
     "How lucky I am to have something that makes saying goodbye so hard.", "-- Winnie the Pooh",
     "Pika Pika!", "-- Pikachu",
     "Katarn will never come near this ship.", "-- General Mohc, STAR WARS: Dark Forces",
-    "Better to let your opponent have his pot, than to build him a new one", "-- Artie Flopshark, Telltale Texas Hold'Em",
+    "Better to let your opponent have his pot, than to build him a new one.", "-- Artie Flopshark, Telltale Texas Hold'Em",
     "You know, like a liar.", "-- John Mulaney",
     "This is the height of luxury!", "-- John Mulaney",
     "We want a GIFT! But only if it's MONEY!", "-- John Mulaney",
@@ -449,6 +466,11 @@ var quoteStrings = [
     "Why do you have to have a head?", "-- Gaz, Invader ZIM",
     "Hmm, tastes like prion disease....", "-- Mona, from Shift-JIS art",
     "On power up or reset, Furby must go select a new name ,,, ahw how cute.", "-- 1997 Furby Source Code",
+    "The numbers, Mason. What do they mean!?", "-- Jason Hudson, Call of Duty: Black Ops",
+    "Nothing is true; Everything is permitted.", "-- Various, Assassin's Creed 2",
+    "Me? Gongaga.", "-- Zack Fair, Crisis Core: Final Fantasy VII",
+    "I don't need a weapon, my friends are my power!", "-- Sora, Kingdom Hearts", 
+    "Oh, to be an abandoned Garfield phone at the beach.", "-- Me",
 ];
 
 function getQuoteTag() {
