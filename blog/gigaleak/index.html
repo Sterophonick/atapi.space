@@ -146,7 +146,9 @@
 			<img src="/assets/img/blog/gigaleak/ctraging/ShockTest.jpg">
 			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_button_B_320_240.jpg">
 			<img src="/assets/img/blog/gigaleak/ctraging/suzuki_ikko_stop_horror_400_240.jpg"><br/>
-			<br/>
+			Doohickey headquarters up here.
+			
+			<br/><br/>
 
 			<h2>ctr.7z</h2>
 			<p>
@@ -200,39 +202,90 @@
 				<img src="/assets/img/blog/gigaleak/Backup_Wait_PullOut.png"><br/><br/>
 
 				The contents of the newly created backup would be as follows:<br/>
-				<code>CTRBackup/</code> CTRNAND Contents<br/>
-				<code>TWLPhotoBackup/</code> DSi Camera Backup<br/>
-				<code>TWLSoundBackup/</code> DSi Sound Backup<br/>
-				<code>TWLBackup/</code> DSi NAND Backup<br/>
-				<code>MoveContext.bin</code> Unknown encrypted file<br/>
-				<code>Migration_Log.txt</code> Backup of the contents of the logging on the bottom screen<br/>
-				<code>movable.sed</code> Console-unique private key file<br/>
-				<code>NtrNorSetting.bin</code> Nintendo DS name, color, birthday, and message settings<br/>
-				<code>serial.bin</code> Console serial number.<br/>
-				<code>rtc.bin</code> Real-Time Clock Calibration<br/>
-				<code>CountrySetting.bin</code> Location information<br/>
-				<code>FileList.txt</code> List of files extracted on SD card<br/>
-				<code>TwlTitleList.txt</code> List of DSi installed titles<br/>
-				<code>version.bin</code> System version information<br/>
-				<code>deviceId.bin</code> Device ID (Unsure specifically what this is)<br/>
-				<code>Region.bin</code> Region information<br/><br/>
+				<code>CTRBackup/</code> - CTRNAND Contents<br/>
+				<code>TWLPhotoBackup/</code> - DSi Camera Backup<br/>
+				<code>TWLSoundBackup/</code> - DSi Sound Backup<br/>
+				<code>TWLBackup/</code> - DSi NAND Backup<br/>
+				<code>MoveContext.bin</code> - Unknown encrypted file<br/>
+				<code>Migration_Log.txt</code> - Backup of the contents of the logging on the bottom screen<br/>
+				<code>movable.sed</code> - Console-unique private key file<br/>
+				<code>NtrNorSetting.bin</code> - Nintendo DS name, color, birthday, and message settings<br/>
+				<code>serial.bin</code> - Console serial number<br/>
+				<code>rtc.bin</code> - Real-Time Clock Calibration<br/>
+				<code>CountrySetting.bin</code> - Location information<br/>
+				<code>FileList.txt</code> - List of files extracted on SD card<br/>
+				<code>TwlTitleList.txt</code> - List of DSi installed titles<br/>
+				<code>version.bin</code> - System version information<br/>
+				<code>deviceId.bin</code> - Device ID (Unsure specifically what this is)<br/>
+				<code>Region.bin</code> - Region information<br/><br/>
 
 				<code>CTR Console Restore</code> was another program that was used to to the reverse, using an SD backup to restore to a different Nintendo 3DS unit.<br/>
 				<img src="/assets/img/blog/gigaleak/Restore_Succeeded.png"><br/><br/>
 
 				It also has the ability to transfer the assignments of a user's SD Card over to the new system. Once it's done doing that, it will ask the operator to insert the SD Card used in the backup process, where it will then write the following files:<br/>
-				<code>WriteFinished</code> Write confirmation<br/>
-				<code>UpdateFinished</code> Update confirmation<br/>
-				<code>ConsoleInitialized</code> Init confirmation<br/>
-				<code>TryRestoreSameConsole</code> Init confirmation</br>
-				<code>tpCalibration.bin</code> More data extracted from NAND<br/>
-				<code>RtcSyncFinished</code> RTC sync confirmation<br/>
-				<code>AccountDeletedChecked</code> Confirmation that the old user account has been deleted(?)<br/>
-				<code>AccountTransferedChecked</code> Confirmation that the user account has been transferred<br/>
-				<code>DownloadSDCIFinished</code> SD Card management information has been successfully created<br/>
-				<code>cfgCalibration.bin</code> More data extracted from NAND<br/><br/>
+				<code>WriteFinished</code> - Write confirmation<br/>
+				<code>UpdateFinished</code> - Update confirmation<br/>
+				<code>ConsoleInitialized</code> - Init confirmation<br/>
+				<code>TryRestoreSameConsole</code> - Init confirmation</br>
+				<code>tpCalibration.bin</code> - More data extracted from NAND<br/>
+				<code>RtcSyncFinished</code> - RTC sync confirmation<br/>
+				<code>AccountDeletedChecked</code> - Confirmation that the old user account has been deleted(?)<br/>
+				<code>AccountTransferedChecked</code> - Confirmation that the user account has been transferred<br/>
+				<code>DownloadSDCIFinished</code> - SD Card management information has been successfully created<br/>
+				<code>cfgCalibration.bin</code> - More data extracted from NAND<br/><br/>
 
 				That's pretty much all there is for ctr.7z that I found interesting. Everything else here is rather mundane.<br/><br/>
+			</p>
+			<h2>svn_1.068.zip</h2>
+			<p>
+				This file contains the source code to the Nintendo 3DS Virtual Console.<br/><br/>
+				<code>svn_1.068/patch/Sample.patch</code> shows a sample layout for how game-specific patches were implemented in the Virtual Console emulator. The developer could apply custom CGB palettes and also patch various memory addresses.<br/>
+				<img src="/assets/img/blog/gigaleak/samplepatch.png"><br/><br/>
+			
+				<code>svn_1.068/Tools/NESROMMaker</code> contains a tools that appears to convert iNES and FDS ROM images into ones that were used for Nintendo Virtual Console, and was developed by "Chentian" of iQue.<br/><br/>
+				
+				<code>svn_1.068/src/AGB</code> contains a Game Boy Advance emulator, written in 2009, presumably before Nintendo added OS/Silicon support for Game Boy Advance titles to be run. What's really curious is that it contains a dynamic recompiler that has the capabilities of emitting machine code for both ARM and x86.<br/>
+				<img src="/assets/img/blog/gigaleak/agb_x86.png"><br/><br/>
+
+				The Nintendo 3DS Virtual Console emulator is very portable, and <code>svn_1.068/src/PC</code> contains code that allows it to be compiled for Windows. Same goes for <code>svn_1.068/src/EmuShell/PC</code>.<br/><br/>
+			</p>
+			<h2>ctr-etc.7z</h2>
+			<p>
+				<code>ctr-etc.7z</code> contains documentation about the Nintendo 3DS security model, dev board, boot process, and crypto. I talso contains many internal and SDK programs such as DevMenu, SystemUpdater, and a bunch of sample demos.<br/><br/>
+				<code>ctr/CTR Security.pdf</code> has a presentation from BroadOn about the Nintendo 3DS security, but what I find interesting is their sort of "if this happens we are so screwed" attitude towards certain things.<br/>
+			</p>
+			<img src="/assets/img/blog/gigaleak/breach.png"><br/><br/>
+			<h2>other.7z</h2>
+			<p>
+				<code>other.7z</code> contained six archives:<br/>
+				<code>CGB.7z</code> - CGB source code for <i>The Legend of Zelda: Link's Awakening</i><br/>
+				<code>Famicom_NES.7z</code> - Master ROM database for Famicom/NES<br/>
+				<code>NEWS.7z</code> - Unknown, various Sony NEWS workstation backups?<br/>
+				<code>SFC.7z</code> - Various Super NES game source code and demos<br/>
+				<code>agb_bootrom.zip</code> - SVN tree of Game Boy Advance and Game Boy Color boot ROMs<br/>
+				<code>dmg.7z</code> - DMG source code for <i>The Legend of Zelda: Link's Awakening</i><br/><br/>
+
+				The files in <code>Famicom_NES.7z/HVC</code> date back to July of 1994, so I imagine that Nintendo of Japan had a digital archive project so that they could keep all of these ROM images around in the event that the physical ROMs died.<br/>
+				Interestingly, <code>Famicom_NES.7z/NES/ROYALTY</code> is all dated April of 1996.<br/>
+				Anyway, all of these are raw ROM dumps, no iNES header is found here like what Nintendo would begin to use later on once they hired Kawasedo.<br/><br/>
+
+				At the time of the leak, many of these ROM images were undocumented, and <code>Famicom_NES.7z/NES/NOA/NESXZIP.066</code> would actually end up containing an unseen alternate revision of the Nintendo World Cup cartridge ROM!<br/>
+				<img width="75%" src="/assets/img/blog/gigaleak/mrcheeze_1.png"><br/><br/>
+
+				<code>other.7z</code> has several prototype builds of Star Fox 2.<br/>
+				<code>NEWS.7z/StarFox2/SF2/SF.ROM</code><br/>
+				<code>NEWS.7z/StarFox2/KAWAGOE/SF.ROM</code><br/>
+				<code>SFC.7z/ROM/StarFox2/usa/SXJ03.COM</code><br/>
+				<code>SFC.7z/ソースデータ/StarFox2/SF2/SF2_CES.zip</code><br/><br/>
+
+				That last one sounded a few alarms when it first leaked. That's the ROM that was used on the development cartridge at CES 1994 when Star Fox 2 was first being shown off. The cartridge that was famously almost stolen by an Arizona man who was quickly arrested and charged with felony grand larceny.<br/>
+				<img class="pixelArt" width="512px" src="/assets/img/blog/gigaleak/SF2CES-Title.png"><br/><br/>
+
+				<code>SXJ03.COM</code> is the master ROM that Nintendo had of Star Fox 2, dated September 21, 1995. It is actually <i>not</i> the same as the ROM that was officially released in 2017 as part of the Super NES Classic, there's a few touch-ups they made here and there.<br/>
+				<img src="/assets/img/blog/gigaleak/sf2_master.png"><br/><br/>
+
+				<code>NEWS.7z/StarFox2/KAWAGOE/SF.ROM</code><br/>
+				<img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_1.png"><img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_2.png"><img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_3.png"><br/>
 			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
