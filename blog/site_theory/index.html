@@ -38,7 +38,7 @@
 			<h2>Working Around Static Web Hosts</h2>
 			<p>
 				Something much more situational.<br/><br/>
-				GitHub Pages is a static web host. That means there is no support for server-side scripting that makes injecting things like global headers, footers, and sidebars trivial. Unfortunately for us, that means we need to work around it. Thankfully, most browsers, new and old support the document.write() function from JavaScript, so what I ended up doing was writing JavaScript functions that would inject HTML at the top and bottom of the page to create the header and footer divs.<br/><br/>
+				GitHub Pages is a static web host. That means there is no support for server-side scripting that makes injecting things like global headers, footers, and sidebars trivial. Unfortunately for us, that means we need to work around it. Thankfully, most browsers, new and old support the <code>document.write()</code> function from JavaScript, so what I ended up doing was writing JavaScript functions that would inject HTML at the top and bottom of the page to create the header and footer divs.<br/><br/>
 				It's especially nice this way because I can even inject elements based on what page is being rendered, so things like the (Go Back) link only appear when the user is not on the root page.<br/><br/>
 			</p>
 			<h2>GeoCities-isms</h2>
@@ -66,7 +66,7 @@
 				<br/><br/>
 			</p>
 			<p>
-				Using the &lt;marquee&gt; tag is acceptable, especially since every browser I have used supports it. Let's use it while we still can.<br/><br/>
+				Using the <code>&lt;marquee&gt;</code> tag is acceptable, especially since every browser I have used supports it. Let's use it while we still can.<br/><br/>
 			</p>
 			<p>
 				If your site plays music, please make it OPTIONAL!<br/><br/>
@@ -84,8 +84,8 @@
 			</p>
 			<h2>Policing Dark Reader</h2>
 			<p>
-				This only applies to those whos sites are darker, but PLEASE PLEASE PLEASE use the following tag in your &lt;head&gt;to disable the Dark Reader extension:<br/><br/>
-				&lt;meta name="darkreader-lock"&gt;<br/><br/>
+				This only applies to those whos sites are darker, but PLEASE PLEASE PLEASE use the following tag in your <code>&lt;head&gt;</code> to disable the Dark Reader extension:<br/><br/>
+				<code>&lt;meta name="darkreader-lock"&gt;</code><br/><br/>
 				This makes sure that your site's color palette doesn't get pwned by default if the user has Dark Reader installed.<br/><br/>
 			</p>
 			<h2>Link ALL the Sites!</h2>
