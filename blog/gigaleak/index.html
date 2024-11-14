@@ -343,7 +343,34 @@
 			<p>
 				Amongst other things in <code>gba/depot-offline/hw/system/</code>, there contain board gerbers, pick and place machine configurations, schematics, and more for both the test board and possibly the final board.<br/><br/>
 			
+				Throughout <code>gba/depot-offline</code> there is a lot of Wii source code, such as the source code for the Wii's IOS that would run on the IOP. What I think is going on here is that the Netcard, which would allow players to connect to the internet and engage in things like online leaderboards and chat, would be driven by an IOP-like processor or microcontroller to handle all of the underlying system functions, and iQue was using the existing Wii IOS as a starting point or reference.<br/><br/>
+
+				<code>iqgba/iQue-GBA/viewer</code> contains the source code to two programs, <code>Viewer_NC</code> and <code>lobby</code>. Its <code>CVSROOT</code> folder contains a number of things:<br/>
+				Source code to <i>F-Zero: Maximum Velocity</i>, most likely the iQue version.<br/>
+				12 compiled builds of NetCard viewer in <code>iqgba/iQue-GBA/CVSROOT/Viewer_New/bins</code><br/>
+				GPL source code to Quake III Arena<br/>
+				Various GBA ROM images from GoodGBA<br/>
+				VisualBoyAdvance source code<br/>
+				<br/>
+
+				There were also some interesting screenshots of the employees' desktops.<br/>
+				<img width="45%" src="/assets/img/blog/gigaleak/20051012.JPG"> <img width="45%" src="/assets/img/blog/gigaleak/F-Zero-20050812.JPG"><br/>
+				<img width="45%" src="/assets/img/blog/gigaleak/F-Zero-20050815-1.JPG"> <img width="45%" src="/assets/img/blog/gigaleak/F-Zero-20050815-2.JPG"><br/><br/>
+
+				<code>iqgba/iQue-GBA/viewer/Viewer_NC/ncpart</code> appears to contain an MPEG-3 decoder. I assume this would have run on the Game Boy Advance CPU or if the IOP-like controller in the Netcard would have been able to decode this codec.<br/><br/>
+
+				Oh, those builds of the NetCard Viewer are unfortunately nothing all too interesting, since none of the NetCard, related functionality works in emulators.<br/>
+				<img src="/assets/img/blog/gigaleak/viewer_new_060224-0.png"><img src="/assets/img/blog/gigaleak/viewer_new_060224-1.png"><img src="/assets/img/blog/gigaleak/viewer_new_060224-2.png"><img src="/assets/img/blog/gigaleak/viewer_new_060224-3.png"><img src="/assets/img/blog/gigaleak/viewer_new_060224-4.png"><br/><br/>
 				
+				LuigiBlood has footage of one of the Viewer menu mockups, which supposedly works on a VisualBoyAdvance modified with NetCard support. Not sure where this was located in the archive.<br/>
+				<iframe width="240px" height="160px" src="https://www.youtube-nocookie.com/embed/Ta3n_zvaW70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/><br/>
+				
+				At the root of <code>netcard.7z</code> are these files:<br/>
+				<img src="/assets/img/blog/gigaleak/pokeyman_networks.png"><br/><br/>
+
+				These files outline a cancelled online Pokémon project that was internal to iQue at around 2004. They intended it to be based on FireRed/LeafGreen.<br/>
+				<img width="45%" src="/assets/img/blog/gigaleak/pokeyman_1.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_2.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_3.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_4.png"><br/>
+				<img width="45%" src="/assets/img/blog/gigaleak/pokeyman_5.png"><br/><br/>
 			</p>
 
 
