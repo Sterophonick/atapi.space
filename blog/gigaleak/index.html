@@ -25,7 +25,7 @@
 				Remember the 2020/21 Nintendo data leaks? I certainly do, remember them like I was yesterday. Certainly gave me a reason to wake up in the morning during the COVID-19 pandemic, when I was stuck at home with nothing to do for the remainder of 10th grade.<br/><br/>
 				I kinda wanna use this page to insert my own findings and things of interest that I found after a curory look back at them. :3<br/><br/>
 				<span style="color: red">
-					DISCLAIMER: experts it is okay if you cringe at my surface-level analysis of everything, i'm just poking at what i think is cool and curious and am not an expert in literally anything ever<br/><br/>
+					DISCLAIMER: experts it is okay if you cringe at my surface-level analysis of everything, i'm just poking at what i think is cool and curious and am not an expert in literally anything ever. this is not a complete analysis of the leaks, it is just what i personally find interesting<br/><br/>
 				</span>
 				<h1>Also of note: if you have hobbies or responsibilities that would be<br/><br/><br/> compromised by viewing this material, please close this page now.</h1><br/>
 			</p>
@@ -372,8 +372,46 @@
 				<img width="45%" src="/assets/img/blog/gigaleak/pokeyman_1.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_2.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_3.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_4.png"><br/>
 				<img width="45%" src="/assets/img/blog/gigaleak/pokeyman_5.png"><br/><br/>
 			</p>
+			<h2>bbgames.7z</h2>
+			<p>
+				<code>bbgames.7z</code> is a repository that contains source code to a handful of Nintendo 64 and Game Boy Advance games, not all of which are complete.<br/><br/>
+				The list of games is as follows:<br/>
+				<code>1080</code> - 1080° Snowboarding<br/>
+				<code>cba2</code> - NBA Courtside 2: Featuring Kobe Bryant<br/>
+				<code>dm64</code> - Doctor Mario 64<br/>
+				<code>f0x</code> - F-Zero X<br/>
+				<code>forest</code> - Animal Crossing<br/>
+				<code>marioAGB</code> - Super Mario Advance<br/>
+				<code>mk64</code> - Mario Kart 64<br/>
+				<code>sf64</code> - Star Fox 64<br/>
+				<code>sm64</code> - Super Mario 64<br/>
+				<code>wario4land_gba_ique</code> Wario Land 4<br/>
+				<code>wr64</code> - Wave Race 64<br/>
+				<code>yoshi</code> - Yoshi's Story<br/>
+				<code>z_majora</code> - The Legend of Zelda: Majora's Mask<br/>
+				<code>z_ocarina</code> - The Legend of Zelda: Ocarina of Time<br/>
+				<code>z_ocarina2</code> - OoT backup? Folder is smaller than <code>z_ocarina</code><br/>
+				<br/>
 
+				While the source code to most of these games is incomplete, it still can be compiled if you know what you're doing. CrashOveride95 was able to compile the Dr. Mario source, Super Mario 64 source, Super Mario Advance source, among others. Seemingly, Dr. Mario 64 seems to be the only <i>complete</i> project amongst the repositories.<br/><br/>
+				From what I gather, Nintendo only ever sent iQue what would have been necessary for localization. Everything else was sent as precompiled object files.<br/><br/>
 
+				<code>sm64/shape/Player/Luigi</code> contains the original long-lost source files that were for Luigi before he was cut from Super Mario 64. Each of these files are in a <code>.sou</code> file format, which is a 3D model format that I had never heard of. But some people smarter than I have written tools to convert SOU to OBJ, and thus, we have the assembled Luigi.<br/>
+				<img src="/assets/img/blog/gigaleak/loogy.png"><br/>
+				(image credit: tcrf)<br/><br/>
+
+				There is a lot more to find in this archive, so I'd highly recommend you look at the <a href="https://tcrf.net/Development:Super_Mario_64_(Nintendo_64)">TCRF page</a> for Super Mario 64.<br/><br/>
+
+				<code>marioAGB</code> contains all of the original MIDIs and AIFFs for the audio in that game, which could be useful for researching MusicPlayer2000. It's really obnoxious how there hasn't been a proper up-to-date copy of the MP2K source, what we got in the GBA boot ROM leak was way out of date.<br/><br/>
+
+				<code>forest/forest_lib/MFC</code> contains the source code to the NES emulator in Animal Crossing. Interestingly, the files in this folder appear to use the iNES header.<br/>
+
+				<code>forest/forest_lib/F3DZEX2-2.08J_PosLight-001109</code> appears to contain the libraries used for the RSP microcode. Good stuff.<br/><br/>
+			</p>
+			<h2>emeralds.7z</h2>
+			<p>
+				<code>emeralds.7z</code> is a file that contains 
+			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
 	</div>
