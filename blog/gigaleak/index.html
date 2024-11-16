@@ -415,7 +415,7 @@
 				<code>RVL-FFWP.7z</code> - Wii Virtual Console for Donkey Kong<br/>
 				<code>RVL-RAAE.7z</code> - Wii Startup Disc<br/>
 				<code>RVL-WTester.7z</code> - Wii Wi-Fi Tester<br/>
-				<code>pm_eme_ose.7z</code> - Pokémon Emerald source code, includes <code>pokeviewer</code>tool<br/>
+				<code>pm_eme_ose.7z</code> - Pokémon Emerald source code, includes <code>pokeviewer</code> tool<br/>
 				<code>tako_main_052306.tgz</code> - Verilog and design files for ATI Hollywood<br/><br/>
 
 				The Wii Startup Disc is hella interesting. It was a disc that was used internally by Nintendo and various retailers like GameStop to initialize Wii consoles with Wii System Menu version 0. All known Wii System Menu versions will refuse to boot a disc with the ID of "RAAE," and this is the reason.<br/><br/>
@@ -444,6 +444,68 @@
 				Given all of the verilog information from both this and previous data dumps, it might genuinely be possible to reconstruct a Nintendo Wii from scratch if given the proper resources to do so.<br/><br/>
 			</p>
 			<h2>platinum.7z</h2>
+			<p>
+				<code>platinum.7z</code> contains seven archives:<br/>
+				<code>20090512.rar</code> - iQue Wii Startup Disc<br/>
+				<code>dgb_sgb.7z</code> - Game Boy / Game Boy Color master ROM lot<br/>
+				<code>MASTER_CPUJ00.zip</code> - Source code to Pokémon Platinum<br/>
+				<code>ntr-bootrom.7z</code> - SVN Repo for Nintendo DS boot ROM<br/>
+				<code>twl.7z</code> - Miscellaneous Nintendo DSi data<br/>
+				<code>patch_from_MASTER_CPUJ00_to_FIELDTEST2.zip</code> - Pokémon Platinum patch<br/>
+				<code>patch_from_MASTER_CPUJ00_to_FIELDTEST2_nobanner.zip</code> - Ditto<br/><br/>
+			
+				<code>20090512</code> contains a little bit more than just the iQue Startup Disc. It also contains the final Chinese version of the Photo Channel, as well as archives of all the System Menu Channels for both Korean and Chinese Nintendo Wii units. Additionally, there are ten different dummy Chinese WADs.<br/>
+				<img src="/assets/img/blog/gigaleak/dummy.png"><br/><br/>
+
+				The Nintendo DS boot ROM has something of interest, there is a copy of the Game Boy Advance boot ROM, a file named <code>NitroAgbMonTS1_040304.bin</code>, however the hash does not match the final ROM image. The only difference lies at offset 0x3F0C, which changes 0x00000000 -> 0x00000001. The only reason this was done was to alter the return value of the <code>GetBiosChecksum()</code>, as a potential means of machine identification.<br/><br/>
+
+				<code>dgb_sgb.7z</code>, the Game Boy master ROM lot, had numerous unreleased or outright lost ROM images contained in it, such as the infamous "Work Boy" cartridge that was lost for 30 years, in <code>DMG/POOL/DMGWYE-0.781</code>.<br/>
+				<img class="pixelArt" width="320px" src="/assets/img/blog/gigaleak/DMGWYE-0-0.png"><br/><br/>
+
+				Along with an unreleased game called <i>Sutte Hakkun</i> (すってはっくん) which was never released on the Game Boy. It had a Super Famicom release, but not a Game Boy release. File is <code>DMGASPJ0.1</code>.<br/>
+				<img class="pixelArt" width="512px" src="/assets/img/blog/gigaleak/DMGASPJ0-0.png"><br/><br/>
+			
+				The English version of a Japan-exclusive game called <i>X</i> was found here as well, <code>DMG/POOL/DMGECE-0.477</code>.<br/>
+				<img class="pixelArt" width="320px" src="/assets/img/blog/gigaleak/DMGECE-0-0.png"><br/><br/>
+
+				We even got a set of interesting test programs for the MBC5 ROM Mapper, <code>DMG/TESTPRG/mbc5_tester</code>.<br/>
+				<img class="pixelArt" width="320px" src="/assets/img/blog/gigaleak/mbc5_02m_b-0.png"><br/><br/>
+
+				<code>twl.7z</code> contains four SVN repositories:<br/>
+				<code>twl_mcu</code> - Nintendo DSi Microcontroller source code<br/>
+				<code>twl_wrapsdk</code> - ???<br/>
+				<code>TwlIPL</code> - Nintendo DSi IPL source code<br/>
+				<code>TwlToolsRED</code> - ???<br/>
+				<br/>
+
+				<code>twl_mcu</code> isn't actually a valid SVN repository, the actual untracked source code is in <code>twl/twl_mcu/_archive/MCU_TWL/</code><br/><br/>
+
+				The README in <code>twl_wrapsdk</code> mentions that the libraries <code>fatfs</code>, <code>sdmc</code>, and <code>sc</code> never be made public. Turns out, Nintendo had an agreement of some kind back then with EBS, Inc and they were provided some libraries for accessing DOS filesystems.<br/>
+				<img src="/assets/img/blog/gigaleak/ebs_1.png"><br/><br/>
+
+				<code>twl_wrapsdk/tools/prom</code> appears to have some EXO files leftover, designed for programming Xilinx PROMs.<br/>
+				<img src="/assets/img/blog/gigaleak/prom_1.png"><br/><br/>
+
+				<code>TwlIPL/bin/ARM9-TS/Release/forDebug/mb_card_rom.srl</code> contains a Nintendo DS Download Play sample.<br/>
+				<img src="/assets/img/blog/gigaleak/mb_sample.png"><br/><br/>
+
+				<code>TwlIPL/add-ins/NTR_IPL2_Gaiji_Font_PC</code> contains a TTE font of the non-standard glyphs used in the Nintendo DSi.<br/>
+			</p>
+			<img width="70%" src="/assets/img/blog/gigaleak/nitroipl_gaiji.png"><br/><br/>
+			<p>
+				<code>TwlToolsRED/tools/bin</code> contains a number of tools designed for Windows to perform DSi-related... stuff?<br/>
+				<img src="/assets/img/blog/gigaleak/twl_msi.png"><br/><br/>
+
+				All of these tools appear to have been made in .NET Framework. I could only ever get the English ones working.<br/>
+				<img src="/assets/img/blog/gigaleak/twl_fingerprinter.png"><br/>
+			</p>
+			<img src="/assets/img/blog/gigaleak/twl_mastereditor.png"><br/><br/>
+			Oh yeah, the source code to all of these tools is over in <code>TwlToolsRED/build/tools/MasterEditor/MasterEditorTWL_System/MasterEditorTWL/</code>. :3<br/><br/>
+
+			<h2>generic.7z</h2>
+			<p>
+				
+			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
 	</div>
