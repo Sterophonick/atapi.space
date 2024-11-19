@@ -561,10 +561,41 @@
 				<code>irisSDKbulb-snapshot-040120.tar.gz</code> - Jan 20, 2004 IRIS SDK<br/>
 				<br/>
 
+				<code>FMC_DISK.7z</code> contains all known disks that Nintendo had in storage.<br/>
+				<img src="/assets/img/blog/gigaleak/rda.png"><br/><br/>
 
+				They had their own format called "RDA/RDB," which I can only assume stood for Nintendo Research and Development. RDA was for Side A and RDB was for Side B.<br/><br/>
+				
+				As part of this archival process, which took place from January to February of 2007, they also took photos of each and every disk label.<br/>
+				<img width="240px" src="/assets/img/blog/gigaleak/rda/001.jpg">
+				<img width="240px" src="/assets/img/blog/gigaleak/rda/013.jpg">
+				<img width="240px" src="/assets/img/blog/gigaleak/rda/029.jpg">
+				<img width="240px" src="/assets/img/blog/gigaleak/rda/074.jpg"><br/><br/>
+
+				Under this archive, there also exists their own tool to convert RDA/RDB images to FDS, which is the dump format the emulation community developed.<br/>
 			</p>
+			<img src="/assets/img/blog/gigaleak/rdafds.png"><br/><br/>
+			<p>
+				The file <code>DiskWriterSoftPak_ZEL.zip</code> contains the disk dump for The Legend of Zelda, which was damaged in their master archive. Kawasedo-san was tasked with recovering the data, to which he was able to recover it from an EPROM that existed on an FDS disk writer cartridge, but the EPROM was formatted as "SCAT Soft Pack." They even had to write a tool, <code>scattoqd.exe</code> to convert the EPROM dump to their Virtual Console format.<br/>
+				<code>scattoqd ROM1.bin ROM2.bin ROM3.bin ROM4.bin out.qd</code><br/><br/>
 
+				All of those IRIS SDKs come from the development of the Nintendo DS, which was the original Game Boy Advance successor, having one screen and capable of 3D.<br/>
+				<img src="/assets/img/blog/gigaleak/iris.png"><br/><br/>
+			</p>
+			<h2>ios-releases.tar.7z</h2>
+			<p>
+				<code>ios-releases.tar.7z</code> was a massive archive, 24 GB uncompressed, that contains a metric crap-ton of development data relating to the Wii's IOS. In large part, in contains the following:<br/>
+				- Firmware images for <code>sd_boot</code><br/>
+				- System Menu WADs<br/>
+				- Firmware WADs<br/>
+				- IOS blobs<br/>
+				- Dupes of existing BroadOn/iQue source trees such as GBA and NetCard<br/>
+				<br/>
 
+				Something of note is that this archive is not actually a source tree or repository, it's kinda just a folder that BroadOn employees used to store release builds and whatnot.<br/><br/>
+
+				
+			</p>
 
 			<h2>Final Thoughts</h2>
 			<p>
