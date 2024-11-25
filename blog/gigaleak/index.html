@@ -624,7 +624,7 @@
 				Nintendo had provided drivers for the RVL SDK that worked on both Windows 2000 and Windows XP, as well.<br/><br/>
 
 				Inside of <code>wiidump.7z</code> is an archive called <code>NUP.rar</code> which contains early RVL discs containing software setup. Decrypting the one named <code>BackToolForSys1_64_US_RC1_1.gcm</code> was a very confusing task.<br/><br/>
-				To start, the first <code>0x8000</code> bytes of the disc had to be stripped with <code>dd</code>. Next, WiiScrubber was used to extract files using the NDEV common key. Hilariously enough, the NDEV common key is really hard to find. Next, I had to generate the Korean common key, otherwise WiiScrubber would throw a fit. But with all of that in place, I was able to extract the various WADs inside of this disc.<br/><br/>
+				To start, the first <code>0x8000</code> bytes of the disc had to be stripped with <code>dd</code>. Next, WiiScrubber was used to extract files using the NDEV common key. Hilariously enough, the NDEV common key is really hard to find. Next, I had to generate the Korean common key, otherwise WiiScrubber would throw a fit. But with all of that in place, I was able to extract the various WADs inside of this disc. The WADs then needed to be resigned using the RVL common key.<br/><br/>
 
 				<code>systemmenu.rvl.255.9.us.wad</code> is a WAD that contains a barebones disc loader as the Wii System Menu. Likely commonly used on a bunch of later NDEV units as development progressed.<br/>
 				<img src="/assets/img/blog/gigaleak/systemmenu1.png"><br/><br/>
@@ -639,7 +639,16 @@
 				The other disc in <code>NUP.rar</code> is callde <code>swupdate2_SDK2.2.gcm</code> and it contains a <code>systemmenu.rvl.104.wad</code>. This appears to be a prerelease NDEV system menu that actully has a navigable menu.<br/>
 				<img src="/assets/img/blog/gigaleak/systemmenu104.png"><br/><br/>
 			</p>
+			<h2>Documents.7z</h2>
+			<p>
+				<code>Documents.7z</code> was a file that contained a lot of security-related documents and also proof of the existence of Nintendo Ninjas.<br/><br/>
+				<code>CTR</code> is a folder that contains many, many screenshots of the 32c3 conference, which had a talk from derrek, plutoo, and smealum about hacking the Nintendo 3DS.<br/>
+				<img width="240px" src="/assets/img/blog/gigaleak/32c3/0009.png">
+				<img width="240px" src="/assets/img/blog/gigaleak/32c3/0142.png">
+				<img width="240px" src="/assets/img/blog/gigaleak/32c3/0383.png"><br/><br/>
 
+				
+			</p>
 			<h2>Final Thoughts</h2>
 			<p>
 				- Internally, Nintendo was still using SVN for the longest time, maybe even up until the Wii U.<br/>
