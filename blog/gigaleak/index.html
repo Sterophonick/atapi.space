@@ -576,7 +576,7 @@
 			</p>
 			<img src="/assets/img/blog/gigaleak/rdafds.png"><br/><br/>
 			<p>
-				The file <code>DiskWriterSoftPak_ZEL.zip</code> contains the disk dump for The Legend of Zelda, which was damaged in their master archive. Kawasedo-san was tasked with recovering the data, to which he was able to recover it from an EPROM that existed on an FDS disk writer cartridge, but the EPROM was formatted as "SCAT Soft Pack." They even had to write a tool, <code>scattoqd.exe</code> to convert the EPROM dump to their Virtual Console format.<br/>
+				The file <code>DiskWriterSoftPak_ZEL.zip</code> contains the disk dump for The Legend of Zelda, which was damaged in their master archive. Kawasedo-san was tasked with recovering the data, to which he was able to recover it from an EPROM that existed on an FDS disk writer cartridge from back in the day, but the EPROM was formatted as "SCAT Soft Pack." They even had to write a tool, <code>scattoqd.exe</code> to convert the EPROM dump to their Virtual Console format.<br/>
 				<code>scattoqd ROM1.bin ROM2.bin ROM3.bin ROM4.bin out.qd</code><br/><br/>
 
 				All of those IRIS SDKs come from the development of the Nintendo DS, which was the original Game Boy Advance successor, having one screen and capable of 3D.<br/>
@@ -594,7 +594,49 @@
 
 				Something of note is that this archive is not actually a source tree or repository, it's kinda just a folder that BroadOn employees used to store release builds and whatnot.<br/><br/>
 
-				
+				To my knowledge, nothing here is particularly useful in Dolphin, but there are probably some brave souls willing to rewrite their Wii NANDs to try to get the System Menu WADs booting.<br/><br/>
+
+				Many of these IOS releases are distributed as flash dumps, consisting of the first five blocks of NAND. Some are also compiled twice, being split between NDEV units with 128 MB of DDR3 and NDEV units with 64MB of DDR3.<br/><br/>
+
+				Some of the Netcard stuff made it into here, and <code>ios_images9.1.0_rc3/root_gbasrc_2006090117.tgz</code> contains a bunch of Netcard related source code.<br/><br/>
+
+				<code>gba_root/usr/src/gba/manufacture/function</code> inside of this archive contains a test program that validates the functions of the NetCard coprocessor, which, as previously mentioned, was going to be programmed with code based on IOS.<br/>
+				<img src="/assets/img/blog/gigaleak/agb_nctest.png"><br/>
+				<img src="/assets/img/blog/gigaleak/agb_nctest2.png"><br/><br/>
+
+				In many of the READMEs, there are notes about programming the flash of an NDEV unit with a specific IOS image.<br/>
+				<img src="/assets/img/blog/gigaleak/ios-releases-prgm.png"><br/><br/>
+
+				And now, an interesting list of observations amongst IOS revisions:<br/>
+				- IOS 4.0.1 has a note saying "Enabled DVD Video access using TMD."<br/>
+				- Apparently there were many different NDEV configurations, some of the notes name them as NDEV1 and NDEV2.<br/>
+				- IOS version 0.0 was released on March 9, 2006.<br/>
+				- IOS 0.7 broke the filesystem API tests on NDEV systems.<br/>
+				- IOS 0.6.5 added support for filesystem encryption, SD driver, an updated boot1, and better hardware initialization with help from ATI.<br/>
+			</p>
+			<h2>wiidump.7z</h2>
+			<p>
+				<code>wiidump.7z</code> is a file containing a lot of early Wii SDKs as well as other things.<br/><br/>
+
+				In each of the SDK dumps, there is a copy of Metrowerks Codewarrior, which is the IDE that Nintendo used for GameCube development. I even managed to get it to install!<br/>
+				<img src="/assets/img/blog/gigaleak/codewarrior.png"><br/><br/>
+
+				Nintendo had provided drivers for the RVL SDK that worked on both Windows 2000 and Windows XP, as well.<br/><br/>
+
+				Inside of <code>wiidump.7z</code> is an archive called <code>NUP.rar</code> which contains early RVL discs containing software setup. Decrypting the one named <code>BackToolForSys1_64_US_RC1_1.gcm</code> was a very confusing task.<br/><br/>
+				To start, the first <code>0x8000</code> bytes of the disc had to be stripped with <code>dd</code>. Next, WiiScrubber was used to extract files using the NDEV common key. Hilariously enough, the NDEV common key is really hard to find. Next, I had to generate the Korean common key, otherwise WiiScrubber would throw a fit. But with all of that in place, I was able to extract the various WADs inside of this disc.<br/><br/>
+
+				<code>systemmenu.rvl.255.9.us.wad</code> is a WAD that contains a barebones disc loader as the Wii System Menu. Likely commonly used on a bunch of later NDEV units as development progressed.<br/>
+				<img src="/assets/img/blog/gigaleak/systemmenu1.png"><br/><br/>
+
+				<code>systemmenu.rvl.wad</code> is a way more interesting file though, especially since it's much bigger. It contains Wii System Menu 1.0 RC1. This version of Wii System Menu only boots if the Z Button on GameCube controller port 4 is held down on startup.<br/>
+			</p>
+			<video width="836" height="456" controls>
+				<source src="/assets/vid/systemmenu-rc1.webm" type="video/mp4">
+				Your 
+			</video><br/><br/>
+			<p>
+				todo: check swupdate for sdk 2.2.gcm<br/><br/>
 			</p>
 
 			<h2>Final Thoughts</h2>
