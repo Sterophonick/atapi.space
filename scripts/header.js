@@ -169,6 +169,8 @@ var quoteStrings = [
     "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- @Jenetrix",
     "Hate has caused a lot of problems in this world, but it hasn't solved one yet.","-- Li'l Petey, Cat Kid Comic Club: Mothering Heights",
     "We don't exactly fit in. Anywhere. And we've made that our greatest strength.","-- Faith Connors, Mirror's Edge",
+    "The axe forgets, but the tree remembers.", "-- Unknown (Shona proverb?)",
+    "Do not obey in advance.", "-- Timothy D. Snyder",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
@@ -464,13 +466,19 @@ var quoteStrings = [
     "Aaaawwww boy! You guys get away from my olive loaf!", "-- Brak",
     "Is it hot in here, or am I sweating?", "-- Brak",
     "Why do you have to have a head?", "-- Gaz, Invader ZIM",
-    "Hmm, tastes like prion disease....", "-- Mona, from Shift-JIS art",
-    "On power up or reset, Furby must go select a new name ,,, ahw how cute.", "-- 1997 Furby Source Code",
+    "Hmm, tastes like prion disease....", "-- Mona, from 2chan Shift-JIS art",
+    "On power up or reset, Furby must go select a new name ,,, ahw how cute.", "-- Furby Source Code, 1997",
     "The numbers, Mason. What do they mean!?", "-- Jason Hudson, Call of Duty: Black Ops",
     "Nothing is true; Everything is permitted.", "-- Various, Assassin's Creed 2",
     "Me? Gongaga.", "-- Zack Fair, Crisis Core: Final Fantasy VII",
     "I don't need a weapon, my friends are my power!", "-- Sora, Kingdom Hearts", 
     "Oh, to be an abandoned Garfield phone at the beach.", "-- Me",
+    "PUSH SD CARD, THEN REMOVE IT", "-- RVL DATA CHECK AND LOG CHECK",
+    "Without my Tigger stripes, I'm nothing but a second-rate Tigger!", "-- Tigger, Piglet's Big Game",
+    "PLEASE SET DISK CARD", "-- Famicom Disk System",
+    "Your Nintendo GameCube (model DOL-001) appears to be malfunctioning.", "-- toypop",
+    "The only me is me. Are you sure the only you is you?", "-- Bloodstained bag, Silent Hills P.T.",
+    "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
 ];
 
 function getQuoteTag() {
@@ -488,7 +496,7 @@ function getQuoteTag() {
 
 
 
-// since this file is included at the very bottom of the page let's exploit that
+// since this file is included at the very top of the page let's exploit that
 // my hope is that i will be fired from every webdev job i potentially have if my boss ever sees this crap
 
 // i am aware this code is crap.
