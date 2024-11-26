@@ -125,6 +125,9 @@
 				<iframe width="240px" height="135px" src="https://www.youtube-nocookie.com/embed/sjXN7kw8YiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				<iframe width="240px" height="135px" src="https://www.youtube-nocookie.com/embed/yiIj7MuNDfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/>
 				None of these testing programs work on Citra, so please excuse the videos I recorded four years ago.<br/><br/>
+
+				Worthy of note: the file <code>CTR_CPU_Board_Sequencer_Program.ver.020023.master.srl</code> is actually a Nintendo DS executable. Take from that what you will.<br/><br/>
+
 				And now, a collection of interesting looking images from inside the executables.<br/><br/>
 			</p>
 			<img src="/assets/img/blog/gigaleak/ctraging/AccAgain.jpg">
@@ -233,6 +236,14 @@
 				<code>AccountTransferedChecked</code> - Confirmation that the user account has been transferred<br/>
 				<code>DownloadSDCIFinished</code> - SD Card management information has been successfully created<br/>
 				<code>cfgCalibration.bin</code> - More data extracted from NAND<br/><br/>
+
+				<code>ctr.7z/ctr/sources/bootrom/CTR/private/build/bootrom/ctr_bootrom/ARM9/main.c</code> contains this comment:<br/>
+				<img src="/assets/img/blog/gigaleak/brom_efuse_detach.png"><br/><br/>
+
+				This commented out line would supposedly "detach" (unmount?) the eFuse region from memory if OTP decryption failed. The comment then goes on to explain that they need to write the "TWL eFuse" before detaching. I don't recall anything about eFuses on the Nintendo DSi, so... maybe it would be referring to the unique console ID of the DSi, somehow?<br/><br/>
+
+				<code>ctr.7z/ctr/sources/firmware/CTR-Kernel/updater1st</code> contains the source code for what appears to be the factory initialization program for the Nintendo 3DS family. Of particular note are the folders labelled things like <code>UpdaterNgc</code> and <code>UpdaterNgcFirm</code>. The code word here is "NGC," which I believe refers to a "Nitro Game Card," which would mean that the program used to initialize Nintendo 3DS systems was actually on a Nintendo DS-mode cartridge. This lines up with the ARM9 boot ROM feature of being able to boot from a Nintendo DS game cart if X+Start+Select is held and the system is closed while booting. Nintendo likely had a special jig to trigger this. Note that in this instance, Nintendo DS game cart does not inherently mean that it was a Nintendo DS executable.<br/>
+				<img src="/assets/img/blog/gigaleak/brom_ngc.png"><br/><br/>
 
 				That's pretty much all there is for ctr.7z that I found interesting. Everything else here is rather mundane.<br/><br/>
 			</p>
@@ -647,7 +658,11 @@
 				<img width="240px" src="/assets/img/blog/gigaleak/32c3/0142.png">
 				<img width="240px" src="/assets/img/blog/gigaleak/32c3/0383.png"><br/><br/>
 
-				
+				<code>セキュリティチーム運営/プロジェクト/コードレビュー/データ書込みソフト_セキュリティホール確認用_20140509/CTR_TRIAL</code> contains the source code to a version of CTRAging from 2014, but that date signals that it's possibly a version made for the New Nintendo 3DS family of systems.<br/><br/>
+
+				<code>セキュリティチーム運営/セキュリティ仕様書/XBOX360</code> contains a few documents that Nintendo wrote about the Xbox 360's security model, perhaps using some of it as a reference for security on the Nintendo Switch? The files are dated 2013, which was after the release of the Nintendo 3DS and Wii U, but still, likely means something.<br/><br/>
+
+
 			</p>
 			<h2>Final Thoughts</h2>
 			<p>
