@@ -702,8 +702,26 @@
 			<p>
 				Part of the unexpected 2021 leak, <code>bb2.7z</code> contained files relating to an unreleased "BroadOn Board 2," which would be a Chinese GameCube with DVD playback support.<br/><br/>
 				<code>sw/nintendo/GC_IPL</code> contains, you guessed it, the source code to the GameCube IPL, both bootstages too. There's <code>BS1</code> which is written in assembly, and <code>BS2</code> which is written in C.<br/><br/>
-				
+				<code>sw/nintendo/X86/bin/</code> contains a few server executables, one of interest was <code>DVDServer.exe</code>.<br/>
+				<img src="/assets/img/blog/gigaleak/dvdserver.png"><br/><br/>
+				My guess was that this tool was used for some kind of development disc drive emulator that would communicate over the network to retrieve data.<br/><br/>
+
+				<code>doc/</code> contains the documentation for the BB2.<br/><br/>
+
+				Something interesting is all of this documentation on an "ALi SoC," the ALi M3358 which was a heavily modified M3357. Supposedly this chip would the glue that holds all of this stuff together for the BB2.<br/>
+				<img src="/assets/img/blog/gigaleak/bb2-block.gif"><br/><br/>
+
+				<code>doc/marketing/BB2-MRD.doc</code> goes into detail about who the BB2 would target.<br/>
+				<img src="/assets/img/blog/gigaleak/bb2-doc.png"><br/><br/>
+			
+				The ALi T-Square chips that BroadOn had requested were all "Networked DVD Multimedia Processor" chips, which were MIPS32 chips that came with a DSP, designed for handling things like DVD playback. The M3358 would be contained inside an MCM (Multi-Chip Module) that contained other components like a SEPROM, an A/V Mux, and other components.<br/>
 			</p>
+			<img width="768px" src="/assets/img/blog/gigaleak/bb2-overview.png"><br/><br/>
+			<p>
+				<code>doc/system_hw/mechanical/bb_2_f_r_panel.vsd</code> contains engineering drawings for the physical case.<br/>
+				<img src="/assets/img/blog/gigaleak/bb2-shell.png"><br/><br/>
+			</p>
+			<h2></h2>
 
 			<h2>Final Thoughts</h2>
 			<p>
@@ -714,7 +732,7 @@
 				- We likely won't ever get verilog files of the Nintendo 3DS.<br/>
 				- Nintendo hardware always had the marketing vibe of "this crap is pure freakin' magic." It's rather refreshing to see documentation that "No, actually. Nintendo is no different from literally any other electronics vendor."<br/>
 				- Why did they design the Wii around using so many versions of IOS?<br/>
-
+				- The hell kind of URL is <code>http://source/cgi-bin/cvsweb.cgi</code>?<br/>
 			</p>
 		</div>
 		<script src="scripts/footer.js"></script>
