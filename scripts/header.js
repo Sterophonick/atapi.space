@@ -479,6 +479,20 @@ var quoteStrings = [
     "Your Nintendo GameCube (model DOL-001) appears to be malfunctioning.", "-- toypop",
     "The only me is me. Are you sure the only you is you?", "-- Bloodstained bag, Silent Hills P.T.",
     "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
+    "BOOTROM 8046 \\ ERROCODE: 00F800FE", "-- Nintendo 3DS, NAND init error",
+    "Please insert the Wii Startup Disc. This will set up your Wii console.", "-- Nintendo Wii, prerelease NAND image",
+    "Nakamura MEMTest Scene 2097136 \ press `A` button to start network update", "-- Wii System Menu 1.0-RC1",
+    "The system files are corrupted. Please refer to the Wii Operations Manual for help troubleshooting.", "-- Nintendo Wii",
+    "Error #001, unauthorized device has been detected.", "-- Nintendo Wii",
+    "The GAME BOY® PLAYER is not connected. Please turn the power off and connect a GAME BOY® PLAYER.", "-- Game Boy Player",
+    "The software was closed because an error occurred.", "-- Nintendo Switch",
+    "Please insert a PlayStation® or PlayStation®2 format disc.", "-- PlayStation 2",
+    "Something went wrong with the system software.", "-- PlayStation 5",
+    "The PS5 doesn't support Bluetooth audio accessories.", "-- PlayStation 5",
+    "Bricked? Congrats, we saw that coming. Ping #steampal-sw and visit 13S for a fix.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
+    "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
+    "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
+    
 ];
 
 function getQuoteTag() {
