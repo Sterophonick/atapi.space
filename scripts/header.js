@@ -192,7 +192,7 @@ var quoteStrings = [
     "I'm the mascot of an evil corporation!", "-- Bart Simpson",
     "Glove slap! Baby, glove slap! Glove slap! Shut your big yap!", "-- The Simpsons",
     "I was thinking along the lines of \"No TV and no beer make Homer something something.\"","-- Homer Simpson",
-    "A gun is not a weapon, it’s a tool, like a hammer or a screwdriver or an alligator.", "-- Homer Simpson",
+    "A gun is not a weapon, it's a tool, like a hammer or a screwdriver or an alligator.", "-- Homer Simpson",
 
     // Linux
     "Waiter, waiter! More Wineserver instances please!", "-- IceFireFish",
@@ -284,7 +284,7 @@ var quoteStrings = [
     "1 tumbler clicks. 4 gears turn.", "-- test-plane, Giftscop 1.1",
     "TURN OFF PLAYSTATION", "-- Pink Tool, Petscop",
     "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside.", "-- Toneth's Description, Petscop",
-    "It doesn’t matter what you look like, it doesn’t matter how much you’ve changed. Stop wandering and come home.", "-- Petscop",
+    "It doesn't matter what you look like, it doesn't matter how much you've changed. Stop wandering and come home.", "-- Petscop",
     "In a way, recordings have the power to raise the dead. They're kind of scary.", "-- Paul, Petscop",
     "Under the Newmaker Plane.", "-- Red Tool, Petscop",
     "GOOD GRIEF AND ALAS", "-- Child Library, Petscop",
@@ -492,7 +492,7 @@ var quoteStrings = [
     "Bricked? Congrats, we saw that coming. Ping #steampal-sw and visit 13S for a fix.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
-    
+
 ];
 
 function getQuoteTag() {
