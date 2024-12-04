@@ -493,6 +493,7 @@ var quoteStrings = [
     "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "Unattended children will be taught IDA Pro.", "-- Me",
+    "VGF2P8AFFINEQB", "-- x86_64 AVX-512 documentation",
 ];
 
 function getQuoteTag() {
