@@ -517,6 +517,7 @@ function getQuoteTag() {
 // however github is a very bad webhost if you're trying to things that are even remotely more complex than the simplest html from geocities circa 1999
 // maybe one day i'll have a better webhost with php support (and also learn wtf php is) but for now this works. it's just really bad to edit.
 
+
 var htmlHeader = '<div id="header">';
 htmlHeader += '<div class="title" align="center">';
 htmlHeader += '<!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->';
@@ -549,5 +550,6 @@ htmlHeader += '<br/>';
 htmlHeader += '';
 htmlHeader += '</div>';
 htmlHeader += '</div>';
+htmlHeader += '<script src="/scripts/oneko/oneko.js"></script>'; // add Oneko :3
 
 document.write(htmlHeader);

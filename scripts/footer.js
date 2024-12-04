@@ -14,9 +14,33 @@ htmlFooter += '</div>';
 htmlFooter += 'made with love 2020-2024 Atapi / Sterophonick<br/>';
 htmlFooter += 'any and all mentions of properties not mine belong to their respective owners<br/>';
 if(window.location.host == "sterophonick.github.io") htmlFooter += "<div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=60115&s=1' border='0' alt='Free Website Counter'></a><br / ><small><a href='https://www.websitecounterfree.com' title='Free Website Counter'></a></small></div>"
-htmlFooter += '<a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source</small></a>';
+htmlFooter += '<a href="https://github.com/Sterophonick/sterophonick.github.io" target="_blank"><small>Website Source<br/></small></a>';
+htmlFooter += '<span><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Enable Oneko!</small></span>';
 htmlFooter += '</p>';
 htmlFooter += '</div>';
 htmlFooter += '</div>';
-
 document.write(htmlFooter);
+
+// whatever code copied from GeeksForGeeks. i just need to read the value of the cookie.
+function getCookieByName(name) {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+         cookie = cookie.trim();
+         if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+         }
+    }
+   return null;
+}
+
+function showOneko() {
+    var state = document.getElementById("enableOneko").checked;
+    document.cookie = "oneko=" + state;
+    document.getElementById("oneko").style.display = state ? 'block' : 'none';
+}
+
+// this is kinda messy crap, i know. 
+// we need to update the state of oneko based on what we set
+// this will also update the cookie
+document.getElementById("enableOneko").checked = (getCookieByName("oneko") === 'true');
+showOneko();
