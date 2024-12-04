@@ -35,7 +35,7 @@ function getCookieByName(name) {
 
 function showOneko() {
     var state = document.getElementById("enableOneko").checked;
-    document.cookie = "oneko=" + state;
+    document.cookie = "oneko=" + state + ";path=/";
     document.getElementById("oneko").style.display = state ? 'block' : 'none';
 }
 
