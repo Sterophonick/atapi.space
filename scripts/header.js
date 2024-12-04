@@ -492,7 +492,7 @@ var quoteStrings = [
     "Bricked? Congrats, we saw that coming. Ping #steampal-sw and visit 13S for a fix.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
-
+    "Unattended children will be taught IDA Pro.", "-- Me",
 ];
 
 function getQuoteTag() {
