@@ -171,6 +171,7 @@ var quoteStrings = [
     "We don't exactly fit in. Anywhere. And we've made that our greatest strength.","-- Faith Connors, Mirror's Edge",
     "The axe forgets, but the tree remembers.", "-- Unknown (Shona proverb?)",
     "Do not obey in advance.", "-- Timothy D. Snyder",
+    "Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.", "-- Karis Nemik, STAR WARS: Andor (S01E12)",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
@@ -240,6 +241,7 @@ var quoteStrings = [
     "Also try Epic Pinball!","",
     "Also try Jazz Jackrabbit 2!","",
     "Also try Sword with Sauce!", "",
+    "Also try Indiana Jones and the Great Circle!","",
 
     // Warez
     "See you in the next release!", "-- Mode7(?)",
@@ -259,7 +261,7 @@ var quoteStrings = [
     "Dis is one half. Press any key to continue ...", "-- Virus:DOS/OneHalf",
     "Kuku! Kuku! Kuku! Kuku! Kuku! Kuku!", "-- Virus:DOS/Kuku",
     "USSR     ViruSoft  (c)  v1. 1990", "-- Virus:DOS/HYMN",
-    "Don't be afraid. I am a very kind virus. You have do many works today.", "--Virus:DOS/Skynet",
+    "Don't be afraid. I am a very kind virus. You have do many works today.", "-- Virus:DOS/Skynet",
     "billy gates why do you make this possible ? Stop making money and fix your software!!", "-- Worm:Win32/Blaster",
     "BOOM! No more RedX !!!", "-- Virus:DOS/Hafen",
     "Your PC is now STONED!", "-- Virus:DOS/Stoned",
@@ -337,6 +339,9 @@ var quoteStrings = [
     "Only the insane equate pain with success.", "-- Cheshire Cat, American McGee's Alice",
     "Only the foolish believe that suffering is just wages for being different.", "-- Cheshire Cat, American McGee's Alice",
     "Think of it as a Chinese Box or a stubborn lid. A tap in the right spot might do the trick.", "-- Cheshire Cat, American McGee's Alice",
+    "A secret is only a secret when it is unspoken to another.", "-- Cheshire Cat, Alice: Madness Returns",
+    "A reflection sometimes exposes more reality than the object it echoes.", "-- Cheshire Cat, Alice: Madness Returns",
+    "When the remarkable becomes bizarre, reason turns rancid.", "-- Cheshire Cat, Alice: Madness Returns",
 
     // BattleBlock Theater
     "Get the best time to win! Get the worst time to lose!", "-- Announcer, BattleBlock Theater",
@@ -366,6 +371,12 @@ var quoteStrings = [
     'A spy without a gadget is like a shopping cart without a broken wheel.', '-- Spy Fox, Spy Fox in "Dry Cereal"',
     "The name's Fox. Spy Fox.", "-- Spy Fox",
     "Ah, Monkey Penny. Now this is a real TV dinner.", '-- Spy Fox, Spy Fox in "Dry Cereal"',
+
+    // Indiana Jones
+    "I don't know, I'm making this up as I go.", "-- Indiana Jones, Raiders of the Lost Ark",
+    "Nazis. I hate these guys.", "-- Indiana Jones, Indiana Jones and the Last Crusade",
+    "They took the cat mummy, Marcus.", "-- Indiana Jones, Indiana Jones and the Great Circle",
+    "You lost today, kid. But that doesn't mean you have to like it.", "-- Fedora, Indiana Jones and the Last Crusade",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
@@ -494,6 +505,8 @@ var quoteStrings = [
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "Unattended children will be taught IDA Pro.", "-- Me",
     "VGF2P8AFFINEQB", "-- x86_64 AVX-512 documentation",
+    "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
+
 ];
 
 function getQuoteTag() {
