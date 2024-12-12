@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="darkreader-lock">
+	<title>Atapi's Homepage! :: Don't Be So Silly!</title>
+	<base href="https://sterophonick.github.io/" />
+	<meta property="test:baseurl" content="/">
+	<link rel="stylesheet" href="styles/global.css">
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="assets/img/global/favicon.ico">
+</head>
+
+<script>
+	var url = new URL(document.location.href);
+	var name = url.searchParams.get("name");
+	var dest = url.searchParams.get("dest");
+
+	function writeName() {
+		document.write("Your destination is " + name + ".");
+	}
+
+	function writeDestLink() {
+		document.write('<a href="' + dest + '">View Site!</a>');
+	}
+</script>
+
+<body>
+	<div class="mainContainer">
+		<script src="scripts/header.js"></script>
+		<div class="column mainContent">
+			<h1><img style="vertical-align:middle" src="assets\img\404\icon.png"> Content Interstitial</h1>
+			<p>
+				You are about to leave my site, <a href="https://sterophonick.github.io">sterophonick.github.io</a>.<br/><br/>
+			</p>
+			<script>writeName();</script><br/><br/>
+			<p>
+				This site may contain content that can be considered potentially harmful, offensive or otherwise <b><i>Not Safe For Work (NSFW)</i></b>.<br/><br/>
+
+				By clicking the following link, you agree that you are potentially going to be viewing such content. If you do not want to potentially view this content, please click on the (Go Back) button in the footer now.<br/><br/>
+			</p>
+			<script>writeDestLink();</script>
+		</div>
+		<script src="scripts/footer.js"></script>
+	</div>
+</body>
+
+</html>
