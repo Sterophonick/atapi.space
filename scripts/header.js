@@ -183,6 +183,7 @@ var quoteStrings = [
     "My innocence has been shattered by this blatant tourist trap. I want my money back.", "-- Max",
     "My mind is a swirling miasma of scintillating thoughts and turgid ideas.", "-- Sam",
     "I work for the largest division of Hell, the FCC!", "-- Hugh Bliss",
+    "I'm not going back in that closet. Not after all we've accomplished.", "-- Sam",
 
     // The Simpsons
     "I'm somewhere where I don't know where I am!", "-- Homer Simpson",
@@ -506,7 +507,8 @@ var quoteStrings = [
     "Unattended children will be taught IDA Pro.", "-- Me",
     "VGF2P8AFFINEQB", "-- x86_64 AVX-512 documentation",
     "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
-
+    "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
+    
 ];
 
 function getQuoteTag() {
