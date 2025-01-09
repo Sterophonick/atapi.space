@@ -172,6 +172,7 @@ var quoteStrings = [
     "The axe forgets, but the tree remembers.", "-- Unknown (Shona proverb?)",
     "Do not obey in advance.", "-- Timothy D. Snyder",
     "Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.", "-- Karis Nemik, STAR WARS: Andor (S01E12)",
+    "A shared sorrow is only half a sorrow.", "-- One Topic at a Time",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
@@ -378,6 +379,7 @@ var quoteStrings = [
     "Nazis. I hate these guys.", "-- Indiana Jones, Indiana Jones and the Last Crusade",
     "They took the cat mummy, Marcus.", "-- Indiana Jones, Indiana Jones and the Great Circle",
     "You lost today, kid. But that doesn't mean you have to like it.", "-- Fedora, Indiana Jones and the Last Crusade",
+    "You'll have one hell of a story to tell.", "-- Indiana Jones, Indiana Jones and the Great Circle",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
@@ -508,7 +510,7 @@ var quoteStrings = [
     "VGF2P8AFFINEQB", "-- x86_64 AVX-512 documentation",
     "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
     "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
-    
+    "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
 ];
 
 function getQuoteTag() {
