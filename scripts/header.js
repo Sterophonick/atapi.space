@@ -511,6 +511,9 @@ var quoteStrings = [
     "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
     "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
+    "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
+    "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
+    
 ];
 
 function getQuoteTag() {
