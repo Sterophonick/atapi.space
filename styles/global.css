@@ -1,19 +1,30 @@
 @font-face {
-  font-family: EarthBoundEx;
-  src: url("../assets/woff/EarthBoundEx.woff2") format("woff2"),
-  url("../assets/woff/EarthBoundEx.woff") format("woff");
+  font-family: Motherish ;
+  src: url("../assets/woff/Motherish-Regular.woff2") format("woff2"),
+  url("../assets/woff/Motherish-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  size-adjust: 65%;
 }
 
 @font-face {
-  font-family: Jiskan-16;
-  src: url("../assets/woff/JF-Dot-jiskan16s-1990.woff2") format("woff2"),
-  url("../assets/woff/JF-Dot-jiskan16s-1990.woff") format("woff");
+  font-family: ZenMaruGothic ;
+  src: url("../assets/woff/ZenMaruGothic-Medium.woff2") format("woff2"),
+  url("../assets/woff/ZenMaruGothic-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  size-adjust: 50%;
+  size-adjust: 65%;
 }
+
+@font-face {
+  font-family: UbuntuMono ;
+  src: url("../assets/woff/UbuntuMono-Regular.woff2") format("woff2"),
+  url("../assets/woff//UbuntuMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  size-adjust: 100%;
+}
+
 
 .mainContainer {
   text-align: center;
@@ -39,7 +50,7 @@ body {
   background: url("/assets/img/global/catbg.gif");
   background-attachment: fixed;
   background-repeat: repeat;
-  font-family: EarthBoundEx, Jiskan-16, sans-serif;
+  font-family: Motherish, ZenMaruGothic;
   font-size: 24pt;
   line-height: 1;
   color: white;
@@ -83,7 +94,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: EarthBoundEx;
+  font-family: Motherish, ZenMaruGothic;
   line-height: 0.3;
   letter-spacing: 0.8px;
   color: #e82525;
@@ -133,12 +144,12 @@ h4 {
 }
 
 .shruggie {
-  font-family: EarthBoundEx, Jiskan-16;
+  font-family: Motherish, ZenMaruGothic;
 }
 
 code {
-  font-family: monospace;
-  font-size: 12pt;
+  font-family: UbuntuMono;
+  font-size: 14pt;
   border: 1px solid red;
   background-color: black;
   padding: 1px 4px;
@@ -150,7 +161,7 @@ code {
 }
 
 .greentext {
-  font-family: EarthBoundEx;
+  font-family: Motherish, ZenMaruGothic;
   color: #789922;
 }
 
