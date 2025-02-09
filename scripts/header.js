@@ -513,7 +513,7 @@ var quoteStrings = [
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
     "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
     "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
-    
+    "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World"
 ];
 
 function getQuoteTag() {
