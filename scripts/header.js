@@ -381,6 +381,18 @@ var quoteStrings = [
     "You lost today, kid. But that doesn't mean you have to like it.", "-- Fedora, Indiana Jones and the Last Crusade",
     "You'll have one hell of a story to tell.", "-- Indiana Jones, Indiana Jones and the Great Circle",
 
+    // Metal Gear
+    "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
+    "La-li-lu-le-lo! La-li-lu-le-lo! La-li-lu-le-lo!", "-- Roy Campbell, Super Smash Bros. Brawl",
+    "Building the future and keeping the past alive are one in the same thing.". "-- Solid Snake, Metal Gear Solid 2",
+    "We've inherited freedom from all those who have fought for it.", "-- Solid Snake, Metal Gear Solid 2",
+    "We need to pass the torch and let our children read our messy and sad history by its light.", "-- Solid Snake, Metal Gear Solid 2",
+    "Even if a pawn becomes a queen, it is still just a playing piece.", "-- President Johnson, Metal Gear Solid 2",
+    "There's no winning or losing for a mercenary.","-- Solid Snake, Metal Gear Solid",
+    "Find something to believe in, and find it for yourself. When you do, pass it onto the future.","-- Solid Snake, Metal Gear Solid 2",
+    "TURN THE GAME CONSOLE OFF RIGHT NOW", "-- Roy Campbell (Malfunctioning), Metal Gear Solid 2",
+    "Nanomachines, son.", "-- Senator Armstrong, Metal Gear Rising: Revengeance",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
@@ -507,13 +519,13 @@ var quoteStrings = [
     "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "Unattended children will be taught IDA Pro.", "-- Me",
-    "VGF2P8AFFINEQB", "-- x86_64 AVX-512 documentation",
-    "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
     "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
     "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
     "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World"
+    "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
+    "I guess I really don't care if it's dangerous or not. I'm going to town either way.", "-- James Sunderland, Silent Hill 2",
 ];
 
 function getQuoteTag() {
