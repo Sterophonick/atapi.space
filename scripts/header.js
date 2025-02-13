@@ -384,7 +384,7 @@ var quoteStrings = [
     // Metal Gear
     "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
     "La-li-lu-le-lo! La-li-lu-le-lo! La-li-lu-le-lo!", "-- Roy Campbell, Super Smash Bros. Brawl",
-    "Building the future and keeping the past alive are one in the same thing.". "-- Solid Snake, Metal Gear Solid 2",
+    "Building the future and keeping the past alive are one in the same thing.", "-- Solid Snake, Metal Gear Solid 2",
     "We've inherited freedom from all those who have fought for it.", "-- Solid Snake, Metal Gear Solid 2",
     "We need to pass the torch and let our children read our messy and sad history by its light.", "-- Solid Snake, Metal Gear Solid 2",
     "Even if a pawn becomes a queen, it is still just a playing piece.", "-- President Johnson, Metal Gear Solid 2",
