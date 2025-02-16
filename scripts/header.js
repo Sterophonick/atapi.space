@@ -574,7 +574,7 @@ htmlHeader += '<a href="/gallery"><img class="nav-icon" src="/assets/img/global/
 htmlHeader += '<br/>';
 htmlHeader += '<a href="/links"><img class="nav-icon" src="/assets/img/global/links.png"> Links</a>';
 htmlHeader += ' - ';
-htmlHeader += '<a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>';
+htmlHeader += '<a href="/guestbook"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>';
 htmlHeader += '<br/>';
 htmlHeader += '</div>';
 htmlHeader += '<div id="separator" style="margin-top:5px; margin-bottom: 5px;">';
