@@ -393,6 +393,16 @@ var quoteStrings = [
     "TURN THE GAME CONSOLE OFF RIGHT NOW", "-- Roy Campbell (Malfunctioning), Metal Gear Solid 2",
     "Nanomachines, son.", "-- Senator Armstrong, Metal Gear Rising: Revengeance",
 
+    // Okami
+    "Ah, the wonders of nature! A deep valley between two lofty peaks!", "-- Issun, Okami",
+    "It takes two to tango. The bond of the brush shall intercede!", "-- Waka, Okami",
+    "Prudence is paramount when you're traveling. Remember that, pooch!", "-- Tea Customer, Okami",
+    "I'm as plump as a dumpling, but I'm poisonous! Yes! Poisonous!", "-- Past Kamiki Merchant, Okami",
+    "Even the most solid defense has a tiny gap like the eye of a needle!", "-- Waka, Okami",
+    "Ammy's a wolf, not a speedboat!", "-- Issun, Okami",
+    "A journey of a thousand miles begins with a signle step. So just take it step by step.", "-- Waka, Okami",
+    "Ah... Amaterasu. Origin of all that is good and mother to us all...", "-- Celestial Brush Gods, Okami",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
@@ -526,6 +536,7 @@ var quoteStrings = [
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
     "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
     "I guess I really don't care if it's dangerous or not. I'm going to town either way.", "-- James Sunderland, Silent Hill 2",
+    "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
 ];
 
 function getQuoteTag() {
