@@ -403,6 +403,15 @@ var quoteStrings = [
     "A journey of a thousand miles begins with a signle step. So just take it step by step.", "-- Waka, Okami",
     "Ah... Amaterasu. Origin of all that is good and mother to us all...", "-- Celestial Brush Gods, Okami",
 
+    // Silent Hill
+    "I guess I really don't care if it's dangerous or not. I'm going to town either way.", "-- James Sunderland, Silent Hill 2",
+    "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
+    "The only me is me. Are you sure the only you is you?", "-- Bloodstained bag, Silent Hills P.T.",
+    "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
+    "I'd rather go to hell.", "-- Heather Mason, Silent Hill 3",
+    "You see it too? For me, it's always like this.", "-- Angela, Silent Hill 2",
+    "I don't really feel like eating and drinking stuff from an alternate reality, OK?", "-- Heather Mason, Silent Hill 3",
+
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
@@ -513,8 +522,6 @@ var quoteStrings = [
     "Without my Tigger stripes, I'm nothing but a second-rate Tigger!", "-- Tigger, Piglet's Big Game",
     "PLEASE SET DISK CARD", "-- Famicom Disk System",
     "Your Nintendo GameCube (model DOL-001) appears to be malfunctioning.", "-- toypop",
-    "The only me is me. Are you sure the only you is you?", "-- Bloodstained bag, Silent Hills P.T.",
-    "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
     "BOOTROM 8046 \\ ERROCODE: 00F800FE", "-- Nintendo 3DS, NAND init error",
     "Please insert the Wii Startup Disc. This will set up your Wii console.", "-- Nintendo Wii, prerelease NAND image",
     "Nakamura MEMTest Scene 2097136 \ press `A` button to start network update", "-- Wii System Menu 1.0-RC1",
@@ -532,10 +539,8 @@ var quoteStrings = [
     "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
     "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
-    "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
     "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
-    "I guess I really don't care if it's dangerous or not. I'm going to town either way.", "-- James Sunderland, Silent Hill 2",
     "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
 ];
 
