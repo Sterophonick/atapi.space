@@ -411,6 +411,7 @@ var quoteStrings = [
     "I'd rather go to hell.", "-- Heather Mason, Silent Hill 3",
     "You see it too? For me, it's always like this.", "-- Angela, Silent Hill 2",
     "I don't really feel like eating and drinking stuff from an alternate reality, OK?", "-- Heather Mason, Silent Hill 3",
+    "James honey, did something happen? After we got separated in that long hallway?", "-- Maria, Silent Hill 2",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
