@@ -400,18 +400,27 @@ var quoteStrings = [
     "I'm as plump as a dumpling, but I'm poisonous! Yes! Poisonous!", "-- Past Kamiki Merchant, Okami",
     "Even the most solid defense has a tiny gap like the eye of a needle!", "-- Waka, Okami",
     "Ammy's a wolf, not a speedboat!", "-- Issun, Okami",
-    "A journey of a thousand miles begins with a signle step. So just take it step by step.", "-- Waka, Okami",
+    "A journey of a thousand miles begins with a single step. So just take it step by step.", "-- Waka, Okami",
     "Ah... Amaterasu. Origin of all that is good and mother to us all...", "-- Celestial Brush Gods, Okami",
 
     // Silent Hill
     "I guess I really don't care if it's dangerous or not. I'm going to town either way.", "-- James Sunderland, Silent Hill 2",
-    "In my restless dreams, I see that town. Silent Hill", "-- Mary's letter, Silent Hill 2",
+    "In my restless dreams, I see that town. Silent Hill.", "-- Mary's letter, Silent Hill 2",
     "The only me is me. Are you sure the only you is you?", "-- Bloodstained bag, Silent Hills P.T.",
     "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
     "I'd rather go to hell.", "-- Heather Mason, Silent Hill 3",
     "You see it too? For me, it's always like this.", "-- Angela, Silent Hill 2",
     "I don't really feel like eating and drinking stuff from an alternate reality, OK?", "-- Heather Mason, Silent Hill 3",
     "James honey, did something happen? After we got separated in that long hallway?", "-- Maria, Silent Hill 2",
+
+    // FEZ
+    "The thirteen circles. The 64-bit name of God.", "-- Owl, FEZ",
+    "Hexahedron. Octahedron. Dodecahedron. Her sacred geometry.", "-- Owl, FEZ",
+    "A point of origin. After and beyond", "-- Owl, FEZ",
+    "The many are one. The one is many.", "-- Owl, FEZ",
+    "Hear the owls. See their effigy. Assemble the parliament.", "-- Dot, FEZ",
+    "HA HA HA CHECK OUT MR RECTANGLE HEAD OVER THERE", "-- Zu Resident, FEZ (Translated from Zu)",
+    "HI THERE HOW ARE YOU I WILL BE YOUR HEXAHEDRON TODAY", "-- The Hexahedron, FEZ (Translated from Zu)",
 
     // Misc
     "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
@@ -426,8 +435,8 @@ var quoteStrings = [
     "nyanyanya!", "",
     "Apply directly to the forehead!", "-- HeadOn! Commercial",
     "It's now safe to turn off your computer.", "-- Windows 95",
-    "Hamboning will save your life someday.", "-- Rigby",
-    "Buzz, look! An alien!", "-- Woody",
+    "Hamboning will save your life someday.", "-- Rigby, Regular Show",
+    "Buzz, look! An alien!", "-- Woody, Toy Stoy",
     "It's just a flesh wound.", "-- The Black Knight",
     "Nobody expects the Spanish Inquisition!", "-- Monty Python's Flying Circus",
     "Remember our promise.", "-- SIGNALIS",
