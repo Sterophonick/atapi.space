@@ -384,15 +384,20 @@ var quoteStrings = [
     // Metal Gear
     "Memes, the DNA of the soul...", "-- Monsoon, Metal Gear Rising: Revengeance",
     "La-li-lu-le-lo! La-li-lu-le-lo! La-li-lu-le-lo!", "-- Roy Campbell, Super Smash Bros. Brawl",
-    "Building the future and keeping the past alive are one in the same thing.", "-- Solid Snake, Metal Gear Solid 2",
-    "We've inherited freedom from all those who have fought for it.", "-- Solid Snake, Metal Gear Solid 2",
-    "We need to pass the torch and let our children read our messy and sad history by its light.", "-- Solid Snake, Metal Gear Solid 2",
-    "Even if a pawn becomes a queen, it is still just a playing piece.", "-- President Johnson, Metal Gear Solid 2",
+    "Building the future and keeping the past alive are one in the same thing.", "-- Solid Snake, Metal Gear Solid 2: Sons of Liberty",
+    "We've inherited freedom from all those who have fought for it.", "-- Solid Snake, Metal Gear Solid 2: Sons of Liberty",
+    "We need to pass the torch and let our children read our messy and sad history by its light.", "-- Solid Snake, Metal Gear Solid 2: Sons of Liberty",
+    "Even if a pawn becomes a queen, it is still just a playing piece.", "-- President Johnson, Metal Gear Solid 2: Sons of Liberty",
     "There's no winning or losing for a mercenary.","-- Solid Snake, Metal Gear Solid",
-    "Find something to believe in, and find it for yourself. When you do, pass it onto the future.","-- Solid Snake, Metal Gear Solid 2",
-    "TURN THE GAME CONSOLE OFF RIGHT NOW", "-- Roy Campbell (Malfunctioning), Metal Gear Solid 2",
+    "Find something to believe in, and find it for yourself. When you do, pass it onto the future.","-- Solid Snake, Metal Gear Solid 2: Sons of Liberty",
+    "TURN THE GAME CONSOLE OFF RIGHT NOW", "-- Roy Campbell (Malfunctioning), Metal Gear Solid 2: Sons of Liberty",
     "Nanomachines, son.", "-- Senator Armstrong, Metal Gear Rising: Revengeance",
-
+    "You can stop being part of a mistake, starting now.", "-- Solid Snake, Metal Gear Solid 2: Sons of Liberty",
+    "The foibles of politics and the march of time can turn friends into enemies just as easily as the wind changes.", "-- The Boss, Metal Gear Solid 3: Snake Eater",
+    "It's not about changing the world. It's about doing our best to leave the world the way it is.", "-- Big Boss, Metal Gear Solid 4: Guns of the Patriots",
+    "To a ruler, an everlasting enemy is convenient.", "-- Revolver Ocelot, Metal Gear Solid V: The Phantom Pain",
+    "I need scissors! 61!", "-- Roy Campbell (Malfunctioning), Metal Gear Solid 2: Sons of Liberty",
+    
     // Okami
     "Ah, the wonders of nature! A deep valley between two lofty peaks!", "-- Issun, Okami",
     "It takes two to tango. The bond of the brush shall intercede!", "-- Waka, Okami",
@@ -582,7 +587,7 @@ htmlHeader += '<div class="title" align="center">';
 htmlHeader += '<!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->';
 htmlHeader += '<table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">';
 htmlHeader += '<tr>';
-htmlHeader += '<td><a href="/"><img id="logo" border="0" src="/assets/img/global/2024pfp.png" width="128"></a></td>';
+htmlHeader += '<td><a href="/"><img id="logo" border="0" src="/assets/img/global/noodle_pic.png" width="128"></a></td>';
 htmlHeader += '<td>';
 htmlHeader += '<h1 style="margin-top:30px">Atapi\'s Own Little World</h1>';
 htmlHeader += '</tr>';
