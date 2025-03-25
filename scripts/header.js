@@ -599,6 +599,7 @@ var musicPaths = [
     "luchibobra - WeeD", "/assets/snd/music/weed.mp3",
     "TheDuccinator - Some Creatures", "/assets/snd/music/some_creatures.mp3",
     "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
+    "ZenithNeko - Flourishing Falls", "/assets/snd/music/flourishing_falls.mp3",
 ];
 
 function getMusicTag() {
