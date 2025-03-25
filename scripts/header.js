@@ -602,6 +602,7 @@ var musicPaths = [
     "ZenithNeko - Flourishing Falls", "/assets/snd/music/flourishing_falls.mp3",
     "Jogeir Liljedahl - physical presence", "/assets/snd/music/physical_presence.mp3",
     "Jonne Valtonen - Retro Table", "/assets/snd/music/retro_table.mp3",
+    "TheQuickSlash - weirdmidi", "/assets/snd/music/weirdmidi.mp3",
 ];
 
 function getMusicTag() {
