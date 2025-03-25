@@ -572,6 +572,49 @@ function getQuoteTag() {
     return img;
 }
 
+function getCookieByName(name) {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+         cookie = cookie.trim();
+         if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+         }
+    }
+   return null;
+}
+
+// table for automatic music playing
+// 
+var musicPaths = [
+    "SvenZZon - Spring time remix", "/assets/snd/music/sv_sprin.mp3",
+    "Karsten Koch - aryx.s3m", "/assets/snd/music/aryx.mp3",
+    "LHS - AGGRESSiON Easy DVD Creator 1.1.0 kg", "/assets/snd/music/aggression_dvd.mp3",
+    "AceMan - Different ways", "/assets/snd/music/different_ways.mp3",
+    "meo - surrender...", "/assets/snd/music/surrender.mp3",
+    "falcon/pulse+tdr - spineless", "/assets/snd/music/spineless.mp3",
+    "Maktone & Nagz - shocktopus", "/assets/snd/music/shocktopus.mp3",
+];
+
+function getMusicTag() {
+    var img = '<p style=\"margin-top: 15px; margin-bottom: -5px; line-height:0.75;\">';
+    var randomIndex = Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
+    img += "Now Playing: <marquee style=\"vertical-align: bottom;\" speed=\"50%\" width=\"10%\">";
+    img += musicPaths[randomIndex];
+    img += "</marquee><br/>";
+    
+    img += "<audio style=\"height: 40px\" id=\"musicplayer\" controls loop src=\"";
+    img += musicPaths[randomIndex+1];
+    img += "\""
+
+    if(getCookieByName("autoplay") == "true") {
+        img += " autoplay";
+    }
+
+    img += "></audio>";
+    img += "</p>"
+    return img;
+}
+
 
 
 // since this file is included at the very top of the page let's exploit that
@@ -607,6 +650,7 @@ htmlHeader += '<a href="/links"><img class="nav-icon" src="/assets/img/global/li
 htmlHeader += ' - ';
 htmlHeader += '<a href="/guestbook"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>';
 htmlHeader += '<br/>';
+htmlHeader += '<script type="text/javascript">document.write(getMusicTag());</script>';
 htmlHeader += '</div>';
 htmlHeader += '<div id="separator" style="margin-top:5px; margin-bottom: 5px;">';
 htmlHeader += '<img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">';
@@ -617,3 +661,7 @@ htmlHeader += '</div>';
 htmlHeader += '<script src="/scripts/oneko/oneko.js"></script>'; // add Oneko :3
 
 document.write(htmlHeader);
+
+// forcibly set the volume of the global music player
+var audio = document.getElementById("musicplayer");
+audio.volume = 0.15;
