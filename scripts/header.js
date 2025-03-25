@@ -593,6 +593,12 @@ var musicPaths = [
     "meo - surrender...", "/assets/snd/music/surrender.mp3",
     "falcon/pulse+tdr - spineless", "/assets/snd/music/spineless.mp3",
     "Maktone & Nagz - shocktopus", "/assets/snd/music/shocktopus.mp3",
+    "Ghidorah - GhidaPoP", "/assets/snd/music/ghidapop.mp3",
+    "4Mat - Krunk", "/assets/snd/music/krunk.mp3",
+    "BeWu & X-Ray - Gray set willy", "/assets/snd/music/gray_set_willy.mp3",
+    "luchibobra - WeeD", "/assets/snd/music/weed.mp3",
+    "TheDuccinator - Some Creatures", "/assets/snd/music/some_creatures.mp3",
+    "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
 ];
 
 function getMusicTag() {
