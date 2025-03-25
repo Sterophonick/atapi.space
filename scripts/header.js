@@ -600,6 +600,8 @@ var musicPaths = [
     "TheDuccinator - Some Creatures", "/assets/snd/music/some_creatures.mp3",
     "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
     "ZenithNeko - Flourishing Falls", "/assets/snd/music/flourishing_falls.mp3",
+    "Jogeir Liljedahl - physical presence", "/assets/snd/music/physical_presence.mp3",
+    "Jonne Valtonen - Retro Table", "/assets/snd/music/retro_table.mp3",
 ];
 
 function getMusicTag() {
