@@ -603,6 +603,23 @@ var musicPaths = [
     "Jogeir Liljedahl - physical presence", "/assets/snd/music/physical_presence.mp3",
     "Jonne Valtonen - Retro Table", "/assets/snd/music/retro_table.mp3",
     "TheQuickSlash - weirdmidi", "/assets/snd/music/weirdmidi.mp3",
+    "4Mat - Eternity", "/assets/snd/music/eternity.mp3",
+    "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
+    "Beldoroon - Spring time yeah", "/assets/snd/music/spring_time_yeah.mp3",
+    "BLiZZARD - Contraduct Design", "/assets/snd/music/contraduct.mp3",
+    "dualtrax/cro - orion crackmusic", "/assets/snd/music/orion.mp3",
+    "cro - marihuana", "/assets/snd/music/marihuana.mp3",
+    "Fearofdark - Next", "/assets/snd/music/next.mp3",
+    "Maktone - class cracktro#15", "/assets/snd/music/class cracktro#15.mp3",
+    "Maktone - class11.time flies", "/assets/snd/music/class11.time flies.mp3",
+    "Kulor - An Anthem for WinterChip", "/assets/snd/music/winterchip.mp3",
+    "Kulor - Hexaprism Hall", "/assets/snd/music/hexaprism.mp3",
+    "Kulor - So Kawaii Space Puppy", "/assets/snd/music/kawaii.mp3",
+    "Maktone - sac12.the waiting", "/assets/snd/music/sac12.the waiting.mp3",
+    "Maktone - sae01", "/assets/snd/music/sae01 (shortcracktrotune).mp3",
+    "Coma28 - skogens djur 014", "/assets/snd/music/skogens djur 014.mp3",
+    "dalezy - evoke-report#2", "/assets/snd/music/evoke2.mp3",
+    "V.E.M. - keygentune2003 orn", "/assets/snd/music/keygentune2003.mp3",
 ];
 
 function getMusicTag() {
