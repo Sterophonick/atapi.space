@@ -611,7 +611,7 @@ function getMusicTag() {
     img += musicPaths[randomIndex];
     img += "</marquee><br/>";
     
-    img += "<audio style=\"height: 40px\" id=\"musicplayer\" controls loop src=\"";
+    img += "<audio style=\"height: 20px\" id=\"musicplayer\" controls loop src=\"";
     img += musicPaths[randomIndex+1];
     img += "\""
 
