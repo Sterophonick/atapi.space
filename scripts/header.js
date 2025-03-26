@@ -672,7 +672,7 @@ htmlHeader += ' - ';
 htmlHeader += '<a href="/blog"><img class="nav-icon" src="/assets/img/global/notepad.png"> Blog</a>';
 htmlHeader += ' - ';
 htmlHeader += '<a href="/gallery"><img class="nav-icon" src="/assets/img/global/gallery.png"> Gallery</a>';
-htmlHeader += '<br/>';
+htmlHeader += ' - ';
 htmlHeader += '<a href="/links"><img class="nav-icon" src="/assets/img/global/links.png"> Links</a>';
 htmlHeader += ' - ';
 htmlHeader += '<a href="/guestbook"><img class="nav-icon" src="/assets/img/global/guestbook.png"> Guestbook!</a>';
