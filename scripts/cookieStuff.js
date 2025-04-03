@@ -32,6 +32,6 @@ var player = document.getElementById("musicPlayer");
 player.volume = 0.15;
 
 if(getCookieByName("autoplay") == 'true') {
-    player.play();
+    if(!forceStopPlayer) player.play();
 }
 

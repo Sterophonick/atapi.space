@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage!");
+echo constructPageHeader("Atapi's Homepage! :: HTTP 404");
 
 ?>
 
@@ -18,7 +18,6 @@ if you're looking for a page that might have been deleted,<br />
         in which case it's probably best if you head out.<br />
         <br />
         (HTTP 404 Not Found)<br />
-        <br />
         </p>
 
 <?php

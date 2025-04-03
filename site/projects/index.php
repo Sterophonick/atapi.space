@@ -30,7 +30,7 @@ style="font-size:16pt; text-align: center;">
 <tr>
     <td><a href="win32/"><img width="180px" style="vertical-align:middle" src="\assets\img\projects\landing\win32.png"><br/>Windows</a></td>
     <td><a href="misc/"><img width="180px" style="vertical-align:middle" src="\assets\img\projects\landing\misc.png"><br/>Miscellaneous</a></td>
-    <td><a href="unfinished/"><img width="180px" style="vertical-align:middle" src="\assets\img\projects\landing\unfinished.png"><br/>Unfinished</a></td>
+    <td><a href="unfinished/"><img width="180px" style="vertical-align:middle" src="\assets\img\projects\landing\unfinished.jpeg"><br/>The Sewers</a></td>
 </tr>
 </table>
 <br/>

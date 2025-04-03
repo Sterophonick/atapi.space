@@ -134,4 +134,37 @@ function generateAudioFileEmbed($path) {
     echo $htmlEmbed;
 }
 
+function getTopURL(){
+    if(isset($_SERVER['HTTPS'])){
+        $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+    }
+    else{
+        $protocol = 'http';
+    }
+    return $protocol . "://" . $_SERVER['HTTP_HOST'];
+}
+
+function generateGBAEmbed($path, $disableMusic=1) {
+
+    if(isOutdatedBrowser()) {
+        $htmlEmbed = '<span style="color: red">Your browser cannot play this game due to not supporting WebAssembly.</span>';
+    } else {
+        $htmlEmbed = '<iframe id="gbaGame" allowtransparency="true" width="480" height="320" src="https://gba.ninja/?autorun=' . getTopURL() . $path . '" frameborder="0" allowfullscreen></iframe>';
+        if($disableMusic) $htmlEmbed .= '<script>var forceStopPlayer = true;</script>';
+    }
+    echo $htmlEmbed;
+}
+
+function generateScratchEmbed($projectID, $disableMusic=1) {
+
+    if(isOutdatedBrowser()) {
+        $htmlEmbed = '<span style="color: red">Your browser cannot play this game due to not supporting HTML5.</span><br/>';
+    } else {
+        $htmlEmbed = '<iframe id="scratchProject" allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/' . $projectID . '/?autostart=false" frameborder="0" allowfullscreen></iframe>';
+
+        if($disableMusic) $htmlEmbed .= '<script>var forceStopPlayer = true;</script>';
+    }
+    echo $htmlEmbed;
+}
+
 ?>

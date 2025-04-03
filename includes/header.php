@@ -660,6 +660,8 @@ $musicPaths = array(
 
         $musicPlayer .= '></p></audio></div>';
 
+        $musicPlayer .= "<script>var forceStopPlayer = false;</script>"; // this provides plumbing for pages to stop the music player if needed
+
         echo $musicPlayer;
     }
 
