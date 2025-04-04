@@ -115,3 +115,50 @@ border-radius: 5px;
 #titleTable {
 text-align: center;
 }
+
+#welcome {
+max-width: 728px;
+height: 170px;
+}
+
+.gallery {
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 8px;
+    font-size: 20pt;
+}
+
+.gallery p {
+    width: 90%;
+}
+
+#gallery {
+font-size: 18pt;
+}
+
+.galleryImg {
+    width: 100%;
+}
+
+.shruggie {
+    font-family: Motherish, ZenMaruGothic;
+}
+
+.shruggie shruggieTag {
+    font-family: Helvetica;
+}
+
+.greentext {
+    font-family: Motherish, ZenMaruGothic;
+    color: #789922;
+}
+
+small {
+    font-size: 14pt;
+}
+
+.pixelArt {
+    image-rendering: pixelated
+}

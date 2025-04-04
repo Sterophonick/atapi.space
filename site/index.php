@@ -181,6 +181,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://cobalt.tools"><img src="/assets/img/buttons/cobalt.gif"></a>
 <img src="/assets/img/buttons/rockband.png">
 <a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
+<a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
