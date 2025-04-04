@@ -121,25 +121,12 @@ max-width: 728px;
 height: 170px;
 }
 
-.gallery {
-    display: inline-grid;
-    text-align: center;
-    align-items: center;
-    grid-template-columns: 300px 300px 300px;
-    grid-gap: 8px;
-    font-size: 20pt;
-}
-
-.gallery p {
-    width: 90%;
-}
-
-#gallery {
-font-size: 18pt;
+#galleryTable {
+    font-size: 13pt;
 }
 
 .galleryImg {
-    width: 100%;
+    width: 275px;
 }
 
 .shruggie {
