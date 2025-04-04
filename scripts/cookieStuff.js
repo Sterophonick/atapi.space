@@ -5,7 +5,7 @@ function showOneko() {
 }
 
 function musicCookie() {
-    var state = !document.getElementById("enableAutoplay").checked;
+    var state = document.getElementById("enableAutoplay").checked;
     document.cookie = "autoplay=" + state + ";path=/";
 }
 
