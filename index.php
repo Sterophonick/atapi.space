@@ -25,7 +25,9 @@
                 <!-- First container content -->
                 <p>
                     <br/>
-                    This site was intended for monitors at 1024x768 with 16-bit color and above!<br/><br/>
+                    This site was intended for monitors at 1024x768 with 16-bit color and above!<br/>
+                    Music and Oneko settings are at the bottom of each page.<br/>
+                    <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>
                         Be subject to my extreme silliness!<br/>

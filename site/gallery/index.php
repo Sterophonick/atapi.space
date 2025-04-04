@@ -398,31 +398,31 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi2.png">
-            <p>May 2021<br />A little doodle they made when I was experimenting with eyes.</p>
+            <p>May 2021<br />A little doodle he made when I was experimenting with eyes.</p>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi3.png">
-            <p>May 2021<br />A little doodle they made when I said that Atapi was a cat. He spittin facts.</p>
+            <p>May 2021<br />A little doodle he made when I said that Atapi was a cat. He spittin facts.</p>
         </td>
     </tr>
     <tr>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi4.png">
-            <p>February 2021<br />A sketch they drew before Atapi was Atap.i</p>
+            <p>February 2021<br />A sketch he drew before Atapi was Atap.i</p>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi5.png">
-            <p>July 2021<br />A sketch they drew when I was drawing the trans rights artwork.</p>
+            <p>July 2021<br />A sketch he drew when I was drawing the trans rights artwork.</p>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi6.png">
-            <p>July 2021<br />Another sketch they drew when I was drawing the trans rights artwork.</p>
+            <p>July 2021<br />Another sketch he drew when I was drawing the trans rights artwork.</p>
         </td>
     </tr>
     <tr>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi7.png">
-            <p>August 2021<br />Redlines they provided to improve the doodle for the reference.</p>
+            <p>August 2021<br />Redlines he provided to improve the doodle for the reference.</p>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi8.png">

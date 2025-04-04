@@ -1,11 +1,11 @@
 function showOneko() {
     var state = document.getElementById("enableOneko").checked;
     document.cookie = "oneko=" + state + ";path=/";
-    document.getElementById("oneko").style.display = state ? 'block' : 'none';
+    document.getElementById("oneko").style.display = state ? 'none' : 'block';
 }
 
 function musicCookie() {
-    var state = document.getElementById("enableAutoplay").checked;
+    var state = !document.getElementById("enableAutoplay").checked;
     document.cookie = "autoplay=" + state + ";path=/";
 }
 
@@ -29,9 +29,9 @@ showOneko();
 
 // make the musicplayer autoplay as necessary
 var player = document.getElementById("musicPlayer");
-player.volume = 0.70;
+player.volume = 0.30;
 
-if(getCookieByName("autoplay") == 'true') {
+if(getCookieByName("autoplay") == 'false') {
     if(!forceStopPlayer) player.play();
 }
 

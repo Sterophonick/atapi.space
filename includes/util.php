@@ -72,8 +72,8 @@ function constructPageFooter() {
 
     if(!isOutdatedBrowser()) {
         $htmlPage .= <<<EOF
-            <span><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Enable Oneko!</small></span>
-            <span><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Autoplay Music!</small></span>
+            <span><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Disable Oneko</small></span>
+            <span><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Don't Autoplay Music</small></span>
             <script src="/scripts/cookieStuff.js"></script>
             <script src="/scripts/autoStop.js"></script>
         EOF;

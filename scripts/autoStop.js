@@ -33,7 +33,7 @@ function checkInterruptAudio() {
     }
 }
 
-if(getCookieByName2("autoplay") == 'true') {
+if(getCookieByName2("autoplay") == 'false') {
     // Add event listeners to check whenever any interruptAudio starts or ends
     interruptAudios.forEach(audio => {
         audio.addEventListener('play', checkInterruptAudio);

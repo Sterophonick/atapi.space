@@ -25,7 +25,7 @@ echo constructPageHeader("Atapi's Homepage! :: Projects :: Emulation");
 <h2 id="GigatronMAME">Gigatron MAME Driver</h2>
 <p>
 A port of Phil Thomas' Gigatron.js emulator to the MAME framework.<br />
-There is a blog post about is <a href="/site/blog/gigatron">here.</a>
+There is a blog post about it <a href="/site/blog/gigatron">here.</a>
 </p>
 <img style="width:320px" src="/assets/img/projects/emu/gigatron/gigatron1.png">
 <img style="width:320px" src="/assets/img/projects/emu/gigatron/gigatron2.png">
