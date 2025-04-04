@@ -50,7 +50,7 @@ Here's my web button to link on your own site!<br />
 title="Made by @ZenithNeko and @ashie404!!! <3"><br />
 <br />
 While you're here, why don't you sign my guestbook!<br />
-<a class="pixelArt" href="/guestbook"><img
+<a class="pixelArt" href="/site/guestbook/"><img
 src="/assets/img/home/guestbook.gif"></a><br />
 </p>
 <br />
