@@ -38,7 +38,7 @@ Japanese website with a bunch of emulators that run on the GBA. Some are fake.
 </p>
 <br />
 <p>
-<a href="/interstitial.html?name=The GeoCities Gallery&dest=https://geocities.restorativland.org/">The GeoCities Gallery</a><br />
+<a href="/interstitial.php?name=The GeoCities Gallery&dest=https://geocities.restorativland.org/">The GeoCities Gallery</a><br />
 RestorativLand's project to preserve hundreds of old GeoCities pages!
 </p>
 <br />

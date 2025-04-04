@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage!");
+echo constructPageHeader("Atapi's Homepage! :: Blog :: Those Weird Numbers from the Sky");
 
 ?>
 

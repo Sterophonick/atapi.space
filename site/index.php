@@ -180,6 +180,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://moule.world/"><img src="/assets/img/buttons/moule.gif"></a>
 <a href="https://cobalt.tools"><img src="/assets/img/buttons/cobalt.gif"></a>
 <img src="/assets/img/buttons/rockband.png">
+<a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>

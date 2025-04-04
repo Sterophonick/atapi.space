@@ -73,6 +73,8 @@
                     <a href="https://velveteen.one/"><img src="/assets/img/buttons/velbadge.png"></a>
                     <a href="https://invoxiplaygames.uk/"><img src="/assets/img/buttons/ipg.png"></a>
 
+                    <a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
+
                     </marquee>
                     <br/>
                 </p>

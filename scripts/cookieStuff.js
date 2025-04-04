@@ -29,7 +29,7 @@ showOneko();
 
 // make the musicplayer autoplay as necessary
 var player = document.getElementById("musicPlayer");
-player.volume = 0.15;
+player.volume = 0.70;
 
 if(getCookieByName("autoplay") == 'true') {
     if(!forceStopPlayer) player.play();

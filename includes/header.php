@@ -465,7 +465,7 @@ $quoteStrings = array(
     "What is a man? A little pile of secrets. But enough talk, have at you!", "-- Dracula",
     "has you really been far even as decided to use even go want to look more like?", "-- Chip Madeen",
     "Where did you learn to fly?", "-- Skylar, Cybermorph",
-    "i may be cringe but you're mean and that's worse <img style=\"vertical-align:middle;\" src=\"assets/img/smileys/sad.png\">", "-- Unknown",
+    "i may be cringe but you're mean and that's worse <img style=\"vertical-align:middle;\" src=\"/assets/img/smileys/sad.png\">", "-- Unknown",
     "everyday i'm tacoing. woah, i'm so random!", "-- Unknown",
     "WATCH OUT FOR GAS STATION TWEAKERS!", "-- Ghetto Smosh",
     "i was never book smart, i'm money smart, makes me more intelligent", "-- Jay Eazy",
@@ -653,10 +653,6 @@ $musicPaths = array(
         $musicPlayer .= $musicName . "</marquee><br/>";
 
         $musicPlayer .=  "<audio style=\"height: 20px\" id=\"musicPlayer\" controls loop src=\"" . $musicPath . '"';
-
-        if(getCookie("autoplayMusic") == "true") {
-            $musicPlayer .+ "autoplay";
-        }
 
         $musicPlayer .= '></p></audio></div>';
 

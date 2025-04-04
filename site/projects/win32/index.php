@@ -8,8 +8,6 @@ echo constructPageHeader("Atapi's Homepage! :: Projects :: Windows");
 <h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> Windows</h1>
 <p>I don't actually know Win32 but I should learn tbh</p>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> Emulation</h1>
-<p>I think I know how to make retro computers go brrr, at least for the most part.</p>
 <h2>Navigation</h2>
 <div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
 <ul>

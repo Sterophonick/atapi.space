@@ -53,7 +53,7 @@ Community focused on preserving all official Minecraft content.
 </p>
 <br />
 <p>
-<a href="/interstitial.html?name=The Lost Media Wiki&dest=https://lostmediawiki.com/Home">The Lost Media Wiki</a><br />
+<a href="/interstitial.php?name=The Lost Media Wiki&dest=https://lostmediawiki.com/Home">The Lost Media Wiki</a><br />
 Community dedicated to documenting and finding known lost media.
 </p>
 <br />
@@ -108,7 +108,7 @@ Camera feeds for Hello Street Cat feeders.
 </p>
 <br />
 <p>
-<a href="/interstitial.html?name=PlaneCrashInfo.com&dest=https://www.planecrashinfo.com/">PlaneCrashInfo.com</a><br />
+<a href="/interstitial.php?name=PlaneCrashInfo.com&dest=https://www.planecrashinfo.com/">PlaneCrashInfo.com</a><br />
 Morbidly fascinating website dedicated to documenting aviation accidents. Reader's discretion is advised.
 </p>
 

@@ -660,7 +660,7 @@ To start, the first <code>0x8000</code> bytes of the disc had to be stripped wit
 
 <code>systemmenu.rvl.wad</code> is a way more interesting file though, especially since it's much bigger. It contains Wii System Menu 1.0 RC1. This version of Wii System Menu only boots if the Z Button on GameCube controller port 4 is held down on startup.<br/>
 </p>
-<video width="836" height="456" controls>
+<video class="interruptVideo" width="836" height="456" controls>
 <source src="/assets/vid/systemmenu-rc1.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>

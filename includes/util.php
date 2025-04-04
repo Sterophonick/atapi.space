@@ -75,6 +75,7 @@ function constructPageFooter() {
             <span><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Enable Oneko!</small></span>
             <span><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Autoplay Music!</small></span>
             <script src="/scripts/cookieStuff.js"></script>
+            <script src="/scripts/autoStop.js"></script>
         EOF;
     }
 
@@ -128,7 +129,7 @@ function generateYouTubeEmbed($vidID, $width, $height, $doNewline=0, $doError=1)
 
 function generateAudioFileEmbed($path) {
 
-    $htmlEmbed = '<audio controls src="' . $path . '">';
+    $htmlEmbed = '<audio class="interruptAudio" controls src="' . $path . '">';
     $htmlEmbed .= '<a href="' . $path . '">Click here to play audio.</a>';
     $htmlEmbed .= '</audio>';
     echo $htmlEmbed;

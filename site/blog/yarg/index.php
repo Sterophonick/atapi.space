@@ -25,11 +25,11 @@ It really got me thinking of ways to replicate a setup that would allow me to pl
 <p>
 A rather tongue-in-cheek name, but it's a <a href="https://github.com/YARC-Official/YARG">free and open-source</a> game for Windows, macOS, and Linux that aims to basically port Rock Band to PC.<br/><br/>
 Anyway, YARG, right, it looks like this in practice:<br/>
-<video width="720" height="405" controls>
+<video class="interruptVideo" width="720" height="405" controls>
 <source src="/assets/vid/beverly.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
-</video>
+</video><br/>
 <small>Used to Be Valentines - Beverly (The Good Years), Chart by YARC</small><br/><br/>
 I think you see the idea, yes? This video only has a single player in it but it doesn't seem to have a limit on simultaneous players unlike Rock Band.<br/><br/>
 As for the program itself, I find it mostly nice to use!<br/>
@@ -57,11 +57,11 @@ There are a good 100,000 or so charts available over on RhythmVerse, however one
 Still, between that and ripping songs from Guitar Hero and Rock Band, you're able to make yourself a pretty extensive collection of nicely charted songs to play! My personal collection is currently about 165 songs, with a decent chunk coming from Rock Band DLC and LEGO Rock Band.<br/><br/>
 
 There was one track, that being <i>The Distance</i> by CAKE, which was distributed as a chart for the Wii version of Rock Band 3. Some extra TLC had to go into that one. Firstly editing the <code>song.dta</code> file to remove a Wii-specific path that we don't need, and then using a tool called <a href="https://github.com/mtolly/onyx">Onyx</a> to convert it to a Rock Band 3 CON, and then using Nautilus to convert it to a Clone Hero chart. Yeah, it gets convoluted and you'll often be engineering solutions to problems on your own.<br/>
-<video width="720" height="405" controls>
+<video class="interruptVideo" width="720" height="405" controls>
 <source src="/assets/vid/distance.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
-</video>
+</video><br/>
 <small>Cake - The Distance (Fashion Nugget), Chart by TheSpike/Nyxyxylyth</small><br/><br/>
 At some point I do wanna learn to make my own charts so that I can make people play along to silly SiIvaGunner tracks. :3<br/><br/>
 </p>
@@ -108,7 +108,6 @@ A good fallback option is to render WEBMs of scenes from Fortnite Festival or Ro
 </div>
 <br/>
 <img width="384px" src="/assets/img/blog/yarg/lrb.png">
-
 <?php
 
 echo constructPageFooter();

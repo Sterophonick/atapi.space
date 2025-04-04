@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Motherish ;
+    src: url("/assets/woff/Motherish-Regular.woff2") format("woff2"),
+    url("/assets/woff/Motherish-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ZenMaruGothic ;
+    src: url("/assets/woff/ZenMaruGothic-Medium.woff2") format("woff2"),
+    url("/assets/woff/ZenMaruGothic-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: UbuntuMono ;
+    src: url("/assets/woff/UbuntuMono-Regular.woff2") format("woff2"),
+    url("/assets/woff//UbuntuMono-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    size-adjust: 100%;
+}
+
 body {
     background: url("/assets/img/global/catbg.gif");
     background-attachment: fixed;
