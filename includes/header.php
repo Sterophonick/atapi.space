@@ -596,6 +596,7 @@ $musicPaths = array(
     "Coma28 - skogens djur 014", "/assets/snd/music/skogens djur 014.mp3",
     "dalezy - evoke-report#2", "/assets/snd/music/evoke2.mp3",
     "V.E.M. - keygentune2003 orn", "/assets/snd/music/keygentune2003.mp3",
+    "kfaraday - On the Road", "/assets/snd/music/on_the_road.mp3",
 );
 
 ?>
