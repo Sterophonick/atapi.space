@@ -30,7 +30,7 @@
                     <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>
-                        Be subject to my extreme silliness!<br/>
+                        Jump in!<br/>
                     </a>
                     <br/>
                 </p>

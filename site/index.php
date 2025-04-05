@@ -32,7 +32,7 @@ function friday() {
 
 <h1><img style="vertical-align:middle" src="/assets/img\home\icon.png"> hiiiii!!! :3</h1>
 <p>
-hiya! I'm Atapi / Sterophonick <a href="pronouns/">(he/she/they)!</a> I am a
+meowdy! I'm Atapi / Sterophonick <a href="pronouns/">(he/she/they)!</a> I am a
 cute kitty cat on the internet that has been touching computers for about as long as I can really remember. I work with Linux and old tech, emulation, reverse engineering, and the like! :3
 </p>
 <br />
