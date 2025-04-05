@@ -20,6 +20,11 @@ function getCookieByName(name) {
     return null;
 }
 
+// do this on first viewing
+if(getCookieByName("autoplay") === null) {
+    document.cookie = "autoplay=" + false + ";path=/";
+}
+
 // this is kinda messy crap, i know.
 // we need to update the state of oneko based on what we set
 // this will also update the cookie
