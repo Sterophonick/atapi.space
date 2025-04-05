@@ -8,4 +8,4 @@ The source code to my website, https://atapi.space/.
 - `rewrite /site* {path}/` or equivalent
 - (mostly optional) make `/files/` a directory listing
 
-bweh
+bweh bweh
