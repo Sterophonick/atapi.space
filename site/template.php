@@ -5,6 +5,6 @@ echo constructPageHeader("Atapi's Homepage!");
 
 ?>
 
-<h1>silly!</h1>
+<h1>page template!</h1>
 
 <?php echo constructPageFooter(); ?>
