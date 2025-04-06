@@ -67,6 +67,8 @@ function constructPageFooter() {
                 <a href="https://github.com/Sterophonick/atapi.space" target="_blank">Website Source</a>
                  -
                 <a href="/files/">Filedump</a><br/>
+                 -
+                <a href="/site/disclosure.php">Privacy Policy</a>
         </small>
     EOF;
 

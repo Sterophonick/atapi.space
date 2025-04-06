@@ -14,7 +14,7 @@
                 <br/>
                 <h2>Welcome to Atapi's homepage!</h2>
                 <p>
-                    <img src="/assets/img/landing/Censor_14b.gif"><br/>
+                    <a href="https://www.mabsland.com/Adoption.html"><img src="/assets/img/landing/Censor_14b.gif"><br/></a>
                     This website is rated WEB-14!<br/>
                     (Pages will have content warnings and interstitials!)<br/>
                 </p>
@@ -78,6 +78,7 @@
                     <a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
                     <a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern1.gif"></a>
 
+                    <a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
                     </marquee>
                     <br/>
                 </p>

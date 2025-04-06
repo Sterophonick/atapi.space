@@ -182,6 +182,8 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <img src="/assets/img/buttons/rockband.png">
 <a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
 <a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
+<a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
+<img src="/assets/img/buttons/lego.gif">
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
