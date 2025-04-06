@@ -30,6 +30,8 @@ echo constructPageHeader("Atapi's Homepage!");
         </li>
     </ul>
 </div>
-<p>If you discover any security vulnerabilities PLEASE let me know about it!</p>
+<p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
+
+<img width="160px" src="/assets/img/disclosure/cat.gif"><br/>
 
 <?php echo constructPageFooter(); ?>
