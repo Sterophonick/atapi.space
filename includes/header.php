@@ -592,6 +592,7 @@ $musicPaths = array(
     "dalezy - evoke-report#2", "/assets/snd/music/evoke2.mp3",
     "V.E.M. - keygentune2003 orn", "/assets/snd/music/keygentune2003.mp3",
     "kfaraday - On the Road", "/assets/snd/music/on_the_road.mp3",
+    "Nintendo - Main Theme (Nintendo Video)", "/assets/snd/music/nintendo_video.mp3",
 );
 
 ?>
