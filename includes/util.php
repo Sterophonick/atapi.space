@@ -239,6 +239,7 @@ function doWeShowOneko() {
 }
 
 function whatStyleSheet() {
+    $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
     if (str_contains($userAgent, "nintendo wii")) {
         return '/assets/css/main-site-legacy.css';
