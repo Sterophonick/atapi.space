@@ -201,7 +201,7 @@ function doWeShowLargeGif() {
 function doWeShowMusicPlayer() {
      $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
-    if (str_contains($userAgent, "Nintendo Wii")) {
+    if (str_contains($userAgent, "nintendo wii")) {
         return false;
     }
 
@@ -211,7 +211,7 @@ function doWeShowMusicPlayer() {
     }
 
     // Nintendo 3DS
-    if (str_contains($userAgent, "Nintendo 3DS")) {
+    if (str_contains($userAgent, "nintendo 3ds")) {
         return false;
     }
 
