@@ -637,7 +637,7 @@ $musicPaths = array(
         <a href="/site/guestbook/"><img class="noMosaic navIcon" src="/assets/img/global/guestbook.png"> Guestbook!</a>
     </div>
     <?php
-    if(!isOutdatedBrowser()){
+    if(doWeShowMusicPlayer()){
         $musicIndex = floor(rand() % sizeof($musicPaths) / 2) * 2;
         $musicName = $musicPaths[$musicIndex];
         $musicPath = $musicPaths[$musicIndex+1];
@@ -673,7 +673,7 @@ $musicPaths = array(
     </div>
 
     <?php
-        if(!isOutdatedBrowser()) {
+        if(doWeShowOneko()) {
             echo '<script src="/scripts/oneko/oneko.js"></script>';
         }
     ?>

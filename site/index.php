@@ -57,7 +57,7 @@ src="/assets/img/home/guestbook.gif"></a><br />
 
 <?php
 
-if(!isOutdatedBrowser()) {
+if(doWeShowLastFmEmbed()) {
 echo <<<EOF
 <div id="lastFMBox">
     <p>oh, here's what i've been listening to lately!</p>

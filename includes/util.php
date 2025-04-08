@@ -77,9 +77,13 @@ function constructPageFooter() {
         </small>
     EOF;
 
-    if(!isOutdatedBrowser()) {
+    if(doWeShowOneko()) {
         $htmlPage .= <<<EOF
             <span><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Disable Oneko</small></span>
+        EOF;
+    }
+    if(doWeShowMusicPlayer()) {
+        $htmlPage .= <<<EOF
             <span><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Don't Autoplay Music</small></span>
             <script src="/scripts/cookieStuff.js"></script>
             <script src="/scripts/autoStop.js"></script>
@@ -173,6 +177,123 @@ function generateScratchEmbed($projectID, $disableMusic=1) {
         if($disableMusic) $htmlEmbed .= '<script>var forceStopPlayer = true;</script>';
     }
     echo $htmlEmbed;
+}
+
+// Content helpers
+// These determine whether or not we want to deliver certain content to various browsers
+// This is for ensuring that pages perform well under legacy or otherwise constrained browsers
+function doWeShowLargeGif() {
+    $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+    return true
+}
+
+function doWeShowMusicPlayer() {
+    // Nintendo Wii
+    if (str_contains($userAgent, "Nintendo Wii")) {
+        return false;
+    }
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+    return true;
+}
+
+function doWeShowOneko() {
+    // Nintendo Wii
+    if (str_contains($userAgent, "Nintendo Wii")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
+
+    return true;
+}
+
+function whatStyleSheet() {
+
+}
+
+function doWeShowScratchEmbed() {
+
+    // Nintendo Wii
+    if (str_contains($userAgent, "Nintendo Wii")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
+}
+
+function doWeShowGBAEmbed() {
+    // Nintendo Wii
+    if (str_contains($userAgent, "Nintendo Wii")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
+}
+
+function doWeShowLastFmEmbed() {
+    // Nintendo Wii
+    if (str_contains($userAgent, "Nintendo Wii")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "Nintendo 3DS")) {
+        return false;
+    }
+
+
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return false;
+    }
 }
 
 ?>
