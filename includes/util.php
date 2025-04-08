@@ -300,19 +300,19 @@ function doWeShowGBAEmbed() {
 function doWeShowLastFmEmbed() {
      $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
-    if (str_contains($userAgent, "Nintendo Wii")) {
-        return false;
-    }
+     if (str_contains($userAgent, "nintendo wii")) {
+         return false;
+     }
 
-    // Nintendo 3DS
-    if (str_contains($userAgent, "Nintendo 3DS")) {
-        return false;
-    }
+     // Internet Explorer 5
+     if (str_contains($userAgent, "msie 5")) {
+         return false;
+     }
 
-    // Internet Explorer 5
-    if (str_contains($userAgent, "msie 5")) {
-        return false;
-    }
+     // Nintendo 3DS
+     if (str_contains($userAgent, "nintendo 3ds")) {
+         return false;
+     }
 
     return true;
 }
