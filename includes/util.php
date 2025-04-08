@@ -191,7 +191,12 @@ function doWeShowLargeGif() {
     }
 
     // Nintendo 3DS
-    if (str_contains($userAgent, "Nintendo 3DS")) {
+    if (str_contains($userAgent, "nintendo 3ds")) {
+        return false;
+    }
+
+    // Nintendo DSi
+    if (str_contains($userAgent, "nintendo dsi")) {
         return false;
     }
 
@@ -215,6 +220,11 @@ function doWeShowMusicPlayer() {
         return false;
     }
 
+    // Nintendo DSi
+    if (str_contains($userAgent, "nintendo dsi")) {
+        return false;
+    }
+
     return true;
 }
 
@@ -232,6 +242,11 @@ function doWeShowOneko() {
 
      // Nintendo 3DS
      if (str_contains($userAgent, "nintendo 3ds")) {
+         return false;
+     }
+
+     // Nintendo DSi
+     if (str_contains($userAgent, "nintendo dsi")) {
          return false;
      }
 
@@ -274,6 +289,11 @@ function doWeShowScratchEmbed() {
         return false;
     }
 
+    // Nintendo DSi
+    if (str_contains($userAgent, "nintendo dsi")) {
+        return false;
+    }
+
     return true;
 }
 
@@ -294,6 +314,11 @@ function doWeShowGBAEmbed() {
          return false;
      }
 
+     // Nintendo DSi
+     if (str_contains($userAgent, "nintendo dsi")) {
+         return false;
+     }
+
      return true;
 }
 
@@ -311,6 +336,11 @@ function doWeShowLastFmEmbed() {
 
      // Nintendo 3DS
      if (str_contains($userAgent, "nintendo 3ds")) {
+         return false;
+     }
+
+     // Nintendo DSi
+     if (str_contains($userAgent, "nintendo dsi")) {
          return false;
      }
 
