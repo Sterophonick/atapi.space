@@ -656,6 +656,8 @@ $musicPaths = array(
         $musicPlayer .= "<script>var forceStopPlayer = false;</script>"; // this provides plumbing for pages to stop the music player if needed
 
         echo $musicPlayer;
+    }else {
+        echo '<br/>';
     }
 
     if(isOutdatedBrowser()) {
