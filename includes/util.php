@@ -199,6 +199,7 @@ function doWeShowLargeGif() {
 }
 
 function doWeShowMusicPlayer() {
+     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
     if (str_contains($userAgent, "Nintendo Wii")) {
         return false;
@@ -218,6 +219,7 @@ function doWeShowMusicPlayer() {
 }
 
 function doWeShowOneko() {
+     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
     if (str_contains($userAgent, "Nintendo Wii")) {
         return false;
@@ -242,6 +244,7 @@ function whatStyleSheet() {
 }
 
 function doWeShowScratchEmbed() {
+     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
     // Nintendo Wii
     if (str_contains($userAgent, "Nintendo Wii")) {
@@ -261,6 +264,7 @@ function doWeShowScratchEmbed() {
 }
 
 function doWeShowGBAEmbed() {
+     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
     if (str_contains($userAgent, "Nintendo Wii")) {
         return false;
@@ -279,6 +283,7 @@ function doWeShowGBAEmbed() {
 }
 
 function doWeShowLastFmEmbed() {
+     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
     // Nintendo Wii
     if (str_contains($userAgent, "Nintendo Wii")) {
         return false;
