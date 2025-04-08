@@ -16,7 +16,11 @@ function constructPageHeader($pageTitle) {
     $htmlPage .= "<title>" . $pageTitle . "</title>";
 
     #TODO: This will need to be altered based on what Browser the client is using. :3
-    $htmlPage .= '<link rel="stylesheet" href="/assets/css/main-site.css">';
+    if(!isOutdatedBrowser()) {
+        $htmlPage .= '<link rel="stylesheet" href="/assets/css/main-site.css">';
+    } else {
+        $htmlPage .= '<link rel="stylesheet" href="/assets/css/main-site-legacy.css">';
+    }
 
     $htmlPage .= <<<EOF
     <meta charset="utf-8" />
