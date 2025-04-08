@@ -195,7 +195,7 @@ function doWeShowLargeGif() {
         return false;
     }
 
-    return true
+    return true;
 }
 
 function doWeShowMusicPlayer() {
