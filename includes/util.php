@@ -15,7 +15,7 @@ function constructPageHeader($pageTitle) {
 
     $htmlPage .= "<title>" . $pageTitle . "</title>";
 
-    $htmlPage .= '<link rel="stylesheet" href="/assets/css/' . whatStyleSheet() . '.css">';
+    $htmlPage .= '<link rel="stylesheet" href="' . whatStyleSheet() . '.css">';
 
     $htmlPage .= <<<EOF
     <meta charset="utf-8" />
