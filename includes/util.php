@@ -15,12 +15,7 @@ function constructPageHeader($pageTitle) {
 
     $htmlPage .= "<title>" . $pageTitle . "</title>";
 
-    #TODO: This will need to be altered based on what Browser the client is using. :3
-    if(!isOutdatedBrowser()) {
-        $htmlPage .= '<link rel="stylesheet" href="/assets/css/main-site.css">';
-    } else {
-        $htmlPage .= '<link rel="stylesheet" href="/assets/css/main-site-legacy.css">';
-    }
+    $htmlPage .= '<link rel="stylesheet" href="/assets/css/' . whatStyleSheet() . '.css">';
 
     $htmlPage .= <<<EOF
     <meta charset="utf-8" />
@@ -140,10 +135,15 @@ function generateYouTubeEmbed($vidID, $width, $height, $doNewline=0, $doError=1)
 
 function generateAudioFileEmbed($path) {
 
-    $htmlEmbed = '<audio class="interruptAudio" controls src="' . $path . '">';
-    $htmlEmbed .= '<a href="' . $path . '">Click here to play audio.</a>';
-    $htmlEmbed .= '</audio>';
-    echo $htmlEmbed;
+    if(doWeShowAudioEmbed())
+    {
+        $htmlEmbed = '<audio class="interruptAudio" controls src="' . $path . '">';
+        $htmlEmbed .= '<a href="' . $path . '">Click here to play audio.</a>';
+        $htmlEmbed .= '</audio>';
+        echo $htmlEmbed;
+    } else {
+        echo '<span style="color: red">Your browser cannot play this audio.</span>';
+    }
 }
 
 function getTopURL(){
@@ -158,7 +158,7 @@ function getTopURL(){
 
 function generateGBAEmbed($path, $disableMusic=1) {
 
-    if(isOutdatedBrowser()) {
+    if(!doWeShowGBAEmbed()) {
         $htmlEmbed = '<span style="color: red">Your browser cannot play this game due to not supporting WebAssembly.</span>';
     } else {
         $htmlEmbed = '<iframe id="gbaGame" allowtransparency="true" width="480" height="320" src="https://gba.ninja/?autorun=' . getTopURL() . $path . '" frameborder="0" allowfullscreen></iframe>';
@@ -169,7 +169,7 @@ function generateGBAEmbed($path, $disableMusic=1) {
 
 function generateScratchEmbed($projectID, $disableMusic=1) {
 
-    if(isOutdatedBrowser()) {
+    if(!doWeShowScratchEmbed()) {
         $htmlEmbed = '<span style="color: red">Your browser cannot play this game due to not supporting HTML5.</span><br/>';
     } else {
         $htmlEmbed = '<iframe id="scratchProject" allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/' . $projectID . '/?autostart=false" frameborder="0" allowfullscreen></iframe>';
@@ -239,7 +239,21 @@ function doWeShowOneko() {
 }
 
 function whatStyleSheet() {
+    // Nintendo Wii
+    if (str_contains($userAgent, "nintendo wii")) {
+        return '/assets/css/main-site-legacy.css';
+    }
 
+    // Internet Explorer 5
+    if (str_contains($userAgent, "msie 5")) {
+        return '/assets/css/main-site-legacy.css';
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "nintendo 3ds")) {
+        return '/assets/css/main-site-legacy.css';
+    }
+    return '/assets/css/main-site.css';
 }
 
 function doWeShowScratchEmbed() {
@@ -254,7 +268,6 @@ function doWeShowScratchEmbed() {
     if (str_contains($userAgent, "Nintendo 3DS")) {
         return false;
     }
-
 
     // Internet Explorer 5
     if (str_contains($userAgent, "msie 5")) {
@@ -293,11 +306,18 @@ function doWeShowLastFmEmbed() {
         return false;
     }
 
-
     // Internet Explorer 5
     if (str_contains($userAgent, "msie 5")) {
         return false;
     }
+}
+
+function doWeShowAudioEmbed() {
+    return doWeShowMusicPlayer();
+}
+
+function doWeShowWarning() {
+
 }
 
 ?>
