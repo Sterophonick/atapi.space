@@ -57,7 +57,13 @@ function constructPageFooter() {
                 </p>
     EOF;
 
-     if($_SERVER['SERVER_NAME'] == "atapi.space" || $_SERVER['SERVER_NAME'] == "alt.atapi.space") $htmlPage .= "<div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=60115&s=1' border='0' alt='Free Website Counter'></a><br / ><small><a href='https://www.websitecounterfree.com' title='Free Website Counter'></a></small></div><br/>";
+    if($_SERVER['HTTPS']) {
+        $counter = 'https://www.websitecounterfree.com/c.php?d=9&id=60115&s=1';
+    } else {
+        $counter = 'http://www.websitecounterfree.com/c.php?d=9&id=60115&s=1';
+    }
+
+     if($_SERVER['SERVER_NAME'] == "atapi.space" || $_SERVER['SERVER_NAME'] == "alt.atapi.space") $htmlPage .= "<div align='center'><a href='https://www.websitecounterfree.com'><img src=" . $counter ." border='0' alt='Free Website Counter'></a><br / ><small><a href='https://www.websitecounterfree.com' title='Free Website Counter'></a></small></div><br/>";
 
     $htmlPage .= <<<EOF
         <small>
