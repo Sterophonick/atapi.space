@@ -656,11 +656,9 @@ $musicPaths = array(
         $musicPlayer .= "<script>var forceStopPlayer = false;</script>"; // this provides plumbing for pages to stop the music player if needed
 
         echo $musicPlayer;
-    }else {
-        echo '<br/>';
     }
 
-    if(isOutdatedBrowser()) {
+    if(doWeShowWarning()) {
         echo <<<EOF
             <p style="color:red">
                 <img class="warnIcon" src="/assets/img/global/legacyWarning.gif">

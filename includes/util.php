@@ -322,7 +322,7 @@ function doWeShowAudioEmbed() {
 }
 
 function doWeShowWarning() {
-
+    return !doWeShowGBAEmbed() || !doWeShowLargeGif() || !doWeShowLastFmEmbed() || !doWeShowMusicPlayer() || !doWeShowOneko();
 }
 
 ?>
