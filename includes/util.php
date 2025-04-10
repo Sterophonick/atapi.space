@@ -354,7 +354,23 @@ function doWeShowLastFmEmbed() {
 }
 
 function doWeShowAudioEmbed() {
-    return doWeShowMusicPlayer();
+    $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+    // Nintendo Wii
+    if (str_contains($userAgent, "nintendo wii")) {
+        return false;
+    }
+
+    // Nintendo 3DS
+    if (str_contains($userAgent, "nintendo 3ds")) {
+        return false;
+    }
+
+    // Nintendo DSi
+    if (str_contains($userAgent, "nintendo dsi")) {
+        return false;
+    }
+
+    return true;
 }
 
 function doWeShowWarning() {
