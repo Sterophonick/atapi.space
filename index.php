@@ -79,6 +79,14 @@
                     <a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern1.gif"></a>
 
                     <a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
+
+                    <a href="https://dianaisnthere.codeberg.page/"><img src="/assets/img/buttons/diana.png"></a>
+                    <a href="https://leggi.es/"><img src="/assets/img/buttons/deneb.gif"></a>
+                    <a href="https://maidado.xyz/"><img src="/assets/img/buttons/maidado.png"></a>
+                    <a href="https://micro.niko.lgbt/"><img src="/assets/img/buttons/micro.png"></a>
+                    <a href="https://sneexy.pages.gay/"><img src="/assets/img/buttons/sneexy.gif"></a>
+                    <a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
+                    <a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
                     </marquee>
                     <br/>
                 </p>

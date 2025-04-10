@@ -71,6 +71,7 @@ EOF;
 }
 ?>
 
+<p>here's my ridiculous collection of buttons!</p>
 <div id="buttons" class="pixelArt" style="width: 80%; margin: auto; font-size:0%">
 <a href="https://www.gameboy-advance.net/"><img src="/assets/img/buttons/gbanet.gif"></a>
 <a href="https://www.mamedev.org/"><img src="/assets/img/buttons/mame.gif"></a>
@@ -184,6 +185,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
 <a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
 <img src="/assets/img/buttons/lego.gif">
+<a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
