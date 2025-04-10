@@ -19,6 +19,12 @@
                     (Pages will have content warnings and interstitials!)<br/>
                 </p>
                 <br/>
+                <audio id="ninVideoStartup" src="/assets/snd/landing/startup.mp3" autoplay></audio>
+                <script>
+                    var audio = document.getElementById("ninVideoStartup");
+                    audio.volume = 0.7;
+                </script>
+
             </div>
             <br/>
             <div class="mainContainer container2">
