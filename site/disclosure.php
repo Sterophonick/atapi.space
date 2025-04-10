@@ -17,6 +17,12 @@ echo constructPageHeader("Atapi's Homepage!");
 <p>
     This site has an <a href="http://alt.atapi.space">HTTP alt</a> for old browsers and computers! I encourage people to use HTTPS whenever possible, but doing this should be fine since last I checked, I'm not a bank. Send me pics of this site on old computers! <3<br/>
     <br/>
+    Known tested browsers:<br/>
+    Internet Explorer 5.0<br/>
+    Nintendo 3DS Browser<br/>
+    Nintendo DSi Browser<br/>
+    Nintendo Wii Internet Channel<br/>
+    <br/>
     Your user agent:<br/>
     <?php echo $_SERVER['HTTP_USER_AGENT']; ?>
 </p>

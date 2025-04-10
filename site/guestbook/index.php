@@ -16,7 +16,7 @@ if($_SERVER['HTTPS']) {
 } else {
     $gbUrl = "http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2";
 }
-
+echo '<a href="' . $gbUrl . '">Click here if your browser doesn\'t support frames!</a><br/>';
 echo '<iframe id="scratchProject" width="100%" height="1024px" src="' . $gbUrl . '"></iframe>';
 ?>
 
