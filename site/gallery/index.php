@@ -371,7 +371,7 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
     </td>
   </tr>
 
-    <tr>
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/AtapiPadoru.png"></a>
         <p>December 2023<br />Padoru, Padoru!<br /><a href="/files/AtapiPadoru.kra">Krita Source
@@ -383,7 +383,8 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
                 File</a><br /></p>
     </td>
     <td>
-
+        <img class="galleryImg" src="/assets/img/gallery/royla_crown.png"></a>
+        <p>April 2025<br />cokey cola<br /><a href="/files/royla_crown.xcf">Source File</a><br /></p>
     </td>
   </tr>
 </table>

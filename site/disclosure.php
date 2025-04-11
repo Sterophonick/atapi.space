@@ -28,7 +28,7 @@ echo constructPageHeader("Atapi's Homepage!");
 </p>
 <br/>
 <h2>Server Specs</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+<div id="toc" class="toc" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
             1 vCPU core 5900X
@@ -41,6 +41,9 @@ echo constructPageHeader("Atapi's Homepage!");
         </li>
         <li>
             Caddy w/ PHP-FPM 8.3
+        </li>
+        <li>
+            Git commit: <?php system('git rev-parse HEAD');?>
         </li>
     </ul>
 </div>
