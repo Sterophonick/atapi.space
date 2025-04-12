@@ -186,6 +186,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
 <img src="/assets/img/buttons/lego.gif">
 <a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
+<a href="https://flipperzero.one/"><img src="/assets/img/buttons/flipper.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
