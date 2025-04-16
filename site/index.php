@@ -82,7 +82,7 @@ EOF;
 src="/assets/img/buttons/childlibrary.gif"></a>
 <img src="/assets/img/buttons/ie.gif">
 <img width="88px" height="31px" src="/assets/img/buttons/sucks.gif">
-<img src="/assets/img/buttons/nocookie.gif">
+<img src="/assets/img/buttons/php.gif">
 <img src="/assets/img/buttons/ace.png">
 <a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
 <a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>
