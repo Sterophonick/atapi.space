@@ -4,15 +4,109 @@
         <title>Atapi's Homepage!</title>
         <description>Atapi's blog posts and site updates! Be subject to my ramblings!'</description>
         <link>https://atapi.space/</link>
-        <atom:link href="https://atapi.space/rss.xml"
-                   rel="self" type="application/rss+xml" />
+        <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>Adventures in Rock Band on Linux</title>
+            <link>https://atapi.space/</link>
+            <pubDate>Fri, Apr 18 2025 00:00:00 MST</pubDate>
+            <description>hiiii!!! new site update! i figure i'd try out this RSS thing!</description>
+        </item>
+
+        <item>
+            <title>Adventures in Rock Band on Linux</title>
+            <link>https://atapi.space/site/blog/yarg</link>
+            <guid>https://atapi.space/site/blog/yarg</guid>
+            <pubDate>Thu, Mar 27 2025 00:00:00 MST</pubDate>
+            <description>I detail the rediscovery of my love for Rock Band over here!</description>
+        </item>
+
+        <item>
+            <title>Enabling MIDI Support for Legacy WINE Gaming</title>
+            <link>https://atapi.space/site/blog/winemidi/</link>
+            <guid>https://atapi.space/site/blog/winemidi/</guid>
+            <pubDate>Sat, Feb 8 2025 00:00:00 MST</pubDate>
+            <description>Hiii! I figured I should write this little guide on getting MIDI emulation up and running with WINE, it's a confusing process for sure!</description>
+        </item>
+
+        <item>
+            <title>The State of Linux Gaming (as of January 2025)</title>
+            <link>https://atapi.space/site/blog/penguin0125/</link>
+            <guid>https://atapi.space/site/blog/penguin0125/</guid>
+            <pubDate>Fri, Jan 10 2025 00:00:00 MST</pubDate>
+            <description>Here's my maybe-not-so-comprehensive deep dive into everything that is right and wrong with Linux gaming as of Januaray 2025.</description>
+        </item>
+
+        <item>
+            <title>2024 Year in Review, I Guess</title>
+            <link>https://atapi.space/site/blog/2024inreview/</link>
+            <guid>https://atapi.space/site/blog/2024inreview/</guid>
+            <pubDate>Mon, 23 Dec 2024 00:00:00 MST</pubDate>
+            <description>I make fun of stupid things that happened throughout 2024.</description>
+        </item>
+
+        <item>
+            <title>On Gender</title>
+            <link>https://atapi.space/site/blog/gender/</link>
+            <guid>https://atapi.space/site/blog/gender/</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 MST</pubDate>
+            <description>I asked some friends and some netizens on the Fediverse to give me descriptions of how they see themselves, here's some musings on that.</description>
+        </item>
+
+        <item>
+            <title>Personal Observations from the Gigaleaks</title>
+            <link>https://atapi.space/site/blog/gigaleak/</link>
+            <guid>https://atapi.space/site/blog/gigaleak/</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 MST</pubDate>
+            <description>After a month of work, I had sifted through the complete collection of the 2020-2021 Nintendo Gigaleaks and here's a long list of everything that catches my eye.</description>
+        </item>
+
+        <item>
+            <title>Music I Think is Rad and Stuff</title>
+            <link>https://atapi.space/site/blog/musicilike/</link>
+            <guid>https://atapi.space/site/blog/musicilike/</guid>
+            <pubDate>Mon, 20 Oct 2024 00:00:00 MST</pubDate>
+            <description>In this blog post I tried to justify my apparently really mid-tier music taste.</description>
+        </item>
+
+        <item>
+            <title>Those Weird Numbers from the Sky</title>
+            <link>https://atapi.space/site/blog/site_theory/</link>
+            <guid>https://atapi.space/site/blog/site_theory/</guid>
+            <pubDate>Mon, 14 Oct 2024 00:00:00 MST</pubDate>
+            <description>Over here, I infodump about various historical numbers stations, used by undercover military operatives primarily during the first Cold War.</description>
+        </item>
+
+        <item>
+            <title>The Theory Behind This Site</title>
+            <link>https://atapi.space/site/blog/homepage/</link>
+            <guid>https://atapi.space/site/blog/homepage/</guid>
+            <pubDate>Sat, 5 Oct 2024 00:00:00 MST</pubDate>
+            <description>A sort of manifesto, if you will, about why I previously designed the site the way that I did. Needs an addendum.</description>
+        </item>
+
+        <item>
+            <title>Welcome to my Homepage!</title>
+            <link>https://atapi.space/site/blog/site_theory/</link>
+            <guid>https://atapi.space/site/blog/site_theory/</guid>
+            <pubDate>Mon, 7 Oct 2024 00:00:00 MST</pubDate>
+            <description>A short essay about why I think the personal web is so special!</description>
+        </item>
+
+        <item>
+            <title>Tales from the Computery Nonsense Folder</title>
+            <link>https://atapi.space/site/blog/talesfromscratch/</link>
+            <guid>https://atapi.space/site/blog/talesfromscratch/</guid>
+            <pubDate>Sat, 21 Sep 2024 00:00:00 MST</pubDate>
+            <description>A growing collection of stories and information about my past when it comes to touching computers.</description>
+        </item>
 
         <item>
             <title>Emulating the Gigatron TTL in MAME</title>
             <link>https://atapi.space/site/blog/gigatron/</link>
             <guid>https://atapi.space/site/blog/gigatron/</guid>
             <pubDate>Thu, 6 Aug 2020 00:00:00 MST</pubDate>
-            <description>It's like the Sinclair ZX81 but gooder-er.</description>
+            <description>One user in the r/emulation Discord asked me to write this post when I first finished my MAME Gigatron driver back in August of 2020. Here's that blog post! :3</description>
         </item>
     </channel>
 </rss>
