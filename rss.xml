@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Atapi's Homepage!</title>
+        <description>Atapi's blog posts and site updates! Be subject to my ramblings!'</description>
+        <link>https://atapi.space/</link>
+        <atom:link href="https://atapi.space/rss.xml"
+                   rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>Emulating the Gigatron TTL in MAME</title>
+            <link>https://atapi.space/site/blog/gigatron/</link>
+            <guid>gigatron</guid>
+            <pubDate>Thu, 6 Aug 2020 00:00:00 MST</pubDate>
+            <description>It's like the Sinclair ZX81 but gooder-er.</description>
+        </item>
+    </channel>
+</rss>
