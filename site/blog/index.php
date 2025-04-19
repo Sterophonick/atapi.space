@@ -6,7 +6,11 @@ echo constructPageHeader("Atapi's Homepage! :: Blog");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets\img\blog\icon.png"> Blog</h1>
-<p>The ramblings of an idiot who sucks at writing.</p>
+<p>BE SUBJECT TO MY RAMBLINGS!<br/>
+<small>
+    <a href="/rss.xml"><img style="vertical-align:middle" src="/assets\img\blog\rss.gif"> Subscribe to my RSS Feed!</a>
+</small>
+    </p><br/>
 <a href="gigatron/">Emulating the Gigatron TTL in MAME</a><br />
 <a href="talesfromscratch/">Tales from the Computery Nonsense folder</a><br />
 <a href="homepage/">Welcome to my Homepage!</a><br />

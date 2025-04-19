@@ -74,6 +74,8 @@ function constructPageFooter() {
                 <a href="/files/">Filedump</a>
                  -
                 <a href="/site/disclosure.php">Privacy Policy</a>
+                -
+                <a href="/rss.xml">RSS Feed</a>
                 <br/>
         </small>
     EOF;
