@@ -187,7 +187,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <img src="/assets/img/buttons/lego.gif">
 <a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 <a href="https://flipperzero.one/"><img src="/assets/img/buttons/flipper.gif"></a>
-<a href="https://https://flurrys.neocities.org//"><img src="/assets/img/buttons/nescartridges.gif"></a>
+<a href="https://flurrys.neocities.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
