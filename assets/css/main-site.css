@@ -88,6 +88,7 @@ a {
 
 a:hover {
     color: #99d9fe;
+    font-style: italic;
 }
 
 small {
