@@ -117,6 +117,11 @@ Simon Mason's personal website, with a page dedicated to his research on numbers
 <a href="https://web.archive.org/web/20210619130004/https://www.nicamshilova.fr/">Nicam Shilova</a><br />
 Now-defunct French webpage belonging to Nicolas "Nicam Shilova" Campion, who has made a bunch of webcomics and ColecoVision games.
 </p>
+<br />
+<p>
+<a href="https://protoweb.org/">Protoweb</a><br />
+Proxy server that redirects to a directory of websites and Wayback Machine captures, with support for legacy web browsers!
+</p>
 
 <?php
 
