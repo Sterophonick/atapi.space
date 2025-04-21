@@ -44,7 +44,7 @@ echo constructPageHeader("Atapi's Homepage!");
         </li>
         <li>
             Site git commit: <code><?php
-                $test = $_SERVER['DOCUMENT_ROOT'];
+                $test = $_SERVER['DOCUMENT_ROOT'] . '/.git/FETCH_HEAD';
                 $test_cut = substr($test, 0,40);
                 echo $test_cut;
             ?></code>
