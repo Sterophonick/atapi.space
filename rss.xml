@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>I fixed the RSS!</title>
+            <link>https://atapi.space/</link>
+            <guid>ifixedrss</guid>
+            <pubDate>Sun, 21 Apr 2025 00:00:00 MST</pubDate>
+            <description>hiiii!!!! sorry, i just fixed all the RSS entries so that they actually display properly in most readers! i'm still learning how this thing works, forgive me,,,,</description>
+        </item>
+
+        <item>
             <title>Go check out Dillie's Domain NOW!!!!!!!!!!!!!!!!!</title>
             <link>https://flurrys.neocities.org</link>
             <guid>https://flurrys.neocities.org</guid>
