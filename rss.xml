@@ -4,28 +4,29 @@
         <title>Atapi's Homepage!</title>
         <description>Atapi's blog posts and site updates! Be subject to my ramblings!'</description>
         <link>https://atapi.space/</link>
-        <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
             <title>Go check out Dillie's Domain NOW!!!!!!!!!!!!!!!!!</title>
             <link>https://flurrys.neocities.org</link>
             <guid>https://flurrys.neocities.org</guid>
-            <pubDate>Sun, Apr 20 2025 00:00:00 MST</pubDate>
+            <pubDate>Sun, 20 Apr 2025 08:00:00 MST</pubDate>
             <description>big shoutout to dillie (@nescartridges) purely because her site is cool and epic and its also part of my epic button collection</description>
         </item>
 
         <item>
             <title>New RSS Feed!</title>
             <link>https://atapi.space/</link>
-            <pubDate>Fri, Apr 18 2025 00:00:00 MST</pubDate>
+            <guid isPermaLink="false">newRssFeed</guid>
+            <pubDate>Fri, 18 Apr 2025 08:00:00 MST</pubDate>
             <description>hiiii!!! new site update! i figure i'd try out this RSS thing!</description>
         </item>
 
         <item>
             <title>Adventures in Rock Band on Linux</title>
-            <link>https://atapi.space/site/blog/yarg</link>
-            <guid>https://atapi.space/site/blog/yarg</guid>
-            <pubDate>Thu, Mar 27 2025 00:00:00 MST</pubDate>
+            <link>https://atapi.space/site/blog/yarg/</link>
+            <guid>https://atapi.space/site/blog/yarg/</guid>
+            <pubDate>Thu, 27 Mar 2025 08:00:00 MST</pubDate>
             <description>I detail the rediscovery of my love for Rock Band over here!</description>
         </item>
 
@@ -79,24 +80,24 @@
 
         <item>
             <title>Those Weird Numbers from the Sky</title>
-            <link>https://atapi.space/site/blog/site_theory/</link>
-            <guid>https://atapi.space/site/blog/site_theory/</guid>
+            <link>https://atapi.space/site/blog/numbers/</link>
+            <guid>https://atapi.space/site/blog/numbers/</guid>
             <pubDate>Mon, 14 Oct 2024 00:00:00 MST</pubDate>
             <description>Over here, I infodump about various historical numbers stations, used by undercover military operatives primarily during the first Cold War.</description>
         </item>
 
         <item>
             <title>The Theory Behind This Site</title>
-            <link>https://atapi.space/site/blog/homepage/</link>
-            <guid>https://atapi.space/site/blog/homepage/</guid>
+            <link>https://atapi.space/site/blog/site_theory/</link>
+            <guid>https://atapi.space/site/blog/site_theory/</guid>
             <pubDate>Sat, 5 Oct 2024 00:00:00 MST</pubDate>
             <description>A sort of manifesto, if you will, about why I previously designed the site the way that I did. Needs an addendum.</description>
         </item>
 
         <item>
             <title>Welcome to my Homepage!</title>
-            <link>https://atapi.space/site/blog/site_theory/</link>
-            <guid>https://atapi.space/site/blog/site_theory/</guid>
+            <link>https://atapi.space/site/blog/homepage/</link>
+            <guid>https://atapi.space/site/blog/homepage/</guid>
             <pubDate>Mon, 7 Oct 2024 00:00:00 MST</pubDate>
             <description>A short essay about why I think the personal web is so special!</description>
         </item>
