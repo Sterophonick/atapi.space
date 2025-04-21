@@ -43,7 +43,11 @@ echo constructPageHeader("Atapi's Homepage!");
             Caddy w/ PHP-FPM 8.3
         </li>
         <li>
-            Site git commit: <code><?php shell_exec('git rev-parse HEAD | head -n 1');?></code>
+            Site git commit: <code><?php
+                $test = $_SERVER['DOCUMENT_ROOT'];
+                $test_cut = substr($test, 0,40);
+                echo $test_cut;
+            ?></code>
         </li>
     </ul>
 </div>
