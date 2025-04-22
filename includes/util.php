@@ -58,12 +58,12 @@ function constructPageFooter() {
     EOF;
 
     if($_SERVER['HTTPS']) {
-        $counter = 'https://www.websitecounterfree.com/c.php?d=9&id=60115&s=1';
+        $counter = 'https://counter.websiteout.com/js/9/7/18100/0';
     } else {
-        $counter = 'http://www.websitecounterfree.com/c.php?d=9&id=60115&s=1';
+        $counter = 'http://counter.websiteout.com/js/9/7/18100/0';
     }
 
-     if($_SERVER['SERVER_NAME'] == "atapi.space" || $_SERVER['SERVER_NAME'] == "alt.atapi.space") $htmlPage .= "<div align='center'><a href='https://www.websitecounterfree.com'><img src=" . $counter ." border='0' alt='Free Website Counter'></a><br / ><small><a href='https://www.websitecounterfree.com' title='Free Website Counter'></a></small></div><br/>";
+     if($_SERVER['SERVER_NAME'] == "atapi.space" || $_SERVER['SERVER_NAME'] == "alt.atapi.space") $htmlPage .= '<div align="center"><script type="text/javascript" src="' . $counter . '"></script></div><br/>';
 
     $htmlPage .= <<<EOF
         <small>
