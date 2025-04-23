@@ -1,5 +1,7 @@
 <?php
 
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
+
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle) {
@@ -50,20 +52,20 @@ function constructPageFooter() {
                     <a href="..">(Go Back)</a>
                     <a href="#top">(Top of Page)</a><br/>
                 </p>
-                <img class="pixelArt" src="/assets/img/buttons/atapi.gif"> <img class="pixelArt" src="/assets/img/buttons/cc-by-nc.png"><br/>
+                <div id="footerImages" style="height: 31px; font-size: 0;">
+                    <img class="pixelArt" style="padding-right: 25px;" src="/assets/img/buttons/atapi.gif">
+    EOF;
+
+    $htmlPage .= hitCounter();
+
+    $htmlPage .= <<<EOF
+                    <img class="pixelArt" style="padding-left: 25px;" src="/assets/img/buttons/cc-by-nc.png"><br/>
+                </div>
                 <p>
                     made with love 2020-2025 Atapi/Sterophonick<br/>
                     any and all mentions of properties not mine belong to their respective owners<br/>
                 </p>
     EOF;
-
-    if($_SERVER['HTTPS']) {
-        $counter = 'https://counter.websiteout.com/js/9/7/18100/0';
-    } else {
-        $counter = 'http://counter.websiteout.com/js/9/7/18100/0';
-    }
-
-     if($_SERVER['SERVER_NAME'] == "atapi.space" || $_SERVER['SERVER_NAME'] == "alt.atapi.space") $htmlPage .= '<div align="center"><script type="text/javascript" src="' . $counter . '"></script></div><br/>';
 
     $htmlPage .= <<<EOF
         <small>
