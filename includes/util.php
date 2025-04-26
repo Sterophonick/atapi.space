@@ -52,15 +52,23 @@ function constructPageFooter() {
                     <a href="..">(Go Back)</a>
                     <a href="#top">(Top of Page)</a><br/>
                 </p>
-                <div id="footerImages" style="height: 31px; font-size: 0;">
-                    <img class="pixelArt" style="padding-right: 25px;" src="/assets/img/buttons/atapi.gif">
+                <table id="footerImages" style="height: 31px; font-size: 0;" width="340px" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <img class="pixelArt" style="padding-right: 25px;" src="/assets/img/buttons/atapi.gif">
+                    </td>
+                    <td>
     EOF;
 
     $htmlPage .= hitCounter();
 
     $htmlPage .= <<<EOF
-                    <img class="pixelArt" style="padding-left: 25px;" src="/assets/img/buttons/cc-by-nc.png"><br/>
-                </div>
+                    </td>
+                    <td>
+                        <img class="pixelArt" style="padding-left: 25px;" src="/assets/img/buttons/cc-by-nc.png">
+                    </td>
+                </tr>
+                </table>
                 <p>
                     made with love 2020-2025 Atapi/Sterophonick<br/>
                     any and all mentions of properties not mine belong to their respective owners<br/>
