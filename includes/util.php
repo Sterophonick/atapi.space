@@ -1,4 +1,7 @@
 <?php
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
+
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle) {
@@ -53,22 +56,7 @@ function constructPageFooter() {
                     <img class="pixelArt" style="padding-right: 25px;" src="/assets/img/buttons/atapi.gif">
     EOF;
 
-    // ugly evil hack to work around bots and stuff
-    // we wrap the request to the counter around javascript
-    // the counter must emit proper HTML for this to work
-    $htmlPage .= <<<EOF
-        <script>
-
-            fetch('/includes/counter.php', { method: 'POST' })
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById('hitCounter').innerHTML = html;
-            });
-        </script>
-
-        <span id="hitCounter"></span>
-
-    EOF;
+    $htmlPage .= hitCounter();
 
     $htmlPage .= <<<EOF
                     <img class="pixelArt" style="padding-left: 25px;" src="/assets/img/buttons/cc-by-nc.png"><br/>

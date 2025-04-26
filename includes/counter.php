@@ -1,7 +1,7 @@
 <?php
 
 // Data abstracted from that JSON of known bots and crawlers. We fuzzy select them
-$bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit", ];
+$bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit"];
 $userAgent = strtolower($_SERVER['HTTP_USER_AGENT'] ?? '');
 
 function hitCounter() {
@@ -49,10 +49,5 @@ function hitCounter() {
     return $counterHtml;
 }
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(403);
-    exit;
-}
-
-echo hitCounter();
+// echo hitCounter();
 ?>
