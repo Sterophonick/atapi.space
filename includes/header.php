@@ -536,7 +536,7 @@ $quoteStrings = array(
     "Your Nintendo GameCube (model DOL-001) appears to be malfunctioning.", "-- toypop",
     "BOOTROM 8046 \\ ERROCODE: 00F800FE", "-- Nintendo 3DS, NAND init error",
     "Please insert the Wii Startup Disc. This will set up your Wii console.", "-- Nintendo Wii, prerelease NAND img",
-    "Nakamura MEMTest Scene 2097136 \ press `A` button to start network update", "-- Wii System Menu 1.0-RC1",
+    "Nakamura MEMTest Scene 2097136 \\ press 'A' button to start network update", "-- Wii System Menu 1.0-RC1",
     "The system files are corrupted. Please refer to the Wii Operations Manual for help troubleshooting.", "-- Nintendo Wii",
     "Error #001, unauthorized device has been detected.", "-- Nintendo Wii",
     "The GAME BOY® PLAYER is not connected. Please turn the power off and connect a GAME BOY® PLAYER.", "-- Game Boy Player",
@@ -554,6 +554,8 @@ $quoteStrings = array(
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
     "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
     "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
+    "Don't think I am rude when I tell you that cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
+
 );
 
 $musicPaths = array(
