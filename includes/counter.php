@@ -5,11 +5,13 @@ function hitCounter() {
     $bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit"];
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
+    $doNotIncrement = 0;
+
     //echo $userAgent;
 
     foreach ($bots as $bot) {
         if (str_contains($userAgent, $bot)) {
-            return "";
+            $doNotIncrement = 1;
         }
     }
 
@@ -29,7 +31,7 @@ function hitCounter() {
     fclose( $file );
 
     // Update the count.
-    $count = strval( abs( intval( $count ) ) + 1 );
+    if(!($doNotIncrement)) { $count = strval( abs( intval( $count ) ) + 1 ); }
 
     // Opens countlog.txt to change new hit number.
     $file = fopen( $path, 'w' );
