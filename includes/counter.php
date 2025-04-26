@@ -1,10 +1,12 @@
 <?php
 
-// Data abstracted from that JSON of known bots and crawlers. We fuzzy select them
-$bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit"];
-$userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
-
 function hitCounter() {
+    // Data abstracted from that JSON of known bots and crawlers. We fuzzy select them
+    $bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit"];
+    $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+
+    //echo $userAgent;
+
     foreach ($bots as $bot) {
         if (str_contains($userAgent, $bot)) {
             return "";
