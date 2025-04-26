@@ -1,0 +1,96 @@
+<html>
+<meta name="darkreader-lock">
+<style type="text/css">
+<!--
+body {  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt}
+p { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt; color: #FFFFFF }
+td { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt }
+th { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt }
+h1 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 160pt; color: #000000}
+h2 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000099}
+-->
+</style>
+<body bgcolor="000000" background="/assets/img/troll/jockey.png">
+    <body>
+
+    <audio id="chicken-jockey" src="/assets/snd/troll/chicken-jockey.mp3" autoplay loop></audio>
+    <table align="center" valign="middle">
+      <tr>
+        <td align="center" valign="middle">
+
+<script language="javascript" type="text/javascript">
+
+function hexfromdec(num) {
+if (num > 65535) { return ("err!") }
+
+first = Math.round(num/4096 - .5);
+temp1 = num - first * 4096;
+second = Math.round(temp1/256 -.5);
+temp2 = temp1 - second * 256;
+third = Math.round(temp2/16 - .5);
+fourth = temp2 - third * 16;
+return (""+getletter(third)+getletter(fourth));
+}
+
+function getletter(num) {
+if (num < 10) {
+return num;
+}
+else {
+if (num == 10) {
+return "A" }
+if (num == 11) {
+return "B" }
+if (num == 12) {
+return "C" }
+if (num == 13) {
+return "D" }
+if (num == 14) {
+return "E" }
+if (num == 15) {
+return "F" }
+}
+}
+
+
+
+for(var i=1;i<=50;i++) {
+
+if (i == 50) {
+ document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+i*2+'; width: 800; color: #000000; font-size: '+i*2+'pt;">CHICKEN</div>\n');
+
+ } else {
+  document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+i*2+'; width: 800; color: #' + hexfromdec(i*4) +  hexfromdec(i*4) + hexfromdec(i*4) + '; font-size: '+i*2+'pt;"> CHICKEN</div>\n');
+}
+}
+
+for(var i=1;i<=50;i++) {
+
+if (i == 50) {
+ document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+(i+110)*2+'; width: 800; color: #000000; font-size: '+i*2+'pt;">JOCKEY</div>\n');
+ } else {
+  document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+(i+110)*2+'; width: 800; color: #' + hexfromdec(i*4) +  hexfromdec(i*4) + hexfromdec(i*4) + '; font-size: '+i*2+'pt;">JOCKEY</div>\n');
+}
+}
+
+// for(var i=1;i<=50;i++) {
+//
+// if (i == 50) {
+//  document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+(i+220)*2+'; width: 800; color: #000000; font-size: '+i*2+'pt;">TO EXPLODE</div>\n');
+//  } else {
+//   document.write('<div style="position:absolute; z-index: auto; left:'+i*2+'; top: '+(i+220)*2+'; width: 800; color: #' + hexfromdec(i*4) +  hexfromdec(i*4) + hexfromdec(i*4) + '; font-size: '+i*2+'pt;">TO EXPLODE</div>\n');
+// }
+// }
+</script>
+
+<!-- div style="position: absolute; z-index: auto; left: 12px; top: 8px; color: #000000; font-size: 160pt;">YOURE</div>
+<div style="position: absolute; z-index: 4; left: 600; top: 30; color: #FFFFFF; font-size: 160px;">THE</div>
+<div style="position: absolute; z-index: 3; left: 594; top: 24; color: #000000; font-size: 160px;">THE</div -->
+
+
+        </td>
+      </tr>
+    </table>
+    <p>death to all AI scraping bots</p>
+  </body>
+</html>
