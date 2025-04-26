@@ -51,6 +51,15 @@ echo constructPageHeader("Atapi's Homepage! :: Site & Privacy Info");
         </li>
     </ul>
 </div>
+<br/>
+<h2>Anti-Scraping Measures</h2>
+<p>
+    There's a measure that the Caddy server takes to silence AI scrapers. It will check your user agent against the following regex:<br/>
+    <code><small>CCBot|GPT|Claude|anthropic|\bcohere\b|\bmeta\b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
+
+    When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. It might be better in the long run to redirect them to a tarpit so that their training data is even more poisoned, but at the moment I'm not sure how to go about that. If I ever do something that inhibits your ability to browse my site, please let me know!
+</p>
+<br/>
 <p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
 
 <img width="160px" src="/assets/img/disclosure/cat.gif"><br/>
