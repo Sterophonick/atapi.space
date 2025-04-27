@@ -583,7 +583,7 @@ $musicPaths = array(
     "dualtrax/cro - orion crackmusic", "/assets/snd/music/orion.mp3",
     "cro - marihuana", "/assets/snd/music/marihuana.mp3",
     "Fearofdark - Next", "/assets/snd/music/next.mp3",
-    "Maktone - class cracktro#15", "/assets/snd/music/class cracktro#15.mp3",
+    "Maktone - class cracktro#15", "/assets/snd/music/class cracktro_15.mp3",
     "Maktone - class11.time flies", "/assets/snd/music/class11.time flies.mp3",
     "Kulor - An Anthem for WinterChip", "/assets/snd/music/winterchip.mp3",
     "Kulor - Hexaprism Hall", "/assets/snd/music/hexaprism.mp3",
@@ -595,6 +595,7 @@ $musicPaths = array(
     "V.E.M. - keygentune2003 orn", "/assets/snd/music/keygentune2003.mp3",
     "kfaraday - On the Road", "/assets/snd/music/on_the_road.mp3",
     "Nintendo - Main Theme (Nintendo Video)", "/assets/snd/music/nintendo_video.mp3",
+    "Naoki Kodaka - Underground Concourse (PocketNES Dendy Mix)", "/assets/snd/music/pocketnes_concourse.mp3",
 );
 
 ?>
