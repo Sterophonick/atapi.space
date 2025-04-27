@@ -59,6 +59,8 @@ $removePhp = array_search('/includes/header.php', $indexPhpFiles);
 unset($indexPhpFiles[$removePhp]);
 $removePhp = array_search('/includes/util.php', $indexPhpFiles);
 unset($indexPhpFiles[$removePhp]);
+$removePhp = array_search('/includes/counter.php', $indexPhpFiles);
+unset($indexPhpFiles[$removePhp]);
 
 foreach($indexPhpFiles as $file) {
     echo '<a href="' . $file . '">' . $file . '</a><br/>';
