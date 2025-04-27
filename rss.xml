@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>chicken jockey</title>
+            <link>https://atapi.space/wordpress</link>
+            <guid>wordpress_troll</guid>
+            <pubDate>Sun, 27 Apr 2025 00:00:00 MST</pubDate>
+            <description>CHICKEN JOCKEY</description>
+        </item>
+
+        <item>
             <title>Various Security and Counter Changes</title>
             <link>https://atapi.space/site/disclosure.php</link>
             <guid>counter_updates</guid>
