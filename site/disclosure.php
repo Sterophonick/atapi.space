@@ -61,7 +61,15 @@ echo constructPageHeader("Atapi's Homepage! :: Site & Privacy Info");
 </p>
 <br/>
 <p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
-
+<h2>Content Attribution</h2>
+<p>
+- Standard typeface is Motherish by ArtsyOmni, CJK Script is Zen Maru Gothic<br/>
+- Monospace typeface is Ubuntu Mono<br/>
+- CSS and layout inspiration from Kokoscript<br/>
+- Oneko.js by adryd325, graphic modified by ParkerCC<br/>
+- Background is an altered version of the MacOS 9 cats wallpaper<br/>
+- No copyright infringement intended<br/>
+</p>
 <img width="160px" src="/assets/img/disclosure/cat.gif"><br/>
 
 <?php echo constructPageFooter(); ?>

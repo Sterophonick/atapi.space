@@ -48,14 +48,7 @@ Hector Martin - Asahi Lina - Sonicadvance1 - Alyssa Rosenzweig - cathodegaytube 
 RAZOR1911 - FAiRLiGHT - p0ke - maracuja - zerkman - XAYAX - pheonixbound - RinkuSonic41 - Tahg - LGR /
 lazygamereviews - James Rolfe - Fangamer - Aaron Giles - TheEssem - InvoxiPlayGames - Velveteen - and YOU!
 </marquee>
-<br/><br/>
-<p>
-Site credits:<br/>
-- Standard typeface is Motherish by ArtsyOmni, CJK Script is Zen Maru Gothic<br/>
-- Monospace typeface is Ubuntu Mono<br/>
-- CSS and layout inspiration from Kokoscript<br/>
-- Oneko.js by adryd325, graphic modified by ParkerCC<br/>
-</p>
+<br/>
 
 <?php
 
