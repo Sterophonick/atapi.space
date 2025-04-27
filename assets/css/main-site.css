@@ -92,8 +92,8 @@ a:hover {
 }
 
 a:hover img {
-    filter: drop-shadow(1px 1px 0px #00008a) drop-shadow(-1px -1px 0px #00008a)
-    drop-shadow(1px -1px 0px #00008a) drop-shadow(-1px 1px 0px #00008a);
+    filter: drop-shadow(1px 1px 0px #7F7FFF) drop-shadow(-1px -1px 0px #7F7FFF)
+    drop-shadow(1px -1px 0px #7F7FFF) drop-shadow(-1px 1px 0px #7F7FFF);
 }
 
 small {
