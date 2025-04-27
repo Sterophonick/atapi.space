@@ -97,6 +97,12 @@ a {
 
 a:hover {
     color: #99d9fe;
+    font-style: italic;
+}
+
+a:hover img {
+    filter: drop-shadow(1px 1px 0px #7F7FFF) drop-shadow(-1px -1px 0px #7F7FFF)
+    drop-shadow(1px -1px 0px #7F7FFF) drop-shadow(-1px 1px 0px #7F7FFF);
 }
 
 small {
