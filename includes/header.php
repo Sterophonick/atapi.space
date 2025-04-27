@@ -554,7 +554,9 @@ $quoteStrings = array(
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
     "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
     "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
-    "Don't think I am rude when I tell you that cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
+    "Don't think I am that rude when I tell you that cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
+    "Cat food, cat food, cat food, again!?", "-- King Crimson, Cat Food",
+
 
 );
 
