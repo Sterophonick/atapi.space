@@ -90,6 +90,11 @@ a:hover {
     color: #99d9fe;
 }
 
+a:hover img {
+    filter: drop-shadow(1px 1px 0px #00008a) drop-shadow(-1px -1px 0px #00008a)
+    drop-shadow(1px -1px 0px #00008a) drop-shadow(-1px 1px 0px #00008a);
+}
+
 small {
     font-size: 10pt;
 }
