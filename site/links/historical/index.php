@@ -61,7 +61,7 @@ lawsuit by Sony.
 </p>
 <br />
 <p>
-<a href="/interstitial.html?name=DarkFader.net&dest=https://web.archive.org/web/20170428071915/https://www.darkfader.net/">darkfader.net</a><br />
+<a href="/interstitial.php?name=DarkFader.net&dest=https://web.archive.org/web/20170428071915/https://www.darkfader.net/">darkfader.net</a><br />
 Now-defunct website belonging to a homebrew programmer by the name of DarkFader.
 </p>
 <br />
