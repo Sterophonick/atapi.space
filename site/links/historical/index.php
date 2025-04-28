@@ -137,7 +137,6 @@ Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the
 <a href="https://web.archive.org/web/20241212033143/http://www.1000klub.com/Qbert/">Q*bert for Game Boy</a><br />
 Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert.
 </p>
-<br/>
 
 <?php
 
