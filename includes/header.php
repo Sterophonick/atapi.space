@@ -556,6 +556,7 @@ $quoteStrings = array(
     "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
     "Don't think I am that rude when I tell you that cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
     "Cat food, cat food, cat food, again!?", "-- King Crimson, Cat Food",
+    "WHAT IS WRONG WITH THE ELF. 0000004f", "-- MrCheeze, GYTB",
 );
 
 $musicPaths = array(

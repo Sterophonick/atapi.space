@@ -122,6 +122,16 @@ Now-defunct French webpage belonging to Nicolas "Nicam Shilova" Campion, who has
 <a href="https://protoweb.org/">Protoweb</a><br />
 Proxy server that redirects to a directory of websites and Wayback Machine captures, with support for legacy web browsers!
 </p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20070302032849/http://gba.pqrs.org/">gba.pqrs.org</a><br />
+Takayama Fumihiko's page on his bullet hell games for the GBA, BulletGBA and Vulkanon.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20070302032849/http://gba.pqrs.org/">Team Longarm</a><br />
+Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the 2004Mbit Competition.
+</p>
 
 <?php
 

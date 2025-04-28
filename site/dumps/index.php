@@ -43,6 +43,11 @@ only work on old versions of Windows.</p>
 <img width="540px" src="/assets/img/dumps/FireCard-Disc.jpg"><br />
 <a href="/files/MagicCard.7z">ISO Image</a><br />
 <br />
+<h3 style="font-size:24pt">SuperCard SD v2.71</h3>
+<p>The software necessary to use the SuperCard SD, SuperCard miniSD, and the SuperCard microSD family of Game Boy Advance flashcarts.</p>
+<img src="/assets/img/dumps/supercard.png"><br />
+<a href="/files/setupsdV271en.zip">Zip Archive</a><br />
+<br/>
 <h3>Miscellaneous Stuff</h3>
 <a href="WavePluginManual/">PogoShell GSM Plugin ps2gsm Guide (Translated)</a><a href="/files/ps2gsm003.zip">
 (Plugin download)</a><br />
