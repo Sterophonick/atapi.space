@@ -309,10 +309,7 @@ File hosting for all sorts of programs and utilities for Tandy TRS-80 CoCo-famil
 <a href="https://www.sinclairzxworld.com/">Sinclair ZX World</a><br />
 phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
 </p>
-<p>
-<a href="http://1000klub.com/Qbert/">Q*bert for Game Boy</a><br />
-Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert.
-</p>
+<br/>
 
 <?php
 

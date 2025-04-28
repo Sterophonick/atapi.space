@@ -132,6 +132,12 @@ Takayama Fumihiko's page on his bullet hell games for the GBA, BulletGBA and Vul
 <a href="https://web.archive.org/web/20070302032849/http://gba.pqrs.org/">Team Longarm</a><br />
 Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the 2004Mbit Competition.
 </p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20241212033143/http://www.1000klub.com/Qbert/">Q*bert for Game Boy</a><br />
+Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert.
+</p>
+<br/>
 
 <?php
 
