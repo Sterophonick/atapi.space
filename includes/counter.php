@@ -40,6 +40,8 @@ function hitCounter() {
     }
     fclose($file);
 
+    $count = strval($count);
+
     // total of 7 digits -- we can alway add more later
     while (strlen($count) < 7) {
         $count = "0" . $count;
