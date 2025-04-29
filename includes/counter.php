@@ -34,6 +34,7 @@ function hitCounter() {
         // Update the count.
         if(!($doNotIncrement)) { $count++; }
 
+        rewind($file);
         fputs( $file, $count );
         fflush( $file);
         flock($file, LOCK_UN);
