@@ -29,13 +29,11 @@ function hitCounter() {
             return "";
         }
 
-        $count = fgets( $file, 7 );
+        $count = fgets($file);
 
         // Update the count.
-        if(!($doNotIncrement)) { $count = strval( abs( intval( $count ) ) + 1 ); }
+        if(!($doNotIncrement)) { $count++; }
 
-        // Opens countlog.txt to change new hit number.
-        $file = fopen( $path, 'w' );
         fwrite( $file, $count );
         fflush( $file);
         flock($file, LOCK_UN);
