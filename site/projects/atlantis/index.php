@@ -96,6 +96,9 @@ I've written a bunch of things for the Game Boy Advance. Here's a collection of 
         <li>
         <a href="#SuperMeatBoyMusicPlayer">Super Meat Boy Music Player</a>
         </li>
+        <li>
+        <a href="#TransSizeCode">Trans Flag Sizecoding Test</a>
+        </li>
     </ul>
 </div>
 
@@ -393,6 +396,11 @@ Meat Boy to the GBA?</p>
 <a href="/files/Super Meat Boy music player.7z">Source Code...? (For archival purposes)</a><br />
 <a href="/files/Super Meat Boy music player (later prototype).7z">Source Code (Slightly later
 prototype)...? (For archival purposes)</a><br />
+<br/>
+<h2 id="TransSizeCode">Trans Flag Sizecoding Test</h2>
+<p>Tiny assembler demo that draws a trans pride flag in 176 bytes (332 total w/ Nintendo Logo Data)</p>
+<img src="/assets/img/projects/gba/misc/sizecode.png"><br />
+<a href="/files/sizecode.zip">ROM Image + armips source</a><br />
 
 <?php
 
