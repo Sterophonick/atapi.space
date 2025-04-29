@@ -29,12 +29,12 @@ function hitCounter() {
             return "";
         }
 
-        $count = fgets($file);
+        $count = fgets($file, 100);
 
         // Update the count.
         if(!($doNotIncrement)) { $count++; }
 
-        fwrite( $file, $count );
+        fputs( $file, $count );
         fflush( $file);
         flock($file, LOCK_UN);
     }
