@@ -22,21 +22,25 @@ function hitCounter() {
     // Opens countlog.txt to read the number of hits.
     $file  = fopen( $path, 'r' );
 
-    // return if we could not properly open the file
-    if($file == false) {
-        return "";
+    if(flock($file, LOCK_EX)) {
+
+        // return if we could not properly open the file
+        if($file == false) {
+            return "";
+        }
+
+        $count = fgets( $file, 7 );
+
+        // Update the count.
+        if(!($doNotIncrement)) { $count = strval( abs( intval( $count ) ) + 1 ); }
+
+        // Opens countlog.txt to change new hit number.
+        $file = fopen( $path, 'w' );
+        fwrite( $file, $count );
+        fflush( $file);
+        flock($file, LOCK_UN);
     }
-
-    $count = fgets( $file, 7 );
-    fclose( $file );
-
-    // Update the count.
-    if(!($doNotIncrement)) { $count = strval( abs( intval( $count ) ) + 1 ); }
-
-    // Opens countlog.txt to change new hit number.
-    $file = fopen( $path, 'w' );
-    fwrite( $file, $count );
-    fclose( $file );
+    fclose($file);
 
     // total of 7 digits -- we can alway add more later
     while (strlen($count) < 7) {
