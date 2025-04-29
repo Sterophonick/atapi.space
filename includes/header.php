@@ -598,6 +598,7 @@ $musicPaths = array(
     "Nintendo - Main Theme (Nintendo Video)", "/assets/snd/music/nintendo_video.mp3",
     "Naoki Kodaka - Underground Concourse (PocketNES Dendy Mix)", "/assets/snd/music/pocketnes_concourse.mp3",
     "Allister Brimble - px.bladswede remix!", "/assets/snd/music/projectx.mp3",
+    "Jogeir Liljedahl - addiction", "/assets/snd/music/addiction.mp3",
 );
 
 ?>
