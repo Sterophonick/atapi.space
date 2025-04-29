@@ -20,7 +20,7 @@ function hitCounter() {
     $path = '/srv/counter.txt';
 
     // Opens countlog.txt to read the number of hits.
-    $file  = fopen( $path, 'r' );
+    $file  = fopen( $path, 'r+w' );
 
     if(flock($file, LOCK_EX)) {
 
