@@ -18,15 +18,15 @@ Category: Infodump<br/>
 
     You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts.<br/><br/>
 
-    insert funny flashcart advertisement here.<br/><br/>
-
-    At the time, these cartridges were much more limited than what we have now, usually requiring a fancy schmancy linker that often connected to your PC over a parallel connection. Later flash linkers would connect over USB but these too were eventually dropped in favor of CompactFlash, and later on, SD cards. Early cartridges were usually single-game, only able to hold 64 Mbits or so and had no ROM page swapping hardware, but they very quickly grew in storage capacity and started including custom CPLDs as a memory controller to allow the user to select which game they wanted to play on startup.<br/><br/>
-
     <video width="160" height="90" autoplay muted loop>
     <source src="/assets/vid/easybuy2000.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
-    </video>
+    </video><br/><br/>
+
+    At the time, these cartridges were much more limited than what we have now, usually requiring a fancy schmancy linker that often connected to your PC over a parallel connection. Later flash linkers would connect over USB but these too were eventually dropped in favor of CompactFlash, and later on, SD cards. Early cartridges were usually single-game, only able to hold 64 Mbits or so and had no ROM page swapping hardware, but they very quickly grew in storage capacity and started including custom CPLDs as a memory controller to allow the user to select which game they wanted to play on startup.<br/><br/>
+
+
 
     <br/><br/>
 
