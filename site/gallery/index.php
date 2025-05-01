@@ -130,6 +130,8 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
     </ul>
 </div>
 
+<p>Click on the entires to view the full-size versions, if applicable.</p><br/>
+
 <div id="galleryContent">
 <h2 id="MadeByMe">Made by Myself</h2>
 <table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
@@ -139,7 +141,7 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
       <p>February 2011 <br />Little doodle made in Windows XP paint when I was 6 of the Xbox LIVE Arcade game, ilomilo. </p>
     </td>
     <td>
-      <img class="galleryImg" src="/assets/img/gallery/fez_artwork_2016.jpg">
+      <a href="/assets/img/gallery/fez_artwork_2016.jpg"><img class="galleryImg" src="/assets/img/gallery/thumbs/fez_artwork_2016_thumb.jpg"></a>
       <p>March 2016(?) <br />Fan art of FEZ that I made for art class. </p>
     </td>
     <td>
