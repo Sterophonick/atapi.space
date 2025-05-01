@@ -557,6 +557,7 @@ $quoteStrings = array(
     "Don't think I am that rude when I tell you that cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
     "Cat food, cat food, cat food, again!?", "-- King Crimson, Cat Food",
     "WHAT IS WRONG WITH THE ELF. 0000004f", "-- MrCheeze, GYTB",
+    "We are Samurai... the keyboard cowboys.", "-- The Plague, Hackers (1995)",
 );
 
 $musicPaths = array(
