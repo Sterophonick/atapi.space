@@ -147,6 +147,11 @@ Independent company behind the Afterburner Game Boy Advance frontlight kit.
 <a href="https://web.archive.org/web/*/http://www.gbax.com/">GBAX.com</a><br />
 Game Boy Advance coding competitons and hardware links.
 </p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/*/http://pocketheaven.com/phpBB2/">PocketHeaven Forum</a><br />
+Legacy forum for handheld discussion.
+</p>
 
 
 <?php
