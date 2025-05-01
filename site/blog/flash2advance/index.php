@@ -18,7 +18,7 @@ Category: Infodump<br/>
 
     You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts.<br/><br/>
 
-    <video width="160" height="90" autoplay muted loop>
+    <video width="160px" height="90px" autoplay muted loop>
     <source src="/assets/vid/easybuy2000.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -26,10 +26,20 @@ Category: Infodump<br/>
 
     At the time, these cartridges were much more limited than what we have now, usually requiring a fancy schmancy linker that often connected to your PC over a parallel connection. Later flash linkers would connect over USB but these too were eventually dropped in favor of CompactFlash, and later on, SD cards. Early cartridges were usually single-game, only able to hold 64 Mbits or so and had no ROM page swapping hardware, but they very quickly grew in storage capacity and started including custom CPLDs as a memory controller to allow the user to select which game they wanted to play on startup.<br/><br/>
 
-    <img src="/assets/img/blog/flash2advance/f2a-load.png"><br/><br/>
+    <img src="/assets/img/blog/flash2advance/f2a-load.png"><br/>
+</p>
 
-    <br/><br/>
+<h2>My Collection</h2>
+<img width="720px" height="480px" src="/assets/img/blog/flash2advance/temp.jpg"><br/><br/>
+<p>
+    I cannot be trusted with money.<br/><br/>
 
+    My collection of oddball Game Boy Advance flashing hardware is decently extensive.</br><br/>
+</p>
+
+<br/><br/>
+
+<p>
     basic outline:
     - showing off my collection
     - teardowns of cartridges
