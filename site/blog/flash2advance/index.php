@@ -28,6 +28,8 @@ Category: Infodump<br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
     </video>
 
+    <br/><br/>
+
     basic outline:
     - showing off my collection
     - teardowns of cartridges
