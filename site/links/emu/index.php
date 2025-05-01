@@ -309,6 +309,11 @@ File hosting for all sorts of programs and utilities for Tandy TRS-80 CoCo-famil
 <a href="https://www.sinclairzxworld.com/">Sinclair ZX World</a><br />
 phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
 </p>
+<br/>
+<p>
+<a href="https://www.mrdictionary.net/">Matthew Carr's Website'</a><br />
+Site belonging to Matthew Carr, developer of Blast Arena Advance.
+</p>
 
 <?php
 

@@ -137,6 +137,17 @@ Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the
 <a href="https://web.archive.org/web/20241212033143/http://www.1000klub.com/Qbert/">Q*bert for Game Boy</a><br />
 Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert.
 </p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20030524123759/http://tritonlabs.com/">Triton Labs</a><br />
+Independent company behind the Afterburner Game Boy Advance frontlight kit.
+</p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/*/http://www.gbax.com/">GBAX.com</a><br />
+Game Boy Advance coding competitons and hardware links.
+</p>
+
 
 <?php
 
