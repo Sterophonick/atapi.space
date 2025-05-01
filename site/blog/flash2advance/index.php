@@ -26,7 +26,7 @@ Category: Infodump<br/>
 
     At the time, these cartridges were much more limited than what we have now, usually requiring a fancy schmancy linker that often connected to your PC over a parallel connection. Later flash linkers would connect over USB but these too were eventually dropped in favor of CompactFlash, and later on, SD cards. Early cartridges were usually single-game, only able to hold 64 Mbits or so and had no ROM page swapping hardware, but they very quickly grew in storage capacity and started including custom CPLDs as a memory controller to allow the user to select which game they wanted to play on startup.<br/><br/>
 
-
+    <img src="/assets/img/blog/flash2advance/f2a-load.png"><br/><br/>
 
     <br/><br/>
 
