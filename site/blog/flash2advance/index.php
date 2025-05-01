@@ -29,6 +29,8 @@ Category: Infodump<br/>
     <img src="/assets/img/blog/flash2advance/f2a-load.png"><br/>
 </p>
 
+<br/>
+
 <h2>My Collection</h2>
 <img width="720px" height="480px" src="/assets/img/blog/flash2advance/temp.jpg"><br/><br/>
 <p>
