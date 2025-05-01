@@ -861,8 +861,8 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
 <table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/sominemoAtapi1.png">
-                <p>September 2022<br />Game Boy Advance repair kitty</p>
+            <a href="/assets/img/gallery/sominemoAtapi1.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/sominemoAtapi1_thumb.jpg"></a>
+            <p>September 2022<br />Game Boy Advance repair kitty</p>
         </td>
     </tr>
 </table>
