@@ -651,9 +651,9 @@ $musicPaths = array(
 
         $musicPlayer = '<div id="headerMusicPlayer">';
 
-        $musicPlayer .= '<p>Now Playing: <marquee style="vertical-align: bottom;" speed="50%" width="10%">';
+        $musicPlayer .= '<p>♪♫ Now Playing: <marquee style="vertical-align: bottom;" speed="50%" width="10%">';
 
-        $musicPlayer .= $musicName . "</marquee><br/>";
+        $musicPlayer .= $musicName . " ♪♫</marquee><br/>";
 
         $musicPlayer .=  "<audio style=\"height: 20px\" id=\"musicPlayer\" controls loop src=\"" . $musicPath . '"';
 
