@@ -145,7 +145,7 @@ echo constructPageHeader("Atapi's Homepage! :: Gallery");
       <p>March 2016(?) <br />Fan art of FEZ that I made for art class. </p>
     </td>
     <td>
-        <img class="galleryImg" src="/assets/img/gallery/atapi_ogdoodle.png">
+      <a href="/assets/img/gallery/atapi_ogdoodle.png"><img class="galleryImg" src="/assets/img/gallery/thumb/atapi_ogdoodle_thumb.jpg"></a>
       <p>November 2020 <br />Little doodle made in Mario Artist: Paint Studio of what would become Atapi. </p>
     </td>
   </tr>
