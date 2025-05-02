@@ -57,6 +57,8 @@ Category: Infodump<br/>
     You might be wondering, "what the hell is the point of that extra cartridge slot?" Well, if you look on the side of it, there's a switch that toggles between "GAME" and "MOVIE" mode.
     <img src="/assets/img/blog/flash2advance/gbamp5.jpg"><br/><br/>
 
+    This is a switch that allows the player to do cartridge passthrough mode or do Movie Player mode. However, there's one major catch. You have to have a real cartridge attached at all times, even for Movie Player mode. If you don't, the boot ROM isn't able to validate the Nintendo logo character data.<br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/gbamp6.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp7.jpg"><br/><br/>
 
 </p>
 
