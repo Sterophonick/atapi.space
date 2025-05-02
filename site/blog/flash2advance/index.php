@@ -44,7 +44,7 @@ Category: Infodump<br/>
 <h2>GBA Movie Player</h2>
 <img width="720px" src="/assets/img/blog/flash2advance/gbamp1.jpg"><br/><br/>
 <p>
-    This cartridges was released in, I wanna say around late 2003? Exact information on it like that is really scarce.<br/><br/>
+    This cartridge was released in, I wanna say around late 2003? Exact information on it like that is really scarce.<br/><br/>
 
     The version that I have is the V1 CompactFlash variant, however there were later variants that released that made it smaller and accept SD cards rather than CompactFlash.<br/><br/>
 
@@ -58,8 +58,12 @@ Category: Infodump<br/>
     <img src="/assets/img/blog/flash2advance/gbamp5.jpg"><br/><br/>
 
     This is a switch that allows the player to do cartridge passthrough mode or do Movie Player mode. However, there's one major catch. You have to have a real cartridge attached at all times, even for Movie Player mode. If you don't, the boot ROM isn't able to validate the Nintendo logo character data.<br/>
-    <img width="360px" src="/assets/img/blog/flash2advance/gbamp6.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp7.jpg"><br/><br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/gbamp6.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp7.jpg"><br/>
+    <small>Left: Without a cartridge; Right: With a cartridge</small><br/><br/>
 
+    Why they required the user piggyback another cartridge to passthrough the ROM header, I don't really know. Maybe it was for fear of getting sued since the logo data was protected by copyright or some kind of patent? Can't really say.<br/><br/>
+
+    TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
 
 <br/><br/>
