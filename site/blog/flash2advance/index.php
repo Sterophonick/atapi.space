@@ -36,7 +36,28 @@ Category: Infodump<br/>
 <p>
     I cannot be trusted with money.<br/><br/>
 
-    My collection of oddball Game Boy Advance flashing hardware is decently extensive.</br><br/>
+    My collection of legacy Game Boy Advance flashing hardware is decently extensive. Over the last year or so I've sniped a handful of eBay auctions and have acquired these pieces of history</br><br/>
+</p>
+
+<br/>
+
+<h2>GBA Movie Player</h2>
+<img width="720px" src="/assets/img/blog/flash2advance/gbamp1.jpg"><br/><br/>
+<p>
+    This cartridges was released in, I wanna say around late 2003? Exact information on it like that is really scarce.<br/><br/>
+
+    The version that I have is the V1 CompactFlash variant, however there were later variants that released that made it smaller and accept SD cards rather than CompactFlash.<br/><br/>
+
+    A quick disassembly of it reveals... not a whole lot honestly.<br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/gbamp2.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp3.jpg"><br/><br/>
+
+    In fact, the actual ASIC and flash memory appear to be hidden underneath the GBA cartridge slot, with all of the markings scratched or dissolved off.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp4.jpg"><br/><br/>
+
+    You might be wondering, "what the hell is the point of that extra cartridge slot?" Well, if you look on the side of it, there's a switch that toggles between "GAME" and "MOVIE" mode.
+    <img src="/assets/img/blog/flash2advance/gbamp5.jpg"><br/><br/>
+
+
 </p>
 
 <br/><br/>
