@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>Stuff in the works!</title>
+            <link>https://atapi.space/</link>
+            <guid>foreboding1</guid>
+            <pubDate>Thu, 01 May 2025 00:00:00 MST</pubDate>
+            <description>hello all! you might have observed by my talks of Game Boy Advance hardware on fedi but I have a very big post with a deluge of information and documentation of legacy cartridges in the works! it probably will not be finished in a very long while as there is much to cover, photograph, record, and (currently) acquire, but I hope to make it on the level of, i dunno, a Cathode Ray Dude video. i really hope it proves to be a worthy primary source of information on these devices. that's all, stay tuned.</description>
+        </item>
+
+        <item>
             <title>Trans flag sizecoding demo!</title>
             <link>https://atapi.space/site/projects/atlantis/#TransSizeCode</link>
             <guid>trans_size_code</guid>
