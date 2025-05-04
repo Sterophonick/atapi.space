@@ -127,26 +127,30 @@ Category: Infodump<br/>
     <col width="160px" />
     <tr>
     <td width="160px">
-    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/buzzer.mp3");?><br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/8.mp3");?><br/>
     <code>8:1 Stereo</code><br/>
     </td>
     <td width="160px">
-    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/16.mp3");?><br/>
     <code>16:1 Mono</code><br/>
     </td>
     </tr>
     <tr>
     <td width="160px">
-    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/32.mp3");?><br/>
     <code>32:1 Mono</code><br/>
     </td>
     <td width="160px">
-    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/64.mp3");?><br/>
     <code>64:1 Mono</code><br/>
     </td>
     </tr>
     </table><br/>
     TODO: actually record it<br/><br/>
+
+    Both the music and movie converters do not have the capability to mix stereo down to mono, you could only select the left channel or the right channel, meaning the user would have to perform this operation themselves using another piece of software such as Audacity. Another thing that I've observed is that the volume controls default to <code>1</code>, but when I set it to <code>100</code> the audio became unbelievably blown out. It seems the volume settings are merely just a gain factor and not absolute.<br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/gain.mp3");?><br/>
+
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
 
