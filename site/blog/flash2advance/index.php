@@ -124,21 +124,21 @@ Category: Infodump<br/>
     This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between the different audio compression levels.<br/>
     <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
     style="text-align: center;">
-    <col width="80px" />
+    <col width="160px" />
     <tr>
-    <td>
+    <td width="160px">
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/buzzer.mp3");?><br/>
     <code>8:1 Stereo</code><br/>
     </td>
-    <td>
+    <td width="160px">
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>16:1 Mono</code><br/>
     </td>
-    <td>
+    <td width="160px">
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>32:1 Mono</code><br/>
     </td>
-    <td>
+    <td width="160px">
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>64:1 Mono</code><br/>
     </td>
