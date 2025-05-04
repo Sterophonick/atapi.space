@@ -124,8 +124,7 @@ Category: Infodump<br/>
     This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between the different audio compression levels.<br/>
     <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
     style="text-align: center;">
-    <col width="160px" />
-    <col width="160px" />
+    <col width="80px" />
     <tr>
     <td>
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/buzzer.mp3");?><br/>
