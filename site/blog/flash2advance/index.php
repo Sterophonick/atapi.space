@@ -14,9 +14,9 @@ Category: Infodump<br/>
 <br />
 <h2>Introduction</h2>
 <p>
-    It is the early 2000s. If you were playing handheld video games at this time, you undoubtedly owned a Nintendo Game Boy Advance. You're very happy with your choice of handheld, not that there was much at the time, playing games like Mario &amp; Luigi, Fire Emblem, Pokémon, and Sonic Advance, however you longed to be able to do more with it, whether it be watching F.R.I.E.N.D.S. or listening to your Linkin Park CDs. The iPod was out at the time, but a new unit would run you a <i>spicy</i> $299 USD ($521.65 in 2025!), and your prayers of watching cartoons or movies would not be answered until 2004 with Game Boy Advance Video. You also happen to be a computer toucher who loves getting the most out of your devices at the cost of convenience. What's one to do in this predicament?<br/><br/>
+    It is the early 2000s. If you were playing handheld video games at this time, you undoubtedly owned a Nintendo Game Boy Advance. You're very happy with your choice of handheld, not that there was much at the time, playing games like Mario &amp; Luigi, Fire Emblem, Pokémon, and Sonic Advance, however you longed to be able to do more with it, whether it be watching F.R.I.E.N.D.S. or listening to your Linkin Park CDs. The iPod was out at the time, but a new unit would run you a <i>spicy</i> $299 USD ($521.65 in 2025!) Additionally, your prayers of watching cartoons or movies would not be answered until 2004 with Game Boy Advance Video. You also happen to be a computer toucher who loves getting the most out of your devices at the cost of convenience. What's one to do in this predicament?<br/><br/>
 
-    You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts.<br/><br/>
+    You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts and other such hardware.<br/><br/>
 
     <video width="160px" height="90px" autoplay muted loop>
     <source src="/assets/vid/easybuy2000.webm" type="video/webm">
