@@ -121,11 +121,11 @@ Category: Infodump<br/>
     The music converter is, by its very nature, much more rudimentary, sharing the same compression options as the audio settings in the movie converter. The audio converter support RIFF Wave, MP3, MP2, and Windows Media Audio.<br/>
     <img src="/assets/img/blog/flash2advance/winxp_8.png"><br/><br/>
 
-    This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between <code>8:1 Stereo</code> and <code>32:1 Mono</code>, which is the default.<br/>
+    This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between the different audio compression levels.<br/>
     <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
     style="text-align: center;">
-    <col width="320px" />
-    <col width="320px" />
+    <col width="160px" />
+    <col width="160px" />
     <tr>
     <td>
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/buzzer.mp3");?><br/>
@@ -133,7 +133,15 @@ Category: Infodump<br/>
     </td>
     <td>
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <code>16:1 Mono</code><br/>
+    </td>
+    <td>
+    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>32:1 Mono</code><br/>
+    </td>
+    <td>
+    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <code>64:1 Mono</code><br/>
     </td>
     </tr>
     </table><br/>
