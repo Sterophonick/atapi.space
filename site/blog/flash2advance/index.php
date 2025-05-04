@@ -102,6 +102,20 @@ Category: Infodump<br/>
     But the hardware itself is one thing, there's also the Windows software needed in order to convert your media to formats usable with the cartridge. The initially shipped with two tools: a music converter and a video converter. An image converter and DVD converter were added much later down the line.<br/>
     <img src="/assets/img/blog/flash2advance/winxp_1.png"><br/><br/>
 
+    The video conversion software actually has a bit more depth to it than the actual player. Earlier versions of the software only had support for the GBA and SP, but Nintendo DS and Game Boy Micro support was added later down the line, those settings primarily altered color calibration. You select your device and one of three compression settings, and pretty much be on your merry way.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_2.png"><br/><br/>
+
+    If you checked the <code>Manual setting</code> box, you'd get access to much more fine control over how your video was compressed, with resolution, color calibration, and audio compression settings being available.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_4.png"> <img src="/assets/img/blog/flash2advance/winxp_5.png"> <img src="/assets/img/blog/flash2advance/winxp_6.png"> <img src="/assets/img/blog/flash2advance/winxp_7.png"><br/><br/>
+
+    The software supported many formats, including RealMedia, Windows Media Player, AVI, QuickTime, VOB, and MPG. The format I had the most luck with was WMV, which I use this <code>ffmpeg</code> command to convert videos for use with the software:<br/>
+    <code>ffmpeg -i [input] -c:v wmv2 -b:v 1024k -c:a wmav2 -b:a 192k [output].wmv</code><br/><br/>
+
+    From here the videos work fine with our tools and we can convert our videos as we please. While converting an ActiveMovie window shows up with the in-progress conversion of our movie.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_3.png"><br/><br/>
+
+    Conversion of this single episode of Invader ZIM took about 24 minutes, which is basically as long as the episode itself was. I'm sure this was an absolute "best-case" scenario, on period-accurate machines encoding video like this would have been much, much more of a chore.<br/><br/>
+
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
 
