@@ -63,6 +63,31 @@ Category: Infodump<br/>
 
     Why they required the user piggyback another cartridge to passthrough the ROM header, I don't really know. Maybe it was for fear of getting sued since the logo data was protected by copyright or some kind of patent? Can't really say.<br/><br/>
 
+    Anyway, loading up a CompactFlash card and a game into the Move Player, we are presented first with a disclaimer:<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_gba0.jpg"><br/><br/>
+
+    To which it kicks us into this brightly-colored interface where we can select videos, music, photos, NES games, eBooks, or setup.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_gba1.jpg"><br/><br/>
+
+    Selecting any of the first five options will lead us to a rudimentary file browser where we can select the file that we want to play.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_gba3.jpg"><br/><br/>
+
+    The movie player, which exposes only <code>.GBM</code> files, is actually half decent. It offers a basic set of seat controls, skip ahead, rewind, pause, and there's an option to even show the current time. It's not as nice as what would be available as part of Game Boy Advance Video but it's definitely leagues more serviceable than Meteo, which we'll touch on in a bit.<br/>
+    <video class="interruptVideo" width="720" height="480" controls>
+    <source src="/assets/vid/gbamp_invzim.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video><br/><br/>
+
+    The music player is equally as barebones, but it's got pretty much what you'd want out of a basic media player. It accepts files in <code>.GBS</code> format and an interface with basic information.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_gba4.jpg"><br/><br/>
+
+    The option to play NES games requires a little bit of setup. You're supposed to acquire a multiboot version of PocketNES, name it <code>pocketnes.gba</code>, and place it at the root of the SD card. From there, you're able to launch any NES title that's under 256K in size. It's operating from the 256K of EWRAM that the GBA has, so we're somewhat crunched for file sizes here. You're not gonna be playing Super Mario Bros. 3 on this anytime soon. Savegames and save states are also never gonna be fully operational with this, so it's mostly suited towards "Go-for-the-highscore" type games, taking all of this into account.
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_pnes.jpg"><br/><br/>
+
+    The image viewer is, like everything else, barebones. You click on a <code>.BMP</code> file and it just appears on your screen. If your image is 240x160 or smaller, then all you can do is look at it and close the image, but if it's larger, then you get the option to scroll the image around the screen. Depending on the color-depth of the image, it can be reaaaaally slow.<br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/gbamp_img1.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp_img2.jpg"><br/><br/>
+
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
 
@@ -80,6 +105,17 @@ Category: Infodump<br/>
     - Diehard buttons
 
 </p>
+
+<h3>Greetz</h3>
+<p>Lesserkuma for FlashGBX and supporting Flash2Advance/FlashAdvance cards with it.</p>
+<p>Jae (j4) for being a courier for the EZ-Writer.</p>
+<p>EZ-Flash for sticking around and making cartridges.</p>
+<p>Archaemic for EZF Advance protocol documentation.</p>
+<p>Dwedit, FluBBa, and Loopy for PocketNES and the related emulators.</p>
+<p>Sasq for PogoShell.</p>
+<p>Kuwanger (RIP) for PogoShell mods and EZ-Flash Omega work.</p>
+<p>Inside-Cap for Meteo.</p>
+
 <?php
 
 echo constructPageFooter();
