@@ -14,7 +14,7 @@ Category: Infodump<br/>
 <br />
 <h2>Introduction</h2>
 <p>
-    The year is 2003. If you were playing handheld video games at this time, you undoubtedly owned a Nintendo Game Boy Advance. You're very happy with your choice of handheld, not that there was much at the time, playing games like Mario &amp; Luigi, Fire Emblem, Pokémon, and Sonic Advance, however you longed to be able to do more with it, whether it be watching F.R.I.E.N.D.S. or listening to your Linkin Park CDs. The iPod was out at the time, but a new unit would run you a <i>spicy</i> $299 USD ($521.65 in 2025!), and your prayers of watching cartoons or movies would not be answered until 2004 with Game Boy Advance Video. You also happen to be a computer toucher who loves getting the most out of your devices at the cost of convenience. What's one to do in this predicament?<br/><br/>
+    It is the early 2000s. If you were playing handheld video games at this time, you undoubtedly owned a Nintendo Game Boy Advance. You're very happy with your choice of handheld, not that there was much at the time, playing games like Mario &amp; Luigi, Fire Emblem, Pokémon, and Sonic Advance, however you longed to be able to do more with it, whether it be watching F.R.I.E.N.D.S. or listening to your Linkin Park CDs. The iPod was out at the time, but a new unit would run you a <i>spicy</i> $299 USD ($521.65 in 2025!), and your prayers of watching cartoons or movies would not be answered until 2004 with Game Boy Advance Video. You also happen to be a computer toucher who loves getting the most out of your devices at the cost of convenience. What's one to do in this predicament?<br/><br/>
 
     You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts.<br/><br/>
 
@@ -86,7 +86,21 @@ Category: Infodump<br/>
     <img width="720px" src="/assets/img/blog/flash2advance/gbamp_pnes.jpg"><br/><br/>
 
     The image viewer is, like everything else, barebones. You click on a <code>.BMP</code> file and it just appears on your screen. If your image is 240x160 or smaller, then all you can do is look at it and close the image, but if it's larger, then you get the option to scroll the image around the screen. Depending on the color-depth of the image, it can be reaaaaally slow.<br/>
+    (These two images are of differently scaled files.)<br/>
     <img width="360px" src="/assets/img/blog/flash2advance/gbamp_img1.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp_img2.jpg"><br/><br/>
+
+    The book reader is probably the most barebones of all the other forms of media that this cartridge supports. It only takes <code>.txt</code> files and that's it, it's just a text reader.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_book1.jpg"><br/><br/>
+
+    Although, the inclusion of font options is a nice accessibility courtesy.<br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/gbamp_book2.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/gbamp_book3.jpg"><br/><br/>
+
+    So that's pretty much what you got for your purchase of a GBA Movie Player in 2004 or so, which, if <a href="http://www.eagb.net/advance/hr45.html">this article on eagb.net</a> is to be believed, cost around $35 USD in 2003 (~$61 in 2025). I'd make the argument that it was a fair deal compared to the competition at the time with products such as the iPod. The more expensive part was getting a supply of CompactFlash cards to actually store your media on. Around that time, a single 128MB CF card would run you about $35, so not particularly cheap, but you could still fit roughly sixty minutes of video on a single card. To wit, the CF card I'm using here is 2 GB and cost me around $15 in 2025.<br/><br/>
+
+    Compare this to a product like the Hasbro VideoNow!, which cost around $75 in 2003 (~$130 in 2025), with media costing $8.99 for single PVDs or $16.99 for three-packs. The downside, of course, was that the media was already burned and couldn't be re-written, and the resolution was 16 shades of grey at 80x80 with rectangular pixels. Not to mention, it was easy for the media on the VideoNow! to start skipping around in the event that the unit was bumped during a car ride or something. So, in my eyes, the GBA Movie Player still wins, at least as of right now.<br/><br/>
+
+    But the hardware itself is one thing, there's also the Windows software needed in order to convert your media to formats usable with the cartridge. The initially shipped with two tools: a music converter and a video converter. An image converter and DVD converter were added much later down the line.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_1.png"><br/><br/>
 
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
