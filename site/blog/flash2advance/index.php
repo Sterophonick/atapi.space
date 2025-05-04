@@ -134,6 +134,8 @@ Category: Infodump<br/>
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>16:1 Mono</code><br/>
     </td>
+    </tr>
+    <tr>
     <td width="160px">
     <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
     <code>32:1 Mono</code><br/>
