@@ -116,6 +116,28 @@ Category: Infodump<br/>
 
     Conversion of this single episode of Invader ZIM took about 24 minutes, which is basically as long as the episode itself was. I'm sure this was an absolute "best-case" scenario, on period-accurate machines encoding video like this would have been much, much more of a chore.<br/><br/>
 
+    When you're done, you are left with two files, a <code>.GBM</code> file and a <code>.GBS</code> file. The former contains the video data and the latter contains the audio data. Copy these to your CF card (in the same directory) and you're free to watch your movie. What's especially good about this media solution is the relative lack of a storage limit. If we were converting this into a ROM image we would be SUPER crunched for space, but the file in the above conversion come out to 80 MB total.<br/><br/>
+
+    The music converter is, by its very nature, much more rudimentary, sharing the same compression options as the audio settings in the movie converter. The audio converter support RIFF Wave, MP3, MP2, and Windows Media Audio.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_8.png"><br/><br/>
+
+    This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between <code>8:1 Stereo</code> and <code>32:1 Mono</code>, which is the default.<br/>
+    <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
+    style="text-align: center;">
+    <col width="320px" />
+    <col width="320px" />
+    <tr>
+    <td>
+    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/buzzer.mp3");?><br/>
+    <code>8:1 Stereo</code><br/>
+    </td>
+    <td>
+    <?php generateAudioFileEmbed("/assets/snd/blog/numbers/goose.mp3");?><br/>
+    <code>32:1 Mono</code><br/>
+    </td>
+    </tr>
+    </table><br/>
+    TODO: actually record it<br/><br/>
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
 
