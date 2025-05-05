@@ -109,7 +109,7 @@ Category: Infodump<br/>
     <img src="/assets/img/blog/flash2advance/winxp_4.png"> <img src="/assets/img/blog/flash2advance/winxp_5.png"> <img src="/assets/img/blog/flash2advance/winxp_6.png"> <img src="/assets/img/blog/flash2advance/winxp_7.png"><br/><br/>
 
     The software supported many formats, including RealMedia, Windows Media Player, AVI, QuickTime, VOB, and MPG. The format I had the most luck with was WMV, which I use this <code>ffmpeg</code> command to convert videos for use with the software:<br/>
-    <code>ffmpeg -i [input] -c:v wmv2 -b:v 1024k -c:a wmav2 -b:a 192k [output].wmv</code><br/><br/>
+    <code>ffmpeg -i [input] -c:v wmv2 -b:v 1024k -c:a wmav2 -b:a 192k -ac 2 [output].wmv</code><br/><br/>
 
     From here the videos work fine with our tools and we can convert our videos as we please. While converting an ActiveMovie window shows up with the in-progress conversion of our movie.<br/>
     <img src="/assets/img/blog/flash2advance/winxp_3.png"><br/><br/>
@@ -168,7 +168,7 @@ Category: Infodump<br/>
     The image converter is probably the least impressive of all of the tools, resizing your selected images and converting them into Windows Bitmaps with specified color settings. There isn't a whole lot to see really.<br/>
     <img src="/assets/img/blog/flash2advance/winxp_9.png"><br/><br/>
 
-    TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
+    So that's what $35 USD plus the cost of CompactFlash cards in 2004 got you for your Game Boy. A rudimentary media player that you had pretty much full access to. It was by no means a perfect device, but I'm sure the LimeWire users and television pirates of that era certainly weren't complaining. You could do way, way worse. The later release of the Juice Box in 2005 didn't really do much that this cartridge could already do, and I'd argue that the video quality was worse than the official Game Boy Advance Video paks, despite having a beefier SoC. Of course, it wouldn't be too too long before the release of the multimedia giant that was the PlayStation Portable in 2005 (US), pretty much rendering all other portable media solutions obsolete until smartphones came around.<br/><br/>
 </p>
 
 <br/><br/>
