@@ -118,6 +118,9 @@ Category: Infodump<br/>
 
     When you're done, you are left with two files, a <code>.GBM</code> file and a <code>.GBS</code> file. The former contains the video data and the latter contains the audio data. Copy these to your CF card (in the same directory) and you're free to watch your movie. What's especially good about this media solution is the relative lack of a storage limit. If we were converting this into a ROM image we would be SUPER crunched for space, but the file in the above conversion come out to 80 MB total.<br/><br/>
 
+    My other film test was <i>Five Nights at Freddy's (2023)</i>, and it especially demonstrates how video codecs like this are not well suited for live-action film. You can get by, but David Lynch would probably claw his eyes out at the sight of such a film-viewing experience. Whole movies are way way more expensive, with this encode of 110 minutes coming at around 200 MB total.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/gbamp_matpat.jpg"><br/><br/>
+
     The music converter is, by its very nature, much more rudimentary, sharing the same compression options as the audio settings in the movie converter. The audio converter support RIFF Wave, MP3, MP2, and Windows Media Audio.<br/>
     <img src="/assets/img/blog/flash2advance/winxp_8.png"><br/><br/>
 
@@ -161,6 +164,9 @@ Category: Infodump<br/>
 
     It's definitely visible when viewing the capture in a spectrogram, everything in the highlighted section helps make this effect.<br/>
     <img width="720px" src="/assets/img/blog/flash2advance/spectrogram.png"><br/><br/>
+
+    The image converter is probably the least impressive of all of the tools, resizing your selected images and converting them into Windows Bitmaps with specified color settings. There isn't a whole lot to see really.<br/>
+    <img src="/assets/img/blog/flash2advance/winxp_9.png"><br/><br/>
 
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
