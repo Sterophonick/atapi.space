@@ -8,4 +8,4 @@ The source code to my website, https://atapi.space/.
 - path_regexp `/[^\/]$|^$/` used to redir to `{path}/`
 - common attack vectors redirected to /site/troll.html
 - common bot user agents (GPTBot, Facebook, Meta, Google, etc) connections dropped
-- (mostly optional) make `/files/` a directory listing
+- make `/files/` a directory listing
