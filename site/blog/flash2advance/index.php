@@ -148,7 +148,7 @@ Category: Infodump<br/>
     </table><br/>
 
     Both the music and movie converters do not have the capability to mix stereo down to mono, you could only select the left channel or the right channel, meaning the user would have to perform this operation themselves using another piece of software such as Audacity. Another thing that I've observed is that the volume controls default to <code>1</code>, but when I set it to <code>100</code> the audio became unbelievably blown out. It seems the volume settings are merely just a gain factor and not absolute.<br/>
-    <span style="color: red">(Unbeliavably loud noise warning!)</span><br/>
+    <span style="color: red">(Audio decreased in volume by -10dB!)</span><br/>
     <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/blown_out.mp3");?><br/>
 
     Another observation that I've made is that ambient music doesn't seem to do so well, there's a lot of higher-frequency aliasing that give it a signature "scratchy" sound.<br/>
