@@ -122,6 +122,8 @@ Category: Infodump<br/>
     <img src="/assets/img/blog/flash2advance/winxp_8.png"><br/><br/>
 
     This tool outputs into just a singular <code>.GBS</code> format file. The quality is pretty much about as good as you can get, with <code>8:1 Stereo</code> being the best compression option. Here's a quick comparison between the different audio compression levels.<br/>
+    </p>
+
     <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
     style="text-align: center;">
     <col width="160px" />
@@ -147,6 +149,7 @@ Category: Infodump<br/>
     </tr>
     </table><br/>
 
+<p>
     Both the music and movie converters do not have the capability to mix stereo down to mono, you could only select the left channel or the right channel, meaning the user would have to perform this operation themselves using another piece of software such as Audacity. Another thing that I've observed is that the volume controls default to <code>1</code>, but when I set it to <code>100</code> the audio became unbelievably blown out. It seems the volume settings are merely just a gain factor and not absolute.<br/>
     <span style="color: red">(Audio decreased in volume by -10dB!)</span><br/>
     <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/blown_out.mp3");?><br/><br/>
