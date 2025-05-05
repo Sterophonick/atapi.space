@@ -149,7 +149,7 @@ Category: Infodump<br/>
     TODO: actually record it<br/><br/>
 
     Both the music and movie converters do not have the capability to mix stereo down to mono, you could only select the left channel or the right channel, meaning the user would have to perform this operation themselves using another piece of software such as Audacity. Another thing that I've observed is that the volume controls default to <code>1</code>, but when I set it to <code>100</code> the audio became unbelievably blown out. It seems the volume settings are merely just a gain factor and not absolute.<br/>
-    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/gain.mp3");?><br/>
+    <?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/blown_out.mp3");?><br/>
 
     TODO: conversion software under windows XP, showcase video, music, ebook, and pocketnes. make comparisons to other portable video solutions, point out the price.
 </p>
