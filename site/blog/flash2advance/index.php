@@ -170,7 +170,14 @@ Category: Infodump<br/>
 
     So that's what $35 USD plus the cost of CompactFlash cards in 2004 got you for your Game Boy. A rudimentary media player that you had pretty much full access to. It was by no means a perfect device, but I'm sure the LimeWire users and television pirates of that era certainly weren't complaining. You could do way, way worse. The later release of the Juice Box in 2005 didn't really do much that this cartridge could already do, and I'd argue that the video quality was worse than the official Game Boy Advance Video paks, despite having a beefier SoC. Of course, it wouldn't be too too long before the release of the multimedia giant that was the PlayStation Portable in 2005 (US), pretty much rendering all other portable media solutions obsolete until smartphones came around.<br/><br/>
 
+    So, the GBA Movie Player was good and all, but what if you could never financially recover from the ~$135 cost of a single Flash2Advance card? What if you wanted to put like one or two videos tops on a single cartridge with no option to expand the storage without buying another card? It's time to talk about the other video code that's not as elegant but it's certainly operational.
+</p>
 
+<br/>
+
+<h2>Meteo AVI-2-GBA</h2>
+<p>
+I have a long history with this one.<br/><br/>
 </p>
 
 <br/><br/>
