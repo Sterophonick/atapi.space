@@ -192,7 +192,7 @@ A website dedicated to, what appear to be ports of Visual Novel engines? There's
 It wasn't until 2004 that There would be a mention of Meteo, on the page dedicated to a Game Boy Advance conversion of the visual novel "Kimi ga Nozomu Eien," powered by their "MinAGI" engine.<br/>
 <img src="/assets/img/blog/flash2advance/ic6.png"><br/><br/>
 
-Head over to 2006, and we do see a page dedicated to AIR Pocket, with references to Meteo 1.4.2.<br/>
+Head over to 2006, and we do see a page dedicated to AIR Pocket, with references to Meteo 1.4.2. Imagine my surprise when I learned that "AIR Pocket" was a GBA Port of of an adult visual novel.<br/>
 <img src="/assets/img/blog/flash2advance/ic5.png"><br/><br/>
 
 From here, we actually can track down <a href="https://web.archive.org/web/20060715141908/http://www.inside-cap.com/techs/movie/meteo.htm">a page for Meteo itself</a>.<br/>
