@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: Game Boy Advance :: FNaF OFfice Test");
+echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: FNaF OFfice Test");
 
 ?>
 <h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> FNaF Office Test</h1>

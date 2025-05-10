@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: Game Boy Advance :: Super Block Jump: Game Boy Advance Edition");
+echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: Super Block Jump: Game Boy Advance Edition");
 
 ?>
 <h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> Super Block Jump: Game Boy

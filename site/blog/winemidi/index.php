@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Blog :: Enabling MIDI Support for Legacy WINE Gaming");
+echo constructPageHeader("Atapi's Domain! :: Blog :: Enabling MIDI Support for Legacy WINE Gaming");
 
 ?>
 

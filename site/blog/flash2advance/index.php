@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Blog :: Flash2Advance-ing your Game Boy Advance");
+echo constructPageHeader("Atapi's Domain! :: Blog :: Flash2Advance-ing your Game Boy Advance");
 
 ?>
 

@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Blog :: Emulating the Gigatron TTL in MAME");
+echo constructPageHeader("Atapi's Domain! :: Blog :: Emulating the Gigatron TTL in MAME");
 
 ?>
 

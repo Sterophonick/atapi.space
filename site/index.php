@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage!");
+echo constructPageHeader("Atapi's Domain!");
 
 $imageURLs = array(
     "/assets/img/home/welcome.gif", "/assets/img/home/welcome2.gif", "/assets/img/home/welcome3.gif", "/assets/img/home/cowsay.png", "/assets/img/home/welcome4.gif"

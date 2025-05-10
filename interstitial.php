@@ -5,7 +5,7 @@
 <link rel="shortcut icon" href="assets/img/global/favicon.ico">
 <link rel="stylesheet" href="/assets/css/landing.css">
 <meta name="darkreader-lock">
-<title>Atapi's Homepage! :: Content Interstitial</title>
+<title>Atapi's Domain! :: Content Interstitial</title>
 </head>
 
 <body>

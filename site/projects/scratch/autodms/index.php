@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: Scratch :: Automatic Daily Math Skills Practice");
+echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Automatic Daily Math Skills Practice");
 
 ?>
 

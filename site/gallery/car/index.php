@@ -1,6 +1,6 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Gallery :: Look at his dumb little face");
+echo constructPageHeader("Atapi's Domain! :: Gallery :: Look at his dumb little face");
 ?>
 
 <h1>Look at his dumb little face</h1>

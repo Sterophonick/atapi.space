@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: GNU/Linux :: Linux Gaming Notes");
+echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux :: Linux Gaming Notes");
 
 $imageURLs = array(
     "/assets/img/projects/linuxnotes/XCURSOR.png", "/assets/img/projects/linuxnotes/butgodsaid.png", "/assets/img/projects/linuxnotes/manjarousers.gif", "/assets/img/projects/linuxnotes/wvlvm.png", "/assets/img/projects/linuxnotes/tuning.jpg", "https://imgs.xkcd.com/comics/supported_features.png", "https://imgs.xkcd.com/comics/sandwich.png"

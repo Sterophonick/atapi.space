@@ -610,7 +610,7 @@ $musicPaths = array(
         <table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">
             <tr>
                 <td><a href="/site/"><img class="noMosaic" id="navPFP" border="0" src="/assets/img/gallery/royla_crown.png" width="120"></a></td>
-                <td><h1 style="margin-top:30px">Atapi's Homepage!</h1></td>
+                <td><h1 style="margin-top:30px">Atapi's Domain!</h1></td>
             </tr>
         </table>
     </div>

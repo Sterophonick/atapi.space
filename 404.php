@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: HTTP 404");
+echo constructPageHeader("Atapi's Domain! :: HTTP 404");
 
 ?>
 

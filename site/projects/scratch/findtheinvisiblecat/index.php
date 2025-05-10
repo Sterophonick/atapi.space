@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: Scratch :: Find the Invisible Cat");
+echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Find the Invisible Cat");
 
 ?>
 

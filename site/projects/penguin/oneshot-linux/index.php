@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Homepage! :: Projects :: GNU/Linux :: OneShot Complete Fix for Linux & Steam Deck");
+echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux :: OneShot Complete Fix for Linux & Steam Deck");
 
 ?>
 

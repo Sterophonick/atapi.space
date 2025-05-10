@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Atapi's Homepage!</title>
+        <title>Atapi's Domain!</title>
         <description>Atapi's blog posts and site updates! Be subject to my ramblings!'</description>
         <link>https://atapi.space/</link>
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
