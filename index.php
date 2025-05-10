@@ -12,7 +12,7 @@
             <div class="mainContainer container1">
                 <!-- First container content -->
                 <br/>
-                <h2>Welcome to Atapi's homepage!</h2>
+                <h2>Welcome to Atapi's Domepage!</h2>
                 <p>
                     <a href="https://www.mabsland.com/Adoption.html"><img src="/assets/img/landing/Censor_14b.gif"><br/></a>
                     This website is rated WEB-14!<br/>
