@@ -170,14 +170,38 @@ Category: Infodump<br/>
 
     So that's what $35 USD plus the cost of CompactFlash cards in 2004 got you for your Game Boy. A rudimentary media player that you had pretty much full access to. It was by no means a perfect device, but I'm sure the LimeWire users and television pirates of that era certainly weren't complaining. You could do way, way worse. The later release of the Juice Box in 2005 didn't really do much that this cartridge could already do, and I'd argue that the video quality was worse than the official Game Boy Advance Video paks, despite having a beefier SoC. Of course, it wouldn't be too too long before the release of the multimedia giant that was the PlayStation Portable in 2005 (US), pretty much rendering all other portable media solutions obsolete until smartphones came around.<br/><br/>
 
-    So, the GBA Movie Player was good and all, but what if you could never financially recover from the ~$135 cost of a single Flash2Advance card? What if you wanted to put like one or two videos tops on a single cartridge with no option to expand the storage without buying another card? It's time to talk about the other video code that's not as elegant but it's certainly operational.
+    So, the GBA Movie Player was good and all, but what if you had already purchased a Flash2Advance or other traditional flashcart and could not financially recover from such a purchase like that? Well, there was an option for you, and while it's certainly not very elegant, it was a functional solution for its limitations, especially for the time.
 </p>
 
 <br/>
 
 <h2>Meteo AVI-2-GBA</h2>
 <p>
-I have a long history with this one.<br/><br/>
+I have a long history with this one.<br/>
+<img src="/assets/img/blog/flash2advance/meteo1.png"><br/><br/>
+
+I'm not really sure where this codec came from, but the copyright info in the 1.4.0 version of the program names two organizations/companies. "Inside-Cap" and "AIR-Pocket."<br/>
+(This is the English translation that I made via hex editing, like, 7 years ago I wanna say? <code>Meteo140EN.exe</code> is the filename.)<br/><br/>
+
+If we go to captures of the site <code>http://inside-cap.com/</code> as of 2003, we get:
+<img width="360px" src="/assets/img/blog/flash2advance/ic1.png"> <img width="360px" src="/assets/img/blog/flash2advance/ic2.png"><br/>
+<img width="360px" src="/assets/img/blog/flash2advance/ic3.png"> <img width="360px" src="/assets/img/blog/flash2advance/ic4.png"><br/><br/>
+
+A website dedicated to, what appear to be ports of Visual Novel engines? There's absolutely no mention of "AIR-Pocket" or Meteo anywhere.<br/><br/>
+
+It wasn't until 2004 that There would be a mention of Meteo, on the page dedicated to a Game Boy Advance conversion of the visual novel "Kimi ga Nozomu Eien," powered by their "MinAGI" engine.<br/>
+<img src="/assets/img/blog/flash2advance/ic6.png"><br/><br/>
+
+Head over to 2006, and we do see a page dedicated to AIR Pocket, with references to Meteo 1.4.2.<br/>
+<img src="/assets/img/blog/flash2advance/ic5.png"><br/><br/>
+
+From here, we actually can track down <a href="https://web.archive.org/web/20060715141908/http://www.inside-cap.com/techs/movie/meteo.htm">a page for Meteo itself</a>.<br/>
+<img src="/assets/img/blog/flash2advance/ic7.png"><br/><br/>
+
+There's even a <a href="https://web.archive.org/web/20051120192744/http://www.inside-cap.com/techs/movie/meteo_manual.htm">link to a Japanese manual for it</a>.<br/>
+<img src="/assets/img/blog/flash2advance/ic8.png"><br/><br/>
+
+There's no download links though. In fact there are no download links *anywhere* on this site. It is entirely possible that the Visual Novel ports and Meteo were paid products, and various versions of Meteo have leaked online over the years and spread around over P2P networks before being translated to English by various people, myself included.<br/><br/>
 </p>
 
 <br/><br/>
@@ -185,13 +209,17 @@ I have a long history with this one.<br/><br/>
 <p>
     basic outline:
     - showing off my collection
-    - teardowns of cartridges
+    - teardowns of cartridges and linkers + hardware documentation
     - PogoShell (& Plugins)
     - Meteo
     - GBA Movie Player
     - Pirating games
     - EZ-Writer
-    - Diehard buttons
+    - FlashAdvance Writer (if i can get it working)
+    - F2A 512M Diehard buttons
+
+    hardware documentation should include chip names and if possible protocol commands? at the very least there need to be photos of the PCBs.
+
 
 </p>
 
@@ -201,6 +229,7 @@ I have a long history with this one.<br/><br/>
 <p>EZ-Flash for sticking around and making cartridges.</p>
 <p>Archaemic for EZF Advance protocol documentation.</p>
 <p>Dwedit, FluBBa, and Loopy for PocketNES and the related emulators.</p>
+<p>Moonlight for various PogoShell plugins.</p>
 <p>Sasq for PogoShell.</p>
 <p>Kuwanger (RIP) for PogoShell mods and EZ-Flash Omega work.</p>
 <p>Inside-Cap for Meteo.</p>
