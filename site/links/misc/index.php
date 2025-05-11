@@ -38,7 +38,7 @@ Other collection of HF and VHF WebSDR receivers.
 </p>
 <br />
 <p>
-<a href="https://www.vgcats.com/comics/">VGCats!</a><br />
+<a href="/interstitial.php?name=VG%20Cats!&dest=https://vgcats.com/">VG Cats!</a><br />
 Webcomic about cats who play video games.
 </p>
 <br />
@@ -105,11 +105,6 @@ Wiki that aims to document cats and other visitors of the Hello Street Cat feede
 <p>
 <a href="https://meow.camera">meow.camera</a><br />
 Camera feeds for Hello Street Cat feeders.
-</p>
-<br />
-<p>
-<a href="/interstitial.php?name=PlaneCrashInfo.com&dest=https://www.planecrashinfo.com/">PlaneCrashInfo.com</a><br />
-Morbidly fascinating website dedicated to documenting aviation accidents. Reader's discretion is advised.
 </p>
 
 <?php
