@@ -190,7 +190,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://flurrys.neocities.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 <a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
 <a href="https://starfall.com/"><img src="/assets/img/buttons/starfall.png"></a>
-<a href="/interstitial.php?name=VGCats!&dest=https://vgcats.com/"><img src="/assets/img/buttons/vgcats.gif"></a>
+<a href="/interstitial.php?name=VG Cats&dest=https://vgcats.com/"><img src="/assets/img/buttons/vgcats.gif"></a>
 <a href="https://web.archive.org/web/20250000000000*/http://www.geocities.co.jp/Playtown-Yoyo/6130/"><img src="/assets/img/buttons/letsemu.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">

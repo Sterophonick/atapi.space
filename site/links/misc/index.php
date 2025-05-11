@@ -38,7 +38,7 @@ Other collection of HF and VHF WebSDR receivers.
 </p>
 <br />
 <p>
-<a href="/interstitial.php?name=VG%20Cats!&dest=https://vgcats.com/">VG Cats!</a><br />
+<a href="/interstitial.php?name=VG%20Cats&dest=https://vgcats.com/">VG Cats!</a><br />
 Webcomic about cats who play video games.
 </p>
 <br />
