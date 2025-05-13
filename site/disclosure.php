@@ -57,7 +57,12 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
     There's a measure that the Caddy server takes to silence AI scrapers. It will check your user agent against the following regex:<br/>
     <code><small>CCBot|GPT|Claude|anthropic|\bcohere\b|\bmeta\b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
 
-    When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. It might be better in the long run to redirect them to a tarpit so that their training data is even more poisoned, but at the moment I'm not sure how to go about that. If I ever do something that inhibits your ability to browse my site, please let me know!
+    When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!
+</p>
+<br/>
+<h2>Network Access</h2>
+<p>
+The port <code>:6502</code> is also open on this site's IP address, which is <code>185.167.61.248</code>. This should allow for evading weird DNS blocks and other firewalls. There is currently no HTTPS on this port though.
 </p>
 <br/>
 <p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
@@ -70,6 +75,7 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 - Background is an altered version of the MacOS 9 cats wallpaper<br/>
 - No copyright infringement intended<br/>
 </p>
+<br/>
 <img width="160px" src="/assets/img/disclosure/cat.gif"><br/>
 
 <?php echo constructPageFooter(); ?>
