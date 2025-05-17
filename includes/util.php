@@ -204,7 +204,7 @@ function doWeShowLargeGif() {
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
     // Internet Explorer 5
-    if (str_contains($userAgent, "msie 5")) {
+    if (str_contains($userAgent, "msie")) {
         return false;
     }
 
@@ -229,7 +229,7 @@ function doWeShowMusicPlayer() {
     }
 
     // Internet Explorer 5
-    if (str_contains($userAgent, "msie 5")) {
+    if (str_contains($userAgent, "msie")) {
         return false;
     }
 
@@ -254,7 +254,7 @@ function doWeShowOneko() {
      }
 
      // Internet Explorer 5
-     if (str_contains($userAgent, "msie 5")) {
+     if (str_contains($userAgent, "msie")) {
          return false;
      }
 
@@ -298,7 +298,7 @@ function doWeShowScratchEmbed() {
     }
 
     // Internet Explorer 5
-    if (str_contains($userAgent, "msie 5")) {
+    if (str_contains($userAgent, "msie")) {
         return false;
     }
 
@@ -323,7 +323,7 @@ function doWeShowGBAEmbed() {
      }
 
      // Internet Explorer 5
-     if (str_contains($userAgent, "msie 5")) {
+     if (str_contains($userAgent, "msie")) {
          return false;
      }
 
@@ -348,7 +348,7 @@ function doWeShowLastFmEmbed() {
      }
 
      // Internet Explorer 5
-     if (str_contains($userAgent, "msie 5")) {
+     if (str_contains($userAgent, "msie")) {
          return false;
      }
 
