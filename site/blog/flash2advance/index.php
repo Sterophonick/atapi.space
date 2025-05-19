@@ -36,9 +36,27 @@ Category: Infodump<br/>
 <p>
     I cannot be trusted with money.<br/><br/>
 
-    My collection of legacy Game Boy Advance flashing hardware is decently extensive. Over the last year or so I've sniped a handful of eBay auctions and have acquired these pieces of history</br><br/>
+    My collection of legacy Game Boy Advance flashing hardware is decently extensive. Over the last year or so I've sniped a handful of eBay auctions and have acquired these pieces of history, mostly for my Marge Simpson-esque fascination with them, but in a couple of cases it's for the possibility of <i>maybe<i> reverse engineering the cartridges' protocols for use with FlashGBX or other modern cartridge readers.</br>
+    <img src="/assets/img/blog/flash2advance/marge.png"><br/><br/>
+
+    Random tidbit: as far as I can tell, FlashAdvance and Flash2Advance are the same exact family. This could, of course, be wrong, but if FlashGBX' config files are to be believed, then the protocols for the CPLDs on the cartridges are pretty much identical between each other.<br/><br/>
 </p>
 
+<br/>
+
+<h2>FlashAdvance Parallel Linker</h2>
+<p>
+This one was an absolute nightmare to get working due to it operating on the Parallel port interface. It was certainly a process that involved a ThinkPad T30 graphics chipset dying, and the manual refurbishing of a Dell Latitude with a Pentium III.<br/><br/>
+
+Anyway, this unit that I have is one of the earliest Flash Linkers. The unit ships with its own <i>DC power supply</i> rated for [VOLTAGE] volts, but using AA batteries was also an option for providing power to it, especially since Parallel is hardly capable of providing much power. This pretty much creates a situation where the linker looks like it's on life support whenever you have to use the freakin' thing.<br/><br/>
+
+images of linker go here<br/><br/>
+
+image of the setup goes here<br/><br>
+
+The software that would be used by this linker primarily would have been either LittleWriter or XtremeLink, and on Windows NT-based operating systems would have required the DLPortIO driver by DriverLINX, but this was something I was never able to get working under Windows XP. And then my T30 bit the dust, so I installed Windows 98SE on the Latitude, with 98SE having better support for direct Parallel access since it's a DOS-based operating system.<br/><br/>
+
+</p>
 <br/>
 
 <h2>GBA Movie Player</h2>
@@ -225,7 +243,6 @@ There's no download links though. In fact there are no download links *anywhere*
 
 <h3>Greetz</h3>
 <p>Lesserkuma for FlashGBX and supporting Flash2Advance/FlashAdvance cards with it.</p>
-<p>Jae (j4) for being a courier for the EZ-Writer.</p>
 <p>EZ-Flash for sticking around and making cartridges.</p>
 <p>Archaemic for EZF Advance protocol documentation.</p>
 <p>Dwedit, FluBBa, and Loopy for PocketNES and the related emulators.</p>
