@@ -36,7 +36,7 @@ Category: Infodump<br/>
 <p>
     I cannot be trusted with money.<br/><br/>
 
-    My collection of legacy Game Boy Advance flashing hardware is decently extensive. Over the last year or so I've sniped a handful of eBay auctions and have acquired these pieces of history, mostly for my Marge Simpson-esque fascination with them, but in a couple of cases it's for the possibility of <i>maybe<i> reverse engineering the cartridges' protocols for use with FlashGBX or other modern cartridge readers.</br>
+    My collection of legacy Game Boy Advance flashing hardware is decently extensive. Over the last year or so I've sniped a handful of eBay auctions and have acquired these pieces of history, mostly for my Marge Simpson-esque fascination with them, but in a couple of cases it's for the possibility of <i>maybe</i> reverse engineering the cartridges' protocols for use with FlashGBX or other modern cartridge readers.</br>
     <img src="/assets/img/blog/flash2advance/marge.png"><br/><br/>
 
     Random tidbit: as far as I can tell, FlashAdvance and Flash2Advance are the same exact family. This could, of course, be wrong, but if FlashGBX' config files are to be believed, then the protocols for the CPLDs on the cartridges are pretty much identical between each other.<br/><br/>
