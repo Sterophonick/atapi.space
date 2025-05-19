@@ -398,7 +398,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <p>April 2025<br />cokey cola<br /><a href="/files/royla_crown.xcf">Source File</a><br /></p>
     </td>
     <td>
-        <img class="galleryImg" src="/assets/img/gallery/atapi_pukichio.png"></a>
+        <img class="galleryImg" src="/assets/img/gallery/atapi_pukicho.png"></a>
         <p>May 2025<br />Pukicho (Atapicho?)<br /><a href="/files/atapi_pukicho.xcf">Source File</a><br /></p>
     </td>
   </tr>
