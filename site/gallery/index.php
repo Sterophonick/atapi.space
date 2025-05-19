@@ -124,6 +124,9 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                 <li>
                     <a href="#Isaiah_Deluxe">Isaiah_Deluxe</a>
                 </li>
+                <li>
+                    <a href="#NullDeref">NullDeref</a>
+                </li>
             </ul>
 
         </li>
@@ -239,8 +242,15 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     <td>
         <img class="galleryImg" src="/assets/img/gallery/AtapiDoll.png">
         <p>October 2021<br />Can you feel the sunshine?<br /><a href="/files/AtapiDoll.xcf">.XCF
-                    Download</a><br /><a href="files/Scareophonick.xcf">Halloween 2021 PFP .XCF Download</a>
+                    Download</a><br /><a href="files/Scareophonick.xcf">Halloween 2021 PFP .XCF Download</a></p>
     </td>
+    <td>
+        <img class="galleryImg" src="/assets/img/gallery/JennArtTrade10032021.png">
+        <p>October 2021<br />Art Trade w/ Karmageddon<br /><a href="/files/JennTest1.xcf">.XCF Download</a></p>
+    </td>
+  </tr>
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/AtapiBoof.png">
             <p>October 2021<br />I don't even know what this dude is but he chuffin back that fat dart and
@@ -248,9 +258,6 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                 <a href="/files/AtapiBoof.xcf">.XCF Download</a>
             </p>
     </td>
-  </tr>
-
-  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atap_pearflooftest.png">
             <p>October 2021<br />Uhhhh another perspective test I guess<br /><a
@@ -261,13 +268,13 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <p>October 2021<br />Full of <b>Pilk</b><br /><a href="/files/AtapiPilk.xcf">.XCF Download</a>
             </p>
     </td>
-    <td>
-        <img class="galleryImg" src="/assets/img/gallery/AtapiInMyEnglishNotebookBecauseIWasBored.jpg">
-        <p>October 2021<br />real</p>
-    </td>
   </tr>
 
   <tr>
+      <td>
+        <img class="galleryImg" src="/assets/img/gallery/AtapiInMyEnglishNotebookBecauseIWasBored.jpg">
+        <p>October 2021<br />real</p>
+    </td>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/AtapiSketchbook.jpg">
         <p>October 2021<br />real V2</p>
@@ -278,6 +285,9 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                                       src="/assets/img/gallery/Atapi_uhhhhh_Eli.png"><br /><a
                                           href="/files/Atapi_uhhhhh_Eli.xcf">.XCF Download</a></p>
     </td>
+  </tr>
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapi_christmas.png">
             <p>November 2021<br />Christmastime is here!<br /><a href="/files/Atapi_Christmas.kra">Krita
@@ -285,9 +295,6 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     Prototype</a><br /><a href="files/Christmas2021PFP.xcf">Christmas 2021 PFP .XCF
                     Download</a></p>
     </td>
-  </tr>
-
-  <tr>
     <td>
         <img width="265px" class="galleryImg" src="/assets/img/gallery/atapi_bbt.png">
             <p>November 2021<br />BattleBlock Theater UserFace (Fixed)<br /><a
@@ -301,15 +308,15 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/AtapiRef_Dec2021_Beytah.zip">23 Prototypes (.KRA)</a><br /><a
                     href="files/AtapiPFP_Jan2022.xcf">January 2022 PFP .XCF</a></p>
     </td>
+  </tr>
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapi_penPad.png">
             <p>January 2022<br />An attempt at using a pen pad that emulated a mouse<br /><a
                     href="/files/atapiPenPad.kra">Krita Source File</a><br /><a
                     href="files/atapiPenPad_beytah.zip">Two Prototypes, one from 2021</a></p>
     </td>
-  </tr>
-
-    <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapinew.png">
             <p>March 2022<br />An attempt to make a more appealing, simpler design<br /><a
@@ -322,16 +329,16 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/AtapiSkirt.kra">Krita Source File</a><br /><a
                     href="different">Prototypes</a><br /></p>
     </td>
+  </tr>
+
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapiPride2022.png">
             <p>May 2022<br />Pride 2022<br /><a href="/files/atapiPride2022_sketch.jpg">Scanned Original
                     Sketch</a><br /><a href="files/atapiPride2022.kra">Krita Source File</a><br /><a
                     href="files/atapiPride2022_beytah.zip">Prototypes</a><br /></p>
     </td>
-  </tr>
-
-
-  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapiPleadSticker.png"></a>
         <p>July 2022<br />W-Wanna trade GPG keys???<br /><a
@@ -342,15 +349,15 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <img class="galleryImg" src="/assets/img/gallery/atapiLick.gif"></a>
         <p>August 2022<br />Lick Icon<br /></p>
     </td>
+  </tr>
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/unicideDoodle.png"></a>
         <p>August 2022<br />Little doodle for @2rueUnicide2!<br /><a
                 href="/assets/img/gallery/unicideDoodleSketch.jpg">Scanned Original Sketch</a><br /><a
                 href="/files/unicideDoodle.kra">Krita Source File</a><br /></p>
     </td>
-  </tr>
-
-  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapiSkirt2_xenia.png"></a>
         <p>August 2022<br />Rockin that Xenia shirt and black skirt<br /><a
@@ -366,14 +373,14 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                 href="files/atapiHalloween2022_2_beytah.zip">Prototypes (.KRA)</a><br /><a
                 href="files/pfp_oct2022.xcf">October 2022 PFP .XCF</a><br /></p>
     </td>
+  </tr>
+
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/atapi_youlikedontyou.png"></a>
         <p>May 2023<br />You like silly people, don't you?<br /><a
                 href="/files/atapi_youlikedontyou.xcf">Source File</a><br /></p>
     </td>
-  </tr>
-
-  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/AtapiPadoru.png"></a>
         <p>December 2023<br />Padoru, Padoru!<br /><a href="/files/AtapiPadoru.kra">Krita Source
@@ -384,9 +391,15 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <p>March 2025<br />PFP Based on @NoodleFunny<br /><a href="/files/noodle_pic.xcf">Source
                 File</a><br /></p>
     </td>
+  </tr>
+  <tr>
     <td>
         <img class="galleryImg" src="/assets/img/gallery/royla_crown.png"></a>
         <p>April 2025<br />cokey cola<br /><a href="/files/royla_crown.xcf">Source File</a><br /></p>
+    </td>
+    <td>
+        <img class="galleryImg" src="/assets/img/gallery/atapi_pukichio.png"></a>
+        <p>May 2025<br />Pukicho (Atapicho?)<br /><a href="/files/atapi_pukicho.xcf">Source File</a><br /></p>
     </td>
   </tr>
 </table>
@@ -875,6 +888,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img class="galleryImg" src="/assets/img/gallery/karmageddon_atapi1.jpg">
                 <p>March 2021<br />Wonderful little sketch from Karma of the lad! :3</p>
         </td>
+        <td>
+            <img class="galleryImg" src="/assets/img/gallery/karma_2021.png">
+                <p>October 2021<br />Test sketch of an art trade</p>
+        </td>
     </tr>
 </table>
 
@@ -988,6 +1005,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                 <p class="shruggie">March 2021<br />
                     ¯\_(ツ)_/¯
                 </p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="NullDeref">NullDeref</h3>
+<table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <img class="galleryImg" src="/assets/img/gallery/nullderef_cooler.jpeg">
+            <p>May 2025</br>Boykisser vs. The Cooler Boykisser</p>
         </td>
     </tr>
 </table>
