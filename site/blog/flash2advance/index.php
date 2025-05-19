@@ -56,7 +56,33 @@ image of the setup goes here<br/><br>
 
 The software that would be used by this linker primarily would have been either LittleWriter or XtremeLink, and on Windows NT-based operating systems would have required the DLPortIO driver by DriverLINX, but this was something I was never able to get working under Windows XP. And then my T30 bit the dust, so I installed Windows 98SE on the Latitude, with 98SE having better support for direct Parallel access since it's a DOS-based operating system.<br/><br/>
 
+The wonders of how literally anything got done before the days of USB.<br/><br/>
+
 </p>
+
+<br/>
+
+<h2>EZ-Flash II PowerStar</h2>
+<p>
+    The most expensive item in my collection, purchased primarily because EZ-Flash themselves have lost the source code and verilog (I asked them directly) to everything before the EZ-Flash III. I own two (LATER UPDATE) EZ-Flash I 128mbit cartridges, which can only be written by this specific linker, the EZ-Writer. Thankfully, though, this linker operates over USB, which I <i>can passthrough</i> to Virtual Machines, saving me a headache and a half.<br/><br/>
+
+    iamges of box<br/><br/>
+
+    images of linker and disassembly<br/><br/>
+
+    This linker was used with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB, as shown by the box.<br/><br/>
+
+    images of software<br/><br/>
+</p>
+
+<br/>
+
+<h2>Piracy</h2>
+
+<br/>
+
+<h2>PogoShell</h2>
+
 <br/>
 
 <h2>GBA Movie Player</h2>
