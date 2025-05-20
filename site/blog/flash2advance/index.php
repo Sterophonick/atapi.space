@@ -270,8 +270,23 @@ But then, FINALLY, does your video boot on real hardware for you to write to you
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
 </video><br/>
-<small>Smosh - MAGIC KEYBOARD!</small>
-<br/><br/>
+<small>Smosh - MAGIC KEYBOARD!</small><br/><br/>
+
+From here, the only seat controls we really get are "Fast-Forward," on the A Button and "Restart" on the B Button. To be fair, though, these controls were worse in 1.3.0, where <i>every</i> button would restart the video, so at least theres. SOMETHING.<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/smosh2.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/>
+
+Additionally, the file sizes are huge. This video, from YouTube, is just four minutes long. At this "moderately half-decent" quality, the size is <b>24.7 Megabytes alone.</b><br/>
+<img src="/assets/img/blog/flash2advance/file_size.png"><br/><br/>
+
+For reference, the 640x360 h.264 encode of this video ripped from YouTube was only 8.7 MB.<br/><br/>
+
+...yeah. You are not fitting much on a single flashcart unless you happen to have many, many cartridges lying around, or don't give a toss about your video quality. You would have been much better off getting a GBA Movie Player. And, you couldn't pause the video anyway if you needed to get up and take care of something before returning.<br/><br/>
+
+But, for now, let's entertain the idea that you had just one flashcart for
 
 </p>
 
