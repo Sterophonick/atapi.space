@@ -272,21 +272,76 @@ But then, FINALLY, does your video boot on real hardware for you to write to you
 </video><br/>
 <small>Smosh - MAGIC KEYBOARD!</small><br/><br/>
 
-From here, the only seat controls we really get are "Fast-Forward," on the A Button and "Restart" on the B Button. To be fair, though, these controls were worse in 1.3.0, where <i>every</i> button would restart the video, so at least theres. SOMETHING.<br/>
+From here, the only seat controls we really get are "Fast-Forward," on the A Button and "Restart" on the B Button. To be fair, though, these controls were worse in 1.3.0, where <i>every</i> button would restart the video, so at least there's. SOMETHING.<br/>
 <video class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/smosh2.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
-</video><br/>
+</video><br/><br/>
 
 Additionally, the file sizes are huge. This video, from YouTube, is just four minutes long. At this "moderately half-decent" quality, the size is <b>24.7 Megabytes alone.</b><br/>
 <img src="/assets/img/blog/flash2advance/file_size.png"><br/><br/>
 
 For reference, the 640x360 h.264 encode of this video ripped from YouTube was only 8.7 MB.<br/><br/>
 
-...yeah. You are not fitting much on a single flashcart unless you happen to have many, many cartridges lying around, or don't give a toss about your video quality. You would have been much better off getting a GBA Movie Player. And, you couldn't pause the video anyway if you needed to get up and take care of something before returning.<br/><br/>
+...yeah. The default settings in this program are really not efficient for saving on file size. 120kbps of video on a 240x160 screen is egregious, so we can throw away a lot of this unnecesary video data. To wit:<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/smosh30kbps.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/><br/>
 
-But, for now, let's entertain the idea that you had just one flashcart for
+This is the same video, encoded at a bitrate of 30kbps. It's a little scruffy-looking, but it takes up only about a third of the initial 120kbps image, coming in at ~9.25MB.<br/>
+<img src="/assets/img/blog/flash2advance/file_size2.png"><br/><br/>
+
+I tested a 20kbps encode, and the file size climbed down to 7.18 MB, but that ultimately led to the video looking incredibly blurry.<br/>
+<img src="/assets/img/blog/flash2advance/mgba2.png"><br/><br/>
+
+If I tried any bitrates lower than this, the file size would start climbing again before reaching the original 24.7 MB when set to 1kbps. Because reasons.<br/><br/>
+
+There are also a handful of audio bitrates to select from:<br/>
+<img src="/assets/img/blog/flash2advance/meteo3.png"><br/><br/>
+
+For comparison's sake, I recorded each possible audio quality:
+<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
+style="text-align: center;">
+<col width="160px" />
+<tr>
+<td width="160px">
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/8.mp3");?><br/>
+<code>21 KHz</code><br/>
+</td>
+<td width="160px">
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/16.mp3");?><br/>
+<code>10 KHz</code><br/>
+</td>
+</tr>
+</table><br/>
+<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
+style="text-align: center;">
+<col width="160px" />
+<tr>
+<td width="160px">
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/8.mp3");?><br/>
+<code>5 KHz</code><br/>
+</td>
+</tr>
+</table><br/>
+<small>Unknown artist - Unknown song</small><br/><br/>
+TODO: Record the different bitrates.<br/><br/>
+
+You also get some framerate options if you want to have even more control over how much data is stored, down to 6 frames per second, really approaching the quality (or, rather lack thereof) of the Matrix Memory Shrek and Shrek 2 movies that were officially released under the Game Boy Advance Video line.<br/>
+<img src="/assets/img/blog/flash2advance/meteo4.png"><br/><br/>
+
+There's a handful of dithering options, in most cases anything other than 4x Dithering would leave the video looking worse with not much file size gain.<br/>
+<img src="/assets/img/blog/flash2advance/meteo5.png"><br/><br/>
+
+And now, I present to you, the same Smosh video, with the lowest possible settings while still maintaining a resolution of 240x136. This file was able to hit a size of 5.3MB.<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/smosh_low.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/><br/>
 
 </p>
 
