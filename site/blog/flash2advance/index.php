@@ -245,7 +245,34 @@ From here, we actually can track down <a href="https://web.archive.org/web/20060
 There's even a <a href="https://web.archive.org/web/20051120192744/http://www.inside-cap.com/techs/movie/meteo_manual.htm">link to a Japanese manual for it</a>.<br/>
 <img src="/assets/img/blog/flash2advance/ic8.png"><br/><br/>
 
-There's no download links though. In fact there are no download links *anywhere* on this site. It is entirely possible that the Visual Novel ports and Meteo were paid products, and various versions of Meteo have leaked online over the years and spread around over P2P networks before being translated to English by various people, myself included.<br/><br/>
+There's no download links though. In fact there are no download links <i>anywhere</i> on this site. It is entirely possible that the Visual Novel ports and Meteo were paid products, and various versions of Meteo have leaked online over the years and spread around over P2P networks before being translated to English by various people, myself included.<br/><br/>
+
+Anyway, to demonstrate the program, I'll be using Meteo 1.5.0, translated by kran27. This version offers options for audio compression on top of the video bitrate and fast-forward speed that 1.4.0 offers. Supposedly, there exist versions up to 1.6.0, but I've never been able to find one.<br/><br/>
+
+The first observation that literally anyone will make with this program, especially using it in this day and age, is that it's extremely picky about how your video file is encoded.<br/>
+<img src="/assets/img/blog/flash2advance/meteo2.png"><br/><br/>
+
+Like, of course you're not getting the luxury of using h.264 or HEVC with it, but after a bit of fiddling, I discovered the <code>ffmpeg</code> command that works properly:<br/>
+<code>ffmpeg -i [input].mp4 -c:v msmpeg4v2 -c:a adpcm_ms -ac 2 [output].avi</code><br/><br/>
+
+I'm sure there were other tools back in the day to get video files in the correct format but I'm not sure of what they would be.<br/><br/>
+
+Anyway, so your ROM image has been finally created. Terrific. But, we're not done yet, because this product doesn't generate ROM files with correct Nintendo logo character data. Instead, you get this corrupted data when booting it on hardware:<br/>
+<img src="/assets/img/blog/flash2advance/mgba1.png"><br/>
+<small>i chuckle at the fact that i recognize this pattern from DevKit Advance.</small><br/><br/>
+
+So you need to run a tool called <code>gbafix</code> by DarkFader in order to get your ROM header fixed.<br/>
+<img src="/assets/img/blog/flash2advance/gbafix.png"><br/><br/>
+
+But then, FINALLY, does your video boot on real hardware for you to write to your Flashcart:<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/smosh.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/>
+<small>Smosh - MAGIC KEYBOARD!</small>
+<br/><br/>
+
 </p>
 
 <br/><br/>
