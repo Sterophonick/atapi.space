@@ -362,8 +362,14 @@ asdfmovie15 is a very extreme example, though, mostly due to its signature two-t
 
 On anything that isn't the original AGB, AGS, or OXY screen, this is borderline unwatchable, which is why I opted to split longer videos like this into multiple parts, since I had the ability to do that on a microSD card with an EZ-Flash Omega. But you didn't really have that luxury back then when flashcarts held only so much ROM space.<br/><br/>
 
-The bottom line? It's doable but there are many, many asterisks behind that singular word. Your time and money woud be better spent towards a GBA Movie Player during this era.<br/><br/>
+The bottom line? It's doable but there are many, many asterisks behind that singular word. Your time and money woud be better spent towards a GBA Movie Player during this era.
+</p>
 
+<br/>
+
+<h2>Conclusion</h2>
+<p>
+    bwehhhhhh
 </p>
 
 <br/><br/>
