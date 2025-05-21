@@ -225,7 +225,7 @@ I have a long history with this one.<br/>
 <img src="/assets/img/blog/flash2advance/meteo1.png"><br/><br/>
 
 I'm not really sure where this codec came from, but the copyright info in the 1.4.0 version of the program names two organizations/companies. "Inside-Cap" and "AIR-Pocket."<br/>
-(This is the English translation that I made via hex editing, like, 7 years ago I wanna say? <code>Meteo140EN.exe</code> is the filename.)<br/><br/>
+The version you see in this picture is the English version that I made like 7 years ago I wanna say, it's been a hot minute. It looks like crap because I made it in a morning before school via hex editing rather than editing the internal resource files packaged in the executable. :P<br/><br/>
 
 If we go to captures of the site <code>http://inside-cap.com/</code> as of 2003, we get:
 <img width="360px" src="/assets/img/blog/flash2advance/ic1.png"> <img width="360px" src="/assets/img/blog/flash2advance/ic2.png"><br/>
@@ -308,11 +308,11 @@ style="text-align: center;">
 <col width="160px" />
 <tr>
 <td width="160px">
-<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/8.mp3");?><br/>
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/wily21.mp3");?><br/>
 <code>21 KHz</code><br/>
 </td>
 <td width="160px">
-<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/16.mp3");?><br/>
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/wily10.mp3");?><br/>
 <code>10 KHz</code><br/>
 </td>
 </tr>
@@ -322,15 +322,17 @@ style="text-align: center;">
 <col width="160px" />
 <tr>
 <td width="160px">
-<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/8.mp3");?><br/>
+<?php generateAudioFileEmbed("/assets/snd/blog/flash2advance/wily5.mp3");?><br/>
 <code>5 KHz</code><br/>
 </td>
 </tr>
 </table><br/>
-<small>Unknown artist - Unknown song</small><br/><br/>
-TODO: Record the different bitrates.<br/><br/>
+<small>Dr. Wily Stage 1 & 2 (JP Version) - Mega Man 2</small><br/><br/>
 
-You also get some framerate options if you want to have even more control over how much data is stored, down to 6 frames per second, really approaching the quality (or, rather lack thereof) of the Matrix Memory Shrek and Shrek 2 movies that were officially released under the Game Boy Advance Video line.<br/>
+I think it's worth pointing out that each of these three encodes wasn't really that different in terms of file size, but in many cases a few hundred kilobytes was the difference between watching and not watching.<br/>
+<img src="/assets/img/blog/flash2advance/3encodes.png"><br/><br/>
+
+Anyway, you also get some framerate options if you want to have even more control over how much data is stored, down to 6 frames per second, really approaching the quality (or, rather lack thereof) of the Matrix Memory Shrek and Shrek 2 movies that were officially released under the Game Boy Advance Video line.<br/>
 <img src="/assets/img/blog/flash2advance/meteo4.png"><br/><br/>
 
 There's a handful of dithering options, in most cases anything other than 4x Dithering would leave the video looking worse with not much file size gain.<br/>
@@ -351,8 +353,16 @@ Of course, thus far, we've only tested live action video, but animation is a med
 </video><br/>
 <small>TomSka - asdfmovie15</small><br/><br/>
 
-asdfmovie15 is a very extreme example, though, mostly due to its signature two-tone color palette with the exception of blood. A more realistic example I tested is this video by Noodle, if you ever wanted to <br/>
+asdfmovie15 is a very extreme example, though, mostly due to its signature two-tone color palette with the exception of blood. A more realistic example I tested is the first episode to the Sam & Max Saturday morning cartoon, with each episode having a runtime of 21 minutes. I actually had to switch to an earlier version of Meteo because 1.5.0 just could not handle a video of this length.<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/samnmax.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/><br/>
 
+On anything that isn't the original AGB, AGS, or OXY screen, this is borderline unwatchable, which is why I opted to split longer videos like this into multiple parts, since I had the ability to do that on a microSD card with an EZ-Flash Omega. But you didn't really have that luxury back then when flashcarts held only so much ROM space.<br/><br/>
+
+The bottom line? It's doable but there are many asterisks behind that singular word. Your time and money woud be better spent towards a GBA Movie Player during this era.<br/><br/>
 
 </p>
 
