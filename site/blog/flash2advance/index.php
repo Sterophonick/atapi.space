@@ -343,6 +343,17 @@ And now, I present to you, the same Smosh video, with the lowest possible settin
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
 </video><br/><br/>
 
+Of course, thus far, we've only tested live action video, but animation is a medium that's much easier to compress due to comparatively fewer colors and fewer uniquely drawn frames. For my first test, I encoded asdfmovie15, and was able to get it at a good resolution, bitrate, and framerate while only taking 8.1 MB of space.<br/>
+<video class="interruptVideo" width="480" height="320" controls>
+<source src="/assets/vid/asdf.webm" type="video/webm">
+<br/>
+<span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+</video><br/>
+<small>TomSka - asdfmovie15</small><br/><br/>
+
+asdfmovie15 is a very extreme example, though, mostly due to its signature two-tone color palette with the exception of blood. A more realistic example I tested is this video by Noodle, if you ever wanted to <br/>
+
+
 </p>
 
 <br/><br/>
