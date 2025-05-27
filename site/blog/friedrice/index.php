@@ -211,6 +211,8 @@ Content Warning // Non-Vegan Cooking
     </div>
 </p>
 
+<br/>
+
 <h2>Notes</h2>
 <div style="width:60%; margin:auto; text-align: left;">
     <ul>
@@ -222,6 +224,12 @@ Content Warning // Non-Vegan Cooking
         </li>
         <li>
             If you're re-using leftover white rice, you can make it suitable for fried rice by spreading it out on a baking sheet. NEVER wrap it in plastic, and refrigerate for a MINIMUM of 12 hours.
+        </li>
+        <li>
+            We do the eggs, protein, and assembly in different batches because we're not using a jet engine to cook our rice. We're instead using a standard stovetop, and we, of course, want to ensure everything gets fully cooked.
+        </li>
+        <li>
+            Kikkoman is Japanese, and as a soy sauce is better at dipping for sushi than it is for cooking. Another few soy sauce brands that might be good for this recipe are Hai Tain (海天) and Wei Ji Xian (味极鲜).
         </li>
     </ul>
 </div><br/>
