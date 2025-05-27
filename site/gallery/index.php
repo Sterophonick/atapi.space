@@ -566,11 +566,15 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     <tr>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/they_have_fireworks.png">
-                <p>May 2022<br />30,000 tons of fireworks</p>
+            <p>May 2022<br />30,000 tons of fireworks</p>
+        </td>
+        <td>
+            <img class="galleryImg" src="/assets/img/gallery/parkercc_chef_atapi.png">
+            <p>March 2023<br/>Mademonsieur Chef Atapi</p>
         </td>
         <td>
             <img class="galleryImg" src="/scripts/oneko/oneko-atapi.png">
-                <p>December 2024<br />A skin of Oneko.js!!</p>
+            <p>December 2024<br />A skin of Oneko.js!!</p>
         </td>
     </tr>
 </table>
