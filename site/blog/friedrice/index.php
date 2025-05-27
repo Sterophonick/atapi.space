@@ -88,7 +88,7 @@ Content Warning // Non-Vegan Cooking
 <br/>
 
 <p>
-    Your proteins of choice are ideally going to be marinated for at least 24 hours in something like this, and I have tried this with chicken breast and pork belly. You don't need much of any of these ingredients, just enough to lightly-ish coat the surface is perfectly cromulent:
+    Your proteins of choice are ideally going to be <light-blue>marinated</light-blue> for at least 24 hours in something like this, and I have tried this with chicken breast and pork belly. You don't need much of any of these ingredients, just enough to lightly-ish coat the surface is perfectly cromulent:
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -146,12 +146,29 @@ Content Warning // Non-Vegan Cooking
 <p>
     Of course, you're gonna want some rice. While it's true that the rice can matter if you're really pedantic, it honestly doesn't if you're just wanting to make something good at home to share with friends. In my household, we use <yellow>Jasmine Rice</yellow>, but there are some brands that have made dedicated blends just for fried rice, typically containing American Long Grain white rice and Jasmine.<br/>
     <img src="/assets/img/blog/friedrice/blend.png"><br/><br/>
+
+    For a single batch of rice, 1 1/2 - 2 cups (255 - 340) of dry rice with an equivalent amount of water does the job just right. Your water-to-rice ratio should be one-to-one, as this gives you rice that you can use pretty much right out your rice cooking apparatus, whether that be a dedicated rice cooker or a stovetop. Use much more water and you'll start to get rice that's extra sticky and mushy, which is the arch nemesis of fried rice.
+
+    A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below starts become really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
 </p>
 
 <h2>Instructions</h2>
 
 <p>
-
+    <ol>
+        <li>
+            Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
+        </li>
+        <li>
+            Chop up your vegetables and set them aside for now.
+        </li>
+        <li>
+            Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
+        </li>
+        <li>
+            Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>MSG</yellow> and scramble them. Set aside.
+        </li>
+    </ol>
 </p>
 
 <?php
