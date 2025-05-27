@@ -155,20 +155,22 @@ Content Warning // Non-Vegan Cooking
 <h2>Instructions</h2>
 
 <p>
-    <ol>
-        <li>
-            Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
-        </li>
-        <li>
-            Chop up your vegetables and set them aside for now.
-        </li>
-        <li>
-            Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
-        </li>
-        <li>
-            Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>MSG</yellow> and scramble them. Set aside.
-        </li>
-    </ol>
+    <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
+        <ol>
+            <li>
+                Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
+            </li>
+            <li>
+                Chop up your vegetables and set them aside for now.
+            </li>
+            <li>
+                Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
+            </li>
+            <li>
+                Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>MSG</yellow> and scramble them. Set aside.
+            </li>
+        </ol>
+    </div>
 </p>
 
 <?php
