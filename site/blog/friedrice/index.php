@@ -26,6 +26,11 @@ Content Warning // Non-Vegan Cooking
 
 <br/>
 
+<h2>Allergy Information</h2>
+<p>
+    This recipe contains allergens such as gluten, eggs, and soy. If you're serving this for others, make sure to consult them about any other potential allergens that they may have before you start cooking. You might wanna try adapting this to something using gluten-free or vegan alternatives if that's what you choose to do.<br/><br/>
+</p>
+
 <h2>Ingredients</h2>
 
 <p>
@@ -89,7 +94,7 @@ Content Warning // Non-Vegan Cooking
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
-            <yellow>Baking Soda</yellow> - This is to alkalize the meat and ensure that it remains tender and the proteins don't tense up so much once it comes time to fry. Do this first.
+            <yellow>Baking Soda</yellow> - This is to alkalize the meat and ensure that it remains tender and the proteins don't tense up so much once it comes time to fry. Do this first, and don't use a whole lot.
         </li>
         <li>
             <yellow>Canola Oil</yellow> - Do this after the baking soda so the other seasonings bind better.
@@ -139,9 +144,13 @@ Content Warning // Non-Vegan Cooking
 </div>
 
 <p>
-    Of course, you're gonna want some rice. While it's true that the rice can matter if you're really pedantic, it honestly doesn't if you're just wanting to make something good at home to share with friends. In my household we use <yellow>Jasmine Rice</yellow> but there are some brands that have made dedicated blends for fried rice, typically containing American Long Grain white rice and Jasmine.<br/>
+    Of course, you're gonna want some rice. While it's true that the rice can matter if you're really pedantic, it honestly doesn't if you're just wanting to make something good at home to share with friends. In my household, we use <yellow>Jasmine Rice</yellow>, but there are some brands that have made dedicated blends just for fried rice, typically containing American Long Grain white rice and Jasmine.<br/>
     <img src="/assets/img/blog/friedrice/blend.png"><br/><br/>
+</p>
 
+<h2>Instructions</h2>
+
+<p>
 
 </p>
 
