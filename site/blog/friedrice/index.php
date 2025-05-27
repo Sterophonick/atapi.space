@@ -156,62 +156,59 @@ Content Warning // Non-Vegan Cooking
 </p>
 
 <h2>Cooking/Assembly Instructions</h2>
+<div style="width:60%; margin:auto; text-align: left;">
+    <ol>
+        <li>
+            Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
+        </li>
+        <li>
+            Chop up your <yellow>vegetables</yellow> and set them aside for now.
+        </li>
+        <li>
+            Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
+        </li>
+        <li>
+            Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>salt</yellow> and a pinch of <yellow>MSG</yellow>. Scramble them and set aside.
+        </li>
+        <li>
+            Wash and cook your rice. Let it come to room temperature and set aside.
+        </li>
+        <li>
+            Now we start cooking. Ensure that you have all of your ingredients ready to use, as this comes together relatively quickly. Start by putting 1 tbsp (15 mL) of <yellow>canola oil</yellow> into your wok or pan and swirl it around to get a nice coat. Turn the heat of your stove to medium-high.
+        <li>
+            Once the oil is heated well, add your <yellow>egg mixture</yellow>. What you want is for the eggs to puff up around the edges. Let sit for about 15-20 seconds before lightly scrambling the eggs. Fully cook them, and set them to the side in a separate dish. (Optionally) wipe off the pan to remove leftover little bits of egg.
+        </li>
+        <li>
+            Add another tbsp (15 mL) of oil to your pan, and swirl it around. Once we're up to temp, add your marinated proteins, usually around 2-4 ounces (56 - 113 grams). Using your hand utensil, try to lay them down in a single layer and let them fully cook, stirring to flip as needed. If you have more than one protein, do them one at a time (so like do chicken first, then pork, then your beef, for example). Once they're done, set them aside with the eggs. Don't wipe down the pan this time, there's good stuff in there.
+        </li>
+        <li>
+            1 tbsp (15 mL) of oil, heat up, swirl around. Now add some <yellow>minced garlic</yellow> and let that fry for about ten seconds. Then add your <yellow>vegetables</yellow>. Toss and cook for a minute or two.
+        </li>
+        <li>
+            Add your <yellow>rice</yellow>. Toss it around in the <yellow>vegetables</yellow> and sauté for a couple of minutes, letting the grains toast against the oil.
+        </li>
+        <li>
+            Add your reserved proteins and eggs, and thoroughly incorporate into the mixture.
+        </li>
+        <li>
+            Using your utensil, create an opening towards the bottom of the pan and add your <light-blue>sauce mixture</light-blue>. Let the sauce caramelize against the heat for about 10 seconds, and then mix well.
+        </li>
+        <li>
+            Sprinkle your <light-blue>dry spice mixture</light-blue> into your rice and mix well.
+        </li>
+        <li>
+            Create another opening towards the bottom and add a little bit (2 tsp / 9 grams) of <yellow>Shaoxing Wine</yellow>. Stir it into the rice and make sure to cook off all of the alcohol.
+        </li>
+        <li>
+            Kill the heat. Add your <yellow>Green Onion</yellow> and very lightly drizzle your <yellow>Toasted Sesame Oil</yellow> over the rice, and mix well.
+        </li>
+        <li>
+            Alter seasonings to taste, and it's time to serve!
+        </li>
+    </ol>
+</div>
 
-<p>
-    <div style="width:60%; margin:auto; text-align: left;">
-        <ol>
-            <li>
-                Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
-            </li>
-            <li>
-                Chop up your <yellow>vegetables</yellow> and set them aside for now.
-            </li>
-            <li>
-                Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
-            </li>
-            <li>
-                Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>salt</yellow> and a pinch of <yellow>MSG</yellow>. Scramble them and set aside.
-            </li>
-            <li>
-                Wash and cook your rice. Let it come to room temperature and set aside.
-            </li>
-            <li>
-                Now we start cooking. Ensure that you have all of your ingredients ready to use, as this comes together relatively quickly. Start by putting 1 tbsp (15 mL) of <yellow>canola oil</yellow> into your wok or pan and swirl it around to get a nice coat. Turn the heat of your stove to medium-high.
-            <li>
-                Once the oil is heated well, add your <yellow>egg mixture</yellow>. What you want is for the eggs to puff up around the edges. Let sit for about 15-20 seconds before lightly scrambling the eggs. Fully cook them, and set them to the side in a separate dish. (Optionally) wipe off the pan to remove leftover little bits of egg.
-            </li>
-            <li>
-                Add another tbsp (15 mL) of oil to your pan, and swirl it around. Once we're up to temp, add your marinated proteins, usually around 2-4 ounces (56 - 113 grams). Using your hand utensil, try to lay them down in a single layer and let them fully cook, stirring to flip as needed. If you have more than one protein, do them one at a time (so like do chicken first, then pork, then your beef, for example). Once they're done, set them aside with the eggs. Don't wipe down the pan this time, there's good stuff in there.
-            </li>
-            <li>
-                1 tbsp (15 mL) of oil, heat up, swirl around. Now add some <yellow>minced garlic</yellow> and let that fry for about ten seconds. Then add your <yellow>vegetables</yellow>. Toss and cook for a minute or two.
-            </li>
-            <li>
-                Add your <yellow>rice</yellow>. Toss it around in the <yellow>vegetables</yellow> and sauté for a couple of minutes, letting the grains toast against the oil.
-            </li>
-            <li>
-                Add your reserved proteins and eggs, and thoroughly incorporate into the mixture.
-            </li>
-            <li>
-                Using your utensil, create an opening towards the bottom of the pan and add your <light-blue>sauce mixture</light-blue>. Let the sauce caramelize against the heat for about 10 seconds, and then mix well.
-            </li>
-            <li>
-                Sprinkle your <light-blue>dry spice mixture</light-blue> into your rice and mix well.
-            </li>
-            <li>
-                Create another opening towards the bottom and add a little bit (2 tsp / 9 grams) of <yellow>Shaoxing Wine</yellow>. Stir it into the rice and make sure to cook off all of the alcohol.
-            </li>
-            <li>
-                Kill the heat. Add your <yellow>Green Onion</yellow> and very lightly drizzle your <yellow>Toasted Sesame Oil</yellow> over the rice, and mix well.
-            </li>
-            <li>
-                Alter seasonings to taste, and it's time to serve!
-            </li>
-        </ol>
-    </div>
-</p>
-
-<br/>
+<br/><br/>
 
 <h2>Notes</h2>
 <div style="width:60%; margin:auto; text-align: left;">
@@ -229,7 +226,7 @@ Content Warning // Non-Vegan Cooking
             We do the eggs, protein, and assembly in different batches because we're not using a jet engine to cook our rice. We're instead using a standard stovetop, and we, of course, want to ensure everything gets fully cooked.
         </li>
         <li>
-            Kikkoman is Japanese, and as a soy sauce is better at dipping for sushi than it is for cooking. Another few soy sauce brands that might be good for this recipe are Hai Tain (海天) and Wei Ji Xian (味极鲜).
+            Kikkoman is Japanese, and as a soy sauce is better at dipping for sushi than it is for cooking. Another few soy sauce brands that might be good for this recipe are Hai Tian (海天) and Wei Ji Xian (味极鲜).
         </li>
     </ul>
 </div><br/>
