@@ -54,7 +54,7 @@ Content Warning // Non-Vegan Cooking
             <yellow>Sugar</yellow> - Pure cane sugar. Used to take the bite out of the salty components.
         </li>
         <li>
-            <yellow>Oyster Sauce</yellow>
+            <yellow>Oyster Sauce</yellow> - A couple splashes of this can add some nice umami.
         </li>
     </ul>
 </div>
@@ -126,7 +126,7 @@ Content Warning // Non-Vegan Cooking
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
-            <yellow>Eggs</yellow> - I always season these with MSG and scramble them right before it's time to cook. Assmebly instructions will contain a step for eggs.
+            <yellow>Eggs</yellow> - I always season these with salt and MSG and scramble them right before it's time to cook. Assmebly instructions will contain a step for eggs.
         </li>
         <li>
             <yellow>Vegetables</yellow> - Carrots, sweet onion, celery, corn and peas are ones I like to do. Some bean sprouts would also be good.
@@ -136,6 +136,9 @@ Content Warning // Non-Vegan Cooking
         </li>
         <li>
             <yellow>Shaoxing Wine (Optional)</yellow> - Extremely common in Chinese cooking. Helps brighten up much of the flavors but can be tricky to add and ensure all the alcohol is cooked off.
+        </li>
+        <li>
+            <yellow>Green Onion</yellow> - Heck yeah.
         </li>
         <li>
             <yellow>Toasted Sesame Oil</yellow> - It's just good, and the fact that it's toasted means we get a hint of that slightly charred flavor we get from takeout because restaurants use those decommissioned jet engine-type burners.
@@ -149,10 +152,10 @@ Content Warning // Non-Vegan Cooking
 
     For a single batch of rice, 1 1/2 - 2 cups (255 - 340) of dry rice with an equivalent amount of water does the job just right. Your water-to-rice ratio should be one-to-one, as this gives you rice that you can use pretty much right out your rice cooking apparatus, whether that be a dedicated rice cooker or a stovetop. Use much more water and you'll start to get rice that's extra sticky and mushy, which is the arch nemesis of fried rice.
 
-    A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below starts become really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
+    A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below ends up really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
 </p>
 
-<h2>Instructions</h2>
+<h2>Cooking/Assembly Instructions</h2>
 
 <p>
     <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -161,13 +164,48 @@ Content Warning // Non-Vegan Cooking
                 Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
             </li>
             <li>
-                Chop up your vegetables and set them aside for now.
+                Chop up your <yellow>vegetables</yellow> and set them aside for now.
             </li>
             <li>
                 Assemble your <light-blue>dry spice</light-blue> and your <light-blue>sauce</light-blue> mixtures. Set them aside.
             </li>
             <li>
-                Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>MSG</yellow> and scramble them. Set aside.
+                Crack two <yellow>eggs</yellow> per cup of <yellow>rice</yellow> into a small dish. Season them with a pinch of <yellow>salt</yellow> and a pinch of <yellow>MSG</yellow>. Scramble them and set aside.
+            </li>
+            <li>
+                Wash and cook your rice. Let it come to room temperature and set aside.
+            </li>
+            <li>
+                Now we start cooking. Ensure that you have all of your ingredients ready to use, as this comes together relatively quickly. Start by putting 1 tbsp (15 mL) of <yellow>canola oil</yellow> into your wok or pan and swirl it around to get a nice coat. Turn the head of your stove to medium-high.
+            <li>
+                Once the oil is heated well, add your <yellow>egg mixture</yellow>. What you want is for the eggs to puff up around the edges. Let sit for about 15-20 seconds before lightly scrambling the eggs. Fully cook them, and set them to the side in a separate dish. (Optionally) wipe off the pan to remove leftover little bits of egg.
+            </li>
+            <li>
+                Add another tbsp (15 mL) of oil to your pan, and swirl it around. Once we're up to temp, add your marinated proteins, usually around 2-4 ounces (56 - 113 grams). Using your hand utensil, try to lay them down in a single layer and let them fully cook, stirring to flip as needed. If you have more than one protein, do them one at a time (so like do chicken first, then pork, then your beef, for example). Once they're done, set them aside with the eggs. Don't wipe down the pan this time, there's good stuff in there.
+            </li>
+            <li>
+                1 tbsp (15 mL) of oil, heat up, swirl around. Now add some <yellow>minced garlic</yellow> and let that fry for about ten seconds. Then add your <yellow>vegetables</yellow>. Toss and cook for a minute or two.
+            </li>
+            <li>
+                Add your <yellow>rice</yellow>. Toss it around in the <yellow>vegetables</yellow> and sauté for a couple of minutes, letting the grains toast against the oil.
+            </li>
+            <li>
+                Add your reserved proteins and eggs, and thoroughly incorporate into the mixture.
+            </li>
+            <li>
+                Using your utensil, create an opening towards the bottom of the pan and add your <light-blue>sauce mixture</light-blue>. Let the sauce caramelize against the heat for about 10 seconds, and then mix well.
+            </li>
+            <li>
+                Sprinkle your <light-blue>dry spice mixture</light-blue> into your rice and mix well.
+            </li>
+            <li>
+                Create another opening towards the bottom and add a little bit (2 tsp / 9 grams) of <yellow>Shaoxing Wine</yellow>. Stir it into the rice and make sure to cook off the alcohol.
+            </li>
+            <li>
+                Kill the heat. Add your <yellow>Green Onion</yellow> and very lightly drizzle your <yellow>Toasted Sesame Oil</yellow> over the rice, and mix well.
+            </li>
+            <li>
+                Alter seasonings to taste, and it's time to serve!
             </li>
         </ol>
     </div>
