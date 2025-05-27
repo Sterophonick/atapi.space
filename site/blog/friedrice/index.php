@@ -21,7 +21,7 @@ Content Warning // Non-Vegan Cooking
     <img width="360px" src="/assets/img/gallery/parkercc_chef_atapi.png"><br/>
     <small>artwork by @ParkerCC</small><br/><br/>
 
-    I don't use any fancy schmancy techniques or equipment or anything, besides a Wok. You can make some good fried rice with many ingredients that can be acquired here in the United States in your average household.
+    I don't use any fancy schmancy techniques or equipment or anything. Ideally, you'd have a wok, but a decently-sized pan can do just as good. You can make some good fried rice with many ingredients that can be acquired here in the United States in your average household.
 </p>
 
 <br/>
@@ -34,7 +34,7 @@ Content Warning // Non-Vegan Cooking
 <h2>Ingredients</h2>
 
 <p>
-    Nothing about these ingredients are really measured or anything. In truth, eyeballing it is a great way to go, as fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
+    Nothing about these ingredients are really measured or anything. In truth, I just eyeball the whole thing. Fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
 
     To start, we are going to make a <light-blue>sauce mixture</light-blue>. You want to aim for roughly 4 tbsp or 60 mL of this stuff, containing the following ingredients:<br/><br/>
 </p>
@@ -94,7 +94,7 @@ Content Warning // Non-Vegan Cooking
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
-            <yellow>Baking Soda</yellow> - This is to alkalize the meat and ensure that it remains tender and the proteins don't tense up so much once it comes time to fry. Do this first, and don't use a whole lot.
+            <yellow>Baking Soda</yellow> - This is to alkalize the meat and ensure that it remains tender and the proteins don't tense up so much once it comes time to fry. Do this first, and a little goes a long way.
         </li>
         <li>
             <yellow>Canola Oil</yellow> - Do this after the baking soda so the other seasonings bind better.
@@ -135,7 +135,7 @@ Content Warning // Non-Vegan Cooking
             <yellow>Minced Garlic</yellow> - Because reasons. Assembly instructions have this as well.
         </li>
         <li>
-            <yellow>Shaoxing Wine (Optional)</yellow> - Extremely common in Chinese cooking. Helps brighten up much of the flavors but can be tricky to add and ensure all the alcohol is cooked off.
+            <yellow>Shaoxing Wine (Optional)</yellow> - Extremely common in Chinese cooking. Helps brighten up much of the flavors but can be tricky to add and ensure all the alcohol is cooked off. If you cannot find Shaoxing Wine then a <yellow>Dry Sherry</yellow> will do just as good.
         </li>
         <li>
             <yellow>Green Onion</yellow> - Heck yeah.
@@ -150,15 +150,15 @@ Content Warning // Non-Vegan Cooking
     Of course, you're gonna want some rice. While it's true that the rice can matter if you're really pedantic, it honestly doesn't if you're just wanting to make something good at home to share with friends. In my household, we use <yellow>Jasmine Rice</yellow>, but there are some brands that have made dedicated blends just for fried rice, typically containing American Long Grain white rice and Jasmine.<br/>
     <img src="/assets/img/blog/friedrice/blend.png"><br/><br/>
 
-    For a single batch of rice, 1 1/2 - 2 cups (255 - 340) of dry rice with an equivalent amount of water does the job just right. Your water-to-rice ratio should be one-to-one, as this gives you rice that you can use pretty much right out your rice cooking apparatus, whether that be a dedicated rice cooker or a stovetop. Use much more water and you'll start to get rice that's extra sticky and mushy, which is the arch nemesis of fried rice.
+    For a single batch of rice, 1 1/2 - 2 cups (255 - 340) of dry rice with an equivalent amount of water does the job just fine. Your water-to-rice ratio should be one-to-one, as this gives you rice that you can use pretty much right out your rice cooking apparatus, whether that be a dedicated rice cooker or a stovetop. Use much more water and you'll start to get rice that's extra sticky and mushy, which is the arch nemesis of fried rice.
 
-    A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below ends up really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
+    A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this, run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below ends up really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
 </p>
 
 <h2>Cooking/Assembly Instructions</h2>
 
 <p>
-    <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
+    <div style="width:60%; margin:auto; text-align: left;">
         <ol>
             <li>
                 Chop up your proteins into relatively small chunks/cubes and start <light-blue>marinating</light-blue> using your ingredients of choice. Let this marinate in the fridge for at least an hour or up to (roughly) 24 hours.
@@ -176,7 +176,7 @@ Content Warning // Non-Vegan Cooking
                 Wash and cook your rice. Let it come to room temperature and set aside.
             </li>
             <li>
-                Now we start cooking. Ensure that you have all of your ingredients ready to use, as this comes together relatively quickly. Start by putting 1 tbsp (15 mL) of <yellow>canola oil</yellow> into your wok or pan and swirl it around to get a nice coat. Turn the head of your stove to medium-high.
+                Now we start cooking. Ensure that you have all of your ingredients ready to use, as this comes together relatively quickly. Start by putting 1 tbsp (15 mL) of <yellow>canola oil</yellow> into your wok or pan and swirl it around to get a nice coat. Turn the heat of your stove to medium-high.
             <li>
                 Once the oil is heated well, add your <yellow>egg mixture</yellow>. What you want is for the eggs to puff up around the edges. Let sit for about 15-20 seconds before lightly scrambling the eggs. Fully cook them, and set them to the side in a separate dish. (Optionally) wipe off the pan to remove leftover little bits of egg.
             </li>
@@ -199,7 +199,7 @@ Content Warning // Non-Vegan Cooking
                 Sprinkle your <light-blue>dry spice mixture</light-blue> into your rice and mix well.
             </li>
             <li>
-                Create another opening towards the bottom and add a little bit (2 tsp / 9 grams) of <yellow>Shaoxing Wine</yellow>. Stir it into the rice and make sure to cook off the alcohol.
+                Create another opening towards the bottom and add a little bit (2 tsp / 9 grams) of <yellow>Shaoxing Wine</yellow>. Stir it into the rice and make sure to cook off all of the alcohol.
             </li>
             <li>
                 Kill the heat. Add your <yellow>Green Onion</yellow> and very lightly drizzle your <yellow>Toasted Sesame Oil</yellow> over the rice, and mix well.
@@ -209,6 +209,29 @@ Content Warning // Non-Vegan Cooking
             </li>
         </ol>
     </div>
+    <br/><br/>
+</p>
+
+<h2>Notes</h2>
+<p>
+    <div style="width:60%; margin:auto; text-align: left;">
+        <ul>
+            <li>
+                I might have messed up metric conversion, please correct me if I did.
+            </li>
+            <li>
+                Don't be afraid to customize the dish! Add some veggies or other proteins you like such as beef or tofu.
+            </li>
+            <li>
+                If you're re-using leftover white rice, you can make it suitable for fried rice by spreading it out on a baking sheet. NEVER wrap it in plastic, and refrigerate for a MINIMUM of 12 hours.
+            </li>
+        </ul>
+    </div><br/>
+
+    Below is a large, large batch that I made for a party not too long before writing this. Everyone loved it and by the end of the party about 3/4 of it had been eaten.<br/>
+    <img width="720px" src="/assets/img/blog/friedrice/batch.jpg"><br/><br/>
+
+    Happy cooking!<br/>
 </p>
 
 <?php
