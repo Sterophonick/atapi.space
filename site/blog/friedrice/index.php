@@ -31,7 +31,7 @@ Content Warning // Non-Vegan Cooking
 <p>
     Nothing about these ingredients are really measured or anything. In truth, eyeballing it is a great way to go, as fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
 
-    Our <light-blue>sauce mixture</light-blue> is going to be made with the following ingredients:<br/><br/>
+    To start, we are going to make a <light-blue>sauce mixture</light-blue>. You want to aim for roughly 4 tbsp or 60 mL of this stuff, containing the following ingredients:<br/><br/>
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -48,13 +48,16 @@ Content Warning // Non-Vegan Cooking
         <li>
             <yellow>Sugar</yellow> - Pure cane sugar. Used to take the bite out of the salty components.
         </li>
+        <li>
+            <yellow>Oyster Sauce</yellow>
+        </li>
     </ul>
 </div>
 
 <br/>
 
 <p>
-    Our dry <light-blue>spice mixture</light-blue> will have the following ingredients:<br/><br/>
+    We're also gonna have a <light-blue>dry spice mixture</light-blue>. <br/><br/>
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -77,7 +80,7 @@ Content Warning // Non-Vegan Cooking
 <br/>
 
 <p>
-    Your protein(s) of choice are ideally going to be marinated for at least 24 hours in something like this, and I have tried this with chicken breast and pork belly. You don't need much of any of these ingredients, just enough to lightly-ish coat the surface is perfectly cromulent:
+    Your proteins of choice are ideally going to be marinated for at least 24 hours in something like this, and I have tried this with chicken breast and pork belly. You don't need much of any of these ingredients, just enough to lightly-ish coat the surface is perfectly cromulent:
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -100,6 +103,9 @@ Content Warning // Non-Vegan Cooking
         <li>
             <yellow>Sugar</yellow> - Once again to take the bite out of those salty components.
         </li>
+        <li>
+            <yellow>Mirin</yellow> - Japanese rice wine. Adds some umami flavor to your protein.
+        </li>
     </ul>
 </div>
 
@@ -118,10 +124,20 @@ Content Warning // Non-Vegan Cooking
             <yellow>Vegetables</yellow> - Carrots, sweet onion, celery, corn and peas are ones I like to do. Some bean sprouts would also be good.
         </li>
         <li>
-            <yellow>Minced Garlic</yellow> - Because Reasons.
+            <yellow>Minced Garlic</yellow> - Because reasons. Assembly instructions have this as well.
+        </li>
+        <li>
+            <yellow>Shaoxing Wine (Optional)</yellow> - Extremely common in Chinese cooking. Helps brighten up much of the flavors but can be tricky to add and ensure all the alcohol is cooked off.
+        </li>
+        <li>
+            <yellow>Toasted Sesame Oil</yellow> - It's just good, and the fact that it's toasted means we get a hint of that slightly charred flavor we get from takeout because restaurants use those decommissioned jet engine-type burners.
         </li>
     </ul>
 </div>
+
+<p>
+    Of course, you're gonna want some rice.
+</p>
 
 <?php
 
