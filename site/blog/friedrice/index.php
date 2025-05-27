@@ -34,13 +34,13 @@ Content Warning // Non-Vegan Cooking
     Our sauce mixture is going to be made with the following ingredients:<br/><br/>
 </p>
 
-<div class="ingredients" style="width:50%; margin:auto; text-align: left;">
+<div class="ingredients" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
-            <yellow>Light Soy Sauce</yellow> - Color and flavor
+            <yellow>Light Soy Sauce</yellow> - I always go for Lee Kum Kee or Pearl River Bridge brands of soy sauce for cooking. Kikkoman is a common culprit of a mid-tier fried rice, it doesn't really have as suitable of a flavor profile I feel. Lee Kum Kee brands this as "Premium Soy Sauce."
         </li>
         <li>
-            <yellow>Dark Soy Sauce</yellow> - Color and flavor
+            <yellow>Dark Soy Sauce</yellow> - Ditto.
         </li>
         <li>
             <yellow>MSG</yellow> - A seasoning that's ubiquitous in Asian cooking.
@@ -51,13 +51,13 @@ Content Warning // Non-Vegan Cooking
     </ul>
 </div>
 
-<br/><br/>
+<br/>
 
 <p>
     Our dry spice mixture will have the following ingredients:<br/><br/>
 </p>
 
-<div class="ingredients" style="width:50%; margin:auto; text-align: left;">
+<div class="ingredients" style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>
             <yellow>Kosher Salt</yellow> - Because of course.
@@ -70,6 +70,55 @@ Content Warning // Non-Vegan Cooking
         </li>
         <li>
             <yellow>MSG</yellow> - More MSG cannot hurt, right?
+        </li>
+    </ul>
+</div>
+
+<br/>
+
+<p>
+    Your protein(s) of choice are ideally going to be marinated for at least 24 hours in something like this, and I have tried this with chicken breast and pork belly. You don't need much of any of these ingredients, just enough to lightly-ish coat the surface is perfectly cromulent:
+</p>
+
+<div class="ingredients" style="width:60%; margin:auto; text-align: left;">
+    <ul>
+        <li>
+            <yellow>Baking Soda</yellow> - This is to alkalize the meat and ensure that it remains tender and the proteins don't tense up so much once it comes time to fry. Do this first.
+        </li>
+        <li>
+            <yellow>Canola Oil</yellow> - Do this after the baking soda so the other seasonings bind better.
+        </li>
+        <li>
+            <yellow>Light Soy Sauce</yellow>
+        </li>
+        <li>
+            <yellow>Kosher Salt</yellow>
+        </li>
+        <li>
+            <yellow>MSG</yellow>
+        </li>
+        <li>
+            <yellow>Sugar</yellow> - Once again to take the bite out of those salty components.
+        </li>
+    </ul>
+</div>
+
+<br/>
+
+<p>
+    You're of course going to want other tasty things in there. Here's some things I like to do:
+</p>
+
+<div class="ingredients" style="width:60%; margin:auto; text-align: left;">
+    <ul>
+        <li>
+            <yellow>Eggs</yellow> - I always season these with MSG and scramble them right before it's time to cook. Assmebly instructions will contain a step for eggs.
+        </li>
+        <li>
+            <yellow>Vegetables</yellow> - Carrots, sweet onion, celery, corn and peas are ones I like to do. Some bean sprouts would also be good.
+        </li>
+        <li>
+            <yellow>Minced Garlic</yellow> - Because Reasons.
         </li>
     </ul>
 </div>
