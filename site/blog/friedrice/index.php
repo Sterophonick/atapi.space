@@ -18,7 +18,7 @@ Content Warning // Non-Vegan Cooking
 <h2>Introduction</h2>
 <p>
     If you've ever tried chinese-style takeout fried rice at home, but have been disappointed with the results, then I guess this page might be for you. I'm no gourmet chef but I can navigate my way around a recipe.<br/>
-    <img src="/assets/img/gallery/parkercc_chef_atapi.png"><br/>
+    <img width="360px" src="/assets/img/gallery/parkercc_chef_atapi.png"><br/>
     <small>artwork by @ParkerCC</small><br/><br/>
 
     I don't use any fancy schmancy techniques or equipment or anything, besides a Wok. You can make some good fried rice with many ingredients that can be acquired here in the United States in your average household.
@@ -57,7 +57,7 @@ Content Warning // Non-Vegan Cooking
 <br/>
 
 <p>
-    We're also gonna have a <light-blue>dry spice mixture</light-blue>. <br/><br/>
+    We're also gonna have a <light-blue>dry spice mixture</light-blue>. You're aiming for about half a tbsp (7.5g) total of stuff like this:<br/><br/>
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -73,6 +73,9 @@ Content Warning // Non-Vegan Cooking
         </li>
         <li>
             <yellow>MSG</yellow> - More MSG cannot hurt, right?
+        </li>
+        <li>
+            <yellow>Sugar</yellow> - yeah.
         </li>
     </ul>
 </div>
@@ -136,7 +139,10 @@ Content Warning // Non-Vegan Cooking
 </div>
 
 <p>
-    Of course, you're gonna want some rice.
+    Of course, you're gonna want some rice. While it's true that the rice can matter if you're really pedantic, it honestly doesn't if you're just wanting to make something good at home to share with friends. In my household we use <yellow>Jasmine Rice</yellow> but there are some brands that have made dedicated blends for fried rice, typically containing American Long Grain white rice and Jasmine.<br/>
+    <img src="/assets/img/blog/friedrice/blend.png"><br/><br/>
+
+
 </p>
 
 <?php
