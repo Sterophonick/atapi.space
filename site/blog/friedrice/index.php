@@ -211,22 +211,20 @@ Content Warning // Non-Vegan Cooking
     </div>
 </p>
 
-<br/>
-
 <h2>Notes</h2>
-    <div style="width:60%; margin:auto; text-align: left;">
-        <ul>
-            <li>
-                I might have messed up metric conversion, please correct me if I did.
-            </li>
-            <li>
-                Don't be afraid to customize the dish! Add some veggies or other proteins you like such as beef or tofu.
-            </li>
-            <li>
-                If you're re-using leftover white rice, you can make it suitable for fried rice by spreading it out on a baking sheet. NEVER wrap it in plastic, and refrigerate for a MINIMUM of 12 hours.
-            </li>
-        </ul>
-    </div><br/>
+<div style="width:60%; margin:auto; text-align: left;">
+    <ul>
+        <li>
+            I might have messed up metric conversion, please correct me if I did.
+        </li>
+        <li>
+            Don't be afraid to customize the dish! Add some veggies or other proteins you like such as beef or tofu.
+        </li>
+        <li>
+            If you're re-using leftover white rice, you can make it suitable for fried rice by spreading it out on a baking sheet. NEVER wrap it in plastic, and refrigerate for a MINIMUM of 12 hours.
+        </li>
+    </ul>
+</div><br/>
 
 <p>
     Below is a large, large batch that I made for a party not too long before writing this. Everyone loved it, and by the end of the party, about 3/4 of it had been eaten.<br/>
