@@ -208,7 +208,7 @@ Content Warning // Non-Vegan Cooking
     </ol>
 </div>
 
-<br/><br/>
+<br/>
 
 <h2>Notes</h2>
 <div style="width:60%; margin:auto; text-align: left;">
