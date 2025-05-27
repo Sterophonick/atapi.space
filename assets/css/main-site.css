@@ -155,3 +155,7 @@ small {
 .pixelArt {
     image-rendering: pixelated
 }
+
+yellow {
+    color: yellow;
+}

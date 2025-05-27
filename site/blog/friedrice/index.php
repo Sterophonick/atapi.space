@@ -35,16 +35,16 @@ Content Warning // Non-Vegan Cooking
 <div id="ingredients" style="width:50%; margin:auto; text-align: left;">
     <ul>
         <li>
-            Rice (duh) - Preferrably some form of white rice, jasmine is what I use.
+            <yellow>Rice (duh)</yellow> - Preferrably some form of white rice, jasmine is what I use.
         </li>
         <li>
-            Light Soy Sauce
+            <yellow>Light Soy Sauce<yellow> - Color and flavor
         </li>
         <li>
-            Dark Soy Sauce
+            <yellow>Dark Soy Sauce<yellow> - Color and flavor
         </li>
         <li>
-            MSG
+            <yellow>MSG<yellow> - A seasoning that's ubiquitous in Asian cooking.
         </li>
     <ul>
 </div>
