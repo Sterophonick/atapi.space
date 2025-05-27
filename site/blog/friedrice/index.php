@@ -209,11 +209,11 @@ Content Warning // Non-Vegan Cooking
             </li>
         </ol>
     </div>
-    <br/><br/>
 </p>
 
+<br/>
+
 <h2>Notes</h2>
-<p>
     <div style="width:60%; margin:auto; text-align: left;">
         <ul>
             <li>
@@ -228,7 +228,8 @@ Content Warning // Non-Vegan Cooking
         </ul>
     </div><br/>
 
-    Below is a large, large batch that I made for a party not too long before writing this. Everyone loved it and by the end of the party about 3/4 of it had been eaten.<br/>
+<p>
+    Below is a large, large batch that I made for a party not too long before writing this. Everyone loved it, and by the end of the party, about 3/4 of it had been eaten.<br/>
     <img width="720px" src="/assets/img/blog/friedrice/batch.jpg"><br/><br/>
 
     Happy cooking!<br/>
