@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>i be cookin stuff!</title>
+            <link>https://atapi.space/site/blog/friedrice/</link>
+            <guid>rice1</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 MST</pubDate>
+            <description>hiiii!!! today i wrote the recipe for my world-famous "femboy fried rice," which is a somewhat "freestyle" fried rice dish and contains some tips for making a better dish! please read it and go cook it yourself because it's very very nummy and everyone i know loves it a lot!!</description>
+        </item>
+
+        <item>
             <title>Stuff in the works!</title>
             <link>https://atapi.space/</link>
             <guid>foreboding1</guid>

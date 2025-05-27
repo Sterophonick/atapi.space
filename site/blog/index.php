@@ -22,8 +22,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog");
 <a href="2024inreview/">2024 Year in Review, I Guess</a><br />
 <a href="penguin0125/">The State of Linux Gaming (as of January 2025)</a><br />
 <a href="winemidi/">Enabling MIDI Support for Legacy WINE Gaming</a><br />
-<img class="pixelArt/" style="vertical-align:middle" src="\assets\img\global\new.gif"><a href="yarg/">Adventures in Rock Band on Linux</a><br />
-
+<a href="yarg/">Adventures in Rock Band on Linux</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="\assets\img\global\new.gif">a href="friedrice/">Femboy Fried Rice</a><br />
 <?php
 
 echo constructPageFooter();
