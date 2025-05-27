@@ -30,23 +30,48 @@ Content Warning // Non-Vegan Cooking
 
 <p>
     Nothing about these ingredients are really measured or anything. In truth, eyeballing it is a great way to go, as fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
+
+    Our sauce mixture is going to be made with the following ingredients:<br/><br/>
 </p>
 
-<div id="ingredients" style="width:50%; margin:auto; text-align: left;">
+<div class="ingredients" style="width:50%; margin:auto; text-align: left;">
     <ul>
         <li>
-            <yellow>Rice (duh)</yellow> - Preferrably some form of white rice, jasmine is what I use.
+            <yellow>Light Soy Sauce</yellow> - Color and flavor
         </li>
         <li>
-            <yellow>Light Soy Sauce<yellow> - Color and flavor
+            <yellow>Dark Soy Sauce</yellow> - Color and flavor
         </li>
         <li>
-            <yellow>Dark Soy Sauce<yellow> - Color and flavor
+            <yellow>MSG</yellow> - A seasoning that's ubiquitous in Asian cooking.
         </li>
         <li>
-            <yellow>MSG<yellow> - A seasoning that's ubiquitous in Asian cooking.
+            <yellow>Sugar</yellow> - Pure cane sugar. Used to take the bite out of the salty components.
         </li>
+    </ul>
+</div>
+
+<br/><br/>
+
+<p>
+    Our dry spice mixture will have the following ingredients:<br/><br/>
+</p>
+
+<div class="ingredients" style="width:50%; margin:auto; text-align: left;">
     <ul>
+        <li>
+            <yellow>Kosher Salt</yellow> - Because of course.
+        </li>
+        <li>
+            <yellow>Pepper</yellow> - I prefer doing this with white pepper but black also works.
+        </li>
+        <li>
+            <yellow>Garlic Powder</yellow> - What's a dish without garlic, right?
+        </li>
+        <li>
+            <yellow>MSG</yellow> - More MSG cannot hurt, right?
+        </li>
+    </ul>
 </div>
 
 <?php
