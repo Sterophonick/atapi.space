@@ -157,5 +157,9 @@ small {
 }
 
 yellow {
-    color: yellow;
+    color: #00FFFF;
+}
+
+light-blue {
+    color: #00d2ff;
 }

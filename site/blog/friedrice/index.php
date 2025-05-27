@@ -31,7 +31,7 @@ Content Warning // Non-Vegan Cooking
 <p>
     Nothing about these ingredients are really measured or anything. In truth, eyeballing it is a great way to go, as fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
 
-    Our sauce mixture is going to be made with the following ingredients:<br/><br/>
+    Our <light-blue>sauce mixture</light-blue> is going to be made with the following ingredients:<br/><br/>
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
@@ -54,7 +54,7 @@ Content Warning // Non-Vegan Cooking
 <br/>
 
 <p>
-    Our dry spice mixture will have the following ingredients:<br/><br/>
+    Our dry <light-blue>spice mixture</light-blue> will have the following ingredients:<br/><br/>
 </p>
 
 <div class="ingredients" style="width:60%; margin:auto; text-align: left;">
