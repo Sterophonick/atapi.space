@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>RE: Stuff in the works!</title>
+            <link>https://atapi.space/</link>
+            <guid>foreboding2</guid>
+            <pubDate>Wed, 28 May 2025 00:00:00 MST</pubDate>
+            <description>quick update! hardware has arrived and it's all working properly as it should! i've gotten the FlashAdvance Parallel Linker working on my Dell Latitude running Windows 98 and I have the EZ-Flash II PowerStar running under a Windows XP virtual machine! hopefully i'll have time to continue writing soon!</description>
+        </item>
+
+        <item>
             <title>i be cookin stuff!</title>
             <link>https://atapi.space/site/blog/friedrice/</link>
             <guid>rice1</guid>
