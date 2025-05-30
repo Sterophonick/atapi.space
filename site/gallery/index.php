@@ -92,7 +92,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     <a href="#Kaznoot">Kaznoot</a>
                 </li>
                 <li>
-                    <a href="#Sominemo">Sominemo<</a>
+                    <a href="#Sominemo">Sominemo</a>
                 </li>
                 <li>
                     <a href="#Karmageddon">Karmageddon</a>
@@ -633,8 +633,8 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <p>December 2022<br />IT'S KRIMAAAAAAA!!!</p>
         </td>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/ashie_halloween2023.png">
-                <p>October 2023<br />He Returns</p>
+            <a href="/assets/img/gallery/ashie_halloween2023.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/ashie_halloween2023_thumb.jpg"></a>
+            <p>October 2023<br />He Returns</p>
         </td>
     </tr>
 </table>
@@ -994,7 +994,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/queerkobold_atapi1.png">
+            <a href="/assets/img/gallery/queerkobold_atapi1.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/queerkobold_atapi1_thumb.jpg"></a>
                 <p>March 2021<br />Sans + Doing a little trolling</p>
         </td>
     </tr>
