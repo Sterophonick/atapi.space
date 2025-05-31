@@ -154,9 +154,15 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     The linker has a fancy status LED that shows two different colors. If it's ready for use with a proper firmware file, then it turns green, otherwise it is red.<br/>
     <img width="360px" src="/assets/img/blog/flash2advance/ez2_red.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_green.jpg"><br/><br/>
 
-    This linker works with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB. <br/><br/>
+    This linker works with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB. <br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client1.png"><br/><br/>
 
-    images of software<br/><br/>
+    Interestingly enough, having the client software open causes the LED on the linker to start doing this "heartbeat" type of flickering.<br/>
+    <video class="interruptVideo" width="640" height="360" controls>
+    <source src="/assets/vid/ez2_heartbeat.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video><br/><br/>
 </p>
 
 <br/>
