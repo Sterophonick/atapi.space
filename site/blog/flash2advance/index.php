@@ -76,6 +76,14 @@ This unit is a cheap clone of previous SuperCard SD units that I picked up on Al
 <img width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbb.jpg"><br/><br/>
 </p>
 
+<h3>EZF-Advance Realtime 256M</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_ezf.jpg"><br/><br/>
+<p>
+I don't have the serial cable that was used for this one, but there exists a Nintendo DS program for writing to it, so maybe it can be ported to FlashGBX. An interesting oddity about this one is how the SRAM is located under the battery instead of the CPLD, unlike every other cartridge I own. The CPLD also has the markings removed from it, can't really tell if it was done mechanically or chemically. The two flash chips are marked with <code>29PL12LM-10PCN</code>, which I couldn't really find concrete information on.<br/><br/>
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbb.jpg"><br/><br/>
+</p>
+
 <h2>FlashAdvance Parallel Linker</h2>
 <p>
 This one was an absolute nightmare to get working due to it operating on the Parallel port interface. It was certainly a process that involved a ThinkPad T30 graphics chipset dying, and the manual refurbishing of a Dell Latitude with a Pentium III.<br/><br/>
