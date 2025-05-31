@@ -32,7 +32,7 @@ Category: Infodump<br/>
 <br/>
 
 <h2>My Collection</h2>
-<img width="720px" height="480px" src="/assets/img/blog/flash2advance/temp.jpg"><br/><br/>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_all.jpg"><br/><br/>
 <p>
     I cannot be trusted with money.<br/><br/>
 
@@ -40,9 +40,30 @@ Category: Infodump<br/>
     <img src="/assets/img/blog/flash2advance/marge.png"><br/><br/>
 
     Random tidbit: as far as I can tell, FlashAdvance and Flash2Advance are the same exact family. This could, of course, be wrong, but if FlashGBX' config files are to be believed, then the protocols for the CPLDs on the cartridges are pretty much identical between each other.<br/><br/>
+
+    Anyway, I photographed all my legacy cartridges and hardware, and will make some notes that some would find interesting.<br/>
 </p>
 
 <br/>
+
+<h3>128Mb EZ-Flash I (x2)</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_bothez1.jpg"><br/><br/>
+<p>
+Two units that are interestingly quite different from each other. The left unit isa later revision, marked "EZ A10" from <code>2004-03</code>. The unit on the left is also apparently broken, I can't seem to get anything to boot off of it, the flash obviously has gone bad. The left unit has flash chips that are marked with <code>E28F32 \ BVP-10 \ 12D43</code>, and the right unit has ones marked <code>E28F640 J3A120/code>, which looking those up reveals they're from Intel's <i>StrataFlash</i> line of flash memory. Both units share the same static RAM chip, an EliteMT
+LP62S2048X-70LLT 256K CMOS SRAM. It's possible that the "BVP-10" chips are cheaper clones of the Intel StrataFlash chips, which seems to have done super super well for longevity. /sarcasm<br/><br/>
+
+<img width="720px" src="/assets/img/blog/flash2advance/collection_bothez1_pcbf.jpg"><br/>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_bothez1_pcbb.jpg"><br/>
+</p>
+<br/>
+
+<h3>Unknown 256Mb Flashcart (Magic Card? / FireCard?)</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_firecard.jpg"><br/><br/>
+<p>
+I don't know what this unit's deal is.
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbb.jpg"><br/><br/>
+</p>
 
 <h2>FlashAdvance Parallel Linker</h2>
 <p>
