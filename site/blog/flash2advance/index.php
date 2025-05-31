@@ -219,6 +219,30 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
     From here, our emulator compilations can be booted and we can play our games!
     <img width="360px" src="/assets/img/blog/flash2advance/ez2_gba6.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_gba7.jpg"><br/> <small>The game I picked for the PCE emulator, Bonk's Revenge, didn't work here...<br/><br/>
+
+    Taking a look back at the EZLoader GUI, we can press the L Button to bring up a little help window, showing save backup settings and Real-Time Clock settings, though the clock settings don't work on the cartridges that I have unfortunately.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba8.jpg"><br/><br/>
+
+    On this current burn of the cartridge, we don't have access to the save backup settings.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba9.jpg"><br/><br/>
+
+    However, we can fix that. In EZClient, there is a checkbox in the <code>System Settings</code> dropdown menu named <code>use SMS</code>, which I can only assume means "Save Management System" or something.<br/>
+    <img width="418px" class="pixelArt" src="/assets/img/blog/flash2advance/ez2_client13.png"><br/><br/>
+
+    When enabled, it will bring a dialog box noting that SMS will take up roughly two megabytes of the flash.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client14.png"><br/><br/>
+
+    From here, when we write some games to our cartridge, we get access to this backup menu.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba10.jpg"><br/><br/>
+
+    From here, if we press the A Button it will ask us if we want to make a backup.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba11.jpg"><br/><br/>
+
+    We accept, and it writes a copy of the save data to the flash.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba12.jpg"><br/><br/>
+
+    We can make as many backups as we want, too. It's nice.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba13.jpg"><br/><br/>
 </p>
 
 <br/>
