@@ -89,9 +89,25 @@ I don't have the serial cable that was used for this one, but there exists a Nin
 <h3>FlashAdvance Pro 256M</h3>
 <img width="720px" src="/assets/img/blog/flash2advance/collection_fap256m.jpg"><br/><br/>
 <p>
-<br/><br/>
+There isn't really much to write home about with for this cartridge, but it's worth noting that FlashGBX reads this, reporting its two <code>28F128J3A150</code> flash memories. It's good to have PCB photographs anyway.<br/><br/>
 
 <img width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbb.jpg"><br/><br/>
+</p>
+
+<h3>Flash2Advance 256M</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_f2a256m.jpg"><br/><br/>
+<p>
+Interesting amount of flash chips, coming it at 8x <code>3204C3B100</code> flash memories.<br/><br/>
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_f2a256m_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_f2a256m_pcbb.jpg"><br/><br/>
+</p>
+
+<h3>Flash2Advance Ultra 512M</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_f2a512m.jpg"><br/><br/>
+<p>
+This time coming with four <code>28F128J3A15</code> memories instead of two, we also get these couple of extra buttons on the top of the cartridge. These were the called "Die Hard" buttons which supposedly allowed for loading save states, and the F2A team had even released patches for games like Super Mario Advance that took advantage of this feature, but I've never actually been able to get it to work. Maybe my cartridge is busted, or it needs the WinF2A loader, which I can't use without the official linker. We can write to this cartridge using FlashGBX if we select the option for the 256M Flash2Advance cartridge that uses the same flash chips, but forcing the ROM size to have a maximum of 64MiB.<br/><br/>
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_f2a512m_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_f2a512m_pcbb.jpg"><br/><br/>
 </p>
 
 <h2>FlashAdvance Parallel Linker</h2>
