@@ -243,6 +243,34 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
     We can make as many backups as we want, too. It's nice.<br/>
     <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba13.jpg"><br/><br/>
+
+    If we hook our cartridge back up to the linker and head ove rto <code>Save FileSystem Setting</code>, we can see the fancy little filesystem of save backups.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client15.png"><br/><br/>
+
+    From here, we can extract, add, and delete saves. We can also erase the backup space, and write to the cartridge with the <code>WriteCart</code> button. As far as I can tell the <code>Flash</code> button just refreshes the screen.<br/><br/>
+
+    It's worth noting that the save backups are not the same as what's currently live in the SRAM. That can still be backed up or written to using the <code>Write Saver</code> and <code>BAK Saver</code> buttons in the top.<br/><br/>
+
+    Back on the Game Boy, we can use the L+A buttons to the menu for restoring a save file. We first need to highlight the game we want to load saves for, and then we enter the restore menu.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba14.jpg"><br/><br/>
+
+    We select the save we want, and mind you, we aren't shackled to saves just for our game, we can pick genuinely anything from the filesystem and it will let you overwrite your save data on the SRAM.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba15.jpg"><br/><br/>
+
+    You might have also noticed that little text at the bottom of the main screen of EZLoader that reads <code>RESET</code>.<br/>
+    <img width="261px" class="pixelArt" src="/assets/img/blog/flash2advance/ez_loader1.png"><br/><br/>
+
+    That is a soft reset hack. It allows for exiting back to the menu when the Game Boy soft-resets, such as when hitting the exit option in FluBBa's emulators or when hitting A+B+SELECT+STARt in many titles. It works in PCEAdvance and Activision Anthology, but it caused Jazz Jackrabbit to have a white screen, so obviously the patches for it were very hit and miss.<br/>
+
+    Back over to the EZ-Client and you get a couple of theming options. The <code>Remove Intro</code> checkbox skips that first splash screen, and the <code>Select Logo File...</code> lets us select a Windows BMP file to use as the splash screen.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba16.jpg"><br/><br/>
+
+    If we were to uncheck <code>Use Back</code> then the background for the menu becomes plain white.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba17.jpg"><br/><br/>
+
+    But, we can use the <code>Select Loader Back File...</code> option to select another bitmap for the background.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba18.jpg"><br/><br/>
+
 </p>
 
 <br/>
