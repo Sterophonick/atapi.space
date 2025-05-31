@@ -1,6 +1,7 @@
 const musicPlayer = document.getElementById('musicPlayer');
 const interruptAudios = document.querySelectorAll('.interruptAudio, .interruptVideo');
 
+var detectManualPause = 0;
 
 function getCookieByName2(name) {
     const cookies = document.cookie.split(';');
@@ -26,10 +27,17 @@ function checkInterruptAudio() {
 
     // If any interruptAudio is playing, pause the music player
     if (anyInterruptPlaying) {
+        if(musicPlayer.paused) {
+            detectManualPause = 1;
+        } else {
+            detectManualPause = 0;
+        }
+
         musicPlayer.pause();
     } else {
         // If no interruptAudio is playing, play the music player
-        musicPlayer.play();
+        if(!detectManualPause)
+            musicPlayer.play();
     }
 }
 

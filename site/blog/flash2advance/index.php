@@ -280,7 +280,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     There isn't too too much to do here, but you have the ability to backup or restore the save data and dump the ROM contents. You can make backups of your games to use on your cartridge so you can have multiple games on one single cart, for convienence's sake.<br/>
     <img src="/assets/img/blog/flash2advance/ez2_client18.png"><br/><br/>
 
-    We also get another status pattern when having a non-EZ-Flash cartridge attached.<br/>
+    We also get another status pattern when having a non-EZ-Flash cartridge attached. This time it blinks once instead of twice.<br/>
     <video width="640" height="360" controls>
     <source src="/assets/vid/ez2_nonez_heartbeat.webm" type="video/webm">
     <br/>
