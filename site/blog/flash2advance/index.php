@@ -143,13 +143,13 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img src="/assets/img/blog/flash2advance/ez_xp_2.png"><br/><br/>
 
     In Windows, with the drivers installed, that appears as "EZ-Writer Initialization".<br/>
-    <img width="438px" class="pixelart" src="/assets/img/blog/flash2advance/ez_xp_1.png"><br/><br/>
+    <img width="438px" class="pixelArt" src="/assets/img/blog/flash2advance/ez_xp_1.png"><br/><br/>
 
     At this very moment the microcontroller is here listening for a <a href="/files/tusbez.bin">firmware file</a>. On each boot, the driver must upload the firmware image to the microcontroller, to which it then reports in Linux as:
     <code>0548:1005 Tyan Computer Corp. EZ Cart II GameBoy Flash Programmer</code><br/><br/>
 
     This is what that device looks like in Windows.</br>
-    <img width="394px" class="pixelart" src="/assets/img/blog/flash2advance/ez_xp_3.png"><br/><br/>
+    <img width="394px" class="pixelArt" src="/assets/img/blog/flash2advance/ez_xp_3.png"><br/><br/>
 
     The linker has a fancy status LED that shows two different colors. If it's ready for use with a proper firmware file, then it turns green, otherwise it is red.<br/>
     <img width="360px" src="/assets/img/blog/flash2advance/ez2_red.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_green.jpg"><br/><br/>
