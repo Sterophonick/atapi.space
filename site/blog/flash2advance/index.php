@@ -60,9 +60,20 @@ LP62S2048X-70LLT 256K CMOS SRAM. It's possible that the "BVP-10" chips are cheap
 <h3>Unknown 256Mb Flashcart (Magic Card? / FireCard?)</h3>
 <img width="720px" src="/assets/img/blog/flash2advance/collection_firecard.jpg"><br/><br/>
 <p>
-I don't know what this unit's deal is.
+I don't know what this unit's deal is. The eBay listing that I sniped it from labelled it as a "SuperCard," which is not remotely true. It also advertises a capacity of 256Mb, which might be true, but FlashGBX only detects 64Mb. On top of all that, that "USB" label on the front is a complete lie, the cable that I received with this cartridge is actually a parallel port cable.<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_firecard_cable.jpg"><br/><br/>
+
+Anyway, on the inside of this has a flash chip labeled <code>M6MGJ927</code> and the same CMOS SRAM from the EZ-Flash I, which is probably why EZ-Client picks it up as one of those units.<br/><br/>
 
 <img width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbb.jpg"><br/><br/>
+</p>
+
+<h3>SuperCard microSD</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_supercard.jpg"><br/><br/>
+<p>
+This unit is a cheap clone of previous SuperCard SD units that I picked up on AliExpress for $10 USD. It operates on the same protocol as those units, though, and so the maximum microSD card size that we get is 2GB. There isn't really much of note here about this cartridge, other than the fact that it sucks. I have hardly gotten any games to boot on it, and the ones that do express annoying incompatibilities such as flickering graphics or crashes. The software has to screw with cartridge waitstate timings on your ROM files which is probably destructive for many games.<br/><br/>
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbb.jpg"><br/><br/>
 </p>
 
 <h2>FlashAdvance Parallel Linker</h2>
