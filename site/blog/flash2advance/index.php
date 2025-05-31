@@ -157,12 +157,31 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     This linker works with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB. <br/>
     <img src="/assets/img/blog/flash2advance/ez2_client1.png"><br/><br/>
 
-    Interestingly enough, having the client software open causes the LED on the linker to start doing this "heartbeat" type of flickering.<br/>
-    <video class="interruptVideo" width="640" height="360" controls>
+    Interestingly enough, having the client software open causes the LED on the linker to start doing this "heartbeat" type of flickering. It only does this when there is no cartridge inserted, though.<br/>
+    <video width="640" height="360" controls>
     <source src="/assets/vid/ez2_heartbeat.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
     </video><br/><br/>
+
+    Anyway, attach a cartridge into the linker, and the software will automatically update to show the contents and type of cartridge.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client3.png"><br/><br/>
+
+    If we were to clear the cartridge and take a look at the <code>System Config</code> menu, you'll see we get a handful of options, such as what loader we want and what logo we want to use for the loader. I'm not entirely sure what the <code>Use Back</code> option is though.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client2.png"><br/><br/>
+
+    None of this is really important to us at this very moment, so let's add some games. To do this, all we need to do is hit the "Open ROM" button, and navigate to a game we want to add. For this, we'll be using WarioWare, Inc. and Jazz Jackrabbit. You'll notice that since we have the <code>Use Loader</code> option enabled, it inserts this "EZLoader" at the top of the cartridge, and that's so that we get a nice menu to select a game.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client4.png"><br/><br/>
+
+    From here, we're pretty much done. All we have to do now is press the <code>Burn</code> butto
+    n, and watch as it begins writing to our cartridge. The status LED will turn red for the entire duration of this operation, and for the 12 MiB total that these games take up, it took about a couple minutes or so.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client5.png"><br/><br/>
+
+    That's it! From here, we pu the cartridge into our Game Boy, and we're first greeted with this... very good... looking splash screen.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba1.jpg"><br/>
+
+    Press a button, and we're taken to the EZLoader main menu.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba2.jpg"><br/>
 </p>
 
 <br/>
