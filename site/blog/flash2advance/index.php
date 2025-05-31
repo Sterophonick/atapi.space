@@ -132,11 +132,29 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 <p>
     The most expensive item in my collection, purchased primarily because EZ-Flash themselves have lost the source code and verilog (I asked them directly) to everything before the EZ-Flash III. I own two (LATER UPDATE) EZ-Flash I 128mbit cartridges, which can only be written by this specific linker, the EZ-Writer. Thankfully, though, this linker operates over USB, which I <i>can passthrough</i> to Virtual Machines, saving me a headache and a half.<br/><br/>
 
-    iamges of box<br/><br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_box.jpg"><br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/ez2_top.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_back.jpg"><br/>
+    <img width="360px" src="/assets/img/blog/flash2advance/ez2_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_pcbb.jpg"><br/><br/>
 
-    images of linker and disassembly<br/><br/>
+    The EZ-Flash II is powered by a Cypress AN2131QC EZ-USB microcontroller, which is a microcontroller with an integrated Intel 8051 CPU and 8kB of SRAM, but no internal flash memory. The firmware of the linker is downloaded on every single connect, at least if we assume that the drivers are actually present for us to install. If we hook it up to a Linux machine and check <code>lsusb</code> the linker appears as:<br/>
+    <code>ID 0547:2131 Anchor Chips, Inc. AN2131 EZUSB Microcontroller</code><br/><br/>
 
-    This linker was used with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB, as shown by the box.<br/><br/>
+    Of course, we have specific drivers that we need to install for this microcontroller.<br/>
+    <img src="/assets/img/blog/flash2advance/ez_xp_2.png"><br/><br/>
+
+    In Windows, with the drivers installed, that appears as "EZ-Writer Initialization".<br/>
+    <img src="/assets/img/blog/flash2advance/ez_xp_1.png"><br/><br/>
+
+    At this very moment the microcontroller is here listening for a <a href="/files/tusbez.bin">firmware file</a>. On each boot, the driver must upload the firmware image to the microcontroller, to which it then reports in Linux as:
+    <code>0548:1005 Tyan Computer Corp. EZ Cart II GameBoy Flash Programmer</code><br/><br/>
+
+    This is what that device looks like in Windows.</br>
+    <img src="/assets/img/blog/flash2advance/ez_xp_3.png"><br/><br/>
+
+    The linker has a fancy status LED that shows two different colors. If it's ready for use with a proper firmware file, then it turns green, otherwise it is red.
+    <img width="360px" src="/assets/img/blog/flash2advance/ez2_red.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_green.jpg"><br/>
+
+    This linker works with their very own fancy "EZ-Client" software, which has support for both EZ-Flash I and EZ-Flash II cartridges, with EZ-Flash II cartridges being up to 1 Gigabit in size, or 125 MB. <br/><br/>
 
     images of software<br/><br/>
 </p>
