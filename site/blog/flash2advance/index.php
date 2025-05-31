@@ -369,6 +369,7 @@ There are also a handful of audio bitrates to select from:<br/>
 <img src="/assets/img/blog/flash2advance/meteo3.png"><br/><br/>
 
 For comparison's sake, I recorded each possible audio quality:
+</p>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
 style="text-align: center;">
 <col width="160px" />
@@ -395,6 +396,7 @@ style="text-align: center;">
 </table>
 <small>Dr. Wily Stage 1 & 2 (JP Version) - Mega Man 2</small><br/><br/>
 
+<p>
 I think it's worth pointing out that each of these three encodes wasn't really that different in terms of file size, but in many cases a few hundred kilobytes was the difference between watching and not watching.<br/>
 <img src="/assets/img/blog/flash2advance/3encodes.png"><br/><br/>
 
