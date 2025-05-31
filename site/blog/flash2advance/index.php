@@ -178,10 +178,47 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img src="/assets/img/blog/flash2advance/ez2_client5.png"><br/><br/>
 
     That's it! From here, we pu the cartridge into our Game Boy, and we're first greeted with this... very good... looking splash screen.<br/>
-    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba1.jpg"><br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba1.jpg"><br/><br/>
 
     Press a button, and we're taken to the EZLoader main menu.<br/>
-    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba2.jpg"><br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba2.jpg"><br/><br/>
+
+    From here, all we have to do is press the A Button on any game, and the game starts.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba3.jpg"><br/><br/>
+
+    Pretty simple, right? Of course, that's just for a couple smaller games. Some Game Boy Advance titles would take up the whole 16 MiB that these cartridges alotted, and so for those games, you'd want to do something different.<br/><br/>
+
+    To start, you would have to disable <code>Use Loader</code> >in the <code>System Config</code> menu.<br/>
+    <img width="424px" class="pixelArt" src="/assets/img/blog/flash2advance/ez2_client6.png"><br/><br/>
+
+    And then from here, you add your game to the selection. Notice how EZClient no longer inserts EZLoader to the top of the cartridge?<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client7.png"><br/><br/>
+
+    From here we can hit <code>Burn</code>. Our game is the only thing on the cartridge here, and it behaves as any other Game Boy Advance game.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba4.jpg"><br/><br/>
+
+    EZClient contained a few extra features, one such being integration for FluBBa's Game Boy, NES, and PC-Engine emulators. To access this, you first head over to the section labelled <code>NES/PCE/GBC/GB ROM support</code>.
+    <img src="/assets/img/blog/flash2advance/ez2_client8.png"><br/><br/>
+
+    From here, use the drop-down menu to select what system you want.<br/>
+    <img width="246px" class="pixelArt" src="/assets/img/blog/flash2advance/ez2_client9.png"><br/><br/>
+
+    From there, you click <code>Add ROMs</code> and then do exactly that.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client10.png"><br/><br/>
+
+    From here, you can either hit <code>Save as ROM</code> to save the compilation ROM to your computer for re-use, or you can just add it to the cartridge directly with the <code>Add to Cart</code> button. Except don't, actually. Because the program just crashes when you try to burn when using <code>Add to Cart</code>, so it's best to just save the file and load it that way.<br/><br/>
+
+    Interesting tidbit here, the NES loader actually includes all of the speedhack and scaling options that PocketNES shipped with in its own builder. You can enable the CPU speedhack, PPU speedhack, you can force a PAL console, and you can make the screen vertically scroll based on a memory address, or by the position of a sprite.<br/>
+    <img width="216px" class="pixelArt" src="/assets/img/blog/flash2advance/ez2_client11.png"><br/><br/>
+
+    Anyway, now that we've gotten our emulators and a game queued up, we're ready to burn it to our cartridge.<br/>
+    <img width="382px" class="pixelArt" src="/assets/img/blog/flash2advance/ez2_client12.png"><br/><br/>
+
+    Loading it up in our Game Boy and:
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba5.jpg"><br/><br/>
+
+    From here, our emulator compilations can be booted and we can play our games!
+    <img width="360px" src="/assets/img/blog/flash2advance/ez2_gba6.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/ez2_gba7.jpg"><br/> <small>The game I picked for the PCE emulator, Bonk's Revenge, didn't work here...<br/><br/>
 </p>
 
 <br/>
