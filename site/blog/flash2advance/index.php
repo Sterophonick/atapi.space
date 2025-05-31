@@ -260,7 +260,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     You might have also noticed that little text at the bottom of the main screen of EZLoader that reads <code>RESET</code>.<br/>
     <img width="261px" class="pixelArt" src="/assets/img/blog/flash2advance/ez_loader1.png"><br/><br/>
 
-    That is a soft reset hack. It allows for exiting back to the menu when the Game Boy soft-resets, such as when hitting the exit option in FluBBa's emulators or when hitting A+B+SELECT+STARt in many titles. It works in PCEAdvance and Activision Anthology, but it caused Jazz Jackrabbit to have a white screen, so obviously the patches for it were very hit and miss.<br/>
+    That is a soft reset hack. It allows for exiting back to the menu when the Game Boy soft-resets, such as when hitting the exit option in FluBBa's emulators or when hitting A+B+SELECT+START in many titles. It works in PCEAdvance and Activision Anthology, but it caused Jazz Jackrabbit to have a white screen, so obviously the patches for it were very hit and miss. It's toggled on and off with the R Button.<br/><br/>
 
     Back over to the EZ-Client and you get a couple of theming options. The <code>Remove Intro</code> checkbox skips that first splash screen, and the <code>Select Logo File...</code> lets us select a Windows BMP file to use as the splash screen.<br/>
     <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba16.jpg"><br/><br/>
@@ -271,11 +271,25 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     But, we can use the <code>Select Loader Back File...</code> option to select another bitmap for the background.<br/>
     <img width="720px" src="/assets/img/blog/flash2advance/ez2_gba18.jpg"><br/><br/>
 
+    There's another feature of the client called "GoldenFinger," which is basically just cheats. I've never been able to get this properly working unfortunately, as pressing <code>Refresh CHT files</code> causes the client to hang, presumably because it's trying to fetch files from a server that doesn't exist anymore, and I don't know how they were formatted or where they are located.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client17.png"><br/><br/>
+
+    Being able to manipulate EZ-Flash cartridges is cool and all, but what's also nice is the ability to attach non-EZ-Flash cartridges to the linker.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client16.png"><br/><br/>
+
+    There isn't too too much to do here, but you have the ability to backup or restore the save data and dump the ROM contents. You can make backups of your games to use on your cartridge so you can have multiple games on one single cart, for convienence's sake.<br/>
+    <img src="/assets/img/blog/flash2advance/ez2_client18.png"><br/><br/>
+
+    We also get another status pattern when having a non-EZ-Flash cartridge attached.<br/>
+    <video width="640" height="360" controls>
+    <source src="/assets/vid/ez2_nonez_heartbeat.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video><br/><br/>
+
+    So, that's the EZ-Flash II linker. I don't have an EZ-Flash II cartridge, but that's okay, since I was able to show off everything the cartridges were capable of with the EZ-Flash I. Curiously enough, if we look on the side of the box that the linker and cartridge shipped in, we can see that what originally came with it was a 512M EZ-Flash II cartridge. I dunno where that unit is.<br/>
+    <img width="720px" src="/assets/img/blog/flash2advance/ez2_box_side.jpg"><br/><br/>
 </p>
-
-<br/>
-
-<h2>Piracy</h2>
 
 <br/>
 
