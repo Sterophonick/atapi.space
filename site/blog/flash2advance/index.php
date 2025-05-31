@@ -49,7 +49,9 @@ Category: Infodump<br/>
 <h3>128Mb EZ-Flash I (x2)</h3>
 <img width="720px" src="/assets/img/blog/flash2advance/collection_bothez1.jpg"><br/><br/>
 <p>
-Two units that are interestingly quite different from each other. The left unit isa later revision, marked "EZ A10" from <code>2004-03</code>. The unit on the left is also apparently broken, I can't seem to get anything to boot off of it, the flash obviously has gone bad. The left unit has flash chips that are marked with <code>E28F32 \ BVP-10 \ 12D43</code>, and the right unit has ones marked <code>E28F640 J3A120</code>, which looking those up reveals they're from Intel's <i>StrataFlash</i> line of flash memory. Both units share the same static RAM chip, an EliteMT
+Two of them.<br/><br/>
+
+Both of these units have a few interesting differences from each other. The left unit is a later revision, marked "EZ A10" from <code>2004-03</code>. The unit on the left is also apparently broken, I can't seem to get anything to boot off of it, the flash obviously has gone bad. The left unit has flash chips that are marked with <code>E28F32 \ BVP-10 \ 12D43</code>, and the right unit has ones marked <code>E28F640 J3A120</code>, which looking those up reveals they're from Intel's <i>StrataFlash</i> line of flash memory. Both units share the same static RAM chip, an EliteMT
 LP62S2048X-70LLT 256K CMOS SRAM. It's possible that the "BVP-10" chips are cheaper clones of the Intel StrataFlash chips, which seems to have done super super well for longevity. /sarcasm<br/><br/>
 
 <img width="720px" src="/assets/img/blog/flash2advance/collection_bothez1_pcbf.jpg"><br/>
@@ -82,6 +84,14 @@ This unit is a cheap clone of previous SuperCard SD units that I picked up on Al
 I don't have the serial cable that was used for this one, but there exists a Nintendo DS program for writing to it, so maybe it can be ported to FlashGBX. An interesting oddity about this one is how the SRAM is located under the battery instead of the CPLD, unlike every other cartridge I own. The CPLD also has the markings removed from it, can't really tell if it was done mechanically or chemically. The two flash chips are marked with <code>29PL12LM-10PCN</code>, which I couldn't really find concrete information on.<br/><br/>
 
 <img width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbb.jpg"><br/><br/>
+</p>
+
+<h3>FlashAdvance Pro 256M</h3>
+<img width="720px" src="/assets/img/blog/flash2advance/collection_fap256m.jpg"><br/><br/>
+<p>
+<br/><br/>
+
+<img width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbf.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbb.jpg"><br/><br/>
 </p>
 
 <h2>FlashAdvance Parallel Linker</h2>
