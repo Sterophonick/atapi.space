@@ -165,6 +165,7 @@ $quoteStrings = array(
     "Noelle Honey Darling Sweetie Gravy", "-- Queen, Deltarune",
     "Kris Get The Banana", "-- Queen, Deltarune",
     "Potassium", "-- Queen, Deltarune",
+    "deltarune tomorrow","",
 
     // Political / LGBTQ+
     "trans rights are human rights, now and forever", "-- @LinusTechTip_",
