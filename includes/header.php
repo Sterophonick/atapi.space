@@ -49,6 +49,14 @@ $quoteStrings = array(
     "Our hen is about to lay an egg. All is good. Until I hear from you again.","-- G01 \"Tyrolean Music Station,\" translated from German",
     "Two. Five. Six. Oblique. Zero. Zero. Two. Five. Six. Oblique. Zero. Zero. Out.","-- E11 \"Oblique\" Numbers Station",
 
+    // LEGO Island
+    "I'm the pizza delivery dude! The dude with the food!", "-- Pepper, LEGO Island",
+    "Watch out for The Brickster, he's tricked me before, and I built him!", "-- The Infomaniac, LEGO Island",
+    "WHOOPS! You have to put the CD in your computer.", "-- The Infomaniac, LEGO Island",
+    "I hear they're gonna give me the chair, and maybe even a lovely matching table.", "-- The Brickster, LEGO Island",
+    "Long live The Brickster!", "-- The Brickster, LEGO Island",
+    "Pepper? Or should I say, Paper? That's how you spell it, don't you?", "-- The Brickster, LEGO Island",
+
     // Napoleon Dynamite
     "You got, like, three feet of air that time.", "-- Napoleon Dynamite",
     "I told you! I spent it with my uncle in Alaska hunting wolverines!", "-- Napoleon Dynamite",
