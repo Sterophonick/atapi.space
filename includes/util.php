@@ -1,6 +1,15 @@
 <?php
 
+# page config vars
+# $rssLink: define this to add rss autodiscovery
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
+
+$rssLink = 0;
+
+function enableRssLink() {
+    $rssLink = 1;
+}
 
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
@@ -19,7 +28,7 @@ function constructPageHeader($pageTitle) {
 
     $htmlPage .= '<link rel="stylesheet" href="' . whatStyleSheet() . '">';
 
-    if (isset($rssLink)) {
+    if ($rssLink) {
         $htmlPage .= '<link rel="alternate" type=application/rss+xml" title="Atapi\'s Site RSS Feed!!" href="https://atapi.space/rss.xml" />';
     }
 
