@@ -8,16 +8,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
 $rssLink = 0;
 
 function enableRssLink() {
-    global $rssLink;
-
-    $rssLink = 1;
+    $GLOBALS["rssLink"] = 1;
 }
 
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle) {
-    global $rssLink;
-
     $htmlPage = <<<EOF
     <!DOCTYPE html>
     <html>
@@ -31,9 +27,9 @@ function constructPageHeader($pageTitle) {
 
     $htmlPage .= '<link rel="stylesheet" href="' . whatStyleSheet() . '">';
 
-    echo $rssLink;
+    echo $GLOBALS["rssLink"];
 
-    if ($rssLink == 1) {
+    if ($GLOBALS["rssLink"] == 1) {
         $htmlPage .= '<link rel="alternate" type=application/rss+xml" title="Atapi\'s Site RSS Feed!!" href="https://atapi.space/rss.xml" />';
     }
 
