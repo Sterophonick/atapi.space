@@ -9,7 +9,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Please Contact Fisher-Price
 <p style="margin-top: -25px;">"CD ROM is not a toy"<br/></p><br/>
 <p>
 July 17, 2025<br/>
-Category: Tech<br/>
+Category: Infodump<br/>
 </p>
 <br />
 <h2>Atapi what are you doing</h2>
