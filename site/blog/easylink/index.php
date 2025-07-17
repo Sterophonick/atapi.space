@@ -90,7 +90,7 @@ Category: Infodump<br/>
     This first set of HID packets is at neutral, no buttons are being pressed and no character is inserted.<br/>
     <img src="/assets/img/blog/easylink/linux3.png"><br/><br/>
 
-    This set of packets was with the Dragon Tales key inserted.
+    This set of packets was with the Dragon Tales key inserted.<br/>
     <img src="/assets/img/blog/easylink/linux4.png"><br/><br/>
 
     So this must mean that the first byte is reserved for the character key. The second byte would react upon pressing the arrow keys or the enter key on the unit.<br/><br/>
