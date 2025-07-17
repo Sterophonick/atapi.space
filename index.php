@@ -99,6 +99,9 @@
                     <a href="https://flurrys.neocities.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 
                     <a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
+
+                    <a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
+                    <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
                     </marquee>
                     <br/>
                 </p>

@@ -193,6 +193,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="/interstitial.php?name=VG Cats&dest=https://vgcats.com/"><img src="/assets/img/buttons/vgcats.gif"></a>
 <a href="https://web.archive.org/web/20250000000000*/http://www.geocities.co.jp/Playtown-Yoyo/6130/"><img src="/assets/img/buttons/letsemu.gif"></a>
 <a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
+<a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
 <br />
 <img src="/assets/img/home/linuxfox-comp.gif">
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
