@@ -178,12 +178,12 @@ $quoteStrings = array(
     // Political / LGBTQ+
     "trans rights are human rights, now and forever", "-- @LinusTechTip_",
     "we can't kiss girls anymore. because of woke.", "-- Me",
-    "Queer cats? In MY website? It's more likely than you think.", "-- Me",
-    "enbies don't owe you androgyny, but you owe enbies all of your money!", "-- Me",
+    "Queer cats? In MY website? It's more likely than you think.", "",
+    "enbies don't owe you androgyny, but you owe enbies all of your money!", "",
     "Thank god you're here, look what Antifa did!", "-- a cool magnet i found",
     "It's too bad that stupidity isn't painful.", "-- Anton Szandor LaVey",
     "Be kind to people, be ruthless to systems.", "-- PinkWug",
-    "Live so that if your life was a book, fascists would ban it.", "-- Me",
+    "Live so that if your life was a book, fascists would ban it.", "",
     "Be silly, be kind, be weird. There's no time for anything else.", "-- @slhslhslh",
     "Better a pig than a fascist.", "-- Porco Rosso",
     "You often find the best humanity has to offer amongst those that society dismisses as not being human at all.","-- @Jenetrix",
@@ -196,15 +196,15 @@ $quoteStrings = array(
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
-    "Holy knuckle-cracking kringles on a bullet train with a sack full of ketchup-covered cheese logs!", "-- Sam",
-    "Hi! I'm not Hugh Bliss!", "-- Hugh Bliss",
-    "\"Hard Luck.\" Classy.", "-- Sam",
+    "Holy knuckle-cracking kringles on a bullet train with a sack full of ketchup-covered cheese logs!", "-- Sam, Sam & Max: The Devil's Playhouse",
+    "Hi! I'm not Hugh Bliss!", "-- Hugh Bliss, Sam & Max Save the World",
+    "\"Hard Luck.\" Classy.", "-- Sam, Sam & Max: The Devil's Playhouse",
     "An idle mind is The Devil's Playhouse.", "-- Max's Super-Ego",
-    "But Max, you don't even like girls!", "-- Sam Clones",
-    "My innocence has been shattered by this blatant tourist trap. I want my money back.", "-- Max",
+    "But Max, you don't even like girls!", "-- Sam Clones, Sam & Max: The Devil's Playhouse",
+    "My innocence has been shattered by this blatant tourist trap. I want my money back.", "-- Max, Sam & Max Hit the Road",
     "My mind is a swirling miasma of scintillating thoughts and turgid ideas.", "-- Sam",
-    "I work for the largest division of Hell, the FCC!", "-- Hugh Bliss",
-    "I'm not going back in that closet. Not after all we've accomplished.", "-- Sam",
+    "I work for the largest division of Hell, the FCC!", "-- Hugh Bliss, Sam & Max Beyond Time & Space",
+    "I'm not going back in that closet. Not after all we've accomplished.", "-- Sam, Sam & Max Save the World",
 
     // The Simpsons
     "I'm somewhere where I don't know where I am!", "-- Homer Simpson",
@@ -618,7 +618,7 @@ $musicPaths = array(
         <p style="margin-top: -10px; line-height:1;">
             <?php
 
-            $quoteIndex = floor(rand() % sizeof($quoteStrings) / 2) * 2;
+            $quoteIndex = floor(mt_rand() % sizeof($quoteStrings) / 2) * 2;
             $quoteQuote = $quoteStrings[$quoteIndex];
             $quoteSource = $quoteStrings[$quoteIndex+1];
             //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
@@ -645,7 +645,7 @@ $musicPaths = array(
     </div>
     <?php
     if(doWeShowMusicPlayer()){
-        $musicIndex = floor(rand() % sizeof($musicPaths) / 2) * 2;
+        $musicIndex = floor(mt_rand() % sizeof($musicPaths) / 2) * 2;
         $musicName = $musicPaths[$musicIndex];
         $musicPath = $musicPaths[$musicIndex+1];
         //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
