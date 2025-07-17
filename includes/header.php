@@ -588,7 +588,6 @@ $musicPaths = array(
     "falcon/pulse+tdr - spineless", "/assets/snd/music/spineless.mp3",
     "TheDuccinator - Some Creatures", "/assets/snd/music/some_creatures.mp3",
     "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
-    "X-Ray - Mizzle", "/assets/snd/music/mizzle.mp3",
     "kfaraday - On the Road", "/assets/snd/music/on_the_road.mp3",
     "Nintendo - Main Theme (Nintendo Video)", "/assets/snd/music/nintendo_video.mp3",
     "Jogeir Liljedahl - addiction", "/assets/snd/music/addiction.mp3",
@@ -600,6 +599,8 @@ $musicPaths = array(
     "Michiel van den Bos - Nether Animal", "/assets/snd/music/nether.mp3",
     "Toby Fox - Uwa!! SO HEATS!!", "/assets/snd/music/so_heats.mp3",
     "Jay Tholen - Dimensional Voyager", "/assets/snd/music/voyager.mp3",
+    "Landon Podbielski - jazzroom", "/assets/snd/music/jazz_room.mp3",
+    "kulor - Our Time Machine Works!", "/assets/snd/music/time_machine.mp3",
 );
 
 ?>
