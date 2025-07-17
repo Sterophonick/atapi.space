@@ -42,6 +42,61 @@ Category: Tech<br/>
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
     </video><br/><br/>
+
+    The software requires that you make a password so that your frolicking dirt child doesn't have the ability to mess up the rest of the machine. This dialog is shown when going into the parental controls or tries to exit the program.<br/>
+    <img src="/assets/img/blog/easylink/password.png"><br/><br/>
+
+    The parental controls had options for setting a time limit, as well as allowing printing.<br/>
+    <img src="/assets/img/blog/easylink/parental.png"><br/><br/>
+
+    The software just waits for updates on the character key switches, and then it will load web pages dedicated to the character that was inserted. Elmo was for Sesame Street, Zak and Wheezie was for Dragon Tales, stuff like that. I only have three of the character keys that were ever produced, though.<br/><br/>
+
+    Unsurprisingly, none of the character keys go anywhere anymore. Every URL is completely dead and we've since moved on to universal HTTPS, something this software would never ever have a chance of supporting.<br/>\
+    <img width="720px" src="/assets/img/blog/easylink/software1.png"><br/><br/>
+
+    The software installs to <code>C:\Program Files\Fisher-Price\Easy-Link internet launch pad</code> and we can see all of the files laid bare for us.<br/>
+    <img src="/assets/img/blog/easylink/winxp1.png"><br/><br/>
+
+    Curiously, this <code>URL.xml</code> file has a listing for all of the links that the integrated browser would be allowed and disallowed from visitng.<br/>
+    <img src="/assets/img/blog/easylink/winxp2.png"><br/><br/>
+
+    So, I tried manually replacing it with my site, since it allows for raw HTTP connections.<br/>
+    <img src="/assets/img/blog/easylink/winxp3.png"><br/><br/>
+
+    This does not fix the problem of it not being able to connect to any networks.<br/><br/>
+
+    I even made sure that Windows Firewall was off in the Virtual Machine, it can connect to the internet just fine, just the software mysteriously doesn't work with the outside world at all anymore.<br/>
+    <img src="/assets/img/blog/easylink/winxp4.png"><br/><br/>
+
+    So, I'm not really sure what else to make of the software. If anyone can give me pointers on how to make it work, I would really appreciate it.<br/><br/>
+</p>
+
+<br/>
+
+<h2>Reading it Raw</h2>
+<p>
+    From this point, I figured I should try to do a raw reading of the USB data in Linux.<br/><br/>
+
+    In <code>lsusb</code> the device shows up as <code>ID 0813:0004 Mattel, Inc. EasyLink</code><br/> and uses the <code>hid-generic</code> module.<br/>
+    <img src="/assets/img/blog/easylink/linux1.png"><br/><br/>
+
+    So, we know that it's not using any bespoke, odd USB protocols. It's just a standard HID device, which Linux is more than capable of reading raw data from.<br/><br/>
+
+    What I did next was use <code>hid-recorder</code> from <code>hid-tools</code> to get the descriptors and a raw reading.<br/>
+    <img src="/assets/img/blog/easylink/linux2.png"><br/><br/>
+
+    From this screenshot, <code>hid-recorder</code> tells us that each HID report is just four bytes in size, something that's backed up by the actual reports.<br/><br/>
+
+    This first set of HID packets is at neutral, no buttons are being pressed and no character is inserted.<br/>
+    <img src="/assets/img/blog/easylink/linux3.png"><br/><br/>
+
+    This set of packets was with the Dragon Tales key inserted.
+    <img src="/assets/img/blog/easylink/linux4.png"><br/><br/>
+
+    So this must mean that the first byte is reserved for the character key. The second byte would react upon pressing the arrow keys or the enter key on the unit.<br/>
+
+    Using my finger, I manually pressed down the switches inside of the key slot, and pressed the individual buttons as well. Through this, I came up with this bit mapping for each byte. Blue is the first byte, red is the second byte<br/>
+    <img src="/assets/img/blog/easylink/diagram.jpg"><br/><br/>
 </p>
 
 <?php
