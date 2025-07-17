@@ -114,13 +114,22 @@ This time coming with four <code>28F128J3A15</code> memories instead of two, we 
 <p>
 This one was an absolute nightmare to get working due to it operating on the Parallel port interface. It was certainly a process that involved a ThinkPad T30 graphics chipset dying, and the manual refurbishing of a Dell Latitude with a Pentium III.<br/><br/>
 
-Anyway, this unit that I have is one of the earliest Flash Linkers. The unit ships with its own <i>DC power supply</i> rated for [VOLTAGE] volts, but using AA batteries was also an option for providing power to it, especially since Parallel is hardly capable of providing much power. This pretty much creates a situation where the linker looks like it's on life support whenever you have to use the freakin' thing.<br/><br/>
+Anyway, this unit that I have is one of the earliest Flash Linkers. The unit ships with its own <i>DC power supply</i> with a voltage switch that ranges from 1.5 to 12 volts, but using AA batteries was also an option for providing power to it, especially since Parallel is hardly capable of providing much power. This pretty much creates a situation where the linker looks like it's on life support whenever you have to use the damn thing.<br/><br/>
 
-images of linker go here<br/><br/>
+My setup for using this linker used the aforementioned Dell Latitude CPx model PPX, a machine that came with a license for Windows 98 Second Edition. I don't particularly enjoy using Dell units but it's the machine that I had on hand, and I was able to secure a replacement CD-ROM drive for it that allowed me to transfer files without having to resort to a weird and awful IDE/USB adapter setup.<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_1.jpg"><br/><br/>
 
-image of the setup goes here<br/><br>
+Cracking open the actual linker itself doesn't really answer many questions. All we're really able to see is the microcontroller, the cartridge port, the parallel port, an LED and the voltage regulation circuitry. Doubly annoying that the markings on the controller have been scratched off, which is not uncommon in this kind of field.<br/>
+<img width="360px" src="/assets/img/blog/flash2advance/win98_2.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/win98_3.jpg"><br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_4.jpg"><br/><br/>
 
-The software that would be used by this linker primarily would have been either LittleWriter or XtremeLink, and on Windows NT-based operating systems would have required the DLPortIO driver by DriverLINX, but this was something I was never able to get working under Windows XP. And then my T30 bit the dust, so I installed Windows 98SE on the Latitude, with 98SE having better support for direct Parallel access since it's a DOS-based operating system.<br/><br/>
+The software needed to get this specific working is known as XtremeLink, and on Windows NT-based operating systems would have required the DLPortIO driver by DriverLINX, but this was something I was never able to get working under Windows XP before my ThinkPad T30 bit the dust. Luckily though, Windows 98 being a DOS-based operating system means that we get more low-level access to this kind of thing.<br/><br/>
+
+Anyway, booting up the software with the linker attached and powered up, first gave me this message about my parallel port being potentially misconfigured.<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_5.jpg"><br/><br/>
+
+Checking in the BIOS settings, I double checked what it was set to, and it's set to... ECP? This was the default option but we also have setings for AT compatibility and Bidirectional for PS/2 compatibility, so I'm not really sure what EPP or SPP settings are on this motherboard. Ok then....?<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_6.jpg"><br/><br/>
 
 The wonders of how literally anything got done before the days of USB.<br/><br/>
 
