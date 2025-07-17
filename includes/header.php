@@ -581,6 +581,7 @@ $quoteStrings = array(
     "Cat food, cat food, cat food, again!?", "-- King Crimson, Cat Food",
     "WHAT IS WRONG WITH THE ELF. 0000004f", "-- MrCheeze, GYTB",
     "We are Samurai... the keyboard cowboys.", "-- The Plague, Hackers (1995)",
+    "If I were to go back and kick the Pope off his throne, I'd be the queen.", "-- Sandie \"The Goddess Bunny\" Crisp",
 );
 
 $musicPaths = array(
