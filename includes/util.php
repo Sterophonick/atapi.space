@@ -2,12 +2,6 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
 
-$rssLink = 0;
-
-function enableRssLink() {
-    $GLOBALS["rssLink"] = 1;
-}
-
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle, $useRssLink = false) {
