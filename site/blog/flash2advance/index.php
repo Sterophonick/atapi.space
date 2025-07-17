@@ -128,8 +128,17 @@ The software needed to get this specific working is known as XtremeLink, and on 
 Anyway, booting up the software with the linker attached and powered up, first gave me this message about my parallel port being potentially misconfigured.<br/>
 <img width="720px" src="/assets/img/blog/flash2advance/win98_5.jpg"><br/><br/>
 
-Checking in the BIOS settings, I double checked what it was set to, and it's set to... ECP? This was the default option but we also have setings for AT compatibility and Bidirectional for PS/2 compatibility, so I'm not really sure what EPP or SPP settings are on this motherboard. Ok then....?<br/>
+Checking in the BIOS settings, I double checked what it was set to, and it's set to... ECP? This was the default option but we also have setings for AT compatibility and Bidirectional for PS/2 compatibility, so I'm not really sure what would be EPP or SPP settings are on this motherboard. Ok then....?<br/>
 <img width="720px" src="/assets/img/blog/flash2advance/win98_6.jpg"><br/><br/>
+
+Anyway, as it turns out, I don't currently own any cartridges that can interface with this linker, although it's entirely possible that it's just straight up dying. Every other cartridge that I load into it doesn't have its header read correctly, which tells me that the linker either can't read the cartridges properly, or it can't communicate with the PC properly.<br/>
+<img width="360px" src="/assets/img/blog/flash2advance/win98_7.jpg"> <img width="360px" src="/assets/img/blog/flash2advance/win98_8.jpg"><br/><br/>
+
+On its own though, you had the ability to load multiple ROMs as part of a single Visoly ROM loader that would be then written to your compatible flash cart.<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_9.jpg"><br/><br/>
+
+There were also some tools for manipulating save files. Unlike later cartridges, it had up to four different slots, with slots 1-3 being reserved for games 1-3, and slot 4 being for everything else. That's pretty restrictive, but then again, cartridges in this time would have been so tight on flash space that you would hardly ever be fitting anything more than a couple of games on them.<br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_10.jpg"><br/>
 
 The wonders of how literally anything got done before the days of USB.<br/><br/>
 
