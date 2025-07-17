@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Please Contact Fisher-Price
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Please Contact Fisher-Price Customer Relations</h1>
-<p style="margin-top: -25px;"><br/></p><br/>
+<p style="margin-top: -25px;">"CD ROM is not a toy"<br/></p><br/>
 <p>
 July ??, 2025<br/>
 Category: Tech<br/>
@@ -66,14 +66,14 @@ Category: Tech<br/>
     This does not fix the problem of it not being able to connect to any networks.<br/><br/>
 
     I even made sure that Windows Firewall was off in the Virtual Machine, it can connect to the internet just fine, just the software mysteriously doesn't work with the outside world at all anymore.<br/>
-    <img src="/assets/img/blog/easylink/winxp4.png"><br/><br/>
+    <img width="720px" src="/assets/img/blog/easylink/winxp4.png"><br/><br/>
 
     So, I'm not really sure what else to make of the software. If anyone can give me pointers on how to make it work, I would really appreciate it.<br/><br/>
 </p>
 
 <br/>
 
-<h2>Reading it Raw</h2>
+<h2>Reading it in Linux</h2>
 <p>
     From this point, I figured I should try to do a raw reading of the USB data in Linux.<br/><br/>
 
@@ -93,12 +93,19 @@ Category: Tech<br/>
     This set of packets was with the Dragon Tales key inserted.
     <img src="/assets/img/blog/easylink/linux4.png"><br/><br/>
 
-    So this must mean that the first byte is reserved for the character key. The second byte would react upon pressing the arrow keys or the enter key on the unit.<br/>
+    So this must mean that the first byte is reserved for the character key. The second byte would react upon pressing the arrow keys or the enter key on the unit.<br/><br/>
 
-    Using my finger, I manually pressed down the switches inside of the key slot, and pressed the individual buttons as well. Through this, I came up with this bit mapping for each byte. Blue is the first byte, red is the second byte<br/>
+    Using my finger, I manually pressed down the switches inside of the key slot, and pressed the individual buttons as well. Through this, I came up with this bit mapping for each byte. Blue is the first byte, red is the second byte. All bits used in the HID packets default to high, meaning that when the switches are hit, the bits are set low.<br/>
     <img src="/assets/img/blog/easylink/diagram.jpg"><br/><br/>
+
+    Of the keys that I have, the Elmo key has a value of <code>0x04</code>, the Dragon Tales key has a value of <code>0x10</code>, and the Little People key has a value of <code>0x0C</code>. Bytes 3 and four always read out as <code>0x01</code> and <code>0x00</code> respectively.<br/><br/>
 </p>
 
+<p>
+    That's all I've really got for this little curiosity, if someone can teach me how to write a python script or something that can read the state of the device, that would be pretty neat I think.<br/>
+    Oh, and <a href="https://archive.org/details/easy-link-launch-pad">here's a download link to the software</a>. Feel free to do with it as you please.<br/><br/>
+    <img width="720px" src="/assets/img/blog/easylink/deck.jpg">
+</p>
 <?php
 
 echo constructPageFooter();
