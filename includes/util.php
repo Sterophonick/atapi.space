@@ -18,8 +18,6 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
 
     $htmlPage .= '<link rel="stylesheet" href="' . whatStyleSheet() . '">';
 
-    echo $useRssLink;
-
     if ($useRssLink) {
         $htmlPage .= '<link rel="alternate" type=application/rss+xml" title="Atapi\'s Site RSS Feed!!" href="https://atapi.space/rss.xml" />';
     }
