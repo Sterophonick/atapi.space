@@ -31,13 +31,15 @@ function constructPageHeader($pageTitle) {
 
     $htmlPage .= '<link rel="stylesheet" href="' . whatStyleSheet() . '">';
 
+    echo $rssLink;
+
     if ($rssLink == 1) {
         $htmlPage .= '<link rel="alternate" type=application/rss+xml" title="Atapi\'s Site RSS Feed!!" href="https://atapi.space/rss.xml" />';
     }
 
     $htmlPage .= <<<EOF
-    <meta charset="utf-8" />
     <link rel="shortcut icon" href="/assets/img/global/favicon.ico">
+    <meta charset="utf-8" />
     </head>
 
     <body>
