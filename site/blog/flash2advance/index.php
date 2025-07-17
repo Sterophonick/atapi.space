@@ -138,10 +138,11 @@ On its own though, you had the ability to load multiple ROMs as part of a single
 <img width="720px" src="/assets/img/blog/flash2advance/win98_9.jpg"><br/><br/>
 
 There were also some tools for manipulating save files. Unlike later cartridges, it had up to four different slots, with slots 1-3 being reserved for games 1-3, and slot 4 being for everything else. That's pretty restrictive, but then again, cartridges in this time would have been so tight on flash space that you would hardly ever be fitting anything more than a couple of games on them.<br/>
-<img width="720px" src="/assets/img/blog/flash2advance/win98_10.jpg"><br/>
+<img width="720px" src="/assets/img/blog/flash2advance/win98_10.jpg"><br/><br/>
+
+I wish I could go into much more detail, but the fact that this linker appears to be dying means I can only do a very limited set of things with it. If you're out looking for a linker like this, then I would suggest just going with a GBxCart RW and using FlashGBX with it, that supports all Flash2Advance and FlashAdvance cartridges so that we never have to touch fusterclucks like this again.<br/><br/>
 
 The wonders of how literally anything got done before the days of USB.<br/><br/>
-
 </p>
 
 <br/>
