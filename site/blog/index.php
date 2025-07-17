@@ -1,5 +1,7 @@
 <?php
 
+$rssLink = 1;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog");
 
