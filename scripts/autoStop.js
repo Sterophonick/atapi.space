@@ -58,6 +58,13 @@ function checkInterruptAudio() {
                 if (volume < oldVolume || anyInterruptPlaying) {
                     volume += 0.05;
                     musicPlayer.volume = Math.min(volume, 1.0);
+
+                    interruptAudios.forEach(audio => {
+                        if (!audio.paused && !audio.ended) {
+                            anyInterruptPlaying = true;
+                        }
+                    });
+
                 } else {
                     clearInterval(fadeInterval);
                     areWePausing = 0;
