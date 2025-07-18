@@ -26,7 +26,7 @@ function checkInterruptAudio() {
     anyInterruptPlaying = false;
 
     interruptAudios.forEach(audio => {
-        if (!audio.paused || !audio.ended) {
+        if (!audio.paused || audio.ended) {
             anyInterruptPlaying = true;
         }
     });
