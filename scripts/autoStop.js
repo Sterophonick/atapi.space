@@ -84,6 +84,6 @@ if(getCookieByName2("autoplay") == 'false') {
     interruptAudios.forEach(audio => {
         audio.addEventListener('play', checkInterruptAudio);
         audio.addEventListener('pause', checkInterruptAudio);
-        audio.addEventListener('ended', checkInterruptAudio);
+        //audio.addEventListener('ended', checkInterruptAudio);
     });
 }
