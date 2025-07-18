@@ -45,8 +45,8 @@ function checkInterruptAudio() {
         if(!detectManualPause) {
             musicPlayer.volume = 0.00;
             musicPlayer.play();
-            for(let i = 0.00; i < 1.00; i += 0.10) {
-                sleep(1000).then(() => {musicPlayer.volume = i; });
+            for(let i = 0.00; i < 1.00; i += 0.02) {
+                sleep(100).then(() => {musicPlayer.volume = i; musicPlayer.play(); });
             }
         }
 
