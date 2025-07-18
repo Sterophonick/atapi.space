@@ -51,7 +51,7 @@ function checkInterruptAudio() {
             const fadeInterval = setInterval(() => {
                 if (volume < 1.0) {
                     volume += 0.02
-                    audio.volume = Math.min(volume, 1.0);
+                    musicPlayer.volume = Math.min(volume, 1.0);
                 } else {
                     clearInterval(fadeInterval);
                 }
