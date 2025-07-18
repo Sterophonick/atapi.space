@@ -7,6 +7,8 @@ var areWePausing = 0;
 
 var oldVolume = 0;
 
+var anyInterruptPlaying = false;
+
 function getCookieByName2(name) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
@@ -21,7 +23,7 @@ function getCookieByName2(name) {
 // Function to check if any interruptAudio is playing
 function checkInterruptAudio() {
     // Check if any interruptAudio is currently playing
-    let anyInterruptPlaying = false;
+    anyInterruptPlaying = false;
 
     interruptAudios.forEach(audio => {
         if (!audio.paused && !audio.ended) {
@@ -53,7 +55,7 @@ function checkInterruptAudio() {
 
             const fadeInterval = setInterval(() => {
                 areWePausing = 1;
-                if (volume < oldVolume) {
+                if (volume < oldVolume || anyInterruptPlaying) {
                     volume += 0.05;
                     musicPlayer.volume = Math.min(volume, 1.0);
                 } else {
