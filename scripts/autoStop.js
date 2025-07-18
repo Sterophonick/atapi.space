@@ -63,6 +63,8 @@ function checkInterruptAudio() {
                         if (!audio.paused && !audio.ended) {
                             clearInterval(fadeInterval);
                             areWePausing = 0;
+                            musicPlayer.volume = oldVolume;
+
                         }
                     });
 
