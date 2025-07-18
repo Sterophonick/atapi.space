@@ -58,11 +58,10 @@ function checkInterruptAudio() {
                     musicPlayer.volume = Math.min(volume, 1.0);
                 } else {
                     clearInterval(fadeInterval);
+                    areWePausing = 0;
                 }
 
             }, 100);
-
-            areWePausing = 0;
         }
 
     }
