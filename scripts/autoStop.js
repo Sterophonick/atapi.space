@@ -45,9 +45,18 @@ function checkInterruptAudio() {
         if(!detectManualPause) {
             musicPlayer.volume = 0.00;
             musicPlayer.play();
-            for(let i = 0.00; i < 1.00; i += 0.02) {
-                sleep(100).then(() => {musicPlayer.volume = i; musicPlayer.play(); });
-            }
+
+            let volume = 0.0;
+
+            const fadeInterval = setInterval(() => {
+                if (volume < 1.0) {
+                    volume += 0.02
+                    audio.volume = Math.min(volume, 1.0);
+                } else {
+                    clearInterval(fadeInterval);
+                }
+
+            }, 100);
         }
 
     }
