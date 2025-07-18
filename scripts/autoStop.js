@@ -1,7 +1,6 @@
 const musicPlayer = document.getElementById('musicPlayer');
 const interruptAudios = document.querySelectorAll('.interruptAudio, .interruptVideo');
 
-var detectManualPause = 0;
 
 var areWePausing = 0;
 
@@ -22,6 +21,8 @@ function getCookieByName2(name) {
 
 // Function to check if any interruptAudio is playing
 function checkInterruptAudio() {
+    let detectManualPause = 0;
+
     // Check if any interruptAudio is currently playing
     anyInterruptPlaying = false;
 
