@@ -61,7 +61,8 @@ function checkInterruptAudio() {
 
                     interruptAudios.forEach(audio => {
                         if (!audio.paused && !audio.ended) {
-                            anyInterruptPlaying = true;
+                            clearInterval(fadeInterval);
+                            areWePausing = 0;
                         }
                     });
 
