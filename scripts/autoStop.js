@@ -5,7 +5,7 @@ var detectManualPause = 0;
 
 var areWePausing = 0;
 
-var oldVolume = 0;
+var oldVolume = 0.30;
 
 var anyInterruptPlaying = false;
 
