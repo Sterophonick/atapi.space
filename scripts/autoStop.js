@@ -84,6 +84,8 @@ if(getCookieByName2("autoplay") == 'false') {
     interruptAudios.forEach(audio => {
         audio.addEventListener('play', checkInterruptAudio);
         audio.addEventListener('pause', checkInterruptAudio);
+
+        // we used to have this listener but it caused a race condition with the fade-in timer.
         //audio.addEventListener('ended', checkInterruptAudio);
     });
 }
