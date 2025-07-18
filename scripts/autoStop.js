@@ -43,13 +43,15 @@ function checkInterruptAudio() {
     } else {
         // If no interruptAudio is playing, play the music player
         if(!detectManualPause) {
+            oldVolume = musicPlayer.volume;
+
             musicPlayer.volume = 0.00;
             musicPlayer.play();
 
             let volume = 0.0;
 
             const fadeInterval = setInterval(() => {
-                if (volume < 0.30) {
+                if (volume < oldVolume) {
                     volume += 0.05;
                     musicPlayer.volume = Math.min(volume, 1.0);
                 } else {
