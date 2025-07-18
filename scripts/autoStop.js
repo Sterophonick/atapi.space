@@ -3,11 +3,9 @@ const interruptAudios = document.querySelectorAll('.interruptAudio, .interruptVi
 
 var detectManualPause = 0;
 
-// obvious copypaste is obvious
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms))
-}
+var areWePausing = 0;
 
+var oldVolume = 0;
 
 function getCookieByName2(name) {
     const cookies = document.cookie.split(';');
@@ -43,7 +41,10 @@ function checkInterruptAudio() {
     } else {
         // If no interruptAudio is playing, play the music player
         if(!detectManualPause) {
-            oldVolume = musicPlayer.volume;
+
+            // prevent conflicts with the timings
+            if(!areWePausing)
+                oldVolume = musicPlayer.volume;
 
             musicPlayer.volume = 0.00;
             musicPlayer.play();
@@ -51,6 +52,7 @@ function checkInterruptAudio() {
             let volume = 0.0;
 
             const fadeInterval = setInterval(() => {
+                areWePausing = 1;
                 if (volume < oldVolume) {
                     volume += 0.05;
                     musicPlayer.volume = Math.min(volume, 1.0);
@@ -59,6 +61,8 @@ function checkInterruptAudio() {
                 }
 
             }, 100);
+
+            areWePausing = 0;
         }
 
     }
