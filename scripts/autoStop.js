@@ -46,7 +46,7 @@ function checkInterruptAudio() {
             musicPlayer.volume = 0.00;
             musicPlayer.play();
             for(let i = 0.00; i < 1.00; i += 0.10) {
-                await sleep(100);
+                sleep(100);
                 musicPlayer.volume = i;
             }
         }
