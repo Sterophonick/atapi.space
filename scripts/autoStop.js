@@ -3,6 +3,12 @@ const interruptAudios = document.querySelectorAll('.interruptAudio, .interruptVi
 
 var detectManualPause = 0;
 
+// obvious copypaste is obvious
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+
 function getCookieByName2(name) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
@@ -36,8 +42,15 @@ function checkInterruptAudio() {
         musicPlayer.pause();
     } else {
         // If no interruptAudio is playing, play the music player
-        if(!detectManualPause)
+        if(!detectManualPause) {
+            musicPlayer.volume = 0.00;
             musicPlayer.play();
+            for(let i = 0.00; i < 1.00; i += 0.10) {
+                await sleep(100);
+                musicPlayer.volume = i;
+            }
+        }
+
     }
 }
 
