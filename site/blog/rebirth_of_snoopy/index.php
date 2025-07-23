@@ -38,7 +38,7 @@ Content Warning // Language
 
     Well... dammit.<br/><br/>
 
-    Apparently, Windows XP is very finicky about IDE controllers, and if you replace your motherboard, it throws a <code>INACCESSIBLE_BOOT_DEVICE</code> tantrum because it only loads chipset drivers related to the original installation. Problem is, <i>we don't have the original machine</i>.<br/><br/>
+    Apparently, Windows XP is very finicky about IDE controllers, and if you replace your motherboard, it throws an <code>INACCESSIBLE_BOOT_DEVICE</code> tantrum because it only loads chipset drivers related to the original installation. Problem is, <i>we don't have the original machine</i>.<br/><br/>
 
     So, to the web forums we go.<br/><br/>
 </p>
@@ -47,10 +47,28 @@ Content Warning // Language
 
 <h2>MergeIDE</h2>
 <p>
-    At the start of my search, I came across this name over and over:<br/>
+    At the start of my search, I came across this name over and over.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/forum1.png"><br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/forum2.png"><br/>
-    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/forum3.png"><br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/forum3.png"><br/><br/>
+
+    "MergeIDE." I find a link to this utility on the VirtualBox forums, and this is what I'm presented with.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/mergeide1.png"><br/><br/>
+
+    ...a batch file and a registry key. Lovely. All of the forums mention that you have to execute this script <i>before</i> you make a copy of the disk, which I of course never did because I never had any clue about what would need to be done to get this to work, all I did was take a snapshot of the disk as-is.<br/><br/>
+
+    I needed to figure out a way to inject the registry changes manually to a disk image of a long-dead Windows machine.<br/><br/>
+
+    First idea was to just mount the disk image raw. One problem though.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/mount1.png"><br/><br/>
+
+    It doesn't mount as-is. At first I though the disk image was straight-up corrupted, but then I had the idea of booting a GParted ISO inside of the machine, went and fetched an old i686 variant of it, and would you believe it, the disk is fine. It just has two partitions.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/gparted.png"><br/><br/>
+
+    Presumably, the first one was just an old Dell utility used for something, I dunno.<br/><br/>
+
+    But that makes actually mounting it more complicated, but there's a Linux utility called <code>partx</code> that can mount disk images with each partition being its own loop device, and so that's what I did.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/partx.png"><br/><br/>
 </p>
 
 <?php
