@@ -127,6 +127,9 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                 <li>
                     <a href="#NullDeref">NullDeref</a>
                 </li>
+                <li>
+                    <a href="#gonorth">>go north_</a>
+                </li>
             </ul>
 
         </li>
@@ -1020,6 +1023,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img class="galleryImg" src="/assets/img/gallery/nullderef_cooler.jpeg">
             <p>May 2025</br>Boykisser vs. The Cooler Boykisser</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="gonorth">>go north_</h3>
+<table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <img class="galleryImg" src="/assets/img/gallery/gonorth_atapi.png">
+            <p>June 2025</br>Mother hecking cat</p>
         </td>
     </tr>
 </table>
