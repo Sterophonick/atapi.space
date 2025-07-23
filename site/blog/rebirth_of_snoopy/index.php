@@ -69,6 +69,33 @@ Content Warning // Language
 
     But that makes actually mounting it more complicated, but there's a Linux utility called <code>partx</code> that can mount disk images with each partition being its own loop device, and so that's what I did.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/partx.png"><br/><br/>
+
+    This would mount the partitions at <code>/dev/loop0p1</code> and <code>/dev/loop0p2</code> respectively, so I could directly access the data on our NTFS partiton.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/dumb1.png"><br/><br/>
+
+    The package <code>chntpw</code> in Arch Linux gives us tools to reset Windows NT passwords and edit the registry, and the command <code>reged</code> allows us to apply a <code>.reg</code> file to our Windows registry hive files.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/reged.png"><br/><br/>
+
+    This did not fix the problem, and after closing the loop devices, the machine would still bluescreen when attempting to boot.<br/><br/>
+
+    Some more searching around led to <a href="https://github.com/jakobadam/kvm-mergeide/blob/master/kvm-mergeide.sh">this script</a>, which uses the <code>virt-win-reg</code> from <code>guestfs-tools</code>.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/virt-win-reg.png"><br/><br/>
+
+    This command took a long time, but it did complete successfully. It still did not fix the freaking problem.<br/><br/>
+
+    At this point, I'm starting to lose my mind, I even tried other tools like <code>hivexsh</code> on the registy hive files. This ALSO did not work.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/hivexsh.png"><br/><br/>
+
+    So, it was time to take a break, regroup, and take a different approach.<br/><br/>
+</p>
+
+<br/>
+
+<h2>Disk2VHD</h2>
+<p>
+    Disk2VHD was another name that repeatedly came up, as well as in a YouTube tutorial. It's a tool from SysInternals that's now under Microsoft. It can be used to make a VHD image out of a physical disk on a Windows machine. This next approach unfortunately meant I needed to create a new Windows virtual machine in order to do it.<br/><br/>
+
+    Begrudginly, I downloaded the ISO image, opened VMware Workstation, and got to work. Before long,
 </p>
 
 <?php
