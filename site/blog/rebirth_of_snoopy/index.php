@@ -73,12 +73,12 @@ Content Warning // Language
     This would mount the partitions at <code>/dev/loop0p1</code> and <code>/dev/loop0p2</code> respectively, so I could directly access the data on our NTFS partiton.<br/>
     <img src="/assets/img/blog/rebirth_of_snoopy/dumb1.png"><br/><br/>
 
-    The package <code>chntpw</code> in Arch Linux gives us tools to reset Windows NT passwords and edit the registry, and the command <code>reged</code> allows us to apply a <code>.reg</code> file to our Windows registry hive files.<br/>
+    The <code>chntpw</code> package in Arch Linux gives us tools to reset Windows NT passwords and edit the registry, and the command <code>reged</code> allows us to apply a <code>.reg</code> file to our Windows registry hive files.<br/>
     <img src="/assets/img/blog/rebirth_of_snoopy/reged.png"><br/><br/>
 
     This did not fix the problem, and after closing the loop devices, the machine would still bluescreen when attempting to boot.<br/><br/>
 
-    Some more searching around led to <a href="https://github.com/jakobadam/kvm-mergeide/blob/master/kvm-mergeide.sh">this script</a>, which uses the <code>virt-win-reg</code> from <code>guestfs-tools</code>.<br/>
+    Some more searching around led to <a href="https://github.com/jakobadam/kvm-mergeide/blob/master/kvm-mergeide.sh">this script</a>, which uses the <code>virt-win-reg</code> command installed from <code>guestfs-tools</code>.<br/>
     <img src="/assets/img/blog/rebirth_of_snoopy/virt-win-reg.png"><br/><br/>
 
     This command took a long time, but it did complete successfully. It still did not fix the freaking problem.<br/><br/>

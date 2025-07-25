@@ -404,6 +404,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <img class="galleryImg" src="/assets/img/gallery/atapi_pukicho.png"></a>
         <p>May 2025<br />Pukicho (Atapicho?)<br /><a href="/files/atapi_pukicho.xcf">Source File</a><br /></p>
     </td>
+    <td>
+        <img class="galleryImg" src="/assets/img/gallery/sam_waitin.png"></a>
+        <p>July 2025<br />"the one with sam waitin"<br /></p>
+    </td>
   </tr>
 </table>
 <br/>
