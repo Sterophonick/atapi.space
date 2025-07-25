@@ -123,9 +123,22 @@ Content Warning // Language
 
     ...<br/><br/>
 
-    <img src="/assets/img/blog/rebirth_of_snoopy/battery_acid.png"><br/><br/>
+    <img width="400px" src="/assets/img/blog/rebirth_of_snoopy/battery_acid.png"><br/><br/>
+
+    So more digging it is.<br/><br/>
 </p>
 
+<br/>
+
+<h2>Hiren's BootCD</h2>
+<p>
+    More and more digging on page 2, 3 even of Google (I know, the depths) leads me to <a href="https://superuser.com/questions/1741848/im-using-disk2vhd-and-virtualbox-how-do-i-disable-windows-xp-ide-checks-so-tha">this thread</a> on Super User. The user has the exact same problem as I do, with nearly identical error codes. The first response tells me what I've already tried and failed to do, but the second response, the one -1 points, shows me something new. "Hiren's BootCD," specifically old versions that contain a script called <code>fix_hdc.cmd</code>.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/superuser.png"><br/><br/>
+
+    The blue link led me to version 15.2 of the suite, which reportedly has this script, and so, in I go.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren1.png"><br/><br/>
+
+    After a bit of clumsy poking around, I boot the "Mini Windows XP" environment, and am greeted with some interesting things of note.
 <?php
 
 echo constructPageFooter();
