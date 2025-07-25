@@ -8,7 +8,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Rebirth of SNOOPY");
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Rebirth of SNOOPY</h1>
 <p style="margin-top: -25px;">Dumb and Dumber<br/></p><br/>
 <p>
-??? ??, 2025<br/>
+July 24, 2025<br/>
 Category: Infodump<br/>
 <span style="color: yellow">
 Content Warning // Language
@@ -114,7 +114,7 @@ Content Warning // Language
     <img src="/assets/img/blog/rebirth_of_snoopy/disk2vhd2.png"><br/><br/>
 
     The process actually does succeed, and then I am met with the issue of actually extracting the new image from the virtual machine. Thankfully though, <code>qemu-full</code> has tools to interface disk images with the Linux <code>nbd</code> module to host block devices over a local network.<br/>
-    <img src="/assets/img/blog/rebirth_of_snoopy/ndb0.png"><br/><br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/nbd0.png"><br/><br/>
 
     Mount these new <code>/dev/nbdX</code> devices and Bob's your uncle.<br/><br/>
 
@@ -138,7 +138,39 @@ Content Warning // Language
     The blue link led me to version 15.2 of the suite, which reportedly has this script, and so, in I go.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren1.png"><br/><br/>
 
-    After a bit of clumsy poking around, I boot the "Mini Windows XP" environment, and am greeted with some interesting things of note.
+    After a bit of clumsy poking around, I boot the "Mini Windows XP" environment, and am greeted with some interesting things of note. For starters, there is a RAM drive mounted at <code>B:\</code> and the actual Windows installation here is located in <code>X:\I386\</code>. Out actual operating system drive gets mounted to <code>C:\</code>.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren2.png"><br/><br/>
+
+    The environment comes with a little program launcher, and sure enough, the "Registry" section contains <code>fix_hdc.cmd</code><br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren3.png"><br/><br/>
+
+    I launch the script, and am met with a command prompt asking to fix the MassStorage drivers, set the root, or exit.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren4.png"><br/><br/>
+
+    I set the TargetRoot to <code>C:\WINDOWS</code> and execute the fix.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren5.png"><br/><br/>
+
+    And with that, it's time to reboot and cross my fingers. And...<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/winxp1.png"><br/><br/>
+
+    <i><b><u>holy shit.</u></b></i><br/><br/><br/>
+</p>
+
+<h2>It's Alive!</h2>
+<p>
+    As expected, the machine required reactivation since it was operating on essentially a completely new configuration.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/winxp2.png"><br/><br/>
+
+    I <i>could</i> call Microsoft support just for the bit, but I opted to use one of those newfangled Windows XP keygens.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/keygen.png"><br/><br/>
+
+    After this, we're pretty much done! We unfortunately have no graphics acceleration, no sound, and no network, but the hard part of actually bringing the machine up has been completed. We can recreate the process in VMware Workstation or VirtualBox and get some proper acceleration with their DXVK drivers.<br/><br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/winxp3.jpg"><br/><br/>
+
+    Now, if you'll excuse me, I have to go play my old copy of <i>Reader Rabbit: Learn to Read with Phonics</i>.<br/><br/>
+
+    <img src="/assets/img/blog/rebirth_of_snoopy/2221.png"><br/><br/>
+</p>
 <?php
 
 echo constructPageFooter();
