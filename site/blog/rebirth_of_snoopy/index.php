@@ -93,9 +93,37 @@ Content Warning // Language
 
 <h2>Disk2VHD</h2>
 <p>
-    Disk2VHD was another name that repeatedly came up, as well as in a YouTube tutorial. It's a tool from SysInternals that's now under Microsoft. It can be used to make a VHD image out of a physical disk on a Windows machine. This next approach unfortunately meant I needed to create a new Windows virtual machine in order to do it.<br/><br/>
+    Disk2VHD was another name that repeatedly came up, as well as in a YouTube tutorial. It's a tool from SysInternals that's now under Microsoft, used to make a VHD image out of a physical disk on a Windows machine. This next approach unfortunately meant I needed to create a new Windows virtual machine in order to do it.<br/><br/>
 
-    Begrudginly, I downloaded the ISO image, opened VMware Workstation, and got to work. Before long,
+    Begrudginly, I downloaded the ISO image of 10, opened VMware Workstation, and got to work. Before long, I had a working Windows 10 box created just for this purpose.<br/><br/>
+
+    One problem though.<br/>
+    <i><b><u>IT RAN HORRIBLY!</u></b></i><br/><br/>
+
+    And not in the "my laptop can't virtualize Windows" way, it was in the "Windows is actively deadlocking with this disk image attached" way. Like, okay. I had to get to <code>diskmgmt.msc</code> in order to resize my NTFS partiton so that I had space to make the VHD from the whole disk image, and it hung at "Connecting to Virtual Disk Service" for fifteen minutes!! Windows Explorer would take several minutes to even start up! Windows would spend several minutes running <code>chkdsk</code> on the disk image on every boot and just not do anything to it!<br/><br/>
+
+    Hough.<br/><br/>
+
+    So, I detach the image, which lets me boot and operate normally. I resize my partiton, before reattaching the disk image and booting Disk2VHD. Unfortunately, in VMware Workstation, it would just hang at "Calculating disk sizes" forever, so that ended up being a complete bust.
+    <img src="/assets/img/blog/rebirth_of_snoopy/disk2vhd1.png"><br/><br/>
+
+    My next idea is to try to use it with QEMU/KVM, so I reinstall Windows again, and QEMU shows many of the same issues.<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/qemu1.png"><br/><br/>
+
+    This time, however, the disk actually is able to start copying, which, FINALLY, some progress.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/disk2vhd2.png"><br/><br/>
+
+    The process actually does succeed, and then I am met with the issue of actually extracting the new image from the virtual machine. Thankfully though, <code>qemu-full</code> has tools to interface disk images with the Linux <code>nbd</code> module to host block devices over a local network.<br/>
+    <img src="/assets/img/blog/rebirth_of_snoopy/ndb0.png"><br/><br/>
+
+    Mount these new <code>/dev/nbdX</code> devices and Bob's your uncle.<br/><br/>
+
+    Go to boot the new image and...<br/>
+    <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/no_bootable.png"><br/><br/>
+
+    ...<br/><br/>
+
+    <img src="/assets/img/blog/rebirth_of_snoopy/battery_acid.png"><br/><br/>
 </p>
 
 <?php
