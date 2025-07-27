@@ -855,7 +855,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         </td>
         <td>
             <a href="/assets/img/gallery/roachtoon_atapi_femboy.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/roachtoon_atapi_femboy_thumb.png"></a>
-            <p>July 2025<br />cute boy :3<br /><a href="/files/roach_slay.7z">PSD Source File</a></p>
+            <p>July 2025<br />cute boy :3<br /><a href="/assets/img/gallery/roachtoon_atapi_femboy_noglasses.png">Alternate</a><br/><a href="/files/roach_slay.7z">PSD Source File</a></p>
         </td>
     </tr>
 </table>
