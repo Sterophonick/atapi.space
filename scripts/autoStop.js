@@ -81,6 +81,8 @@ function checkInterruptAudio() {
 }
 
 if(getCookieByName2("autoplay") == 'false') {
+    var playingOnHide = !musicPlayer.paused;
+
     // Add event listeners to check whenever any interruptAudio starts or ends
     interruptAudios.forEach(audio => {
         audio.addEventListener('play', checkInterruptAudio);
@@ -88,5 +90,16 @@ if(getCookieByName2("autoplay") == 'false') {
 
         // we used to have this listener but it caused a race condition with the fade-in timer.
         //audio.addEventListener('ended', checkInterruptAudio);
+    });
+
+    document.addEventListener('visibilitychange', () => {
+        if(document.hidden) {
+            playingOnHide = !musicPlayer.paused;
+            musicPlayer.pause();
+        } else {
+            if (playingOnHide) {
+                musicPlayer.play();
+            }
+        }
     });
 }

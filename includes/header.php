@@ -507,6 +507,7 @@ $quoteStrings = array(
     "System Error. Contact Xbox Customer Support.", "-- Xbox 360",
     "if your grave doesnt say \"rest in peace\" on it you are automatically drafted into the skeleton war", "-- @dril",
     "blocked. blocked. blocked. youre all blocked. none of you are free of sin.","-- @dril",
+    "THIS WHOLE THING SMACKS OF GENDER", "-- @dril",
     "the doritos corporation thanks you", "-- Kyle Gospo",
     "Marcianito 100% real bailando cumbia.wmv", "-- Unknown",
     "Let's face it... I'm cute.", "-- meeeeeeeeee :3",
