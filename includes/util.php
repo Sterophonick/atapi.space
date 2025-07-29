@@ -203,6 +203,13 @@ function generateScratchEmbed($projectID, $disableMusic=1) {
 // Content helpers
 // These determine whether or not we want to deliver certain content to various browsers
 // This is for ensuring that pages perform well under legacy or otherwise constrained browsers
+function getBrowserVersion() {
+    $data = get_browser(null, true);
+    $array["b"] = $data["browser"];
+    $array["v"] = floatval($data["version"]);
+    return $array;
+}
+
 function doWeShowLargeGif() {
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
@@ -251,6 +258,13 @@ function doWeShowMusicPlayer() {
 
 function doWeShowOneko() {
      $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+     $browser = getBrowserVersion();
+
+     if($browser['b'] == "Firefox") {
+         if($browser['v'] < 36.0)
+             return false;
+     }
+
     // Nintendo Wii
      if (str_contains($userAgent, "nintendo wii")) {
          return false;
