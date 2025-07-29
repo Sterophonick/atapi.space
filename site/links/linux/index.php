@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Links :: GNU/Linux ");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\links\icon.png"> GNU/Linux Links</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> GNU/Linux Links</h1>
 <p>
 <a href="https://www.phoronix.com/">Phoronix</a><br />
 Daily news for Linux distributions and hardware!

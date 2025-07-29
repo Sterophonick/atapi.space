@@ -5,7 +5,7 @@ echo constructPageHeader(" Tales from the Computery Nonsense Folder");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\blog\icon.png"> Tales from the Computery Nonsense
+<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Tales from the Computery Nonsense
 Folder</h1>
 <p style="margin-top: -25px;">SNOOPY, Dumb (C:), and Dumber (D:)<br/></p><br/>
 <h2>Last modified: 09212024</h2>
@@ -49,7 +49,7 @@ associated game, or it had a built-in version of Adobe Flash in order to play th
 Required</i>.</p>
 <p>It's like a very primitive version of Nintendo's amiibo.</p>
 <p>Perhaps I should track one down and mess with it one day.</p>
-<img src="/assets\img\blog\talesfromscratch\easylink.jpg">
+<img src="/assets/img/blog/talesfromscratch/easylink.jpg">
 <br />
 <br />
 <h2>Dig Dug on Fupa</h2>
@@ -80,7 +80,7 @@ ourselves.</p>
 <br />
 <h2>The Disappearing Data Bug</h2>
 <p>Ah yes, finally an explanation for why my Monkey Mayhem description is this:</p>
-<img src="/assets\img\blog\talesfromscratch\mmdesc.png"><br />
+<img src="/assets/img/blog/talesfromscratch/mmdesc.png"><br />
 <p>Essentially what happened was whenever I made a change to that project, the secondary costume for the
 Monkey would be completely deleted.</p>
 <p>I eventually made a forum thread about this, entitled <a
@@ -98,12 +98,12 @@ href="https://scratch.mit.edu/projects/18296042">here.</a></p>
 href="https://scratch.mit.edu/projects/24495248/">Mustache Kitty.</a></p>
 <p>Literally that's what the first few prototypes were. Just a clone of Mustache Kitty.</p>
 <p>I eventually made more original levels, but what do you want of me, I was 10.</p>
-<img width="240px" src="/assets\img\blog\talesfromscratch\mustache1.png"><img width="240px"
-src="/assets\img\blog\talesfromscratch\sbj1.png"><br />
-<img width="240px" src="/assets\img\blog\talesfromscratch\mustache2.png"><img width="240px"
-src="/assets\img\blog\talesfromscratch\sbj2.png"><br />
-<img width="240px" src="/assets\img\blog\talesfromscratch\mustache3.png"><img width="240px"
-src="/assets\img\blog\talesfromscratch\sbj3.png"><br />
+<img width="240px" src="/assets/img/blog/talesfromscratch/mustache1.png"><img width="240px"
+src="/assets/img/blog/talesfromscratch/sbj1.png"><br />
+<img width="240px" src="/assets/img/blog/talesfromscratch/mustache2.png"><img width="240px"
+src="/assets/img/blog/talesfromscratch/sbj2.png"><br />
+<img width="240px" src="/assets/img/blog/talesfromscratch/mustache3.png"><img width="240px"
+src="/assets/img/blog/talesfromscratch/sbj3.png"><br />
 <p>Even the physics engine was copied verbatim. And the Game Boy Advance port used that script as a
 reference!</p>
 <br />
@@ -120,11 +120,11 @@ src="/assets/img/smileys/rofl.gif"></p>
 <h2>Super Block Jump Wiki</h2>
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i>
 incomplete Wayback Machine crawl, which is probably for the better.</p>
-<img width="720px" src="/assets\img\blog\talesfromscratch\wiki1.png"><br /><img width="640px"
-src="/assets\img\blog\talesfromscratch\wiki2.png"><br /><img
-src="/assets\img\blog\talesfromscratch\wiki3.png"><br /><img width="720px"
-src="/assets\img\blog\talesfromscratch\wiki4.png"><br /><img
-src="/assets\img\blog\talesfromscratch\wiki5.png">
+<img width="720px" src="/assets/img/blog/talesfromscratch/wiki1.png"><br /><img width="640px"
+src="/assets/img/blog/talesfromscratch/wiki2.png"><br /><img
+src="/assets/img/blog/talesfromscratch/wiki3.png"><br /><img width="720px"
+src="/assets/img/blog/talesfromscratch/wiki4.png"><br /><img
+src="/assets/img/blog/talesfromscratch/wiki5.png">
 <br />
 <br />
 <h2>The Forest Cafe or something</h2>
@@ -135,10 +135,10 @@ drawing and a menu, and I chose to make the drawing in Microsoft 3D builder.</p>
 <p>By the end, there were so many cubes that my NVS 3100M struggled to render it, there were opject priority
 issues and Z-Fighting all over it.</p>
 <p>The file no longer survives, but I still have screenshots.</p>
-<img width="720px" src="/assets\img\blog\talesfromscratch\cafe1.png"><br /><img width="720px"
-src="/assets\img\blog\talesfromscratch\cafe2.png"><br /><img width="720px"
-src="/assets\img\blog\talesfromscratch\cafe3.png"><br /><img width="720px"
-src="/assets\img\blog\talesfromscratch\cafe4.png">
+<img width="720px" src="/assets/img/blog/talesfromscratch/cafe1.png"><br /><img width="720px"
+src="/assets/img/blog/talesfromscratch/cafe2.png"><br /><img width="720px"
+src="/assets/img/blog/talesfromscratch/cafe3.png"><br /><img width="720px"
+src="/assets/img/blog/talesfromscratch/cafe4.png">
 <br />
 <br />
 <h2>Nesbox Emulator (UWP)</h2>
@@ -169,7 +169,7 @@ the crap Wine was, much less how to use it.
 <p>
 <p>And that "copy" of Tag was really just a .lnk file copied from the desktop on my T410 and nothing else.
 </p>
-<img src="/assets\img\blog\talesfromscratch\youtried.gif"><br />
+<img src="/assets/img/blog/talesfromscratch/youtried.gif"><br />
 <br />
 <h2>EZ-Flash IV Haribo</h2>
 <p>This photo, taken on June 16, 2017, is something that I thought I had lost forever, but no actually, I've
@@ -179,7 +179,7 @@ didn't come in an EZ-Flash branded box, just a little cardboard sleeve with the 
 and the microSD reader.</p>
 <p>And yes, the bears were pretty okay. I remember them being a tad stale though, but that could just be a
 fuzzy memory speaking.</p>
-<img src="/assets\img\blog\talesfromscratch\ez4_bear.jpg"><br />
+<img src="/assets/img/blog/talesfromscratch/ez4_bear.jpg"><br />
 <br />
 <h2>The Screwed Up Frontlight</h2>
 <p>I first frontlit my Game Boy Advance not too long after I got the EZ-Flash IV. I was terrible at it. My
@@ -191,7 +191,7 @@ screen-frontlight sandwhich and started eating away at the LOCA, causing a the m
 effect I've ever seen. It even led up to the plastic becoming brittle and pieces were breaking off of
 it.</p>
 <p>Later on, I swapped out the screen with an AGS-001 screen and later, an AGS-101 panel.<br />
-<img src="/assets\img\blog\talesfromscratch\crappy_frontlight.jpg"><br />
+<img src="/assets/img/blog/talesfromscratch/crappy_frontlight.jpg"><br />
 
 <?php
 

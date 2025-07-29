@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous :: Atapi'
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\sound-icon.png"> Atapi's Noises & Numbers
+<h1><img style="vertical-align:middle" src="/assets/img/projects/sound-icon.png"> Atapi's Noises & Numbers
 Vol. 1</h1>
 <img src="/assets/img/projects/misc/noisev1_art.png" title="shoutouts to the conet project"><br />
 <p>An album containing 100 shortwave radio recordings of noise and spy numbers stations, inspired by The

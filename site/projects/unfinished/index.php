@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: The Sewers");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> The Sewers</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> The Sewers</h1>
 <p>Check back later, there might be some more stuff here! :3</p>
 
 <?php

@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: HTTP 404");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\404\icon.png">HTTP 404</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/404/icon.png">HTTP 404</h1>
 <img src="/assets/img/404/grumpy.jpg"><br />
 <br />
 <p>

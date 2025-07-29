@@ -55,7 +55,7 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 <h2>Anti-Scraping Measures</h2>
 <p>
     There's a measure that the Caddy server takes to silence AI scrapers. It will check your user agent against the following regex:<br/>
-    <code><small>CCBot|GPT|Claude|anthropic|\bcohere\b|\bmeta\b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
+    <code><small>CCBot|GPT|Claude|anthropic|/bcohere/b|/bmeta/b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
 
     When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!
 </p>

@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Explosive Di
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Explosive Dirt</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Explosive Dirt</h1>
 
 <?php generateScratchEmbed(25657469);?>
 

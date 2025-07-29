@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Windows");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> Windows</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Windows</h1>
 <p>I don't actually know Win32 but I should learn tbh</p>
 
 <h2>Navigation</h2>

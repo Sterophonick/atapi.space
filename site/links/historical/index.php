@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Historical");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\links\icon.png"> Historical Links</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Historical Links</h1>
 <p>
 <a href="http://signalshed.com/">ENIGMA 2000</a><br />
 Legacy newsletter about shortwave spy numbers stations.

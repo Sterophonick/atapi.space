@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> Miscellaneous</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Miscellaneous</h1>
 <p>There's all sorts of other oddball things I've done.</p>
 
 <h2>Navigation</h2>

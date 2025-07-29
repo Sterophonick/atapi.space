@@ -138,7 +138,7 @@ Content Warning // Language
     The blue link led me to version 15.2 of the suite, which reportedly has this script, and so, in I go.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren1.png"><br/><br/>
 
-    After a bit of clumsy poking around, I boot the "Mini Windows XP" environment, and am greeted with some interesting things of note. For starters, there is a RAM drive mounted at <code>B:\</code> and the actual Windows installation here is located in <code>X:\I386\</code>. Out actual operating system drive gets mounted to <code>C:\</code>.<br/>
+    After a bit of clumsy poking around, I boot the "Mini Windows XP" environment, and am greeted with some interesting things of note. For starters, there is a RAM drive mounted at <code>B:\</code> and the actual Windows installation here is located in <code>X:/I386/</code>. Out actual operating system drive gets mounted to <code>C:\</code>.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren2.png"><br/><br/>
 
     The environment comes with a little program launcher, and sure enough, the "Registry" section contains <code>fix_hdc.cmd</code><br/>
@@ -147,7 +147,7 @@ Content Warning // Language
     I launch the script, and am met with a command prompt asking to fix the MassStorage drivers, set the root, or exit.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren4.png"><br/><br/>
 
-    I set the TargetRoot to <code>C:\WINDOWS</code> and execute the fix.<br/>
+    I set the TargetRoot to <code>C:/WINDOWS</code> and execute the fix.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/hiren5.png"><br/><br/>
 
     And with that, it's time to reboot and cross my fingers. And...<br/>

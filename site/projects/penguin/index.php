@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> GNU/Linux</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> GNU/Linux</h1>
 I swear I'm not a snob, I just don't like using Windows.<br/>
 <h2>Navigation</h2>
 <div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">

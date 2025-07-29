@@ -51,7 +51,7 @@ Category: Infodump<br/>
 
     The software just waits for updates on the character key switches, and then it will load web pages dedicated to the character that was inserted. Elmo was for Sesame Street, Zak and Wheezie was for Dragon Tales, stuff like that. I only have three of the character keys that were ever produced, though.<br/><br/>
 
-    Unsurprisingly, none of the character keys go anywhere anymore. Every URL is completely dead and we've since moved on to universal HTTPS, something this software would never ever have a chance of supporting.<br/>\
+    Unsurprisingly, none of the character keys go anywhere anymore. Every URL is completely dead and we've since moved on to universal HTTPS, something this software would never ever have a chance of supporting.<br/>/
     <img width="720px" src="/assets/img/blog/easylink/software1.png"><br/><br/>
 
     The software installs to <code>C:\Program Files\Fisher-Price\Easy-Link internet launch pad</code> and we can see all of the files laid bare for us.<br/>

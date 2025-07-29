@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Space Raider
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Space Raider</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Space Raider</h1>
 
 <?php generateScratchEmbed(25835870);?>
 

@@ -6,9 +6,9 @@ echo constructPageHeader("Atapi's Domain! :: Links");
 ?>
 
 <div id="hypnospace-header">
-<img style="vertical-align:middle" src="/assets\img\links\skeleton-motorcycle.gif">
-<img style="vertical-align:middle" src="/assets\img\links\fire.gif">
-<img style="vertical-align:middle" src="/assets\img\links\skeleton-motorcycle.gif">
+<img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
+<img style="vertical-align:middle" src="/assets/img/links/fire.gif">
+<img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
 </div>
 <br />
 <br />

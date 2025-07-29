@@ -4,7 +4,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: FNaF OFfice Test");
 
 ?>
-<h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> FNaF Office Test</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/gba-icon.png"> FNaF Office Test</h1>
 <?php generateGBAEmbed("/files/FNaF%20Office%20Test.gba"); ?>
 <br/>
 <p style="font-size:12pt">

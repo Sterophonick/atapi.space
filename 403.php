@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: HTTP 403");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\404\icon.png">HTTP 403</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/404/icon.png">HTTP 403</h1>
 <img src="/assets/img/404/403.jpg"><br />
 <br />
 <p>

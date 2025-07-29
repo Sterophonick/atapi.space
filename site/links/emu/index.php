@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Emulation / Homebrew / Hac
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\links\icon.png"> Emulation / Demoscene / Retro Links
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Demoscene / Retro Links
 </h1>
 <p>
 <a href="https://www.retroveteran.com/">Retro Veteran</a><br />

@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Scratch Jump
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Scratch Jump</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Scratch Jump</h1>
 
 <?php generateScratchEmbed(26101722);?>
 

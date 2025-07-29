@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Dumps");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\dumps\icon.png"> Dumps</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/dumps/icon.png"> Dumps</h1>
 <p>Software preservation stuff that I have done. Dev wants it gone and it's gone!</p><br />
 <h3 style="font-size:24pt">Steam Deck LCD BIOS (F7A0107)</h3>
 <p>This BIOS revision doesn't appear to be present in Valve's git history. Very strange. <br />This is the

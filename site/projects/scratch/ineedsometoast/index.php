@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: I NEED SOME 
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> I NEED SOME TOAST!!</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> I NEED SOME TOAST!!</h1>
 
 <?php generateScratchEmbed(28887036);?>
 

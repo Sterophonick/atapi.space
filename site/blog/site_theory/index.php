@@ -19,7 +19,7 @@ Anyhoo...<br/><br/>
 <p>
 Bascially, ensure that people who are running somewhat older browsers can keep viewing this site correctly. We're not targeting something like, say, NCSA X Mosaic here, but Microsoft Internet Explorer 6 is something I've toyed around with a bit, with varying degrees of success.<br/>
 </p>
-<img width="768px" src="/assets\img\blog\site-theory\ie6_broken.png"><br/>
+<img width="768px" src="/assets/img/blog/site-theory/ie6_broken.png"><br/>
 <br/>
 <p>
 This pic shows the site running through a Windows XP VMware configuration, before I fixed the header and footer so they displayed correctly on IE6.<br/><br/>
@@ -36,12 +36,12 @@ It's especially nice this way because I can even inject elements based on what p
 <p>
 PLEASE use silly 3D GIFs! Silly 3D GIF attack! Raaaaah!!!<br/>
 </p>
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
-<img style="vertical-align:middle" src="/assets\img\blog\site-theory\babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
+<img style="vertical-align:middle" src="/assets/img/blog/site-theory/babyjatt.gif">
 <br/>
 <p>
 HOWEVER, please don't overuse them! WE want to maintain clarity and avoid drawing too much of the user's attention away from the text they're reading!<br/><br/>
@@ -62,7 +62,7 @@ Using the <code>&lt;marquee&gt;</code> tag is acceptable, especially since every
 <p>
 If your site plays music, please make it OPTIONAL!<br/><br/>
 </p>
-<img width="768px" src="/assets\img\blog\site-theory\dustindiamond.png"><br/><br/>
+<img width="768px" src="/assets/img/blog/site-theory/dustindiamond.png"><br/><br/>
 <p>
 What I'm basically saying is don't be like dustiandiamond.com unless that's the whole point of your page. I adore that site to death, but in practice it's terrible at conveying any real information.<br/><br/>
 </p>
@@ -80,7 +80,7 @@ This only applies to those whos sites are darker, but PLEASE PLEASE PLEASE use t
 This makes sure that your site's color palette doesn't get pwned by default if the user has Dark Reader installed.<br/><br/>
 </p>
 <h2>Link ALL the Sites!</h2>
-<img width="384px" src="/assets\img\blog\site-theory\xallthey.jpg"><br/><br/>
+<img width="384px" src="/assets/img/blog/site-theory/xallthey.jpg"><br/><br/>
 <p>
 Link to other peoples' sites! Link your obscure niche interests! Make the personal web more like a web!	<br/><br/>
 </p>
@@ -88,7 +88,7 @@ Link to other peoples' sites! Link your obscure niche interests! Make the person
 <p>
 That's pretty much it. Thanks for reading, you now have free kromer.<br/>
 </p>
-<a href="https://deltarune.com/lancer/"><img width="384px" src="/assets\img\blog\site-theory\8kromer.png"></a>
+<a href="https://deltarune.com/lancer/"><img width="384px" src="/assets/img/blog/site-theory/8kromer.png"></a>
 
 <?php
 

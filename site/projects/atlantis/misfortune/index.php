@@ -4,7 +4,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: Misfortune Advance");
 
 ?>
-<h1><img style="vertical-align:middle" src="\assets\img\projects\gba-icon.png"> Misfortune Advance</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/gba-icon.png"> Misfortune Advance</h1>
 <?php generateGBAEmbed("/files/Misfortune%20Advance.gba"); ?>
 <br/>
 <p style="font-size:12pt">

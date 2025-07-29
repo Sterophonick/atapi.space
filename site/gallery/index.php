@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\gallery\icon.png"> Gallery</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/gallery/icon.png"> Gallery</h1>
 <p>Some art that I've drawn or some art that others have drawn for me!</p>
 <p>(Some images might not be full size, right click and select View Image to see full size.)</p>
 <p><a href="atapi">Who is Atapi?</a></p>
@@ -1018,7 +1018,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img class="galleryImg" src="/assets/img/gallery/isaiahdeluxe_beautiful_artwork_holycrap.png">
                 <p class="shruggie">March 2021<br />
-                    ¯\_(ツ)_/¯
+                    ¯/_(ツ)_/¯
                 </p>
         </td>
     </tr>

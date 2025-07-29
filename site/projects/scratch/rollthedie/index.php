@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Roll the die
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Roll the die!</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Roll the die!</h1>
 
 <?php generateScratchEmbed(25130022);?>
 

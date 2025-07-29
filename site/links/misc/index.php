@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Miscellaneous");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\links\icon.png"> Miscellaneous Links</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Miscellaneous Links</h1>
 <p>
 <a href="https://priyom.org/">Priyom</a><br />
 Online organization that monitors and documents activity of intelligence radio spy numbers stations.

@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: School Proje
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> School Projects: Volume</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> School Projects: Volume</h1>
 
 <?php generateScratchEmbed(86307518);?>
 

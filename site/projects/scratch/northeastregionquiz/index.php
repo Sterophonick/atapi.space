@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Northeast Re
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Northeast Region Quiz</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Northeast Region Quiz</h1>
 
 <?php generateScratchEmbed(25594615);?>
 

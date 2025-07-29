@@ -6,10 +6,10 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets\img\blog\icon.png"> Blog</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Blog</h1>
 <p>BE SUBJECT TO MY RAMBLINGS!<br/>
 <small>
-    <a href="/rss.xml"><img style="vertical-align:middle" src="/assets\img\blog\rss.gif"> Subscribe to my RSS Feed!</a>
+    <a href="/rss.xml"><img style="vertical-align:middle" src="/assets/img/blog/rss.gif"> Subscribe to my RSS Feed!</a>
 </small>
     </p><br/>
 <a href="gigatron/">Emulating the Gigatron TTL in MAME</a><br />
@@ -25,8 +25,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 <a href="winemidi/">Enabling MIDI Support for Legacy WINE Gaming</a><br />
 <a href="yarg/">Adventures in Rock Band on Linux</a><br />
 <a href="friedrice/">Femboy Fried Rice</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="\assets\img\global\new.gif"><a href="easylink/">Please Contact Fisher-Price Customer Relations</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="\assets\img\global\new.gif"><a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="easylink/">Please Contact Fisher-Price Customer Relations</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
 <?php
 
 echo constructPageFooter();

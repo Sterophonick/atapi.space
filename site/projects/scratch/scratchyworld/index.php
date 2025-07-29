@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Scratchy Wor
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Scratchy World</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Scratchy World</h1>
 <p>
 NOTE: This game does not work as well as it used to when Scratch 2.0 was around. This is because Scratch
 3.0 broke games that exploited certain rounding quirks of Flash.</br>

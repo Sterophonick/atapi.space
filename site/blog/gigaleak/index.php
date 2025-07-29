@@ -304,13 +304,13 @@ That last one sounded a few alarms when it first leaked. That's the ROM that was
 <code>NEWS.7z/StarFox2/KAWAGOE/SF.ROM</code><br/>
 <img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_1.png"><img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_2.png"><img width="50%px" src="/assets/img/blog/gigaleak/sf2_03311994_3.png"><br/><br/>
 
-<code>SFC.7z\ソースデータ\ヨッシーアイランド\ツール\donkey_test</code> is a folder located in the source code of Yoshi's Island.<br/>
+<code>SFC.7z/ソースデータ/ヨッシーアイランド/ツール/donkey_test</code> is a folder located in the source code of Yoshi's Island.<br/>
 There are two files: <code>super_donkey_1.bin</code> and <code>super_donkey_2.bin</code>.<br/>
 <?php generateYouTubeEmbed("QSBVyP_BkMQ", 240, 135);?>
 <?php generateYouTubeEmbed("1PtJmw1pNo", 240, 135, 1, 1);?>
 <br/>
 
-<code>SFC.7z\ソースデータ\ヨッシーアイランド\ツール\sleep_test</code> is another folder here, and it contains another unused game idea.<br/>
+<code>SFC.7z/ソースデータ/ヨッシーアイランド/ツール/sleep_test</code> is another folder here, and it contains another unused game idea.<br/>
 <?php generateYouTubeEmbed("nny81nnJ5uY", 240, 135, 1, 1);?>
 <br/>
 

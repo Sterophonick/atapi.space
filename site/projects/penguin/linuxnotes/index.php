@@ -3181,7 +3181,7 @@ Configuration</a><br />
 Installation:<br />
 - You must have DOSBox installed locally.<br />
 - Execute the GOG installer and extract it to wherever<br />
-- Edit the file "dosboxRayman_single.conf" and remove all instances of "..\"<br />
+- Edit the file "dosboxRayman_single.conf" and remove all instances of "../"<br />
 - Replace the music in the directory with <a
 href="https://www.mediafire.com/file/qxqatkzd9d04jc4/Rayman_GOG_Complete_Soundtrack.zip/file">this.</a><br />
 - Your command should be "dosbox -conf dosboxRayman.conf -conf dosboxRayman_single.conf" and the

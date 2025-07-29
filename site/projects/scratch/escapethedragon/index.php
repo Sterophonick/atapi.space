@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Escape The D
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Escape The Dragon!</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Escape The Dragon!</h1>
 
 <?php generateScratchEmbed(25130011);?>
 

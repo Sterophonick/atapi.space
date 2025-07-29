@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Super Block 
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Super Block Jump (Scratch Original)</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Super Block Jump (Scratch Original)</h1>
 
 <?php generateScratchEmbed(33047346);?>
 

@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Gravity Dude
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Gravity Dude</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Gravity Dude</h1>
 <p>NOTE: This version is slightly altered from the .sb2 and .swf files below. This is because Scratch 3.0
 broke games that exploited certain rounding quirks of Flash.</p>
 

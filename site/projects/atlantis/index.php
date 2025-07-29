@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\icon.png"> Game Boy Advance</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Game Boy Advance</h1>
 I've written a bunch of things for the Game Boy Advance. Here's a collection of things I can release! :3<br/>
 <h2>Navigation</h2>
 <div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
@@ -106,19 +106,19 @@ I've written a bunch of things for the Game Boy Advance. Here's a collection of 
 <p>A platformer with a very simple goal in mind, to get to the goal on the right side of the screen.</p>
 <p>This is a conversion of a game I made on Scratch back in 2014 and updated all the way through 2016.
 </p>
-<img src="\assets\img\projects\gba\sbj\sbjgba0.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba1.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba2.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba3.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba4.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba5.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba6.png">
-<img src="\assets\img\projects\gba\sbj\sbjgba7.png"><br />
+<img src="/assets/img/projects/gba/sbj/sbjgba0.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba1.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba2.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba3.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba4.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba5.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba6.png">
+<img src="/assets/img/projects/gba/sbj/sbjgba7.png"><br />
 <a href="sbjgba">Play Game</a><br />
-<a href="\files/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
-<a href="\files/Super Block Jump.cia">Nintendo 3DS .CIA Download</a><br />
+<a href="/files/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
+<a href="/files/Super Block Jump.cia">Nintendo 3DS .CIA Download</a><br />
 <a href="https://github.com/Sterophonick/SuperBlockJumpGBA">Source Code</a><br />
-<a href="\files/Super Block Jump (Bootleg Patch).gba">ROM patched for various bootleg
+<a href="/files/Super Block Jump (Bootleg Patch).gba">ROM patched for various bootleg
 cartridges.</a><br />
 <br />
 <p>Apparently, I was also really good at backing up old versions of this because I managed to dig up

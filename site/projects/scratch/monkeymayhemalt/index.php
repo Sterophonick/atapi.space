@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Monkey Mayhe
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Monkey Mayhem (Alt)</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Monkey Mayhem (Alt)</h1>
 
 <?php generateScratchEmbed(92985136);?>
 

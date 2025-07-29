@@ -12,7 +12,7 @@
 <div class="wrapper">
 <div class="mainContainer container1">
 
- <h1><img style="vertical-align:middle" src="\assets\img\interstitial\icon.png"> Content Interstitial</h1>
+ <h1><img style="vertical-align:middle" src="/assets/img/interstitial/icon.png"> Content Interstitial</h1>
  <p>
  You are about to leave my site, <a href="https://atapi.space/">atapi.space</a>.
  </p>

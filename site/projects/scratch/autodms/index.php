@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Automatic Da
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Automatic Daily Math Skills Practice</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Automatic Daily Math Skills Practice</h1>
 
 <?php generateScratchEmbed(46096428);?>
 

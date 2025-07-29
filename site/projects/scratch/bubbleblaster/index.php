@@ -5,7 +5,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Bubble Blast
 
 ?>
 
-<h1><img style="vertical-align:middle" src="\assets\img\projects\scratch-icon.png"> Bubble Blaster</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/projects/scratch-icon.png"> Bubble Blaster</h1>
 
 <?php generateScratchEmbed(71971462);?>
 
