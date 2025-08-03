@@ -200,11 +200,6 @@ function generateScratchEmbed($projectID, $disableMusic=1) {
     echo $htmlEmbed;
 }
 
-// evil code that i copied from irongeek
-function isTorExitPoint(){
-
-}
-
 // Content helpers
 // These determine whether or not we want to deliver certain content to various browsers
 // This is for ensuring that pages perform well under legacy or otherwise constrained browsers

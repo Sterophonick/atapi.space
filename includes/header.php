@@ -680,15 +680,6 @@ $musicPaths = array(
         EOF;
     }
 
-    if(isTorExitPoint()) {
-        echo '<p style="color:DarkMagenta"><img class="warnIcon" src="/assets/img/global/legacyWarning.gif"> You appear to be using Tor. <a href="';
-        echo file_get_contents("/srv/onion");
-        echo ltrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
-        echo '">Click here for the .onion version!</a>';
-        echo '<img class="warnIcon" src="/assets/img/global/legacyWarning.gif">';
-        echo '</p>';
-    }
-
     ?>
     <div id="headerPartiton" style="margin-top: -15px">
         <img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">
