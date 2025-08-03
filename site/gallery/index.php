@@ -622,7 +622,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/buttons/atapi.gif">
-                <p>October 2022<br />Zenith and @ashie404 made me a cute web button! <3< /p>
+                <p>October 2022<br />Zenith and @ashie404 made me a cute web button! <3</p>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/zenith_exe2024.png">
