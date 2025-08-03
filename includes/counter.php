@@ -40,10 +40,8 @@ function hitCounter() {
             $count++;
             if($trackUserAgents) {
                 if(flock($fileUA, LOCK_EX)) {
-                    file_put_contents($fileUA, $_SERVER['HTTP_USER_AGENT'] . PHP_EOL, FILE_APPEND);
-
                     rewind($filUA);
-                    fputs( $fileUA, $count );
+                    file_put_contents($fileUA, $_SERVER['HTTP_USER_AGENT'] . PHP_EOL, FILE_APPEND);
                     fflush( $fileUA);
                     flock($fileUA, LOCK_UN);
                 }
