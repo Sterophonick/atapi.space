@@ -19,7 +19,7 @@ function hitCounter() {
     $counterHtml = '';
 
     $path = '/srv/counter.txt';
-    $pathToUALog = '/srv/counter.txt'; // temporary thing, i just have this for tracking what user agents tick up the counter
+    $pathToUALog = '/srv/useragents.txt'; // temporary thing, i just have this for tracking what user agents tick up the counter
 
     // Opens countlog.txt to read the number of hits.
     $file  = fopen( $path, 'r+w' );
