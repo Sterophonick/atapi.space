@@ -32,6 +32,7 @@ body {
     color: white;
     text-align: center;
     display: grid;
+    text-shadow: 1px 1px 2px black;
     place-items: center; /* This centers both horizontally and vertically */
 }
 
