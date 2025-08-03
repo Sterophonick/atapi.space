@@ -604,6 +604,7 @@ $musicPaths = array(
     "Jay Tholen - Dimensional Voyager", "/assets/snd/music/voyager.mp3",
     "Landon Podbielski - jazzroom", "/assets/snd/music/jazz_room.mp3",
     "kulor - Our Time Machine Works!", "/assets/snd/music/time_machine.mp3",
+    "Nightmargin ft. Eliza Velasquez and Michael Shirt - On Little Cat Feet", "/assets/snd/music/OnLittleCatFeet.mp3",
 );
 
 ?>
