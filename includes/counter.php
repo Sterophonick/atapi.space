@@ -6,7 +6,6 @@ function hitCounter() {
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
     $doNotIncrement = 0;
-    $trackUserAgents = 1;
 
     //echo $userAgent;
 
@@ -19,12 +18,9 @@ function hitCounter() {
     $counterHtml = '';
 
     $path = '/srv/counter.txt';
-    $pathToUALog = '/srv/useragents.txt'; // temporary thing, i just have this for tracking what user agents tick up the counter
 
     // Opens countlog.txt to read the number of hits.
     $file  = fopen( $path, 'r+w' );
-
-    if($trackUserAgents) $fileUA  = fopen( $path, 'r+w' );
 
     if(flock($file, LOCK_EX)) {
 
@@ -38,15 +34,6 @@ function hitCounter() {
         // Update the count.
         if(!($doNotIncrement)) {
             $count++;
-            if($trackUserAgents) {
-                if(flock($fileUA, LOCK_EX)) {
-                    rewind($filUA);
-                    file_put_contents($fileUA, $_SERVER['HTTP_USER_AGENT'] . PHP_EOL, FILE_APPEND);
-                    fflush( $fileUA);
-                    flock($fileUA, LOCK_UN);
-                }
-                fclose($fileUA);
-            }
         }
 
         rewind($file);
