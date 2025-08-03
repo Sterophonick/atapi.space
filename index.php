@@ -32,7 +32,7 @@
                 <p>
                     <br/>
                     This site was intended for monitors at 1024x768 with 16-bit color and above!<br/>
-                    Music and Oneko settings are at the bottom of each page.<br/>
+                    Music and Oneko settings are at the bottom of each page. Make sure you turn on autoplay!<br/>
                     <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>
@@ -96,7 +96,7 @@
                     <a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
                     <a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 
-                    <a href="https://flurrys.neocities.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
+                    <a href="https://flurrys.nekoweb.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 
                     <a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
 

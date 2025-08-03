@@ -51,7 +51,7 @@ function hitCounter() {
     $chars = str_split($count);
 
     foreach ($chars as $digit) {
-        $counterHtml .= '<img class="counterDigit" style="vertical-align: 4px;" src="/assets/img/hitcounter/digit-' . $digit . '.png">';
+        $counterHtml .= '<img class="counterDigit" style="vertical-align: 4px;" src="/assets/img/digits/digit-' . $digit . '.png">';
     }
 
     // print the funny
