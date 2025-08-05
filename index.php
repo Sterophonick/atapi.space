@@ -102,6 +102,8 @@
 
                     <a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
                     <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
+
+                    <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
                     </marquee>
                     <br/>
                 </p>
