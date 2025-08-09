@@ -212,6 +212,8 @@ echo '<img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))
     <marquee><img src="/assets/img/home/potato.gif"></marquee>
 </span>
 
+<br/>
+
 <?php
 
 echo constructPageFooter();
