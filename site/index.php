@@ -207,8 +207,10 @@ echo '<img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))
 
 ?>
 
-<marquee id="potat" style="display: none;"><br/><br/><img src="/assets/img/home/potato.gif"></marquee>
-
+<span id="potat" style="display: none;">
+    <br/><br/>
+    <marquee><img src="/assets/img/home/potato.gif"></marquee>
+</span>
 
 <?php
 
