@@ -203,7 +203,7 @@ $adURLs = array(
     "/assets/img/ads/ezf-advance.jpg", "/assets/img/ads/f2a.jpg", "/assets/img/ads/gbax.gif", "/assets/img/ads/gbax2.jpg", "/assets/img/ads/gp2x.gif", "/assets/img/ads/linker4u-ps2.gif", "/assets/img/ads/mrmodchips.jpg", "/assets/img/ads/playasia.gif", "/assets/img/ads/ps3.gif", "/assets/img/ads/psp2banner.gif", "/assets/img/ads/romcenter.gif", "/assets/img/ads/xg2_new_e.gif"
 );
 
-echo '<img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))] . '"';
+echo '<img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))] . '">';
 
 ?>
 
