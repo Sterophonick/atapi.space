@@ -54,6 +54,8 @@ $adList = array(
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
     "/assets/img/ads/tridek.gif","",
+    "/assets/img/ads/liksang.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
+    "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
 );
 
 function createBannerAd() {
