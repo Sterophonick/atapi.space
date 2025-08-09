@@ -195,12 +195,13 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
 <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
 <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
+<a href="https://retroguru.com/"><img src="/assets/img/buttons/retroguru.png"></a>
 </div>
 <br/>
 
 <?php
 $adURLs = array(
-    "/assets/img/ads/ezf-advance.jpg", "/assets/img/ads/f2a.jpg", "/assets/img/ads/gbax.gif", "/assets/img/ads/gbax2.jpg", "/assets/img/ads/gp2x.gif", "/assets/img/ads/linker4u-ps2.gif", "/assets/img/ads/mrmodchips.jpg", "/assets/img/ads/playasia.gif", "/assets/img/ads/ps3.gif", "/assets/img/ads/psp2banner.gif", "/assets/img/ads/romcenter.gif", "/assets/img/ads/xg2_new_e.gif"
+    "/assets/img/ads/ezf-advance.jpg", "/assets/img/ads/f2a.jpg", "/assets/img/ads/gbax.gif", "/assets/img/ads/gbax2.jpg", "/assets/img/ads/gp2x.gif", "/assets/img/ads/linker4u-ps2.gif", "/assets/img/ads/mrmodchips.jpg", "/assets/img/ads/playasia.gif", "/assets/img/ads/ps3.gif", "/assets/img/ads/psp2banner.gif", "/assets/img/ads/romcenter.gif", "/assets/img/ads/xg2_new_e.gif", "/assets/img/ads/decalgirl.gif", "/assets/img/ads/binarygame.gif", "/assets/img/ads/xboxcore.jpg", "/assets/img/ads/xbox-hq.gif","/assets/img/ads/designerskins.jpg","/assets/img/ads/blaze.gif","/assets/img/ads/linker4u.gif","/assets/img/ads/x360central.jpg","/assets/img/ads/treamcast.gif","/assets/img/ads/xbox-chipz.gif","/assets/img/ads/maxmedia.gif","/assets/img/ads/sundisk.gif","/assets/img/ads/psjailbreak.gif","/assets/img/ads/pandora.gif"
 );
 
 echo '<img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))] . '">';
