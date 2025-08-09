@@ -46,7 +46,7 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
 }
 
 function constructPageFooter() {
-    global $adUrls;
+    global $adURLs;
 
     $htmlPage = <<<EOF
     <br/>
