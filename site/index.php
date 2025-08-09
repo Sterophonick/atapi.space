@@ -197,7 +197,6 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
 </div>
 <br />
-<br/>
 
 <?php
 $adURLs = array(
