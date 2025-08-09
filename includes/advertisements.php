@@ -47,7 +47,7 @@ $adList = array(
     "/assets/img/ads/at-t-the-first-banner-1994.png","", // this originally was tied to AT&T but it's way way funnier if there's no link
     "/assets/img/ads/divineo1.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo2.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
-    "/assets/img/ads/divineo3.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html,"
+    "/assets/img/ads/divineo3.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/hdfury.gif","https://web.archive.org/web/20110408082113/http://www.hdfury.com/",
     "/assets/img/ads/divineo4.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html,"
     "/assets/img/ads/nokia.gif","https://web.archive.org/web/20150111073548/http://www.filibeto.org/mobile",
