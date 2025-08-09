@@ -28,23 +28,23 @@ $adList = array(
     "/assets/img/ads/psjailbreak.gif","",
     "/assets/img/ads/pandora.gif","https://web.archive.org/web/20080828032422/http://www.openpandora.de/",
     "/assets/img/ads/retrobase.gif","https://web.archive.org/web/20050218030747/http://www.retrobase.net/",
-    "/assets/img/ads/kmru.gif","#",
+    "/assets/img/ads/kmru.gif","",
     "/assets/img/ads/mame.gif","https://mamedev.org/",
-    "/assets/img/ads/gbahome.jpg","#",
-    "/assets/img/ads/macmall.gif","#",
+    "/assets/img/ads/gbahome.jpg","",
+    "/assets/img/ads/macmall.gif","",
     "/assets/img/ads/presario.gif","https://web.archive.org/web/20060113065332/http://www.microwarehouse.co.uk/",
     "/assets/img/ads/yahoo.gif","https://web.archive.org/web/20050828081818/http://pager.yahoo.com/",
-    "/assets/img/ads/digital.gif","#",
-    "/assets/img/ads/ringtone.jpg","#",
+    "/assets/img/ads/digital.gif","",
+    "/assets/img/ads/ringtone.jpg","",
     "/assets/img/ads/kenobi.jpg","https://monicawankenobi0.tripod.com/index.html", // what the hell?
-    "/assets/img/ads/dollars4mail.gif","#",
-    "/assets/img/ads/pentium3.gif","#",
+    "/assets/img/ads/dollars4mail.gif","",
+    "/assets/img/ads/pentium3.gif","",
     "/assets/img/ads/win95.gif","https://web.archive.org/web/19990219162624/http://www3.windows95.com/", // also what?
     "/assets/img/ads/netcenter.gif","https://web.archive.org/web/20011114235829/http://home.netscape.com/ex/shak/index.html",
     "/assets/img/ads/flash.gif","https://web.archive.org/web/20000510023214/http://macromedia.com/",
     "/assets/img/ads/ibm-buy.gif","https://web.archive.org/web/20000229080028/http://www.buy.com/",
     "/assets/img/ads/ibm97.gif","https://web.archive.org/web/19970103065909/http://www.worldavenue.com/",
-    "/assets/img/ads/at-t-the-first-banner-1994.png","#", // this originally was tied to AT&T but it's way way funnier if there's no link
+    "/assets/img/ads/at-t-the-first-banner-1994.png","", // this originally was tied to AT&T but it's way way funnier if there's no link
     "/assets/img/ads/divineo1.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo2.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo3.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
@@ -53,7 +53,7 @@ $adList = array(
     "/assets/img/ads/nokia.gif","https://web.archive.org/web/20150111073548/http://www.filibeto.org/mobile",
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
-    "/assets/img/ads/tridek.gif","#",
+    "/assets/img/ads/tridek.gif","",
 );
 
 function createBannerAd() {
@@ -65,7 +65,7 @@ function createBannerAd() {
     $adImg = $adList[$adIndex];
     $adLink = $adList[$adIndex+1];
 
-    if(sizeof(adLink)) $finalString .= ' href="' . $adLink . '"';
+    if(sizeof($adLink)) $finalString .= ' href="' . $adLink . '"';
 
     $finalString .= '><img id="stupidBannerAd" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
 
