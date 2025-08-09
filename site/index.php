@@ -196,7 +196,17 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
 <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
 <br />
-<img src="/assets/img/home/linuxfox-comp.gif">
+<br/>
+
+<?php
+$adURLs = array(
+    "/assets/img/ads/ezf-advance.jpg", "/assets/img/ads/f2a.jpg", "/assets/img/ads/gbax.gif", "/assets/img/ads/gbax2.jpg", "/assets/img/ads/gp2x.gif", "/assets/img/ads/linker4u-ps2.gif", "/assets/img/ads/mrmodchips.jpg", "/assets/img/ads/playasia.gif", "/assets/img/ads/ps3.gif", "/assets/img/ads/psp2banner.gif", "/assets/img/ads/romcenter.gif", "/assets/img/ads/xg2_new_e.gif"
+);
+
+echo '<br/><img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adURLs))] . '"<br/><br/>';
+
+?>
+
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
 </div>
 
