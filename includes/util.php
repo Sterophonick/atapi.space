@@ -56,7 +56,7 @@ function constructPageFooter() {
             <div id="footerSeparator">
                 <img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">
             </div>
-            <div id="message">
+            <div id="message" style="line-height: 0.5em">
                 <p>
                     <a href="..">(Go Back)</a>
                     <a href="#top">(Top of Page)</a><br/>
@@ -99,7 +99,7 @@ function constructPageFooter() {
                 <a href="/site/disclosure.php">Site & Privacy Info</a>
                 -
                 <a href="/rss.xml">RSS Feed</a>
-                <br/>
+                <br/><br/>
         </small>
     EOF;
 
