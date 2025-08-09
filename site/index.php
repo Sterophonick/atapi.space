@@ -195,6 +195,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
 <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
 <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
+</div>
 <br />
 <br/>
 
@@ -208,7 +209,7 @@ echo '<br/><img id="stupidBannerAd" src="' . $adURLs[ floor(rand() % sizeof($adU
 ?>
 
 <marquee id="potat" style="display: none;"><img src="/assets/img/home/potato.gif"></marquee>
-</div>
+
 
 <?php
 
