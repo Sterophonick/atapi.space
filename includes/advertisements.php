@@ -57,6 +57,7 @@ $adList = array(
 );
 
 function createBannerAd() {
+    global $adList;
 
     $adIndex = floor(mt_rand() % sizeof($adList) / 2) * 2;
     $adImg = $adList[$adIndex];
