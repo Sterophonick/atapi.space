@@ -65,7 +65,7 @@ function createBannerAd() {
     $adImg = $adList[$adIndex];
     $adLink = $adList[$adIndex+1];
 
-    if(sizeof($adLink)) $finalString .= ' href="' . $adLink . '"';
+    if(strlen($adLink)) $finalString .= ' href="' . $adLink . '"';
 
     $finalString .= '><img id="stupidBannerAd" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
 
