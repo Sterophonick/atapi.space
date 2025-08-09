@@ -54,6 +54,7 @@ function constructPageFooter() {
     <div class="footerContainer">
         <div id="footer">
             <div id="footerSeparator">
+                <br/>
                 <img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">
             </div>
             <div id="message" style="line-height: 0.5em">
