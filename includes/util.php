@@ -1,61 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
-
-$adURLs = array(
-    "/assets/img/ads/ezf-advance.jpg",
-    "/assets/img/ads/f2a.jpg",
-    "/assets/img/ads/gbax.gif",
-    "/assets/img/ads/gbax2.jpg",
-    "/assets/img/ads/gp2x.gif",
-    "/assets/img/ads/linker4u-ps2.gif",
-    "/assets/img/ads/mrmodchips.jpg",
-    "/assets/img/ads/playasia.gif",
-    "/assets/img/ads/ps3.gif",
-    "/assets/img/ads/psp2banner.gif",
-    "/assets/img/ads/romcenter.gif",
-    "/assets/img/ads/xg2_new_e.gif",
-    "/assets/img/ads/decalgirl.gif",
-    "/assets/img/ads/binarygame.gif",
-    "/assets/img/ads/xboxcore.jpg",
-    "/assets/img/ads/xbox-hq.gif",
-    "/assets/img/ads/designerskins.jpg",
-    "/assets/img/ads/blaze.gif",
-    "/assets/img/ads/linker4u.gif",
-    "/assets/img/ads/x360central.jpg",
-    "/assets/img/ads/treamcast.gif",
-    "/assets/img/ads/xbox-chipz.gif",
-    "/assets/img/ads/maxmedia.gif",
-    "/assets/img/ads/sundisk.gif",
-    "/assets/img/ads/psjailbreak.gif",
-    "/assets/img/ads/pandora.gif",
-    "/assets/img/ads/retrobase.gif",
-    "/assets/img/ads/kmru.gif",
-    "/assets/img/ads/mame.gif",
-    "/assets/img/ads/gbahome.jpg",
-    "/assets/img/ads/macmall.gif",
-    "/assets/img/ads/presario.gif",
-    "/assets/img/ads/yahoo.gif",
-    "/assets/img/ads/digital.gif",
-    "/assets/img/ads/ringtone.jpg",
-    "/assets/img/ads/kenobi.jpg",
-    "/assets/img/ads/dollars4mail.gif",
-    "/assets/img/ads/pentium3.gif",
-    "/assets/img/ads/win95.gif",
-    "/assets/img/ads/netcenter.gif",
-    "/assets/img/ads/flash.gif",
-    "/assets/img/ads/ibm-buy.gif",
-    "/assets/img/ads/ibm97.gif",
-    "/assets/img/ads/at-t-the-first-banner-1994.png",
-    "/assets/img/ads/divineo1.jpg",
-    "/assets/img/ads/divineo2.jpg",
-    "/assets/img/ads/divineo3.gif",
-    "/assets/img/ads/hdfury.gif",
-    "/assets/img/ads/divineo4.gif",
-    "/assets/img/ads/nokia.gif",
-    "/assets/img/ads/sun.gif",
-    "/assets/img/ads/dvd.gif",
-);
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/advertisements.php';
 
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
@@ -134,7 +80,7 @@ function constructPageFooter() {
                     made with love 2020-2025 Atapi/Sterophonick<br/><br/>
     EOF;
 
-    $htmlPage .= '<img id="stupidBannerAd" width="468px" height="60px" src="' . $adURLs[ floor(mt_rand() % sizeof($adURLs))] . '"><br/>';
+    $htmlPage .= createBannerAd();
 
     $htmlPage .= <<<EOF
                 </p>
