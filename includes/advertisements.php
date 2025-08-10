@@ -56,6 +56,10 @@ $adList = array(
     "/assets/img/ads/tridek.gif","",
     "/assets/img/ads/liksang.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
+
+    // made by @hotwheelz@blahaj.zone
+    "/assets/img/ads/sgi.gif","",
+    "/assets/img/ads/os2.gif","",
 );
 
 function createBannerAd() {
