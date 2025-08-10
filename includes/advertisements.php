@@ -56,6 +56,7 @@ $adList = array(
     "/assets/img/ads/tridek.gif","",
     "/assets/img/ads/liksang.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
+    "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
     "/assets/img/ads/ps2.gif","",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
