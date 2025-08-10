@@ -56,8 +56,21 @@ $adList = array(
     "/assets/img/ads/tridek.gif","",
     "/assets/img/ads/liksang.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
+    "/assets/img/ads/ps2.gif","",
+    "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
+    "/assets/img/ads/seti.gif","",
+    "/assets/img/ads/windowsxp.gif","",
+    "/assets/img/ads/garfield.gif","",
+    "/assets/img/ads/playstation.gif","",
+    "/assets/img/ads/n64.gif","",
+    "/assets/img/ads/mod-chip.gif","https://web.archive.org/web/20050608032340/http://www.mod-chip.com/",
+    "/assets/img/ads/pinnacle.gif","",
+    "/assets/img/ads/net2phone.gif","https://web.archive.org/web/20050628011416/http://net2phone.com/",
+    "/assets/img/ads/office97.gif","",
+    "/assets/img/ads/net1.gif","https://web.archive.org/web/20050211042143/http://www.thenet1.com/",
+    "/assets/img/ads/xpmagazine.gif","",
 
-    // made by @hotwheelz@blahaj.zone
+    // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",
     "/assets/img/ads/os2.gif","",
 );
