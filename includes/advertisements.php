@@ -70,6 +70,7 @@ $adList = array(
     "/assets/img/ads/office97.gif","",
     "/assets/img/ads/net1.gif","https://web.archive.org/web/20050211042143/http://www.thenet1.com/",
     "/assets/img/ads/xpmagazine.gif","",
+    "/assets/img/ads/x-rom.jpg","https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/",
 
     // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",
