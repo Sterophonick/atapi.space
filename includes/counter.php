@@ -2,7 +2,7 @@
 
 function hitCounter() {
     // Data abstracted from that JSON of known bots and crawlers. We fuzzy select them
-    $bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit", "meta-", 'mastodon', 'akkoma', 'misskey', 'sindresorhus', 'discord', 'pleroma', 'rss', 'sharkey' ];
+    $bots = ['bot', 'crawl', 'spider', 'slurp', 'curl', 'python', 'convera', "facebookexternalhit", "meta-", 'mastodon', 'akkoma', 'misskey', 'sindresorhus', 'discord', 'pleroma', 'rss', 'sharkey', 'wget' ];
     $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
     $doNotIncrement = 0;
