@@ -71,6 +71,9 @@ $adList = array(
     "/assets/img/ads/net1.gif","https://web.archive.org/web/20050211042143/http://www.thenet1.com/",
     "/assets/img/ads/xpmagazine.gif","",
     "/assets/img/ads/x-rom.jpg","https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/aep.jpg","https://www.aep-emu.de/",
+    "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
+    "/assets/img/ads/breakpoint07.png","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
 
     // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",

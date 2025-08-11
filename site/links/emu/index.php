@@ -1,7 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Links :: Emulation / Homebrew / Hacking");
+echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Homebrew / Hacking");
 
 ?>
 

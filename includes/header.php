@@ -637,15 +637,15 @@ $musicPaths = array(
     </div>
     <div id="headerNav" align="center">
         <a href="/site/projects/"><img class="noMosaic navIcon" src="/assets/img/global/folder.png"> Projects</a>
-         -
+         |
         <a href="/site/dumps/"><img class="noMosaic navIcon" src="/assets/img/global/chip.png"> Dumps</a>
-         -
+         |
         <a href="/site/blog/"><img class="noMosaic navIcon" src="/assets/img/global/notepad.png"> Blog</a>
-         -
+         |
         <a href="/site/gallery/"><img class="noMosaic navIcon" src="/assets/img/global/gallery.png"> Gallery</a>
-         -
-        <a href="/site/links/"><img class="noMosaic navIcon" src="/assets/img/global/links.png"> Links</a>
-         -
+         |
+        <a href="/site/links/"><img class="noMosaic navIcon" src="/assets/img/global/links.png"> Web Links</a>
+         |
         <a href="/site/guestbook/"><img class="noMosaic navIcon" src="/assets/img/global/guestbook.png"> Guestbook!</a>
     </div>
     <?php
