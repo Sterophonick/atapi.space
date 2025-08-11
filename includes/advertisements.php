@@ -72,9 +72,9 @@ $adList = array(
     "/assets/img/ads/xpmagazine.gif","",
     "/assets/img/ads/x-rom.jpg","https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/aep.jpg","https://www.aep-emu.de/",
-    "/assets/img/ads/amipc.gif","https://web.archive.org/web/20040701001550im_/http://www.emuunlim.com/images/amipcbanner128.gif",
-    "/assets/img/ads/amiem.gif","https://web.archive.org/web/20040702002439im_/http://www.emuunlim.com/images/amiem.gif",
-    "/assets/img/ads/c64banner.gif","https://web.archive.org/web/20040711035349im_/http://www.emuunlim.com/images/c64banner.gif",
+    "/assets/img/ads/amipc.gif","",
+    "/assets/img/ads/amiem.gif","",
+    "/assets/img/ads/c64banner.gif","",
     "/assets/img/ads/emuzone.gif","https://web.archive.org/web/20050211033831/http://www.computeremuzone.com/",
 
     // screw it, why don't we just advertise old demoparties now! :3
