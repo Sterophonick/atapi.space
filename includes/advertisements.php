@@ -72,12 +72,19 @@ $adList = array(
     "/assets/img/ads/xpmagazine.gif","",
     "/assets/img/ads/x-rom.jpg","https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/aep.jpg","https://www.aep-emu.de/",
-    "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
-    "/assets/img/ads/breakpoint07.png","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
+
+    // screw it, why don't we just advertise old demoparties now! :3
+    "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
+    "/assets/img/ads/breakpoint10.gif","https://web.archive.org/web/20100307211623/http://breakpoint.untergrund.net/",
+    "/assets/img/ads/assembly04.gif","https://web.archive.org/web/20040701110914/http://www.assembly.org/",
+
 
     // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",
     "/assets/img/ads/os2.gif","",
+
+    // subject to break if this site ever kicks the bucket. remove this if it does.
+    "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
 );
 
 function createBannerAd() {
