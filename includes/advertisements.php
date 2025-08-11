@@ -75,6 +75,7 @@ $adList = array(
     "/assets/img/ads/amipc.gif","https://web.archive.org/web/20040701001550im_/http://www.emuunlim.com/images/amipcbanner128.gif",
     "/assets/img/ads/amiem.gif","https://web.archive.org/web/20040702002439im_/http://www.emuunlim.com/images/amiem.gif",
     "/assets/img/ads/c64banner.gif","https://web.archive.org/web/20040711035349im_/http://www.emuunlim.com/images/c64banner.gif",
+    "/assets/img/ads/emuzone.gif","https://web.archive.org/web/20050211033831/http://www.computeremuzone.com/",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
