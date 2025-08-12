@@ -152,7 +152,31 @@ Game Boy Advance coding competitons and hardware links.
 <a href="https://web.archive.org/web/*/http://pocketheaven.com/phpBB2/">PocketHeaven Forum</a><br />
 Legacy forum for handheld discussion.
 </p>
-
+<br/>
+<p>
+<a href="https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html">Divineo</a><br />
+Defunct(?) storefront for modchips and other peripherals.
+</p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/">EasyBuy2000</a><br />
+Defunct storefront for peripherals, modchips, and flashcarts.
+</p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20040623184437/http://www.xgflash2.com/">XG-Flash</a><br />
+Official website for XG-Flash cartridges for the Game Boy Advance.
+</p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp">Linker4U</a><br />
+Defunct storefront with a focus on flashcarts.
+</p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20050204170620/http://www.superufo.com/">SuccessHK / SuperUFO</a><br />
+Defunct storefront for a bunch of console accessories.
+</p>
 
 <?php
 

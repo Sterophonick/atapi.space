@@ -107,7 +107,7 @@ Wiki that aims to document cats and other visitors of the Hello Street Cat feede
 Camera feeds for Hello Street Cat feeders.
 </p>
 <br/>
-<<p>
+<p>
 <a href="https://grumpygamer.com/">Grumpy Gamer</a><br/>
 Ron Gilbert's website.
 </p>
