@@ -111,6 +111,11 @@ Camera feeds for Hello Street Cat feeders.
 <a href="https://grumpygamer.com/">Grumpy Gamer</a><br/>
 Ron Gilbert's website.
 </p>
+<br/>
+<p>
+<a href="https://xenia.efi.pages.gay/">Xenia, the Linux mascot</a><br/>
+Efi's website dedicated to Xenia, the trans Linux foxgirl mascot.
+</p>
 <?php
 
 echo constructPageFooter();

@@ -85,6 +85,7 @@ $adList = array(
     "/assets/img/ads/98semp.gif","",
     "/assets/img/ads/nec.gif","",
     "/assets/img/ads/toshiba.gif","",
+    "/assets/img/ads/nochoice.gif","http://toastytech.com/evil/index.html",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
@@ -113,5 +114,4 @@ function createBannerAd() {
     $finalString .= '><img id="stupidBannerAd" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
 
     return $finalString;
-
 }
