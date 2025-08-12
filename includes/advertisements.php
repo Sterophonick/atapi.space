@@ -1,5 +1,10 @@
 <?php
 
+# this lil module will select a random image with a corresponding link in order to generate "advertisements"
+# they're not real but they are tagged so if you hate them you can block them with your adblocker
+# the ads will be advertising old dead things like flashcarts, ROM sites, old PC vendors, modchip vendors, old gaming communities
+# the vast majority of the stuff here is long dead or obsolete. it's purely for the sake of aesthetics.
+
 $adList = array(
     "/assets/img/ads/ezf-advance.jpg","https://web.archive.org/web/20051110001843/http://linker4u.com/pp/item_detail.asp?itemID=F7732E8A-DE5F-401F-81DF-29793809ED30",
     "/assets/img/ads/f2a.jpg","https://web.archive.org/web/20060430214714/http://www.linker4u.com/pp/item_detail.asp?itemID={BED20706-33CF-4A2F-B958-85E1A552A0D1}",
@@ -54,9 +59,9 @@ $adList = array(
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
     "/assets/img/ads/tridek.gif","",
-    "/assets/img/ads/liksang.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
-    "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
-    "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20080000000000*/lik-sang.com",
+    "/assets/img/ads/liksang.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
+    "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
+    "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/ps2.gif","",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
@@ -76,12 +81,15 @@ $adList = array(
     "/assets/img/ads/amiem.gif","",
     "/assets/img/ads/c64banner.gif","",
     "/assets/img/ads/emuzone.gif","https://web.archive.org/web/20050211033831/http://www.computeremuzone.com/",
+    "/assets/img/ads/datamation.gif","",
+    "/assets/img/ads/98semp.gif","",
+    "/assets/img/ads/nec.gif","",
+    "/assets/img/ads/toshiba.gif","",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
     "/assets/img/ads/breakpoint10.gif","https://web.archive.org/web/20100307211623/http://breakpoint.untergrund.net/",
     "/assets/img/ads/assembly04.gif","https://web.archive.org/web/20040701110914/http://www.assembly.org/",
-
 
     // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",
