@@ -95,6 +95,7 @@ $adList = array(
     // made by @hootwheelz@blahaj.zone
     "/assets/img/ads/sgi.gif","",
     "/assets/img/ads/os2.gif","",
+    "/assets/img/ads/afterburner.gif","https://web.archive.org/web/20030524123759/http://tritonlabs.com/",
 
     // subject to break if this site ever kicks the bucket. remove this if it does.
     "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
