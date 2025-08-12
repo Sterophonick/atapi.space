@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="shortcut icon" href="assets/img/global/favicon.ico">

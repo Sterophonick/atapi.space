@@ -1,5 +1,4 @@
-
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="shortcut icon" href="assets/img/global/favicon.ico">
@@ -22,7 +21,7 @@
  ?>
 
  <p>
- This site contains content that some may consider to be potentially disturbing, offensive or otherwise <b><i>Not Safe For Work (NSFW)</i></b>.<br/><br/>
+ This site contains content that some may consider to be potentially disturbing, offensive or otherwise <u><b><i>Not Safe For Work (NSFW)</i></b></u>.<br/><br/>
 
  By proceeding, you agree to acknowledge the nature of your destination page and take full responsibility for your decision to access it. Furthermore, you confirm that you are of legal age in your jurisdiction. <br/>
  </div>
@@ -39,7 +38,7 @@
 
  <br/>
  To go back, click this link:<br/>
- <a href="javascript:history.back()">Nevermind!</a><br/>
+ <a href="javascript:history.back()">Nevermind, take me back!</a><br/>
  </p>
 </div>
 <br/>
