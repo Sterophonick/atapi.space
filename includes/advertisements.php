@@ -86,6 +86,7 @@ $adList = array(
     "/assets/img/ads/nec.gif","",
     "/assets/img/ads/toshiba.gif","",
     "/assets/img/ads/nochoice.gif","http://toastytech.com/evil/index.html",
+    "/assets/img/ads/consolefever.gif","https://web.archive.org/web/20050204195159/http://www.consolefever.com/customer/home.php",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
