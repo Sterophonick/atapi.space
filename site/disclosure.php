@@ -54,10 +54,10 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 <br/>
 <h2>Anti-Scraping Measures</h2>
 <p>
-    There's a measure that the Caddy server takes to silence AI scrapers. It will check your user agent against the following regex:<br/>
+    There's a measure that the Caddy server takes to silence AI scrapers. Your user agent is checked against this regex snippet:<br/>
     <code><small>CCBot|GPT|Claude|anthropic|/bcohere/b|/bmeta/b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
 
-    When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!
+    There are more known agents, but it's not worth listing them. When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!
 </p>
 <br/>
 <h2>Network Access</h2>
@@ -66,6 +66,12 @@ The port <code>:6502</code> is also open on this site's IP address, which is <co
 </p>
 <br/>
 <p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
+
+<h2>Advertisements</h2>
+<p>
+    The advertisements at the bottom of each page are primarily historical banner ads, save for a couple that I commissioned. A couple of them do link to sites that are still up, but they're like, niche emulation communities or stuff like that. They are purely for the sake of aesthetic and humor.
+<p><br/>
+
 <h2>Content Attribution</h2>
 <p>
 - Standard typeface is Motherish by ArtsyOmni, CJK Script is Zen Maru Gothic<br/>
@@ -74,6 +80,7 @@ The port <code>:6502</code> is also open on this site's IP address, which is <co
 - Oneko.js by adryd325, graphic modified by ParkerCC<br/>
 - Background is an altered version of the MacOS 9 cats wallpaper<br/>
 - No copyright infringement intended<br/>
+- SGI, OS/2, and Afterburner ads by Hoothweelz<br/>
 <br/>
 No content on this website, past or present, can be used in connection with or to promote cryptocurrency, nor can it be used for promoting or train ing any form of artifical intelligence.<br/>
 </p>
