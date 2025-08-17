@@ -87,6 +87,15 @@ $adList = array(
     "/assets/img/ads/toshiba.gif","",
     "/assets/img/ads/nochoice.gif","http://toastytech.com/evil/index.html",
     "/assets/img/ads/consolefever.gif","https://web.archive.org/web/20050204195159/http://www.consolefever.com/customer/home.php",
+    "/assets/img/ads/OCH.gif","https://web.archive.org/web/20020802034137im_/http://www.cpufx.com/images/banners/OCH.gif",
+    "/assets/img/ads/bcentral.gif","",
+    "/assets/img/ads/gifts.gif","",
+    "/assets/img/ads/saroko.gif","",
+    "/assets/img/ads/babakaram.gif","",
+    "/assets/img/ads/cwnet.gif","https://web.archive.org/web/20020331123649/http://www.cwnet.com/",
+    "/assets/img/ads/intboost.gif","https://web.archive.org/web/20020101000000*/freecell.com",
+    "/assets/img/ads/sonicwall.gif","",
+
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
