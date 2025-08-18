@@ -93,7 +93,8 @@ $adList = array(
     "/assets/img/ads/saroko.gif","",
     "/assets/img/ads/babakaram.gif","",
     "/assets/img/ads/cwnet.gif","https://web.archive.org/web/20020331123649/http://www.cwnet.com/",
-    "/assets/img/ads/intboost.gif","https://web.archive.org/web/20020101000000*/freecell.com",
+    "/assets/img/ads/intboost.gif","",
+    "/assets/img/ads/freecell.gif","https://web.archive.org/web/20020101000000*/freecell.com",
     "/assets/img/ads/sonicwall.gif","",
 
 
