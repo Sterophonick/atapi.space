@@ -43,7 +43,7 @@ body {
     margin: auto;
     border: 3px solid red;
     box-sizing: border-box;
-    background-color: #0D0726;
+    background-image: url("/assets/img/global/weave.png");
     border-radius: 8px;
 }
 
