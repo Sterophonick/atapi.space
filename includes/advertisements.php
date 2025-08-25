@@ -3,7 +3,7 @@
 # this lil module will select a random image with a corresponding link in order to generate "advertisements"
 # they're not real but they are tagged so if you hate them you can block them with your adblocker
 # the ads will be advertising old dead things like flashcarts, ROM sites, old PC vendors, modchip vendors, old gaming communities
-# the vast majority of the stuff here is long dead or obsolete. it's purely for the sake of aesthetics.
+# the vast majority of the stuff here is long dead or obsolete. it's primarily for the sake of aesthetics and humor.
 
 $adList = array(
     "/assets/img/ads/ezf-advance.jpg","https://web.archive.org/web/20051110001843/http://linker4u.com/pp/item_detail.asp?itemID=F7732E8A-DE5F-401F-81DF-29793809ED30",
@@ -96,6 +96,7 @@ $adList = array(
     "/assets/img/ads/intboost.gif","",
     "/assets/img/ads/freecell.gif","https://web.archive.org/web/20020101000000*/freecell.com",
     "/assets/img/ads/sonicwall.gif","",
+    "/assets/img/ads/sabrina.gif","https://www.sabrina-online.com/", // Sabrina <3
 
 
     // screw it, why don't we just advertise old demoparties now! :3

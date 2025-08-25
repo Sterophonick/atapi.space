@@ -438,7 +438,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <p>July 2021<br />A sketch he drew when I was drawing the trans rights artwork.</p>
         </td>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/quickstars_atapi6.png">
+            <a href="/assets/img/gallery/quickstars_atapi6.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/quickstars_atapi6_thumb.jpg"></a>
             <p>July 2021<br />Another sketch he drew when I was drawing the trans rights artwork.</p>
         </td>
     </tr>
@@ -845,9 +845,8 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     </tr>
     <tr>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/Atapi_Ref_Sheet_2024_-_Roachtoon.png">
-                <p>April 2024<br />New reference!!!<br /><a
-                        href="/files/Atapi_Ref_Sheet_2024_-_Roachtoon.kra">Krita Source File</p></a>
+            <a href="/assets/img/gallery/Atapi_Ref_Sheet_2024_-_Roachtoon.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/Atapi_Ref_Sheet_2024_-_Roachtoon_thumb.jpg"></a>
+                <p>April 2024<br />New reference!!!<br /><a href="/files/Atapi_Ref_Sheet_2024_-_Roachtoon.kra">Krita Source File</p></a>
         </td>
         <td>
             <img class="galleryImg" src="/assets/img/gallery/roach_bootleg.png">
@@ -956,7 +955,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <img class="galleryImg" src="/assets/img/gallery/dbrandStickyNote.png"></a>
+            <a href="/assets/img/gallery/dbrandStickyNote.png"><img class="galleryImg" src="/assets/img/gallery/thumbs/dbrandStickyNote_thumb.jpg"></a>
             <p>September 2022<br />A doodle I asked for in the special instructions of my Steam Deck screen
                 protector.<br />(Don't try this, please)</p>
         </td>
