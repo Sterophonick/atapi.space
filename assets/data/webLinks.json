@@ -1,0 +1,66 @@
+{
+    "emulation": {
+        "name": "Emulation / Demoscene / Hacking",
+        "desc": "Collection of sites related to emulation, homebrewing, hacking, and related topics.",
+        "entries": [
+            {
+                "name": "Retro Veteran",
+                "link": "https://www.retroveteran.com/",
+                "desc": "Console and Handheld homebrew news submissions!"
+            },
+            {
+                "name": "Vintage is the New Old",
+                "link": "https://www.vintageisthenewold.com/",
+                "desc": "Homebrew news for mostly retro computers."
+            }
+        ]
+    },
+    "linux": {
+        "name": "GNU/Linux",
+        "desc": "Collection of sites for GNU/Linux news and stuff.",
+        "entries": [
+            {
+                "name": "Phoronix",
+                "link": "https://www.phoronix.com/",
+                "desc": "Daily news for Linux distributions and hardware!"
+            },
+            {
+                "name": "WINEHQ",
+                "link": "https://www.winehq.org/",
+                "desc": "Main page for the WINE project."
+            }
+        ]
+    },
+    "misc": {
+        "name": "Miscellaneous",
+        "desc": "Moar",
+        "entries": [
+            {
+                "name": "Phoronix",
+                "link": "https://www.phoronix.com/",
+                "desc": "Daily news for Linux distributions and hardware!"
+            },
+            {
+                "name": "WINEHQ",
+                "link": "https://www.winehq.org/",
+                "desc": "Main page for the WINE project."
+            }
+        ]
+    },
+    "hist": {
+        "name": "Historical",
+        "desc": "Defunct websites of interest.",
+        "entries": [
+            {
+                "name": "Phoronix",
+                "link": "https://www.phoronix.com/",
+                "desc": "Daily news for Linux distributions and hardware!"
+            },
+            {
+                "name": "WINEHQ",
+                "link": "https://www.winehq.org/",
+                "desc": "Main page for the WINE project."
+            }
+        ]
+    }
+}
