@@ -73,7 +73,17 @@ Fast userland x86 and amd64 emulator for Linux on ARM64.
 <br />
 <p>
 <a href="https://gitlab.freedesktop.org/mesa/mesa">Mesa3D</a><br />
-Open-source OpenGL/Vulkan implementation, mostly designed for Linux.
+Open-source OpenGL/Vulkan implementation, mostly designed for Linux and BSD.
+</p>
+<br />
+<p>
+<a href="https://cachyos.org/">CachyOS Linux</a><br />
+Arch Linux distribution with packages compiled for x86-64_v3 and x86-64_v4, a patched kernel, as well as a handful of extra AUR packages.
+</p>
+<br />
+<p>
+<a href="https://asahilinux.org/">Asahi Linux</a><br />
+A team dedicated to bringing a polished Linux experience on Apple Silicon machines.
 </p>
 
 <?php

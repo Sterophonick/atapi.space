@@ -116,6 +116,16 @@ Ron Gilbert's website.
 <a href="https://xenia.efi.pages.gay/">Xenia, the Linux mascot</a><br/>
 Efi's website dedicated to Xenia, the trans Linux foxgirl mascot.
 </p>
+<br/>
+<p>
+<a href="https://britneyspears.ac/lasers.htm">Britney Spears' Guide to Semiconductor Physics</a><br/>
+A tongue-in-cheek website that teaches the brutal mathematics behind Semiconductor Physics.
+</p>
+<br/>
+<p>
+<a href="https://geekenspiel.com/">Geekenspiel</a><br/>
+Independent store for reproduction stickers and badges for retro operating systems and chipsets.
+</p>
 <?php
 
 echo constructPageFooter();

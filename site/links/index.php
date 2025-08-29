@@ -3,6 +3,8 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Web Links");
 
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
+
 ?>
 
 <div id="hypnospace-header">
@@ -27,7 +29,13 @@ text-align: center;">
 <td><a href="historical/">Historical</a><br />Interesting old / defunct websites.<br /></td>
 </tr>
 </table>
-<br />
+<br/>
+
+<?php
+countWebLinks();
+?>
+
+<br/><br />
 Special GREETZ to:<br />
 <marquee width="65%">
 FluBBa - Dwedit - 3DSage - krom / PeterLemon - Loopy - Mark Holloway - Kuwanger (RIP) - Scratch Team -
@@ -48,7 +56,6 @@ Hector Martin - Asahi Lina - Sonicadvance1 - Alyssa Rosenzweig - cathodegaytube 
 RAZOR1911 - FAiRLiGHT - p0ke - maracuja - zerkman - XAYAX - pheonixbound - RinkuSonic41 - Tahg - LGR /
 lazygamereviews - James Rolfe - Fangamer - Aaron Giles - TheEssem - InvoxiPlayGames - Velveteen - and YOU!
 </marquee>
-<br/>
 
 <?php
 

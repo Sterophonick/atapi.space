@@ -97,7 +97,7 @@ $adList = array(
     "/assets/img/ads/freecell.gif","https://web.archive.org/web/20020101000000*/freecell.com",
     "/assets/img/ads/sonicwall.gif","",
     "/assets/img/ads/sabrina.gif","https://www.sabrina-online.com/", // Sabrina <3
-
+    "/assets/img/ads/semiconductor.gif","https://britneyspears.ac/lasers.htm", // britney spears teaches semiconductors :3
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
@@ -108,6 +108,9 @@ $adList = array(
     "/assets/img/ads/sgi.gif","",
     "/assets/img/ads/os2.gif","",
     "/assets/img/ads/afterburner.gif","https://web.archive.org/web/20030524123759/http://tritonlabs.com/",
+
+    // made by me!
+    "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
 
     // subject to break if this site ever kicks the bucket. remove this if it does.
     "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
