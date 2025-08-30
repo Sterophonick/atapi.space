@@ -52,6 +52,7 @@ only work on old versions of Windows.</p>
 <p>A crappy handheld that I got as a gift in 2020. Sitronix ST2302U-based, dumped with a combination of a CH341A SPI programmer and holding my finger down on the reset line.</p>
 <img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-2.png"><br />
 <img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-3.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-4.png"><br />
+<a href="https://github.com/mamedev/mame/pull/14098">MAME Pull Request</a><br/>
 <a href="/files/lmao">Dump coming soon...</a><br />
 <br/>
 
