@@ -66,9 +66,9 @@ Anyway, this machine is one of many various machines all in the same line of pro
     Now having verified that the dump was correct, it was time to make a pull request. I sent the ROM image to the appropriate channels, and added the machine to my own build of MAME. This work can now be seen <a href="https://github.com/mamedev/mame/pull/14003/commits/6f9da0dd90c9690523a99860ea7e6ba5405287dd">here in this pull request</a>. It's not quite in MAME yet as of writing, but it shouldn't be too too long.<br/><br/>
 
     Oh yeah, and you can also grab the dump <a href="/files/throwback.7z">here</a>. You will need to find the existing boot ROMs for machines like the <code>supreme</code> to use it, though.<br/><br/>
-
-    <img width="540px" src="/assets/img/blog/throwbck/wiwi.jpg">
 </p>
+
+<img width="540px" src="/assets/img/blog/throwbck/wiwi.jpg">
 
 <?php
 
