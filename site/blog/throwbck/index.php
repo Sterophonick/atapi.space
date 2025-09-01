@@ -8,11 +8,11 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Dumping a Piece of Crap");
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Dumping a Piece of Crap</h1>
 <p style="margin-top: -25px;">*cartoon throwing sound*<br/></p><br/>
 <p>
-Sep ?, 2025<br/>
+Sep 1, 2025<br/>
 Category: Project<br/>
 </p>
 <br />
-<h2>The Device<h2>
+<h2>The Device</h2>
 <p>
 In 2020, my family and I went on a trip to a Round1 for my birthday. From all the tickets that I won, I was able to purchase a piece-of-crap handheld game console called the "Throwback Pocket Video Game Console", powered by a small microcontroller and coming with 153 different games. Five years on, I still have it, for better or worse. It's a neat little device as part of a collection of bootlegs, the fact that many sprites and most of the music is straight-up plagiarized is just a nice bonus to poke and laugh at.<br/>
 <img width="360px" src="/assets/img/blog/throwbck/cons1.jpg"> <img width="360px" src="/assets/img/blog/throwbck/cons2.jpg"><br/><br/>
