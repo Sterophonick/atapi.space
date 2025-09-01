@@ -33,8 +33,9 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 <a href="winemidi/">Enabling MIDI Support for Legacy WINE Gaming</a><br />
 <a href="yarg/">Adventures in Rock Band on Linux</a><br />
 <a href="friedrice/">Femboy Fried Rice</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="easylink/">Please Contact Fisher-Price Customer Relations</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
+<a href="easylink/">Please Contact Fisher-Price Customer Relations</a><br />
+<a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="throwbck/">Dumping a Piece of Crap</a><br />
 
 <?php
 

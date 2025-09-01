@@ -26,7 +26,7 @@ Anyway, this machine is one of many various machines all in the same line of pro
 
 <h2>Dumping it</h2>
 <p>
-    This thing is ugly. Scruffy, even. You remove the four screws on the back of the unit, only to find wires that connect directly to the battery terminals that go onto the front-side of the board. You then have to delicately remove two more screws to actually access the main board, sice on this side, there's literally nothing.<br/>
+    This thing is ugly. Scruffy, even. You remove the four screws on the back of the unit, only to find wires that connect directly to the battery terminals that go onto the front-side of the board. You then have to delicately remove two more screws to actually access the main board, because on this side, there's literally nothing.<br/>
     <img width="720px" src="/assets/img/blog/throwbck/dis1.jpg"><br/><br/>
 
     Once you remove the other two screws the whole unit just kinda pathetically falls apart. There isn't even a screen lens, you can just lift up the screen to see the rest of the board contents.<br/>

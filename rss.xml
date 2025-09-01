@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>i dumped a crappy handheld</title>
+            <link>https://atapi.space/site/blog/throwbck/</link>
+            <guid>throwback</guid>
+            <pubDate>Mon, 1 Sep 2025 00:00:00 MST</pubDate>
+            <description>hehehe, i dumped a silly little SPI flash inside of a crappy bootleg handheld console that i own, go read it!!!!!</description>
+        </item>
+
+        <item>
             <title>snoopy lives again</title>
             <link>https://atapi.space/site/blog/rebirth_of_snoopy/</link>
             <guid>snoopy1</guid>
