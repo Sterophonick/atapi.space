@@ -314,6 +314,11 @@ phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
 <a href="https://www.mrdictionary.net/">Matthew Carr's Website</a><br />
 Site belonging to Matthew Carr, developer of Blast Arena Advance.
 </p>
+<br/>
+<p>
+<a href="https://bataribasic.com/">batari Basic</a><br />
+BASIC compiler for the Atari 2600.
+</p>
 
 <?php
 
