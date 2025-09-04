@@ -1,11 +1,12 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Hardware");
+echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Homebrew / Hacking");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Hardware</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Demoscene / Retro Links
+</h1>
 <p>
 <a href="https://www.retroveteran.com/">Retro Veteran</a><br />
 Console and Handheld homebrew news submissions!
@@ -14,6 +15,11 @@ Console and Handheld homebrew news submissions!
 <p>
 <a href="https://www.vintageisthenewold.com/">Vintage is the New Old</a><br />
 Homebrew news for mostly retro computers.
+</p>
+<br />
+<p>
+<a href="https://github.com/studio8502/Sentinel-65X">Sentinel 65X</a><br />
+Cost-reduced 65816 hobbyist microcomputer.
 </p>
 <br />
 <p>
@@ -32,14 +38,44 @@ An emulation wiki sprung from /emugen/.
 </p>
 <br />
 <p>
+<a href="http://starmen.net/pkhack/">PK Hack</a><br />
+EarthBound / MOTHER hacking board.
+</p>
+<br />
+<p>
 <a href="https://gbatemp.net/">GBAtemp</a><br />
 Long-standing independent gaming underground board.
+</p>
+<br />
+<p>
+<a href="http://gbadev.org/">gbadev</a><br />
+The old Game Boy Advance development homepage.
+</p>
+<br />
+<p>
+<a href="https://pouet.net/">Pouët</a><br />
+THE demoscene prod resource!
+</p>
+<br />
+<p>
+<a href="https://www.smspower.org/">SMS Power!</a><br />
+Homebrew community dedicated to SEGA 8-bit consoles, handhelds, and computers.
 </p>
 <br />
 <p>
 <a href="https://mamedev.org/">MAME</a><br />
 Generic electronics emulator that preserves thousands of arcade games, computers, consoles, and
 miscellaneous electronics.
+</p>
+<br />
+<p>
+<a href="https://devkitpro.org/">devkitPro</a><br />
+Community for a GCC toolchain for GBA, NDS, 3DS, Wii, GCN, Wii U, PSP, and Switch.
+</p>
+<br />
+<p>
+<a href="https://www.psx-place.com/">PSX-Place</a><br />
+Community for PlayStation modding.
 </p>
 <br />
 <p>
@@ -59,6 +95,21 @@ systems.
 </p>
 <br />
 <p>
+<a href="https://www.ogxbox.com/">OGXbox.com</a><br />
+Web forum for Microsoft Xbox (2001) hacking.
+</p>
+<br />
+<p>
+<a href="https://forums.nesdev.org/">NESDev Forums</a><br />
+Dedicated forum for NES / Famicom development.
+</p>
+<br />
+<p>
+<a href="https://www.dwedit.org/">Dwedit</a><br />
+Dwedit's Website.
+</p>
+<br />
+<p>
 <a href="http://hhug.me/">Handheld Underground</a><br />
 Taizou's website for dumping bootleg Game Boy / Color games.
 </p>
@@ -69,6 +120,16 @@ Online nexus for discussing, dumping, and documenting pirate bootleg video games
 </p>
 <br />
 <p>
+<a href="https://www.msx.org/">MSX Resource Center</a><br />
+Community dedicated to MSX homebrew, hacking, and more.
+</p>
+<br />
+<p>
+<a href="https://www.lemon64.com/">Lemon64</a><br />
+Community dedicated to the Commodore 64 scene.
+</p>
+<br />
+<p>
 <a href="https://www.vogons.org/">VOGONS</a><br />
 Community dedicated to IBM PC emulation and hardware.
 </p>
@@ -76,6 +137,11 @@ Community dedicated to IBM PC emulation and hardware.
 <p>
 <a href="https://team-europe.blogspot.com/">Team-Europe</a><br />
 Blog of a team dedicated to dumping and decapping Arcade MCUs and dumping elusive ROM boards.
+</p>
+<br />
+<p>
+<a href="http://foxysofts.com">Foxy's Softs</a><br />
+French website belonging to a homebrew programmer named Foxy.
 </p>
 <br />
 <p>
@@ -91,6 +157,21 @@ Mantis Bugtracker page for MAME.
 <p>
 <a href="https://www.progettosnaps.net/index.php">MAME progetto-SNAPS</a><br />
 Resource for MAME artwork, samples, manuals, etc.
+</p>
+<br />
+<p>
+<a href="http://pineight.com">Pin Eight</a><br />
+Personal website of Damian Yerrick.
+</p>
+<br />
+<p>
+<a href="http://console-dev.de">console-dev.de</a><br />
+Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) for the GBA.
+</p>
+<br />
+<p>
+<a href="https://www.devrs.com">Jeff Frohwein's Software / Hardware Dev'rs</a><br />
+Jeff's site dedicated to homebrew software and electronics development.
 </p>
 <br />
 <p>
@@ -123,6 +204,26 @@ Forum for MAME development and help.
 <a href="https://mamedev.emulab.it/haze/">David "MameHaze" Haywood's Blog</a><br />
 Blog about Haze's MAME development on plu & play devices and other oddball machines.
 </p>
+<br />
+<p>
+<a href="https://ni.x0.com/menu.html">meichnpp's Homepage</a><br />
+Netizen who develops MSX games, Windows games, PICO-8 games, and electronic music.
+</p>
+<br />
+<p>
+<a href="http://www.sebastianmihai.com/"">Sebastian Mihai's Homepage</a><br />
+Website of a prolific homebrew coder and reverse engineer, Sebastian Mihai.
+</p>
+<br />
+<p>
+<a href="https://www.oric.org/index.php">The Oric Site</a><br />
+Website and forum dedicated to the Tangering Oric family of computers.
+</p>
+<br/>
+<p>
+<a href="https://www.samcoupe.com/">The SAM Coupe Site</a><br />
+Quazar's website dedicated to SAM Coupé development and releases.
+</p>
 <br/>
 <p>
 <a href="http://www.hercules-390.eu/">The Hercules System/370, ESA/390, and z/Architecture Emulator</a><br />
@@ -145,6 +246,21 @@ Hacking community and file hosting for legacy Texas Instruments calculators.
 </p>
 <br/>
 <p>
+<a href="https://gbdev.gg8.se/forums/">Gameboy Development Forum</a><br />
+Game Boy homebrew dev forum launched in 2008.
+</p>
+<br/>
+<p>
+<a href="https://www.atari2600land.com/">Atari 2600 land.</a><br />
+Website belonging to homebrew programmer Chris Read.
+</p>
+<br/>
+<p>
+<a href="https://novasquirrel.com/">NovaSquirrel's Site</a><br />
+Website belonging to homebrew programmer and artist NovaSquirrel.
+</p>
+<br/>
+<p>
 <a href="https://www.telnetbbsguide.com/">Telnet BBS Guide</a><br />
 List of active BBSes to connect to either via Telnet or via modem.
 </p>
@@ -155,13 +271,13 @@ Website dedicated to the Philips VG5000 emulator DCVG5K.
 </p>
 <br/>
 <p>
+<a href="https://www.mtxworld.dk/main.php">MTXWorld</a><br />
+Website dedicated to the Memotech MTX family of computers.
+</p>
+<br/>
+<p>
 <a href="https://www.lemonamiga.com/">Lemon Amiga</a><br />
 Community dedicated to the Commodore Amiga.
-</p>
-<br />
-<p>
-<a href="https://www.oric.org/index.php">The Oric Site</a><br />
-Website and forum dedicated to the Tangerine Oric family of computers.
 </p>
 <br/>
 <p>
@@ -170,8 +286,8 @@ Database of known Plug & Play TV Games.
 </p>
 <br/>
 <p>
-<a href="https://www.mtxworld.dk/main.php">MTXWorld</a><br />
-Website dedicated to the Memotech MTX family of computers.
+<a href="https://free60.org/">Free60 Wiki</a><br />
+Wiki dedicated to Xbox 360 hacking, homebrewing, and Linux.
 </p>
 <br/>
 <p>
@@ -192,6 +308,16 @@ File hosting for all sorts of programs and utilities for Tandy TRS-80 CoCo-famil
 <p>
 <a href="https://www.sinclairzxworld.com/">Sinclair ZX World</a><br />
 phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
+</p>
+<br/>
+<p>
+<a href="https://www.mrdictionary.net/">Matthew Carr's Website</a><br />
+Site belonging to Matthew Carr, developer of Blast Arena Advance.
+</p>
+<br/>
+<p>
+<a href="https://bataribasic.com/">batari Basic</a><br />
+BASIC compiler for the Atari 2600.
 </p>
 
 <?php

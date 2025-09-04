@@ -88,11 +88,6 @@ Listen to NOAA broadcasts live.
 </p>
 <br />
 <p>
-<a href="https://keygenjukebox.net/">Keygen Jukebox</a><br />
-Online collection of keygen and cracktro music to listen to in your browser.
-</p>
-<br />
-<p>
 <a href="https://www.handheldmuseum.com/index.html">Electronic Handheld Games Museum</a><br />
 Database of handheld electronic toys and games.
 </p>

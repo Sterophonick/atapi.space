@@ -18,16 +18,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 text-align: center;">
 <col width="320px" />
 <col width="320px" />
-<tr>
-<td><a href="emu/">Emulation / Homebrew / Hacking</a><br />Collection of sites related to emulation, homebrewing, hacking, and the related topics.<br /></td>
-<td><a href="linux/">GNU/Linux</a><br />Collection of sites for GNU/Linux news and stuff.<br />
-</td>
 
-</tr>
 <tr>
-<td><a href="misc/">Miscellaneous</a><br />Random interesting stuff.<br /></td>
+<td><a href="emu/">Emulation / Hardware</a><br />Links for emulation and retro hardware alike.<br /></td>
+<td><a href="linux/">Linux</a><br />Linux-related news and links.<br /></td>
+</tr>
+
+<tr>
+<td><a href="scene/">Demoscene</a><br />Electronics as an art.<br /></td>
+<td><a href="gaming/">Gaming</a><br />Vidjagaemz!<br /></td>
+</tr>
+
+<tr>
+<td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew and ROM hack development.<br /></td>
+<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff from the corners of cyberspace.<br /></td>
+</tr>
+
+<tr>
 <td><a href="historical/">Historical</a><br />Interesting old / defunct websites.<br /></td>
 </tr>
+
 </table>
 <br/>
 

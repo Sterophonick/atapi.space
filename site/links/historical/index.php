@@ -12,11 +12,6 @@ Legacy newsletter about shortwave spy numbers stations.
 </p>
 <br />
 <p>
-<a href="https://modarchive.org/">modarchive</a><br />
-Collection of Amiga MODs as well as other tracker files.
-</p>
-<br />
-<p>
 <a href="https://web.archive.org/web/20240000000000*/ngine.de">ngine.de</a><br />
 Emanuel Schleussinger's homepage, hosting the old HAM GBA dev kit.
 </p>
