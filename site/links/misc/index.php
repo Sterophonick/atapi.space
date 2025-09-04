@@ -17,11 +17,6 @@ Host 1GB of your own site for free! The web is yours!
 </p>
 <br />
 <p>
-<a href="https://www.steamgriddb.com/">SteamGridDB</a><br />
-User-created artwork for Steam.
-</p>
-<br />
-<p>
 <a href="https://www.cryptomuseum.com/">Crypto Museum</a><br />
 Virtual museum based in The Netherlands that preserves historical cipher machines, spy radio sets, and
 the like.
@@ -43,23 +38,8 @@ Webcomic about cats who play video games.
 </p>
 <br />
 <p>
-<a href="https://www.pcgamingwiki.com/wiki/Home">PC Gaming Wiki</a><br />
-Wiki dedicated to fixing and improving PC games.
-</p>
-<br />
-<p>
-<a href="https://omniarchive.uk/">OmniArchive</a><br />
-Community focused on preserving all official Minecraft content.
-</p>
-<br />
-<p>
 <a href="/interstitial.php?name=The Lost Media Wiki&dest=https://lostmediawiki.com/Home">The Lost Media Wiki</a><br />
 Community dedicated to documenting and finding known lost media.
-</p>
-<br />
-<p>
-<a href="https://www.fangamer.com/">Fangamer</a><br />
-Video game merch store sprung off of Starmen.net
 </p>
 <br />
 <p>
@@ -88,11 +68,6 @@ Listen to NOAA broadcasts live.
 </p>
 <br />
 <p>
-<a href="https://www.handheldmuseum.com/index.html">Electronic Handheld Games Museum</a><br />
-Database of handheld electronic toys and games.
-</p>
-<br />
-<p>
 <a href="https://streetcat.wiki">StreetCatWiki</a><br />
 Wiki that aims to document cats and other visitors of the Hello Street Cat feeders interspersed throughout China.
 </p>
@@ -100,11 +75,6 @@ Wiki that aims to document cats and other visitors of the Hello Street Cat feede
 <p>
 <a href="https://meow.camera">meow.camera</a><br />
 Camera feeds for Hello Street Cat feeders.
-</p>
-<br/>
-<p>
-<a href="https://grumpygamer.com/">Grumpy Gamer</a><br/>
-Ron Gilbert's website.
 </p>
 <br/>
 <p>

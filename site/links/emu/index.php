@@ -17,11 +17,6 @@ Homebrew news for mostly retro computers.
 </p>
 <br />
 <p>
-<a href="https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/">dgVoodoo2</a><br />
-Reimplementation of Direct3D 1-9, Direct2D, and 3dfx Glide for DirectX 10, 11 and 12.
-</p>
-<br />
-<p>
 <a href="https://mgba.io">mGBA</a><br />
 The best Game Boy Advance emulator.
 </p>
@@ -192,6 +187,11 @@ File hosting for all sorts of programs and utilities for Tandy TRS-80 CoCo-famil
 <p>
 <a href="https://www.sinclairzxworld.com/">Sinclair ZX World</a><br />
 phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
+</p>
+<br />
+<p>
+<a href="https://www.handheldmuseum.com/index.html">Electronic Handheld Games Museum</a><br />
+Database of handheld electronic toys and games.
 </p>
 
 <?php
