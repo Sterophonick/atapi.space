@@ -251,7 +251,7 @@ Coding</i>.<br />
 I dunno why but this is not functioning correctly in neither VisualBoyAdvance nor mGBA, at least on
 Linux.<br />
 </p>
-<img width="240px" height="160px" src="/assets/img/projects/gba/misc/monke.png"><br />
+<img width="240px" height="160px" src="/assets/img/projects/gba/misc/monke.jpg"><br />
 <a href="/files/Monkey Mayhem Advance.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/Monkey-Mayhem-Advance">Source Code (For archival
 purposes)</a><br />
