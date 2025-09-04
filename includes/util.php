@@ -94,7 +94,7 @@ function constructPageFooter() {
                  -
                 <a href="/files/">Filedump</a>
                  -
-                <a href="/site/disclosure.php">Site & Privacy Info</a>
+                <a href="/site/disclosure/">Site & Privacy Info</a>
                 -
                 <a href="/rss.xml">RSS Feed</a>
                 <br/><br/>
