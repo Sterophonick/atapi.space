@@ -80,7 +80,7 @@ The port <code>:6502</code> is also open on this site's IP address, which is <co
 - Oneko.js by adryd325, graphic modified by ParkerCC<br/>
 - Background is an altered version of the MacOS 9 cats wallpaper<br/>
 - No copyright infringement intended<br/>
-- SGI, OS/2, and Afterburner ads by Hoothweelz<br/>
+- SGI, OS/2, and Afterburner ads by Hootwheelz<br/>
 <br/>
 No content on this website, past or present, can be used in connection with or to promote cryptocurrency, nor can it be used for promoting or train ing any form of artifical intelligence.<br/>
 </p>
