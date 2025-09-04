@@ -1,3 +1,4 @@
 Caddyfile
 git-ignore
 *.kate-swp
+*.sav
