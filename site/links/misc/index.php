@@ -7,29 +7,8 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Miscellaneous");
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Miscellaneous Links</h1>
 <p>
-<a href="https://priyom.org/">Priyom</a><br />
-Online organization that monitors and documents activity of intelligence radio spy numbers stations.
-</p>
-<br />
-<p>
 <a href="https://neocities.org/">Neocities</a><br />
 Host 1GB of your own site for free! The web is yours!
-</p>
-<br />
-<p>
-<a href="https://www.cryptomuseum.com/">Crypto Museum</a><br />
-Virtual museum based in The Netherlands that preserves historical cipher machines, spy radio sets, and
-the like.
-</p>
-<br />
-<p>
-<a href="http://rx.linkfanel.net">Linkfanel's SDR Map</a><br />
-Worldwide map of known HF Radio WebSDR recievers.
-</p>
-<br />
-<p>
-<a href="http://websdr.org/">WebSDR.orgp</a><br />
-Other collection of HF and VHF WebSDR receivers.
 </p>
 <br />
 <p>
@@ -40,11 +19,6 @@ Webcomic about cats who play video games.
 <p>
 <a href="/interstitial.php?name=The Lost Media Wiki&dest=https://lostmediawiki.com/Home">The Lost Media Wiki</a><br />
 Community dedicated to documenting and finding known lost media.
-</p>
-<br />
-<p>
-<a href="https://www.cqsstv.com/">CQSSTV</a><br />
-Live SSTV reciever capturing images transmitted from all around the United States.
 </p>
 <br />
 <p>
@@ -60,11 +34,6 @@ Only uploads high quality video game rips.
 <p>
 <a href="http://www.rw-designer.com/">RealWorld Graphics</a><br />
 Gallery for ICO, CUR, and ANI files for Windows, as well as software to draw and export them.
-</p>
-<br />
-<p>
-<a href="https://noaaweatherradio.org/">NOAA Weather Radio</a><br />
-Listen to NOAA broadcasts live.
 </p>
 <br />
 <p>
@@ -96,6 +65,13 @@ Independent store for reproduction stickers and badges for retro operating syste
 <a href="https://www.radioshackcatalogs.com/">RadioShackCatalogs</a><br/>
 Collection of nearly every Radio Shack catalog ever printed.
 </p>
+
+<br/>
+<p>
+<a href="http://www.wideweb.com/phonetrips/">Phone Trips</a><br/>
+Recordings of people screwing with phone switching equipment.
+</p>
+
 <?php
 
 echo constructPageFooter();

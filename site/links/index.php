@@ -31,10 +31,11 @@ text-align: center;">
 
 <tr>
 <td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew and ROM hack development.<br /></td>
-<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff from the corners of cyberspace.<br /></td>
+<td><a href="shortwave/">Shortwave Radio</a><br />Links relating to shortwave radio and other such topics.<br /></td>
 </tr>
 
 <tr>
+<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff from the corners of cyberspace.<br /></td>
 <td><a href="historical/">Historical</a><br />Interesting old / defunct websites.<br /></td>
 </tr>
 

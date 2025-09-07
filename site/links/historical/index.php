@@ -7,11 +7,6 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Historical");
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Historical Links</h1>
 <p>
-<a href="http://signalshed.com/">ENIGMA 2000</a><br />
-Legacy newsletter about shortwave spy numbers stations.
-</p>
-<br />
-<p>
 <a href="https://web.archive.org/web/20240000000000*/ngine.de">ngine.de</a><br />
 Emanuel Schleussinger's homepage, hosting the old HAM GBA dev kit.
 </p>
@@ -27,8 +22,7 @@ Collection of modules ripped from various cracks and keygens.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20200827165726/http://tech.g1.xrea.com/memo/foremu_gba.htm">Lets'
-Emu! GBA</a><br />
+<a href="https://web.archive.org/web/20200827165726/http://tech.g1.xrea.com/memo/foremu_gba.htm">Lets' Emu! GBA</a><br />
 Japanese website with a bunch of emulators that run on the GBA. Some are fake.
 </p>
 <br />
@@ -38,8 +32,7 @@ RestorativLand's project to preserve hundreds of old GeoCities pages!
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20121017041029/http://members.iinet.net.au/~freeaxs/gbacomp/">Headspin's
-Guide to Compression, Files Systems Screen Effects and MOD Players for the Gameboy Advance</a><br />
+<a href="https://web.archive.org/web/20121017041029/http://members.iinet.net.au/~freeaxs/gbacomp/">Headspin's Guide to Compression, Files Systems Screen Effects and MOD Players for the Gameboy Advance</a><br />
 Headspin's guide to handling things like LZ77, Huffman, RLE, BIT, compression methods for GBA homebrew.
 Also covers things such as GBFS and varioud graphical effects.
 </p>
@@ -73,8 +66,7 @@ The Socrates Game Boy Advance Development Engine (2005).
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20170324043135/http://reinerziegler.de/index.html">Reiner
-Ziegler</a><br />
+<a href="https://web.archive.org/web/20170324043135/http://reinerziegler.de/index.html">Reiner Ziegler</a><br />
 Hardware information and hacking for various systems.
 </p>
 <br />
@@ -101,11 +93,6 @@ Source code to the 1969 Apollo Guidance Computer.
 <p>
 <a href="http://dustindiamond.com/">dustindiamond.com</a><br />
 Parody homepage of "famous superstar and sex symbol" Dustin Diamond, created by Max Goldberg.
-</p>
-<br />
-<p>
-<a href="https://web.archive.org/web/20040526150326/http://www.simonmason.karoo.net/">53°44'N  0°26'W</a><br />
-Simon Mason's personal website, with a page dedicated to his research on numbers stations.
 </p>
 <br />
 <p>
