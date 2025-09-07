@@ -39,7 +39,7 @@ Worldwide map of known HF Radio WebSDR recievers.
 
 <br />
 <p>
-<a href="http://websdr.org/">WebSDR.orgp</a><br />
+<a href="http://websdr.org/">WebSDR.org</a><br />
 Other collection of HF and VHF WebSDR receivers.
 </p>
 
@@ -83,6 +83,12 @@ Documentation on V13 "New Star Broadcasting."
 <p>
 <a href="https://www.abiweb.jp/">Asian Broadcasting Institute</a><br />
 Nonprofit established in 1979 to analyze radio broadcasting in China, Japan, North and South Korea, Taiwan, as well as other regions in the area.
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/mamedev/mame/blob/master/src/mame/ddr/sprachmg.cpp">ddr/sprachmg.cpp</a><br />
+MAME source code for emulating the 32620 Speech/Morse Generator, produced by East Germany and used in various numbers stations.
 </p>
 
 <?php
