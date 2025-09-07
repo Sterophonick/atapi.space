@@ -88,7 +88,7 @@ function constructPageFooter() {
 
     $htmlPage .= <<<EOF
         <small>
-                <a href="/site/sitemap.php">Site Map</a>
+                <a href="/site/sitemap/">Site Map</a>
                  -
                 <a href="https://github.com/Sterophonick/atapi.space" target="_blank">Website Source</a>
                  -
