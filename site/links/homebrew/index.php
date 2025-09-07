@@ -150,6 +150,18 @@ Site belonging to Matthew Carr, developer of Blast Arena Advance.
 BASIC compiler for the Atari 2600.
 </p>
 
+<br/>
+<p>
+<a href="https://www.retroveteran.com/">Retro Veteran</a><br />
+Console and Handheld homebrew news submissions!
+</p>
+
+<br />
+<p>
+<a href="https://www.vintageisthenewold.com/">Vintage is the New Old</a><br />
+Homebrew news for mostly retro computers.
+</p>
+
 <?php
 
 echo constructPageFooter();
