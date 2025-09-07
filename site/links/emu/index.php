@@ -1,21 +1,11 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Hardware");
+echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Retrogaming");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Hardware</h1>
-<p>
-<a href="https://www.retroveteran.com/">Retro Veteran</a><br />
-Console and Handheld homebrew news submissions!
-</p>
-<br />
-<p>
-<a href="https://www.vintageisthenewold.com/">Vintage is the New Old</a><br />
-Homebrew news for mostly retro computers.
-</p>
-<br />
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Retrogaming</h1>
 <p>
 <a href="https://mgba.io">mGBA</a><br />
 The best Game Boy Advance emulator.
@@ -192,6 +182,16 @@ phpBB forum for all things Sinclair computers; ZX80, ZX81, ZX Spectrum, etc.
 <p>
 <a href="https://www.handheldmuseum.com/index.html">Electronic Handheld Games Museum</a><br />
 Database of handheld electronic toys and games.
+</p>
+<br />
+<p>
+<a href="http://www.adventurevision.com/">AdventureVision.com</a><br />
+Website dedicated to the obscure tabletop game, the Extex Adventure Vision.
+</p>
+<br/>
+<p>
+<a href="http://gamewatchworld.free.fr/">Geoffrey's Game & Watch Site</a><br/>
+Exactly that. A site dedicated to the Nintendo Game & Watch.
 </p>
 
 <?php

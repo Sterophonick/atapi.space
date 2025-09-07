@@ -98,6 +98,7 @@ $adList = array(
     "/assets/img/ads/sonicwall.gif","",
     "/assets/img/ads/sabrina.gif","https://www.sabrina-online.com/", // Sabrina <3
     "/assets/img/ads/semiconductor.gif","https://britneyspears.ac/lasers.htm", // britney spears teaches semiconductors :3
+    "/assets/img/ads/advision.png","http://www.adventurevision.com/",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",

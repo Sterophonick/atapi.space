@@ -91,6 +91,11 @@ A tongue-in-cheek website that teaches the brutal mathematics behind Semiconduct
 <a href="https://geekenspiel.com/">Geekenspiel</a><br/>
 Independent store for reproduction stickers and badges for retro operating systems and chipsets.
 </p>
+<br/>
+<p>
+<a href="https://www.radioshackcatalogs.com/">RadioShackCatalogs</a><br/>
+Collection of nearly every Radio Shack catalog ever printed.
+</p>
 <?php
 
 echo constructPageFooter();

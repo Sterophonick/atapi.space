@@ -20,7 +20,7 @@ text-align: center;">
 <col width="320px" />
 
 <tr>
-<td><a href="emu/">Emulation / Hardware</a><br />Links for emulation and retro hardware alike.<br /></td>
+<td><a href="emu/">Emulation / Retrogaming</a><br />Links for emulation and retro gaming alike.<br /></td>
 <td><a href="linux/">Linux</a><br />Linux-related news and links.<br /></td>
 </tr>
 

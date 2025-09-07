@@ -177,6 +177,11 @@ Defunct storefront for a bunch of console accessories.
 <a href="https://sec.pn.to/">Saturn Expedition Committee</a><br />
 Home of some extremely early PSP demos and tools, including Nem's Hello World program.
 </p>
+<br/>
+<p>
+<a href="https://web.archive.org/web/20150430211243/http://kuwanger.net/">Kuwanger.net</a><br />
+The seldom-archived homepage for the late Michael "Kuwanger" Thornbury, who worked on a lot of PogoShell-related projects for the Game Boy Advance, including the PogoShell support for the EZ-Flash Omega family up until their passing in (we think) 2019. Later moved to kuwanger.altervista.org.
+</p>
 
 <?php
 
