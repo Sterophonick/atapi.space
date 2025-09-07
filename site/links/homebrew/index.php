@@ -162,6 +162,12 @@ Console and Handheld homebrew news submissions!
 Homebrew news for mostly retro computers.
 </p>
 
+<br />
+<p>
+<a href="https://devkitadv.sourceforge.net/">DevKit Advance</a><br />
+Obsolete GCC 3-based development kit for the Game Boy Advance.
+</p>
+
 <?php
 
 echo constructPageFooter();

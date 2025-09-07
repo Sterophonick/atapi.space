@@ -194,6 +194,12 @@ Website dedicated to the obscure tabletop game, the Extex Adventure Vision.
 Exactly that. A site dedicated to the Nintendo Game & Watch.
 </p>
 
+<br/>
+<p>
+<a href="https://www.miniarcade.com/">Miniarcade.com</a><br/>
+Museum of vintage handheld and tabletop games.
+</p>
+
 <?php
 
 echo constructPageFooter();
