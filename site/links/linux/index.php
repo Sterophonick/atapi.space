@@ -1,11 +1,11 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Web Links :: GNU/Linux ");
+echo constructPageHeader("Atapi's Domain! :: Web Links :: Linux Links");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> GNU/Linux Links</h1>
+<h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Linux Links</h1>
 <p>
 <a href="https://www.phoronix.com/">Phoronix</a><br />
 Daily news for Linux distributions and hardware!
