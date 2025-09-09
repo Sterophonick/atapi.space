@@ -36,6 +36,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 <a href="easylink/">Please Contact Fisher-Price Customer Relations</a><br />
 <a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
 <img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="throwbck/">Dumping a Piece of Crap</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="flash2advance/">Flash2Advance-ing your Game Boy Advance</a><br />
 
 <?php
 
