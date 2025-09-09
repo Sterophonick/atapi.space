@@ -200,6 +200,12 @@ Exactly that. A site dedicated to the Nintendo Game & Watch.
 Museum of vintage handheld and tabletop games.
 </p>
 
+<br/>
+<p>
+<a href="https://www.miniarcade.com/">Miniarcade.com</a><br/>
+Museum of vintage handheld and tabletop games.
+</p>
+
 <?php
 
 echo constructPageFooter();

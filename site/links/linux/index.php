@@ -85,6 +85,11 @@ Arch Linux distribution with packages compiled for x86-64_v3 and x86-64_v4, a pa
 <a href="https://asahilinux.org/">Asahi Linux</a><br />
 A team dedicated to bringing a polished Linux experience on Apple Silicon machines.
 </p>
+<br />
+<p>
+<a href="https://www.free-penguin.org">Free Penguin Project</a><br />
+Free fabric and sewing patterns for making your own plush Tux toy!
+</p>
 
 <?php
 

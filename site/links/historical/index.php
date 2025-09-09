@@ -174,6 +174,56 @@ The seldom-archived homepage for the late Michael "Kuwanger" Thornbury, who work
 <a href="https://web.archive.org/web/20040602225534/http://jm-basic.com/dragon/index.php">DragonBASIC</a><br />
 Defunct homepage for DragonBASIC, a BASIC dialect for the Game Boy Advance. Now redirects to a lewd Thai gambling site.
 </p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20030531175642/http://www.codewaves.com/">Code Waves</a><br />
+Sergej Kravcenko's page for a non-commercial MOD player for the Game Boy Advance.
+</p>
+<br />
+<p>
+<a href="https://belogic.com/gba/">Audio Advance</a><br />
+Complete documentation on the Game Boy Advance audio system, plus some cool demos.
+</p>
+<br />
+<p>
+<a href="https://2004mbit.gbadev.org/">2004Mbit Competition</a><br />
+512K game competiton held by gbadev.org in 2004. Actual cartridges are produced and are more or less unobtanium these days.
+</p>
+<br />
+<p>
+<a href="https://chaosquake.de/">Chaosquake.de</a><br />
+Home of the game <i>Yuckfu!</i> from the 2004Mbit Competition. And some Quake 3 content.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20030324131822/http://splam.emuhq.com/">Splam</a><br />
+Devlog of a never-finished, unreleased Commodore 64 emulator for the Game Boy Advance.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20051028172224/http://kyu.ifdef.jp/neta.html">Dolphin GBA</a><br />
+Japanese website of a fake GameCube emulator for the Game Boy Advance (as in, playing GCN on GBA).
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20030216042310/http://benjamin.francois.free.fr/artwork/gcubix/">gCubix</a><br />
+Website dedicated to a (fake?) GameCube emulator for Unix. It also touts a million ports to random electronics. Lmao.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20090829031702mp_/http://geocities.com/quirky_2k1/index.html">Quirky's GBA Remakes</a><br />
+Quirky's website for GBA and NDS programming. Also home of the PocketBeeb emulator.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20060701205316/http://www.turboz.to/">X Millennium Advance</a><br />
+Home of the Sharp X1 emulator for the Game Boy Advance.
+</p>
+<br />
+<p>
+<a href="http://www.maroon.dti.ne.jp/youkan/mz700/index.html">We Love MZ-700</a><br />
+Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator for both the Game Boy Advance and for Windows.
+</p>
 
 <?php
 
