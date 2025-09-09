@@ -329,7 +329,7 @@ no idea what I was doing with the GBA, and it literally took me months to get th
 <br />
 <h2 id="DirectSoundDemo">Direct Sound Demo</h2>
 <p>A demo I made using code from <a href="https://twitter.com/3DSage">3DSage</a> that will play a sound
-through DMA.</p>
+through DMA. Heavily inspired by Belogic's demo.'</p>
 <img src="/assets/img/projects/gba/misc/dsdemo.png"><br />
 <a href="/files/Direct Sound Demo.gba">ROM Download</a><br />
 <a href="/files/DirectSoundDemo_src.zip">Source Code (For archival purposes)</a><br />

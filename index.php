@@ -50,8 +50,8 @@
 
                     <marquee>
 
-                    <a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
-                    <a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>
+                    <a href="https://ashiecorner.xyz" target="_blank"><img src="/assets/img/buttons/ashie404.gif"></a>
+                    <a href="https://zencorner.xyz" target="_blank"><img src="/assets/img/buttons/zenithneko.gif"></a>
 
                     <a href="https://aquamarine.gay/"><img alt="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." src="/assets/img/buttons/aqua.gif" title="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." style="image-rendering: pixelated;"></a>
 

@@ -312,10 +312,6 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
 <br/>
 
-<h2>PogoShell</h2>
-
-<br/>
-
 <h2>GBA Movie Player</h2>
 <img width="720px" src="/assets/img/blog/flash2advance/gbamp1.jpg"><br/><br/>
 <p>
@@ -602,36 +598,16 @@ The bottom line? It's doable but there are many, many asterisks behind that sing
 
 <h2>Conclusion</h2>
 <p>
-    bwehhhhhh
+    So that's pretty much all that I have to show on the side of dedicated multimedia applications, but there's one much bigger beast that I want to show off. But this blog post is already getting too long, so I'm gonna do a part 2.
 </p>
 
-<br/><br/>
-
-<p>
-    basic outline:
-    - showing off my collection
-    - teardowns of cartridges and linkers + hardware documentation
-    - PogoShell (& Plugins)
-    - Meteo
-    - GBA Movie Player
-    - Pirating games
-    - EZ-Writer
-    - FlashAdvance Writer (if i can get it working)
-    - F2A 512M Diehard buttons
-
-    hardware documentation should include chip names and if possible protocol commands? at the very least there need to be photos of the PCBs.
-
-
-</p>
+<br/>
 
 <h3>Greetz</h3>
 <p>Lesserkuma for FlashGBX and supporting Flash2Advance/FlashAdvance cards with it.</p>
 <p>EZ-Flash for sticking around and making cartridges.</p>
 <p>Archaemic for EZF Advance protocol documentation.</p>
 <p>Dwedit, FluBBa, and Loopy for PocketNES and the related emulators.</p>
-<p>Moonlight for various PogoShell plugins.</p>
-<p>Sasq for PogoShell.</p>
-<p>Kuwanger (RIP) for PogoShell mods and EZ-Flash Omega work.</p>
 <p>Inside-Cap for Meteo.</p>
 
 <?php

@@ -222,8 +222,14 @@ Home of the Sharp X1 emulator for the Game Boy Advance.
 <br />
 <p>
 <a href="http://www.maroon.dti.ne.jp/youkan/mz700/index.html">We Love MZ-700</a><br />
-Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator for both the Game Boy Advance and for Windows.
+Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator for both the Game Boy Advance and for Windows. Also includes pages on the Casio PV-1000.
 </p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20051027012901/http://www.nocturnal-central.com/catapult.php?cookieset=1">Catapult Development System</a><br />
+A custom language, simulator, and debugger created by Noctunal Entertainment for creating Game Boy Advance games.
+</p>
+
 
 <?php
 
