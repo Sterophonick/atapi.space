@@ -598,7 +598,7 @@ The bottom line? It's doable but there are many, many asterisks behind that sing
 
 <h2>Conclusion</h2>
 <p>
-    So that's pretty much all that I have to show on the side of dedicated multimedia applications, but there's one much bigger beast that I want to show off. But this blog post is already getting too long, so I'm gonna do a part 2.
+    So that's pretty much all that I have to show on the side of hardware and dedicated multimedia applications, but there's one much bigger beast that I want to show off. But this blog post is already getting too long, so I'm gonna do a part 2.
 </p>
 
 <br/>
