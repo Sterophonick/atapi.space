@@ -4,6 +4,7 @@
     url("/assets/woff/Motherish-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
     url("/assets/woff/ZenMaruGothic-Medium.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
     font-weight: normal;
     font-style: normal;
     size-adjust: 100%;
+    font-display: auto;
 }
 
 body {
