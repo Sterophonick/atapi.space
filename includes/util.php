@@ -14,7 +14,6 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
     <meta name="darkreader-lock">
 
     <link rel="preload" href="/assets/woff/ZenMaruGothic-Medium.woff2" as="font" type="font/woff2">
-    <link rel="preload" href="/assets/woff/ZenMaruGothic-Medium.woff" as="font" type="font/woff">
 
     EOF;
 
