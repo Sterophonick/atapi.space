@@ -13,6 +13,8 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
     <head>
     <meta name="darkreader-lock">
 
+    <link rel="preload" href="/assets/woff/ZenMaruGothic-Medium.woff2" as="font" type="font/woff2">
+
     EOF;
 
     $htmlPage .= "<title>" . $pageTitle . "</title>";
