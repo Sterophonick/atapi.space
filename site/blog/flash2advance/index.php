@@ -18,7 +18,7 @@ Category: Infodump<br/>
 
     You go onto Google, you look up "how 2 listen 2 music on my gameboy", find your way onto niche gaming forums like GBAtemp and PocketHeaven, and discover the wonderful world of Flashcarts and other such hardware.<br/><br/>
 
-    <video preload="none" width="160px" height="90px" autoplay muted loop>
+    <video preload="metadata" width="160px" height="90px" autoplay muted loop>
     <source src="/assets/vid/easybuy2000.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -177,7 +177,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" src="/assets/img/blog/flash2advance/ez2_client1.png"><br/><br/>
 
     Interestingly enough, having the client software open causes the LED on the linker to start doing this "heartbeat" type of flickering. It only does this when there is no cartridge inserted, though.<br/>
-    <video preload="none" width="640" height="360" controls>
+    <video preload="metadata" width="640" height="360" controls>
     <source src="/assets/vid/ez2_heartbeat.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -300,7 +300,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" src="/assets/img/blog/flash2advance/ez2_client18.png"><br/><br/>
 
     We also get another status pattern when having a non-EZ-Flash cartridge attached. This time it blinks once instead of twice.<br/>
-    <video preload="none" width="640" height="360" controls>
+    <video preload="metadata" width="640" height="360" controls>
     <source src="/assets/vid/ez2_nonez_heartbeat.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -344,7 +344,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/gbamp_gba3.jpg"><br/><br/>
 
     The movie player, which exposes only <code>.GBM</code> files, is actually half decent. It offers a basic set of seat controls, skip ahead, rewind, pause, and there's an option to even show the current time. It's not as nice as what would be available as part of Game Boy Advance Video but it's definitely leagues more serviceable than Meteo, which we'll touch on in a bit.<br/>
-    <video preload="none" class="interruptVideo" width="720" height="480" controls>
+    <video preload="metadata" class="interruptVideo" width="720" height="480" controls>
     <source src="/assets/vid/gbamp_invzim.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -492,7 +492,7 @@ So you need to run a tool called <code>gbafix</code> by DarkFader in order to ge
 <img loading="lazy" src="/assets/img/blog/flash2advance/gbafix.png"><br/><br/>
 
 But then, FINALLY, does your video boot on real hardware for you to write to your Flashcart:<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/smosh.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -500,7 +500,7 @@ But then, FINALLY, does your video boot on real hardware for you to write to you
 <small>Smosh - MAGIC KEYBOARD!</small><br/><br/>
 
 From here, the only seat controls we really get are "Fast-Forward," on the A Button and "Restart" on the B Button. To be fair, though, these controls were worse in 1.3.0, where <i>every</i> button would restart the video, so at least there's. SOMETHING.<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/smosh2.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -512,7 +512,7 @@ Additionally, the file sizes are huge. This video, from YouTube, is just four mi
 For reference, the 640x360 h.264 encode of this video ripped from YouTube was only 8.7 MB.<br/><br/>
 
 ...yeah. The default settings in this program are really not efficient for saving on file size. 120kbps of video on a 240x160 screen is egregious, so we can throw away a lot of this unnecesary video data. To wit:<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/smosh30kbps.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -568,14 +568,14 @@ There's a handful of dithering options, in most cases anything other than 4x Dit
 <img loading="lazy" src="/assets/img/blog/flash2advance/meteo5.png"><br/><br/>
 
 And now, I present to you, the same Smosh video, with the lowest possible settings while still maintaining a resolution of 240x136. This file was able to hit a size of 5.3MB.<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/smosh_low.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
 </video><br/><br/>
 
 Of course, thus far, we've only tested live action video, but animation is a medium that's much easier to compress due to comparatively fewer colors and fewer uniquely drawn frames. For my first test, I encoded asdfmovie15, and was able to get it at a good resolution, bitrate, and framerate while only taking 8.1 MB of space.<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/asdf.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -583,7 +583,7 @@ Of course, thus far, we've only tested live action video, but animation is a med
 <small>TomSka - asdfmovie15</small><br/><br/>
 
 asdfmovie15 is a very extreme example, though, mostly due to its signature two-tone color palette with the exception of blood. A more realistic example I tested is the first episode to the Sam & Max Saturday morning cartoon, with each episode having a runtime of 21 minutes. I actually had to switch to an earlier version of Meteo because 1.5.0 just could not handle a video of this length.<br/>
-<video preload="none" class="interruptVideo" width="480" height="320" controls>
+<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
 <source src="/assets/vid/samnmax.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
