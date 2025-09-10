@@ -166,7 +166,7 @@ function generateAudioFileEmbed($path) {
 
     if(doWeShowAudioEmbed())
     {
-        $htmlEmbed = '<audio class="interruptAudio" controls src="' . $path . '">';
+        $htmlEmbed = '<audio preload="none" class="interruptAudio" controls src="' . $path . '">';
         $htmlEmbed .= '<a href="' . $path . '">Click here to play audio.</a>';
         $htmlEmbed .= '</audio>';
         echo $htmlEmbed;
