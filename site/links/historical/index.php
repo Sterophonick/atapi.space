@@ -111,7 +111,7 @@ Takayama Fumihiko's page on his bullet hell games for the GBA, BulletGBA and Vul
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20070302032849/http://gba.pqrs.org/">Team Longarm</a><br />
+<a href="http://www.shogunatet.se/longarm/">Team Longarm</a><br />
 Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the 2004Mbit Competition.
 </p>
 <br/>
@@ -187,7 +187,7 @@ Complete documentation on the Game Boy Advance audio system, plus some cool demo
 <br />
 <p>
 <a href="https://2004mbit.gbadev.org/">2004Mbit Competition</a><br />
-512K game competiton held by gbadev.org in 2004. Actual cartridges are produced and are more or less unobtanium these days.
+512K game competiton held by gbadev.org in 2004. Actual cartridges were produced and are more or less unobtanium these days.
 </p>
 <br />
 <p>
@@ -289,6 +289,17 @@ Gary Linscott's Super NES audio emulator for the GBA, created using dyanmic reco
 <a href="https://web.archive.org/web/20070213111906/http://home.att.ne.jp/blue/moonlight/">Moonlight</a><br/>
 Japanese website belonging to a netizen by the name of "Moonlight." Created various PogoShell plugins for the Game Boy Advance, as well as other things, such as a Sharp X68000 MDX music player.
 </p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20120102211245/http://www.ndsretro.com/">FluBBa's Website</a><br/>
+NDSRetro, FluBBa's old site. Originally home to his emulators like NGPAdvance, SMSAdvance, SwanAdvance, and the like. Later moved on to Nintendo DS projects.
+</p>
+<br />
+<p>
+<a href="https://www.webpersona.com/drsms/">DrSMS</a><br/>
+Alternate Master System emulator for the Game Boy Advance. Less sound accuracy, different set of playable games.
+</p>
+
 
 <?php
 

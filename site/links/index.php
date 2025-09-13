@@ -35,8 +35,8 @@ text-align: center;">
 </tr>
 
 <tr>
-<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff from the corners of cyberspace.<br /></td>
-<td><a href="historical/">Historical</a><br />Interesting old / defunct websites.<br /></td>
+<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
+<td><a href="historical/">Historical</a><br />The internet's graveyard.<br /></td>
 </tr>
 
 </table>
