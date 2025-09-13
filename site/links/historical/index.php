@@ -256,37 +256,37 @@ Another Super NES emulator for the GBA. Downloads are all broken, as the webmast
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20041128021821/http://www.geocities.com/psx_nemesis/">GBA Atari Lynx Emulator</a>
+<a href="https://web.archive.org/web/20041128021821/http://www.geocities.com/psx_nemesis/">GBA Atari Lynx Emulator</a><br/>
 Blog posts and screenshots for an unnamed and unreleased Atari Lynx eulator running on a GBA.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20060820051445/http://www.bripro.com/gbagi/index.php">GBAGI</a>
+<a href="https://web.archive.org/web/20060820051445/http://www.bripro.com/gbagi/index.php">GBAGI</a><br/>
 Interpreter for Adventure Game Interpreter games made by Sierra On-Line, written for the Game Boy Advance. Notably created by Brian Provinciano, who nowadays runs Vblank Entertainment, developer of games such as Retro City Rampage.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20210115204231/http://playeradvance.org/forum/showthread.php?t=765">Mini Amstrad Emulator</a>
+<a href="https://web.archive.org/web/20210115204231/http://playeradvance.org/forum/showthread.php?t=765">Mini Amstrad Emulator</a><br/>
 PlayerAdvance thread for an Amstrad CPC emulator for the Game Boy Advance, created by NRX.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20200909031134/http://foon.pocketheaven.com/">FooN</a>
+<a href="https://web.archive.org/web/20200909031134/http://foon.pocketheaven.com/">FooN</a><br/>
 "Proudly Un-Advancing the Game Boy Advance," it was a ZX Spectrum emulator for the handheld, created by Strags Research.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20011023071834/http://zxadvance.gbaemu.com/">ZXAdvance</a>
+<a href="https://web.archive.org/web/20011023071834/http://zxadvance.gbaemu.com/">ZXAdvance</a><br/>
 Another (better) ZX Spectrum emulator for the GBA, created by -The HiVE-.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20060622044052/http://forwardcoding.com/projects/spcemu.html">SPC Emulator</a>
+<a href="https://web.archive.org/web/20060622044052/http://forwardcoding.com/projects/spcemu.html">SPC Emulator</a><br/>
 Gary Linscott's Super NES audio emulator for the GBA, created using dyanmic recompilation.
 </p>
 <br />
 <p>
-<a href="https://web.archive.org/web/20070213111906/http://home.att.ne.jp/blue/moonlight/">Moonlight</a>
+<a href="https://web.archive.org/web/20070213111906/http://home.att.ne.jp/blue/moonlight/">Moonlight</a><br/>
 Japanese website belonging to a netizen by the name of "Moonlight." Created various PogoShell plugins for the Game Boy Advance, as well as other things, such as a Sharp X68000 MDX music player.
 </p>
 
