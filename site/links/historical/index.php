@@ -305,6 +305,17 @@ Free Realtime Audio System for the GBA.
 Iceman's manual on tools and usage for the X-ROM family of flashcarts, including PogoShell.
 </p>
 
+<br />
+<p>
+<a href="https://gbadev.org/index.php?showinfo=1173">SimonB Live from E3 2005</a><br/>
+A photo of Simon Band holding a 2004Mbit cartridge, signed by none other than Shigeru Miyamoto.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20050308133819/http://www.obsession.se/pocket/">PogoShell</a><br/>
+Sasq's original page for PogoShell.
+</p>
 
 <?php
 
