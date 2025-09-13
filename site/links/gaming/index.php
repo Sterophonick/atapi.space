@@ -75,7 +75,7 @@ Developers of games such as Alien Hominid and Castle Crashers.
 <br/>
 <p>
 <a href="https://newblood.games/">New Blood Interactive</a><br/>
-Founded by friends, run by maniacs. Waste some money on awesome first-person shooters.
+"Founded by friends, run by maniacs." Waste some money on awesome first-person shooters.
 </p>
 
 <br/>
@@ -88,6 +88,36 @@ Code injection for Windows DLLs, intended for PC game modding.
 <p>
 <a href="https://milohax.org/">MiloHax</a><br/>
 The team behind Rock Band 3 Deluxe and the RB3Decomp.
+</p>
+
+<br/>
+<p>
+<a href="https://www.oldunreal.com/">OldUnreal</a><br/>
+Home of patches for both Unreal and Unreal Tournament.
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/AlisterT/openjazz/">OpenJazz</a><br/>
+Open-source Jazz Jackrabbit reimplementation.
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/isledecomp/isle-portable">Isle Portable</a><br/>
+Decompiled LEGO Island source ports.
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/mmatyas/supermariowar">Super Mario War</a><br/>
+Super Mario Bros. deathmatch game.
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/hedge-dev/UnleashedRecomp">Unleashed Recompiled</a><br/>
+Windows, macOS, and Linux port of Sonic Unleashed, recompiled from the Xbox 360 version.
 </p>
 
 <?php
