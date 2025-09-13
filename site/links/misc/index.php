@@ -72,6 +72,24 @@ Collection of nearly every Radio Shack catalog ever printed.
 Recordings of people screwing with phone switching equipment.
 </p>
 
+<br />
+<p>
+<a href="https://archive.org/details/furby-source">FURBY.ASM</a><br />
+Source code to the original 1998 Furby.
+</p>
+
+<br />
+<p>
+<a href="https://github.com/chrislgarry/Apollo-11">Apollo 11</a><br />
+Source code to the 1969 Apollo Guidance Computer.
+</p>
+
+<br />
+<p>
+<a href="https://protoweb.org/">Protoweb</a><br />
+Proxy server that redirects to a directory of websites and Wayback Machine captures, with support for legacy web browsers!
+</p>
+
 <?php
 
 echo constructPageFooter();

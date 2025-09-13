@@ -36,7 +36,7 @@ text-align: center;">
 
 <tr>
 <td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
-<td><a href="historical/">Historical</a><br />The internet's graveyard.<br /></td>
+<td><a href="historical/">Historical</a><br />The internet's graveyard / retirement home.<br /></td>
 </tr>
 
 </table>

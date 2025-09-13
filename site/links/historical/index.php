@@ -81,16 +81,6 @@ Defunct website of hacking and reverse engineering group Hitmen.
 </p>
 <br />
 <p>
-<a href="https://archive.org/details/furby-source">FURBY.ASM</a><br />
-Source code to the original 1998 Furby.
-</p>
-<br />
-<p>
-<a href="https://github.com/chrislgarry/Apollo-11">Apollo 11</a><br />
-Source code to the 1969 Apollo Guidance Computer.
-</p>
-<br />
-<p>
 <a href="http://dustindiamond.com/">dustindiamond.com</a><br />
 Parody homepage of "famous superstar and sex symbol" Dustin Diamond, created by Max Goldberg.
 </p>
@@ -101,17 +91,12 @@ Now-defunct French webpage belonging to Nicolas "Nicam Shilova" Campion, who has
 </p>
 <br />
 <p>
-<a href="https://protoweb.org/">Protoweb</a><br />
-Proxy server that redirects to a directory of websites and Wayback Machine captures, with support for legacy web browsers!
-</p>
-<br />
-<p>
 <a href="https://web.archive.org/web/20070302032849/http://gba.pqrs.org/">gba.pqrs.org</a><br />
 Takayama Fumihiko's page on his bullet hell games for the GBA, BulletGBA and Vulkanon.
 </p>
 <br />
 <p>
-<a href="http://www.shogunatet.se/longarm/">Team Longarm</a><br />
+<a href="https://web.archive.org/web/20100828195243/http://www.shogunatet.se/longarm/">Team Longarm</a><br />
 Webpage for Team Longarm, developers of <i>Bengt: Swinger of Longarm</i> for the 2004Mbit Competition.
 </p>
 <br/>
@@ -298,6 +283,26 @@ NDSRetro, FluBBa's old site. Originally home to his emulators like NGPAdvance, S
 <p>
 <a href="https://www.webpersona.com/drsms/">DrSMS</a><br/>
 Alternate Master System emulator for the Game Boy Advance. Less sound accuracy, different set of playable games.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20060716045312/http://stdout.org/~luke/bunny/">Bunny Advance</a><br/>
+A simple hand-drawn rabbit demo for the GBA, created using the SGADE. It even has a t-shirt design!
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20111210193145/http://maso.r0x.free.fr/">MASO System</a><br/>
+Music and Sound system for the GBA.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20040213094247/http://www.gatesboy.com/fras/Specs.html">F.R.A.S.</a><br/>
+Free Realtime Audio System for the GBA.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20071218162014/http://xromguide.50webs.com/index.htm">The Complete X-ROM Guide</a><br/>
+Iceman's manual on tools and usage for the X-ROM family of flashcarts, including PogoShell.
 </p>
 
 
