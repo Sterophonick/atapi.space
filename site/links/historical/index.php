@@ -229,7 +229,66 @@ Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator f
 <a href="https://web.archive.org/web/20051027012901/http://www.nocturnal-central.com/catapult.php?cookieset=1">Catapult Development System</a><br />
 A custom language, simulator, and debugger created by Noctunal Entertainment for creating Game Boy Advance games.
 </p>
-
+<br />
+<p>
+<a href="https://web.archive.org/web/20181015114819/http://www.emulinks.de/software.html">Uli's Software Page</a><br />
+An old page of someone's free software. Of note are a Forth interpreter, and a port of SDL 1.2.4, both for the Game Boy Advance.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20050303003813/http://www.pocketnes.org/">PocketNES</a><br />
+The site for the original PocketNES, originally created by Loopy, but eventually FluBBa made contributions, before the project ultimately went to Dwedit.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20020721073828/http://fca.ath.cx/">Famicom Advance (FCA)</a><br />
+Another NES emulator for the Game Boy Advance.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20050317010551/http://www.snesadvance.org/">SNESAdvance</a><br />
+A very, very preliminary Super NES emulator for the Game Boy Advance, by Loopy and FluBBa.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20030202022558/http://snes2gba.vze.com/">Snes2Gba</a><br />
+Another Super NES emulator for the GBA. Downloads are all broken, as the webmaster used FTP for the download links.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20041128021821/http://www.geocities.com/psx_nemesis/">GBA Atari Lynx Emulator</a>
+Blog posts and screenshots for an unnamed and unreleased Atari Lynx eulator running on a GBA.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20060820051445/http://www.bripro.com/gbagi/index.php">GBAGI</a>
+Interpreter for Adventure Game Interpreter games made by Sierra On-Line, written for the Game Boy Advance. Notably created by Brian Provinciano, who nowadays runs Vblank Entertainment, developer of games such as Retro City Rampage.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20210115204231/http://playeradvance.org/forum/showthread.php?t=765">Mini Amstrad Emulator</a>
+PlayerAdvance thread for an Amstrad CPC emulator for the Game Boy Advance, created by NRX.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20200909031134/http://foon.pocketheaven.com/">FooN</a>
+"Proudly Un-Advancing the Game Boy Advance," it was a ZX Spectrum emulator for the handheld, created by Strags Research.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20011023071834/http://zxadvance.gbaemu.com/">ZXAdvance</a>
+Another (better) ZX Spectrum emulator for the GBA, created by -The HiVE-.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20060622044052/http://forwardcoding.com/projects/spcemu.html">SPC Emulator</a>
+Gary Linscott's Super NES audio emulator for the GBA, created using dyanmic recompilation.
+</p>
+<br />
+<p>
+<a href="https://web.archive.org/web/20070213111906/http://home.att.ne.jp/blue/moonlight/">Moonlight</a>
+Japanese website belonging to a netizen by the name of "Moonlight." Created various PogoShell plugins for the Game Boy Advance, as well as other things, such as a Sharp X68000 MDX music player.
+</p>
 
 <?php
 
