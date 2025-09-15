@@ -317,6 +317,19 @@ A photo of Simon Band holding a 2004Mbit cartridge, signed by none other than Sh
 Sasq's original page for PogoShell.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20160228024219/https://vxheaven.org/">VX Heaven</a><br/>
+Or, Virus eXchange Heaven. A now-offline site dedicated to providing information, source code, and samples of computer viruses (or virii, as some would prefer). Samples will not be found here, there are mirrors on places such as GitHub.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20160902023507/http://www.rfidvirus.org/">RFID Viruses and Worms</a><br/>
+Old website (2006) about attack vectors on RFID tags.
+</p>
+
+
 <?php
 
 echo constructPageFooter();

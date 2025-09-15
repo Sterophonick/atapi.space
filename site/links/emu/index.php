@@ -200,6 +200,12 @@ Exactly that. A site dedicated to the Nintendo Game & Watch.
 Museum of vintage handheld and tabletop games.
 </p>
 
+<br/>
+<p>
+<a href="https://www.miniarcade.com/">Amigan Software</a><br/>
+Home of the WinArcadia emulator, as well as various other documentation and games for Signetics 2650 machines.
+</p>
+
 <?php
 
 echo constructPageFooter();
