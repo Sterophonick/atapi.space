@@ -90,6 +90,18 @@ Source code to the 1969 Apollo Guidance Computer.
 Proxy server that redirects to a directory of websites and Wayback Machine captures, with support for legacy web browsers!
 </p>
 
+<br />
+<p>
+<a href="https://jellyfin.org/">Jellyfin</a><br />
+Plex if it wasn't a commercial product.
+</p>
+
+<br />
+<p>
+<a href="https://caddyserver.com/">Caddy</a><br />
+Web server that's simple to set up, this site operates on it!
+</p>
+
 <?php
 
 echo constructPageFooter();
