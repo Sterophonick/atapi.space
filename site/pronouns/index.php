@@ -97,7 +97,7 @@ style="font-size:16pt; text-align: center;">
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Bro<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Sis<br/>
 <img title="Friends/Partners Only" style="vertical-align:middle" src="/assets/img/pronouns/close.png"> Bitch<br/>
-<img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Friend<br/>
+<img title="Please!" style="vertical-align:middle" src="/assets/img/pronouns/fluster.png"> Friend<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Brother<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Sister<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Mate<br/>
