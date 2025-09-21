@@ -6,14 +6,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/advertisements.php';
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle, $useRssLink = false) {
+    ini_set('display_errors', '1');
+    ini_set('display_startup_errors', '1');
+    error_reporting(E_ALL);
+    
     $htmlPage = <<<EOF
     <!DOCTYPE html>
     <html>
 
     <head>
     <meta name="darkreader-lock">
-
-    <link rel="preload" href="/assets/woff/ZenMaruGothic-Medium.woff2" as="font" type="font/woff2" crossorigin>
 
     EOF;
 
@@ -27,11 +29,12 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
 
     $htmlPage .= <<<EOF
     <link rel="shortcut icon" href="/assets/img/global/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
     <meta charset="utf-8" />
     </head>
 
     <body>
-    <div class="mainContainer">
+    <div class="boxConstraint">
 
     EOF;
 
@@ -286,22 +289,7 @@ function doWeShowOneko() {
 }
 
 function whatStyleSheet() {
-    $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
-    // Nintendo Wii
-    if (str_contains($userAgent, "nintendo wii")) {
-        return '/assets/css/main-site-legacy.css';
-    }
-
-    // Internet Explorer 5
-    if (str_contains($userAgent, "msie 5")) {
-        return '/assets/css/main-site-legacy.css';
-    }
-
-    // Nintendo 3DS
-    if (str_contains($userAgent, "nintendo 3ds")) {
-        return '/assets/css/main-site-legacy.css';
-    }
-    return '/assets/css/main-site.css';
+    return '/assets/css/main.css';
 }
 
 function doWeShowScratchEmbed() {
