@@ -8,9 +8,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 ?>
 <div class="centeredArea">
     <div id="hypnospace-header">
-    <img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
-    <img style="vertical-align:middle" src="/assets/img/links/fire.gif">
-    <img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
+    <img width="120px" style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
+    <img width="450px" style="vertical-align:middle" src="/assets/img/links/fire.gif">
+    <img width="120px" style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
     </div>
     <br />
     <br />

@@ -31,8 +31,19 @@
                 <!-- First container content -->
                 <p>
                     <br/>
-                    This site was intended for monitors at 1024x768 with 16-bit color and above!<br/>
-                    Music and Oneko settings are at the bottom of each page. Make sure you turn on autoplay!<br/>
+                    This site features:<br/>
+                    <div class="landingContentsBox">
+                        * Site settings on the main page<br/>
+                        * Non-mobile-friendly layout<br/>
+                        * Legacy browser support<br/>
+                        * Homebrew propaganda<br/>
+                        * Autoplaying music<br/>
+                        * Oneko<br/>
+                        * Minimal JavaScript<br/>
+                        * Randomized page elements<br/>
+                        * Questionable PHP/JS code</br>
+                        * Tacky animated GIFs and buttons<br/>
+                    </div>
                     <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>

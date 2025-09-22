@@ -101,8 +101,6 @@ function constructPageFooter() {
         <a href="/site/disclosure/">Site &amp; Privacy Info</a>
         |
         <a href="/rss.xml">RSS Feed</a>
-        |
-        <a href="/settings/">Site Settings</a>
         </small>
     EOF;
 

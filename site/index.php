@@ -2,10 +2,15 @@
 
 $customSideContent = <<<EOF
     <div class="extraSidebar window">
-        <h4 style="text-align: center">Site Updates!</h4>
+        <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
         <ul style="font-size: 13pt">
             <li>2025/09/21: New site layout!</li>
         <ul>
+    </div>
+    <div class="extraSidebar window">
+        <h4 style="text-align: center">Site Settings</h4>
+        <span title="Toggles the little cat that chases your mouse pointer."><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Disable Oneko</small></span><br/>
+        <span title="Allow or disallow the music player from automatically playing music on page load."><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Don't Autoplay Music</small></span>
     </div>
 EOF;
 
