@@ -1,5 +1,18 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">The Concept</a></li>
+        <li><a href="#p2">Phil Thomas' Emulator</a>
+        <li><a href="#p3">CPU</a>
+        <li><a href="#p4">Audio</a>
+        <li><a href="#p5">Video</a>
+        <li><a href="#p6">Input</a>
+        <li><a href="#p7">Memory</a>
+        <li><a href="#p8">Conclusion</a>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Emulating the Gigatron TTL in MAME");
 
@@ -10,7 +23,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Emulating the Gigatron TTL 
 <p>It's like the Sinclair ZX81 but gooder-er.<br/></p><br/>
 <p>August 6, 2020<br/>Category: Project</p>
 <br />
-<h2>The Concept</h2>
+<h2 id="p1">The Concept</h2>
 <p>Basically, I made this driver because I wanted to learn how one of my favorite emulators worked. Plus,
 MAME hasn't really had a machine like this before, so I figured I'd give it a shot. It was also a good
 programming exercise for me.
@@ -24,12 +37,12 @@ learning MAME's framework.</p>
 <img style="width:720px" src="/assets/img/blog/gigatron/Diagram-768x576.png">
 <p>This block diagram shows how everything in the machine is connected together.</p>
 <br />
-<h2>Phil Thomas' Emulator</h2>
+<h2 id="p2">Phil Thomas' Emulator</h2>
 <p>Turns out, there was already a JS-based emulator on the official website, made by Phil Thomas. That
 emulator uses a BSD-2-clause license, which is compatible with MAME's BSD-3-clause license, so it
 wouldn't be of much concern if I ported that emulator to MAME.</p>
 <br />
-<h2>CPU</h2>
+<h2 id="p3">CPU</h2>
 <img style="width:720px"
 src="/assets/img/blog/gigatron/Native-instruction-overview-2019-11-25-768x613.png"><br />
 <p>This diagram can show just how simple the Gigatron CPU is. There are so few instructions, and each
@@ -37,7 +50,7 @@ instruction takes 1 cycle, out of 6.25 MHz.
 Of course, not all of that is for program code. A good few hundred thousand cycles or
 so is used to draw the frame to the screen, some are used to
 control the blinkenlights, and some are used for audio.</p> <br />
-<h2>Audio</h2>
+<h2 id="p4">Audio</h2>
 <img src="/assets/img/blog/gigatron/gigatron-d.png"><br />
 <p>Audio on the Gigatron is incredibly simple. It uses a 4-bit R-2R DAC, using a few resistors to do the
 digital to analog conversion.
@@ -61,7 +74,7 @@ The lower 4 bits are for controlling the LEDs on the machine.</p>
 <p>These blinkenlights are controlled through software, not hardware. If you were to use TinyBASIC (you
 cannot yet in MAME), you would be able to control these lights.</p>
 <br />
-<h2>Video</h2>
+<h2 id="p5">Video</h2>
 <img src="/assets/img/blog/gigatron/gigatron-4.png"><br />
 <p>The Gigatron is capable of displaying 6-bit color on the VGA screen, with a maximum of 64 colors.
 As you can see in the above image, register out is responsible for generating the video signal.</p>
@@ -79,7 +92,7 @@ register and converts them to a single 24-bit value that can be displayed on any
 <p>We let the machine know how to use port_out by using this simple line in the configuration:</p>
 <img src="/assets/img/blog/gigatron/gigatron-7.png"><br />
 <br />
-<h2>Input</h2>
+<h2 id="p6">Input</h2>
 <img src="/assets/img/blog/gigatron/gigatron-8.png"><br />
 <p>The Gigatron handles input through a DB-9 joystick port, used in several older consoles and home
 computers such as the Sega Genesis, Commodore Amiga, and Atari 2600.
@@ -92,13 +105,13 @@ configuration:</p>
 <p>This will attach the value that the keypad reads to the register called inReg. This is what allows the
 CPU to read the joystick state.</p>
 <br />
-<h2>Memory</h2>
+<h2 id="p7">Memory</h2>
 <p>Attaching memory maps was easy. I had to define them like this:</p>
 <img src="/assets/img/blog/gigatron/gigatron-b.png"><br />
 <p>And then let the CPU know which is ROM and which is RAM.</p>
 <img src="/assets/img/blog/gigatron/gigatron-c.png"><br />
 <br />
-<h2>Conclusion</h2>
+<h2 id="p8">Conclusion</h2>
 <p>So that's a relatively basic explanation of how I ported Gigatron.js to MAME!</p>
 <p>Not everything has to be cutting-edge to be fun! <img src="/assets/img/smileys/wink.png"></p>
 <br />

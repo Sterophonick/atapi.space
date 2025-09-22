@@ -1,5 +1,13 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Where to begin?</a></li>
+        <li><a href="#p2">Hypnospace</a>
+        <li><a href="#p3">Modern Homepages</a>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Welcome to my Homepage!");
 
@@ -15,7 +23,7 @@ Content Warning // Politics (US), Religion (Game Screenshot)
 </span>
 </p>
 <br />
-<p>
+<p id="p1">
 Heh, where do I begin?<br />
 In this strange world where capitalism reigns supreme, I find myself feeling both incredibly bored and
 frustrated with the modern-day internet, where every netizen is treated to a flurry of corporate
@@ -65,7 +73,7 @@ You ever hear of a little indie game called <i>Hypospace Outlaw</i> ?
 <img width="100%" height="2px" id="spacer" src="/assets/img/global/border.png">
 <br />
 <br />
-<img src="/assets/img/blog/homepage/hypnospace.gif"><br />
+<img id="p2" src="/assets/img/blog/homepage/hypnospace.gif"><br />
 
 <?php generateYouTubeEmbed("Pb4Jul496QE", 560, 315);?>
 <p>
@@ -165,7 +173,7 @@ for the time, leading to a lack of accessibility for those who need it. But that
     <img width="100%" height="2px" id="spacer" src="/assets/img/global/border.png">
     <br />
     <br />
-    <h2>Homepages in the Modern Era</h2>
+    <h2 id="p3">Homepages in the Modern Era</h2>
     <p>
     You're reading this post on someone's homepage. My homepage, to be specific. Welcome to my
     homepage!<br />

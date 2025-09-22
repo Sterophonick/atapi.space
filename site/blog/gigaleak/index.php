@@ -20,7 +20,7 @@ $navContents = <<<EOF
         <li><a href="#p16">Documents.7z</a></li>
         <li><a href="#p17">t210_t214_brom.7z</a></li>
         <li><a href="#p18">bb2.7z</a></li>
-        <li><a href="#p19">teru-sama_mail_2006.7z</a></li>
+        <li><a href="#p19">teru-sama</a></li>
         <li><a href="#p20">Final Thoughts.7z</a></li>
     </ul>
 EOF;
