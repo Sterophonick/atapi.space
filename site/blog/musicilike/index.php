@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Music I Think is Rad and St
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Music I Think is Rad and Stuff</h1>
-<p style="margin-top: -25px;">But you can't hardly swallow, your fears and paiiiiiin!!!!!!<br/></p><br/>
+<p>But you can't hardly swallow, your fears and paiiiiiin!!!!!!<br/></p><br/>
 <p>
 October 20, 2024<br/>
 Category: Infodump<br/>

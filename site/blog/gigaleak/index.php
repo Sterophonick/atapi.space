@@ -5,8 +5,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Personal Observations from 
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Personal Observations from the Gigaleaks</h1>
-<p style="margin-top: -25px;">Me want beytah right now because beytah better than final!<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Personal Observations from the Gigaleaks</h2>
+<p>Me want beytah right now because beytah better than final!<br/></p><br/>
 <p>
 November 26, 2024<br/>
 Category: Infodump<br/>

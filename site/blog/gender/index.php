@@ -18,7 +18,7 @@ function toggle_visibility(cl){
 </script>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> On Gender</h1>
-<p style="margin-top: -25px;">I got mine from LimeWire in October of 2006.<br/></p><br/>
+<p>I got mine from LimeWire in October of 2006.<br/></p><br/>
 <p>
 December 22, 2024<br/>
 Category: Theory<br/>

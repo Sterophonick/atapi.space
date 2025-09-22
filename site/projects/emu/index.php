@@ -1,14 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: Emulation");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Emulation</h1>
-<p>I think I know how to make retro computers go brrr, at least for the most part.</p>
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
 <li>
 <a href="#GigatronMAME">Gigatron MAME Driver</a>
@@ -20,7 +12,16 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Emulation");
 <a href="#AdvCadia">AdvCadia</a>
 </li>
 </ul>
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: Emulation");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Emulation</h1>
+I think I know how to make retro computers go brrr, at least for the most part.
+<br/><br/>
 
 <h2 id="GigatronMAME">Gigatron MAME Driver</h2>
 <p>

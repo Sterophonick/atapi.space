@@ -1,15 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: Windows");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Windows</h1>
-<p>I don't actually know Win32 but I should learn tbh</p>
-
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
 <li>
 <a href="#MakeROMGBA">MakeROMGBA</a>
@@ -18,13 +9,21 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Windows");
 <a href="#AwesomeScreensaver">Awesome Screensaver</a>
 </li>
 <li>
-<a href="#FiveNightsAtDatBois">Five Nights at Dat Boi's'</a>
+<a href="#FiveNightsAtDatBois">Five Nights at Dat Boi's</a>
 </li>
 <li>
 <a href="#UnnamedJoke">Unnamed Joke Program</a>
 </li>
 </ul>
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: Windows");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Windows</h1>
+I don't actually know Win32 but I should learn tbh<br/><br/>
 
 <h2 id="MakeROMGBA">MakeROMGBA</h2>
 <p>

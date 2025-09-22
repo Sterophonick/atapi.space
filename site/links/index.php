@@ -6,41 +6,41 @@ echo constructPageHeader("Atapi's Domain! :: Web Links");
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 
 ?>
+<div class="centeredArea">
+    <div id="hypnospace-header">
+    <img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
+    <img style="vertical-align:middle" src="/assets/img/links/fire.gif">
+    <img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
+    </div>
+    <br />
+    <br />
+    <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
+    text-align: center;">
+    <col width="320px" />
+    <col width="320px" />
 
-<div id="hypnospace-header">
-<img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
-<img style="vertical-align:middle" src="/assets/img/links/fire.gif">
-<img style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
-</div>
-<br />
-<br />
-<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-text-align: center;">
-<col width="320px" />
-<col width="320px" />
+    <tr>
+    <td><a href="emu/">Emulation / Retrogaming</a><br />Links for emulation and retro gaming alike.<br /></td>
+    <td><a href="linux/">Linux</a><br />Linux-related news and links.<br /></td>
+    </tr>
 
-<tr>
-<td><a href="emu/">Emulation / Retrogaming</a><br />Links for emulation and retro gaming alike.<br /></td>
-<td><a href="linux/">Linux</a><br />Linux-related news and links.<br /></td>
-</tr>
+    <tr>
+    <td><a href="scene/">Demoscene</a><br />Electronics as an art.<br /></td>
+    <td><a href="gaming/">Gaming</a><br />Vidjagaemz!<br /></td>
+    </tr>
 
-<tr>
-<td><a href="scene/">Demoscene</a><br />Electronics as an art.<br /></td>
-<td><a href="gaming/">Gaming</a><br />Vidjagaemz!<br /></td>
-</tr>
+    <tr>
+    <td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew and ROM hack development.<br /></td>
+    <td><a href="shortwave/">Shortwave Radio</a><br />Links relating to shortwave radio and other such topics.<br /></td>
+    </tr>
 
-<tr>
-<td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew and ROM hack development.<br /></td>
-<td><a href="shortwave/">Shortwave Radio</a><br />Links relating to shortwave radio and other such topics.<br /></td>
-</tr>
+    <tr>
+    <td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
+    <td><a href="historical/">Historical</a><br />The internet's graveyard / retirement home.<br /></td>
+    </tr>
 
-<tr>
-<td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
-<td><a href="historical/">Historical</a><br />The internet's graveyard / retirement home.<br /></td>
-</tr>
-
-</table>
-<br/>
+    </table>
+    <br/>
 
 <?php
 countWebLinks();
@@ -67,6 +67,8 @@ Hector Martin - Asahi Lina - Sonicadvance1 - Alyssa Rosenzweig - cathodegaytube 
 RAZOR1911 - FAiRLiGHT - p0ke - maracuja - zerkman - XAYAX - pheonixbound - RinkuSonic41 - Tahg - LGR /
 lazygamereviews - James Rolfe - Fangamer - Aaron Giles - TheEssem - InvoxiPlayGames - Velveteen - and YOU!
 </marquee>
+
+</div>
 
 <?php
 

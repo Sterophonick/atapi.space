@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Adventures in Rock Band on 
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Adventures in Rock Band on Linux</h1>
-<p style="margin-top: -25px;">It's no RB3Dx but it will do.<br/></p><br/>
+<p>It's no RB3Dx but it will do.<br/></p><br/>
 <p>
 March 27, 2025<br/>
 Category: Project<br/>

@@ -1,27 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux :: Linux Gaming Notes");
-
-$imageURLs = array(
-    "/assets/img/projects/linuxnotes/XCURSOR.png", "/assets/img/projects/linuxnotes/butgodsaid.png", "/assets/img/projects/linuxnotes/manjarousers.gif", "/assets/img/projects/linuxnotes/wvlvm.png", "/assets/img/projects/linuxnotes/tuning.jpg", "https://imgs.xkcd.com/comics/supported_features.png", "https://imgs.xkcd.com/comics/sandwich.png"
-);
-
-
-$funnyImgString = '<img height="300px" src="' . $imageURLs[floor(rand() % sizeof($imageURLs))] . '" alt="funny meme"/>';
-
-
-?>
-
-<h1><img style=" vertical-align:middle" src="/assets/img/projects/linuxnotes/icon.png"> Linux Gaming Notes</h1>
-<p>Some very crude notes about Linux gaming and game compatibility in my experience.</p>
-<p>Last updated: March 28, 2023</p>
-<h2>PLEASE NOTE: THIS PAGE HASN'T BEEN UPDATED IN A WHILE!<br />IT WILL BE VERY OUTDATED!</h2>
-
-<?php echo $funnyImgString; ?>
-
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
 <li>
 <a href="pages/projects/linuxnotes.html#Important">Important Information</a>
@@ -301,8 +280,28 @@ Surprise</a>
 <a href="pages/projects/linuxnotes.html#WIP">Work-In-Progress</a>
 </li>
 </ul>
-<br />
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux :: Linux Gaming Notes");
+
+$imageURLs = array(
+    "/assets/img/projects/linuxnotes/XCURSOR.png", "/assets/img/projects/linuxnotes/butgodsaid.png", "/assets/img/projects/linuxnotes/manjarousers.gif", "/assets/img/projects/linuxnotes/wvlvm.png", "/assets/img/projects/linuxnotes/tuning.jpg", "https://imgs.xkcd.com/comics/supported_features.png", "https://imgs.xkcd.com/comics/sandwich.png"
+);
+
+
+$funnyImgString = '<img height="300px" src="' . $imageURLs[floor(rand() % sizeof($imageURLs))] . '" alt="funny meme"/>';
+
+
+?>
+
+<h1><img style=" vertical-align:middle" src="/assets/img/projects/linuxnotes/icon.png"> Linux Gaming Notes</h1>
+<p>Some very crude notes about Linux gaming and game compatibility in my experience.</p>
+<p>Last updated: March 28, 2023</p>
+<h2>PLEASE NOTE: THIS PAGE HASN'T BEEN UPDATED IN A WHILE!<br />IT WILL BE VERY OUTDATED!</h2>
+
+<?php echo $funnyImgString; ?>
+
 <div id="content" style="width:80%; margin:auto; text-align: left;>
 <h2 id=" Important">README.TXT</h2>
 <h3 id="ImportantGeneral">General Information</h3>

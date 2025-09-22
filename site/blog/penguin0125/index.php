@@ -5,8 +5,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: The State of Linux Gaming (
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> The State of Linux Gaming (as of January 2025)</h1>
-<p style="margin-top: -25px;">Bazzite FTW<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> The State of Linux Gaming (as of January 2025)</h2>
+<p>Bazzite FTW<br/></p><br/>
 <p>
 Jan 10, 2025<br/>
 Category: Infodump<br/>

@@ -5,8 +5,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Enabling MIDI Support for L
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Enabling MIDI Support for Legacy WINE Gaming</h1>
-<p style="margin-top: -25px;">skrillex scay onster an nice sprites midi<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Enabling MIDI Support for Legacy WINE Gaming</h2>
+<p>skrillex scay onster an nice sprites midi<br/></p><br/>
 <p>
 February 8, 2025<br/>
 Category: Tutorial<br/>

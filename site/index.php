@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="extraSidebar window">
+        <h4 style="text-align: center">Site Updates!</h4>
+        <ul style="font-size: 13pt">
+            <li>2025/09/21: New site layout!</li>
+        <ul>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain!");
 
@@ -7,7 +16,7 @@ $imageURLs = array(
     "/assets/img/home/welcome.gif", "/assets/img/home/welcome2.gif", "/assets/img/home/welcome3.gif", "/assets/img/home/cowsay.png", "/assets/img/home/welcome4.gif"
 );
 
-echo '<br/><img id="welcome" src="' . $imageURLs[ floor(rand() % sizeof($imageURLs))] . '" alt="funny meme" onclick="togglePotato()"/>';
+echo '<img id="welcome" src="' . $imageURLs[ floor(rand() % sizeof($imageURLs))] . '" alt="funny meme" onclick="togglePotato()"/>';
 
 ?>
 
@@ -72,7 +81,7 @@ EOF;
 ?>
 
 <p>here's my ridiculous collection of buttons!</p>
-<div id="buttons" class="pixelArt" style="width: 80%; margin: auto; font-size:0%">
+<div id="buttons" class="pixelArt" style="width: 100%; margin: auto; font-size:0%">
 <a href="https://www.gameboy-advance.net/"><img src="/assets/img/buttons/gbanet.gif"></a>
 <a href="https://www.mamedev.org/"><img src="/assets/img/buttons/mame.gif"></a>
 <img src="/assets/img/buttons/linux.gif">

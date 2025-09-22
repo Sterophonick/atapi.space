@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Welcome to my Homepage!");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Welcome to my Homepage!</h1>
-<p style="margin-top: -25px;">Make sure to sign my guestbook!<br/></p><br/>
+<p>Make sure to sign my guestbook!<br/></p><br/>
 <p>
 October 5, 2024<br/>
 Category: Essay<br />

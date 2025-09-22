@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: 2024 Year in Review, I Gues
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> 2024 Year in Review, I Guess</h1>
-<p style="margin-top: -25px;">I stole this idea from a hacker catgirl.<br/></p><br/>
+<p>I stole this idea from a hacker catgirl.<br/></p><br/>
 <p>
 December 23, 2024<br/>
 Category: Funny<br/>

@@ -5,8 +5,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Flash2Advance-ing your Game
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Flash2Advance-ing your Game Boy Advance</h1>
-<p style="margin-top: -25px;">No, dad, I'm not pirating Nintendo games, I swear on my life.<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Flash2Advance-ing your Game Boy Advance</h2>
+<p>No, dad, I'm not pirating Nintendo games, I swear on my life.<br/></p><br/>
 <p>
 Sep 9, 2025<br/>
 Category: Infodump<br/>

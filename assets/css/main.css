@@ -6,6 +6,23 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: ZenMaruGothic ;
+    src: url("/assets/woff/ZenMaruGothic-Medium.woff2") format("woff2"),
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: UbuntuMono ;
+    src: url("/assets/woff/UbuntuMono-Regular.woff2") format("woff2"),
+    font-weight: normal;
+    font-style: normal;
+    size-adjust: 100%;
+    font-display: swap;
+}
+
 body {
     font-family: Motherish, ZenMaruGothic, sans-serif;
     font-size: 16pt;
@@ -111,21 +128,30 @@ p {
     text-align: center;
     margin-top: 10px;
     border-top: 3px solid red;
-    background: url('../img/weave.png');
+    background: url('/assets/img/global/weave.png');
     padding: 5px;
 }
 
 /* page main layout definitions */
-.postContent img {
+code {
+    font-family: UbuntuMono;
+    font-size: 16pt;
+    border: 1px solid red;
+    background-color: black;
+    padding: 1px 4px;
+    border-radius: 6px;
+}
+
+#postContent img, #postContent video {
     max-width: 720px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#navWindow ul {
+#navWindow ul, .extraSidebar ul {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 15pt;
 }
 
 .pageSidebar .window {
@@ -136,6 +162,10 @@ p {
 
 .pageMainContent .window {
     width: 745px;
+}
+
+.pageMainContent { 
+    text-align: center;
 }
 
 #musicPlayer {
@@ -187,4 +217,57 @@ p {
 }
 .landWin3 {
     width: 450px;
+}
+
+.leftLeaning {
+    text-align: center;
+}
+
+/* copypasted from old css */
+
+#scratchProject {
+border: 2px solid red;
+border-radius: 8px;
+}
+
+#gbaGame {
+border: 2px solid red;
+}
+
+.pixelArt {
+    image-rendering: pixelated
+}
+
+#welcome {
+max-width: 728px;
+height: 170px;
+}
+
+#galleryTable {
+font-size: 13pt;
+}
+
+.galleryImg {
+    width: 230px;
+}
+
+.shruggie {
+    font-family: Motherish, ZenMaruGothic;
+}
+
+.shruggie shruggieTag {
+    font-family: Helvetica;
+}
+
+.greentext {
+    font-family: Motherish, ZenMaruGothic;
+    color: #789922;
+}
+
+.projectsTable td * {
+    vertical-align: middle;
+}
+
+.zeroFont {
+    font-size: 0pt;
 }

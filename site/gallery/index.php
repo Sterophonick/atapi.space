@@ -1,23 +1,12 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Gallery");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/gallery/icon.png"> Gallery</h1>
-<p>Some art that I've drawn or some art that others have drawn for me!</p>
-<p>(Some images might not be full size, right click and select View Image to see full size.)</p>
-<p><a href="atapi">Who is Atapi?</a></p>
-
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
     <ul>
         <li>
             <a href="#MadeByMe">Made by Myself</a>
         </li>
         <li>
-            <a href="#MadeByFriends">Made by Friends (In no particular order)</a>
+            <a href="#MadeByFriends">Made by Friends</a>
             <ul>
                 <li>
                     <a href="#TheQuickSlash">TheQuickSlash</a>
@@ -35,7 +24,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     <a href="#PigDan20">PigDan20</a>
                 </li>
                 <li>
-                    <a href="#AbsurdBart">Absurd Bartholomew</a>
+                    <a href="#AbsurdBart">Absurd Bartholo..</a>
                 </li>
                 <li>
                     <a href="#Bootle">Bootle</a>
@@ -107,7 +96,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     <a href="#qqtuzi">Tuzi</a>
                 </li>
                 <li>
-                    <a href="#dbrand_guy">Some guy at dbrand</a>
+                    <a href="#dbrand_guy">dbrand guy</a>
                 </li>
                 <li>
                     <a href="#Etron">Etron</a>
@@ -119,7 +108,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     <a href="#MkMuffi">MkMuffi</a>
                 </li>
                 <li>
-                    <a href="#Cynthia">Queer Kobold (RIP)</a>
+                    <a href="#Cynthia">Queer Kobold</a>
                 </li>
                 <li>
                     <a href="#Isaiah_Deluxe">Isaiah_Deluxe</a>
@@ -134,7 +123,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 
         </li>
     </ul>
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Gallery");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/gallery/icon.png"> Gallery</h1>
+<p>Some art that I've drawn or some art that others have drawn for me!</p>
+<p>(Some images might not be full size, right click and select View Image to see full size.)</p>
+<p><a href="atapi">Who is Atapi?</a></p>
 
 <p>Click on the entires to view the full-size versions, if applicable.</p><br/>
 

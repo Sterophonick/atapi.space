@@ -5,8 +5,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Please Contact Fisher-Price
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Please Contact Fisher-Price Customer Relations</h1>
-<p style="margin-top: -25px;">"CD ROM is not a toy"<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Please Contact Fisher-Price Customer Relations</h2>
+<p>"CD ROM is not a toy"<br/></p><br/>
 <p>
 July 17, 2025<br/>
 Category: Infodump<br/>

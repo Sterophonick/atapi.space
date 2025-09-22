@@ -7,7 +7,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Emulating the Gigatron TTL 
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Emulating the Gigatron TTL in MAME
 </h1>
-<p style="margin-top: -25px;">It's like the Sinclair ZX81 but gooder-er.<br/></p><br/>
+<p>It's like the Sinclair ZX81 but gooder-er.<br/></p><br/>
 <p>August 6, 2020<br/>Category: Project</p>
 <br />
 <h2>The Concept</h2>

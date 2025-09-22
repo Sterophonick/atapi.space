@@ -1,29 +1,21 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Game Boy Advance</h1>
-I've written a bunch of things for the Game Boy Advance. Here's a collection of things I can release! :3<br/>
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
     <ul>
         <li>
-        <a href="#SuperBlockJumpGBA">Super Block Jump: Game Boy Advance Edition</a>
+        <a href="#SuperBlockJumpGBA">Super Block Jump</a>
         </li>
         <li>
         <a href="#MisfortuneAdvance">Misfortune Advance</a>
         </li>
         <li>
-        <a href="#SonicEXEGBA">Sonic.EXE (Game Boy Advance)</a>
+        <a href="#SonicEXEGBA">Sonic.EXE (GBA)</a>
         </li>
         <li>
         <a href="#FNaFOfficeTest">FNaF Office Test</a>
         </li>
         <li>
-        <a href="#GhostGame">Ghost Game (Game Boy Advance)</a>
+        <a href="#GhostGame">Ghost Game (GBA)</a>
         </li>
         <li>
         <a href="#HeartLib">HeartLib</a>
@@ -34,22 +26,22 @@ I've written a bunch of things for the Game Boy Advance. Here's a collection of 
         </ul>
         </li>
         <li>
-        <a href="#Simple">Simple</a>
+        <a href="#Simple">Simple/SimpleDE</a>
         </li>
         <li>
-        <a href="#MonkeyMayhemGBA">Monkey Mayhem (Game Boy Advance)</a>
+        <a href="#MonkeyMayhemGBA">Monkey Mayhem Ad...</a>
         </li>
         <li>
-        <a href="#FindTheInvisibleCatGBA">Find The Invisible Cat (Game Boy Advance)</a>
+        <a href="#FindTheInvisibleCatGBA">Find The Invisible Cat</a>
         </li>
         <li>
         <a href="#UndertaleGBADemo">Undertale Tech Demo</a>
         </li>
         <li>
-        <a href="#FidgetSpinnerGBA">Fidget Spinner Simulator</a>
+        <a href="#FidgetSpinnerGBA">Fidget Spinner Simul...</a>
         </li>
         <li>
-        <a href="#FNaFWorldTeaserCycle">FNaF World Teaser Cycle</a>
+        <a href="#FNaFWorldTeaserCycle">FNaF World Teaser C...</a>
         </li>
         <li>
         <a href="#FNaFGBATeaser">FNaF GBA Teaser</a>
@@ -61,7 +53,7 @@ I've written a bunch of things for the Game Boy Advance. Here's a collection of 
         <a href="#CorruptedImage">Corrupted Image</a>
         </li>
         <li>
-        <a href="#BGPlasma">Cool Looking BG Plasma</a>
+        <a href="#BGPlasma">Cool Looking BG Pla...</a>
         </li>
         <li>
         <a href="#RabbitQuiz">Rabbit Quiz</a>
@@ -70,50 +62,61 @@ I've written a bunch of things for the Game Boy Advance. Here's a collection of 
         <a href="#DirectSoundDemo">Direct Sound Demo</a>
         </li>
         <li>
-        <a href="#TMPDAD">The Most Difficult Platformer Advance! Demo</a>
+        <a href="#TMPDAD">TMDPE!A Demo</a>
         </li>
         <li>
-        <a href="#PixelColorDetect">Pixel Color Detection Demo</a>
+        <a href="#PixelColorDetect">Pixel Color Detection</a>
         </li>
         <li>
         <a href="#UndertaleFightDemo">Undertale Fight Demo</a>
         </li>
         <li>
-        <a href="#RockPaperScissors">Rock Paper Scissors (Game Boy Advance)</a>
+        <a href="#RockPaperScissors">Rock Paper Scissors</a>
         </li>
         <li>
-        <a href="#HowGameMakingWorks">Game Making Presentation</a>
+        <a href="#HowGameMakingWorks">Game Making PPTX</a>
         </li>
         <li>
         <a href="#VideoGameJeopardy">Video Game Jeopardy</a>
         </li>
         <li>
-        <a href="#FNaFJumpscares">FNaF Jumpscares (Game Boy Advance)</a>
+        <a href="#FNaFJumpscares">FNaF Jumpscares</a>
         </li>
         <li>
-        <a href="#FakeCameraLight">Fake Camera Light (Game Boy Advance)</a>
+        <a href="#FakeCameraLight">Fake Camera Light</a>
         </li>
         <li>
-        <a href="#SuperMeatBoyMusicPlayer">Super Meat Boy Music Player</a>
+        <a href="#SuperMeatBoyMusicPlayer">Meat Boy Music Pla...</a>
         </li>
         <li>
-        <a href="#TransSizeCode">Trans Flag Sizecoding Test</a>
+        <a href="#TransSizeCode">Trans Flag Sizecode</a>
         </li>
     </ul>
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Game Boy Advance</h1>
+I've written a bunch of things for the Game Boy Advance. Here's a collection of things I can release! :3<br/><br/>
 
 <h2 id="SuperBlockJumpGBA">Super Block Jump: Game Boy Advance Edition</h2>
 <p>A platformer with a very simple goal in mind, to get to the goal on the right side of the screen.</p>
 <p>This is a conversion of a game I made on Scratch back in 2014 and updated all the way through 2016.
 </p>
-<img src="/assets/img/projects/gba/sbj/sbjgba0.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba1.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba2.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba3.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba4.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba5.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba6.png">
-<img src="/assets/img/projects/gba/sbj/sbjgba7.png"><br />
+<span class="zeroFont">
+    <img src="/assets/img/projects/gba/sbj/sbjgba0.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba1.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba2.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba3.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba4.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba5.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba6.png">
+    <img src="/assets/img/projects/gba/sbj/sbjgba7.png">
+</span>
+<br />
 <a href="sbjgba">Play Game</a><br />
 <a href="/files/Super Block Jump - Game Boy Advance Edition.gba">ROM Download</a><br />
 <a href="/files/Super Block Jump.cia">Nintendo 3DS .CIA Download</a><br />
@@ -141,11 +144,12 @@ know exist.</a><br />
 <p>Devilion's <a href="https://devilion.itch.io/misfortunegb-dx">port of Misforturne to the PC </a>was
 decent, but i wanted it on an actual Game Boy.<br />I think I did OK on it, but I made it multiple
 years ago, and it definitely could be improved on.</p>
+<span class="zeroFont">
 <img src="/assets/img/projects/gba/misfortune/misfortune0.png">
 <img src="/assets/img/projects/gba/misfortune/misfortune1.png">
 <img src="/assets/img/projects/gba/misfortune/misfortune2.png">
 <img src="/assets/img/projects/gba/misfortune/misfortune3.gif">
-<br />
+</span><br />
 <a href="misfortune">Play Game</a><br />
 <a href="/files/Misfortune Advance.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/Misfortune-Advance">Source Code</a><br />
@@ -157,6 +161,7 @@ years ago, and it definitely could be improved on.</p>
 I hate this code now.<br />
 It was so lazily done and rushed.<br />
 </p>
+<span class="zeroFont">
 <img src="/assets/img/projects/gba/sonicexe/sonic0.png">
 <img src="/assets/img/projects/gba/sonicexe/sonic1.png">
 <img src="/assets/img/projects/gba/sonicexe/sonic2.png">
@@ -165,7 +170,7 @@ It was so lazily done and rushed.<br />
 <img src="/assets/img/projects/gba/sonicexe/sonic5.png">
 <img src="/assets/img/projects/gba/sonicexe/sonic6.png">
 <img src="/assets/img/projects/gba/sonicexe/sonic7.png">
-<br />
+</span><br />
 <a href="sonicexegba">Play Game</a><br />
 <a href="/files/Sonic.EXE.gba">ROM Download</a><br />
 <a href="https://github.com/Sterophonick/Sonic.EXE-GBA">Source Code (For archival purposes)</a><br />
@@ -173,11 +178,12 @@ It was so lazily done and rushed.<br />
 
 <h2 id="FNaFOfficeTest">FNaF Office Test</h2>
 <p>A crappy demo I made in 2016 because I wanted to port FNAF to the Game Boy Advance like a dumdum</p>
+<span class="zeroFont">
 <img src="/assets/img/projects/gba/fnafofficetest/fnafofficetest0.png">
 <img src="/assets/img/projects/gba/fnafofficetest/fnafofficetest1.png">
 <img src="/assets/img/projects/gba/fnafofficetest/fnafofficetest2.png">
 <img src="/assets/img/projects/gba/fnafofficetest/fnafofficetest3.gif">
-<br />
+</span><br />
 <a href="fnafot">Play Demo</a><br />
 <a href="/files/FNaF Office Test.gba">ROM Download</a><br />
 <a href="/files/FNaFOfficeTest_src.zip">Source Code</a><br />
@@ -194,6 +200,7 @@ FNaF (spaghetti warning)</a><br />
 
 <h2 id="HeartLib">HeartLib</h2>
 <p>A Game Boy Advance development library inspired by HAMLib and HELlib.</p>
+<span class="zeroFont">
 <img src="/assets/img/projects/gba/heartlib/assert-0.png">
 <img src="/assets/img/projects/gba/heartlib/key-0.png">
 <img src="/assets/img/projects/gba/heartlib/maxmod-0.png">
@@ -203,6 +210,7 @@ FNaF (spaghetti warning)</a><br />
 <img src="/assets/img/projects/gba/heartlib/parallax-0.png">
 <img src="/assets/img/projects/gba/heartlib/advcadia-0.png">
 <img src="/assets/img/projects/gba/heartlib/alpha-0.png">
+</span>
 <p>HeartLib supports most functions of the Nintendo Game Boy Advance, with the exception of Serial
 I/O.<br />
 It even supports some undocumented features such as SWI 0x26 (HardReset) or the Green Swap (?)
@@ -231,12 +239,14 @@ There is also a variant available for the EZ-Flash Omega: Definitive Edition!<br
 </p>
 
 <p>Screenshots:</p>
+<span class="zeroFont">
 <img src="/assets/img/projects/gba/simple/simplelight-0.png">
 <img src="/assets/img/projects/gba/simple/simplelight-1.png">
 <img src="/assets/img/projects/gba/simple/simplelight-2.png"><br />
 <img src="/assets/img/projects/gba/simple/simplelight-0l.png">
 <img src="/assets/img/projects/gba/simple/simplelight-1l.png">
 <img src="/assets/img/projects/gba/simple/simplelight-2l.png"><br />
+</span>
 <a href="omegamanual">Simple-specific EZ-Flash Omega Manual</a><br />
 <a href="howtoskinsimple"">Skinning Guide</a><br />
 <a href=" https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665">GBAtemp thread</a><br />

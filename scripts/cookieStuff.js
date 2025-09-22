@@ -39,4 +39,3 @@ player.volume = 0.30;
 if(getCookieByName("autoplay") == 'false') {
     if(!forceStopPlayer) player.play();
 }
-

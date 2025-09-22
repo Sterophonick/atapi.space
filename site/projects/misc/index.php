@@ -1,15 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Miscellaneous</h1>
-<p>There's all sorts of other oddball things I've done.</p>
-
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
 <li>
 <a href="#HomebrewHub">Homebrew Hub</a>
@@ -24,26 +15,34 @@ echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous");
 <a href="#CrappyXULCSSThemeForFirefoxSaveMe">"My Swag"</a>
 </li>
 <li>
-<a href="#NotepadhacksWindowsOnly">"Random Notepad Hacks"</a>
+<a href="#NotepadhacksWindowsOnly">"Notepad Hacks"</a>
 </li>
 <li>
-<a href="#NoisesNumbersVol1">Atapi's Noises & Numbers Vol. 1</a>
+<a href="#NoisesNumbersVol1">Noises & Numbers Vol1</a>
 </li>
 <li>
 <a href="#SloppyArial">SloppyArial Medium</a>
 </li>
 <li>
-<a href="#SuperMario64DS">Super Mario 64 DS Regular</a>
+<a href="#SuperMario64DS">SM64 DS Regular</a>
 </li>
 <li>
-<a href="#SuperMario64Mess">SuperMario64Mess Medium</a>
+<a href="#SuperMario64Mess">SuperMario64Mess</a>
 </li>
 <li>
 <a href="#EarthBoundEX">EarthBoundEX Medium</a>
 </li>
 </ul>
-</div>
-<br/>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Miscellaneous</h1>
+<p>There's all sorts of other oddball things I've done.</p><br/><br/>
+
 <h3 id="HomebrewHub">Homebrew Hub</h3>
 <p>Not to be confused with the Game Boy Homebrew Hub, my Homebrew Hub is basically an irresponsible
 number of homebrews for a wide range of platforms, such as the Commodore 64, Nintendo
