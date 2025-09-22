@@ -1,5 +1,30 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">unsorted.7z</a></li>
+        <li><a href="#p2">3DS_manu.7z</a></li>
+        <li><a href="#p3">ctr.7z</a></li>
+        <li><a href="#p4">svn_1.068.zip</a></li>
+        <li><a href="#p5">ctr-etc.7z</a></li>
+        <li><a href="#p6">other.7z</a></li>
+        <li><a href="#p7">20100713cvs_backup...</a></li>
+        <li><a href="#p8">netcard.7z</a></li>
+        <li><a href="#p9">bbgames.7z</a></li>
+        <li><a href="#p10">emeralds.7z</a></li>
+        <li><a href="#p11">platinum.7z</a></li>
+        <li><a href="#p12">generic.7z</a></li>
+        <li><a href="#p13">paladin.7z</a></li>
+        <li><a href="#p14">ios-releases.tar.7z</a></li>
+        <li><a href="#p15">wiidump.7z</a></li>
+        <li><a href="#p16">Documents.7z</a></li>
+        <li><a href="#p17">t210_t214_brom.7z</a></li>
+        <li><a href="#p18">bb2.7z</a></li>
+        <li><a href="#p19">teru-sama_mail_2006.7z</a></li>
+        <li><a href="#p20">Final Thoughts.7z</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Personal Observations from the Gigaleaks");
 
@@ -118,7 +143,7 @@ Next, would be disc "122E," which installs DATA CHECK & LOG CHECK to ensure ever
 <img src="/assets/img/blog/gigaleak/rvl-factory.png"><br/>
 Not exactly sure how to use these since none of the WADs are usable in Dolphin.<br/><br/>
 </p>
-<h2>3DS_manu.7z</h2>
+<h2 id="p2">3DS_manu.7z</h2>
 <p>
 <code>3DS_manu.7z</code> was a file that dropped on May 9th, 2020, containing the complete collection of files used for the European version of the New Nintendo 2DS XL, which I will from now on refer to as JAN units.<br/>
 <img src="/assets/img/blog/gigaleak/3DS_manu.png"><br/><br/>
@@ -159,7 +184,7 @@ Doohickey headquarters up here.
 
 <br/><br/>
 
-<h2>ctr.7z</h2>
+<h2 id="p3">ctr.7z</h2>
 <p>
 <code>ctr.7z</code> consists of two folders, <code>ctr</code> and <code>svn</code>.<br/><br/>
 <code>ctr/include/aoss/</code> is a folder that contains header files relating to A.O.S.S. by Buffalo Technology, which was an old way of quickly setting up Wi-Fi connections with a single button press.<br/><br/>
@@ -253,7 +278,7 @@ This commented out line would supposedly "detach" (unmount?) the eFuse region fr
 
 That's pretty much all there is for ctr.7z that I found interesting. Everything else here is rather mundane.<br/><br/>
 </p>
-<h2>svn_1.068.zip</h2>
+<h2 id="p4">svn_1.068.zip</h2>
 <p>
 This file contains the source code to the Nintendo 3DS Virtual Console.<br/><br/>
 <code>svn_1.068/patch/Sample.patch</code> shows a sample layout for how game-specific patches were implemented in the Virtual Console emulator. The developer could apply custom CGB palettes and also patch various memory addresses.<br/>
@@ -266,13 +291,13 @@ This file contains the source code to the Nintendo 3DS Virtual Console.<br/><br/
 
 The Nintendo 3DS Virtual Console emulator is very portable, and <code>svn_1.068/src/PC</code> contains code that allows it to be compiled for Windows. Same goes for <code>svn_1.068/src/EmuShell/PC</code>.<br/><br/>
 </p>
-<h2>ctr-etc.7z</h2>
+<h2 id="p5">ctr-etc.7z</h2>
 <p>
 <code>ctr-etc.7z</code> contains documentation about the Nintendo 3DS security model, dev board, boot process, and crypto. I talso contains many internal and SDK programs such as DevMenu, SystemUpdater, and a bunch of sample demos.<br/><br/>
 <code>ctr/CTR Security.pdf</code> has a presentation from BroadOn about the Nintendo 3DS security, but what I find interesting is their sort of "if this happens we are so screwed" attitude towards certain things.<br/>
 </p>
 <img src="/assets/img/blog/gigaleak/breach.png"><br/><br/>
-<h2>other.7z</h2>
+<h2 id="p6">other.7z</h2>
 <p>
 <code>other.7z</code> contained six archives:<br/>
 <code>CGB.7z</code> - CGB source code for <i>The Legend of Zelda: Link's Awakening</i><br/>
@@ -350,7 +375,7 @@ In <code>multi18_Arm.s</code> we can see the keys used to decrypt and transfer m
 When put together, the sequence <code>4B 61 77 61 73 65 64 6F</code>. This creates the string <code>Kawasedo</code>, the pseudonym of Tomohiro Kawasae, who is most famous for being hired by Nintendo for his NES emulation work, and eventually writing the NES emulator for <i>Dōbutsu no Mori</i>, or <i>Animal Crossing</i> as we know it over here in the United States.<br/><br/>
 </p>
 
-<h2>20100713cvs_backup.tar.7z</h2>
+<h2 id="p7">20100713cvs_backup.tar.7z</h2>
 <p>
 <code>20100713cvs_backup.tar.7z</code> seems to be a snapshot of someone's <code>/usr/local/cvsrepo</code> on a Linux/*NIX machine. The groups that are tagged in the <code>.tar</code> archive are <code>ensata_usr</code>, <code>cvspokemon</code>, The users in the files are <code>yama</code>, <code>imatake</code>, <code>teruki</code>, and <code>noriko</code>.<br/><br/>
 
@@ -367,7 +392,7 @@ When put together, the sequence <code>4B 61 77 61 73 65 64 6F</code>. This creat
 <br/>
 </p>
 
-<h2>netcard.7z</h2>
+<h2 id="p8">netcard.7z</h2>
 <p>
 <code>netcard.7z</code> was a file that contained source code and design files for the iQue Game Boy Advance, as well as files relating to an unreleased peripheral called the "Netcard."<br/><br/>
 
@@ -411,7 +436,7 @@ These files outline a cancelled online Pokémon project that was internal to iQu
 <img width="45%" src="/assets/img/blog/gigaleak/pokeyman_1.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_2.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_3.png"><img width="45%" src="/assets/img/blog/gigaleak/pokeyman_4.png"><br/>
 <img width="45%" src="/assets/img/blog/gigaleak/pokeyman_5.png"><br/><br/>
 </p>
-<h2>bbgames.7z</h2>
+<h2 id="p9">bbgames.7z</h2>
 <p>
 <code>bbgames.7z</code> is a repository that contains source code to a handful of Nintendo 64 and Game Boy Advance games, not all of which are complete.<br/><br/>
 The list of games is as follows:<br/>
@@ -447,7 +472,7 @@ There is a lot more to find in this archive, so I'd highly recommend you look at
 
 <code>forest/forest_lib/F3DZEX2-2.08J_PosLight-001109</code> appears to contain the libraries used for the RSP microcode. Good stuff.<br/><br/>
 </p>
-<h2>emeralds.7z</h2>
+<h2 id="p10">emeralds.7z</h2>
 <p>
 <code>emeralds.7z</code> is a file that contains six other archives:<br/>
 <code>BOOT-DIAG.7z</code> - RVL boot diagnosis tool<br/>
@@ -487,7 +512,7 @@ Much of this documentation is stuff that we've already seen, just that it now co
 
 Given all of the verilog information from both this and previous data dumps, it might genuinely be possible to reconstruct a Nintendo Wii from scratch if given the proper resources to do so.<br/><br/>
 </p>
-<h2>platinum.7z</h2>
+<h2 id="p11">platinum.7z</h2>
 <p>
 <code>platinum.7z</code> contains seven archives:<br/>
 <code>20090512.rar</code> - iQue Wii Startup Disc<br/>
@@ -548,7 +573,7 @@ All of these tools appear to have been made in .NET Framework. I could only ever
 <img src="/assets/img/blog/gigaleak/twl_mastereditor.png"><br/><br/>
 Oh yeah, the source code to all of these tools is over in <code>TwlToolsRED/build/tools/MasterEditor/MasterEditorTWL_System/MasterEditorTWL/</code>. :3<br/><br/>
 
-<h2>generic.7z</h2>
+<h2 id="p12">generic.7z</h2>
 <p>
 <code>generic.7z</code> contained four archives:<br/>
 <code>DSiWareROM.rar</code> - Archive of Nintendo DSi data sent to iQue from Nintendo<br/>
@@ -564,7 +589,7 @@ It also came with some dummy programs. One for the Game Boy Advance and another 
 
 Other than that, there isn't too much else that's all that interesting, unless I am willing to look through every single DSiWare ROM that is in here.<br/><br/>
 </p>
-<h2>paladin.7z</h2>
+<h2 id="p13">paladin.7z</h2>
 <p>
 <code>paladin.7z</code> is a massive archive that contains the following contents:<br/><br/>
 
@@ -609,7 +634,7 @@ The file <code>DiskWriterSoftPak_ZEL.zip</code> contains the disk dump for The L
 All of those IRIS SDKs come from the development of the Nintendo DS, which was the original Game Boy Advance successor, having one screen and capable of 3D.<br/>
 <img src="/assets/img/blog/gigaleak/iris.png"><br/><br/>
 </p>
-<h2>ios-releases.tar.7z</h2>
+<h2 id="p14">ios-releases.tar.7z</h2>
 <p>
 <code>ios-releases.tar.7z</code> was a massive archive, 24 GB uncompressed, that contains a metric crap-ton of development data relating to the Wii's IOS. In large part, in contains the following:<br/>
 - Firmware images for <code>sd_boot</code><br/>
@@ -641,7 +666,7 @@ And now, an interesting list of observations amongst IOS revisions:<br/>
 - IOS 0.7 broke the filesystem API tests on NDEV systems.<br/>
 - IOS 0.6.5 added support for filesystem encryption, SD driver, an updated boot1, and better hardware initialization with help from ATI.<br/>
 </p>
-<h2>wiidump.7z</h2>
+<h2 id="p15">wiidump.7z</h2>
 <p>
 <code>wiidump.7z</code> is a file containing a lot of early Wii SDKs as well as other things.<br/><br/>
 
@@ -669,7 +694,7 @@ To start, the first <code>0x8000</code> bytes of the disc had to be stripped wit
 The other disc in <code>NUP.rar</code> is callde <code>swupdate2_SDK2.2.gcm</code> and it contains a <code>systemmenu.rvl.104.wad</code>. This appears to be a prerelease NDEV system menu that actully has a navigable menu.<br/>
 <img src="/assets/img/blog/gigaleak/systemmenu104.png"><br/><br/>
 </p>
-<h2>Documents.7z</h2>
+<h2 id="p16">Documents.7z</h2>
 <p>
 <code>Documents.7z</code> was a file that contained a lot of security-related documents and also proof of the existence of Nintendo Ninjas.<br/><br/>
 <code>CTR</code> is a folder that contains many, many screenshots of the 32c3 conference, which had a talk from derrek, plutoo, and smealum about hacking the Nintendo 3DS.<br/>
@@ -712,14 +737,14 @@ Now, this type of behavior shouldn't exactly be news to anyone. Not only is it p
 
 At the root of <code>Documents.7z</code> are some Windows BitLocker keys. Have fun with that.<br/><br/>
 </p>
-<h2>t210_t214_brom.7z</h2>
+<h2 id="p17">t210_t214_brom.7z</h2>
 <p>
 Won't go too in-depth here, but this file, released on Christmas Eve of 2020, contained the source code to the T210 "Erista" and T214 "Mariko" Tegra boot ROMs.<br/><br/>
 T210 is dated February 1st, 2018 and T214 is dated May 24, 2018. I'm not entirely sure if the Erista ROM is the patched variant or not.<br/><br/>
 NVIDIA absolutely shafted Nintendo to hell and back with their broken ROM image.<br/>
 <img src="/assets/img/blog/gigaleak/torvalds.png"><br/><br/>
 </p>
-<h2>bb2.7z</h2>
+<h2 id="p18">bb2.7z</h2>
 <p>
 Part of the unexpected 2021 leak, <code>bb2.7z</code> contained files relating to an unreleased "BroadOn Board 2," which would be a Chinese GameCube with DVD playback support.<br/><br/>
 <code>sw/nintendo/GC_IPL</code> contains, you guessed it, the source code to the GameCube IPL, both bootstages too. There's <code>BS1</code> which is written in assembly, and <code>BS2</code> which is written in C.<br/><br/>
@@ -742,7 +767,7 @@ The ALi T-Square chips that BroadOn had requested were all "Networked DVD Multim
 <code>doc/system_hw/mechanical/bb_2_f_r_panel.vsd</code> contains engineering drawings for the physical case.<br/>
 <img src="/assets/img/blog/gigaleak/bb2-shell.png"><br/><br/>
 </p>
-<h2>teru-sama_mail_2006.7z</h2>
+<h2 id="p19">teru-sama_mail_2006.7z</h2>
 <p>
 <code>teru-sama_mail_2006.7z</code> is a 2006 copy of the mail inbox of a Nintendo employee by the name of Teruki Murakawa. The mail export can be viewed in a program called "HidemaruMail."<br/>
 </p>
@@ -768,7 +793,7 @@ I cannot read Japanese, but here's a few interesting things about it, by no mean
 Some of that Wii VC lot check stuff is interesting. Nintendo of Europe seemingly handled lotchecks of those titles and would give feedback like this:<br/>
 <img src="/assets/img/blog/gigaleak/wii_lotcheck.png"><br/><br/>
 </p>
-<h2>Final Thoughts</h2>
+<h2 id="p20">Final Thoughts</h2>
 <p>
 - Internally, Nintendo was still using SVN for the longest time, maybe even up until the Wii U.<br/>
 - Nintendo really likes using source code from their previous machines in their new hardware. It's a known fact that the Nintendo Switch's OS is based on Horizon from the Nintendo 3DS.<br/>

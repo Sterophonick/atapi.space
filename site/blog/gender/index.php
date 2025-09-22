@@ -1,5 +1,13 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">What gender are you?</a></li>
+        <li><a href="#p3">Screw the rules</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: On Gender");
 
@@ -27,7 +35,7 @@ Content Warning // Politics (World), Transphobia, Slur Reclamation, Language
 </span>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
 I have changes a lot in the last three years, like, visibly so. For the better, that is. I've learned (mostly) who <i>I</i> am and what <i>I</i> want to do with that information. I largely think that I have found the elusive "real me," but am smart enough to know that it is subject to change. We are all work-in-progress after all.<br/><br/>
 
@@ -92,7 +100,7 @@ But now I offer you: some other things people told <i>me</i> they describe thems
 
 Rather empowering, is it not? There are virtually infinite ways for one to describe themself.<br/><br/>
 </p>
-<h2>What gender are you?</h2>
+<h2 id="p2">What gender are you?</h2>
 <p>
 Gender Identity: n. One's internal sense of identity. Does not inherently correlate with biological/physiological factors.<br/>
 Gender Expression: n. How one expresses themself using clothes, makeup, accessories, behavior, etc.<br/><br/>
@@ -110,7 +118,7 @@ Ask yourself the following questions:<br/>
 Ideally, these questions would be carefully examined over a long period of time. There are no right or wrong answers.<br/>
 <br/>
 </p>
-<h2>Screw the Rules</h2>
+<h2 id="p3">Screw the Rules</h2>
 <p>
 If you feel like strict labels are rather prisonic, then welcome to the club. I think there's a place for labels to have their definitions, and they work for most people. But I must say, that continuing to subjugate ourselves to rules like that almost makes it pointless. Paradoxically, it tears down existing roles and norms only to write new ones.<br/><br/>
 Here's some wonderful ideas:<br/>

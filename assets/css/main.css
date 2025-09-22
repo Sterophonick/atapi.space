@@ -255,6 +255,14 @@ code {
 
 /* copypasted from old css */
 
+yellow {
+    color: #FFFF00;
+}
+
+light-blue {
+    color: #00d2ff;
+}
+
 #scratchProject {
 border: 2px solid red;
 border-radius: 8px;

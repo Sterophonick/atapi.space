@@ -1,5 +1,29 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">My Collection</a>
+        <ul>
+            <li><a href="#p2_1">EZ-Flash I (2x)</a></li>
+            <li><a href="#p2_2">FireCard?</a></li>
+            <li><a href="#p2_3">SC microSD</a></li>
+            <li><a href="#p2_4">EZFA RT 256M</a></li>
+            <li><a href="#p2_5">FA Pro 256M</a></li>
+            <li><a href="#p2_6">FA 256M</a></li>
+            <li><a href="#p2_7">F2A Ultra 512M</a></li>
+        </ul>
+        <li><a href="#p3">FA Parallel Linker</a>
+        <li><a href="#p4">EZ2 PowerStar</a>
+        <li><a href="#p5">GBA Movie Player</a>
+        <li><a href="#p6">AVI-2-GBA</a>
+        <li><a href="#p7">Conclusion</a>
+        <ul>
+            <li><a href="#p7_1">Greetz</a>
+        </ul>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Flash2Advance-ing your Game Boy Advance");
 
@@ -12,7 +36,7 @@ Sep 9, 2025<br/>
 Category: Infodump<br/>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
     It is the early 2000s. If you were playing handheld video games at this time, you undoubtedly owned a Nintendo Game Boy Advance. You're very happy with your choice of handheld, not that there was much at the time, playing games like Mario &amp; Luigi, Fire Emblem, Pokémon, and Sonic Advance, however you longed to be able to do more with it, whether it be watching F.R.I.E.N.D.S. or listening to your Linkin Park CDs. The iPod was out at the time, but a new unit would run you a <i>spicy</i> $299 USD ($521.65 in 2025!) Additionally, your prayers of watching cartoons or movies would not be answered until 2004 with Game Boy Advance Video. You also happen to be a computer toucher who loves getting the most out of your devices at the cost of convenience. What's one to do in this predicament?<br/><br/>
 
@@ -31,7 +55,7 @@ Category: Infodump<br/>
 
 <br/>
 
-<h2>My Collection</h2>
+<h2 id="p2">My Collection</h2>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_all.jpg"><br/><br/>
 <p>
     I cannot be trusted with money.<br/><br/>
@@ -46,7 +70,7 @@ Category: Infodump<br/>
 
 <br/>
 
-<h3>128Mb EZ-Flash I (x2)</h3>
+<h3 id="p2_1">128Mb EZ-Flash I (x2)</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_bothez1.jpg"><br/><br/>
 <p>
 Two of them.<br/><br/>
@@ -59,7 +83,7 @@ LP62S2048X-70LLT 256K CMOS SRAM. It's possible that the "BVP-10" chips are cheap
 </p>
 <br/>
 
-<h3>Unknown 256Mb Flashcart (Magic Card? / FireCard?)</h3>
+<h3 id="p2_2">Unknown 256Mb Flashcart (Magic Card? / FireCard?)</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_firecard.jpg"><br/><br/>
 <p>
 I don't know what this unit's deal is. The eBay listing that I sniped it from labelled it as a "SuperCard," which is not remotely true. It also advertises a capacity of 256Mb, which might be true, but FlashGBX only detects 64Mb. On top of all that, that "USB" label on the front is a complete lie, the cable that I received with this cartridge is actually a parallel port cable.<br/>
@@ -70,7 +94,7 @@ Anyway, on the inside of this has a flash chip labeled <code>M6MGJ927</code> and
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_firecard_pcbb.jpg"><br/><br/>
 </p>
 
-<h3>SuperCard microSD</h3>
+<h3 id="p2_3">SuperCard microSD</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_supercard.jpg"><br/><br/>
 <p>
 This unit is a cheap clone of previous SuperCard SD units that I picked up on AliExpress for $10 USD. It operates on the same protocol as those units, though, and so the maximum microSD card size that we get is 2GB. There isn't really much of note here about this cartridge, other than the fact that it sucks. I have hardly gotten any games to boot on it, and the ones that do express annoying incompatibilities such as flickering graphics or crashes. The software has to screw with cartridge waitstate timings on your ROM files which is probably destructive for many games.<br/><br/>
@@ -78,7 +102,7 @@ This unit is a cheap clone of previous SuperCard SD units that I picked up on Al
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_supercard_pcbb.jpg"><br/><br/>
 </p>
 
-<h3>EZF-Advance Realtime 256M</h3>
+<h3 id="p2_4">EZF-Advance Realtime 256M</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_ezf.jpg"><br/><br/>
 <p>
 I don't have the serial cable that was used for this one, but there exists a Nintendo DS program for writing to it, so maybe it can be ported to FlashGBX. An interesting oddity about this one is how the SRAM is located under the battery instead of the CPLD, unlike every other cartridge I own. The CPLD also has the markings removed from it, can't really tell if it was done mechanically or chemically. The two flash chips are marked with <code>29PL12LM-10PCN</code>, which I couldn't really find concrete information on.<br/><br/>
@@ -86,7 +110,7 @@ I don't have the serial cable that was used for this one, but there exists a Nin
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_ezf_pcbb.jpg"><br/><br/>
 </p>
 
-<h3>FlashAdvance Pro 256M</h3>
+<h3 id="p2_5">FlashAdvance Pro 256M</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_fap256m.jpg"><br/><br/>
 <p>
 There isn't really much to write home about with for this cartridge, but it's worth noting that FlashGBX reads this, reporting its two <code>28F128J3A150</code> flash memories. It's good to have PCB photographs anyway.<br/><br/>
@@ -94,7 +118,7 @@ There isn't really much to write home about with for this cartridge, but it's wo
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_fap256m_pcbb.jpg"><br/><br/>
 </p>
 
-<h3>Flash2Advance 256M</h3>
+<h3 id="p2_6">Flash2Advance 256M</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_f2a256m.jpg"><br/><br/>
 <p>
 Interesting amount of flash chips, coming it at 8x <code>3204C3B100</code> flash memories.<br/><br/>
@@ -102,7 +126,7 @@ Interesting amount of flash chips, coming it at 8x <code>3204C3B100</code> flash
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_f2a256m_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_f2a256m_pcbb.jpg"><br/><br/>
 </p>
 
-<h3>Flash2Advance Ultra 512M</h3>
+<h3 id="p2_7">Flash2Advance Ultra 512M</h3>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/collection_f2a512m.jpg"><br/><br/>
 <p>
 This time coming with four <code>28F128J3A15</code> memories instead of two, we also get these couple of extra buttons on the top of the cartridge. These were the called "Die Hard" buttons which supposedly allowed for loading save states, and the F2A team had even released patches for games like Super Mario Advance that took advantage of this feature, but I've never actually been able to get it to work. Maybe my cartridge is busted, or it needs the WinF2A loader, which I can't use without the official linker. We can write to this cartridge using FlashGBX if we select the option for the 256M Flash2Advance cartridge that uses the same flash chips, but forcing the ROM size to have a maximum of 64MiB.<br/><br/>
@@ -110,7 +134,7 @@ This time coming with four <code>28F128J3A15</code> memories instead of two, we 
 <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_f2a512m_pcbf.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/collection_f2a512m_pcbb.jpg"><br/><br/>
 </p>
 
-<h2>FlashAdvance Parallel Linker</h2>
+<h2 id="p3">FlashAdvance Parallel Linker</h2>
 <p>
 This one was an absolute nightmare to get working due to it operating on the Parallel port interface. It was certainly a process that involved a ThinkPad T30 graphics chipset dying, and the manual refurbishing of a Dell Latitude with a Pentium III.<br/><br/>
 
@@ -147,7 +171,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
 <br/>
 
-<h2>EZ-Flash II PowerStar</h2>
+<h2 id="p4">EZ-Flash II PowerStar</h2>
 <p>
     The most expensive item in my collection, purchased primarily because EZ-Flash themselves have lost the source code and verilog (I asked them directly) to everything before the EZ-Flash III. I own two (LATER UPDATE) EZ-Flash I 128mbit cartridges, which can only be written by this specific linker, the EZ-Writer. Thankfully, though, this linker operates over USB, which I <i>can passthrough</i> to Virtual Machines, saving me a headache and a half.<br/><br/>
 
@@ -312,7 +336,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
 <br/>
 
-<h2>GBA Movie Player</h2>
+<h2 id="p5">GBA Movie Player</h2>
 <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/gbamp1.jpg"><br/><br/>
 <p>
     This cartridge was released in, I wanna say around late 2003? Exact information on it like that is really scarce.<br/><br/>
@@ -446,7 +470,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
 <br/>
 
-<h2>Meteo AVI-2-GBA</h2>
+<h2 id="p6">Meteo AVI-2-GBA</h2>
 <p>
 I have a long history with this one.<br/>
 <img loading="lazy" src="/assets/img/blog/flash2advance/meteo1.png"><br/><br/>
@@ -596,14 +620,14 @@ The bottom line? It's doable but there are many, many asterisks behind that sing
 
 <br/>
 
-<h2>Conclusion</h2>
+<h2 id="p7">Conclusion</h2>
 <p>
     So that's pretty much all that I have to show on the side of hardware and dedicated multimedia applications, but there's one much bigger beast that I want to show off. But this blog post is already getting too long, so I'm gonna do a part 2.
 </p>
 
 <br/>
 
-<h3>Greetz</h3>
+<h3 id="p7_1">Greetz</h3>
 <p>Lesserkuma for FlashGBX and supporting Flash2Advance/FlashAdvance cards with it.</p>
 <p>EZ-Flash for sticking around and making cartridges.</p>
 <p>Archaemic for EZF Advance protocol documentation.</p>
