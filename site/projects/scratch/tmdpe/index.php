@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            This game was made with heavy inspiration to the "The Guy!" warp zone in Super Meat Boy, which is the hardest warp zone in the game due to being based on I Wanna Be The Guy.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: The Most Difficult Platformer Ever!");
 

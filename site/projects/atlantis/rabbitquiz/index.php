@@ -1,5 +1,17 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            The Rabbit Quiz was made for a "Project Science" class in middle school, where we had a couple of lovely bet bunnies. I never got the Game Boy Advance version finished in time for the actual presentation (I was struggling with how loops worked in C), so I had to remake it in Scratch. The Scratch version has since been lost to time.<br/><br/>
+            
+            There exists one image of the rabbits, which has been crunched to fit a Game Boy Advance screen. The kit was named "Oreo" and the adult was named "Mamas."<br/>
+            <img width="229px" src="/assets/img/projects/gba/misc/bunnies.png" alt="A couple of oreo-colored rabbits in their cage. Mamas is nuzzling oreo.">
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: Rabbit Quiz Advance");
 

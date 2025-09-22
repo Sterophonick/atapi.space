@@ -34,6 +34,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
 }
 
 .boxConstraint {
@@ -126,10 +130,16 @@ p {
 /* footer definitions */
 #footer {
     text-align: center;
-    margin-top: 10px;
+    margin-top: auto;
     border-top: 3px solid red;
     background: url('/assets/img/global/weave.png');
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-size: auto;
+    flex-shrink: 0;
+    
+
 }
 
 /* page main layout definitions */
@@ -140,6 +150,14 @@ code {
     background-color: black;
     padding: 1px 4px;
     border-radius: 6px;
+}
+
+#pageSidebar img {
+    max-width: 229px;
+}
+
+#postContent {
+    margin-bottom: 10px;
 }
 
 #postContent img, #postContent video {
@@ -270,4 +288,11 @@ font-size: 13pt;
 
 .zeroFont {
     font-size: 0pt;
+}
+
+.sideFunFact {
+    text-align: center;
+    p {
+        font-size: 13pt;
+    }
 }

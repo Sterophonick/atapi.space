@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            In fifth grade, we did stuff every day called "Daily Math Skills," which was basically a shit of paper where we would solve a bunch of simple arithmetic equations within two minutes.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Automatic Daily Math Skills Practice");
 

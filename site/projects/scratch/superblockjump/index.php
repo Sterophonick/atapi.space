@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            The fake loading screen was made as an attempt to let Adobe Flash settle once the page was loaded. If memory serves, the game was unbelievably slow when playing if you didn't do this.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Super Block Jump (Scratch Original)");
 

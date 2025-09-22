@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            This was created because I ran out of space for levels, Scratch has a 50MB limit. The Game Boy Advance version has almost all the levels in the original, and 2, and some levels from the Dark World, in less than 6 MB.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Super Block Jump 2");
 
