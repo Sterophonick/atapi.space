@@ -1,5 +1,16 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">YARG</a></li>
+        <li><a href="#p3">Songs and CONs</a></li>
+        <li><a href="#p4">Input and Hardware</a></li>
+        <li><a href="#p5">Venues</a></li>
+        <li><a href="#p6">Closing Thoughts</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Adventures in Rock Band on Linux");
 
@@ -12,7 +23,7 @@ March 27, 2025<br/>
 Category: Project<br/>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
 I played a bit of Rock Band with my family as a kid. I didn't pay much attention to it thought, you know. We mostly played LEGO Rock Band because it was more kid-friendly, with a "cleaner" song selection and a No-Fail mode. Then life got busy for about and fast forward to now, where it had been about ten years since we last played. I hadn't missed it up until recently, where I spent an evening at a friend's flat, and she has this fancy studio-grade MIDI drum kit attached to an Xbox 360 with a fancy MIDI-to-XInput adapter made specifically for Rock Band 3. I believe the drum kit was an Alesis Nitro Mesh.<br/><br/>
 </p>
@@ -21,7 +32,7 @@ I played a bit of Rock Band with my family as a kid. I didn't pay much attention
 Anyway, she also had this whole collection of guitars and that weird keyboard instrument, all made for a Rock Band 3 setup on her (unmodded) Xbox 360, complete with all sorts of custom tracks. We played songs like Cat Food by King Crimson, KOMM, SUSSER TOD from The End of Evangelion, Snow Halation from Love Live!, the uncensored version of Sir Psycho Sexy by Red Hot Chili Peppers, and my personal favorite, Live & Learn by Crush 40. It was an amazing night and I had forgetten how much fun Rock Band actually was with a group of people.<br/><br/>
 It really got me thinking of ways to replicate a setup that would allow me to play Rock Band with my family just like how I did as a wee one. A bit of asking around and Googling led me to this little game called YARG, or <i>Yet Another Rhythm Game</i>, and down the rabbit hole I went.<br/><br/>
 </p>
-<h2>Yet Another Rhythm Game</h2>
+<h2 id="p2">Yet Another Rhythm Game</h2>
 <p>
 A rather tongue-in-cheek name, but it's a <a href="https://github.com/YARC-Official/YARG">free and open-source</a> game for Windows, macOS, and Linux that aims to basically port Rock Band to PC.<br/><br/>
 Anyway, YARG, right, it looks like this in practice:<br/>
@@ -40,7 +51,7 @@ The song selection is very reminiscent of the Rock Band titles as well, which is
 <img width="720px" src="/assets/img/blog/yarg/yarg_selection.png"><br/><br/>
 So, first thoughts are that YARG shows some great promise for those wanting to play all of their Guitar Hero and Rock Band charts!<br/><br/>
 </p>
-<h2>Songs and CONs</h2>
+<h2 id="p3">Songs and CONs</h2>
 <p>
 YARG ships with a good amount of tracks on its own, from some lovely artists like <i>Used to Be Valenties</i> and <i>Nine Inch Nails</i>, but we're here to focus on bringing our tracks from Rock Band to PC.<br/><br/>
 The game is compatible with Clone Hero charts and Rock Band 3 CONs. Reading this at first, I was confused as to what a CON was, until I started examining ones that I found on RhythmVerse. Turns out that a CON is basically just an Xbox 360 STFS package containing a track for Rock Band, usually used with Rock Band 3, in fact the fan-made ones are in the exact same format as what Harmonix distributed on the Xbox LIVE Marketplace.<br/>
@@ -65,7 +76,7 @@ There was one track, that being <i>The Distance</i> by CAKE, which was distribut
 <small>Cake - The Distance (Fashion Nugget), Chart by TheSpike/Nyxyxylyth</small><br/><br/>
 At some point I do wanna learn to make my own charts so that I can make people play along to silly SiIvaGunner tracks. :3<br/><br/>
 </p>
-<h2>Input and Hardware</h2>
+<h2 id="p4">Input and Hardware</h2>
 <p>
 This one's probably the most troublesome with YARG on Linux, mostly because Unity's input system is straight-up busted over here. Xbox 360 peripherals do not work out of the box and you *have* to use Steam in order for it to be usable.<br/><br/>
 YARG is capable of accepting MIDI devices, audio devices and SDL2 devices under Linux. Steam Input will properly expose input devices as SDL2 gamepads named "Steam Virtual Gamepad."<br/><br/>
@@ -87,15 +98,15 @@ The bottom line though, it can be done. There's just a lot of hoops to jump thro
 
 For vocals, it's all pretty straightforward. Any wired or Bluetooth microphone will work just fine, including ones made specifically for Rock Band.<br/><br/>
 </p>
-<h2>Venues</h2>
+<h2 id="p5">Venues</h2>
 <p>
 YARG has support for what are called "Venues," which are little Unity scenes made to behave as a background. They can have animated environments and characters as well, so some talented folks can recreate background scenes like those seen in Rock Band.<br/>
 There's a catch though on Linux, and it's that most of the Venues you find only have shaders made for Direct3D 11, whereas on Linux, we only have OpenGL and Vulkan. This causes incompatible scenes to render as mostly magenta. You need to be careful about what venues you have installed.<br/>
 <img width="720px" src="/assets/img/blog/yarg/yarg_broken_shader.png"><br/><br/>
 A good fallback option is to render WEBMs of scenes from Fortnite Festival or Rock Band, and they get the job done.<br/><br/>
 </p>
-<h2>Closing thoughts</h2>
-<div style="width:65%; margin:auto; text-align:left">
+<h2 id="p6">Closing thoughts</h2>
+<div style="width:85%; margin:auto; text-align:left">
 <ul>
 <li>Unity's input system is an absolute travesty under Linux.</li>
 <li>YARG is great, but it's missing the bit of flair that RB3 does. I wonder if it's possible to do that in the future?</li>
