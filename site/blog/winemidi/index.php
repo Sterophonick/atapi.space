@@ -1,5 +1,16 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">Step 1</a></li>
+        <li><a href="#p3">Step 2</a></li>
+        <li><a href="#p4">Step 3</a></li>
+        <li><a href="#p5">Step 4</a></li>
+        <li><a href="#p6">Step 5</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Enabling MIDI Support for Legacy WINE Gaming");
 
@@ -12,14 +23,14 @@ February 8, 2025<br/>
 Category: Tutorial<br/>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
 You ever try playing a game that was made for Windows a good 20-30 years ago on Linux or your Steam Deck, only to find out that the music is completely missing?<br/><br/>
 Believe it or not, it's not a WINE deficiency. Most Linux desktops don't automatically have a MIDI emulation server running unlike Windows. Here's how to fix it!<br/><br/>
 <span style="color: #4FFF4F;">Steam Deck and Bazzite specific instructions will be highlighted in green!</span><br/><br/>
 This guide also assumes that you're running your games through Steam!<br/><br/>
 </p>
-<h2>Step 1: Acquire Qsynth</h2>
+<h2 id="p2">Step 1: Acquire Qsynth</h2>
 <p>
 Firstly, we'll need to actually get a working MIDI server, Qsynth works the best. Fetch it from your package manager either by the GUI of your choice or by the command of your choice.<br/><br/>
 Arch Linux: <code>sudo pacman -S qsynth</code><br/>
@@ -28,12 +39,12 @@ Fedora Linux: <code>sudo dnf install qsynth</code><br/><br/>
 <span style="color: #4FFF4F;">Steam Deck / Bazzite: You can either execute <code>flatpak install org.rncbc.qsynth</code> or install it through Discover.<br/></span>
 <img width="512px" src="/assets/img/blog/winemidi/discover.png"><br/><br/>
 </p>
-<h2>Step 2: Acquire the Windows GM Synth Soudnfont</h2>
+<h2 id="p3">Step 2: Acquire the Windows GM Synth Soudnfont</h2>
 <p>
 Download <a href="https://musical-artifacts.com/artifacts/713/gm.sf2">this soundfont</a> and place it in a spot you think is appropriate.<br/><br/>
 This is important to provide the server with actual instruments for it to play.<br/><br/>
 </p>
-<h2>Step 3: Configuring Qsynth</h2>
+<h2 id="p4">Step 3: Configuring Qsynth</h2>
 <p>
 Open Qsynth.<br/>
 <img width="512px" src="/assets/img/blog/winemidi/qsynth1.png"><br/><br/>
@@ -53,7 +64,7 @@ Set <code>Enable system tray icon</code> and <code>Start minimized to system tra
 
 You're now finished configuring QSynth.
 </p>
-<h2>Step 4: Configuring Steam</h2>
+<h2 id="p5"'>Step 4: Configuring Steam</h2>
 <p>
 Open Steam. Locate your game inside of Steam. In my case it's a non-Steam shortcut but it also works with Steam games.<br/>
 <img width="512px" src="/assets/img/blog/winemidi/steam1.png"><br/><br/>
@@ -70,7 +81,7 @@ In the launch options section, you want to set the following:<br/>
 </span>
 <img width="512px" src="/assets/img/blog/winemidi/steam4.png"><br/><br/>
 </p>
-<h2>Step 5: that is it</h2>
+<h2 id="p6">Step 5: that is it</h2>
 <p>
 You are done. Your game's music should now work correctly. play now for free vbuck<br/><br/>
 </p>

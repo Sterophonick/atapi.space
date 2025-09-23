@@ -1,5 +1,13 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">The Device</a></li>
+        <li><a href="#p2">Dumping It</a></li>
+        <li><a href="#p3">Emulating It</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Dumping a Piece of Crap");
 
@@ -12,7 +20,7 @@ Sep 1, 2025<br/>
 Category: Project<br/>
 </p>
 <br />
-<h2>The Device</h2>
+<h2 id="p1">The Device</h2>
 <p>
 In 2020, my family and I went on a trip to a Round1 for my birthday. From all the tickets that I won, I was able to purchase a piece-of-crap handheld game console called the "Throwback Pocket Video Game Console", powered by a small microcontroller and coming with 153 different games. Five years on, I still have it, for better or worse. It's a neat little device as part of a collection of bootlegs, the fact that many sprites and most of the music is straight-up plagiarized is just a nice bonus to poke and laugh at.<br/>
 <img width="360px" src="/assets/img/blog/throwbck/cons1.jpg"> <img width="360px" src="/assets/img/blog/throwbck/cons2.jpg"><br/><br/>
@@ -24,7 +32,7 @@ Anyway, this machine is one of many various machines all in the same line of pro
 
 <br/>
 
-<h2>Dumping it</h2>
+<h2 id="p2">Dumping it</h2>
 <p>
     This thing is ugly. Scruffy, even. You remove the four screws on the back of the unit, only to find wires that connect directly to the battery terminals that go onto the front-side of the board. You then have to delicately remove two more screws to actually access the main board, because on this side, there's literally nothing.<br/>
     <img width="720px" src="/assets/img/blog/throwbck/dis1.jpg"><br/><br/>
@@ -55,7 +63,7 @@ Anyway, this machine is one of many various machines all in the same line of pro
 
 <br/>
 
-<h2>Emulating it</h2>
+<h2 id="p3">Emulating it</h2>
 <p>
     Up next was to test the new dump using MAME. The closest matching machine would be the Supreme 150 Arcade Classics handheld (ROM set: <code>supreme</code>), as it had pretty much the same game set, and an intro screen like the Throwback.<br/>
     <img width="320px" class="pixelArt" src="/assets/img/blog/throwbck/supreme1.png"><img width="320px" class="pixelArt" src="/assets/img/blog/throwbck/supreme2.png"><br/><br/>

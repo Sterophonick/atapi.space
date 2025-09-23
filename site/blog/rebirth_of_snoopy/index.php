@@ -1,5 +1,16 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">The Disk Image</a></li>
+        <li><a href="#p2">Raw Boot</a></li>
+        <li><a href="#p3">MergeIDE</a></li>
+        <li><a href="#p4">Disk2VHD</a></li>
+        <li><a href="#p5">Hiren's BootCD</a></li>
+        <li><a href="#p6">It's Alive!</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Rebirth of SNOOPY");
 
@@ -9,14 +20,14 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Rebirth of SNOOPY");
 <p>Dumb and Dumber<br/></p><br/>
 <p>
 July 24, 2025<br/>
-Category: Infodump<br/>
+Category: Project<br/>
 <span style="color: yellow">
 Content Warning // Language
 </span>
 </p>
 <br />
 
-<h2>The Disk Image</h2>
+<h2 id="p1">The Disk Image</h2>
 <p>
     As wee one, my main computer was a Dell Dimension 4550 running Windows XP Service Pack 3. It was a hand-me-down from my dad, who, somewhere between 2010 and 2011, upgraded to a machine running Windows 7. It came with an Intel Pentium 4 SL6S2 operating at 2524 MHz, 1 GB of RAM, a 60 GB hard disk with a 250GB secondary drive, an NVIDIA GeForce 6200, and a SoundBlaster Audigy 2 ZS.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/machine.jpg"><br/><br/>
@@ -31,7 +42,7 @@ Content Warning // Language
 
 <br/>
 
-<h2>Raw Boot</h2>
+<h2 id="p2">Raw Boot</h2>
 <p>
     The first thing that I tried was to just, create a new virtual machine and mount the image. In QEMU/KVM, I created the VM and mounted the disk image as IDE. Try a boot and....<br/>
     <img src="/assets/img/blog/rebirth_of_snoopy/bsod1.png"><br/><br/>
@@ -45,7 +56,7 @@ Content Warning // Language
 
 <br/>
 
-<h2>MergeIDE</h2>
+<h2 id="p3">MergeIDE</h2>
 <p>
     At the start of my search, I came across this name over and over.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/forum1.png"><br/>
@@ -91,7 +102,7 @@ Content Warning // Language
 
 <br/>
 
-<h2>Disk2VHD</h2>
+<h2 id="p4">Disk2VHD</h2>
 <p>
     Disk2VHD was another name that repeatedly came up, as well as in a YouTube tutorial. It's a tool from SysInternals that's now under Microsoft, used to make a VHD image out of a physical disk on a Windows machine. This next approach unfortunately meant I needed to create a new Windows virtual machine in order to do it.<br/><br/>
 
@@ -130,7 +141,7 @@ Content Warning // Language
 
 <br/>
 
-<h2>Hiren's BootCD</h2>
+<h2 id="p5">Hiren's BootCD</h2>
 <p>
     More and more digging on page 2, 3 even of Google (I know, the depths) leads me to <a href="https://superuser.com/questions/1741848/im-using-disk2vhd-and-virtualbox-how-do-i-disable-windows-xp-ide-checks-so-tha">this thread</a> on Super User. The user has the exact same problem as I do, with nearly identical error codes. The first response tells me what I've already tried and failed to do, but the second response, the one -1 points, shows me something new. "Hiren's BootCD," specifically old versions that contain a script called <code>fix_hdc.cmd</code>.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/superuser.png"><br/><br/>
@@ -156,7 +167,7 @@ Content Warning // Language
     <i><b><u>holy shit.</u></b></i><br/><br/><br/>
 </p>
 
-<h2>It's Alive!</h2>
+<h2 id="p6">It's Alive!</h2>
 <p>
     As expected, the machine required reactivation since it was operating on essentially a completely new configuration.<br/>
     <img width="720px" src="/assets/img/blog/rebirth_of_snoopy/winxp2.png"><br/><br/>

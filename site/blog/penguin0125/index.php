@@ -1,5 +1,36 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">Game Compatibility</a></li>
+        <ul>
+            <li><a href="#p2_1">Wall of Shame</a></li>
+            <li><a href="#p2_2">Guidelines</a></li>
+        </ul>
+        <li><a href="#p3">Input Devices</a></li>
+        <ul>
+            <li><a href="#p3_1">Xbox Controllers</a></li>
+            <li><a href="#p3_2">Nintendo Switch</a></li>
+            <li><a href="#p3_3">PlayStation</a></li>
+            <li><a href="#p3_4">Google Stadia</a></li>
+            <li><a href="#p3_5">DolphinBar</a></li>
+            <li><a href="#p3_6">Other Notes</a></li>
+        </ul>
+        <li><a href="#p4">VR Support</a></li>
+        <li><a href="#p5">Handhelds</a></li>
+        <ul>
+            <li><a href="#p5_1">Steam Deck</a></li>
+            <li><a href="#p5_2">Legion Go</a></li>
+            <li><a href="#p5_3">ROG ALLY X</a></li>
+            <li><a href="#p5_4">Others</a></li>
+        </ul>
+        <li><a href="#p6">Hardware Support</a></li>
+        <li><a href="#p7">Modding</a></li>
+        <li><a href="#p8">Conclusion</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: The State of Linux Gaming (as of January 2025)");
 
@@ -12,7 +43,7 @@ Jan 10, 2025<br/>
 Category: Infodump<br/>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
 Gaming on Linux systems has made incredible strides in the last several years, most recently thanks to machines like the Steam Deck, providing customers with an almost seamless Steam gaming experience on a dockable handheld game console.<br/><br/>
 Since CES is just wrapping up, I figure I'd round up the current state of gaming on Linux systems, at least from my point of view.<br/><br/>
@@ -20,10 +51,10 @@ I'll be covering things like game compatibility, modding, input devices, handhel
 My main machine is a Steam Deck OLED but I'll be making sure to go over things on my laptop as well.<br/><br/>
 The article is also mainly made for people who already know what a Linux is (I'm terrible at dumbing down topics like this).<br/><br/>
 </p>
-<h2>Game Compatibility</h2>
+<h2 id="p2">Game Compatibility</h2>
 <p>
 Most games work fine. Keyword being most. There are still a handful of games that just behave oddly under WINE or Proton.<br/><br/>
-<h3>Odd Game Wall of Shame</h3>
+<h3 id="p2_1">Odd Game Wall of Shame</h3>
 <p>
 - The intro video for Max Payne still shows a black screen.<br/>
 - The intro video for LEGO Racers is potentially unstable.<br/>
@@ -41,7 +72,7 @@ Notice how most of the games that I list here are older titles or just plain "od
 That list is also nowhere remotely comprehensive, just things that I've observed recently.<br/><br/>
 </p>
 
-<h3>General Guidelines for Playing</h3>
+<h3 id="p2_2">General Guidelines for Playing</h3>
 <p>
 Brand new AAA releases for Windows sometimes have issues with certain Win32/WinRT functions being implemented, however. It's a good idea to make sure you have confirmation that the game you want to play is working.<br/>
 Good examples of this case are <i><a href="https://gitlab.winehq.org/wine/wine/-/merge_requests/1145">Persona 5 Royal</a></i> and <i><a href="https://gitlab.winehq.org/wine/wine/-/merge_requests/6977">Indiana Jones and the Great Circle</a></i>.<br/><br/>
@@ -66,72 +97,72 @@ Be weary of games that use third party launchers such as Ubisoft Connect or EA A
 </p>
 <br/>
 </p>
-<h2>Input Devices</h2>
+<h2 id="p3">Input Devices</h2>
 <p>
 Most controllers will work just fine in Linux, even over Bluetooth. Steam even supports a lot of these controllers in Steam Input.<br/><br/>
 
-<h3>Xbox 360 / Xbox One / Xbox Series X/S</h3>
+<h3 id="p3_1">Xbox 360 / Xbox One / Xbox Series X/S</h3>
 <p>
 Over wired connections, Xbox controllers should be working fine with no problems.<br/><br/>
 Xbox One and Xbox Series X/S controllers require a firmware update in order to function properly over Bluetooth. This can be done in Windows by way of the <a href="https://apps.microsoft.com/detail/9nblggh30xj3?hl=en-us&gl=US">Xbox Accessories App</a> or by using an Xbox Console on its own.<br/><br/>
 I found that actually pairing the controller was really inconsistent, but it worked after a handful of attempts.<br/><br/>
 The signal would sometimes drop out and so what I think is happening is that the legacy <code>xpad</code> driver is just not suited to these newer controllers. We likely need to be working with xpadneo or xone to properly support these controllers.<br/><br/>
 </p>
-<h3>Nintendo Switch Pro Controller / Joy-Cons</h3>
+<h3 id="p3_2">Nintendo Switch Pro Controller / Joy-Cons</h3>
 <p>
 The Linux kernel has made huge strides in supporting these controllers in the last couple of years with the <code>hid-nintendo</code> module. However, I would greatly advise against using these controllers over Bluetooth, as the controllers are plainly just unstable. Their readings drop out sporadically and the signal degrades from a distance. This is not a Steam-specific issue, it's either a kernel issue or a Bluetooth server issue.<br/><br/>
 </p>
-<h3>DualShock 4 / DualSense</h3>
+<h3 id="p3_3">DualShock 4 / DualSense</h3>
 <p>
 No real notes to report. The controllers pair and work as you'd expect and perform extremely well over Bluetooth.<br/><br/>
 Do be mindful that the touchpad is always registered as a mouse, causing clashes with Steam Input. SteamOS ships a service called <code>ds-inhibit</code> that suppresses them in Game Mode, but this isn't as accessible on Desktops and Laptops. You can install the service yourself, or you can just disable touchpads in your Desktop enviornment when you want to play a game.<br/><br/>
 </p>
-<h3>Google Stadia</h3>
+<h3 id="p3_4">Google Stadia</h3>
 <p>
 When Google killed off Stadia, they released a WebUSB tool to <a href="https://stadia.google.com/controller/">reprogram the firmware on Stadia controllers</a> so that they could become standard Bluetooth gamepads.<br/><br/>
 These work fine in Linux and SDL2, being exposed as generic gamepads to Steam. They pair fine and work well in Steam.<br/><br/>
 
 Only real problem is that they don't seem to re-connect automatically after disconnection. You have to initiate the connection with your PC before it's able to properly handshake. Really annoying.<br/><br/>
 </p>
-<h3>MayFlash DolphinBar</h3>
+<h3 id="p3_5">MayFlash DolphinBar</h3>
 <p>
 This works pretty good but can cause problems when used with Steam. To use with Dolphin added to Steam, you need to add this line towards the bottom of your Steam <code>config.vdf</code>:<br/>
 <code>"controller_blacklist" "57e/0306,57e/0306,57e/0306,57e/0306"</code><br/><br/>
 </p>
-<h3>Other Notes</h3>
+<h3 id="p3_6">Other Notes</h3>
 <p>
 Depending on the version of SDL that Steam has loaded, extra controllers are exposed as either <code>Steam Virtual Gamepad</code> or the actual physical SDL name. This varies from app to app, especially with Flatpak.<br/><br/>
 
 As of writing this, Steam Input has a bug that causes controller ordering in SDL2 to be flipped. This only happens with Non-Steam games seemingly. Why is this a problem? You guys don't do enough quality assurance, this should not be a problem in the Stable channel!<br/><br/>
 </p>
 </p>
-<h2>VR Support</h2>
+<h2 id="p4">VR Support</h2>
 <p>
 VR Support has gotten decently better in the last few years, but it's still full of hoops to jump through.<br/><br/>
 For example, you cannot use an Oculus Quest over the network in purely SteamVR. You must use ALVR to trick it, and that requires you register with daddy Zucc to sideload the ALVR APK onto your Quest.<br/><br/>
 Most of the obscure HMDs likely won't work.<br/><br/>
 PlayStation VR2 requires a Windows-specific app to function with SteamVR. Very hard no on this ever working with SteamVR for Linux.<br/><br/>
 </p>
-<h2>Handhelds</h2>
+<h2 id="p5">Handhelds</h2>
 <p>
-<h3>Steam Deck LCD / OLED</h3>
+<h3 id="p5_1">Steam Deck LCD / OLED</h3>
 <p>
 So long as you use SteamOS, you'll be fine for the most part. It's just really out of date and inflexible for Computer Touchers. Bazzite works fine on the Steam Deck LCD, but there are a couple of issues still on Steam Deck OLED.<br/><br/>
 </p>
-<h3>Lenovo Legion Go</h3>
+<h3 id="p5_2">Lenovo Legion Go</h3>
 <p>
 A lot of work had to go into it, but so long as you use Bazzite, you'll be in good hands. With Bazzite, you get options for emulating controllers like the HORI Steam Controller or DualSense Edge, you get power options, you get BtrFs support on SD Cards AND the home partition, it's just a great image for these handhelds.<br/><br/>
 </p>
-<h3>ROG Ally X</h3>
+<h3 id="p5_3">ROG Ally X</h3>
 <p>
 Much of the same for the Legion Go.<br/><br/>
 </p>
-<h3>Other handhelds</h3>
+<h3 id="p5_4">Other handhelds</h3>
 <p>
 Bazzite supports many of these handhelds, from vendors such as AYANEO, GPD, AYN, and MSI. The bazzite handheld wiki can be found <a href="https://docs.bazzite.gg/Handheld_and_HTPC_edition/Handheld_Wiki/">here</a>.<br/><br/>
 </p>
 </p>
-<h2>Hardware Support</h2>
+<h2 id="p6">Hardware Support</h2>
 <p>
 AMD support is as good as it's always been. In fact, RADV might be <i>too accurate</i> of a Vulkan implementation as I've seen many titles lately get fixes specifically for the purpose of working around game bugs.<br/><br/>
 NVIDIA proprietary drivers are as annoying as they've always been. Thankfully, NVK is coming along and becoming decently mature. Hopefully one day, we'll be able to ditch the proprietary drivers for good.<br/><br/>
@@ -142,7 +173,7 @@ Proprietary eGPU connectors such as the one on the ASUS ROG Ally will probably n
 
 Nothing to really comment on Intel.<br/><br/>
 </p>
-<h2>Modding</h2>
+<h2 id="p7">Modding</h2>
 <p>
 Modding is still a dumpster fire at times, primarily because everyone making mod loaders uses Microsoft .NET and it's so commonly a dumpster fire in WINE, especially when dealing with 64-bit stuff.<br/><br/>
 
@@ -162,7 +193,7 @@ For Lethal Company, I didn't even bother trying to use Thunderstore and instead 
 
 The bottom line: it can be done. You <i>really</i> don't need stupid apps like Bottles to maintain your mod loaders, using Protontricks and booting the mod managers in the Steam prefixes belonging to the games you're modding is enough. Some mod loaders just plain will not work and I mostly blame .NET in these instances. Stop using it.<br/><br/>
 </p>
-<h2>Conclusion</h2>
+<h2 id="p8">Conclusion</h2>
 <p>
 To summarize, we've made many, many strides in this field. It's honestly incredible.<br/><br/>
 

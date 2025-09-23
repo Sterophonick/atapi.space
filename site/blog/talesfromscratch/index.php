@@ -1,5 +1,26 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Machine #1</a></li>
+        <li><a href="#p2">BeyBlade</a></li>
+        <li><a href="#p3">Fisher-Price EasyLink</a></li>
+        <li><a href="#p4">Dig Dug on Fupa</a></li>
+        <li><a href="#p5">ChromaDepth 3D</a></li>
+        <li><a href="#p6">Beginning of Scratch</a></li>
+        <li><a href="#p7">Disappearing Data Bug</a></li>
+        <li><a href="#p8">eggman15</a></li>
+        <li><a href="#p9">SBJ Plagiarism</a></li>
+        <li><a href="#p10">Machine #2</a></li>
+        <li><a href="#p11">SBJ Wiki</a></li>
+        <li><a href="#p12">"The Forest Cafe"</a></li>
+        <li><a href="#p13">Nesbox Emulator</a></li>
+        <li><a href="#p14">WINE Blunders</a></li>
+        <li><a href="#p15">Flashcart Haribo</a></li>
+        <li><a href="#p16">Frontlight Spidering</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader(" Tales from the Computery Nonsense Folder");
 
@@ -12,7 +33,7 @@ Folder</h2>
 <p>This page kinda serves as me rambling on about things that happened on Scratch and other computery
 tomfoolery that I did when I was really young.</p>
 <br />
-<h2>The Specs of Machine #1</h2>
+<h2 id="p1">The Specs of Machine #1</h2>
 <p>Dell Dimension 4550</p>
 <p>Intel Northwood Pentium 4 SL6S2 @2524 MHz <a
 href="https://www.cpu-world.com/sspec/SL/SL6S2.html">(CPU-World Page)</a></p>
@@ -30,12 +51,12 @@ href="https://www.cpu-world.com/sspec/SL/SL6S2.html">(CPU-World Page)</a></p>
 60 GB drive, which took around 12 hours to complete, finishing at around 2:20 AM. That image was
 eventually copied to a home server, taking ANOTHER 12 hours, where it resides to this day.</p>
 <br />
-<h2>BeyBlade</h2>
+<h2 id="p2">BeyBlade</h2>
 <p>One of the earlier games I played on that machine was that online BeyBlade game by Hasbro. Remember
 BeyBlades?? <img src="/assets/img/smileys/rofl.gif"></p>
 <p>It's a small footnote, just deserved to be mentioned.</p>
 <br />
-<h2>Fisher-Price EasyLink</h2>
+<h2 id="p3">Fisher-Price EasyLink</h2>
 <p>This was when I was <i>really</i> young. My mother had bought me a Fisher-Price EasyLink, which was this
 children's toy that connected to a Windows PC, this machine be a Windows XP laptop from Dell.</p>
 <p>This toy had a bunch of figurines of Disney PlayHouse and PBS Kids characters, such as Arthur, Elmo, or
@@ -52,21 +73,21 @@ Required</i>.</p>
 <img src="/assets/img/blog/talesfromscratch/easylink.jpg">
 <br />
 <br />
-<h2>Dig Dug on Fupa</h2>
+<h2 id="p4">Dig Dug on Fupa</h2>
 <p>When I was much younger, I played a lot of Dig Dug on Xbox Live Arcade, and eventually, I convinced my
 mother to find a version on the internet.</p>
 <p>It was on a site called "Fupa."</p>
 <p>Only recently did I realize that version was the Nintendo Game Boy version running in a Flash-based
 emulator named <i>PlayR</i>.</p>
 <br />
-<h2>ChromaDepth 3D</h2>
+<h2 id="p5">ChromaDepth 3D</h2>
 <p>The Nintendo 3DS is what kickstarted the obsession with 3D that eight-year-old me had. After that. At
 some point, my mother found some glasses that gave the illusion of 3D depending on the color.</p>
 <p>Like, the depth of the object depended on the color of it, it was <i>super</i> cool. To this day it's
 still kinda cool.</p>
 <p>I also hung up 3D anaglyph Minecraft screenshots all around my room. Ha.</p>
 <br />
-<h2>The Beginning of Scratch</h2>
+<h2 id="p6">The Beginning of Scratch</h2>
 <p>I first started Scratch in late July (I think it was 28?) of 2014, when I was 10 years old. My mother had
 just bought me a book called <i>Help Your Kids With Computer Coding</i>. I had always wanted to make
 games of my own but never knew where to start.</p>
@@ -78,7 +99,7 @@ href="https://sterophonick.github.io/Archive/ScratchGames/MonkeyMayhem"><i>Monke
 <p>Eventually this escalated to me using Scratch for school projects, but that's getting a little ahead of
 ourselves.</p>
 <br />
-<h2>The Disappearing Data Bug</h2>
+<h2 id="p7">The Disappearing Data Bug</h2>
 <p>Ah yes, finally an explanation for why my Monkey Mayhem description is this:</p>
 <img src="/assets/img/blog/talesfromscratch/mmdesc.png"><br />
 <p>Essentially what happened was whenever I made a change to that project, the secondary costume for the
@@ -88,12 +109,12 @@ href="https://scratch.mit.edu/discuss/topic/49002/"><i>Missing Costumes?</i></a>
 <p>The users on there basically told me that Firefox has problems with Scratch and that the Scratch Team was
 working on it.</p>
 <br />
-<h2>The engoodening of eggman15</h2>
+<h2 id="p8">The engoodening of eggman15</h2>
 <p>Basically I found this project and wanted to help the user who went by eggman15.</p>
 <p>You can find the beginning of the remix chain <a
 href="https://scratch.mit.edu/projects/18296042">here.</a></p>
 <br />
-<h2>Super Block Jump and Plagiarism</h2>
+<h2 id="p9">Super Block Jump and Plagiarism</h2>
 <p>Oh boy. Literally the first 20 or so stages were ripped directly from another Scratch game called <a
 href="https://scratch.mit.edu/projects/24495248/">Mustache Kitty.</a></p>
 <p>Literally that's what the first few prototypes were. Just a clone of Mustache Kitty.</p>
@@ -108,7 +129,7 @@ src="/assets/img/blog/talesfromscratch/sbj3.png"><br />
 reference!</p>
 <br />
 <br />
-<h2>The Specs of Machine #2</h2>
+<h2 id="p10">The Specs of Machine #2</h2>
 <p>Lenovo ThinkPad T410</p>
 <p>Intel Core i5-520M @2.4GHz</p>
 <p>4 GB RAM (later upgraded to 6, then 8)</p>
@@ -117,7 +138,7 @@ reference!</p>
 src="/assets/img/smileys/rofl.gif"></p>
 <p>Windows 7, later upgraded to Windows 10</p>
 <br />
-<h2>Super Block Jump Wiki</h2>
+<h2 id="p11">Super Block Jump Wiki</h2>
 <p>Yeah, that happened. Not much of it survives today except for very few screenshots and a <i>very</i>
 incomplete Wayback Machine crawl, which is probably for the better.</p>
 <img width="720px" src="/assets/img/blog/talesfromscratch/wiki1.png"><br /><img width="640px"
@@ -127,7 +148,7 @@ src="/assets/img/blog/talesfromscratch/wiki4.png"><br /><img
 src="/assets/img/blog/talesfromscratch/wiki5.png">
 <br />
 <br />
-<h2>The Forest Cafe or something</h2>
+<h2 id="p12">The Forest Cafe or something</h2>
 <p>In 6th grade Social Studies, we had a project where we had to design a restaurant. We were to make a
 drawing and a menu, and I chose to make the drawing in Microsoft 3D builder.</p>
 <p>This was back in January of 2016, and I had next to no experience in 3D modelling.</p>
@@ -141,7 +162,7 @@ src="/assets/img/blog/talesfromscratch/cafe3.png"><br /><img width="720px"
 src="/assets/img/blog/talesfromscratch/cafe4.png">
 <br />
 <br />
-<h2>Nesbox Emulator (UWP)</h2>
+<h2 id="p13">Nesbox Emulator (UWP)</h2>
 <p>Back in early 2016, I did some experiments in emulation. More specifically, Game Boy emulation through
 Nesbox Emulator that was on the Microsoft Store at one point.</p>
 <p>Nowadays, I know that Nesbox Emulator is <i>hot garbage</i> but what can I say, I didn't know very much.
@@ -154,7 +175,7 @@ Chromebooks, there were some available through the Chrome Web Store.</p>
 then asked me, "Where do you get these games?"</P>
 <p>I kinda hesitated for a minute and said "I don't know."</p>
 <br />
-<h2>Zorin Linux, Wine, and Tag: The Power of Paint</h2>
+<h2 id="p14">Zorin Linux, Wine, and Tag: The Power of Paint</h2>
 <p>When I was 10 or so, I often played a little PC game called Tag: The Power of Paint. It released in 2008
 and laid the groundwork for the gels in Portal 2.</p>
 <p>I had a "copy" of it on a USB drive that I took to school</p>
@@ -171,7 +192,7 @@ the crap Wine was, much less how to use it.
 </p>
 <img src="/assets/img/blog/talesfromscratch/youtried.gif"><br />
 <br />
-<h2>EZ-Flash IV Haribo</h2>
+<h2 id="p15">EZ-Flash IV Haribo</h2>
 <p>This photo, taken on June 16, 2017, is something that I thought I had lost forever, but no actually, I've
 had it this whole time. It's a photo of when I first got my EZ-Flash IV, and the vendor on Amazon that
 we bought it from also shipped us a little packet of Haribo gummy bears for some reason. The cartridge
@@ -181,7 +202,7 @@ and the microSD reader.</p>
 fuzzy memory speaking.</p>
 <img src="/assets/img/blog/talesfromscratch/ez4_bear.jpg"><br />
 <br />
-<h2>The Screwed Up Frontlight</h2>
+<h2 id="p16">The Screwed Up Frontlight</h2>
 <p>I first frontlit my Game Boy Advance not too long after I got the EZ-Flash IV. I was terrible at it. My
 mom also insisted that we leave the entire unit soldered together on the old concrete wall as it cured,
 and I was anxious it was going to blow away as it was rather windy that day. I ended up getting a little

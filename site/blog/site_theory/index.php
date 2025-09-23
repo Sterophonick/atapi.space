@@ -1,5 +1,16 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Legacy Support</a></li>
+        <li><a href="#p2">Static Hosts</a></li>
+        <li><a href="#p3">GeoCities-isms</a></li>
+        <li><a href="#p4">Content Container</a></li>
+        <li><a href="#p5">Policing Dark Reader</a></li>
+        <li><a href="#p6">Link ALL the sites!!</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: The Theory Behind This Site");
 
@@ -15,7 +26,7 @@ If you're reading this in the far, far future, you might wanna git clone this an
 Oh, also, these are not guidelines that <i>you</i> strictly need to follow. For you, these are just suggestions at best.<br/><br/>
 Anyhoo...<br/><br/>
 </p>
-<h2>Try to Avoid Newer HTML Features</h2>
+<h2 id="p1">Try to Avoid Newer HTML Features</h2>
 <p>
 Bascially, ensure that people who are running somewhat older browsers can keep viewing this site correctly. We're not targeting something like, say, NCSA X Mosaic here, but Microsoft Internet Explorer 6 is something I've toyed around with a bit, with varying degrees of success.<br/>
 </p>
@@ -26,13 +37,13 @@ This pic shows the site running through a Windows XP VMware configuration, befor
 The reason that they didn't work ended up being that IE6 does not support backticks for multi-line strings in JavaScript. It's little things like that that make me somewhat thankful we have the browser engines we have today, even thought it would be nice to see this site be able to run one something like Netscape Naviagator.<br/><br/>
 Not really saying to avoid HTML5 altogether, just enough so that people on, say, Firefox 52 can still use your site and get the information they need.<br/><br/>
 </p>
-<h2>Working Around Static Web Hosts</h2>
+<h2 id="p2">Working Around Static Web Hosts</h2>
 <p>
 Something much more situational.<br/><br/>
 GitHub Pages is a static web host. That means there is no support for server-side scripting that makes injecting things like global headers, footers, and sidebars trivial. Unfortunately for us, that means we need to work around it. Thankfully, most browsers, new and old support the <code>document.write()</code> function from JavaScript, so what I ended up doing was writing JavaScript functions that would inject HTML at the top and bottom of the page to create the header and footer divs.<br/><br/>
 It's especially nice this way because I can even inject elements based on what page is being rendered, so things like the (Go Back) link only appear when the user is not on the root page.<br/><br/>
 </p>
-<h2>GeoCities-isms</h2>
+<h2 id="p3">GeoCities-isms</h2>
 <p>
 PLEASE use silly 3D GIFs! Silly 3D GIF attack! Raaaaah!!!<br/>
 </p>
@@ -66,20 +77,20 @@ If your site plays music, please make it OPTIONAL!<br/><br/>
 <p>
 What I'm basically saying is don't be like dustiandiamond.com unless that's the whole point of your page. I adore that site to death, but in practice it's terrible at conveying any real information.<br/><br/>
 </p>
-<h2>Content Container</h2>
+<h2 id="p4">Content Container</h2>
 <p>
 Design your pages around a centered container! Don't let your site stretch to the full width of the screen! This leads to reduced clarity and readability, as the user has to read across a wider page of text.<br/><br/>
 This is something I see a handful of sites these days fumble a bit, and even old iterations of my site got this wrong. Viewing on a 1080 panel led to a page that was just plain too wide.<br/><br/>
 Ideally your main container should have a max width of something between 768 pixels and 1280 pixels.<br/><br/>
 Of course, this rule assumes that your page is something like mine, designed to convey information in text, rather than provide an interactive experience.<br/><br/>
 </p>
-<h2>Policing Dark Reader</h2>
+<h2 id=p5>Policing Dark Reader</h2>
 <p>
 This only applies to those whos sites are darker, but PLEASE PLEASE PLEASE use the following tag in your <code>&lt;head&gt;</code> to disable the Dark Reader extension:<br/><br/>
 <code>&lt;meta name="darkreader-lock"&gt;</code><br/><br/>
 This makes sure that your site's color palette doesn't get pwned by default if the user has Dark Reader installed.<br/><br/>
 </p>
-<h2>Link ALL the Sites!</h2>
+<h2 id="p6">Link ALL the Sites!</h2>
 <img width="384px" src="/assets/img/blog/site-theory/xallthey.jpg"><br/><br/>
 <p>
 Link to other peoples' sites! Link your obscure niche interests! Make the personal web more like a web!	<br/><br/>
