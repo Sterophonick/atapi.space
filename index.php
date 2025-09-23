@@ -17,7 +17,6 @@
                 <p>
                     <a href="https://www.mabsland.com/Adoption.html"><img src="/assets/img/landing/Censor_14b.gif"><br/></a>
                     This website is rated WEB-14!<br/>
-                    (Pages will have content warnings and interstitials!)<br/>
                 </p>
                 <audio id="ninVideoStartup" src="/assets/snd/landing/startup.mp3" autoplay></audio>
                 <script>
@@ -33,6 +32,7 @@
                     <br/>
                     This site features:<br/>
                     <div class="landingContentsBox">
+                        * Content warnings<br/>
                         * Site settings on the main page<br/>
                         * Non-mobile-friendly layout<br/>
                         * Legacy browser support<br/>
