@@ -33,16 +33,17 @@
                     This site features:<br/>
                     <div class="landingContentsBox">
                         * Content warnings<br/>
+                        * Autoplaying music<br/>
                         * Site settings on the main page<br/>
                         * Non-mobile-friendly layout<br/>
                         * Legacy browser support<br/>
                         * Homebrew propaganda<br/>
-                        * Autoplaying music<br/>
                         * Oneko<br/>
                         * Minimal JavaScript<br/>
                         * Randomized page elements<br/>
                         * Questionable PHP/JS code</br>
                         * Tacky animated GIFs and buttons<br/>
+                        * Online interactions not rated by the ESRB<br/>
                     </div>
                     <br/>
                     <a href="site/">
