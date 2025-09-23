@@ -3,7 +3,7 @@
     <head>
         <link rel="shortcut icon" href="assets/img/global/favicon.ico">
         <link rel="stylesheet" href="/assets/css/main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=0.85">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="darkreader-lock">
         <title>ENTRYWAY</title>
     </head>
