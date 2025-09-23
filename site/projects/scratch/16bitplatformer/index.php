@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            This game was made as a response to a game called "8 bit Platformer." I don't remember what my problem was.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: 16-bit Platformer");
 

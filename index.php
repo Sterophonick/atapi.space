@@ -2,37 +2,48 @@
 <html>
     <head>
         <link rel="shortcut icon" href="assets/img/global/favicon.ico">
-        <link rel="stylesheet" href="/assets/css/landing.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.85">
         <meta name="darkreader-lock">
         <title>ENTRYWAY</title>
     </head>
 
     <body>
-        <div class="wrapper">
-            <div class="mainContainer container1">
+        <div class="boxConstraint">
+            <div class="window landWin1">
                 <!-- First container content -->
                 <br/>
                 <h2>Welcome to Atapi's Domain!</h2>
                 <p>
                     <a href="https://www.mabsland.com/Adoption.html"><img src="/assets/img/landing/Censor_14b.gif"><br/></a>
                     This website is rated WEB-14!<br/>
-                    (Pages will have content warnings and interstitials!)<br/>
                 </p>
-                <br/>
                 <audio id="ninVideoStartup" src="/assets/snd/landing/startup.mp3" autoplay></audio>
                 <script>
                     var audio = document.getElementById("ninVideoStartup");
                     audio.volume = 0.7;
                 </script>
-
+                <br/>
             </div>
             <br/>
-            <div class="mainContainer container2">
+            <div class="window landWin2">
                 <!-- First container content -->
                 <p>
                     <br/>
-                    This site was intended for monitors at 1024x768 with 16-bit color and above!<br/>
-                    Music and Oneko settings are at the bottom of each page. Make sure you turn on autoplay!<br/>
+                    This site features:<br/>
+                    <div class="landingContentsBox">
+                        * Content warnings<br/>
+                        * Site settings on the main page<br/>
+                        * Non-mobile-friendly layout<br/>
+                        * Legacy browser support<br/>
+                        * Homebrew propaganda<br/>
+                        * Autoplaying music<br/>
+                        * Oneko<br/>
+                        * Minimal JavaScript<br/>
+                        * Randomized page elements<br/>
+                        * Questionable PHP/JS code</br>
+                        * Tacky animated GIFs and buttons<br/>
+                    </div>
                     <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>
@@ -42,11 +53,11 @@
                 </p>
             </div>
             <br/>
-            <div class="mainContainer container3">
+            <div class="window landWin3">
             <!-- First container content -->
                 <p>
                     <br/>
-                    made with love 2020-2025 Atapi / Sterophonick<br/>
+                    made with &lt;3 2020-2025 Atapi / Sterophonick<br/>
 
                     <marquee>
 

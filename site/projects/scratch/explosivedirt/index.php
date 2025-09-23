@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            This project was heavily inspired by the animations by WazzoTV, which 10+ years later still give me a chuckle.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Explosive Dirt");
 

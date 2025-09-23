@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            The volume is totally screwed up.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch :: Find the Invisible Cat");
 

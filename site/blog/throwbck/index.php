@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Dumping a Piece of Crap");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Dumping a Piece of Crap</h1>
-<p style="margin-top: -25px;">*cartoon throwing sound*<br/></p><br/>
+<p>*cartoon throwing sound*<br/></p><br/>
 <p>
 Sep 1, 2025<br/>
 Category: Project<br/>

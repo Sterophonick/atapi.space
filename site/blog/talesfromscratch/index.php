@@ -5,9 +5,9 @@ echo constructPageHeader(" Tales from the Computery Nonsense Folder");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Tales from the Computery Nonsense
-Folder</h1>
-<p style="margin-top: -25px;">SNOOPY, Dumb (C:), and Dumber (D:)<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Tales from the Computery Nonsense
+Folder</h2>
+<p>SNOOPY, Dumb (C:), and Dumber (D:)<br/></p><br/>
 <h2>Last modified: 09212024</h2>
 <p>This page kinda serves as me rambling on about things that happened on Scratch and other computery
 tomfoolery that I did when I was really young.</p>

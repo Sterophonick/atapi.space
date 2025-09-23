@@ -1,12 +1,26 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Bruh Moment</a></li>
+        <li><a href="#p2">Customer Data Leak</a></li>
+        <li><a href="#p3">Source Code Leak</a></li>
+        <li><a href="#p4">Exploit</a></li>
+        <li><a href="#p5">Music I Listened To</a></li>
+        <li><a href="#p6">Game (That I Played)</a></li>
+        <li><a href="#p7">Game (I Want to Play)</a></li>
+        <li><a href="#p8">Movie (That I Saw)</a></li>
+        <li><a href="#p9">Nintendo Lawsuit</a></li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: 2024 Year in Review, I Guess");
 
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> 2024 Year in Review, I Guess</h1>
-<p style="margin-top: -25px;">I stole this idea from a hacker catgirl.<br/></p><br/>
+<p>I stole this idea from a hacker catgirl.<br/></p><br/>
 <p>
 December 23, 2024<br/>
 Category: Funny<br/>
@@ -18,7 +32,7 @@ Content Warning // Politics (World), Language
 <p>
 It's the end of 2024, ain't it? The holidays are almost here and everyone's busy Christmas shopping or heading to visit family, if they have it. Lucky for me, I finished my shopping and have been home for a week by now so here's my list of cool or funny things that happened this year, in no particular order.<br/><br/>
 </p>
-<h2>Bruh Moment of the Year</h2>
+<h2 id="p1">Bruh Moment of the Year</h2>
 <p>South Korean prime minister Yoon-Suk Yeoi establishes martial law that lasts all of six hours, all because the liberal party was planning on an impeachment campaign. He got impeached anyway.<br/></p>
 <img width="384px" src="/assets/img/blog/2024inreview/yeoi.png"><br/><br/>
 <p>
@@ -32,7 +46,7 @@ Honorable mentions:<br/>
 - The entire IT sector of the world suffers Windows Blue Screens of Death in July, related to a buggy update in CrowdStrike Falcon. Many systems required re-imaging in order to function again.<br/>
 <br/>
 </p>
-<h2>Customer Data Leak of the Year</h2>
+<h2 id="p2">Customer Data Leak of the Year</h2>
 <p>
 Chat logs and personal information on 800,000 users of Andrew Tate's "online university" dubbed <i>The Real World</i>, formerly <i>Hustler's University</i> gets leaked.<br/>
 <img width="384px" src="/assets/img/blog/2024inreview/tate.png"><br/><br/>
@@ -43,7 +57,7 @@ Honorable mentions:<br/>
 - 95 million records from various French companies and services get leaked. lmao.<br/>
 <br/>
 </p>
-<h2>Source Code/Development Leak of the Year</h2>
+<h2 id="p3">Source Code/Development Leak of the Year</h2>
 <p>
 Game Freak suffers massive data breach caused by an admin credentials file that was left exposed.<br/>
 SVN repositories, beta builds, and other things leak, such as:<br/>
@@ -75,7 +89,7 @@ Honorable mentions:<br/>
 - Early and Final trailers for 2017 LEGO James Bond pitch<br/>
 <br/>
 </p>
-<h2>Exploit of the Year</h2>
+<h2 id="p4">Exploit of the Year</h2>
 <p>
 <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-3094">CVE-2024-3094</a>, an exploit caused by malicious code implanted into XZ Utils. Discovered only because someone with superhuman senses was able to detect the slightest startup delay and bisect it.<br/>
 <img width="384px" src="/assets/img/blog/2024inreview/xz.png"><br/><br/>
@@ -91,7 +105,7 @@ Honorable mentions:<br/>
 - CVE-2024-3272: Command Injection and Backdoor in 92,000 D-Link NAS devices<br/>
 <br/>
 </p>
-<h2>Music I Listened to of the Year</h2>
+<h2 id="p5">Music I Listened to of the Year</h2>
 <p>
 Bomb Rush Cyberfunk Original Soundtrack. Has loads of great beats, both lyrical and instrumental, funky fresh and hip-hop.<br/>
 <img width="384px" src="/assets/img/blog/2024inreview/brc.png"><br/><br/>
@@ -119,7 +133,7 @@ Honorable Mentions:<br/>
 - Avith Ortega - Bluehæven<br/>
 <br/>
 </p>
-<h2>Game (That I played) of the Year</h2>
+<h2 id="p6">Game (That I played) of the Year</h2>
 <p>
 Yakuza 0. I played this game at the very beginning of the year, and its heartfelt, emotonal story combined with the batshit insane combat and substories gave me this stupid smile pretty much throughout the whole game. Highly recommended for people who like beat-em-ups and story-driven games.<br/>
 <img width="768px" src="/assets/img/blog/2024inreview/yakuza.jpg"><br/><br/>
@@ -147,13 +161,13 @@ Honorable Mentions (not all the games I played):<br/>
 - OneShot (Original + WME)<br/>
 - Deadpool (2013)<br/>
 </p>
-<h2>Game (That I Want to Play) of the Year</h2>
+<h2 id="p7">Game (That I Want to Play) of the Year</h2>
 <p>
 Indiana Jones and the Great Circle<br/>
 Made by MachineGames and running on idTech, this game appears to be a lovely mishmash of The Chronicles of Riddick, Dishonored, Uncharted, and Wolfenstein. It creates an entire new story rather than just re-using the story of Raiders of the Lost Ark or something, and looks like a fun game to play with my dad, we both hate fascists and love Indiana Jones. :3<br/>
 <img width="768px" src="/assets/img/blog/2024inreview/mummy.png"><br/><br/>
 </p>
-<h2>Movie (That I saw) of the Year</h2>
+<h2 id="p8">Movie (That I saw) of the Year</h2>
 <p>
 Deadpool & Wolverine<br/>
 Yes, I know it's a Marvel movie. To be real I don't really give a toss about Marvel these days, but I really like Deadpool's crass and cynical sense of humor and the over-the-top violence.<br/>
@@ -161,7 +175,7 @@ Still too heterosexual.<br/>
 <img width="768px" src="/assets/img/blog/2024inreview/deadpool.png"><br/>
 Gubernatorial.<br/><br/>
 </p>
-<h2>Nintendo Lawsuit of the Year</h2>
+<h2 id="p9">Nintendo Lawsuit of the Year</h2>
 <p>
 Nintendo of America Inc. v. Tropic Haze LLC<br/>
 The lawsuit that killed the Yuzu and Citra emulators, since Nintendo is gearing up to release the Nintendo Switch 2. Whether or not the Yuzu developers are at fault here is up for debate, but that doesn't mean that Nintendo's lawsuit wasn't totally full of crap. They just knew that nobody on that team could fight back since they have infinite money.<br/>

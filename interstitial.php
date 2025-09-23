@@ -2,14 +2,14 @@
 <html>
 <head>
 <link rel="shortcut icon" href="assets/img/global/favicon.ico">
-<link rel="stylesheet" href="/assets/css/landing.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 <meta name="darkreader-lock">
 <title>Atapi's Domain! :: Content Interstitial</title>
 </head>
 
 <body>
-<div class="wrapper">
-<div class="mainContainer container1">
+<div class="boxConstraint">
+<div class="window landWin1">
 
  <h1><img style="vertical-align:middle" src="/assets/img/interstitial/icon.png"> Content Interstitial</h1>
  <p>
@@ -28,7 +28,7 @@
 
  <br/>
 
- <div class="mainContainer container2">
+ <div class="window landWin2">
  <p>
  To proceed, click the following link:<br/>
 

@@ -1,12 +1,22 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Introduction</a></li>
+        <li><a href="#p2">Allergy Information</a>
+        <li><a href="#p3">Ingredients</a>
+        <li><a href="#p4">Instructions</a>
+        <li><a href="#p5">Notes</a>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Femboy Fried Rice");
 
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Femboy Fried Rice</h1>
-<p style="margin-top: -25px;">Girl Dinner.<br/></p><br/>
+<p>Girl Dinner.<br/></p><br/>
 <p>
 May 27, 2025<br/>
 Category: Cooking<br/>
@@ -15,7 +25,7 @@ Content Warning // Non-Vegan Cooking
 </span>
 </p>
 <br />
-<h2>Introduction</h2>
+<h2 id="p1">Introduction</h2>
 <p>
     If you've ever tried chinese-style takeout fried rice at home, but have been disappointed with the results, then I guess this page might be for you. I'm no gourmet chef but I can navigate my way around a recipe.<br/>
     <img width="360px" src="/assets/img/gallery/parkercc_chef_atapi.png"><br/>
@@ -26,12 +36,12 @@ Content Warning // Non-Vegan Cooking
 
 <br/>
 
-<h2>Allergy Information</h2>
+<h2 id="p2">Allergy Information</h2>
 <p>
     This recipe contains allergens such as gluten, eggs, and soy. If you're serving this for others, make sure to consult them about any other potential allergens that they may have before you start cooking. You might wanna try adapting this to something using gluten-free or vegan alternatives if that's what you choose to do.<br/><br/>
 </p>
 
-<h2>Ingredients</h2>
+<h2 id="p3">Ingredients</h2>
 
 <p>
     Nothing about these ingredients are really measured or anything. In truth, I just eyeball the whole thing. Fried rice is a very, very flexible dish that was originally intended to use up whatever the hell was in the house.<br/><br/>
@@ -155,7 +165,7 @@ Content Warning // Non-Vegan Cooking
     A good extra step is to wash your rice to remove some of the extra starch before cooking. To do this, run your rice under some cold water using a colander and gently brush the grains against each other. You'll notice that the water below ends up really cloudy. This is what you want. You don't need to be aggressive or thorough, just getting a couple layers of starch off is perfectly fine.<br/><br/>
 </p>
 
-<h2>Cooking/Assembly Instructions</h2>
+<h2 id="p4">Cooking/Assembly Instructions</h2>
 <div style="width:60%; margin:auto; text-align: left;">
     <ol>
         <li>
@@ -210,7 +220,7 @@ Content Warning // Non-Vegan Cooking
 
 <br/>
 
-<h2>Notes</h2>
+<h2 id="p5">Notes</h2>
 <div style="width:60%; margin:auto; text-align: left;">
     <ul>
         <li>

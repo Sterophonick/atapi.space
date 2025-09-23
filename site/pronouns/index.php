@@ -24,7 +24,7 @@ i prefer feminine compliments and pet names!<br/>
 </p>
 <br/>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-style="font-size:16pt; text-align: center;">
+style="font-size:13pt; text-align: center;">
 
 <tr>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/ace.png"> Asexual</td>
@@ -38,14 +38,14 @@ style="font-size:16pt; text-align: center;">
 </table>
 
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-style="font-size:16pt; text-align: center;">
+style="font-size:16pt;  text-align: center;">
 <tr align="middle">
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/qpr.png"> Queerplatonic</td>
 </tr>
 </table>
 
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-style="font-size:16pt; text-align: center;">
+style="font-size:10pt; font-weight: bold; text-align: center;">
 <col width="160px" />
 <col width="160px" />
 <col width="160px" />
@@ -125,11 +125,12 @@ style="font-size:16pt; text-align: center;">
 </td>
 </tr>
 </table>
+
 <p>
 <br/>Key
 </p>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-style="font-size:16pt; text-align: center;">
+style="font-size:14pt; text-align: center;">
 <tr>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/fluster.png"> ksjadfhskdfjh</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Favorite</td>

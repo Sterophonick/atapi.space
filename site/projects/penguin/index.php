@@ -1,14 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> GNU/Linux</h1>
-I swear I'm not a snob, I just don't like using Windows.<br/>
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
     <li>
         <a href="#LinuxGamingNotes">Linux Gaming Notes</a>
@@ -17,14 +9,21 @@ I swear I'm not a snob, I just don't like using Windows.<br/>
         <a href="#OneShotLinux">OneShot Linux Fixes</a>
     </li>
     <li>
-        <a href="#AURPackages">Arch Linux User Repository Packages</a>
+        <a href="#AURPackages">AUR Packages</a>
     </li>
     <li>
         <a href="#bazzite">Bazzite</a>
     </li>
 </ul>
-</div>
+EOF;
 
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: GNU/Linux");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> GNU/Linux</h1>
+I swear I'm not a snob, I just don't like using Windows.<br/>
 <br/>
 
 <h3 id="LinuxGamingNotes">Linux Gaming Notes</h3>
@@ -46,7 +45,7 @@ there are some useful tools there.<br />
 <a href="https://aur.archlinux.org/packages?SeB=m&K=Sterophonick">My AUR packages</a>
 </p>
 <br/>
-<h2 id="bazzite">Bazzite</h2>
+<h3 id="bazzite">Bazzite</h3>
 <p>I make some small contributions to the Bazzite project here and there. Thus far, it's mostly been related to Steam Deck OLED hardware support, as well as backporting upstream Mesa patches for game compatibility, such as for <i>Indiana Jones and the Great Circle</i> on RADV.</p>
 <a href="https://bazzite.gg">Project Website.</a>
 

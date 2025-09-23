@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            Misfortune Advance has support for RetroAchievements. Thanks, y'all!
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: Misfortune Advance");
 

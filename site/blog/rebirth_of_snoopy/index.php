@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Rebirth of SNOOPY");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Rebirth of SNOOPY</h1>
-<p style="margin-top: -25px;">Dumb and Dumber<br/></p><br/>
+<p>Dumb and Dumber<br/></p><br/>
 <p>
 July 24, 2025<br/>
 Category: Infodump<br/>

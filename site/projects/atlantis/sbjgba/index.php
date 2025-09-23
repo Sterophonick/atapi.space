@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            SBJGBA took me about a year of on-off development, mostly because when I started I had no clue what I was doing. The original release had barely any sound, but the final version has much more content at a fraction of the size. 
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: Super Block Jump: Game Boy Advance Edition");
 

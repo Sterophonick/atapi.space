@@ -12,19 +12,7 @@ $quoteStrings = array(
 
     // Poker Night at the Inventory / Poker Night 2
     "I will make hat from you, little bunny!", "-- The Heavy, Poker Night at the Inventory",
-    "If you keep indulging in my blatant dishonesty, I'm gonna have to run for congress.", "-- Sam, Poker Night 2",
-    "I'm just going to turn my DS on, and you guys keep giving me your money. This is an incredible system we've got here.", "-- Tycho Brahe, Poker Night at the Inventory",
-    "My face is a universal symbol of death and destruction!", "-- Max, Poker Night 2",
-    "Nikola Tesla was in direct communication with intelligences from another dimension.", "-- GLaDOS, Poker Night 2",
-    "There's a hole in Siberia that leads directly to hell. It's 3 inches wide.", "-- GLaDOS, Poker Night 2",
-    "The Player has busted out, and must leave the table before everyone starts laughing.", "-- GLaDOS, Poker Night 2",
-    "I know something you don't know. Not about this hand. Just generally.", "-- GLaDOS, Poker Night 2",
-    "The judicious poker player knows the importance of a well-timed fold. And then there's you.", "-- GLaDOS, Poker Night 2",
-    "Congratulations. You're a universe-imperiling paradox in dog's clothing.", "-- GLaDOS, Poker Night 2",
-    "You guys might want to work on your poker faces before going up against a trained spy.", "-- Brock Samson, Poker Night 2",
     "Well, duh, you're a doof, Sam!", "-- Max, Poker Night 2",
-    "You're just gonna fold? But now I can't guilt you into betting bad cards by putting on my cute rabbit face!", "-- Max, Poker Night at the Inventory",
-    "Well, of COURSE you won with those cards. Even Steve could've won with those cards, and all he can say is \"Hey-o!\"", "-- Claptrap, Poker Night 2",
 
     // Homestar Runner
     "The system is down, yo!","-- Strong Bad",
@@ -209,7 +197,7 @@ $quoteStrings = array(
     // The Simpsons
     "I'm somewhere where I don't know where I am!", "-- Homer Simpson",
     "Can't sleep, clown will eat me", "-- Bart Simpson",
-    "I know you can read my thoughts, boy. Meow meow meow meow meow meow", "-- Homer Simpson",
+    "I know you can read my thoughts, boy. Meow meow meow meow", "-- Homer Simpson",
     "Hi, Super Nintendo Chalmers!", "-- Ralph Wiggum",
     "Don't have a cow, man!", "-- Bart Simpson",
     "I'm the mascot of an evil corporation!", "-- Bart Simpson",
@@ -295,7 +283,6 @@ $quoteStrings = array(
     "sinkhole.tech - where the bots party hard and the researchers harder","-- WannaCry Killswitch Domain Sinkhole",
     "Happy New Year 1999 !!","-- Worm:Win32/Happy99",
     "Dedicated to the dynamic memories of millions of viruses who are no longer with us today - Thanks GOODNESS!!!","-- Virus:Boot/Brain",
-    "Between millions of people around the world i found you. Don't forget to remember this day every time MY FRIEND!","-- Virus:Win9x/Pikachu",
 
     // Just imgs
     "<img style=\"vertical-align:middle; height:24px; \" title=\"spinnycats by renere\" src=\"/assets/img/global/blerbs/spinny_cat_ace.gif\">", "",
@@ -316,7 +303,6 @@ $quoteStrings = array(
     "Care left the room.", "-- Petscop",
     "They wander the Newmaker Plane.", "-- Petscop",
     "I LOVE YOU NEWMAKER PLEASE SHOW MARVIN WHERE HIS HOUSE IS", "-- Pink Tool, Petscop",
-    "ALSO WANTS 1000 PIECES FOR \"MACHINE BEYOND SCHOOL BASEMENT STAIRWAY\"", "-- Pink Tool, Petscop",
     "You found her. You may visit her room.", "-- Petscop",
     "Why would I be in a car? I'm playing Petscop.", "-- Paul, Petscop",
 
@@ -435,8 +421,8 @@ $quoteStrings = array(
     "The fear of the blood tends to create fear for the flesh.", "-- Silent Hill",
     "I'd rather go to hell.", "-- Heather Mason, Silent Hill 3",
     "You see it too? For me, it's always like this.", "-- Angela, Silent Hill 2",
-    "I don't really feel like eating and drinking stuff from an alternate reality, OK?", "-- Heather Mason, Silent Hill 3",
-    "James honey, did something happen? After we got separated in that long hallway?", "-- Maria, Silent Hill 2",
+    "I don't really feel like eating and drinking stuff from an alternate reality.", "-- Heather Mason, Silent Hill 3",
+    "James honey, did something happen?", "-- Maria, Silent Hill 2",
 
     // FEZ
     "The thirteen circles. The 64-bit name of God.", "-- Owl, FEZ",
@@ -448,7 +434,6 @@ $quoteStrings = array(
     "HI THERE HOW ARE YOU I WILL BE YOUR HEXAHEDRON TODAY", "-- The Hexahedron, FEZ (Translated from Zu)",
 
     // Misc
-    "Looking down with my hyper-realistic eyes, I saw that it was covered in hyper-realistic blood.", "-- Every Creepypasta in 2012",
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
     "Think fast, chucklenuts!", "-- Scout, Team Fortress 2",
     "Click to enable Adobe Flash Player", "-- Adobe Flash Player",
@@ -477,7 +462,6 @@ $quoteStrings = array(
     "I AM ERROR.", "-- Zelda II: The Adventure of Link",
     "Burenyuu~", "-- Neco Arc",
     "The school books say it can't be here again.", "-- Tay Zonday",
-    "sometimes the side chick ain't even a chick, it be Microsoft DirectX 9.0c Redistributables", "-- Me",
     "wow i'm so gay and dumb and i like girls and awagga", "-- Me",
     "にゃ～","",
     "What is a man? A little pile of secrets. But enough talk, have at you!", "-- Dracula",
@@ -572,7 +556,7 @@ $quoteStrings = array(
     "But, Galileo devices can be BRICKED by BIOS updates if you interrupt them.", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "WARNING: Ignoring this is a one-way ticket to Bricksville. Enjoy the ride!", "-- Valve, prerelease Steam Deck OLED jupiter-hw-support",
     "Unattended children will be taught IDA Pro.", "-- Me",
-    "Grief Counseling for emulator developers is now available at irc.efnet.org #titandemo", "-- TiTAN, Overdrive 2",
+    "Grief Counseling for emulator developers is now available at irc.efnet.org", "-- TiTAN, Overdrive 2",
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
     "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
@@ -605,22 +589,14 @@ $musicPaths = array(
     "Landon Podbielski - jazzroom", "/assets/snd/music/jazz_room.mp3",
     "kulor - Our Time Machine Works!", "/assets/snd/music/time_machine.mp3",
     "Nightmargin ft. Eliza Velasquez and Michael Shirt - On Little Cat Feet", "/assets/snd/music/OnLittleCatFeet.mp3",
+    "Alexander Brandon - Dark Groove (part 1)", "/assets/snd/music/dark_groove.mp3",
 );
 
 ?>
 
-<div id="headerContainer">
-    <div class="headerTitle" align="center">
-        <!-- the idea to use a table here came from Headspin. thanks for your old website about GBA compression, laddie  -->
-        <table id="titleTable" border="0" cellpadding="20px" cellspacing="5px" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber44">
-            <tr>
-                <td><a href="/site/"><img class="noMosaic" id="navPFP" border="0" src="/assets/img/gallery/royla_crown.png" width="120"></a></td>
-                <td><h1 style="margin-top:30px">Atapi's Domain!</h1></td>
-            </tr>
-        </table>
-    </div>
-    <div id="headerQuote">
-        <p style="margin-top: -10px; line-height:1;">
+    <header id="top">
+        <div id="banner" class="window">
+            <h1><img class="pfp" width="64px" src="/assets/img/gallery/royla_crown.png"> Atapi's Domain!</h1>
             <?php
 
             $quoteIndex = floor(mt_rand() % sizeof($quoteStrings) / 2) * 2;
@@ -628,26 +604,38 @@ $musicPaths = array(
             $quoteSource = $quoteStrings[$quoteIndex+1];
             //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
 
-            $quoteTag = $quoteQuote . "<br/><small><i>" . $quoteSource . "</i></small>";
+            $quoteTag = '<span title="' . $quoteSource . "\">" . $quoteQuote . "</span>";
 
             echo $quoteTag;
             ?>
-
-        </p>
-    </div>
-    <div id="headerNav" align="center">
-        <a href="/site/projects/"><img class="noMosaic navIcon" src="/assets/img/global/folder.png"> Projects</a>
-         |
-        <a href="/site/dumps/"><img class="noMosaic navIcon" src="/assets/img/global/chip.png"> Dumps</a>
-         |
-        <a href="/site/blog/"><img class="noMosaic navIcon" src="/assets/img/global/notepad.png"> Blog</a>
-         |
-        <a href="/site/gallery/"><img class="noMosaic navIcon" src="/assets/img/global/gallery.png"> Gallery</a>
-         |
-        <a href="/site/links/"><img class="noMosaic navIcon" src="/assets/img/global/links.png"> Web Links</a>
-         |
-        <a href="/site/guestbook/"><img class="noMosaic navIcon" src="/assets/img/global/guestbook.png"> Guestbook!</a>
-    </div>
+            
+            
+            <?php
+                if(doWeShowOneko()) {
+                    echo '<script src="/scripts/oneko/oneko.js"></script>';
+                }
+            ?>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="10px" width="1000px" align="center" id="pageNavbar">
+            <tr>
+                <td><a href="/site/"><img src="/assets/img/global/links.png"> Home</a></td>
+                <td><a href="/site/projects/"><img src="/assets/img/global/folder.png"> Projects</a></td>
+                <td><a href="/site/dumps/"><img src="/assets/img/global/chip.png"> Dumps</a></td>
+                <td><a href="/site/blog/"><img src="/assets/img/global/folder.png"> Blog</a></td>
+                <td><a href="/site/gallery/"><img src="/assets/img/global/gallery.png"> Gallery</a></td>
+                <td><a href="/site/links/"><img src="/assets/img/global/links.png"> Links</a></td>
+                <td><a href="/site/guestbook/"><img src="/assets/img/global/guestbook.png"> Say hi!</a></td>
+            </tr>
+        </table>
+    </header>
+    
+    <main>
+        
+    <table border="0" cellpadding="0" cellspacing="0px" width="1000px" align="center" id="mainContent">
+        <td class="pageSidebar">
+            <div id="musicWindow" class="window">
+                <h4>Now Playing:</h4>
+    
     <?php
     if(doWeShowMusicPlayer()){
         $musicIndex = floor(mt_rand() % sizeof($musicPaths) / 2) * 2;
@@ -656,39 +644,28 @@ $musicPaths = array(
         //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
 
         $musicPlayer = '<div id="headerMusicPlayer">';
-
-        $musicPlayer .= '<p>♪♫ Now Playing: <marquee style="vertical-align: bottom;" speed="50%" width="10%">';
-
-        $musicPlayer .= $musicName . "</marquee> ♪♫<br/>";
-
+        $musicPlayer .= '<marquee speed="50%">';
+        $musicPlayer .= $musicName . "</marquee>";
         $musicPlayer .=  "<audio style=\"height: 20px\" id=\"musicPlayer\" controls loop src=\"" . $musicPath . '"';
-
-        $musicPlayer .= '></p></audio></div>';
-
-        $musicPlayer .= "<script>var forceStopPlayer = false;</script>"; // this provides plumbing for pages to stop the music player if needed
+        $musicPlayer .= '></p></audio>';
+        $musicPlayer .= "<script>var forceStopPlayer = false;</script></div>"; // this provides plumbing for pages to stop the music player if needed
 
         echo $musicPlayer;
     }
-
-    if(doWeShowWarning()) {
-        echo <<<EOF
-            <p style="color:red">
-                <img class="warnIcon" src="/assets/img/global/legacyWarning.gif">
-                Your browser is out of date. Some things might not work quite right!
-                <img class="warnIcon" src="/assets/img/global/legacyWarning.gif">
-            </p>
-        EOF;
-    }
-
     ?>
-    <div id="headerPartiton" style="margin-top: -15px">
-        <img width="100%" height="6px" id="spacer" src="/assets/img/global/border.png">
     </div>
-
     <?php
-        if(doWeShowOneko()) {
-            echo '<script src="/scripts/oneko/oneko.js"></script>';
+        if(isset($GLOBALS['navContents'])) {
+            echo '<div id="navWindow" class="window">';
+            echo '<h4 style="text-align: center">Navigation:</h4>';
+            echo $GLOBALS['navContents'];
+            echo '</div>';
+        }
+        
+        if(isset($GLOBALS['customSideContent'])) {
+            echo $GLOBALS['customSideContent'];
         }
     ?>
+</td>
 
 </div>

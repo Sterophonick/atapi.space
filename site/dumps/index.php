@@ -1,5 +1,31 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li>
+            <a href="#F7A0107">Steam Deck F7A0107</a>
+        </li>
+        <li>
+            <a href="#XBLIG">Xbox 360 Indie Games</a>
+        </li>
+        <li>
+            <a href="#CRX">Google Chrome Apps</a>
+        </li>
+        <li>
+            <a href="#Firecard">GBA FireCard CD</a>
+        </li>
+        <li>
+            <a href="#SuperCard271">SuperCard SD v2.71</a>
+        </li>
+        <li>
+            <a href="#throwbck">Throwback Pocket</a>
+        </li>
+        <li>
+            <a href="#misc">Miscellaneous</a>
+        </li>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Dumps");
 
@@ -7,12 +33,12 @@ echo constructPageHeader("Atapi's Domain! :: Dumps");
 
 <h1><img style="vertical-align:middle" src="/assets/img/dumps/icon.png"> Dumps</h1>
 <p>Software preservation stuff that I have done. Dev wants it gone and it's gone!</p><br />
-<h3>Steam Deck LCD BIOS (F7A0107)</h3>
+<h3 id="F7A0107">Steam Deck LCD BIOS (F7A0107)</h3>
 <p>This BIOS revision doesn't appear to be present in Valve's git history. Very strange. <br />This is the
 last ROM revision before EV2 board support was dropped.<br />Unforuntately I don't think this can be
 used with Insyde H2OFFT.<br />Dumped by Ashie404.<br /><a href="/files/F7A0107.bin">ROM Download</a></p>
 <br />
-<h3>Xbox LIVE Arcade Indie Games</h3>
+<h3 id="XBLIG">Xbox LIVE Arcade Indie Games</h3>
 <p>The Xbox Live Indie Games store shut down in 2017, but I managed to snag these games a little before they
 went down. Enjoy!</p>
 <a href="https://archive.org/details/xblig_3dstruction">3D-struction</a><br />
@@ -30,12 +56,12 @@ went down. Enjoy!</p>
 <a href="https://archive.org/details/xblig_the-impossible-game">The Impossible Game</a><br />
 <a href="https://archive.org/details/xblig_tig-level-pack">The Impossible Game Level Pack</a><br />
 <br />
-<h3>Google Chrome Apps</h3>
+<h3 id="CRX">Google Chrome Apps</h3>
 <p>Most, if not all of these are not accessible anymore on the Chrome Web Store.</p>
 <a href="/files/Don_t GiveUp.crx">Don't GiveUp</a><br />
 <a href="/files/Block Jump.crx">Block Jump</a><br />
 <br />
-<h3>Game Boy Advance FireCard CD</h3>
+<h3 id="FireCard">Game Boy Advance FireCard CD</h3>
 <p>A driver CD for this 256M FireCard that I acquired on eBay.<br />All of it is in Chinese and will likely
 only work on old versions of Windows.</p>
 <img width="720px" src="/assets/img/dumps/FireCard-Front.jpg"><br />
@@ -43,12 +69,12 @@ only work on old versions of Windows.</p>
 <img width="540px" src="/assets/img/dumps/FireCard-Disc.jpg"><br />
 <a href="/files/MagicCard.7z">ISO Image</a><br />
 <br />
-<h3>SuperCard SD v2.71</h3>
+<h3 id="SuperCard271">SuperCard SD v2.71</h3>
 <p>The software necessary to use the SuperCard SD, SuperCard miniSD, and the SuperCard microSD family of Game Boy Advance flashcarts. Highly recommended to be used only with Windows XP.</p>
 <img src="/assets/img/dumps/supercard.png"><br />
 <a href="/files/setupsdV271en.zip">Zip Archive</a><br />
 <br/>
-<h3>Throwback Pocket Video Game Console 150-in-1</h3>
+<h3 id="throwbck">Throwback Pocket Video Game Console 150+ 8-bit Games</h3>
 <p>A crappy handheld that I got as a gift in 2020. Sitronix ST2302U-based, dumped with a combination of a CH341A SPI programmer and holding my finger down on the reset line.</p>
 <img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-2.png"><br />
 <img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-3.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-4.png"><br />
@@ -56,7 +82,7 @@ only work on old versions of Windows.</p>
 <a href="/files/throwback.7z">ROM Dump</a><br />
 <br/>
 
-<h3>Miscellaneous Stuff</h3>
+<h3 id="misc">Miscellaneous Stuff</h3>
 <a href="WavePluginManual/">PogoShell GSM Plugin ps2gsm Guide (Translated)</a><a href="/files/ps2gsm003.zip">
 (Plugin download)</a><br />
 <a href="JpegPluginManual/">PogoShell JPEG Plugin ps2jpg Guide (Translated)</a><a

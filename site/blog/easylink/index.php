@@ -1,18 +1,26 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">what are you doing</a></li>
+        <li><a href="#p2">The Software</a>
+        <li><a href="#p3">Linux Use</a>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Please Contact Fisher-Price Customer Relations");
 
 ?>
 
-<h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Please Contact Fisher-Price Customer Relations</h1>
-<p style="margin-top: -25px;">"CD ROM is not a toy"<br/></p><br/>
+<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Please Contact Fisher-Price Customer Relations</h2>
+<p>"CD ROM is not a toy"<br/></p><br/>
 <p>
 July 17, 2025<br/>
 Category: Infodump<br/>
 </p>
 <br />
-<h2>Atapi what are you doing</h2>
+<h2 id="p1">Atapi what are you doing</h2>
 <p>
 
     So there was this little toy that I had as a wee one, we're talking like, four years old. It would attach to a computer over Windows XP, and some software would read the state of the device and act as a secure browser for young children to play flash games on.<br/>
@@ -34,7 +42,7 @@ Category: Infodump<br/>
 
 <br/>
 
-<h2>The Software</h2>
+<h2 id="p2">The Software</h2>
 <p>
     The actual software is made in Adobe Flash, unsurprisingly. In fact, it even runs in the background on startup so that it automatically shows up once the child inserts a character key.<br/>
     <video class="interruptVideo" width="720" height="581" controls>
@@ -73,7 +81,7 @@ Category: Infodump<br/>
 
 <br/>
 
-<h2>Reading it in Linux</h2>
+<h2 id="p3">Reading it in Linux</h2>
 <p>
     From this point, I figured I should try to do a raw reading of the USB data in Linux.<br/><br/>
 

@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            This test was made in 2016 because I was obsessed with porting everything to the Game Boy Advance. I was using the (probably now-deleted) Scratch conversions of the original game as a reference.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: FNaF OFfice Test");
 

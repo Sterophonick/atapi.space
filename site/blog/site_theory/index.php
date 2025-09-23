@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: The Theory Behind This Site
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> The Theory Behind This Site</h1>
-<p style="margin-top: -25px;">No PHP required, I hope.<br/></p><br/>
+<p>No PHP required, I hope.<br/></p><br/>
 <p>October 7, 2024<br/>Category: Infodump</p>
 <br />
 <p>

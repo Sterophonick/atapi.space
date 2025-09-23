@@ -1,7 +1,7 @@
 function showOneko() {
     var state = document.getElementById("enableOneko").checked;
     document.cookie = "oneko=" + state + ";path=/";
-    document.getElementById("oneko").style.display = state ? 'none' : 'block';
+    document.getElementById("oneko").style.display = (getCookieByName("oneko") == "true" ? true : false ) ? 'none' : 'block';
 }
 
 function musicCookie() {
@@ -28,9 +28,12 @@ if(getCookieByName("autoplay") === null) {
 // this is kinda messy crap, i know.
 // we need to update the state of oneko based on what we set
 // this will also update the cookie
-document.getElementById("enableOneko").checked = (getCookieByName("oneko") === 'true');
-document.getElementById("enableAutoplay").checked = (getCookieByName("autoplay") === 'true');
-showOneko();
+
+if(window.location.pathname == "/site/") {
+    document.getElementById("enableOneko").checked = (getCookieByName("oneko") === 'true');
+    document.getElementById("enableAutoplay").checked = (getCookieByName("autoplay") === 'true');
+    showOneko();
+}
 
 // make the musicplayer autoplay as necessary
 var player = document.getElementById("musicPlayer");
@@ -40,3 +43,4 @@ if(getCookieByName("autoplay") == 'false') {
     if(!forceStopPlayer) player.play();
 }
 
+document.getElementById("oneko").style.display = (getCookieByName("oneko") == "true" ? true : false ) ? 'none' : 'block';

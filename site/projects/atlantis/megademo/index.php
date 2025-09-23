@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            MegaDemo was made in late 2016 during a middle school "Business Technology" class that I did not give a hoot about. Literally, the most nothingburger class I took in middle school.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Game Boy Advance :: MegaDemo");
 

@@ -1,14 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch");
-
-?>
-
-<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Scratch</h1>
-The place I got my start in computer science!<br/>
-<h2>Navigation</h2>
-<div id="toc" class="toc" style="width:50%; margin:auto; text-align: left;">
+$navContents = <<<EOF
 <ul>
 <li>
 <a href="#SuperBlockJump">Super Block Jump</a>
@@ -17,7 +9,7 @@ The place I got my start in computer science!<br/>
 <a href="#SuperBlockJump2">Super Block Jump 2</a>
 </li>
 <li>
-<a href="#SuperBlockJumpDarkWorld">Super Block Jump (Dark World)</a>
+<a href="#SuperBlockJumpDarkWorld">SBJ Dark World</a>
 </li>
 <li>
 <a href="#16bitPlatformer">16-bit Platformer</a>
@@ -35,7 +27,7 @@ The place I got my start in computer science!<br/>
 <a href="#ASimplePlatformer">A Simple Platformer</a>
 </li>
 <li>
-<a href="#AutoDMS">Automatic Daily Math Skills Practice</a>
+<a href="#AutoDMS">Auto DMS Practice</a>
 </li>
 <li>
 <a href="#FindTheInvisibleCat">Find The Invisible Cat</a>
@@ -53,10 +45,10 @@ The place I got my start in computer science!<br/>
 <a href="#EscapeTheDragon">Escape the Dragon!</a>
 </li>
 <li>
-<a href="#TMDPE">The Most Difficult Platformer Ever!</a>
+<a href="#TMDPE">TMDPE!</a>
 </li>
 <li>
-<a href="#SchoolProjectsVolume">School Projects: Volume</a>
+<a href="#SchoolProjectsVolume">SP: Volume</a>
 </li>
 <li>
 <a href="#ScratchJump">Scratch Jump</a>
@@ -74,10 +66,18 @@ The place I got my start in computer science!<br/>
 <a href="#NortheastRegionQuiz">Northeast Region Quiz</a>
 </li>
 <li>
-<a href="#ScratchOddballs">Other Oddball Scratch Things</a>
+<a href="#ScratchOddballs">Other Oddballs</a>
 </li>
 </ul>
-</div>
+EOF;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
+echo constructPageHeader("Atapi's Domain! :: Projects :: Scratch");
+
+?>
+
+<h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Scratch</h1>
+The place I got my start in computer science!<br/>
 
 <span>also the intro to these is certified <marquee width="10%">cringe</marquee></span><br />
 <h2 id="SuperBlockJump">Super Block Jump</h2>

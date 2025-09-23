@@ -1,12 +1,51 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">Albums/Games</a></li>
+        <ul>
+            <li><a href="#p1_1">Activision Anthol...</a></li>
+            <li><a href="#p1_2">Hardcore Pinball</a></li>
+            <li><a href="#p1_3">Portal 2</a></li>
+            <li><a href="#p1_4">Autumntunes</a></li>
+            <li><a href="#p1_5">NOW THAT'S WH...</a></li>
+            <li><a href="#p1_6">Poker Night 2</a></li>
+            <li><a href="#p1_7">Petscop</a></li>
+            <li><a href="#p1_8">ULTRAKILL</a></li>
+            <li><a href="#p1_9">Winter Chip IX</a></li>
+            <li><a href="#p1_10">SiIvaGunner</a></li>
+            <li><a href="#p1_11">Soundchip Salad</a></li>
+            <li><a href="#p1_12">Stick Fight</a></li>
+            <li><a href="#p1_13">The Coffee Zone</a></li>
+        </ul>
+        <li><a href="#p2">Individual Tracks</a></li>
+        <ul>
+            <li><a href="#p2_1">The Final Terminus</a>
+            <li><a href="#p2_2">WeeD</a>
+            <li><a href="#p2_3">Don't Stay</a>
+            <li><a href="#p2_4">Roots of Ruin</a>
+            <li><a href="#p2_5">Different Ways</a>
+            <li><a href="#p2_6">Dark Groove</a>
+            <li><a href="#p2_7">Nyakuza Manholes</a>
+            <li><a href="#p2_8">Modify</a>
+            <li><a href="#p2_9">Bring it On</a>
+            <li><a href="#p2_10">Renewed Unrest</a>
+        </ul>
+        <li><a href="#p3">Lightning Round</a></li>
+        <ul>
+            <li><a href="#p3_1">Tracks</a>
+            <li><a href="#p3_2">Albums</a>
+        </ul>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Music I Think is Rad and Stuff");
 
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Music I Think is Rad and Stuff</h1>
-<p style="margin-top: -25px;">But you can't hardly swallow, your fears and paiiiiiin!!!!!!<br/></p><br/>
+<p>But you can't hardly swallow, your fears and paiiiiiin!!!!!!<br/></p><br/>
 <p>
 October 20, 2024<br/>
 Category: Infodump<br/>
@@ -23,8 +62,8 @@ Music nerds, feel free to roast me on my lack of articulation when it comes to e
 Also, this page is not comprehensive, just stuff I really feel like needs mentioning.<br/><br/>
 Anyway, on with all the music.<br/><br/>
 </p>
-<h2>Albums / Games</h2>
-<h3>Activision Anthology (Game Boy Advance)</h3>
+<h2 id="p1">Albums / Games</h2>
+<h3 id="p1_1">Activision Anthology (Game Boy Advance)</h3>
 <img width="384px" src="/assets/img/blog/musicilike/activanth.jpg"><br/>
 2002 / Alexander Brandon<br/><br/>
 <p>
@@ -32,7 +71,7 @@ This game is a collection of Atari 2600 games and homebrews for the Game Boy Adv
 All of the music is tracked too, so you can rip it using <a href="https://github.com/lunasorcery/engine-software-gba-tools">lunasorcery's tools</a> and get high quality rips of them!<br/><br/>
 Favorite tracks: Anthology, Leap<br/><br/>
 </p>
-<h3>Hardcore Pinball (Game Boy Advance)</h3>
+<h3 id="p1_2">Hardcore Pinball (Game Boy Advance)</h3>
 <img width="384px" src="/assets/img/blog/musicilike/hcpin.jpg"><br/>
 <p>
 2002 / Aleksi Eeben, Hans Van Vilet, Jake Kaufman, Jonne "Purple Motion" Valtone<br/><br/>
@@ -45,7 +84,7 @@ Retro is a jazzy track that uses the GBA direct sound for vocals and drums, and 
 Soccer is pretty much exactly that, it's a sporty track that's complete with crowds cheering. It's good, but not my favorite.<br/><br/>
 Favorite tracks: Station, Robomech, Retro<br/><br/>
 </p>
-<h3>Portal 2</h3>
+<h3 id="p1_3">Portal 2</h3>
 <img width="384px" src="/assets/img/blog/musicilike/portal2.jpg"><br/>
 <p>
 2011 / Mike Morasky + Johnathan Coulton and Ellen McLain<br/><br/>
@@ -57,7 +96,7 @@ I think the track <i>Adrenal Vapor</i> is a interesting example of minimalism, a
 If you've played Portal 2, I think you most definitely like this soundtrack as well.<br/><br/>
 Favorite tracks: 9999999, Technical Difficulties, 15 Acres of Broken Glass, <br/>Love as a Construct, Turret Wife Serenade, Comedy Equals Tragedy Plus Time,<br/>The Reunion, TEST, Your Precious Moon, Want You Gone<br/><br/>
 </p>
-<h3>Autumntunes</h3>
+<h3 id="p1_4">Autumntunes</h3>
 <img width="384px" src="/assets/img/blog/musicilike/autumntunes.jpg"><br/>
 <p>
 2009 / Various Artists (Distributed by Ubiktune)<br/><br/>
@@ -67,7 +106,7 @@ A 2009 collection of chiptunes made by a bunch of artists and released for free 
 Favorite tracks: Syphus - Drop Table, kulor - Doorbellsplosion,<br/>Joule - Bursting Bubble Boy<br/><br/>
 <a href="https://ubiktune.com/releases/autumntunes">Link to Album</a><br/><br/>
 </p>
-<h3>NOW THAT'S WHAT I CALL KULOR!</h3>
+<h3 id="p1_5">NOW THAT'S WHAT I CALL KULOR!</h3>
 <img width="384px" src="/assets/img/blog/musicilike/ntwick.jpg"><br/>
 <p>
 2012 / kulor<br/><br/>
@@ -77,7 +116,7 @@ A chiptune album composed by kulor! They have a talent for creating lovely upbea
 Favorite tracks: My First LSDJ, Butterscotch Drops of Lime,<br/>Boyfriend and Girlfriend, Space Disko, Nintendo Entertainment Samba,<br/>Snofer's Infiltration Mission, Lobbyists, Electric Starbounce,<br/>Elementary School Supernova, Random Encounter,<br/>Madness Sky Falling Etc, Cruisin' Mah '95 Pimpmobile, I'm No Cyberhero,<br/>Fashion Queen (What I Should've Done the First Time Ubermix)<br/><br/>
 <a href="https://kulor.bandcamp.com/album/now-thats-what-i-call-kulor">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>Poker Night 2</h3>
+<h3 id="p1_6">Poker Night 2</h3>
 <img width="384px" src="/assets/img/blog/musicilike/pn2.jpg"><br/>
 <p>
 2013 / Jared Emerson-Johnson<br/><br/>
@@ -87,7 +126,7 @@ My favorite Poker game of all time, playing it with "A steroid freak with rage i
 Much like Telltale's previous works, Jared returns with a collection of Jazz arrangements from The Venture Bros., The Walking Dead, Sam & Max, Army of Darkness, Borderlands, and Portal.<br/><br/>
 Favorite tracks: No Vacancy (The Venture Bros.), Prologue (Army of Darkness), Twilight Eternal (Sam & Max), Dark Rooms (The Walking Dead)<br/><br/>
 </p>
-<h3>Petscop Soundtrack</h3>
+<h3 id="p1_7">Petscop Soundtrack</h3>
 <img width="384px" src="/assets/img/blog/musicilike/petscop.jpg"><br/>
 <p>
 2019 / Tony "pressedyes" Domineco<br/><br/>
@@ -98,7 +137,7 @@ Tracks can range from very lighthearted to very unnerving, such as <i>level1</i>
 Favorite tracks: level1, gift-plane, level2, birthday, driving, school, girl-world, explore, bottom<br/><br/>
 <a href="https://petscop.bandcamp.com/album/petscop-soundtrack">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>ULTRAKILL</h3>
+<h3 id="p1_8">ULTRAKILL</h3>
 <img width="384px" src="/assets/img/blog/musicilike/uk1.jpg"> <img width="384px" src="/assets/img/blog/musicilike/uk2.jpg"><br/>
 <p>
 202? / Heaven Pierce Her<br/><br/>
@@ -108,7 +147,7 @@ ULTRAKILL's soundtrack has its moments. All of it is pretty freakin' good hyperp
 Favorite tracks: The Fire is Gone, Unstoppable Force, A Shattered Illusion,<br/>Panic Betrayer, The Cyber Grind, Deep Blue, CHAOS<br/><br/>
 <a href="https://heavenpierceher.bandcamp.com/">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>Winter Chip IX</h3>
+<h3 id="p1_9">Winter Chip IX</h3>
 <img width="384px" src="/assets/img/blog/musicilike/wc9.jpg"><br/>
 <p>
 2014 / Various Artists<br/><br/>
@@ -119,7 +158,7 @@ There is much variety to be had here, from genres represented and hardware used 
 Favorite tracks: Fearofdark - Snowball Earth, kfaraday - On The Road,<br/>Duplica - Esoteric, nuclace - nomoarbrks, Drozerix - Cabin Fever!,<br/>TristEndo - Tupac Eats Pizza Rolls and Rolls Blunts <br/><br/>
 <a href="https://battleofthebits.bandcamp.com/album/winter-chip-ix">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>Various SiIvaGunner / VvvvvaVvvvvvr Albums</h3>
+<h3 id="p1_10">Various SiIvaGunner / VvvvvaVvvvvvr Albums</h3>
 <img width="180px" src="/assets/img/blog/musicilike/sv1.jpg">
 <img width="180px" src="/assets/img/blog/musicilike/sv2.jpg">
 <img width="180px" src="/assets/img/blog/musicilike/sv3.jpg">
@@ -170,7 +209,7 @@ Here's a few of my absolute favorite tracks from them:<br/>
 <br/>
 
 <a href="https://www.youtube.com/SiIvaGunner">Link to YouTube</a><br/><br/>
-<h3>Soundchip Salad</h3>
+<h3 id="p1_11">Soundchip Salad</h3>
 <img width="384px" src="/assets/img/blog/musicilike/salad.jpg"><br/>
 <p>
 2018 / kulor<br/><br/>
@@ -180,7 +219,7 @@ Another LP from kulor, this time with a focus on variety when it comes to hardwa
 Favorite tracks: StillPlayingMario.nsf, Our Time Machine Works!, Sample Me Again,<br/>A Stroll in my LeSabre, Big Win Mega Win,<br/>Maxo - Butterscotch Drops of Lime (Maxo Rockmix),<br/>kfaraday - My First Ubiktune Remix, Fearofdark - Cyberhero Disco<br/><br/>
 <a href="https://kulor.bandcamp.com/album/soundchip-salad">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>Stick Fight: The Game (Original Soundtrack)</h3>
+<h3 id="p1_12">Stick Fight: The Game (Original Soundtrack)</h3>
 <img width="384px" src="/assets/img/blog/musicilike/stfight.jpg"><br/>
 <p>
 2017 / Karl Flodin<br/><br/>
@@ -191,7 +230,7 @@ The soundtrack to Stick Fight: The Game, and contains a wide arrange of lovely u
 Favorite tracks: Stick It, Sticky Situation, Stuck in the Middle<br/><br/>
 <a href="https://karlflodin.bandcamp.com/album/stick-fight-the-game-original-soundtrack">Link to Bandcamp</a><br/><br/>
 </p>
-<h3>The Coffee Zone</h3>
+<h3 id="p1_13">The Coffee Zone</h3>
 <img width="384px" src="/assets/img/blog/musicilike/coffee.jpg"><br/>
 <p>
 2014 / Fearofdark<br/><br/>
@@ -202,8 +241,8 @@ There's such a wide range of tones here, adventurous, nostalgic, emotional, it h
 Favorite tracks: Lovesickness, Scaling the Dragon Fortress, Rain Dance,<br/>Pancake Department, Zoning Residential, Dopefish Lives, Dandelion Ride,<br/>Penguins of the Apocalypse, Flame Repellent, Snow Burn, Fun With Lazer Guns,<br/>The Coffee Zone<br/><br/>
 <a href="https://fearofdark.bandcamp.com/album/the-coffee-zone">Link to Bandcamp</a><br/><br/>
 </p>
-<h2>Individual tracks</h2>
-<h3>DOOM Eternal: Legacy - The Final Terminus</h3>
+<h2 id="p2">Individual tracks</h2>
+<h3 id="p2_1">DOOM Eternal: Legacy - The Final Terminus</h3>
 <img width="384px" src="/assets/img/blog/musicilike/del.png"><br/>
 <p>
 2021 / SLAD3 & SPC HC (Original by Mick Gordon)<br/><br/>
@@ -214,7 +253,7 @@ Anyway, in 2021 a couple of YouTube users took it upon themselves to rip the ent
 This one is my favorite track, a mix of the track "DOOM Hunted," played in the DOOM Hunter base.<br/><br/>
 <a href="https://www.youtube.com/watch?v=v1Djzbatrc0&list=PLAwkDjVcJePjpk91j4X-sZozhfetnGFF2">Link to YouTube Playlist</a><br/><br/>
 </p>
-<h3>WeeD</h3>
+<h3 id="p2_2">WeeD</h3>
 <?php generateYouTubeEmbed("9POK5iazmyM", 384, 288);?>
 <p>
 2003 / luchibobra<br/><br/>
@@ -222,7 +261,7 @@ This one is my favorite track, a mix of the track "DOOM Hunted," played in the D
 <p>
 Created as part of a 2003 ZX Spectrum Demo for CAFe'2003. This is a track that I spent the better part of five years looking for until my friend TôBach asked around for where it came from. I first heard it in the "simplelight" theme for Recalbox around late 2018.<br/><br/>
 </p>
-<h3>Meteora - Don't Stay</h3>
+<h3 id="p2_3">Meteora - Don't Stay</h3>
 <?php generateYouTubeEmbed("oWfGOVWrueo", 384, 216);?>
 <p>
 2001 / Linkin Park<br/><br/>
@@ -231,7 +270,7 @@ Created as part of a 2003 ZX Spectrum Demo for CAFe'2003. This is a track that I
 I first heard this track in a mod for Yakuza Kiwami 2 called <i>The Silly Mod</i>, which turns the game into a giant shitpost.<br/><br/>
 Probably the only Linkin Park track that I like so far, especially goes well with the Ryuji Goda fight in that game.<br/><br/>
 </p>
-<h3>Roots of Ruin</h3>
+<h3 id="p2_4">Roots of Ruin</h3>
 <?php generateYouTubeEmbed("8LSxLYGpGA8", 384, 216);?>
 <p>
 2024 / Rei8bit<br/><br/>
@@ -240,7 +279,7 @@ Probably the only Linkin Park track that I like so far, especially goes well wit
 A hyperpop boss fight track using the Ricoh N2A03, Namco N-163, and Nintendo FDS.<br/><br/>
 This track won 4th place out of 348 entries in Winter Chip XIX!<br/><br/>
 </p>
-<h3>Different Ways</h3>
+<h3 id="p2_5">Different Ways</h3>
 <?php generateYouTubeEmbed("wHX_MzKasXA", 384, 216);?>
 <p>
 2005 / AceMan<br/><br/>
@@ -248,7 +287,7 @@ This track won 4th place out of 348 entries in Winter Chip XIX!<br/><br/>
 <p>
 A lovely calming XM track. Not much more to say, I just really freakin' like it.<br/><br/>
 </p>
-<h3>Jazz Jackrabbit 2 - Dark Groove</h3>
+<h3 id="p2_6">Jazz Jackrabbit 2 - Dark Groove</h3>
 <?php generateYouTubeEmbed("2UkcYTGWyZE", 384, 216);?>
 <p>
 1998 / Alexander Brandon<br/><br/>
@@ -257,7 +296,7 @@ A lovely calming XM track. Not much more to say, I just really freakin' like it.
 Another appearance of Alexander Brandon on this list, this time for Jazz 2!<br/><br/>
 Really like listening to this one on long road trips. It's very fitting for staring at empty highways.<br/><br/>
 </p>
-<h3>Nyakuza Manholes</h3>
+<h3 id="p2_7">Nyakuza Manholes</h3>
 <?php generateYouTubeEmbed("2UkcYTGWyZE", 384, 216);?>
 <p>
 2019 / nelward<br/><br/>
@@ -265,7 +304,7 @@ Really like listening to this one on long road trips. It's very fitting for star
 <p>
 An absolutely bangin' funky jazz track, played in the Nyakuza Manholes in A Hat in Time!<br/><br/>
 </p>
-<h3>View-Monster - Modify</h3>
+<h3 id="p2_8">View-Monster - Modify</h3>
 <?php generateYouTubeEmbed("5whfnP4Vd3s", 384, 216);?>
 <p>
 2008 / Neil Cicierega<br/><br/>
@@ -273,7 +312,7 @@ An absolutely bangin' funky jazz track, played in the Nyakuza Manholes in A Hat 
 <p>
 A funky electronic track with some messed up & cynical lyrics. Possibly a satire from the perspective of a corporate entity that profits greatly from careless body-modding.<br/><br/>
 </p>
-<h3>Like a Dragon Gaiden - Bring It On</h3>
+<h3 id="p2_9">Like a Dragon Gaiden - Bring It On</h3>
 <?php generateYouTubeEmbed("14xdi88vHoA", 384, 216);?>
 <p>
 2023 / Keitarou Hanada<br/><br/>
@@ -281,7 +320,7 @@ A funky electronic track with some messed up & cynical lyrics. Possibly a satire
 <p>
 My favorite track from Gaiden, one that's just pure anger against the idiots that try to beat you up over in Shofukucho, the Daidoji, or anyone else that thinks they can even remotely touch you.<br/><br/>
 </p>
-<h3>Yakuza Kiwami - Renewed Unrest</h3>
+<h3 id="p2_10">Yakuza Kiwami - Renewed Unrest</h3>
 <?php generateYouTubeEmbed("GbwFYg8Koao", 384, 216);?>
 <p>
 2016 / SEGA SOUND TEAM<br/><br/>
@@ -290,11 +329,11 @@ My favorite track from Gaiden, one that's just pure anger against the idiots tha
 A really, really ominous track. I can hear this one pretty much every time I leave a building before I have a school exam. This song is really good at setting the tone for "things are about to hit the fan."<br/><br/>
 </p>
 <br/>
-<h3>Lightning Round!</h3>
+<h3 id="p3">Lightning Round!</h3>
 <p>
 Here's some honorable mentions!<br/><br/>
 
-<h3>Tracks</h3>
+<h3 id="p3_1">Tracks</h3>
 Ellie53 & The Waluigi Believers - The Waluigi Collab (The Year of Grand Dad, 2023)<br/>
 Lunaxis - No More Nuzzles (Undertale Halloween Hack, 2019)<br/>
 nelward - Battle Against a Handsome Opponent (2016)<br/>
@@ -323,7 +362,7 @@ TX2 - Randy McNally (No Love Like Christian Hate) (2023)<br/>
 DJ SeMiH - Windows XP Crazy Error (200?)<br/>
 <br/>
 
-<h3>Albums</h3>
+<h3 id="p3_2">Albums</h3>
 Fearofdark - The Early Attempts<br/>
 RushJet1 - Rikki & Vikki (2018)<br/>
 Dubmood - Best of 2001 & 2003<br/>

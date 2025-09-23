@@ -1,12 +1,40 @@
 <?php
 
+$navContents = <<<EOF
+    <ul>
+        <li><a href="#p1">A Question</a></li>
+        <li><a href="#p2">Stations</a>
+        <ul>
+            <li><a href="#p2_1">E01</a></li>
+            <li><a href="#p2_2">E03</a></li>
+            <li><a href="#p2_3">E03a</a></li>
+            <li><a href="#p2_4">E07</a></li>
+            <li><a href="#p2_5">E11</a></li>
+            <li><a href="#p2_6">E12</a></li>
+            <li><a href="#p2_7">E13</a></li>
+            <li><a href="#p2_8">E25</a></li>
+            <li><a href="#p2_9">G01</a></li>
+            <li><a href="#p2_10">G02</a></li>
+            <li><a href="#p2_11">G03</a></li>
+            <li><a href="#p2_12">G04</a></li>
+            <li><a href="#p2_13">V13</a></li>
+            <li><a href="#p2_14">V19</a></li>
+            <li><a href="#p2_15">HM01</a></li>
+            <li><a href="#p2_16">UZB76</a></li>
+            <li><a href="#p2_17">DPRK-ARQ</a></li>
+            <li><a href="#p2_18">V15</a></li>
+        </ul>
+        <li><a href="#p3">What now?</a>
+    </ul>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Blog :: Those Weird Numbers from the Sky");
 
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Those Weird Numbers from the Sky</h1>
-<p style="margin-top: -25px;">We resume our broadcast day.<br/></p><br/>
+<p>We resume our broadcast day.<br/></p><br/>
 <p>
 October 14, 2024<br/>
 Category: Infodump<br/>
@@ -15,7 +43,7 @@ Content Warning // Politics (World), Loud Noises
 </span>
 </p>
 <br/>
-<p>
+<p id="p1">
 Here's an odd question.<br/>
 You ever wonder what the Russian military does in the background, you know, <i>while</i> they invade land that doesn't belong to them?</br>
 See, they've got these goofy radio stations that do nothing but play buzzing or beeping noises 24/7!
@@ -84,17 +112,17 @@ Another bit, life as a spy agent must have been BOOOOORING. And lonely, but most
 <img src="/assets/img/blog/numbers/avgn.png"><br/><br/>
 Anyway, right, decoding the message. So these stations' messages were encoded through a method known as a one-time pad. Essentially a mechanism for swapping letters around, but as far as I can tell, each station operator had a unique way of organizing these numbers. So long as each pad is destroyed after one single use, this method is utterly secure and practically impossible to break, unless, I guess you're a bad spy with poor opsec.<br/><br/>
 </p>
-<h2>Actual Stations</h2>
+<h2 id="p2">Actual Stations</h2>
 <p>
 Here's my favorite stations, mostly for their quirks or history.<br/><br/>
 </p>
-<h3>E01 "Ready Ready"</h3>
+<h3 id="p2_1">E01 "Ready Ready"</h3>
 <p>
 E01 was an AM station based somewhere in Europe, having been last reportd in late 1999.<br/>
 In each transmission, it would repeat the 5-digit ID marker for five minutes, before the female voice would say "Ready, Ready". It would then read the amount of number groups twice, before the actual message.<br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e01.mp3");?><br/><br/>
 </p>
-<h3>E03 "The Lincolnshire Poacher"</h3>
+<h3 id="p2_2">E03 "The Lincolnshire Poacher"</h3>
 <p>
 E03 was a British numbers stashion that transmitted from the HMGCC in Buckinghamshire, England, and later on, the Royal Air Force base on the small island of Cyprus. The station was active from the mid-1980s onto July 2008, from which it hasn't been heard since.<br/><br/>
 The station got its name for its preamble theme, which is an old folk song called, well, <i>The Lincolnshire Poacher</i>. The station would play its electronic preamble 12 times, then the 5-digit identifier 10 times. After which, it would play six chimes, before the 200 5-digit number groups were played. It would play six more chimes, and then it would play the song six times. In total, transmissions would take roughly 45 minutes.<br/><br/>
@@ -110,21 +138,21 @@ Supposedly the target for this station was the Middle East, and was subjected to
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e03jam.mp3");?><br/><br/>
 </p>
 </p>
-<h3>E03a "Cherry Ripe"</h3>
+<h3 id="p2_3">E03a "Cherry Ripe"</h3>
 <p>
 E03a was E03's "sister" station, this time stationed in Guam, later moving to a location not far from the city of Humpty Doo, Australia. Unlike E03, E03a was instead likely targetted at Asia.<br/><br/>
 The station made 8 broadcasts per day, 5 days a week, 14 messages a month.<br/><br/>
 <a href="https://www.google.com/maps/place/-12.607748,131.289009"><img src="/assets/img/blog/numbers/humptydoo.png"><br/><br/></a>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e03a.mp3");?><br/><br/>
 </p>
-<h3>E07 "English Man"</h3>
+<h3 id="p2_4">E07 "English Man"</h3>
 <p>
 Russia, in the modern day, operates numerous stations. E07 transmits two days per week, three times per day.<br/>
 Not entirely sure of what it's targeting, but it's interesting to know that Russia still relies on such an old-fashioned method for espionage these days.<br/><br/>
 E07 is located in both Moscow and Khabarovsk.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e07.mp3");?><br/><br/>
 </p>
-<h3>E11 "Oblique"</h3>
+<h3 id="p2_5">E11 "Oblique"</h3>
 <p>
 An English station based in Warsaw, Poland. Operated by the <a href="https://www.sww.gov.pl/en/">Polish Military Intelligence Service (SWW)</a>, this station is known to have been operating since the early 80s. It got its nickname due to the usage of the word "Oblique" in place of a dash.<br/><br/>
 This station appears to still rely on the Gerat 32620 device, the diagram for its operation being shown above in the really crude doodle.<br/><br/>
@@ -133,7 +161,7 @@ This station sends transmissions every day, but most of them are null messages. 
 <a href="https://www.google.com/maps/place/52.42935363098804,20.881122690588548"><img width="768px" src="/assets/img/blog/numbers/sww_top.png"><br/></a>
 <img width="768px" src="/assets/img/blog/numbers/sww_street.png"><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e11.mp3");?><br/><br/>
-<h3>E12 "NNN"</h3>
+<h3 id="p2_6">E12 "NNN"</h3>
 <p>
 One of the "OG" numbers stations, this Austrian station was active up until sometime in November of 1997.<br/><br/>
 Operating on a weekly schedule, the station would send only one unique schedule each month, with group counts being relatively low multiples of five, such as 25 or 30.<br/><br/>
@@ -141,7 +169,7 @@ On each transmission, the station would play a morse code "N" for five minutes, 
 E12 had originally broadcast alongside G12, its German counterpart, however G12 went silent in June 1994.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e12.mp3");?><br/><br/>
 </p>
-<h3>E13 "Five Dashes"</h3>
+<h3 id="p2_7">E13 "Five Dashes"</h3>
 <p>
 This station was based in Germany, and was active from March 1991 to early 1993.<br/><br/>
 Each transmission would read a three-digit ID, a 5-digit group, and a 3-digit group count, before playing three tones. It would read the groups, say "I say again", and read the groups again. Each group was five digits, and there was a pause after each third digit in a group.<br/><br/>
@@ -149,14 +177,14 @@ It was rather similar to the US station E05, which caused theories to form that 
 I mostly like this station because the tones sound absolutely atrocious in one of the known recordings.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e13.mp3");?><br/><br/>
 </p>
-<h3>E25 "Rebeat"</h3>
+<h3 id="p2_8">E25 "Rebeat"</h3>
 <p>
 At the time of writing, E25 is currently under investigation and is known to be operated by Egypt. Transmissions are known to be unpredictably timed and loaded with operator mistakes, in many cases leading to an undecipherable message.<br/><br/>
 The machine is known to be using Windows 7, and a lot of sounds occasionally make their way into the transmission mix. Sometimes, however, transmissions are made live, and distant chattering or paper crumbling can be heard. Sometimes the live operator will accidentally swap the order of digits due to getting confused by the right-to-left ordering of Arabic.<br/><br/>
 Also for some reason the live operator sounds, like really really excited.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/e25.mp3");?><br/><br/>
 </p>
-<h3>G01 "Tyrolean Music Station"</h3>
+<h3 id="p2_9">G01 "Tyrolean Music Station"</h3>
 <p>
 A rather unique station.<br/><br/>
 This one was operated by French Intelligence, and transmissions ceased sometime in 1975, after it was featured in a French magazine.<br/><br/>
@@ -165,7 +193,7 @@ The way it was set up was purposely for the sake of trolling, since it was sendi
 <img src="/assets/img/blog/numbers/Interferences.jpg"><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/g01.mp3");?><br/><br/>
 </p>
-<h3>G02 "Swedish Rhapsody"</h3>
+<h3 id="p2_10">G02 "Swedish Rhapsody"</h3>
 <p>
 One of the most famous stations, this Polish station got its name from the incorrectly attributed preamble song. The song was revealed to actually be "Luxembourg Polka" after <a href="http://numbersoddities.nl/N&O-200.pdf#page=3">the Polish government declassified various documents in 2014.</a><br/><br/>
 G02 was first observed in the 1960s but ceased operations in April 1998. It became so famous because the voice, generated by a Gerat 32620, was configured to be much higher than typically heard of the female German voice cartridge.<br/><br/>
@@ -173,7 +201,7 @@ G02 could send up to three messages in one transmission, with the first and seco
 I really like this recording because it absolutely craps itself a couple of times, but it was also featured in the OMORI soundtrack, little fun fact.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/g02.mp3");?><br/><br/>
 </p>
-<h3>G03 "Gongs and Chimes"</h3>
+<h3 id="p2_11">G03 "Gongs and Chimes"</h3>
 <p>
 Operated by the East German National People's Army (NVA), this station was last heard in May 1990. It became so famous for its preamble, which was simply just grandfather clock chimes. However, as the Cold War went on, the tape became warped and mangled as it was used, and thusly became incredibly terrifying to listen to.<br/><br/>
 Once again, the Gerat 32620 makes an appearance, using a slightly higher pitched configuration of the German cartridge.<br/><br/>
@@ -184,7 +212,7 @@ It's a beautiful recording, and I'm endlessly thankful that it has been preserve
 G03 was controlled from Wernsdorf, and the transmitter site was located in Zeesen.<br/>
 </p>
 <a href="https://www.google.com/maps/place/52.273640,13.615993"><img width="768px" src="/assets/img/blog/numbers/zeesen.png"><br/></a><br/>
-<h3>G04 "Three Note Oddity"</h3>
+<h3 id="p2_12">G04 "Three Note Oddity"</h3>
 <p>
 Another 32620 station, this time operated by Hungarian Intelligence, most likely targeing Germany. This station was active throughout the cold war, before going inactive in 2005.<br/><br/>
 This station got its nickname from its three rising tones included in the preamble. Strangely, there's no group count in the header, just an "Achtung! Achtung!"<br/><br/>
@@ -192,7 +220,7 @@ This station got its nickname from its three rising tones included in the preamb
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/g04_02.mp3");?><br/><br/>
 Remember our promise.<br/><br/>
 </p>
-<h3>V13 "New Star Broadcasting"</h3>
+<h3 id="p2_13">V13 "New Star Broadcasting"</h3>
 <p>
 This one hails from Taiwan, and is aimed at China, with a female voice speaking in Mandarin.<br/><br/>
 It operates on a number of shortwave frequencies, such as 7502, 7688, 8196, 8300, and more.<br/><br/>
@@ -203,21 +231,21 @@ There is also a very rare null format:<br/>
 <i>"This is the New Star Broadcasting Station, station 3. At this time, there are no messages for you. Thank you for listening, wishing you health and happiness. See you."</i><br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/v13-null.mp3");?><br/><br/>
 </p>
-<h3>V19 "WTR21"</h3>
+<h3 id="p2_14">V19 "WTR21"</h3>
 <p>
 A Spanish-speaking station run by France. Little is known about this station, as it was only ever used once in the mid-80s before going silent.<br/><br/>
 There's only one recording of it.<br/><br/>
 This station's preamble song was identified as "Don't Cry for me Argentina" but was given the name WTR21 for the NATO alphabet identifier in the preamble and postamble.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/wtr21.mp3");?><br/><br/>
 </p>
-<h3>HM01</h3>
+<h3 id="p2_15">HM01</h3>
 <p>
 This is a Cuban numbers station operated by the Cuban Intelligence Directorate (DGI).<br/><br/>
 A rather unique digital station, this one uses six 5-digit message headers, followed by a tone, and then for the following 20 minutes, we get six .TXT, .F1C, or .F1G files transmitted over OFDM.<br/><br/>
 HM01 is known to share transmisison sites with <i>Radio Havana Cuba</i>. It's not really uncommon for the two stations to get their frequencies mixed up.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/hm01.mp3");?><br/><br/>
 </p>
-<h3>UZB76/UVB76 "The Buzzer" & Friends</h3>
+<h3 id="p2_16">UZB76/UVB76 "The Buzzer" & Friends</h3>
 <p>
 While not really a numbers station, "The Buzzer" is a Russian military commandment station serving the Western Military District, and was first discovered in the 70s.<br/><br/>
 If there isn't any traffic being sent, this station just emits its channel marker.<br/><br/>
@@ -234,7 +262,7 @@ and
 <a href="https://priyom.org/military-stations/russia/the-alarm">The Alarm.</a>
 <br/><br/>
 </p>
-<h3>DPRK-ARQ Network</h3>
+<h3 id="p2_17">DPRK-ARQ Network</h3>
 <p>
 North Korea is known to be a prolific user of shortwave radio, for various purposes. They use a proprietary modem with their own BFSK protocol to transmit information to embassies around the world. Their elaborate network can especially be heard if you're over in Europe or Asia, operating anywhere from 7-25 MHz.<br/><br/>
 Messages sent are in 5-figure group ciphertexts, with a binary header.<br/><br/>
@@ -243,7 +271,7 @@ Messages sent are in 5-figure group ciphertexts, with a binary header.<br/><br/>
 Messages can look something along the lines of this, however they can change in format, length, or header based on location or message context.<br/>
 <img src="/assets/img/blog/numbers/dprk-test.png"><br/><br/>
 </p>
-<h3>V15 (Radio Pyongyang Affiliated Station)</h3>
+<h3 id="p2_18">V15 (Radio Pyongyang Affiliated Station)</h3>
 <p>
 A rather unique station, this one operates as a program on Pyongyang Broadcasting Station in North Korea.<br/><br/>
 V15 messages were presented as a list of assignments for university students, calling out page numbers and problem numbers in place of 5-number figure groups.<br/><br/>
@@ -253,7 +281,7 @@ V15 transmitted every week until June 27, 2019, from which transmission became s
 In mid-January of 2024, Pyongyang Broadcasting Station fell completely silent.<br/><br/>
 <?php generateAudioFileEmbed("/assets/snd/blog/numbers/v15.mp3");?><br/><br/>
 </p>
-<h2>What now?</h2>
+<h2 id="p3">What now?</h2>
 <p>
 Firstly, some questions that have no answers:<br/>
 1. What the hell?<br/>
