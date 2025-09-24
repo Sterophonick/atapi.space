@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+        <div class="sideFunFact window">
+        <h4>Pro tip:</h4>
+        <p>
+            Linking as many things to your personal site as possible is a very good idea.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Web Links");
 

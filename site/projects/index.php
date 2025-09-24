@@ -9,10 +9,6 @@ echo constructPageHeader("Atapi's Domain! :: Projects");
 <p>I do stuff I guess. Here's just where you can find them. Plus, there's an archive of old stuff I have
 made!</p>
 <br />
-<p>
-<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif">
-Complete page overhaul!<br />
-</p>
 
 <table class="projectsTable" align="center" border="0" cellspacing="10" cellpadding="0"
 style="font-size:16pt; text-align: center;">

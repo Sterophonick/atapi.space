@@ -95,7 +95,9 @@ if(getCookieByName2("autoplay") == 'false') {
     document.addEventListener('visibilitychange', () => {
         if(document.hidden) {
             playingOnHide = !musicPlayer.paused;
-            musicPlayer.pause();
+            if(getCookieByName2("focusplay") == 'false') {
+                musicPlayer.pause();
+            }
         } else {
             if (playingOnHide) {
                 musicPlayer.play();
