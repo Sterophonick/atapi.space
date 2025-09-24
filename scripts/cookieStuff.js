@@ -53,7 +53,6 @@ if(window.location.pathname == "/site/") {
     document.getElementById("enablePauseOnFocus").checked = (getCookieByName("focusplay") === 'true');
     document.getElementById("disableBgAnim").checked = (getCookieByName("bganim") === 'true');
     showOneko();
-    bgAnimCookie();
 }
 
 // make the musicplayer autoplay as necessary
@@ -65,3 +64,9 @@ if(getCookieByName("autoplay") == 'false') {
 }
 
 document.getElementById("oneko").style.display = (getCookieByName("oneko") == "true" ? true : false ) ? 'none' : 'block';
+
+if(getCookieByName("bganim") == 'true') {
+    document.body.classList.add('no-bg-anim');
+} else {
+    document.body.classList.remove('no-bg-anim');
+}
