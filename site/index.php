@@ -49,7 +49,7 @@ $customSideContent = <<<EOF
             }).then(function (json) {
                 songLink.setAttribute("href", json['track']['url']);
                 songArt.innerHTML = '<img style="filter: none;" class="headerIcon" src="' + json['track']['image'][0]['#text'] + '" width="32px" height="32px">';
-                songText.innerHTML = "<marquee width='190px'><p>" + json['track']['artist']['#text'] + ' - ' + json['track']['name'] + "</p></marquee>";
+                songText.innerHTML = "<marquee width='190px'><p title='Format: Artist - Album - Track'>" + json['track']['artist']['#text'] + ' - ' + json['track']['album']['#text'] +' - ' + json['track']['name'] + "</p></marquee>";
             });
     </script>
 EOF;
