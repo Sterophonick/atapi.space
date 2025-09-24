@@ -24,6 +24,34 @@ $customSideContent = <<<EOF
             <a href="https://atapi.space/"><img width="88px" height="31px" src="https://atapi.space/assets/img/buttons/atapi.gif" alt="A red-and-pink checkerboard button with the text "Atapi" on it. There is also an icon of a little cat fursona."></a>
         </textarea>
     </div>
+    <div class="sideFunFact window">
+        <h4 style="text-align: center"><img class="headerIcon" width="32px" height="32px" src="/assets/img/home/lfm.png"> Last played:</h4>
+        <span id="lastFmSong">
+            <a id="lastFmLink" style="color: white; font-style: normal; text-decoration: none;">
+                <span id="lastFmArt"></span> <span id="lastFmText">Checking...</span>
+            </a>
+        </span>
+        <p style="font-size: 9pt">
+            Last.fm integration courtesy of <a href="https://github.com/biancarosa/lastfm-last-played/tree/main">biancarosa</a>.
+        </p>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        let user = 'Sterophonick';
+        let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+        let songArt = document.querySelector('#lastFmArt');
+        let songText = document.querySelector('#lastFmText');
+        let songLink = document.querySelector('#lastFmLink');
+        fetch(url)
+            .then(function (response) {
+                return response.json()
+            }).then(function (json) {
+                songLink.setAttribute("href", json['track']['url']);
+                songArt.innerHTML = '<img style="filter: none;" class="headerIcon" src="' + json['track']['image'][0]['#text'] + '" width="32px" height="32px">';
+                songText.innerHTML = "<marquee width='190px'><p>" + json['track']['artist']['#text'] + ' - ' + json['track']['name'] + "</p></marquee>";
+            });
+    </script>
 EOF;
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
@@ -69,22 +97,6 @@ This site is basically my little zone on the internet, a hub for my projects and
 <br />
 
 <div id="friday"><script type="text/javascript">friday();</script></div>
-
-<?php
-
-if(doWeShowLastFmEmbed()) {
-echo <<<EOF
-<div id="lastFMBox">
-    <p>oh, here's what i've been listening to lately!</p>
-    <iframe alt="(Content cannot be displayed for some reason.)" width="400px" height="391px" src="https://lastfm-recently-played.vercel.app/api?user=Sterophonick&count=6&loved=true&show_user=header&bg_color=00000000" style="border: 2px solid #FF0000; border-radius: 8px"></iframe>
-    <p style="font-size:12pt">LastFM integration courtesy of <a
-    href="https://github.com/JeffreyCA/lastfm-recently-played-readme">JeffreyCA</a>.</p>
-    <br />
-    <br />
-</div>
-EOF;
-}
-?>
 
 <p>here's my ridiculous collection of buttons!</p>
 <div id="buttons" class="pixelArt" style="width: 100%; margin: auto; font-size:0%">
