@@ -316,3 +316,12 @@ font-size: 13pt;
         font-size: 13pt;
     }
 }
+
+#homeButtonTextArea {
+    height: 23px;
+    resize: none;
+    font-size: 12px;
+    line-height: 12px;
+    word-break: break-all;
+    vertical-align: top;
+}

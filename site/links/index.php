@@ -1,7 +1,7 @@
 <?php
 
 $customSideContent = <<<EOF
-        <div class="sideFunFact window">
+    <div class="sideFunFact window">
         <h4>Pro tip:</h4>
         <p>
             Linking as many things to your personal site as possible is a very good idea.

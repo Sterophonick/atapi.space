@@ -13,6 +13,17 @@ $customSideContent = <<<EOF
         <span title="Allow or disallow the music player from automatically playing music on page load."><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Don't Autoplay Music</small></span><br/>
         <span title="Prevent the music player from automatically pausing on focus loss."><input type="checkbox" onclick="musicFocusCookie()" id="enablePauseOnFocus"><small>Don't Pause on Focus Loss</small></span>
     </div>
+    <div class="sideFunFact window">
+        <h4 style="text-align: center">Link my site!</h4>
+        <p>
+            Copy the text in the little white box to link it on your site!
+        </p>
+        <img class="pixelArt" src="/assets/img/buttons/atapi.gif"
+        title="Made by @ZenithNeko and @ashie404!!! <3">
+        <textarea id="homeButtonTextArea" rows="2" cols="10" readonly="" onclick="this.setSelectionRange(0, this.value.length)">
+            <a href="https://atapi.space/"><img width="88px" height="31px" src="https://atapi.space/assets/img/buttons/atapi.gif" alt="A red-and-pink checkerboard button with the text "Atapi" on it. There is also an icon of a little cat fursona."></a>
+        </textarea>
+    </div>
 EOF;
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
@@ -58,17 +69,6 @@ This site is basically my little zone on the internet, a hub for my projects and
 <br />
 
 <div id="friday"><script type="text/javascript">friday();</script></div>
-
-<p>
-Here's my web button to link on your own site!<br />
-<img class="pixelArt" src="/assets/img/buttons/atapi.gif"
-title="Made by @ZenithNeko and @ashie404!!! <3"><br />
-<br />
-While you're here, why don't you sign my guestbook!<br />
-<a class="pixelArt" href="/site/guestbook/"><img
-src="/assets/img/home/guestbook.gif"></a><br />
-</p>
-<br />
 
 <?php
 
