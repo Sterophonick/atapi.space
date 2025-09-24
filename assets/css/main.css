@@ -64,6 +64,10 @@ body {
     100% { background-position: -64px 64px; }
 }
 
+.no-bg-anim {
+    animation: none !important;
+}
+
 /* top banner */
 #banner {
     max-width: 650px;

@@ -12,6 +12,7 @@ $customSideContent = <<<EOF
         <span title="Toggles the little cat that chases your mouse pointer."><input type="checkbox" onclick="showOneko()" id="enableOneko"><small>Disable Oneko</small></span><br/>
         <span title="Allow or disallow the music player from automatically playing music on page load."><input type="checkbox" onclick="musicCookie()" id="enableAutoplay"><small>Don't Autoplay Music</small></span><br/>
         <span title="Prevent the music player from automatically pausing on focus loss."><input type="checkbox" onclick="musicFocusCookie()" id="enablePauseOnFocus"><small>Don't Pause on Focus Loss</small></span>
+        <span title="Don't use CSS3 animations for the background. Can save resources on slower machines."><input type="checkbox" onclick="bgAnimCookie()" id="disableBgAnim"><small>Don't Animate Background</small></span>
     </div>
     <div class="sideFunFact window">
         <h4 style="text-align: center">Link my site!</h4>

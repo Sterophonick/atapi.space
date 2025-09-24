@@ -125,4 +125,25 @@
             <br/>
         </div>
     </body>
+    
+    <script>
+
+    function getCookieByName(name) {
+        const cookies = document.cookie.split(';');
+        for (let cookie of cookies) {
+            cookie = cookie.trim();
+            if (cookie.startsWith(name + '=')) {
+                return cookie.substring(name.length + 1);
+            }
+        }
+        return null;
+    }
+    
+    if(getCookieByName("bganim") == 'true') {
+        document.body.classList.add('no-bg-anim');
+    } else {
+        document.body.classList.remove('no-bg-anim');
+    }
+    
+    </script>
 </html>

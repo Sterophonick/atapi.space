@@ -14,6 +14,19 @@ function musicFocusCookie() {
     document.cookie = "focusplay=" + state + ";path=/";
 }
 
+function bgAnimCookie() {
+    var state = document.getElementById("disableBgAnim").checked;
+    document.cookie = "bganim=" + state + ";path=/";
+    
+    
+    if(getCookieByName("bganim") == 'true') {
+        document.body.classList.add('no-bg-anim');
+    } else {
+        document.body.classList.remove('no-bg-anim');
+    }
+}
+
+
 function getCookieByName(name) {
     const cookies = document.cookie.split(';');
     for (let cookie of cookies) {
@@ -38,6 +51,7 @@ if(window.location.pathname == "/site/") {
     document.getElementById("enableOneko").checked = (getCookieByName("oneko") === 'true');
     document.getElementById("enableAutoplay").checked = (getCookieByName("autoplay") === 'true');
     document.getElementById("enablePauseOnFocus").checked = (getCookieByName("focusplay") === 'true');
+    document.getElementById("disableBgAnim").checked = (getCookieByName("bganim") === 'true');
     showOneko();
 }
 
