@@ -36,8 +36,8 @@
                         * Autoplaying music<br/>
                         * Site settings on the main page<br/>
                         * Non-mobile-friendly layout<br/>
+                        * Cookies for site settings<br/>
                         * Legacy browser support<br/>
-                        * Homebrew propaganda<br/>
                         * Oneko<br/>
                         * Minimal JavaScript<br/>
                         * Randomized page elements<br/>
