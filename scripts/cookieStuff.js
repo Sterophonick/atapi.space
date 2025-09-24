@@ -53,6 +53,7 @@ if(window.location.pathname == "/site/") {
     document.getElementById("enablePauseOnFocus").checked = (getCookieByName("focusplay") === 'true');
     document.getElementById("disableBgAnim").checked = (getCookieByName("bganim") === 'true');
     showOneko();
+    bgAnimCookie();
 }
 
 // make the musicplayer autoplay as necessary
