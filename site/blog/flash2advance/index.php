@@ -201,7 +201,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" src="/assets/img/blog/flash2advance/ez2_client1.png"><br/><br/>
 
     Interestingly enough, having the client software open causes the LED on the linker to start doing this "heartbeat" type of flickering. It only does this when there is no cartridge inserted, though.<br/>
-    <video preload="metadata" width="640" height="360" controls>
+    <video preload="none" width="640" height="360" poster="/assets/img/blog/flash2advance/vidposters/ez2_heartbeat.jpg" controls>
     <source src="/assets/vid/ez2_heartbeat.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -368,7 +368,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/gbamp_gba3.jpg"><br/><br/>
 
     The movie player, which exposes only <code>.GBM</code> files, is actually half decent. It offers a basic set of seat controls, skip ahead, rewind, pause, and there's an option to even show the current time. It's not as nice as what would be available as part of Game Boy Advance Video but it's definitely leagues more serviceable than Meteo, which we'll touch on in a bit.<br/>
-    <video preload="metadata" class="interruptVideo" width="720" height="480" controls>
+    <video preload="none" class="interruptVideo" width="720" height="480" poster="/assets/img/blog/flash2advance/vidposters/gbamp_invzim.jpg"  controls>
     <source src="/assets/vid/gbamp_invzim.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
