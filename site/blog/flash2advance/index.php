@@ -324,7 +324,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
     <img loading="lazy" src="/assets/img/blog/flash2advance/ez2_client18.png"><br/><br/>
 
     We also get another status pattern when having a non-EZ-Flash cartridge attached. This time it blinks once instead of twice.<br/>
-    <video preload="metadata" width="640" height="360" controls>
+    <video preload="none" width="640" height="360" poster="/assets/img/blog/flash2advance/vidposters/ez2_nonez_heartbeat.jpg" controls>
     <source src="/assets/vid/ez2_nonez_heartbeat.webm" type="video/webm">
     <br/>
     <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -516,7 +516,7 @@ So you need to run a tool called <code>gbafix</code> by DarkFader in order to ge
 <img loading="lazy" src="/assets/img/blog/flash2advance/gbafix.png"><br/><br/>
 
 But then, FINALLY, does your video boot on real hardware for you to write to your Flashcart:<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/smosh.jpg" controls>
 <source src="/assets/vid/smosh.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -524,7 +524,7 @@ But then, FINALLY, does your video boot on real hardware for you to write to you
 <small>Smosh - MAGIC KEYBOARD!</small><br/><br/>
 
 From here, the only seat controls we really get are "Fast-Forward," on the A Button and "Restart" on the B Button. To be fair, though, these controls were worse in 1.3.0, where <i>every</i> button would restart the video, so at least there's. SOMETHING.<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/smosh2.jpg"controls>
 <source src="/assets/vid/smosh2.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -536,7 +536,7 @@ Additionally, the file sizes are huge. This video, from YouTube, is just four mi
 For reference, the 640x360 h.264 encode of this video ripped from YouTube was only 8.7 MB.<br/><br/>
 
 ...yeah. The default settings in this program are really not efficient for saving on file size. 120kbps of video on a 240x160 screen is egregious, so we can throw away a lot of this unnecesary video data. To wit:<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/smosh30kbps.jpg" controls>
 <source src="/assets/vid/smosh30kbps.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -599,7 +599,7 @@ And now, I present to you, the same Smosh video, with the lowest possible settin
 </video><br/><br/>
 
 Of course, thus far, we've only tested live action video, but animation is a medium that's much easier to compress due to comparatively fewer colors and fewer uniquely drawn frames. For my first test, I encoded asdfmovie15, and was able to get it at a good resolution, bitrate, and framerate while only taking 8.1 MB of space.<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/smosh.jpg" controls>
 <source src="/assets/vid/asdf.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
@@ -607,7 +607,7 @@ Of course, thus far, we've only tested live action video, but animation is a med
 <small>TomSka - asdfmovie15</small><br/><br/>
 
 asdfmovie15 is a very extreme example, though, mostly due to its signature two-tone color palette with the exception of blood. A more realistic example I tested is the first episode to the Sam & Max Saturday morning cartoon, with each episode having a runtime of 21 minutes. I actually had to switch to an earlier version of Meteo because 1.5.0 just could not handle a video of this length.<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/samnmax.jpg" controls>
 <source src="/assets/vid/samnmax.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
