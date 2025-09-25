@@ -1,5 +1,15 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Fun fact!</h4>
+        <p>
+            The folder these were stored in was called <code>Notepad Hacks (Windows Only)</code>. This came after I tried to get a friend to run these on their Chromebook in like, 2015. It took a real hot minute to figure out why DOS batch scripts for Windows wouldn't run on a locked down, Gentoo Linux-based OS.
+        </p>
+    </div>
+EOF;
+
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Projects :: Miscellaneous :: \"Random Notepad Hacks\"");
 
