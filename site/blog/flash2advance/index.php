@@ -592,7 +592,7 @@ There's a handful of dithering options, in most cases anything other than 4x Dit
 <img loading="lazy" src="/assets/img/blog/flash2advance/meteo5.png"><br/><br/>
 
 And now, I present to you, the same Smosh video, with the lowest possible settings while still maintaining a resolution of 240x136. This file was able to hit a size of 5.3MB.<br/>
-<video preload="metadata" class="interruptVideo" width="480" height="320" controls>
+<video preload="none" class="interruptVideo" width="480" height="320" poster="/assets/img/blog/flash2advance/vidposters/smosh30kbps.jpg" controls>
 <source src="/assets/vid/smosh_low.webm" type="video/webm">
 <br/>
 <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
