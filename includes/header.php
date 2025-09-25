@@ -623,8 +623,8 @@ $musicPaths = array(
                 <td><a href="/site/dumps/"><img src="/assets/img/global/chip.png"> Dumps</a></td>
                 <td><a href="/site/blog/"><img src="/assets/img/global/folder.png"> Blog</a></td>
                 <td><a href="/site/gallery/"><img src="/assets/img/global/gallery.png"> Gallery</a></td>
-                <td><a href="/site/links/"><img src="/assets/img/global/links.png"> Links</a></td>
-                <td><a href="/site/guestbook/"><img src="/assets/img/global/guestbook.png"> Say hi!</a></td>
+                <td><a href="/site/links/"><img src="/assets/img/global/links.png"> Web Links</a></td>
+                <td><a href="/site/guestbook/"><img src="/assets/img/global/guestbook.png"> Guestbook</a></td>
             </tr>
         </table>
     </header>
