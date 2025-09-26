@@ -225,7 +225,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/Atapi_ralsei.xcf">.XCF Download</a></p>
     </td>
     <td>
-        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/randomDoodles09252021.png">
+        <a href="/assets/img/gallery/randomDoodles09252021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/randomDoodles09252021.jpg"></a>
                 <p>September 2021<br />Random expression tests and aimkid nonsense<br /><a
                         href="/files/randomDoodles09252021.xcf">.XCF Download</a></p>
     </td>
