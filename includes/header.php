@@ -618,10 +618,10 @@ $musicPaths = array(
         </div>
         <table border="0" cellpadding="0" cellspacing="10px" width="1000px" align="center" id="pageNavbar">
             <tr>
-                <td><a href="/site/"><img src="/assets/img/global/links.png"> Home</a></td>
+                <td><a href="/site/"><img src="/assets/img/global/home.png"> Home</a></td>
                 <td><a href="/site/projects/"><img src="/assets/img/global/folder.png"> Projects</a></td>
                 <td><a href="/site/dumps/"><img src="/assets/img/global/chip.png"> Dumps</a></td>
-                <td><a href="/site/blog/"><img src="/assets/img/global/folder.png"> Blog</a></td>
+                <td><a href="/site/blog/"><img src="/assets/img/global/notepad.png"> Blog</a></td>
                 <td><a href="/site/gallery/"><img src="/assets/img/global/gallery.png"> Gallery</a></td>
                 <td><a href="/site/links/"><img src="/assets/img/global/links.png"> Web Links</a></td>
                 <td><a href="/site/guestbook/"><img src="/assets/img/global/guestbook.png"> Guestbook</a></td>
