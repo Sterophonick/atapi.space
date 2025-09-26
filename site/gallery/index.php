@@ -225,7 +225,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/Atapi_ralsei.xcf">.XCF Download</a></p>
     </td>
     <td>
-        <a href="/assets/img/gallery/randomDoodles09252021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/randomDoodles09252021.jpg"></a>
+        <a href="/assets/img/gallery/randomDoodles09252021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/randomDoodles09252021_thumb.jpg"></a>
                 <p>September 2021<br />Random expression tests and aimkid nonsense<br /><a
                         href="/files/randomDoodles09252021.xcf">.XCF Download</a></p>
     </td>
@@ -303,7 +303,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/atapi_bbt.xcf">.XCF Download</a></p>
     </td>
     <td>
-        <a href="/assets/img/gallery/AtapiRef_Dec2021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumb/AtapiRef_Dec2021_thumb.jpg"></a>
+        <a href="/assets/img/gallery/AtapiRef_Dec2021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/AtapiRef_Dec2021_thumb.jpg"></a>
             <p>December 2021<br />A brand new independent reference!<br /><a
                     href="/files/AtapiRef_Dec2021_alt.png">Alternate version</a><br /><a
                     href="files/AtapiRef_Dec2021.kra">Krita Source File</a><br /><a
