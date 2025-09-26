@@ -303,7 +303,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/atapi_bbt.xcf">.XCF Download</a></p>
     </td>
     <td>
-        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/AtapiRef_Dec2021.png">
+        <a href="/assets/img/gallery/AtapiRef_Dec2021.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumb/AtapiRef_Dec2021_thumb.jpg"></a>
             <p>December 2021<br />A brand new independent reference!<br /><a
                     href="/files/AtapiRef_Dec2021_alt.png">Alternate version</a><br /><a
                     href="files/AtapiRef_Dec2021.kra">Krita Source File</a><br /><a
@@ -325,7 +325,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
                     href="/files/atapinew.kra">Krita Source File</a><br /></p>
     </td>
     <td>
-        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/AtapiSkirt.png">
+        <a href="/assets/img/gallery/AtapiSkirt.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/AtapiSkirt_thumb.jpg"></a>
         <p>April 2022<br />Something a little bit different<br /><a
                     href="/assets/img/gallery/AtapiSkirt_OGSketch.png">Scanned Original Sketch</a><br /><a
                     href="/files/AtapiSkirt.kra">Krita Source File</a><br /><a
@@ -336,7 +336,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 
   <tr>
     <td>
-        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/atapiPride2022.png">
+        <a href="/assets/img/gallery/atapiPride2022.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/atapiPride2022_thumb.jpg"></a>
             <p>May 2022<br />Pride 2022<br /><a href="/files/atapiPride2022_sketch.jpg">Scanned Original
                     Sketch</a><br /><a href="files/atapiPride2022.kra">Krita Source File</a><br /><a
                     href="files/atapiPride2022_beytah.zip">Prototypes</a><br /></p>
