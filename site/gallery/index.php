@@ -433,7 +433,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <p>February 2021<br />A sketch he drew before Atapi was Atap.i</p>
         </td>
         <td>
-            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/quickstars_atapi5.png">
+            <a href="/assets/img/gallery/quickstars_atapi5.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/quickstars_atapi5_thumb.jpg"></a>
             <p>July 2021<br />A sketch he drew when I was drawing the trans rights artwork.</p>
         </td>
         <td>
@@ -876,7 +876,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/kaznoot_woah.png">
+            <a href="/assets/img/gallery/kaznoot_woah.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/kaznoot_woah_thumb.jpg"></a>
                 <p>April 2022<br />An out-of-the-blue gift!</p>
         </td>
     </tr>
