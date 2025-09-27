@@ -604,7 +604,7 @@ $musicPaths = array(
             $quoteSource = $quoteStrings[$quoteIndex+1];
             //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
 
-            $quoteTag = '<span title="' . $quoteSource . "\">" . $quoteQuote . "</span>";
+            $quoteTag = '<span style="font-size: 13pt" title="' . $quoteSource . "\">" . $quoteQuote . "</span>";
 
             echo $quoteTag;
             ?>
