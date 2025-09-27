@@ -62,7 +62,7 @@ $imageURLs = array(
     "/assets/img/home/welcome.gif", "/assets/img/home/welcome2.gif", "/assets/img/home/welcome3.gif", "/assets/img/home/cowsay.png", "/assets/img/home/welcome4.gif"
 );
 
-echo '<img id="welcome" src="' . $imageURLs[ floor(rand() % sizeof($imageURLs))] . '" alt="funny meme" onclick="togglePotato()"/>';
+echo '<img id="welcome" src="' . $imageURLs[ floor(rand() % sizeof($imageURLs))] . '" alt="Welcome to my homepage!" onclick="togglePotato()"/><br/><br/>';
 
 ?>
 
@@ -87,15 +87,21 @@ function friday() {
 
 <h1><img style="vertical-align:middle" src="/assets/img/home/icon.png"> hiiiii!!! :3</h1>
 <p>
-meowdy! I'm Atapi / Sterophonick <a href="pronouns/">(he/she/they)!</a> I am a
-cute kitty cat on the internet that has been touching computers for about as long as I can really remember. I work with Linux and old tech, emulation, reverse engineering, and the like! :3
+Meowdy! I'm Atapi/Sterophonick <a href="pronouns/">(he/she/they)</a>, and welcome to my little corner of cyberspace! <br/><br/>
+
+<img width="192px" src="/assets/img/global/2024pfp.png" style="float: right; border-radius: 3px; border: solid red 3px;" alt="Cropped artwork of an anthro white cat with red and blue stripes. They are wearing a blue hat, a black shirt, and a dark red sweatshirt. They are also doing a peace sign and winking at the viewer.">
+
+By day, I'm studying computer engineering, and by night, I dabble in whatever weird rabbit hole currently has my attention. Game Boy Advance programming, vintage tech, emulation, sysadmin, Linux, what have you.<br/><br/>
+
+Outside of computer touching, I like video games, cooking, and enjoying the company of those around me.<br/></br>
+
+Initially, I created this website as a place to be a somewhat less professional CV, but over time, it's proven to be a valuable tool for keeing the dream of the decentralized persoanl web alive, from days of "Ned's Cape" or whatever it was called. With the web being more centralized than ever, it's increasingly important for people to carve out their own space on the information super highway. Nowadays, this is the place for me to archive things I've made, show off my cool link collection, or infodump about whatever crosses my mind.<br/>
 </p>
 <br />
-<img class="pixelArt" src="/assets/img/home/construction.gif" title="Under construction!"><br />
-<p>
-This site is basically my little zone on the internet, a hub for my projects and my weird ramblings. Come in and take a look! <img src="/assets/img/smileys/wink.png"><br />
-</p>
-<br />
+<p>As always, remember, this website is perpetually</p>
+<img src="/assets/img/home/construction.gif" alt="Under construction!"><br />
+<p>so, don't get startled if things change every so often.</p>
+<br/>
 
 <div id="friday"><script type="text/javascript">friday();</script></div>
 
