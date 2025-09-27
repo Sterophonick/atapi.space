@@ -100,6 +100,9 @@ $adList = array(
     "/assets/img/ads/semiconductor.gif","https://britneyspears.ac/lasers.htm", // britney spears teaches semiconductors :3
     "/assets/img/ads/advision.png","http://www.adventurevision.com/",
     "/assets/img/ads/freepenguin.png","https://www.free-penguin.org/",
+    "/assets/img/ads/gp32_gbax.jpg","https://web.archive.org/web/20041204053612/http://www.gbax.com/new/gp32.html",
+    "/assets/img/ads/psp_shk.gif","",
+    "/assets/img/ads/modchipman.gif","https://web.archive.org/web/20050204040847/http://modchipman.com/",
 
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
