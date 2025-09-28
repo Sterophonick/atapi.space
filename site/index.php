@@ -98,9 +98,11 @@ Outside of computer touching, I like video games, cooking, and enjoying the comp
 Initially, I created this website as a place to be a somewhat less professional CV, but over time, it's proven to be a valuable tool for keeing the dream of the decentralized persoanl web alive, from days of "Ned's Cape" or whatever it was called. With the web being more centralized than ever, it's increasingly important for people to carve out their own space on the information super highway. Nowadays, this is the place for me to archive things I've made, show off my cool link collection, or infodump about whatever crosses my mind.<br/>
 </p>
 <br />
-<p>As always, remember, this website is perpetually</p>
-<img src="/assets/img/home/construction.gif" alt="Under construction!"><br />
-<p>so, don't get startled if things change every so often.</p>
+<p>As always, remember, this website is perpetually UNDER CONSTRUCTION!</p>
+<span alt="Under Construction!">
+    <img src="/assets/img/home/under-construction-pikachu.gif"><img src="/assets/img/home/pika-hammer.gif"><img src="/assets/img/home/under-construction-pikachu.gif"><br />
+</span>
+<p>So, don't get startled if things change every so often.</p>
 <br/>
 
 <div id="friday"><script type="text/javascript">friday();</script></div>
