@@ -4,7 +4,7 @@ $customSideContent = <<<EOF
     <div class="sideFunFact window">
         <h4>Fun fact!</h4>
         <p>
-            I was lazy.
+            This was first released on the old GBAdev forum on February 8th, 2018. I had created a thread under the "Announcements and Comments" page, with the (cringeworthy) title of "Game: Sonic.EXE GBA - mAj0r Sp0okY Sanic Gaem for GBA." I had previously released all my other projects under there as well. The posts are currently lost, as the old forum is currently down and the Wayback Machine does a pretty muck-up job of archiving obscure forums. It might one day come back up, hopefully Simon Band will get on that one day.
         </p>
     </div>
 EOF;
