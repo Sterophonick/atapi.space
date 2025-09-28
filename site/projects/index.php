@@ -6,8 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Projects");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/projects/icon.png"> Projects</h1>
-<p>I do stuff I guess. Here's just where you can find them. Plus, there's an archive of old stuff I have
-made!</p>
+<p>A bunch of things that I've done, past and present. They might come to haunt me one day.</p>
 <br />
 
 <table class="projectsTable" align="center" border="0" cellspacing="10" cellpadding="0"
