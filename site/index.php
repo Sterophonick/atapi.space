@@ -234,6 +234,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://retroguru.com/"><img src="/assets/img/buttons/retroguru.png"></a>
 <a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
 <img src="/assets/img/buttons/ac2001central.gif">
+<a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
 </div>
 
 <span id="potat" style="display: none;">

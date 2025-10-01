@@ -41,7 +41,7 @@ $adList = array(
     "/assets/img/ads/yahoo.gif","https://web.archive.org/web/20050828081818/http://pager.yahoo.com/",
     "/assets/img/ads/digital.gif","",
     "/assets/img/ads/ringtone.jpg","",
-    "/assets/img/ads/kenobi.jpg","https://monicawankenobi0.tripod.com/index.html", // what the hell?
+    "/assets/img/ads/kenobi.jpg","https://web.archive.org/web/20120508111732/https://monicawankenobi0.tripod.com/index.html", // what the hell?
     "/assets/img/ads/dollars4mail.gif","",
     "/assets/img/ads/pentium3.gif","",
     "/assets/img/ads/win95.gif","https://web.archive.org/web/19990219162624/http://www3.windows95.com/", // also what?
@@ -134,6 +134,13 @@ $adList = array(
     "/assets/img/ads/sgi.gif","",
     "/assets/img/ads/os2.gif","",
     "/assets/img/ads/afterburner.gif","https://web.archive.org/web/20030524123759/http://tritonlabs.com/",
+    
+    // made by 7nonsense.neocities.org
+    "/assets/img/ads/game_boy_pocket.gif","http://www.nintendo.co.jp/n02/dmg/hardware/gbp/index.html",
+    "/assets/img/ads/game_boy_light.gif","http://www.nintendo.co.jp/n02/dmg/hardware/light/index.html",
+    "/assets/img/ads/virtual_boy.gif","http://web.archive.org/web/19970128181120/http://www.nintendo.co.jp/n02/vue/index.html",
+    "/assets/img/ads/mavica.gif","http://web.archive.org/web/20000621133757/http://www.sel.sony.com/SEL/consumer/dimaging/browse_the_products/digital_mavica_camera/mavica_models/index.html",
+    "/assets/img/ads/psion.gif","http://www.jaapsch.net/psion/index.htm",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae

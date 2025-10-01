@@ -118,6 +118,8 @@
                     <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
 
                     <a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
+                    
+                    <a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
                     </marquee>
                     <br/>
                 </p>
