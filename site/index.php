@@ -95,7 +95,7 @@ By day, I'm studying computer engineering, and by night, I dabble in whatever we
 
 Outside of computer touching, I like video games, cooking, and enjoying the company of those around me.<br/></br>
 
-Initially, I created this website as a place to be a somewhat less professional CV, but over time, it's proven to be a valuable tool for keeing the dream of the decentralized persoanl web alive, from days of "Ned's Cape" or whatever it was called. With the web being more centralized than ever, it's increasingly important for people to carve out their own space on the information super highway. Nowadays, this is the place for me to archive things I've made, show off my cool link collection, or infodump about whatever crosses my mind.<br/>
+Initially, I created this website as a place to be a somewhat less professional CV, but over time, it's proven to be a valuable tool for keeing the dream of the decentralized personal web alive, from days of "Ned's Cape" or whatever it was called. With the web being more centralized than ever, it's increasingly important for people to carve out their own space on the information super highway. Nowadays, this is the place for me to archive things I've made, show off my cool link collection, or infodump about whatever crosses my mind.<br/>
 </p>
 <br />
 <p>As always, remember, this website is perpetually UNDER CONSTRUCTION!</p>
