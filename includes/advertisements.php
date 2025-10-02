@@ -125,7 +125,7 @@ $adList = array(
     "/assets/img/ads/speakeasy.gif","https://web.archive.org/web/20021129095208/http://anandtech.com/",
     "/assets/img/ads/linuxstore.gif","https://web.archive.org/web/20020127124143/http://www.linuxcity.com.cn/",
     "/assets/img/ads/vrml.gif","https://web.archive.org/web/19970629003853/http://vrml.sgi.com/intro.html",
-    "/assets/img/ads/sonic_r.gif","",
+    "/assets/img/ads/sonic_r.gif","https://web.archive.org/web/20180830145248/https://www.deviantart.com/comickpro/art/Tails-Doll-79228090",
     "/assets/img/ads/download.gif","",
     "/assets/img/ads/ie4.gif","",
     "/assets/img/ads/napsteralts.gif","",
@@ -178,4 +178,18 @@ function createBannerAd() {
     $finalString .= '><img id="stupidBannerAd" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
 
     return $finalString;
+}
+
+// restricted to /site/disclosure/all-ads
+function printAllAds() {
+    global $adList;
+    
+    for ($i = 0; $i < sizeof($adList); $i+=2) {
+        $finalString = "<a";
+        $adImg = $adList[$i];
+        $adLink = $adList[$i+1];
+        if(strlen($adLink)) $finalString .= ' href="' . $adLink . '"';
+        $finalString .= '><img id="stupidBannerAd" loading="lazy" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
+        echo $finalString;
+    }
 }

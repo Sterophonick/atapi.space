@@ -6,8 +6,9 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 ?>
 
 <h1>Site & Privacy Info</h1>
+<br/>
 <h2>Cookies</h2>
-<p>This site uses cookies for storing user settings, accessible at the footer of the page. The YouTube embeds on the blog posts use <code>youtube-nocookie.com</code> to further reduce the use of cookies. There are, however, pages that embed to Scratch, which I'm not certain will not use cookies. They might, if for no other reason than for Cloud Variables.</p>
+<p>This site uses cookies for storing user settings, accessible in the sidebar of the home page. The YouTube embeds on the blog posts use <code>youtube-nocookie.com</code> to further reduce the use of cookies. There are, however, pages that embed to Scratch, which I'm not certain will not use cookies. They might, if for no other reason than for Cloud Variables.</p>
 <br/>
 <h2>Privacy</h2>
 <p>When you visit any page on this site, your IP address and user agent are logged. This information will <u><i><l>NEVER</l></i></u> be disclosed by me and it is purely for the purpose of site troubleshooting and diagnosis in the event of an attack.
@@ -22,6 +23,7 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
     Nintendo 3DS Browser<br/>
     Nintendo DSi Browser<br/>
     Nintendo Wii Internet Channel<br/>
+    K-Meleon<br/>
     <br/>
     Your user agent:<br/>
     <?php echo $_SERVER['HTTP_USER_AGENT']; ?>
@@ -54,10 +56,7 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 <br/>
 <h2>Anti-Scraping Measures</h2>
 <p>
-    There's a measure that the Caddy server takes to silence AI scrapers. Your user agent is checked against this regex snippet:<br/>
-    <code><small>CCBot|GPT|Claude|anthropic|/bcohere/b|/bmeta/b|PetalBot|bingbot|Amazonbot|Bytespider|Perplexity|OAI-SearchBot</code></small><br/><br/>
-
-    There are more known agents, but it's not worth listing them. When a match is found, the connection is completely severed. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!
+    There's a measure that the Caddy server takes to silence AI scrapers. Your user agent is checked against a large regex snippet of known scrapers and bots. When a match is found, the connection is redirected to a 10GB tarpit file on Hetzner. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!<br/>
 </p>
 <br/>
 <h2>Network Access</h2>
@@ -69,7 +68,7 @@ The port <code>:6502</code> is also open on this site's IP address, which is <co
 
 <h2>Advertisements</h2>
 <p>
-    The advertisements at the bottom of each page are primarily historical banner ads, save for a couple that I commissioned. A couple of them do link to sites that are still up, but they're like, niche emulation communities or stuff like that. They are purely for the sake of aesthetic and humor.
+    The advertisements at the bottom of each page are primarily historical banner ads, save for a couple that I commissioned or made myself. A couple of them do link to sites that are still up, but they're like, niche emulation communities or stuff like that. They are purely for the sake of aesthetic and humor. You can view a complete list of all the ads on the page <a href="all-ads">here</a>.
 <p><br/>
 
 <h2>Content Attribution</h2>
