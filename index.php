@@ -130,7 +130,7 @@
                     chdir($_SERVER['DOCUMENT_ROOT']);
                     exec("git log -1 --pretty=format:%cs", $output);
                     
-                    echo "Last modified: " . $output[0];
+                    echo "Last modified: " . $output;
                     
                     ?>
                 </p>
