@@ -122,6 +122,15 @@
                     <a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
                     </marquee>
                     <br/>
+                    
+                    <?php
+                    
+                    $output = "";
+                    exec("git log -1 --pretty=format:%cs", $output);
+                    
+                    echo "Last modified: " . $output[0];
+                    
+                    ?>
                 </p>
             </div>
             <br/>
