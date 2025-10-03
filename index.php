@@ -126,14 +126,11 @@
                     <?php
                     
                     $output = "";
-                    $returncode = 0;
                     
                     chdir($_SERVER['DOCUMENT_ROOT']);
                     $output = shell_exec("git log -1 --pretty=format:%cs 2>&1");
                     
-                    echo "Last modified: " . $returncode;
-                    print_r($output);
-                    
+                    echo "Last modified: " . $output;
                     ?>
                 </p>
             </div>
