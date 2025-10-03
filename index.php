@@ -129,7 +129,7 @@
                     $returncode = 0;
                     
                     chdir($_SERVER['DOCUMENT_ROOT']);
-                    $output = exec("git log -1 --pretty=format:%cs");
+                    $output = shell_exec("git log -1 --pretty=format:%cs");
                     
                     echo "Last modified: " . $returncode;
                     print_r($output);
