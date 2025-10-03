@@ -211,6 +211,10 @@ code {
     vertical-align: middle;
 }
 
+.icon32 {
+    width: 32px;
+}
+
 .footerImages {
     margin-bottom: 6px;
 }
@@ -254,7 +258,7 @@ code {
 }
 
 .leftLeaning {
-    text-align: center;
+    text-align: left;
 }
 
 /* copypasted from old css */
