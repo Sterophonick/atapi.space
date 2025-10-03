@@ -132,8 +132,7 @@
                     
                     echo "Last modified: " . $output;
                     ?>
-                    <br/>
-                    <p></p>
+                    <br/><br/>
                 </p>
             </div>
             <br/>
