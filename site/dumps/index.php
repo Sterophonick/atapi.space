@@ -23,6 +23,9 @@ $navContents = <<<EOF
         <li>
             <a href="#misc">Miscellaneous</a>
         </li>
+        <li>
+            <a href="#ezfont">EZFont Java 1.1</a>
+        </li>
     </ul>
 EOF;
 
@@ -80,6 +83,13 @@ only work on old versions of Windows.</p>
 <img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-3.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/throwback-4.png"><br />
 <a href="https://github.com/mamedev/mame/pull/14098">MAME Pull Request</a><br/>
 <a href="/files/throwback.7z">ROM Dump</a><br />
+<br/>
+
+<h3 id="ezfont">EZFont Java 1.1</h3>
+<p>A Java-based editor for EZ-Flash <code>asc.dat</code> files, designed for use in skinning the EZ-Flash IV and Omega family. These files contain font data for ASCII character sets. Originally on the now-dead EZ-Flash Sosuke forum, I managed to track this down from an old MediaFire link.</p>
+<img src="/assets/img/dumps/ezfont.png">
+<a href="/files/EZFont Java 1.1.jar">.jar File</a><br />
+<a href="/files/asc.dat">Template <code>asc.dat</code></a><br />
 <br/>
 
 <h3 id="misc">Miscellaneous Stuff</h3>
