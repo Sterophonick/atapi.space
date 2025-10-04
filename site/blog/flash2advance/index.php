@@ -173,7 +173,7 @@ The wonders of how literally anything got done before the days of USB.<br/><br/>
 
 <h2 id="p4">EZ-Flash II PowerStar</h2>
 <p>
-    The most expensive item in my collection, purchased primarily because EZ-Flash themselves have lost the source code and verilog (I asked them directly) to everything before the EZ-Flash III. I own two (LATER UPDATE) EZ-Flash I 128mbit cartridges, which can only be written by this specific linker, the EZ-Writer. Thankfully, though, this linker operates over USB, which I <i>can passthrough</i> to Virtual Machines, saving me a headache and a half.<br/><br/>
+    Probably the rarest item in my collection, purchased primarily because EZ-Flash themselves have lost the source code and verilog (I asked them directly) to everything before the EZ-Flash III. I own two (LATER UPDATE) EZ-Flash I 128mbit cartridges, which can only be written by this specific linker, the EZ-Writer. Thankfully, though, this linker operates over USB, which I <i>can passthrough</i> to Virtual Machines, saving me a headache and a half.<br/><br/>
 
     <img loading="lazy" width="720px" src="/assets/img/blog/flash2advance/ez2_box.jpg"><br/>
     <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/ez2_top.jpg"> <img loading="lazy" width="360px" src="/assets/img/blog/flash2advance/ez2_back.jpg"><br/>

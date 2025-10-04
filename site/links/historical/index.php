@@ -329,6 +329,12 @@ Or, Virus eXchange Heaven. A now-offline site dedicated to providing information
 Old website (2006) about attack vectors on RFID tags.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20040830011801/http://www.happyapple.net/">HappyApple.net</a><br/>
+Defunct Chinese business that provided software and utilities for the Game Boy Advance, one of which was AppleShell, which became the base for the kernels that ran on the EZ-Flash III and EZ-Flash IV family. The only real product of theirs that has been preserved is an SDK for developing GBA programs in .NET.
+</p>
+
 
 <?php
 
