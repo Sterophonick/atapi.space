@@ -21,10 +21,10 @@ $navContents = <<<EOF
             <a href="#throwbck">Throwback Pocket</a>
         </li>
         <li>
-            <a href="#misc">Miscellaneous</a>
+            <a href="#ezfont">EZFont Java 1.1</a>
         </li>
         <li>
-            <a href="#ezfont">EZFont Java 1.1</a>
+            <a href="#misc">Miscellaneous</a>
         </li>
     </ul>
 EOF;
@@ -87,7 +87,7 @@ only work on old versions of Windows.</p>
 
 <h3 id="ezfont">EZFont Java 1.1</h3>
 <p>A Java-based editor for EZ-Flash <code>asc.dat</code> files, designed for use in skinning the EZ-Flash IV and Omega family. These files contain font data for ASCII character sets. Originally on the now-dead EZ-Flash Sosuke forum, I managed to track this down from an old MediaFire link.</p>
-<img src="/assets/img/dumps/ezfont.png">
+<img src="/assets/img/dumps/ezfont.png"><br/>
 <a href="/files/EZFont Java 1.1.jar">.jar File</a><br />
 <a href="/files/asc.dat">Template <code>asc.dat</code></a><br />
 <br/>
