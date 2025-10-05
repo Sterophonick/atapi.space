@@ -1,5 +1,7 @@
 <?php
 
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/lastfm.php';
+
 $customSideContent = <<<EOF
     <div class="extraSidebar window">
         <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
@@ -25,35 +27,28 @@ $customSideContent = <<<EOF
             <a href="https://atapi.space/"><img width="88px" height="31px" src="https://atapi.space/assets/img/buttons/atapi.gif" alt="A red-and-pink checkerboard button with the text "Atapi" on it. There is also an icon of a little cat fursona."></a>
         </textarea>
     </div>
-    <div class="sideFunFact window">
-        <h4 style="text-align: center"><img class="headerIcon" width="32px" height="32px" src="/assets/img/home/lfm.png"> Last played:</h4>
-        <span id="lastFmSong">
-            <a id="lastFmLink" style="color: white; font-style: normal; text-decoration: none;">
-                <span id="lastFmArt"></span> <span id="lastFmText">Checking...</span>
-            </a>
-        </span>
-        <p style="font-size: 9pt">
-            Last.fm integration courtesy of <a href="https://github.com/biancarosa/lastfm-last-played/tree/main">biancarosa</a>.
-        </p>
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        let user = 'Sterophonick';
-        let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
-        let songArt = document.querySelector('#lastFmArt');
-        let songText = document.querySelector('#lastFmText');
-        let songLink = document.querySelector('#lastFmLink');
-        fetch(url)
-            .then(function (response) {
-                return response.json()
-            }).then(function (json) {
-                songLink.setAttribute("href", json['track']['url']);
-                songArt.innerHTML = '<img style="filter: none;" class="headerIcon" src="' + json['track']['image'][0]['#text'] + '" width="32px" height="32px">';
-                songText.innerHTML = "<marquee width='190px'><p title='Format: Artist - Album - Track'>" + json['track']['artist']['#text'] + ' - ' + json['track']['album']['#text'] +' - ' + json['track']['name'] + "</p></marquee>";
-            });
-    </script>
 EOF;
+
+{
+    $lastFmData = getLastFmData();
+    
+    $customSideContent .= <<<EOF
+    <div class="sideFunFact window">
+    <h4 style="text-align: center"><a href="https://www.last.fm/user/Sterophonick"><img class="headerIcon" width="32px" height="32px" src="/assets/img/home/lfm.png"></a> Last played:</h4>
+    EOF;
+    
+    $customSideContent .= '<a id="lastFmLink" href="' . $lastFmData[4] . '" style="color: white; font-style: normal; text-decoration: none;">';
+    $customSideContent .= '<table id="lastFmTable" border="0" cellpadding="0" cellspacing="3px" width="229px"><tr>';
+
+    // print image in table, 32px width
+    $customSideContent .= '<td width="32px"><img class="imgNoHover" width="32px" src="' . $lastFmData[3] . '"></td>';
+    
+    // print other data
+    $customSideContent .= '<td><p class="lastFmTruncate"><i><img class="headerIcon imgNoHover" src="/assets/img/home/lastfmicons/track.png">' . $lastFmData[0] . '<br/><img class="headerIcon imgNoHover" src="/assets/img/home/lastfmicons/artist.png">' . $lastFmData[1] . '<br/><img class="headerIcon imgNoHover" src="/assets/img/home/lastfmicons/album.png">' . $lastFmData[2] . '<br/></i></p></td>';
+    
+    $customSideContent .= "</tr></table></a></div>";
+    
+}
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain!");

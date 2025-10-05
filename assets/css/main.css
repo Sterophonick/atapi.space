@@ -333,3 +333,15 @@ font-size: 13pt;
     word-break: break-all;
     vertical-align: top;
 }
+
+.lastFmTruncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 194px;
+    text-align: left;
+}
+
+a:hover .imgNoHover {
+    filter: none;
+}
