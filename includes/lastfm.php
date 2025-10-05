@@ -25,10 +25,10 @@ function getLastFmData() {
     $lastFmDataArray[1] = $lastFmDecode["recenttracks"]["track"][0]["artist"]["#text"];
     
     $albumText = trim($lastFmDecode["recenttracks"]["track"][0]["album"]["#text"]);
-    if(!empty($albumText)) $lastFmDataArray[2] = albumText;
+    if(!empty($albumText)) $lastFmDataArray[2] = $albumText;
     
     $imgUrl = $lastFmDecode["recenttracks"]["track"][0]["image"][0]["#text"];
-    if(!empty($imgUrl)) $lastFmDataArray[3] = imgUrl;
+    if(!empty($imgUrl)) $lastFmDataArray[3] = $imgUrl;
     
     $lastFmDataArray[4] = $lastFmDecode["recenttracks"]["track"][0]["url"];
     
