@@ -53,7 +53,7 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
 }
 
 function constructPageFooter() {
-    $webHonorific = array("Contact Webmaster", "Contact Webmistress", "Contact Sysop", "Meow at Me", "Poke Me", "Yap at Me", "Bark at Me", "Squeak at Me");
+    $webHonorific = array("Contact Webmaster", "Contact Webmistress", "Contact Sysop");
     
     global $adURLs;
 
