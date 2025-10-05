@@ -15,7 +15,7 @@ function getLastFmData() {
     global $lastFmUser;
     global $lastFmKey;
     
-    $lastFmDataArray = array("", "", "", "", "");
+    $lastFmDataArray = array("", "", "[Unknown Album]", "/assets/img/home/lastfmicons/empty.png", "");
     
     $lastFmFetch = file_get_contents("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" . $lastFmUser . "&api_key=" . $lastFmKey . "&format=json");
     
