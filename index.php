@@ -79,15 +79,10 @@
                     <a href="https://elizafox.space/"><img src="/assets/img/buttons/elizafox.png"></a>
                     <a href="https://zenthefox.online/"><img src="/assets/img/buttons/zennow.gif"></a>
 
-                    <a href="https://pouet.net/"><img src="/assets/img/buttons/pouet.gif"></a>
-
                     <a href="https://kaleidosium.my.id/"><img src="/assets/img/buttons/dania.png"></a>
                     <a href="https://ayetsg.com/"><img src="/assets/img/buttons/ayetsg.png"></a>
 
                     <a href="https://www.youtube.com/@VinsCool"><img src="/assets/img/buttons/vinvin.gif"></a>
-
-                    <a href="https://www.gameboy-advance.net/"><img src="/assets/img/buttons/gbanet.gif"></a>
-                    <a href="https://bazzite.gg"><img src="/assets/img/buttons/bazzite.png"></a>
 
                     <a href="https://moule.world/"><img src="/assets/img/buttons/moule.gif"></a>
 
@@ -120,6 +115,8 @@
                     <a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
                     
                     <a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
+                    
+                    <a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
                     </marquee>
                     <br/>
                     

@@ -15,7 +15,6 @@ echo constructPageHeader("Atapi's Domain! :: Web Links");
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 
 ?>
-<div class="centeredArea">
     <div id="hypnospace-header">
     <img width="120px" style="vertical-align:middle" src="/assets/img/links/skeleton-motorcycle.gif">
     <img width="450px" style="vertical-align:middle" src="/assets/img/links/fire.gif">
@@ -55,9 +54,53 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 countWebLinks();
 ?>
 
+<br/><br/>
+Here's some links to cool netizens!<br/>
+<div id="buttons" class="pixelArt" style="width: 100%; margin: auto; font-size:0%">
+<a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
+<a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>
+<a href="https://elizafox.space/"><img src="/assets/img/buttons/elizafox.png"></a>
+<a href="https://zenthefox.online/"><img src="/assets/img/buttons/zennow.gif"></a>
+<a href="https://tauon.dev/" target="_blank"><img src="/assets/img/buttons/lily.png" alt="lily" width="88" height="31" style="image-rendering: pixelated" title="do hotlink my button!"/></a>
+<a href="https://bee.movie/"><img src="/assets/img/buttons/beebadge.png" title="<3"></a>
+<a href="https://foxboy.dev/"><img src="/assets/img/buttons/ryfox.png"></a>
+<a href="https://pivotman319-owo.github.io/"><img src="/assets/img/buttons/pivotman.png"></a>
+<a href="https://kaleidosium.my.id/"><img src="/assets/img/buttons/dania.png"></a>
+<a href="https://ayetsg.com/"><img src="/assets/img/buttons/ayetsg.png"></a>
+<a href="https://www.youtube.com/@VinsCool"><img src="/assets/img/buttons/vinvin.gif"></a>
+<a href="https://kokoscript.com"><img src="/assets/img/buttons/kokoscript.gif"></a>
+<a href="https://dianaisnthere.codeberg.page/"><img src="/assets/img/buttons/diana.png"></a>
+<a href="https://leggi.es/"><img src="/assets/img/buttons/deneb.gif"></a>
+<a href="https://maidado.xyz/"><img src="/assets/img/buttons/maidado.png"></a>
+<a href="https://micro.niko.lgbt/"><img src="/assets/img/buttons/micro.png"></a>
+<a href="https://sneexy.pages.gay/"><img src="/assets/img/buttons/sneexy.gif"></a>
+<a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
+<a href="https://aquamarine.gay/"><img alt="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." src="/assets/img/buttons/aqua.gif" title="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." style="image-rendering: pixelated;"></a>
+<a href="https://invoxiplaygames.uk/"><img src="/assets/img/buttons/ipg.png"></a>
+<a href="https://essem.space/"><img src="/assets/img/buttons/essem.png"></a>
+<a href="https://velveteen.one/"><img src="/assets/img/buttons/velbadge.png"></a>
+<a href="https://moule.world/"><img src="/assets/img/buttons/moule.gif"></a>
+<a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
+<a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
+<a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
+<a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
+<a href="https://flurrys.nekoweb.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
+<a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
+<a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
+<a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
+<a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
+<a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
+<a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
+<a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
+</div>
+
 <br/><br />
 Special GREETZ to:<br />
-<marquee width="65%">
+<marquee class="keygenFunny" width="65%">
+<br/>
+<?php
+
+$greetzString = <<<EOF
 FluBBa - Dwedit - 3DSage - krom / PeterLemon - Loopy - Mark Holloway - Kuwanger (RIP) - Scratch Team -
 veikkos - Jeffman - Clyde Mandelin - WinterMute - Jason Wilkins - Jay Van Hutten - inside-cap - Bung
 Enterprises - EZ-Flash - Moonlight - WazzoTV - GloriousEggroll - CodeWeavers - Linus Torvalds - Valve -
@@ -75,9 +118,26 @@ Hector Martin - Asahi Lina - Sonicadvance1 - Alyssa Rosenzweig - cathodegaytube 
 "darkfader" Vuijk - Peter Schraut - Jeff Frohwein - Justin Whang - SKiDROW - MODE7 - EURASiA - AntVenom - CODEX -
 RAZOR1911 - FAiRLiGHT - p0ke - maracuja - zerkman - XAYAX - pheonixbound - RinkuSonic41 - Tahg - LGR /
 lazygamereviews - James Rolfe - Fangamer - Aaron Giles - TheEssem - InvoxiPlayGames - Velveteen - and YOU!
-</marquee>
 
-</div>
+EOF;
+
+$delay = 0.0;
+
+for ($i = 0; $i < strlen($greetzString); $i++) {
+    $delay += 0.1;
+    $charToUse = "";
+    if ($greetzString[$i] == " " || $greetzString[$i] == "\n") {
+        $charToUse = "&nbsp;";
+    } else {
+        $charToUse = $greetzString[$i];
+    }
+    
+    echo '<span style="animation-delay: ' . $delay . 's">' . $charToUse . "</span>";
+}
+
+?>
+
+</marquee>
 
 <?php
 

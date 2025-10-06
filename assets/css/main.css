@@ -345,3 +345,38 @@ font-size: 13pt;
 a:hover .imgNoHover {
     filter: none;
 }
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+.keygenFunny { 
+    background: linear-gradient(
+        to right,
+        #ff0000,
+        #ff7f00,
+        #ffff00,
+        #00ff00,
+        #0000ff,
+        #4b0082,
+        #9400d3
+    );
+    -webkit-background-clip: text; /* Apply gradient to text */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide text, show gradient */
+    background-size: 200% 100%; /* Make gradient wider than text */
+    animation: rainbow-shift 3s linear infinite;
+}
+
+
+
+.keygenFunny span {
+    display: inline-block; /* Required for transform animations */
+    animation: bounce 0.8s ease-in-out infinite alternate;
+}

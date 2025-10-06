@@ -109,14 +109,11 @@ Initially, I created this website as a place to be a somewhat less professional 
 <img src="/assets/img/buttons/linux.gif">
 <img src="/assets/img/buttons/netscape.gif">
 <img src="/assets/img/buttons/notepad.gif">
-<a href="https://www.youtube.com/@Petscop/"><img
-src="/assets/img/buttons/childlibrary.gif"></a>
+<a href="https://www.youtube.com/@Petscop/"><img src="/assets/img/buttons/childlibrary.gif"></a>
 <img src="/assets/img/buttons/ie.gif">
 <img width="88px" height="31px" src="/assets/img/buttons/sucks.gif">
 <img src="/assets/img/buttons/php.gif">
 <img src="/assets/img/buttons/ace.png">
-<a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
-<a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>
 <img src="/assets/img/buttons/kde.gif">
 <a href="https://wetdry.world/@sterophonick"><img src="/assets/img/buttons/masto.gif"></a>
 <img src="/assets/img/buttons/graphic.png">
@@ -127,20 +124,10 @@ src="/assets/img/buttons/childlibrary.gif"></a>
 <img src="/assets/img/buttons/kromer.gif">
 <a href="https://yesterweb.org/no-to-web3/"><img src="/assets/img/buttons/web3.gif"></a>
 <img src="/assets/img/buttons/steam.gif">
-<img src="/assets/img/buttons/mother.gif">
 <img src="/assets/img/buttons/fof.gif">
 <img src="/assets/img/buttons/neofox_boom.gif">
-<a href="https://elizafox.space/"><img src="/assets/img/buttons/elizafox.png"></a>
-<a href="https://zenthefox.online/"><img src="/assets/img/buttons/zennow.gif"></a>
-<a href="https://tauon.dev/" target="_blank">
-<img src="/assets/img/buttons/lily.png" alt="lily" width="88" height="31"
-style="image-rendering: pixelated" title="do hotlink my button!"/>
-</a>
 <img src="/assets/img/buttons/blahaj.gif">
 <img src="/assets/img/buttons/oneshot.gif">
-<a href="https://bee.movie/"><img src="/assets/img/buttons/beebadge.png" title="<3"></a>
-<a href="https://foxboy.dev/"><img src="/assets/img/buttons/ryfox.png"></a>
-<a href="https://pivotman319-owo.github.io/"><img src="/assets/img/buttons/pivotman.png"></a>
 <img src="/assets/img/buttons/ralsei.gif">
 <img src="/assets/img/buttons/femboy.gif">
 <img src="/assets/img/buttons/spotify.gif">
@@ -162,14 +149,10 @@ style="image-rendering: pixelated" title="do hotlink my button!"/>
 <img src="/assets/img/buttons/getplayer.gif">
 <img src="/assets/img/buttons/steamdeck.png">
 <img src="/assets/img/buttons/xbla.png">
-<a href="https://kaleidosium.my.id/"><img src="/assets/img/buttons/dania.png"></a>
-<a href="https://ayetsg.com/"><img src="/assets/img/buttons/ayetsg.png"></a>
 <img src="/assets/img/buttons/openmpt.png">
 <img src="/assets/img/buttons/webp.png">
-<a href="https://www.youtube.com/@VinsCool"><img src="/assets/img/buttons/vinvin.gif"></a>
 <img src="/assets/img/buttons/nyancat.gif">
 <a href="https://bazzite.gg"><img src="/assets/img/buttons/bazzite.png"></a>
-<a href="https://kokoscript.com"><img src="/assets/img/buttons/kokoscript.gif"></a>
 <img src="/assets/img/buttons/homebrew.png">
 <a href="https://amp.dascene.net"><img src="/assets/img/buttons/amp.jpg"></a>
 <a href="https://gbadev.org"><img src="/assets/img/buttons/gbadev.gif"></a>
@@ -191,45 +174,23 @@ src="/assets/img/buttons/liksang.png"></a>
 <a href="https://www.youtube.com/channel/UC9ecwl3FTG66jIKA9JRDtmg"><img
 src="/assets/img/buttons/siivagunner.png"></a>
 <img src="/assets/img/buttons/scott.png">
-<a href="https://dianaisnthere.codeberg.page/"><img src="/assets/img/buttons/diana.png"></a>
-<a href="https://leggi.es/"><img src="/assets/img/buttons/deneb.gif"></a>
-<a href="https://maidado.xyz/"><img src="/assets/img/buttons/maidado.png"></a>
-<a href="https://micro.niko.lgbt/"><img src="/assets/img/buttons/micro.png"></a>
-<a href="https://sneexy.pages.gay/"><img src="/assets/img/buttons/sneexy.gif"></a>
-<a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
-<a href="https://aquamarine.gay/"><img alt="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." src="/assets/img/buttons/aqua.gif" title="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." style="image-rendering: pixelated;"></a>
 <a href="https://priyom.org"><img src="/assets/img/buttons/priyom.gif"></a>
 <a href="https://signalshed.com"><img src="/assets/img/buttons/enigma2k.png"></a>
 <a href="https://eightyeightthirty.one"><img src="/assets/img/buttons/88x31.png"></a>
 <a href="https://www.defectivebydesign.org"><img src="/assets/img/buttons/dbd.png"></a>
 <img src="/assets/img/buttons/amogus.gif">
-<a href="https://invoxiplaygames.uk/"><img src="/assets/img/buttons/ipg.png"></a>
 <img src="/assets/img/buttons/boom.gif">
-<a href="https://essem.space/"><img src="/assets/img/buttons/essem.png"></a>
-<a href="https://velveteen.one/"><img src="/assets/img/buttons/velbadge.png"></a>
 <img src="/assets/img/buttons/silicon.GIF">
 <img src="/assets/img/buttons/bonzi.GIF">
-<a href="https://moule.world/"><img src="/assets/img/buttons/moule.gif"></a>
 <a href="https://cobalt.tools"><img src="/assets/img/buttons/cobalt.gif"></a>
 <img src="/assets/img/buttons/rockband.png">
-<a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
-<a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
-<a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
 <img src="/assets/img/buttons/lego.gif">
-<a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 <a href="https://flipperzero.one/"><img src="/assets/img/buttons/flipper.gif"></a>
-<a href="https://flurrys.nekoweb.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
-<a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
 <a href="https://starfall.com/"><img src="/assets/img/buttons/starfall.png"></a>
 <a href="/interstitial.php?name=VG Cats&dest=https://vgcats.com/"><img src="/assets/img/buttons/vgcats.gif"></a>
 <a href="https://web.archive.org/web/20250000000000*/http://www.geocities.co.jp/Playtown-Yoyo/6130/"><img src="/assets/img/buttons/letsemu.gif"></a>
-<a href="https://retrojcities.neocities.org/" target="_blank"><img src="/assets/img/buttons/retrojcity.png" width="88" height="31" alt="retrojcity red button"></a>
-<a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
-<a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
 <a href="https://retroguru.com/"><img src="/assets/img/buttons/retroguru.png"></a>
-<a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
 <img src="/assets/img/buttons/ac2001central.gif">
-<a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
 </div>
 
 <span id="potat" style="display: none;">
