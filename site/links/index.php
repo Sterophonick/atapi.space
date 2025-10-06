@@ -94,7 +94,7 @@ Here's some links to cool netizens!<br/>
 <a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
 </div>
 
-<br/><br />
+<br/>
 Special GREETZ to:<br />
 <marquee class="keygenFunny" width="65%">
 <br/>
