@@ -355,6 +355,12 @@ Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) f
 Jeff's site dedicated to homebrew software and electronics development.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20060116022549/http://thinkable.us/DevCybiko/">DevCybiko</a><br />
+Defunct site dedicated to Cybiko development.
+</p>
+
 <?php
 
 echo constructPageFooter();
