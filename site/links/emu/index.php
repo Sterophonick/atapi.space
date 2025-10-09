@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Emulation / Retrogamin
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Emulation / Retrogaming</h1>
-<p>Become a fellow understander or even an enjoyer of old tech!<br/></p>
+<p>Become a fellow understander or even an enjoyer of old tech!</p><br/>
 
 <p>
 <a href="https://mgba.io">mGBA</a><br />

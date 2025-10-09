@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Linux Links");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Linux Links</h1>
-<p>For penguin-heads.<br/></p>
+<p>For penguin-heads.</p><br/>
 
 <p>
 <a href="https://www.phoronix.com/">Phoronix</a><br />

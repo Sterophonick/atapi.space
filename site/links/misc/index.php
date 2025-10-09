@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Miscellaneous");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Miscellaneous Links</h1>
-<p>I dunno honestly.<br/></p>
+<p>I dunno honestly.</p><br/>
 
 
 <p>

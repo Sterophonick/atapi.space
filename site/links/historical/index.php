@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Historical");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Historical Links</h1>
-<p>Interesting places I've been to on my many travels through cyberspace!<br/></p>
+<p>Interesting places I've been to on my many travels through cyberspace!</p><br/>
 
 <p>
 <a href="https://web.archive.org/web/20240000000000*/ngine.de">ngine.de</a><br />

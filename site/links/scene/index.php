@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Demoscene ");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Demoscene Links</h1>
-<p>I am not an atomic playboy!<br/></p>
+<p>I am not an atomic playboy!</p><br/>
 
 <p>
 <a href="https://pouet.net/">Pouët</a><br />

@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Gaming");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Gaming Links</h1>
-<p>Vidya gaemz!<br/></p>
+<p>Vidya gaemz!</p><br/>
 
 <p>
 <a href="https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/">dgVoodoo2</a><br />

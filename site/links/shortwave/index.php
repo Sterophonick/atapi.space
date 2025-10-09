@@ -6,7 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Shortwave Radio");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Shortwave Radio</h1>
-<p><i>*Evil secrets transmitted here...*</i><br/></p>
+<p><i>*Evil secrets transmitted here...*</i></p><br/>
 
 <p>
 <a href="https://priyom.org/">Priyom</a><br />
