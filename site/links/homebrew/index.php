@@ -87,18 +87,6 @@ Personal website of Damian Yerrick.
 
 <br />
 <p>
-<a href="http://console-dev.de">console-dev.de</a><br />
-Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) for the GBA.
-</p>
-
-<br />
-<p>
-<a href="https://www.devrs.com">Jeff Frohwein's Software / Hardware Dev'rs</a><br />
-Jeff's site dedicated to homebrew software and electronics development.
-</p>
-
-<br />
-<p>
 <a href="https://ni.x0.com/menu.html">meichnpp's Homepage</a><br />
 Netizen who develops MSX games, Windows games, PICO-8 games, and electronic music.
 </p>

@@ -343,6 +343,18 @@ Defunct Chinese business that provided software and utilities for the Game Boy A
 English homepage for the GBA Movie Player, circa 2005.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20080430013216/http://www.console-dev.de/">console-dev.de</a><br />
+Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) for the GBA.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20060201225329/http://www.devrs.com/">Jeff Frohwein's Software / Hardware Dev'rs</a><br />
+Jeff's site dedicated to homebrew software and electronics development.
+</p>
+
 <?php
 
 echo constructPageFooter();
