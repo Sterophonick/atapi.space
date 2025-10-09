@@ -374,8 +374,6 @@ a:hover .imgNoHover {
     animation: rainbow-shift 3s linear infinite;
 }
 
-
-
 .keygenFunny span {
     display: inline-block; /* Required for transform animations */
     animation: bounce 0.8s ease-in-out infinite alternate;

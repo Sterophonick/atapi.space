@@ -6,6 +6,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Homebrew / Hacking");
 ?>
 
 <h1><img style="vertical-align:middle" src="/assets/img/links/icon.png"> Homebrew / Hacking</h1>
+<p>Like the gaming section but if it was evil.<br/></p>
 
 <p>
 <a href="https://github.com/studio8502/Sentinel-65X">Sentinel 65X</a><br />

@@ -73,7 +73,7 @@ Here's some links to cool netizens!<br/>
 <a href="https://leggi.es/"><img src="/assets/img/buttons/deneb.gif"></a>
 <a href="https://maidado.xyz/"><img src="/assets/img/buttons/maidado.png"></a>
 <a href="https://micro.niko.lgbt/"><img src="/assets/img/buttons/micro.png"></a>
-<a href="https://sneexy.pages.gay/"><img src="/assets/img/buttons/sneexy.gif"></a>
+<a href="https://sneexy.synth.download/"><img src="/assets/img/buttons/sneexy.gif"></a>
 <a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
 <a href="https://aquamarine.gay/"><img alt="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." src="/assets/img/buttons/aqua.gif" title="A web button that says 'Aquamarine's Aquarium' with an image of a light blue creature, with yellow accents, purple hair, and a maroon coat, that is an anthropomorphic axolotl and a cat." style="image-rendering: pixelated;"></a>
 <a href="https://invoxiplaygames.uk/"><img src="/assets/img/buttons/ipg.png"></a>
