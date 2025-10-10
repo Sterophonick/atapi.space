@@ -111,6 +111,22 @@ Category: Infodump<br/>
 
 <img loading="lazy" src="/assets/img/blog/pogoshell/winxp6.png" alt="The users section of the pogo.cfg"><br/><br/>
 
+<p>
+To demonstrate, I'll create a set of users in the configuration.
+</p>
+
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp7.png" alt="Some users defined: Atapi, Pikachu, Isabelle, Mario, and Luigi."><br/><br/>
+
+<p>
+Then, we build our PogoShell ROM and can switch between the users freely.
+</p>
+
+<img loading="lazy" src="/assets/img/blog/pogoshell/pogo5.png" alt="Our new users in the PogoShell settings menu."><br/><br/>
+
+<p>
+When we switch to a user, we will be sent to the page they were last visiting, but you'll notice that the saves are swapped out for those belonging to their respective user. (TAKE PHOTOS OF THIS)
+</p>
+
 <?php
 
 echo constructPageFooter();

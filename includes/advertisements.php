@@ -139,7 +139,8 @@ $adList = array(
     "/assets/img/ads/soundblaster.gif","",
     "/assets/img/ads/macg4.gif","",
     "/assets/img/ads/cybertown.gif","https://web.archive.org/web/19970618111815/http://www.cybertown.com/",
-
+    "/assets/img/ads/geocities_japan.gif","https://web.archive.org/web/20050509010514im_/http://www.geocities.jp/js_source/filler_n.gif",
+    
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
     "/assets/img/ads/breakpoint10.gif","https://web.archive.org/web/20100307211623/http://breakpoint.untergrund.net/",

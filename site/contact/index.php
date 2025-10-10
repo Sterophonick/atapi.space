@@ -54,7 +54,7 @@ When contacting me through these platforms, please, please DON'T start with just
 
 Furthermore, Steam and Discord friend requests are likely to be ignored unless I know you. I don't really accept them unless I recognize you and I know who you are.<br/><br/>
 
-If you like what I do and wanna throw a buck or two at me, I do have a Ko-Fi. I'm not in remotely dire need of donations at the moment, but it is there if you really want to. I would strongly urge you to put that money towards someone who needs it more than I do, though.<br/>
+If you like what I do and wanna throw a buck or two at me, I do have a Ko-Fi. I'm not in remotely dire need of donations at the moment, but it is there if you really want to. I would strongly urge you to put that money towards someone who needs it more than I do, though. Some mutual aid goes a long way towards keeping vulnerable communities healthy.<br/>
 
 <a href="https://ko-fi.com/atapithecat">
 <img class="headerIcon icon32" src="/assets/img/contact/ko-fi.png"> Ko-Fi - atapithecat
