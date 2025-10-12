@@ -157,6 +157,12 @@ Homebrew news for mostly retro computers.
 Obsolete GCC 3-based development kit for the Game Boy Advance.
 </p>
 
+<br />
+<p>
+<a href="http://w01.tp1.jp/~a571632211/z80tvgame/index.html">Z80 TV Game System</a><br />
+Website dedicated to a homebrew Z80 television game console created by the webmaster, Isizu-san.
+</p>
+
 <?php
 
 echo constructPageFooter();
