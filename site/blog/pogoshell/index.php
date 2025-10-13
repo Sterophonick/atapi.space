@@ -124,7 +124,7 @@ Then, we build our PogoShell ROM and can switch between the users freely.
 <img loading="lazy" src="/assets/img/blog/pogoshell/pogo5.png" alt="Our new users in the PogoShell settings menu."><br/><br/>
 
 <p>
-When we switch to a user, we will be sent to the page they were last visiting, but you'll notice that the saves are swapped out for those belonging to their respective user. Notice the text at the bottom of both screenshots here.
+When we switch to a user, we will be sent to the page they were last visiting, but you'll notice that the saves are swapped out for those belonging to their respective user. Notice the text at the bottom of both photos here.
 </p>
 <img width="360px" loading="lazy" src="/assets/img/blog/pogoshell/photo0.jpg" alt="The single save belonging to Atapi."><img width="360px" loading="lazy" src="/assets/img/blog/pogoshell/photo1.jpg" alt="The single save belonging to Pikachu."><br/><br/>
 
