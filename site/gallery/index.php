@@ -845,7 +845,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/20220426_213810/jpg">
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/20220426_213810.jpg">
                 <p>April 2022<br />1600 TONS OF ILLEGAL FIREWORKS</p>
         </td>
         <td>
