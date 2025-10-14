@@ -122,6 +122,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#SinclairThe3rd">SinclairThe3rd</a>
                 </li>
+                <li>
+                    <a href="#Zwiebelprinz">Zwiebelprinz</a>
+                </li>
             </ul>
 
         </li>
@@ -1054,6 +1057,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <video class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4" controls><span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/></video>
             <p>December 2021</br>GOD DAMN</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="Zwiebelprinz">Zwiebelprinz</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+              <a href="/assets/img/gallery/zwiebelprinz_atapi1.jpg"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/zwiebelprinz_atapi1_thumb.jpg"></a>
+            <p>October 2025</br>wonderful wonderful doodle of the cute boy!!!!</p>
         </td>
     </tr>
 </table>
