@@ -1052,7 +1052,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <vid loading="lazy" class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4">
+            <video loading="lazy" class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4">
             <p>December 2021</br>GOD DAMN</p>
         </td>
     </tr>
