@@ -125,6 +125,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#Zwiebelprinz">Zwiebelprinz</a>
                 </li>
+                <li>
+                    <a href="#Nuvie">NuVanDibe</a>
+                </li>
             </ul>
 
         </li>
@@ -589,6 +592,12 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <p>December 2024<br />A skin of Oneko.js!!</p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parkercc_emo.png">
+            <p>September 2025<br />HEY EMO BOY</p>
+        </td>
+    </tr>
 </table>
 
 <br/>
@@ -836,6 +845,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/20220426_213810/jpg">
+                <p>April 2022<br />1600 TONS OF ILLEGAL FIREWORKS</p>
+        </td>
+        <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/roach_mow.png">
                 <p>April 2022<br />Mow! :3</p>
         </td>
@@ -843,12 +856,12 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/bananaForScale.png">
                 <p>August 2022<br />banana for scale</p>
         </td>
+    </tr>
+    <tr>
         <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/roach_skirt1.png">
                 <p>May 2023<br />Catte<br /><a href="/assets/img/gallery/roach_skirt1alt.png">Alternate</p></a>
         </td>
-    </tr>
-    <tr>
         <td>
             <a href="/assets/img/gallery/Atapi_Ref_Sheet_2024_-_Roachtoon.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/Atapi_Ref_Sheet_2024_-_Roachtoon_thumb.jpg"></a>
                 <p>April 2024<br />New reference!!!<br /><a href="/files/Atapi_Ref_Sheet_2024_-_Roachtoon.kra">Krita Source File</p></a>
@@ -857,6 +870,8 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/roach_bootleg.png">
                 <p>July 2024<br />Writing 2 bootleg cartridge at runtime x3<br /></p>
         </td>
+    </tr>
+    <tr>
         <td>
             <a href="/assets/img/gallery/roachtoon_atapi_femboy.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/roachtoon_atapi_femboy_thumb.png"></a>
             <p>July 2025<br />cute boy :3<br /><a href="/assets/img/gallery/roachtoon_atapi_femboy_noglasses.png">Alternate</a><br/><a href="/files/roach_slay.7z">PSD Source File</a></p>
@@ -1068,6 +1083,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
               <a href="/assets/img/gallery/zwiebelprinz_atapi1.jpg"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/zwiebelprinz_atapi1_thumb.jpg"></a>
             <p>October 2025</br>wonderful wonderful doodle of the cute boy!!!!</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="Nuvie">NuVanDibe</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/nuvandibe_nov23_tbh.png">
+            <p>November 2023</br>christmas tbh creature</p>
         </td>
     </tr>
 </table>
