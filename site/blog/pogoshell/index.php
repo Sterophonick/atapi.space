@@ -7,6 +7,7 @@ $navContents = <<<EOF
         <li><a href="#p3">Configuration</a></li>
         <ul>
             <li><a href="#p3_1">Users</a></li>
+            <li><a href="#p3_2">Themes</a></li>
         </ul>
     </ul>
 EOF;
@@ -106,7 +107,7 @@ Category: Infodump<br/>
 
 <h3 id="p3_1">Users</h2>
 <p>
-    If you scroll down a bit in <code>pogo.cfg</code> you'll find a section denoted <code>users</code>. The readme states that users can be ignored if you want, but users will be isolated to their own set of saves inside the SRAM filesystem, save for a couple of reserved UIDs, <code>0</code> being <code>root</code> and <code>100</code> being for <code>textreader</code>. <code>root</code> can see all saves, and <code>textreader</code> is restricted to just data used by the text reader inside of the shell. It's a neat feature, especially if you were someone with a little brother who liked to erase game saves a lot.
+    If you scroll down a bit in <code>pogo.cfg</code> you'll find a section denoted <code>users</code>. The readme states that users can be ignored if you want, but users will be isolated to their own set of saves inside the SRAM filesystem, save for a couple of reserved UIDs, <code>0</code> being <code>root</code> and <code>100</code> being for <code>textreader</code>. <code>root</code> can see all saves, and <code>textreader</code> is restricted to just data used by the text reader inside of the shell. It's a neat feature, especially if you were someone with a little brother who liked to erase game saves a lot, or you want more save files than a single game offered.
 </p>
 
 <img loading="lazy" src="/assets/img/blog/pogoshell/winxp6.png" alt="The users section of the pogo.cfg"><br/><br/>
@@ -128,6 +129,10 @@ When we switch to a user, we will be sent to the page they were last visiting, b
 </p>
 <img width="360px" loading="lazy" src="/assets/img/blog/pogoshell/photo0.jpg" alt="The single save belonging to Atapi."><img width="360px" loading="lazy" src="/assets/img/blog/pogoshell/photo1.jpg" alt="The single save belonging to Pikachu."><br/><br/>
 
+<h3 id="p3_2">Themes</h2>
+<p>
+    So, I'm sure you've noticed the... rather garish design language present in this shell, not to mention the odd snail background we have going on here. It's nice and readable for a stock theme, but I think we can certainly do a bit better. There were a good deal of themes available for PogoShell back in the day, you could go and download them from forums, or you'd find them on people's websites.
+</p>
 <?php
 
 echo constructPageFooter();

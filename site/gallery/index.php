@@ -119,6 +119,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#gonorth">>go north_</a>
                 </li>
+                <li>
+                    <a href="#SinclairThe3rd">SinclairThe3rd</a>
+                </li>
             </ul>
 
         </li>
@@ -1040,6 +1043,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/gonorth_atapi.png">
             <p>June 2025</br>Mother hecking cat</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="SinclairThe3rd">SinclairThe3rd</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <vid loading="lazy" class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4">
+            <p>December 2021</br>GOD DAMN</p>
         </td>
     </tr>
 </table>
