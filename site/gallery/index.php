@@ -1052,7 +1052,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <video loading="lazy" class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4"></video>
+            <video class="interruptVideo galleryImg" src="/assets/vid/sinclairthe3rd_dec2021_damn.mp4" controls><span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/></video>
             <p>December 2021</br>GOD DAMN</p>
         </td>
     </tr>
