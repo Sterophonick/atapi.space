@@ -63,7 +63,7 @@ Here's some links to cool netizens!<br/>
 <a href="https://zenthefox.online/"><img src="/assets/img/buttons/zennow.gif"></a>
 <a href="https://tauon.dev/" target="_blank"><img src="/assets/img/buttons/lily.png" alt="lily" width="88" height="31" style="image-rendering: pixelated" title="do hotlink my button!"/></a>
 <a href="https://bee.movie/"><img src="/assets/img/buttons/beebadge.png" title="<3"></a>
-<a href="https://foxboy.dev/"><img src="/assets/img/buttons/ryfox.png"></a>
+<a href="https://bsky.app/profile/ry.cd-rom.net"><img src="/assets/img/buttons/ryfox.png"></a>
 <a href="https://pivotman319-owo.github.io/"><img src="/assets/img/buttons/pivotman.png"></a>
 <a href="https://kaleidosium.my.id/"><img src="/assets/img/buttons/dania.png"></a>
 <a href="https://ayetsg.com/"><img src="/assets/img/buttons/ayetsg.png"></a>
