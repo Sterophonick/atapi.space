@@ -131,8 +131,75 @@ When we switch to a user, we will be sent to the page they were last visiting, b
 
 <h3 id="p3_2">Themes</h2>
 <p>
-    So, I'm sure you've noticed the... rather garish design language present in this shell, not to mention the odd snail background we have going on here. It's nice and readable for a stock theme, but I think we can certainly do a bit better. There were a good deal of themes available for PogoShell back in the day, you could go and download them from forums, or you'd find them on people's websites.
+    So, I'm sure you've noticed the... rather garish design language present in this shell, not to mention the odd snail background we have going on here. It's nice and readable for a stock theme, but I think it's rather boring. Thankfully though, the shell is entirely themable, and there were a good deal of themes available for PogoShell back in the day, you could go and download them from forums, or you'd find them on people's websites.
 </p>
+
+<img loading="lazy" src="/assets/img/blog/pogoshell/theme0.jpg" alt="A spider-themed PogoShell config."><img loading="lazy" src="/assets/img/blog/pogoshell/theme2.png" alt="A theme with a black background and some cool red and blue gradients."><img loading="lazy" src="/assets/img/blog/pogoshell/theme1.png" alt="A pixel art Wind Waker theme."><br/><br/>
+
+<p>
+    Why don't we build our own?<br/><br/>
+    
+    If we head over to the <code>root/.shell/themes</code> folder, we can find a handful of files with the extension of <code>.theme</code>.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp8.png" alt="The default selection of themes."><br/><br/>
+
+<p>
+    PogoShell will always load the <code>default</code> theme file, and if we open it in Notepad...
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp9.png" alt="The contents of the theme file. It's plaintext configuration data."><br/><br/>
+
+<p>That's a lot.</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/waos.png" alt="Waos.'"><br/><br/>
+
+<p>
+    Lucky for us, there is a user out there who created a GUI theme editor using .NET, supporting all of the parameters needed to construct a proper theme.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp10.png" alt="PogoShell Theme Editor v0.8"><br/><br/>
+
+<p>
+    PogoShell UI elements accept various parameters, allowing for flat colors, horizontal or vertical gradients, and you can even select a bitmap for each.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp11.png" alt="HRANGE, VRANGE, BEVEL, and BITMAP"><br/><br/>
+
+<p>
+    You can select a border size and colors for the elements. <code>COLOR0</code> is the color of the top and left outlines, and <code>COLOR1</code> is the color of the bottom and right outlines.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp12.png" alt="Outline options. Thickness, and options for top and bottom outlines."><br/><br/>
+
+<p>
+    Text options are here, too. Align options, margins, colors, font options, and at the bottom you get the option to select a bitmap if you chose <code>BITMAP</code> in the <code>STYLE</code> section.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp13.png" alt="Outline options. Thickness, and options for top and bottom outlines."><br/><br/>
+
+<p>
+    With all of that out of the way, here's me building a theme!
+</p>
+<span style="max-width: 720px;">
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp14.png" alt="Work-in-progress. The title bar, background, and status bar are correct."><img loading="lazy" src="/assets/img/blog/pogoshell/winxp15.png" alt="Pretty much complete now. The background is the red Mac OS 9 cats tiled background, and everything else has a dark blue spotty background with red outlines."><br/><br/>
+</span>
+
+<p>
+    When we select <code>File > Create</code>, a new <code>root</code> folder is created in our PTE directory.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp16.png" alt="The new root folder."><br/><br/>
+
+<img loading="lazy" src="/assets/img/blog/pogoshell/winxp17.png" alt="The bitmaps and themes folder inside the root."><br/><img loading="lazy" src="/assets/img/blog/pogoshell/winxp18.png" alt="The bitmaps folder. There's a bg.bm, an icons.bm, and a weave.bm."><br/><img loading="lazy" src="/assets/img/blog/pogoshell/winxp19.png" alt="The themes folder. There's just a default.theme."><br/><br/>
+
+<p>
+    Once we import this into our PogoShell compilation's root folder, we can watch our theme in action!
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/pogo6.png" alt="Our theme in action, with the About message box."><br/>
+<img loading="lazy" src="/assets/img/blog/pogoshell/pogo7.png" alt="Ditto, in the user selection menu."><br/><br/>
+
+<p>
+    In fact it even exposes a bug that causes some graphical corruption in the context menus. Forcing it to a solid color seemed to fix it.
+</p>
+<img loading="lazy" src="/assets/img/blog/pogoshell/pogo8.png" alt="Some minor corruption."><br/><br/>
+
+<p>
+    But with that, we're pretty much done with our theme. There are a couple more things to do such as making fonts and icons, but by and large, this is a complete theme!
+</p>
+
 <?php
 
 echo constructPageFooter();
