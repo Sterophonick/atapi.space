@@ -128,6 +128,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#Nuvie">NuVanDibe</a>
                 </li>
+                <li>
+                    <a href="#ZenTheFox">Zen the Fox</a>
+                </li>
             </ul>
 
         </li>
@@ -1094,6 +1097,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/nuvandibe_nov23_tbh.png">
             <p>November 2023</br>christmas tbh creature</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="ZenTheFox">Zen the Fox</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/zenthefox_gun.png">
+            <p>August 2025</br>:)<br/><a href="/files/zenthefox_gun.7z">PSD Source File</a></p>
         </td>
     </tr>
 </table>
