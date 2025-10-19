@@ -5,9 +5,7 @@ $quoteStrings = array(
     "Everybody do the flop!", "-- Do the Flop Guy, asdfmovie6",
     "Hi, babe, yes I am real man, you wanna go skateboards?", "-- Real Man, asdfmovie8",
     "Beep, Beep, I'm a sheep, I said, Beep, Beep, I'm a sheep!", "-- Sheep, asdfmovie10",
-    "look a ball! bal man!", "-- TomSka",
     "Look out, he's got a nose!", "-- Cop, asdfmovie",
-    "Piano! *CRASH* Who's idea was this!?", "-- asdfmovie4",
     "Hey, Bobby! Play that one about fallin' down the stairs!", "-- Johnny, asdfmovie5",
 
     // Poker Night at the Inventory / Poker Night 2
@@ -16,13 +14,11 @@ $quoteStrings = array(
 
     // Homestar Runner
     "The system is down, yo!","-- Strong Bad",
-    "how do you type with boxing gloves on?", "-- Strong Bad",
     "What is this? Did the quadratic formula explode?", "-- Strong Bad",
     "Nope, nope, nope, the land of ten thousand nopes.", "-- Strong Bad",
     "Hey, Strong Bad! I'm inside your house.", "-- Homestar Runner",
 
     // Half-Life
-    "grodon fremann!!!!", "-- Me",
     "Does anyone know who ate all the donuts?", "-- Black Mesa Scientist",
     "I still have nightmares about that cat.", "-- Barney Calhoun",
     "The right man in the wrong place can make all the difference in the world.", "-- G-Man",
@@ -44,18 +40,11 @@ $quoteStrings = array(
     "I hear they're gonna give me the chair, and maybe even a lovely matching table.", "-- The Brickster, LEGO Island",
     "Long live The Brickster!", "-- The Brickster, LEGO Island",
     "Pepper? Or should I say, Paper? That's how you spell it, don't you?", "-- The Brickster, LEGO Island",
-
-    // Napoleon Dynamite
-    "You got, like, three feet of air that time.", "-- Napoleon Dynamite",
-    "I told you! I spent it with my uncle in Alaska hunting wolverines!", "-- Napoleon Dynamite",
-    "Who's the one that knows illegal ninja moves from the government?", "-- Napoleon Dynamite",
-
+    
     // Old Internet Memes
     "Picard Approves", "-- Unknown",
     "They called it Xbox 360 because you turn 360 degrees and walk away.", "-- Unknown",
-    "Windmills do not work that way!", "-- Morbo",
     "You can't ground Spider-Man!", "-- Unknown",
-    "Can I be drawn better?", "-- Unknown",
     "SOPA, Y U NO LEAVE INTERNET ALONE?", "-- Unknown",
     "Good luck, I'm behind 7 proxies!", "-- Anon",
     "Be sure to drink your Ovaltine.", "-- Little Orphan Annie, A Christmas Story",
@@ -66,7 +55,6 @@ $quoteStrings = array(
     "Me Gusta!", "-- Unknown",
     "Door stuck! DOOR STUCK!", "-- jrbsn",
     "are you guys going trick or treating?", "-- GoronCity.net",
-    "How does one patch KDE2 under FreeBSD?", "-- Unknown",
     "Wololo!", "-- Priest, Age of Empires",
     "Can you feel the sunshine?", "-- TJ Davis, Sonic R",
     "Lurk Moar.", "-- Rules of the Internet",
@@ -86,8 +74,7 @@ $quoteStrings = array(
     "I like turtles.", "-- Johnathan Ware",
     "lol, internet", "-- YTMND",
     "O RLY?", "-- Unknown",
-    "Redundant adjective is redundant", "-- Me",
-    "Play him off, Keyboard Cat!", "-- Keyboard Cat",
+    "Play him off, Keyboard Cat!", "",
     "Safety not guaranteed. I have only done this once before.", "-- Mysterious Time Traveller",
 
     // Portal
@@ -107,11 +94,10 @@ $quoteStrings = array(
     "The Creeper is a spy!", "-- Minecraft",
 
     // Halo
-    "Sir. Big DS.", "-- Huge Nintendo DS",
     "I Love Bees!", "-- Halo 2 Promotion",
 
     // Smiling Friends
-    "I love this place, I've been coming here since I was a Homunculus.", "-- Charlie Dompler",
+    "I love this place, I've been coming here since I was a Homunculus.", "-- Charlie Dompler, Smiling Friends",
     "That's my point, good times are fleeting. It doesn't change the fact the Sun is going to Explode.", "-- Desmond, Smiling Friends",
     "Hooray! I have reached level 987,413 in Mouse Quest!", "-- Shrimp, Smiling Friends",
 
@@ -185,8 +171,6 @@ $quoteStrings = array(
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
     "Holy knuckle-cracking kringles on a bullet train with a sack full of ketchup-covered cheese logs!", "-- Sam, Sam & Max: The Devil's Playhouse",
-    "Hi! I'm not Hugh Bliss!", "-- Hugh Bliss, Sam & Max Save the World",
-    "\"Hard Luck.\" Classy.", "-- Sam, Sam & Max: The Devil's Playhouse",
     "An idle mind is The Devil's Playhouse.", "-- Max's Super-Ego",
     "But Max, you don't even like girls!", "-- Sam Clones, Sam & Max: The Devil's Playhouse",
     "My innocence has been shattered by this blatant tourist trap. I want my money back.", "-- Max, Sam & Max Hit the Road",
@@ -252,6 +236,7 @@ $quoteStrings = array(
     "Also try Jazz Jackrabbit 2!","",
     "Also try Sword with Sauce!", "",
     "Also try Indiana Jones and the Great Circle!","",
+    "Also try IMSCARED!","",
 
     // Warez
     "See you in the next release!", "-- Mode7(?)",
@@ -263,9 +248,9 @@ $quoteStrings = array(
 
     // Yakuza
     "Ten years in the joint made you a [[DATA EXPUNGED]]!", "-- Akira Nishikiyama",
-    "Heh... High five, brain.", "-- Goro Majima",
     "Comedy? There's no place for <i>comedy</i> in a yakuza story...", "-- Kazuma Kiryu",
     "Yo. Kiryu-chan~!", "-- Goro Majima",
+    "I peacocked your mom.", "-- Kazuma Kiryu, Yakuza Kiwami 2",
 
     // Malware
     "Dis is one half. Press any key to continue ...", "-- Virus:DOS/OneHalf",
@@ -433,6 +418,14 @@ $quoteStrings = array(
     "HA HA HA CHECK OUT MR RECTANGLE HEAD OVER THERE", "-- Zu Resident, FEZ (Translated from Zu)",
     "HI THERE HOW ARE YOU I WILL BE YOUR HEXAHEDRON TODAY", "-- The Hexahedron, FEZ (Translated from Zu)",
 
+    // IMSCARED
+    "There is a way to turn an entity into data.", "-- Attention.txt, IMSCARED",
+    "I need a heart in order to open it.", "-- IMSCARED",
+    "Six will do.", "-- IMSCARED",
+    "Don't be deceived, the other one is lying.", "-- realone.html, IMSCARED"
+    "From now on, remember this: the sound predicts its arrival.", "-- 0.txt, IMSCARED",
+    "Take some time and try to escape."., "-- I'm sorry.txt, IMSCARED",
+                      
     // Misc
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
     "Think fast, chucklenuts!", "-- Scout, Team Fortress 2",
@@ -503,10 +496,6 @@ $quoteStrings = array(
     "Pika Pika!", "-- Pikachu",
     "Katarn will never come near this ship.", "-- General Mohc, STAR WARS: Dark Forces",
     "Better to let your opponent have his pot, than to build him a new one.", "-- Artie Flopshark, Telltale Texas Hold'Em",
-    "You know, like a liar.", "-- John Mulaney",
-    "This is the height of luxury!", "-- John Mulaney",
-    "We want a GIFT! But only if it's MONEY!", "-- John Mulaney",
-    "Get some rest, tall child!", "-- John Mulaney",
     "whats that? you dont drink wet cement? you couldnt be more pathetic.", "-- bunnipop",
     "I miss you, Cynthia, rest in power.","", //199? - 2021
     "It's bad enough wasting time without killing it.", "-- Tock, The Phantom Tollbooth",
@@ -528,8 +517,6 @@ $quoteStrings = array(
     "Removed Herobrine.","-- Minecraft Patch Notes",
     "GOD is real, unless if declared Integer", "-- Old Fortan Joke",
     "I'll be dead long before you were born and I'll be dead long before you'll be dead.", "-- Space Ghost",
-    "Aaaawwww boy! You guys get away from my olive loaf!", "-- Brak",
-    "Is it hot in here, or am I sweating?", "-- Brak",
     "Why do you have to have a head?", "-- Gaz, Invader ZIM",
     "Hmm, tastes like prion disease....", "-- Mona, from 2chan Shift-JIS art",
     "On power up or reset, Furby must go select a new name ,,, ahw how cute.", "-- Furby Source Code, 1997",
@@ -558,13 +545,11 @@ $quoteStrings = array(
     "Unattended children will be taught IDA Pro.", "-- Me",
     "Grief Counseling for emulator developers is now available at irc.efnet.org", "-- TiTAN, Overdrive 2",
     "Now this will run on my 486?", "-- Unknown E3 2003 attendant at Half-Life 2 showing",
-    "There was a lot of anger in this room.", "-- Jin Sun-Kwon, F.E.A.R.",
     "Player one, go!", "-- Cookie Blair, Cookie's Bustle: Mysterious Bombo World",
     "Buy a new Windows 7 PC. Get a free Xbox 360.", "-- Microsoft Ad",
     "You know what I need? Some heels without guns.", "-- Bayonetta, Bayonetta 2",
-    "Don't think I am that rude when I tell you that it's cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
+    "Don't think I am that rude if I tell you that it's cat food, \"Not even fit for a horse!\"", "-- King Crimson, Cat Food",
     "Cat food, cat food, cat food, again!?", "-- King Crimson, Cat Food",
-    "WHAT IS WRONG WITH THE ELF. 0000004f", "-- MrCheeze, GYTB",
     "We are Samurai... the keyboard cowboys.", "-- The Plague, Hackers (1995)",
     "If I were to go back and kick the Pope off his throne, I'd be the queen.", "-- Sandie \"The Goddess Bunny\" Crisp",
     "MAKE GIFS AT GIFSOUP.COM","",
