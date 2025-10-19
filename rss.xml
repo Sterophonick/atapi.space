@@ -7,6 +7,14 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
+            <title>gallery update!</title>
+            <link>https://atapi.space/site/gallery/</link>
+            <guid>gall1</guid>
+            <pubDate>Sat, 19 Oct 2025 00:00:00 MST</pubDate>
+            <description>GO LOOK AT THE GALLERY!!!! THERE'S A LOT OF NEW STUFF IN THERE!!!</description>
+        </item>
+        
+        <item>
             <title>flash2advance part 1</title>
             <link>https://atapi.space/site/blog/flash2advance/</link>
             <guid>f2ap1</guid>
