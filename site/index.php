@@ -6,8 +6,8 @@ $customSideContent = <<<EOF
     <div class="extraSidebar window">
         <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
         <ul style="font-size: 13pt">
-            <li>2025/09/21: New site layout! Currently very work-in-progress, not everything is finished, but damn does the site look so much cooler.</li>
             <li>2025/10/19: Lots of new gallery entries! Check 'em out!</li>
+            <li>2025/09/21: New site layout! Currently very work-in-progress, not everything is finished, but damn does the site look so much cooler.</li>
         <ul>
     </div>
     <div class="extraSidebar window">
