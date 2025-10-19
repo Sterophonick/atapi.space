@@ -361,6 +361,13 @@ Jeff's site dedicated to homebrew software and electronics development.
 Defunct site dedicated to Cybiko development.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20080730091110/https://www.alansuel.com/c/morep.htm">Alan Suel's PogoShell Themes</a><br />
+An artist from Denver who made a handful of PogoShell themes back in the day.
+</p>
+
+
 <?php
 
 echo constructPageFooter();
