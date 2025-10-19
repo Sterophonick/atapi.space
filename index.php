@@ -73,7 +73,7 @@
                     <a href="https://kokoscript.com"><img src="/assets/img/buttons/kokoscript.gif"></a>
 
                     <a href="https://bee.movie/"><img src="/assets/img/buttons/beebadge.png" title="<3"></a>
-                    <a href="https://bsky.app/profile/ry.cd-rom.net"><img src="/assets/img/buttons/ryfox.png"></a>
+                    <a href="https://ry.cd-rom.net/"><img src="/assets/img/buttons/ryfox.png"></a>
                     <a href="https://pivotman319-owo.github.io/"><img src="/assets/img/buttons/pivotman.png"></a>
 
                     <a href="https://elizafox.space/"><img src="/assets/img/buttons/elizafox.png"></a>
