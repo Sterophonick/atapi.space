@@ -424,7 +424,7 @@ $quoteStrings = array(
     "Six will do.", "-- IMSCARED",
     "Don't be deceived, the other one is lying.", "-- realone.html, IMSCARED",
     "From now on, remember this: the sound predicts its arrival.", "-- 0.txt, IMSCARED",
-    "Take some time and try to escape."., "-- I'm sorry.txt, IMSCARED",
+    "Take some time and try to escape.", "-- I'm sorry.txt, IMSCARED",
                       
     // Misc
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",
