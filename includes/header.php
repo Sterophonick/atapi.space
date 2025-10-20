@@ -422,7 +422,7 @@ $quoteStrings = array(
     "There is a way to turn an entity into data.", "-- Attention.txt, IMSCARED",
     "I need a heart in order to open it.", "-- IMSCARED",
     "Six will do.", "-- IMSCARED",
-    "Don't be deceived, the other one is lying.", "-- realone.html, IMSCARED"
+    "Don't be deceived, the other one is lying.", "-- realone.html, IMSCARED",
     "From now on, remember this: the sound predicts its arrival.", "-- 0.txt, IMSCARED",
     "Take some time and try to escape."., "-- I'm sorry.txt, IMSCARED",
                       
