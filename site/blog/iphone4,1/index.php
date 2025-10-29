@@ -21,7 +21,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: The Unholy Horror of the iP
 ?? ?, 202?<br/>
 Category: Rant<br/>
 <span style="color: yellow">
-Content Warning // Language (i'm like seriously pissed)
+Content Warning // Language (i'm lowkey pissed)
 </span>
 </p>
 <br />
@@ -91,7 +91,7 @@ Content Warning // Language (i'm like seriously pissed)
 <img loading="lazy" src="/assets/img/blog/iphone4,1/itunes2.png" alt="iTunes failing me."><br/><br/>
 
 What the fuck.<br/>
-THERE NEEDS TO BE A REACTION PIC HERE<BR/><br/>
+<img loading="lazy" src="/assets/img/gallery/zenith_iphone.png"><br/><br/>
 
 <p>
     By this point, I'm genuinely going crazy, I'm actually getting pissed by this thing. I am in the TRENCHES against this piece of shit, and it is winning. More and more digging ensues. I come up with a <a href="https://www.reddit.com/r/LegacyJailbreak/comments/1mj4c5p/megathread_a5_and_a6_activation_discussion/">megathread on r/LegacyJailbreak.</a>
@@ -146,7 +146,7 @@ there needs to be a reaction pic here float left
 </p>
 <img loading="lazy" src="/assets/img/blog/iphone4,1/cli3.png" alt="Legacy iOS toolkit showing we are pwned."><br/><br/>
 
-Smug Weird Reaction Image here<br/><br/>
+<img loading="lazy" src="/assets/img/gallery/zenith_clueless.png"><br/><br/>
 
 <p>
 My first move is to downgrade to iOS 6.1.3, since I have a bit of nostalgia for its aesthetics.
@@ -182,7 +182,7 @@ My first move is to downgrade to iOS 6.1.3, since I have a bit of nostalgia for 
 <p>So, we have a working barebones installation of iOS 6.1.3! It's pretty cool, I think, works exactly like I remember it working, and I even tested it with my own site!</p>
 <img height="550px" loading="lazy" src="/assets/img/blog/iphone4,1/iphone9.jpg" alt="My site in Safari!"><br/><br/>
 
-<p>But at this point, I hit a roadblock. How exactly do I get IPAs on this thing? If I head over to <code>Sideload IPA</code> in Legacy iOS Toolkit, it gives me a message about needing to be activated. Paradoxically, I got into this fucking mess because APPLE BROKE THEIR OWN SHIIIIIIIIIIT</p>
+<p>But at this point, I hit a roadblock. How exactly do I get IPAs on this thing? If I head over to <code>Sideload IPA</code> in Legacy iOS Toolkit, it gives me a message about needing to be activated. Paradoxically, I got into this fucking mess because APPLE BROKE THEY OWN SHIIIIIIIIIIT</p>
 <img loading="lazy" src="/assets/img/blog/iphone4,1/cli7.png" alt="You need to be activated to sideload."><br/><br/>
 
 There is A Reaction Image here<br/><br/>
@@ -210,18 +210,25 @@ There is A Reaction Image here<br/><br/>
     Can you imagine what it did instead?<br/>
     <code style="font-size:13pt">Could not start com.apple.mobile.installation_proxy: Service prohibited</code><br/><br/>
     
-    I'm gonna lose it.
+    <span style="font-size:40pt"> :) </span>
+    
+    <br/><br/>
+    
+    <img loading="lazy" src="/assets/img/blog/iphone4,1/reaction.png"><br/><br/>
+    
 </p><br/><br/>
 
 <h2 id="p4">The Rant</h2>
 <p>
-    I'm broken. This device has broken me. All I wanted to do was play stupid games from when I was but a babyshit, and the Ghost of Steve Jobs himself gave me a fat middle finger, threw rocks at me, preserved my bruised body in salt, and left me to die in a glue trap. Nothing I could ever find that I could perform either in SSH or in userland was capable of installing IPAs directly, they absolutely must be sideloaded and I can't do that when I can't activate the god. damn. device. And I probably wouldn't even be able to install the backed up IPAs anyway because they're tied to an Apple ID that uses an email address from an ISP that doesn't even offer that email domain anymore.<br/><br/>
+    I'm broken. This device has broken me. I'm WORSE because I tried this. All I wanted to do was play stupid games from when I was but a babyshit, and the Ghost of Steve Jobs himself gave me a fat middle finger, threw rocks at me, preserved my bruised body in salt, and left me to die in a glue trap. Nothing I could ever find that I could perform either in SSH or in userland was capable of installing IPAs directly, they absolutely must be sideloaded and I can't do that when I can't activate the god. damn. device. And I probably wouldn't even be able to install the backed up IPAs anyway because they're tied to an Apple ID that uses an email address from an ISP that doesn't even offer that email domain anymore.<br/><br/>
     
     I knew Apple was bad with how anti-consumer and anti-preservation that their devices were, but holy shit, was this eye-opening. You certainly can use an Apple device without activation, but in addition to not being able to install anything, it will fight you, every step of the way, kicking and screaming and pissing on the floor.<br/><br/>
     
     The fact that this device and presumably millions and millions of other iOS devices are in similar predicaments is utterly bonkers. Devices that are destined to be e-waste and nothing more. This is not what we do. This is a bad way to use the computer. Don't do it.<br/><br/>
     
     What else is there for me to really do here? Hell if I know. Maybe one day Apple will fix the activation server, but I seriously doubt it. Until then or something insane happens, I'm left with a shiny vintage paperweight.<br/><br/>
+    
+    What a shame.<br/><br/>
     
     pivotman's doodle that links to behind the bastards
 </p>

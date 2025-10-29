@@ -600,6 +600,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parkercc_emo.png">
             <p>September 2025<br />HEY EMO BOY</p>
         </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parker_cry.png">
+            <p>October 2025<br />CRYING FROM IPHONE</p>
+        </td>
     </tr>
 </table>
 
@@ -644,6 +648,16 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/zenith_exe2024.png">
                 <p>October 2024<br />ROUND4<br /><a href="/files/stero icon.aseprite">Aseprite Source File</a></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/zenith_iphone.png">
+            <p>October 2025<br /><b><i><u>IPHONE HATES ME</u></i></b></p>
+        </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/zenith_clueless.png">
+            <p>October 2025<br /><b><i><u>Clueless from iPhone</u></i></b></p>
         </td>
     </tr>
 </table>
