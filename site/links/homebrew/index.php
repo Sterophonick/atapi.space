@@ -163,6 +163,12 @@ Obsolete GCC 3-based development kit for the Game Boy Advance.
 Website dedicated to a homebrew Z80 television game console created by the webmaster, Isizu-san.
 </p>
 
+<br />
+<p>
+<a href="https://github.com/LukeZGD/Legacy-iOS-Kit">Legacy iOS Kit</a><br />
+Toolkit for Linux and macOS for performing hax on legacy iOS devices. Also has more information and exploits relating to these devices.
+</p>
+
 <?php
 
 echo constructPageFooter();

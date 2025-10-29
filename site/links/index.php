@@ -38,7 +38,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
     </tr>
 
     <tr>
-    <td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew and ROM hack development.<br /></td>
+    <td><a href="homebrew/">Homebrew / Hacking</a><br />Links for homebrew, ROM hack, and jailbreak development.<br /></td>
     <td><a href="shortwave/">Shortwave Radio</a><br />Links relating to shortwave radio and other such topics.<br /></td>
     </tr>
 
