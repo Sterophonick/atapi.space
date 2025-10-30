@@ -28,7 +28,7 @@ Content Warning // Language (i'm lowkey pissed)
 <p id="p0">
     I really thought I could do it. I really did.<br/><br/>
     
-    A long time ago, back when I backed up SNOOPY, the old Windows XP desktop that i revived in a previous post, along came with it were a series of around, eh, a hundred or so IPA files that were backed up from iTunes. Most of these files are preserved, save for a couple of educational games that I had as a six-year-old. Such as this very epic and stupid arithmetic game called "Math Ninja."<br/>
+    A long time ago, back when I <a href="/site/blog/rebirth_of_snoopy/">backed up SNOOPY</a>, the old Windows XP desktop that i revived in a previous post, along came with it were a series of around, eh, a hundred or so IPA files that were backed up from iTunes. Most of these files are preserved, save for a couple of educational games that I had as a six-year-old. Such as this very epic and stupid arithmetic game called "Math Ninja."<br/>
     
     <?php
     generateYouTubeEmbed("qa0Ugs5Bzt4", 720, 405);
