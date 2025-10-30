@@ -39,7 +39,7 @@ $navContents = <<<EOF
                     <a href="#chfour">chfour</a>
                 </li>
                 <li>
-                    <a href="#ZenithNeko">ZenithNeko</a>
+                    <a href="#Zenith">Zenith</a>
                 </li>
                 <li>
                     <a href="#Ashie404">Ashie404</a>
@@ -130,6 +130,9 @@ $navContents = <<<EOF
                 </li>
                 <li>
                     <a href="#ZenTheFox">Zen the Fox</a>
+                </li>
+                <li>
+                    <a href="#pivotman319">pivotman319</a>
                 </li>
             </ul>
 
@@ -420,6 +423,12 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <p>July 2025<br />"the one with sam waitin"<br /></p>
     </td>
   </tr>
+  <tr>
+    <td>
+        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/atapi_cry_death.png"></a>
+        <p>October 2025<br />crying uncontrollably<br /><a href="/files/atapi_cry_death.xcf">Source File</a><br /></p>
+    </td>
+  </tr>
 </table>
 <br/>
 <h2 id="MadeByFriends">Made by Friends (In no particular order)</h2>
@@ -634,7 +643,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 </table>
 
 <br/>
-<h3 id="ZenithNeko">ZenithNeko</h3>
+<h3 id="Zenith">Zenith</h3>
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
@@ -1123,8 +1132,24 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/zenthefox_gun.png">
             <p>August 2025</br>:)<br/><a href="/files/zenthefox_gun.7z">PSD Source File</a></p>
         </td>
+        <td>
+            <img loading="lazy" class="galleryImg" style="filter: drop-shadow(0 0 5px white);" src="/assets/img/gallery/zenthefox_frust.png">
+            <p>October 2025</br>iPhone Frustration</p>
+        </td>
     </tr>
 </table>
+
+<br/>
+<h3 id="pivotman319">pivotman319</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <a href="/assets/img/gallery/pivot_jobs.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/pivot_jobs_thumb.jpg"></a>
+            <p>October 2025</br>I'M STEVE JOBS, JAILBREAK MY PHONE'<br/><a href="/assets/img/gallery/pivot_jobs_alt.png">Alternate</a></p>
+        </td>
+    </tr>
+</table>
+
 
 </div>
 

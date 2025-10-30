@@ -18,8 +18,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: The Unholy Horror of the iP
 <h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> The Unholy Horror of the iPhone 4S</h2>
 <p>I'm tired, boss.<br/></p><br/>
 <p>
-?? ?, 202?<br/>
-Category: Rant<br/>
+Oct 29, 2025<br/>
+Category: Rant/Project<br/>
 <span style="color: yellow">
 Content Warning // Language (i'm lowkey pissed)
 </span>
@@ -91,7 +91,7 @@ Content Warning // Language (i'm lowkey pissed)
 <img loading="lazy" src="/assets/img/blog/iphone4,1/itunes2.png" alt="iTunes failing me."><br/><br/>
 
 What the fuck.<br/>
-<img loading="lazy" src="/assets/img/gallery/zenith_iphone.png"><br/><br/>
+<img loading="lazy" src="/assets/img/gallery/zenith_iphone.png" alt="a drawing of my sona being crushed to death by the iPhone as he pleads and cris"><br/><br/>
 
 <p>
     By this point, I'm genuinely going crazy, I'm actually getting pissed by this thing. I am in the TRENCHES against this piece of shit, and it is winning. More and more digging ensues. I come up with a <a href="https://www.reddit.com/r/LegacyJailbreak/comments/1mj4c5p/megathread_a5_and_a6_activation_discussion/">megathread on r/LegacyJailbreak.</a>
@@ -110,10 +110,10 @@ So I get home and check this against Legacy iOS Toolkit, which is a goofy comman
 <img loading="lazy" src="/assets/img/blog/iphone4,1/cli1.png" alt="My phone's IMEI starts with 9900"><br/><br/>
 
 <p>
-    <i>*Deep Breath*</i><br/><br/>
+    <i>*Deep Breath*</i><br/>
 </p>
 
-there needs to be a reaction pic here float left
+<img height="240px" style="float: right; margin-right: 20px; margin-top: 40px" loading="lazy" src="/assets/img/gallery/atapi_cry_death.png" alt="crying uncontrollably"><br/><br/>
 
 <p style="font-size:30pt">
     AAAAAAAAAAAAAJSKDL;FJ A;SDLFIASDFKJDSF;GLKASU DFK;ASHD;FLKHASDFLHAS DLFJHASDFJHASDF/ASDF/ASIDFH
@@ -146,7 +146,7 @@ there needs to be a reaction pic here float left
 </p>
 <img loading="lazy" src="/assets/img/blog/iphone4,1/cli3.png" alt="Legacy iOS toolkit showing we are pwned."><br/><br/>
 
-<img loading="lazy" src="/assets/img/gallery/zenith_clueless.png"><br/><br/>
+<img loading="lazy" src="/assets/img/gallery/zenith_clueless.png" alt="CLUELESS"><br/><br/>
 
 <p>
 My first move is to downgrade to iOS 6.1.3, since I have a bit of nostalgia for its aesthetics.
@@ -185,7 +185,7 @@ My first move is to downgrade to iOS 6.1.3, since I have a bit of nostalgia for 
 <p>But at this point, I hit a roadblock. How exactly do I get IPAs on this thing? If I head over to <code>Sideload IPA</code> in Legacy iOS Toolkit, it gives me a message about needing to be activated. Paradoxically, I got into this fucking mess because APPLE BROKE THEY OWN SHIIIIIIIIIIT</p>
 <img loading="lazy" src="/assets/img/blog/iphone4,1/cli7.png" alt="You need to be activated to sideload."><br/><br/>
 
-There is A Reaction Image here<br/><br/>
+<img width="300px" loading="lazy" style="filter: drop-shadow(0 0 5px white);" src="/assets/img/gallery/zenthefox_frust.png"><br/><br/>
 
 <p>
     Jesus Christ. Alright, let's <a href="https://github.com/LukeZGD/Legacy-iOS-Kit/wiki/Hacktivation">read the damn wiki</a>.<br/><br/>
@@ -214,7 +214,7 @@ There is A Reaction Image here<br/><br/>
     
     <br/><br/>
     
-    <img loading="lazy" src="/assets/img/blog/iphone4,1/reaction.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/iphone4,1/reaction.png" alt="A weird drawing of my sona crying"><br/><br/>
     
 </p><br/><br/>
 
@@ -230,7 +230,22 @@ There is A Reaction Image here<br/><br/>
     
     What a shame.<br/><br/>
     
-    pivotman's doodle that links to behind the bastards
+    <a href="https://www.youtube.com/watch?v=aEv08Zzunfc"><img loading="lazy" src="/assets/img/gallery/pivot_jobs.png" alt="A drawing of my fursona getting scared to death by a possessed iPhone 4. It's possessed with the ghost of Steve Jobs and he's saying 'JAILBREAK MY PHONE'"></a><br/><br/>
+    
+    <small>
+        Credits to the artists for drawing wonderful interpretations of my declining mental state:<br/>
+        Zenith302<br/>
+        Zen the Fox<br/>
+        ParkerCC<br/>
+        pivotman319<br/>
+        myself<br/><br/>
+        
+        Credit to LukeZDG for creating Legacy iOS Toolkit<br/>
+        Greetz to r/legacyjailbreak and r/setupapp<br/><br/>
+        
+        A big fuck you to Apple<br/>
+        
+    </small>
 </p>
 
 <?php
