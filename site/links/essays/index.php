@@ -13,6 +13,7 @@ echo constructPageHeader("Atapi's Domain! :: Web Links :: Essays");
 An essay that takes a deep dive into fascism and the related AI-generated slop that promotes sanitized, capitalist nostalgia.
 </p>
 
+<br/>
 <p>
 <a href="https://maia.crimew.gay/posts/anarchism-in-the-now/">anarchism starts in the now</a><br />
 There is still time.
