@@ -17,8 +17,9 @@ function countWebLinks() {
     $totalLinks += returnHrefCount("/site/links/homebrew/index.php");
     $totalLinks += returnHrefCount("/site/links/scene/index.php");
     $totalLinks += returnHrefCount("/site/links/shortwave/index.php");
+    $totalLinks += returnHrefCount("/site/links/essays/index.php");
 
-    echo "Counting " . $totalLinks . " web links in 8 categories.";
+    echo "Counting " . $totalLinks . " web links in 9 categories.";
 }
 
 ?>

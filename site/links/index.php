@@ -46,6 +46,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
     <td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
     <td><a href="historical/">Historical</a><br />The internet's graveyard / retirement home.<br /></td>
     </tr>
+    
+    <tr>
+    <td><a href="essays/">Essays</a><br />Politics and Theory<br /></td>
+    </tr>
 
     </table>
     <br/>
