@@ -135,7 +135,7 @@ $navContents = <<<EOF
                     <a href="#pivotman319">pivotman319</a>
                 </li>
                 <li>
-                    <a href="#forest">forest</a>
+                    <a href="#forest">forest / swiftyshq</a>
                 </li>
             </ul>
 
