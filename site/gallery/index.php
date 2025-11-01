@@ -134,6 +134,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#pivotman319">pivotman319</a>
                 </li>
+                <li>
+                    <a href="#forest">forest</a>
+                </li>
             </ul>
 
         </li>
@@ -612,6 +615,16 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parker_cry.png">
             <p>October 2025<br />CRYING FROM IPHONE</p>
+        </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parker_mask.png">
+            <p>October 2025<br />panda mask emote</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/parker_theboy.png">
+            <p>October 2025<br />meeeeeeeeee :3</p>
         </td>
     </tr>
 </table>
@@ -1145,11 +1158,21 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     <tr>
         <td>
             <a href="/assets/img/gallery/pivot_jobs.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/pivot_jobs_thumb.jpg"></a>
-            <p>October 2025</br>I'M STEVE JOBS, JAILBREAK MY PHONE'<br/><a href="/assets/img/gallery/pivot_jobs_alt.png">Alternate</a></p>
+            <p>October 2025</br>I'M STEVE JOBS, JAILBREAK MY PHONE<br/><a href="/assets/img/gallery/pivot_jobs_alt.png">Alternate</a></p>
         </td>
     </tr>
 </table>
 
+<br/>
+<h3 id="forest">forest / swiftyshq</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <a href="/assets/img/gallery/forest_atapi1.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/forest_atapi1_thumb.jpg"></a>
+            <p>November 2025</br>bleh</p>
+        </td>
+    </tr>
+</table>
 
 </div>
 
