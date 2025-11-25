@@ -435,6 +435,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <img loading="lazy" class="galleryImg" src="/assets/img/gallery/fototeta.png"></a>
         <p>November 2025<br />Fototeta? Fototeta?<br /><a href="/files/fototeta.xcf">Source File</a><br /></p>
     </td>
+    <td>
+        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/pilgrim.png"></a>
+        <p>November 2025<br />??????????<br /><a href="/files/pilgrim.xcf">Source File</a><br /></p>
+    </td>
   </tr>
 </table>
 <br/>
