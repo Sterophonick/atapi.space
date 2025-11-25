@@ -188,6 +188,8 @@ $quoteStrings = array(
     "Glove slap! Baby, glove slap! Glove slap! Shut your big yap!", "-- The Simpsons",
     "I was thinking along the lines of \"No TV and no beer make Homer something something.\"","-- Homer Simpson",
     "A gun is not a weapon, it's a tool, like a hammer or a screwdriver or an alligator.", "-- Homer Simpson",
+    "All The Muck That's Fit To Rake", "-- Mr. X",
+    "This isn't gambling, Marge. It's a lead pipe cinch!", "-- Homer Simpson",
 
     // Linux
     "Waiter, waiter! More Wineserver instances please!", "-- IceFireFish",
@@ -553,6 +555,8 @@ $quoteStrings = array(
     "We are Samurai... the keyboard cowboys.", "-- The Plague, Hackers (1995)",
     "If I were to go back and kick the Pope off his throne, I'd be the queen.", "-- Sandie \"The Goddess Bunny\" Crisp",
     "MAKE GIFS AT GIFSOUP.COM","",
+    
+    "Rest well, Burgerbecky.", "",
 );
 
 $musicPaths = array(

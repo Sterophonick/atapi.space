@@ -35,7 +35,7 @@ What little early (pre-June 2021) artwork exists depicts him having these odd Pi
 <p>
 As for why a cat? It's pretty simple, really. I like cats, and have always loved them ever since I was a wee one.<br/><br/>
 
-Meet Cleo, she was a shorthaired Tabby that I had as a really young kid, up until her passing in 2011. She's a cat that would snuggle up to me in my bed, helping protect me from the monsters in the closet or the people who were out to get me like in the crime shows I saw my parents watching.</br>
+This is Cleo, she was a shorthaired Tabby that I had as a really young kid, up until her passing in 2011. She's a cat that would snuggle up to me in my bed, helping protect me from the monsters in the closet or the people who were out to get me like in the crime shows I saw my parents watching.</br>
 <img width="512px" loading="lazy" src="/assets/img/gallery/bio_ref/cleo.jpg"><br/><br/>
 
 I think she's the main reason I am such a cat lover, as opposed to the other cat we had who at the time was kind of mean. In retrospect, I can't say I blame her, I was a loud small child running around her once peaceful home. 
@@ -50,7 +50,7 @@ I think she's the main reason I am such a cat lover, as opposed to the other cat
 
 <h3 id="p2_1">Clothing</h3>
 <p>
-    If you look in the gallery, you'll notice that Atapi almost exclusively wears an unzipped reddish/bergundy-colored hoodie. It should be noted that the outer pockets and hood are colored a neutral grey color. There are also pockets on the inside of the hoodie, in the same positions as the outer pockets. draw those as the same color, relative to lighting. If you choose to add drawstrings, make them white with grey aglets.<br/>
+    If you look in the gallery, you'll notice that Atapi almost exclusively wears an unzipped reddish/bergundy-colored hoodie. It should be noted that the outer pockets and hood are colored a neutral grey color. There are also pockets on the inside of the hoodie, in the same positions as the outer pockets. draw those as the same color, relative to lighting. If you choose to add drawstrings, make them white with grey aglets. Also note how the sleeves are rolled up.<br/>
     <img width="512px" loading="lazy" src="/assets/img/gallery/bio_ref/jacket.png"><br/><br/>
     
     Most often, he will be wearing blue denim shorts. In general, I prefer if these shorts were a somewhat darker color and were more figure-hugging, like these womens bermuda shorts pictured here. Hemline positions can vary depending on the outfit that you are drawing, and I'm a fan of the lighter-colored cuff at the bottom, it looks cool. <br/>
@@ -73,14 +73,42 @@ I think she's the main reason I am such a cat lover, as opposed to the other cat
 </table><br/>
 
 <p>
-    Some of the drawings have him wearing socks, and I think I would prefer primarily black knee-high socks with the triple striped top, colors can vary.. If you also draw shoes, do black Converse Chucks with white soles, lace colors can vary.<br/>
+    Some of the drawings have him wearing socks, and I think I would prefer primarily black knee-high socks with the triple striped top, colors can vary.. If you also draw shoes, do Converse Chucks with white soles, lace colors can vary, but the shoe canvas color should <i>generally</i> be black.<br/>
     <img loading="lazy" src="/assets/img/gallery/bio_ref/socks.png"><br/><br/>
     
     These days, Atapi is often depicted wearing a black T-shirt. Designs can vary, get creative and go silly on it.<br/><br/>
     
     Early drawings of his blue ballcap often show a DIP 6502 on it, but I pretty much have since dropped that. If you want a design on the hat, be my guest, but I don't really have one much anymore. Alternate outfits can change this color, but by default it is blue.<br/><br/>
     
+    Accessories can vary, I've done things like chokers, chains, and wristwatches. Have fun with it. For more feminine outfits, add a black choker if you want. Oh, and I wear glasses in real life. If you draw him with glasses, give him big round blue frames!
+</p><br/>
+
+<h3 id="p2_2">Physical Appearance</h3>
+<p>
+    Atapi does indeed have fur underneath the jacket and ballcap. There are cool little red and blue stripes on his arms, legs, tail, and ears. Previous ref sheets show stripes on the torso, but with the shirt now being more common, I don't really draw them and consider them optional. The other stripes are important to keep and they are at specific positions of the limbs:
+</p>
+
+<img loading="lazy" src="/assets/img/gallery/bio_ref/stripe_pos.png"><br/><br/>
+
+<p>
+    Eyes. Eye shapes and styles are entirely up to you as the artist, I only ask that don't make the eye appearance overly masculine. For conveying femininity in any drawing or shot, additional eyelashes or eyeliner is encouraged. Additionally, stick to thinner eyebrow shapes if that is something you draw. Eyebrows do not have to conform to Euclidian space, they can adhere to more exaggerated cartoon rules, just don't draw them particularly thick unless directed to (which usually comes down to "it's funny").<br/><br/>
     
+    If you draw the nose/snout, duly note that the <i>nose is heart-shaped!</i><br/>
+    <img loading="lazy" src="/assets/img/gallery/bio_ref/nose.png"><br/><br/>
+    
+    Also note that he has these little cheek blushes! Draw them as you would in your art style!<br/>
+    <img loading="lazy" src="/assets/img/gallery/bio_ref/blushes.png"><br/><br/>
+    
+    Teeth. Nothing to really say, but make sure you draw him with fangs if you draw teeth. Sometimes a little fang hanging out of his lip is pretty rad.<br/>
+    <img loading="lazy" src="/assets/img/gallery/bio_ref/teefies.png"><br/><br/>
+    
+    Atapi is a character whose body is pretty gender-neutral and can fit any gender role as necessary (though he likes to lean towards more neutral/femme ones). In general, refrain from drawing overly masculine (broad shoulders, sharp jaw, etc) or overly feminine (wide hips, mostly) features unless directed.<br/><br/>
+    
+    Do NOT mimic the appearance of human facial or bodily hair (real-life dysphoria lol)!<br/>
+</p><br/>
+
+<p>
+    I think this pretty much covers everything! If you're drawing for me and have any other questions, please do not feel afraid to ask!
 </p>
 
 <br />
