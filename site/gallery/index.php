@@ -440,6 +440,12 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <p>November 2025<br />??????????<br /><a href="/files/pilgrim.xcf">Source File</a><br /></p>
     </td>
   </tr>
+  <tr>
+    <td>
+        <img loading="lazy" class="galleryImg" style="filter: drop-shadow(0 0 5px white);" src="/assets/img/gallery/get_it_white_boy.png"></a>
+        <p>December 2025<br />oh yeah break it down white boy<br/>(traced from noodlefunny)<br /><a href="/files/get_it_white_boy.xcf">Source File</a><br /></p>
+    </td>
+  </tr>
 </table>
 <br/>
 <h2 id="MadeByFriends">Made by Friends (In no particular order)</h2>
