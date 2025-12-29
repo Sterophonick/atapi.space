@@ -43,6 +43,7 @@ $navContents = <<<EOF
             <li><a href="#p18_9">RE4 Remake</a></li>
             <li><a href="#p18_10">Workarounds</a></li>
             <li><a href="#p18_11">Anti-Cheat</a></li>
+            <li><a href="#p18_12">Intel's Woes</a></li>
         </ul>
         <li><a href="#p19">Closing Thoughts</a></li>
     </ul>
@@ -510,7 +511,7 @@ Category: Recap<br/>
     You can read more on the subject <a href="https://tulach.cc/the-issue-of-anti-cheat-on-linux/">in this blog post by Samuel Tulach</a>.
 </p><br/>
 
-<h3 id="p18_12">Intel's Woes'</h3>
+<h3 id="p18_12">Intel's Woes</h3>
 <p>
 This year, Intel has laid off a lot of employees who worked on the Linux stack, especially on the side of Wi-Fi and graphics. It's a real mess. Even the modern wireless daemon, <code>iwd</code> has been put on <a href="https://www.phoronix.com/news/Intel-IWD-Development-Halts">development hiatus</a> due to their employment woes. A gentle reminder that we are all small puppies in God's hot car.
 </p><br/>
