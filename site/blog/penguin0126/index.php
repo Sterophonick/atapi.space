@@ -3,31 +3,48 @@
 $navContents = <<<EOF
     <ul>
         <li><a href="#p1">Introduction</a></li>
-        <li><a href="#p2">Game Compatibility</a></li>
+        <li><a href="#p2">WINE 11.0</a></li>
+        <li><a href="#p3">NTsync</a></li>
+        <li><a href="#p4">xbox_gip</a></li>
+        <li><a href="#p5">Unleashed Recompiled</a></li>
+        <li><a href="#p6">HedgheModManager 8</a></li>
+        <li><a href="#p7">Isle Portable</a></li>
+        <li><a href="#p8">OpenGL Mesh Shaders</a></li>
+        <li><a href="#p9">WineGDK</a></li>
+        <li><a href="#p10">NVK</a></li>
+        <li><a href="#p11">Steam Hardware</a></li>
+        <li><a href="#p12">steamos-manager</a></li>
+        <li><a href="#p13">Xbox One Compat</a></li>
+        <li><a href="#p14">Xenia-Canary</a></li>
+        <li><a href="#p15">KDE Plasma</a></li>
+        <li><a href="#p16">Wayland Transition</a></li>
         <ul>
-            <li><a href="#p2_1">Wall of Shame</a></li>
-            <li><a href="#p2_2">Guidelines</a></li>
+            <li><a href="#p16_1">fre:ac</a></li>
+            <li><a href="#p16_2">LibreOffice</a></li>
+            <li><a href="#p16_3">GNU IMP</a></li>
+            <li><a href="#p16_4">Krita</a></li>
+            <li><a href="#p16_5">Discord</a></li>
+            <li><a href="#p16_6">WINE</a></li>
+            <li><a href="#p16_7">Dolphin Emulator</a></li>
+            <li><a href="#p16_8">qpwgraph</a></li>
+            <li><a href="#p16_9">Miscellaneous</a></li>
         </ul>
-        <li><a href="#p3">Input Devices</a></li>
+        <li><a href="#p17">Lightning Round</a></li>
+        <li><a href="#p18">Wall of Shame</a></li>
         <ul>
-            <li><a href="#p3_1">Xbox Controllers</a></li>
-            <li><a href="#p3_2">Nintendo Switch</a></li>
-            <li><a href="#p3_3">PlayStation</a></li>
-            <li><a href="#p3_4">Google Stadia</a></li>
-            <li><a href="#p3_5">DolphinBar</a></li>
-            <li><a href="#p3_6">Other Notes</a></li>
+            <li><a href="#p18_1"><code>dmime.dll</code></a></li>
+            <li><a href="#p18_2">Discord Capture</a></li>
+            <li><a href="#p18_3">XWayland Capture</a></li>
+            <li><a href="#p18_4">Mirror's Edge 2</a></li>
+            <li><a href="#p18_5">Max Payne</a></li>
+            <li><a href="#p18_6">HDMI 2.1</a></li>
+            <li><a href="#p18_7">RDSEED</a></li>
+            <li><a href="#p18_8">HROT</a></li>
+            <li><a href="#p18_9">RE4 Remake</a></li>
+            <li><a href="#p18_10">Workarounds</a></li>
+            <li><a href="#p18_11">Anti-Cheat</a></li>
         </ul>
-        <li><a href="#p4">VR Support</a></li>
-        <li><a href="#p5">Handhelds</a></li>
-        <ul>
-            <li><a href="#p5_1">Steam Deck</a></li>
-            <li><a href="#p5_2">Legion Go</a></li>
-            <li><a href="#p5_3">ROG ALLY X</a></li>
-            <li><a href="#p5_4">Others</a></li>
-        </ul>
-        <li><a href="#p6">Hardware Support</a></li>
-        <li><a href="#p7">Modding</a></li>
-        <li><a href="#p8">Conclusion</a></li>
+        <li><a href="#p19">Closing Thoughts</a></li>
     </ul>
 EOF;
 
@@ -36,10 +53,10 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: The State of the Linux Desk
 
 ?>
 
-<h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> The State of the Linux Desktop (2026 Edition)</h2>
-<p><code>/bin/round2</code><br/></p><br/>
+<h2><img loading="lazy" style="vertical-align:middle" src="/assets/img/blog/icon.png"> The State of the Linux Desktop (2026 Edition)</h2>
+<p>Hurr durr I'ma ninja sloth<br/></p><br/>
 <p>
-Jan ??, 2026<br/>
+Dec 29, 2025<br/>
 Category: Recap<br/>
 </p>
 <br />
@@ -60,7 +77,7 @@ Category: Recap<br/>
 </ul>
 
 <p>
-    Proton will eventually be rebased on this new WINE stable release, and while on its own this won't improve many games too too much, it's be nice on the developer side since that means they can continue their work with a more up-to-date codebase. They won't have to keep any obsolete workarounds maintained anymore.
+    Proton will eventually be rebased on this new WINE stable release, and while on its own this won't improve many games too too much, it's nice on the developer side since that means they can continue their work with a more up-to-date codebase. They won't have to keep any obsolete workarounds maintained anymore.
 </p>
 
 <br/>
@@ -70,7 +87,7 @@ Category: Recap<br/>
     After a long time of development, Linux 6.14 included a new <code>misc</code> driver known as "NTsync." This driver doesn't communicate with any hardware, instead it is a kernel-level implementation of various Windows NT thread synchronization primitives. Essentially what that means is that Windows compatibility layers such as WINE are able to use this driver to more accurately and performantly emulate thread synchronization, compared to previous user-space implementations such as esync and fsync. WINE support for NTsync wasn't fully completed until WINE 10.16, however.<br/><br/>
     
     You might recall some buzz from Phoronix about how this driver gives performance increases upwards of 678%:<br>
-    <img src="/assets/img/blog/penguin0126/ntsync.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/ntsync.png"><br/><br/>
     
     This is only true for those who are using upstream WINE to play video games. For those using Proton, Wine-GE, or other gaming-patched WINEs, your improvements are more a matter of semantics. Not to say that there aren't games that are improved by this. <i>Call of Duty: Black Ops</i> and <i>Call of Duty: Black Ops II</i> have lots of framerate drops and stutters that are otherwise completely fixed with this new driver. My playthrough of BO2 had literally zero framedrops with an NTsync-patched Proton.<br/><br/>
     
@@ -78,11 +95,11 @@ Category: Recap<br/>
     <table align="center">
         <tr>
             <td>
-                <img loading="lazy" class="galleryImg" src="/assets/img/blog/penguin0126/bo1-f.png">
+                <img loading="lazy" loading="lazy" class="galleryImg" src="/assets/img/blog/penguin0126/bo1-f.png">
                 <p>FSync</p>
             </td>
             <td>
-                <img loading="lazy" class="galleryImg" src="/assets/img/blog/penguin0126/bo1-n.png">
+                <img loading="lazy" loading="lazy" class="galleryImg" src="/assets/img/blog/penguin0126/bo1-n.png">
                 <p>NTSync, same hardware</p>
             </td>
         </tr>
@@ -118,7 +135,7 @@ Category: Recap<br/>
 <h2 id="p7">Isle Portable</h2>
 <p>
     Another source port available for Linux this year was <a href="https://github.com/isledecomp/isle-portable">Isle Portable</a>, a decompiled source port of <i>LEGO Island</i>. While this game isn't particularly amazing, it's still something special and trying to actually play this game, even on Windows, was an evil hack with an alternate installer and a patching tool, but now you can just use this and it simply just works. More Linux support here is always a good thing.<br/>
-    <img src="/assets/img/blog/penguin0126/isle.png">
+    <img loading="lazy" src="/assets/img/blog/penguin0126/isle.png">
 </p>
 <br/>
 
@@ -131,7 +148,7 @@ Category: Recap<br/>
 <h2 id="p9">WineGDK</h2>
 <p>
     On Halloween, this <a href="https://www.reddit.com/r/linux_gaming/comments/1ol6f91/minecraft_bedrock_for_windows_not_education/">Reddit post</a> was made with a screenshot of Minecraft Bedrock Edition being played through WINE. Bedrock has been infamous in the Linux community for requiring the x86 Android version in order to play, so to see the Windows 10/11 version being played in WINE was a sight to behold.<br/>
-    <img src="/assets/img/blog/penguin0126/winegdk.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/winegdk.png"><br/><br/>
     
     Of course, this didn't just come from nothing. A pseudononymous developer by the name of "Weather" has created a fork of WINE (with a Proton build!) that <a href="https://github.com/Weather-OS/WineGDK">implements a lot of Windows Game Development Kit (GDK) components</a> on top of an existing WINE base, with the fork in question being named <i>WineGDK</i>. Components like <code>xgameruntime</code> and <code>gameinput</code> are implemented here, seemingly just enough to play Minecraft.<br/><br/>
     
@@ -147,27 +164,27 @@ Category: Recap<br/>
     <table align="center">
         <tr>
             <td>
-                <img loading="lazy" width="310px" src="/assets/img/blog/penguin0126/nvk_xon.png">
+                <img loading="lazy" loading="lazy" width="310px" src="/assets/img/blog/penguin0126/nvk_xon.png">
             </td>
             <td>
-                <img loading="lazy" width="310px" src="/assets/img/blog/penguin0126/nvk_grav.png">
+                <img loading="lazy" loading="lazy" width="310px" src="/assets/img/blog/penguin0126/nvk_grav.png">
             </td>
         </tr>
     </table>
     <br/>
     
     I got to test this myself in June, with a test of Portal 2 yielding around 112 FPS on the highest settings at 1080P on a Quadro 3000 Laptop.<br/>
-    <img src="/assets/img/blog/penguin0126/nvk-p2.jpg"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/nvk-p2.jpg"><br/><br/>
     
     Also very much worth noting, Autumn "misyltoad" Ashton wrote a <a href="https://idtech.space/notice/AzDLHLfeOFEkNFNmtM">very preliminary implementation</a> of DLSS for NVK! At this very moment it only works if the DLSS binary is that has shipped with your game is compatible with the GPU that you are using, but it is working <i>enough</i> that <i>Control: Ultimate Edition</i> is able to use it with the right GPU.<br/>
-    <img src="/assets/img/blog/penguin0126/nvk_dlss.jpg">
+    <img loading="lazy" src="/assets/img/blog/penguin0126/nvk_dlss.jpg">
 </p>
 <br/>
 
 <h2 id="p11">Steam Hardware</h2>
 <p>
     In November, Valve announced two new pieces of Steam hardware. The Steam Machine, the Steam Controller, and the Steam Frame.<br/>
-    <img src="/assets/img/blog/penguin0126/steam-hardware.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/steam-hardware.png"><br/><br/>
     
     The Steam Machine and Steam Controller were last attempted back in 2015, when SteamOS was much less refined and based on Debian Linux instead of Arch. Both things were such a failure that it took until the release of the Steam Deck to get back on track, but with everything having gone so well with the Deck, they can expand their hardware ecosystem much more safely.<br/><br/>
     
@@ -176,7 +193,7 @@ Category: Recap<br/>
     The Steam Frame is the cool one, being a self-enclosed VR headset powered by a Qualcomm Snapdragon SoC, still running SteamOS, just compiled for ARM. In conjunction with the Steam Frame, Valve has introduced <a href="https://steamdb.info/app/3029110/info/">Steam Play <i>Lepton</i></a>, an Android compatiblity layer for (presumably) aarch64 Linux, supposedly being based on Waydroid, which is an Android container for Wayland platforms. The real question is how much of Waydroid are they actually using, especially since Waydroid requires a large image of LineageOS to function.<br/><br/>
     
     The other cool thing is aarch64 support being added to Proton. A git submodule for the <a href="https://github.com/FEX-Emu/FEX/tree/main">FEX Emulator</a> has been added to the main Proton repository, with FEX being a fast userland amd64 emulator for aarch64 Linux platforms. There's also aarch64 build instructions.<br/>
-     <img src="/assets/img/blog/penguin0126/proton-aarch64.png"><br/><br/>
+     <img loading="lazy" src="/assets/img/blog/penguin0126/proton-aarch64.png"><br/><br/>
      
      That Steam Controller do be spicy though...
 </p>
@@ -193,10 +210,10 @@ Category: Recap<br/>
 <h2 id="p13">Xbox One Compatibility Layers</h2>
 <p>
     Coming hot off the heels of the <a href="https://github.com/exploits-forsale/collateral-damage">Collateral Damage</a> exploit for the Xbox family of hardware, and making big progress in 2025, is <i>XWine1</i>, which is a translation layer for running Xbox One titles in Windows. While there are no public releases yet, the pictures and videos that they have released to their Twitter page are very impressive, and they even have gone through the trouble of implementing missing components for WINE environments, which makes me hope for better UWP support eventually. In this photo they released in January, they have it running on a Steam Deck OLED.<br/>
-    <img src="/assets/img/blog/penguin0126/xwine1.jpg"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/xwine1.jpg"><br/><br/>
     
     They have also shown other Linux systems running the compatibility layer, <a href="https://nitter.net/XWineOne/status/1907517872194330960#m">such as the PlayStation 4</a>.<br/>
-    <img src="/assets/img/blog/penguin0126/xwine1_f.jpg"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/xwine1_f.jpg"><br/><br/>
     
     While they don't have any public builds, I'm inclined to believe that the project is real, especially with the gameplay videos showing the DXVK HUD active and the work-in-progress photos of games like <i>Forza Motorsport 5</i>. There's just too much effort for this to be an attention grab.<br/><br/>
     
@@ -209,7 +226,7 @@ Category: Recap<br/>
     This probably isn't exactly new, but it's something I only recently noticed, so I'm including it.<br/><br/>
     
     Xenia-Canary (the Xbox 360 emulator) has, at some point, become able to work correctly under most Linux environments. The last time that I tested this, the games always crashed the emulator on boot. Neat.<br/>
-    <img src="/assets/img/blog/penguin0126/xenia.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/xenia.png">
 </p>
 <br/>
 
@@ -217,6 +234,8 @@ Category: Recap<br/>
 <p>
     KDE has kept up the train of improvements to its Plasma desktop environment all throughout this year. Some important highlights include:<br/>
 </p>
+<br/>
+
 <ul class="centeredList">
     <li>XRandR emulation in XWayland</li>
     <li>Improved HDR support for WINE/Proton under Wayland clients</li>
@@ -230,6 +249,8 @@ Category: Recap<br/>
     <li>Proper screen mirroring support for Wayland</li>
     <li>DrKonqi crash reporter now handles non-KDE applications</li>
 </ul>
+<br/><br/>
+
 <p>Plasma is the desktop that I use on a daily basis, and the rush of seeing awesome cool features and fixes get added to it every week is more potent than cocaine.</p>
 <br/>
 
@@ -239,7 +260,7 @@ Category: Recap<br/>
     
     It's not like all the legacy apps will magically stop working, they developed XWayland for this exact reason. The truth of the matter is that X11 was introduced back in 1984 as part of MIT's <i>Project Athena</i> and X11 is a series of weird hacks and patches to allow compatibility with newer graphics hardware. This is, in no uncertain terms, unsustainable long-term, and a major pain point for developers. Wayland compositors such as KWin and Mutter have decently matured, enough that I consider a Wayland session to be pretty stable now.<br/><br/>
     
-    Not that there aren't pain points and issues remaining (fucking scaling...), we'll be stuck with those for a long time, but it's more stable for things like multi-monitor setups, VRR, and HDR than X11 ever will be. You can make your X Server forks with vaguely-fascist rhetoric in your pitiful little corner as you shrivel up into a corn cob.<br/><br/>
+    Not that there aren't pain points and issues remaining, we'll be stuck with those for a long time, but it's more stable for things like multi-monitor setups, VRR, and HDR than X11 ever will be. You can make your X Server forks with vaguely-fascist rhetoric in your pitiful little corner as you shrivel up into a corn cob.<br/><br/>
     
     With that being said, I'd like to take some space to make notes about specific programs that I happen to use.
 </p>
@@ -248,15 +269,263 @@ Category: Recap<br/>
 <h3 id="p16_1">fre:ac</h3>
 <p>
     Fre:ac is an X11-only program that behaves very strangely with Wayland fractional scaling, especially on dual-monitor setups with unequal scaling. I don't know what its problem is.<br/>
-    <img src="/assets/img/blog/penguin0126/freac_scale.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/freac_scale.png"><br/>
 </p>
 <br/>
 
-<h3 id="p16_1">Libreoffice</h3>
+<h3 id="p16_2">Libreoffice</h3>
 <p>
     Despite being a Wayland application, it has similar issues to fre:ac, causing the ribbon and document view to become way too small.
-    <img src="/assets/img/blog/penguin0126/libreoffice_scale.png"><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/libreoffice_scale.png"><br/><br/>
+    
+    Fun fact: the loading splash screen is X11 but the rest of the program is Wayland.
 </p>
 <br/>
+
+<h3 id="p16_3">GNU Image Manipulation Program</h3>
+<p>
+    The GNU Image Manipulation program gained proper Wayland support this year, and it works very well, not really much to note here.
+</p>
+<br/>
+
+<h3 id="p16_4">Krita</h3>
+<p>
+    Krita has <a href="https://invent.kde.org/graphics/krita/-/merge_requests/2457">work-in-progress Wayland support</a>, however it is not present in any release builds, only when building from source. 
+</p>
+<br/>
+
+<h3 id="p16_5">Discord</h3>
+<p>
+    Discord is a very strange case. It uses Wayland and Pipewire to do screen sharing, but the actual client window itself uses X11. It's possible this decision was made because Wayland <i>still</i> doesn't have a reliable way of doing global hotkeys for things like Push-To-Talk. Plasma allows the user to let all X11 applications see the activity of the keyboard for this purpose. 
+</p>
+<br/>
+
+<h3 id="p16_6">WINE</h3>
+<p>
+    WINE's Wayland support is done through its very own <code>winewayland.drv</code> driver, much like <code>winex11.drv</code> for X servers. Its support is in a state that I would call "functional." It works, it's usable, but there are a plethora of odd behaviors, especially for video games, that need to be touched up.<br/><br/>
+    
+    It also doesn't do proper window manager integration, so you're missing your fancy window decorations.<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/winewayland.png"><br/>
+</p>
+<br/>
+
+<h3 id="p16_7">Dolphin Emulator</h3>
+<p>
+    Dolphin Emulator doesn't launch with Wayland, not even setting <code>QT_QPA_PLATFORM=wayland</code> fixes it. Odd.<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/xw_dolphin.png"><br/>
+</p>
+<br/>
+
+<h3 id="p16_8">qpwgraph</h3>
+<p>
+    qpwgraph, a tool I use for routing PipeWire streams, forces the Qt xcb plugin <a href="https://gitlab.freedesktop.org/rncbc/qpwgraph/-/blob/main/src/appdata/org.rncbc.qpwgraph.desktop?ref_type=heads">in its XDG Desktop Entry</a> for some reason.
+</p>
+<br/>
+
+<h3 id="p16_8">Miscellaneous</h3>
+<ul class="centeredList">
+    <li>Teams For Linux: X11</li>
+    <li>Steam: X11</li>
+    <li>Zoom Video Conferencing: X11</li>
+    <li>Java Swing Toolkit: X11</li>
+    <li>RPCS3: Wayland</li>
+    <li>PCSX2: Wayland</li>
+    <li>MAME: Wayland</li>
+    <li>Xenia-Canary: X11</li>
+    <li>agbplay-gui: Wayland</li>
+    <li>Ruffle: Wayland</li>
+    <li>mGBA: Wayland</li>
+    <li>Audacity: X11</li>
+    <li>MakeMKV: Wayland</li>
+    <li>VMware Workstation: X11</li>
+    <li>Visual Studio Code: Wayland</li>
+    <li>MATLAB: X11</li>
+    <li>MKVToolNix: Wayland</li>
+    <li>FlashGBX: Wayland</li>
+    <li>Super Mario War: Wayland</li>
+    <li>Super Tux Kart: Wayland</li>
+    <li>SM64CoopDX: Wayland</li>
+    <li>Xonotic: Wayland (Only with SDL)</li>
+    <li>DOSBox-Staging: Wayland</li>
+    <li>Kdenlive: Wayland</li>
+</ul>
+<br/><br/>
+<p>Hopefully eventually XWayland can be left for the user to install themselves for legacy support, rather than needing to rely on it for several oft-used applications.</p><br/>
+
+<h2 id="p17">Lightning Round</h2>
+<ul class="centeredList">
+    <li><a href="https://www.phoronix.com/review/linux-619-amdgpu-radeon">Many legacy AMD GPUs default to the modern <code>amdgpu</code> driver</a></li>
+    <li><a href="https://github.com/GPUOpen-Drivers/AMDVLK/discussions/416">AMD discontinues AMDVLK in favor of Mesa RADV</a></li>
+    <li><a href="https://github.com/WinterSnowfall/d7vk">WinterSnowfall has developed d7vk, a Direct3D 7 add-on to DXVK</a></li>
+    <li><a href="https://github.com/doitsujin/dxvk/issues/3488#issuecomment-3263837359">DXVK's new shader compiler that accounts for more undefined behavior</a></li>
+    <li><a href="https://github.com/Wemino/VorpalFix">VorpalFix, a patch that fixes <i>American McGee's Alice (2011)</i></a></li>
+    <li><a href="https://github.com/Wemino/MadnessPatch">MadnessPatch, a fixup patch for <i>Alice: Madness Returns</i></a></li>
+    <li><a href="https://github.com/Wemino/EchoPatch">EchoPatch, a fixup patch for <i>F.E.A.R.</i> and its expansions</a></li>
+    <li>I got a shoutout from Bazzite at Southern California Linux Expo! :3</li>
+    <li><a href="https://github.com/Etaash-mathamsetty/Proton">Proton-EM comes into popularity for its extensive Wayland work</a></li>
+    <li><a href="https://www.collabora.com/news-and-blog/news-and-events/goodbye-nouveau-gl-hello-zink.html">NVK will adopt Zink as its OpenGL implementation rather than using Nouveau</a></li>
+    <li><a href="https://github.com/evlaV/linux-integration/commit/fb222867e0916a9912985797268e81b7145c76e5">Valve Steam Machine LEDs driver</a></li>
+    <li>The usual crap-ton of extra hardware support.</li>
+    <li><a href="https://www.collabora.com/news-and-blog/news-and-events/nvk-enabled-for-maxwell,-pascal,-and-volta-gpus.html">NVK gets support for Maxwell, Pascal, and Volta GPUs</a></li>
+    <li><a href="https://www.phoronix.com/review/radeon-radv-rt-2025">RADV's improved Vulkan ray-tracing performance</a></li>
+    <li><a href="https://www.phoronix.com/news/Sony-DualSense-Audio-Handling">DualSense Audio Jack Support over USB</a></li>
+    <li>And too much more to list here...</li>
+</ul><br/><br/>
+
+<h2 id="p18">Wall of Shame</h2>
+<p>
+    Not everything is sunshine and rainbows. There's still plenty of bullshit to deal with, something is broken (or <i>breaks</i>...), weird tangled messes of workarounds, or NVIDIA being novideo.
+</p>
+<br/>
+
+<h3 id="p18_1">GameMaker 8 Sound</h3>
+<p>
+    Games that rely on the <code>IDirectMusicPerformance8</code> class for their audio will often exhibit extremely buggy sound behavior. Since I last talked about this, the situation has improved. <code>PlaySegmentEx</code> has been implemented. But there's a problem. It doesn't handle music looping the way it should, and <code>StopEx</code> remains unimplemented, leading to samples playing when they otherwise should have been terminated.<br/><br/>
+    
+    Sunky.MPEG:<br/>
+    <red>Warning: Volume!</red>
+    <video preload="none" class="interruptVideo" width="682" height="544" poster="/assets/img/blog/penguin0126/vidposters/sunky.png" controls>
+    <source src="/assets/vid/sunky.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video><br/><br/>
+    
+    Mighty Jill-Off (The music is supposed to stop when Jill dies):<br/>
+    <video preload="none" class="interruptVideo" width="640" height="508" poster="/assets/img/blog/penguin0126/vidposters/jilloff.png" controls>
+    <source src="/assets/vid/jilloff.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video><br/><br/>
+    
+    There's other odd behavior with WINE's <code>dmime.dll</code>, and guess what, using <code>winetricks</code> to replace those components causes all sorts of issues, sometimes you'll get no sound, sometimes you'll get some horrible audio latency. Blegh.
+</p><br/>
+
+<h3 id="p18_2">Discord Capture Devices</h3>
+<p>
+    I'd really like to get fullscreen capture of my Steam Deck for sharing Jackbox games and whatnot. Discord advertises an ability to screenshare both video and audio using video capture devices via Video4Linux, much like it can on Windows with capture devices. On Windows, this works fine, nothing of note. On Linux though...<br/>
+    
+    So, you hop into a voice channel, and you go to select a capture device. I have my webcam and my HDMI capture card available here.<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/discord1.png"><br/><br/>
+    
+    These blur hashes are entirely incorrect. In this screenshot, nothing was attached to my capture card, so it should have been a black video feed. Anyway, you select that and your audio device and...<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/discord2.png"><br/><br/>
+    
+    What the fuck is that, there's nothing there. It doesn't properly initialize any video feed. Test with the webcam, same thing, no dice. You'd think <i>someone</i> would have. You know, tested this? But sure, my fault for wanting to play a game with some friends.<br/><br/>
+    
+    And before you start, no, don't @ me about using BetterDiscord or Vesktop, I tried those. They don't allow this feature and have their own set of issues regarding camera devices.
+</p><br/>
+
+<h3 id="p18_3">XWayland Capture</h3>
+<p>
+    Heh. Encountered a problem with no elegant solution while writing this.<br/><br/>
+    
+    It is impossible to record XWayland windows using OBS Studio while running a Wayland session. You select <code>Screen Capture (Pipewire)</code> in your sources, and try to select your Window. Look at that, it's blank. Because Wayland is so damn opinionated about what you are and are not allowed to capture.<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/obs.png"><br/>
+</p><br/>
+
+<h3 id="p18_4">Mirror's Edge Catalyst</h3>
+<p>
+    <i>Mirror's Edge Catalyst</i> has regressed sometime after Proton 8.0. No longer can one even boot this game up, as it crashes during the loading sequences.<br/><br/>
+    
+    Additionally, EA has shut down the servers, and many have reported that adding <code>127.0.0.1 winter15.gosredirector.ea.com</code> to your <code>/etc/hosts</code> or equivalent is enough to get it working again.<br/><br/>
+    
+    <a href="https://github.com/ValveSoftware/Proton/issues/6452">Git Issue Thread</a>
+</p><br/>
+
+<h3 id="p18_5">Max Payne Intro FMV</h3>
+<p>
+    The intro FMV to <i>Max Payne</i> does not play correctly. It only plays the audio, drawing nothing to the screen.
+
+    <video preload="none" class="interruptVideo" width="720" height="480" poster="/assets/img/blog/penguin0126/vidposters/maxpayne.png" controls>
+    <source src="/assets/vid/maxpayne.webm" type="video/webm">
+    <br/>
+    <span style="color: red">Your browser doesn't appear to be able to support this video.</span><br/>
+    </video>
+</p><br/>
+
+<h3 id="p18_6">HDMI 2.1+ on AMDGPU</h3>
+<p>
+    The HDMI Forum rejected AMD's proposal for an open-source implementation of HDMI 2.1 and beyond for their GPU drivers. This locks out display modes such as 8K@60Hz or 4K@120Hz and features such as Variable Refresh Rate. Instead, if you have DisplayPort <i><b>active adapter</i></b>, meaning that it actually does some signal translation instead of passing it through, you can get these features on your hardware.<br/><br/>
+    
+    I'm not entirely sure of any <i>specific</i> DP1.4 -> HDMI 2.1 adapters out there that reliably expose features such as VRR and whatnot, but they're probably out there.
+</p><br/>
+
+<h3 id="p18_7">RDSEED on znver5</h3>
+<p>
+    AMD's Zen 5 architecture has <a href="https://www.phoronix.com/news/AMD-SB-7055-RDSEED-Zen-5">a vulnerability</a> in their implementation of Intel's hardware random number generation, <code>RDRAND</code>. The vulnerability would cause the 16-bit and 32-bit forms of the instruction to return a value of 0, while still signalling a successful operation. This pretty much had the potential to kneecap any security that used it by an attacker with local priveleges. Whoops.<br/><br/>
+    
+    CachyOS, which has package repositories compiled for various x86-64 revisions, had problems with a kernel patch that disabled the feature in CPUID. As <a href="https://lore.kernel.org/lkml/9a27f2e6-4f62-45a6-a527-c09983b8dce4@cachyos.org/">reported by Peter Jung</a>, users could not even boot far enough to get into their graphical sessions.<br/><br/>
+    
+    I believe that AMD has gotten their microcode fix out now into <code>linux-firmware</code> and so all is right with the world once again.
+</p><br/>
+
+<h3 id="p18_8">Frame presentation in HROT</h3>
+<p>
+    HROT is a game that was created using a custom engine written in Pascal, and it exhibits some very strange frame presentation behavior.<br/><br/>
+    
+    If you were to launch it on an X11 session, you'd get normal performance. Run it in XWayland, you get around 15 FPS. Run it in XWayland with Zink, you get much better performance, but not quite perfect performance. This behavior also affects Gamescope.
+</p><br/>
+
+<h3 id="p18_9">Resident Evil 4</h3>
+<p>
+    <i>Resident Evil 4</i> is a game that, when it launched, wanted to support the Steam Deck. At the time, ray tracing in RADV and VKD3D-Proton wasn't fully supported and had plenty of performance problems. Capcom had the crazy idea of detecting whether or not the game was running in WINE, and if it was, completely disable ray tracing. It is now 2026, and ray tracing in both RADV and VKD3D-Proton is in a pretty good state, and this game never removed that workaround.<br/><br/>
+    
+    They added a command line parameter to disable it though.<br/>
+    Add <code>/WineDetectionEnabled:False</code> to your Steam launch options, or whatever is your equivalent, and this functionality will be restored.<br/><br/>
+    
+    Not the first time a game has detected WINE. When <i>Persona 5 Royal</i> released in 2022, it wouldn't start in WINE because they hadn't yet implemented transacted file APIs. Atlus added an alternate code path just for Steam Deck users that would avoid these APIs. Several years later, these APIs have had implementations for a while, and I'm not sure if that workaround was ever removed. It is pretty inconsequential in this instance, I suppose.<br><br/>
+    
+    I found <a href="https://gist.github.com/TheComputerGuy96/a29231aee7013a6d6d67113fd71cf69f">this list</a> of a handful of games that are <i>aware</i> that they are running in WINE or on a Steam Deck and alter their behavior. Going with an alternate code path is one thing. Cool, awesome, smile. But it is something much more cursed and short-sighted to disable functionality unless the user sets a flag.
+    
+    Game devs, seriously, don't ever do this. Let the Linux people work their magic.
+</p><br/>
+
+<h3 id="p18_10">"It's Workarounds All The Way Down"</h3>
+<p>
+    On a related note, take a look at this comment from Discord:<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/workaround1.png"><br/><br/>
+    
+    That right there embodies what I think is probably the most nerve-wracking aspect of all this work: hacky workarounds are used in place of elegant solutions.<br/><br/>
+    
+    Checkout this section of the startup script to Proton:<br/>
+    <img loading="lazy" src="/assets/img/blog/penguin0126/workaround2.png"><br/><br/>
+    
+    This isn't all, far from it. about 40% or so of the launcher script is *just* game workarounds.<br/><br/>
+    
+    Stuff like this is also present in Valve's WINE fork itself:
+    <img loading="lazy" src="/assets/img/blog/penguin0126/workaround3.png"><br/><br/>
+    
+    Workarounds like this are present <i>everywhere</i> in the software stack, DXVK, VKD3D-Proton and Mesa are no exception, primarily to work around game bugs and driver behavior.<br/><br/>
+    
+    And like, the launch script acknowledges that these should ideally be short-lived until an elegant solution is researched and developed.
+    <img loading="lazy" src="/assets/img/blog/penguin0126/workaround4.png"><br/><br/>
+    
+    It's weird, I'm a little annoyed. I don't know how to feel about it. On one hand, you get to play your games. On the other hand, it's a pain to maintain. Ideally, all the driver devs would be talking to the compatibility layer devs, but NVIDIA just <i>has</i> to be the contrarian in this situation. 
+</p><br/>
+
+<h3 id="p18_11">Anti-Cheat</h3>
+<p>
+    "But Atapi, what about kernel anti-cheat?" you cry, as you shrivel into a corn cob and turn into dust. The answer to that question is of course "I don't care. Go to your room." It's not a solvable problem due to the nature of Linux as an operating system kernel. There is a very good reason why <i>Apex Legends</i> and <i>Grand Theft Auto Online</i> withdrew their support.<br/><br/>
+    
+    You can read more on the subject <a href="https://tulach.cc/the-issue-of-anti-cheat-on-linux/">in this blog post by Samuel Tulach</a>.
+</p><br/>
+
+<h3 id="p18_12">Intel's Woes'</h3>
+<p>
+This year, Intel has laid off a lot of employees who worked on the Linux stack, especially on the side of Wi-Fi and graphics. It's a real mess. Even the modern wireless daemon, <code>iwd</code> has been put on <a href="https://www.phoronix.com/news/Intel-IWD-Development-Halts">development hiatus</a> due to their employment woes. A gentle reminder that we are all small puppies in God's hot car.
+</p><br/>
+
+<h2 id="p19">Closing Thoughts</h2>
+<p>
+    Are we in the fabled "Year of the Linux Desktop" as many Linux YouTubers have prophecized? I don't really know. I'm conflicted. A desktop experience, perpetually in a state of radical transformation, core infrastructure being always replaced under our feet at any given time. It's still not one that I would recommend to anyone unless you're a tinkerer and love learning.<br/><br/>
+    
+    Not to mention, the Steam Deck is an illusion. It is a very carefully curated Linux experience, provided with a set of hardware that give it its best foot forward. Reddit users clamour for a "generic" SteamOS that they can plop onto any PC, but this straight up is not possible. Not with our current software stack, and especially not with NVIDIA and Intel behaving like they do. Your Linux experience, especially when gaming, is considerably informed by what hardware you have, much more than Windows.<br/><br/>
+    
+    If this is something you want to try, do as much research as you can on good components, especially AMD parts, for now. Seriously, it'll save you an unbelievable amount of headaches. Oh and, probably best to stick with the LTS kernel unless you absolutely have to use the latest one.<br/><br/>
+    
+    That's pretty much all from me. That's my one-year update from the last time I did this. Like they say, the more things change, the more things stay the same.
+</p>
+<img loading="lazy" src="/assets/img/blog/penguin0126/kity.jpg">
+
 
 <?php echo constructPageFooter(); ?>

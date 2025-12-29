@@ -271,6 +271,10 @@ light-blue {
     color: #00d2ff;
 }
 
+red {
+    color: #FF0000;
+}
+
 #scratchProject {
 border: 2px solid red;
 border-radius: 8px;
@@ -380,5 +384,5 @@ a:hover .imgNoHover {
 }
 
 .centeredList {
-    text-align: left; display: inline-block;
+    text-align: left; display: inline-block; margin: 0;
 }

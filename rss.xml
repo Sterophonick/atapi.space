@@ -7,7 +7,15 @@
         <atom:link href="https://atapi.space/rss.xml" rel="self" type="application/rss+xml"/>
 
         <item>
-            <title>gallery update!</title>
+            <title>linux desktop 2026</title>
+            <link>https://atapi.space/site/blog/penguin0126/</link>
+            <guid>penguin0126</guid>
+            <pubDate>Mon, 29 Dec 2025 00:00:00 MST</pubDate>
+            <description>i summarized cool stuff that happened in the linux desktop this year, and also complained a good deal.</description>
+        </item>
+        
+        <item>
+            <title>iphone grrr!!!!</title>
             <link>https://atapi.space/site/blog/iphone4,1/</link>
             <guid>iphone 4</guid>
             <pubDate>Wed, 29 Oct 2025 00:00:00 MST</pubDate>

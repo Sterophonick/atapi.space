@@ -37,7 +37,8 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 <a href="rebirth_of_snoopy/">Rebirth of SNOOPY</a><br />
 <a href="throwbck/">Dumping a Piece of Crap</a><br />
 <a href="flash2advance/">Flash2Advance-ing your Game Boy Advance</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="iphone4,1/">The Unholy Horror of the iPhone 4S</a><br />
+<a href="iphone4,1/">The Unholy Horror of the iPhone 4S</a><br />
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="penguin0126/">The State of the Linux Desktop (2026 Edition)</a><br />
 
 <?php
 
