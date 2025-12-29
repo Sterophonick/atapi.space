@@ -378,3 +378,7 @@ a:hover .imgNoHover {
     display: inline-block; /* Required for transform animations */
     animation: bounce 0.8s ease-in-out infinite alternate;
 }
+
+.centeredList {
+    text-align: left; display: inline-block;
+}
