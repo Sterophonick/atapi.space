@@ -531,9 +531,9 @@ This year, Intel has laid off a lot of employees who worked on the Linux stack, 
 
 <h3 id="p18_14">Windows Font Weirdness</h3>
 <p>
-    For some really strange reason, there are a few cases of certain games displaying fonts incorrectly despite these games being rendered by the GPU. These games depend on Windows fonts like <i>Comic Sans MS</i> or <i>Verdana</i> and just behave strangely.<br/><br/>
+    For some really strange reason, there are a few cases of certain games displaying fonts incorrectly despite these games being rendered by the GPU. These games depend on Windows fonts like <i>Comic Sans MS</i> or <i>Verdana</i> and just behave strangely, even if the real fonts are installed on your machine.<br/><br/>
     
-    <i>Façade</i>:
+    <i>Façade</i> :
     <img loading="lazy" src="/assets/img/blog/penguin0126/font-facade.jpg"><br/><br/>
     
     <i>G String</i> (And other Source engine titles):
