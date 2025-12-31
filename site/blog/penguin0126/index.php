@@ -44,6 +44,8 @@ $navContents = <<<EOF
             <li><a href="#p18_10">Workarounds</a></li>
             <li><a href="#p18_11">Anti-Cheat</a></li>
             <li><a href="#p18_12">Intel's Woes</a></li>
+            <li><a href="#p18_13">dgVoodoo2</a></li>
+            <li><a href="#p18_14">Font oddiites</a></li>
         </ul>
         <li><a href="#p19">Closing Thoughts</a></li>
     </ul>
@@ -515,6 +517,28 @@ Category: Recap<br/>
 <p>
 This year, Intel has laid off a lot of employees who worked on the Linux stack, especially on the side of Wi-Fi and graphics. It's a real mess. Even the modern wireless daemon, <code>iwd</code> has been put on <a href="https://www.phoronix.com/news/Intel-IWD-Development-Halts">development hiatus</a> due to their employment woes. A gentle reminder that we are all small puppies in God's hot car.
 </p><br/>
+
+<h3 id="p18_13">dgVoodoo2 Regression</h3>
+<p>
+    At some point in its development, dgVoodoo2 has stopped working under WINE. Doesn't matter if you're using DXVK or not, it just doesn't work anymore. Versions before around 2.8 work just fine, but anything afterward is completely borked.<br/><br/>
+
+    Wine-Bug: <a href="https://bugs.winehq.org/show_bug.cgi?id=58731">58731</a><br/><br/>
+
+    The main developer has responed about it saying that <a href="https://www.vogons.org/viewtopic.php?p=1255480#p1255480">"dgVoodoo has no business on non-Windows platforms anyway,"</a> and has also lashed out at other players for using dgVoodoo on Linux.<br/><br/>
+
+    There are alternatives for playing older Direct3D games on modern systems, <a href="https://github.com/elishacloud/dxwrapper/releases">dxwrapper</a> is able to do Direct3D 2-8 to D3D9, and <a href="https://www.zeus-software.com/downloads/nglide">nGlide</a> can be used for games that use 3Dfx Glide. Still, Jesus.
+</p><br/>
+
+<h3 id="p18_14">Windows Font Weirdness</h3>
+<p>
+    For some really strange reason, there are a few cases of certain games displaying fonts incorrectly despite these games being rendered by the GPU. These games depend on Windows fonts like <i>Comic Sans MS</i> or <i>Verdana</i> and just behave strangely.<br/><br/>
+    
+    <i>Façade</i>:
+    <img loading="lazy" src="/assets/img/blog/penguin0126/font-facade.jpg"><br/><br/>
+    
+    <i>G String</i> (And other Source engine titles):
+    <img loading="lazy" src="/assets/img/blog/penguin0126/font-gstring.jpg"><br/><br/>
+</p>
 
 <h2 id="p19">Closing Thoughts</h2>
 <p>
