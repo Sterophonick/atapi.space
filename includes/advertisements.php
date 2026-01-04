@@ -160,6 +160,12 @@ $adList = array(
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
+    
+    // comes from the deltarune sweepstakes
+    "/assets/img/ads/dr-secrets.gif","https://deltarune.com/code/",
+    "/assets/img/ads/dr-icee.gif","https://deltarune.com/icee/",
+    "/assets/img/ads/dr-prize.gif","https://deltarune.com/secretpipis/",
+    "/assets/img/ads/dr-youve-won.gif","https://deltarune.com/secret/",
 
     // subject to break if this site ever kicks the bucket. remove this if it does.
     "http://www.aep-emu.de/images/newsbanner.png","https://www.aep-emu.de/",
@@ -190,7 +196,7 @@ function printAllAds() {
         $adImg = $adList[$i];
         $adLink = $adList[$i+1];
         if(strlen($adLink)) $finalString .= ' href="' . $adLink . '"';
-        $finalString .= '><img id="stupidBannerAd" loading="lazy" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
+        $finalString .= '><img id="stupidBannerAd" loading="lazy" height="60px" src="' . $adImg . '"></a><br/>';
         echo $finalString;
     }
 }
