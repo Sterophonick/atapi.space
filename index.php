@@ -3,7 +3,7 @@
     <head>
         <link rel="shortcut icon" href="/assets/img/global/favicon.png">
         <link rel="stylesheet" href="/assets/css/main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=1024">
         <meta name="darkreader-lock">
         <title>ENTRYWAY</title>
     </head>
@@ -32,18 +32,21 @@
                     <br/>
                     This site features:<br/>
                     <div class="landingContentsBox">
-                        * Content warnings<br/>
-                        * Autoplaying music<br/>
-                        * Site settings on the main page<br/>
-                        * Non-mobile-friendly layout<br/>
-                        * Cookies for site settings<br/>
-                        * Legacy browser support<br/>
-                        * Oneko<br/>
-                        * Minimal JavaScript<br/>
-                        * Randomized page elements<br/>
-                        * Questionable PHP/JS code</br>
-                        * Tacky animated GIFs and buttons<br/>
-                        * Online interactions not rated by the ESRB<br/>
+                        <ul class="centeredList">
+                            <li>1024x768 w/ 16-bit Required!</li>
+                            <li>Content Warnings</li>
+                            <li>Autoplaying music</li>
+                            <li>Site settings on the main page</li>
+                            <li>Non-mobile-friendly layout</li>
+                            <li>Cookies for site settings</li>
+                            <li>Legacy browser support</li>
+                            <li>Oneko</li>
+                            <li>Minimal JavaScript</li>
+                            <li>Randomized page elements</li>
+                            <li>Questionable PHP/JS/HTML code</li>
+                            <li>Tacky GIFs and buttons</li>
+                            <li>Online interactions not rated by the ESRB</li>
+                        </ul>
                     </div>
                     <br/>
                     <a href="site/">

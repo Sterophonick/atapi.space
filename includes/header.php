@@ -427,6 +427,11 @@ $quoteStrings = array(
     "Don't be deceived, the other one is lying.", "-- realone.html, IMSCARED",
     "From now on, remember this: the sound predicts its arrival.", "-- 0.txt, IMSCARED",
     "Take some time and try to escape.", "-- I'm sorry.txt, IMSCARED",
+    
+    // I have no mouth, and I must scream.
+    "I have no mouth, and I must scream.", "-- Harlan Ellison",
+    "We were all heroes. In spite of ourselves.", "-- Survivor, I Have No Mouth, and I Must Scream",
+    "So, to hell. To hell with you all! But then, you're already there, aren't you?", "-- AM, I Have No Mouth, and I Must Scream",
                       
     // Misc
     "What's the square root of a fish? Now I'm sad.", "-- Skullgirls",

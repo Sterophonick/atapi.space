@@ -29,7 +29,7 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
 
     $htmlPage .= <<<EOF
     <link rel="shortcut icon" href="/assets/img/global/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1024">
     <meta charset="utf-8" />
     </head>
 
