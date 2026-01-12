@@ -61,7 +61,7 @@
             <!-- First container content -->
                 <p>
                     <br/>
-                    made with &lt;3 2020-2025 Atapi / Sterophonick<br/>
+                    made with &lt;3 2020-2026 Atapi / Sterophonick<br/>
 
                     <marquee>
 

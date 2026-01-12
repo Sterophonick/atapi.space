@@ -69,7 +69,7 @@ function constructPageFooter() {
     <div id="footer">
     <p><a href="..">(Go Back)</a> <a id="goto-top" href="#top">(Top of Page)</a></p>
     
-    <p>made with &lt;3 2020-2025 Atapi/Sterophonick</p>
+    <p>made with &lt;3 2020-2026 Atapi/Sterophonick</p>
     
     <table class="footerImages" style="height: 31px; font-size: 0;" width="340px" align="center" border="0" cellspacing="0" cellpadding="0">
     <tbody><tr>
