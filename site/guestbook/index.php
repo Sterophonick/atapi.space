@@ -11,7 +11,7 @@ echo constructPageHeader("Atapi's Domain! :: Guestbook");
 $gbUrl = null;
 
 // if https is available, use https, otherwise do http
-if($_SERVER['HTTPS']) {
+if(@$_SERVER['HTTPS']) {
     $gbUrl = "https://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2";
 } else {
     $gbUrl = "http://users3.smartgb.com/g/g.php?a=s&i=g36-33432-a2";
