@@ -18,6 +18,14 @@ function hitCounter() {
     $counterHtml = '';
 
     $path = '/srv/counter.txt';
+    
+    // create file if it doesn't exist
+    if (!is_file($path)) {
+        if(!@touch($path)) {
+            return "";
+        }
+        file_put_contents($path, "0");
+    }
 
     // Opens countlog.txt to read the number of hits.
     $file  = fopen( $path, 'r+w' );
