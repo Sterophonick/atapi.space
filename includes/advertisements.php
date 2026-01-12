@@ -21,7 +21,7 @@ $adList = array(
     "/assets/img/ads/decalgirl.gif","https://web.archive.org/web/20060604090849/http://www.decalgirl.com/",
     "/assets/img/ads/binarygame.gif","https://web.archive.org/web/20041001030827/http://www.binarygame.com/catalog/default.php",
     "/assets/img/ads/xboxcore.jpg","https://web.archive.org/web/20050829040720/http://xboxcore.com/",
-    "/assets/img/ads/xbox-hq.gif","https://www.xbox-hq.com/html/",
+    "/assets/img/ads/xbox-hq.gif","https://web.archive.org/web/20120217134941/https://www.xbox-hq.com/html/",
     "/assets/img/ads/designerskins.jpg","https://web.archive.org/web/20050606011207/http://designerskins.com/",
     "/assets/img/ads/blaze.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
     "/assets/img/ads/linker4u.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
@@ -145,7 +145,12 @@ $adList = array(
     "/assets/img/ads/dave-mac.gif","", //what exactly did this link to?
     "/assets/img/ads/webstar.gif","https://web.archive.org/web/19990417101044/http://www.reproduce.com/",
     "/assets/img/ads/piccolo-drive.gif","",
-    
+    "/assets/img/ads/quake.jpeg","",
+    "/assets/img/ads/tucows.gif","https://web.archive.org/web/19961228134206/http://www.tucows.com/",
+    "/assets/img/ads/connecsoft-email.gif","",
+    "/assets/img/ads/bell-isdn.gif","https://web.archive.org/web/19981201204451/http://www.bell-atl.com/",
+    "/assets/img/ads/compaq-vms.gif","https://web.archive.org/web/19990208005657/http://openvms.digital.com/openvms/72ship.html",
+    "/assets/img/ads/roadrunner.gif","https://web.archive.org/web/20010806213847/http://mktg.roadrunner.com/rr/roadrunner/requestservice",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
