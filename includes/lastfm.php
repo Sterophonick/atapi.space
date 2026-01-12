@@ -17,7 +17,12 @@ function getLastFmData() {
     
     $lastFmDataArray = array("", "", "[Unknown Album]", "/assets/img/home/lastfmicons/empty.png", "");
     
-    $lastFmFetch = file_get_contents("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" . $lastFmUser . "&api_key=" . $lastFmKey . "&format=json");
+    $lastFmFetch = @file_get_contents("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" . $lastFmUser . "&api_key=" . $lastFmKey . "&format=json");
+    
+    // if the server returns an http error, we just cancel it and give up lol
+    if ($lastFmFetch === FALSE) {
+        return $lastFmDataArray;
+    }
     
     $lastFmDecode = json_decode($lastFmFetch, true);
     
