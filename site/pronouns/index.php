@@ -88,6 +88,7 @@ style="font-size:10pt; font-weight: bold; text-align: center;">
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Pal<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Boy<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Girl<br/>
+<img title="Jokingly" style="vertical-align:middle" src="/assets/img/pronouns/joke.png"> "Boyette"<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Thing<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Being<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Creature<br/>
@@ -97,7 +98,7 @@ style="font-size:10pt; font-weight: bold; text-align: center;">
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Bro<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Sis<br/>
 <img title="Friends/Partners Only" style="vertical-align:middle" src="/assets/img/pronouns/close.png"> Bitch<br/>
-<img title="Please!" style="vertical-align:middle" src="/assets/img/pronouns/fluster.png"> Friend<br/>
+<img title="Please!" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Friend<br/>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Brother<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Sister<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Mate<br/>
