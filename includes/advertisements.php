@@ -28,6 +28,7 @@ $adList = array(
     "/assets/img/ads/linker4u.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
     "/assets/img/ads/x360central.jpg","https://web.archive.org/web/20050829122328/http://www.x360central.com/",
     "/assets/img/ads/treamcast.gif","https://web.archive.org/web/20050204170620/http://www.superufo.com/",
+    "/assets/img/ads/treamcast2.gif","https://web.archive.org/web/20081216021113/http://www.gp2xstore.com/Treamcast_Console_p/052.htm?Click=21",
     "/assets/img/ads/xbox-chipz.gif","https://web.archive.org/web/20050220045421/http://www.xbox-chipz.co.uk/",
     "/assets/img/ads/maxmedia.gif","",
     "/assets/img/ads/sundisk.gif","https://web.archive.org/web/20080722201804/https://www.d2sun.com/",
@@ -189,6 +190,7 @@ $adList = array(
     "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM_BM.swf
     "/assets/img/ads/ultimate-console-guides.gif","https://web.archive.org/web/20070226101907/http://www.ultimateconsoleguides.com/",
     "/assets/img/ads/xtreme-mods.gif","https://web.archive.org/web/20050303003621/http://www.extreme-mods.com/",
+    "/assets/img/ads/gp2x-wiz.JPG","https://web.archive.org/web/20081207205830/http://gp2x.co.uk/",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
