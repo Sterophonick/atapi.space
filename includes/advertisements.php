@@ -153,6 +153,15 @@ $adList = array(
     "/assets/img/ads/roadrunner.gif","https://web.archive.org/web/20010806213847/http://mktg.roadrunner.com/rr/roadrunner/requestservice",
     "/assets/img/ads/powerbook.gif","",
     "/assets/img/ads/linuxban.gif","https://cachyos.org/",
+    "/assets/img/ads/lilabanner.gif","https://web.archive.org/web/20010516210343/http://www.linuxlabs.com/",
+    "/assets/img/ads/icewalkers.gif","https://web.archive.org/web/20010517002008/http://www.icewalkers.com/",
+    "/assets/img/ads/win4lin.gif","https://web.archive.org/web/20010309112655/http://www.netraverse.com/",
+    "/assets/img/ads/xmms.gif","https://web.archive.org/web/20020124061838im_/http://www.xmms.org/",
+    "/assets/img/ads/xfce.gif","https://web.archive.org/web/20011202172226im_/http://www.xfce.org/",
+    "/assets/img/ads/turbolinux.gif","https://web.archive.org/web/20011203223913im_/http://www.turbolinux.com/",
+    "/assets/img/ads/web-for-dummies.gif","https://web.archive.org/web/20011216094354im_/http://www.web-for-dummies.com/home.shtml",
+    "/assets/img/ads/linuxapps.gif","https://web.archive.org/web/20010620222827/http://linuxapps.com/",
+    "/assets/img/ads/tyra2.gif","https://web.archive.org/web/20000621044714/http://www.warpsite.de/",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
