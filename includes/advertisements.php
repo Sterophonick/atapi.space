@@ -151,6 +151,8 @@ $adList = array(
     "/assets/img/ads/bell-isdn.gif","https://web.archive.org/web/19981201204451/http://www.bell-atl.com/",
     "/assets/img/ads/compaq-vms.gif","https://web.archive.org/web/19990208005657/http://openvms.digital.com/openvms/72ship.html",
     "/assets/img/ads/roadrunner.gif","https://web.archive.org/web/20010806213847/http://mktg.roadrunner.com/rr/roadrunner/requestservice",
+    "/assets/img/ads/powerbook.gif","",
+    "/assets/img/ads/linuxban.gif","https://cachyos.org/",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
