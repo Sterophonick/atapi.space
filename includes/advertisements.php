@@ -62,6 +62,7 @@ $adList = array(
     "/assets/img/ads/liksang.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
+    "/assets/img/ads/liksang4.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/ps2.gif","",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
@@ -155,13 +156,30 @@ $adList = array(
     "/assets/img/ads/linuxban.gif","https://cachyos.org/",
     "/assets/img/ads/lilabanner.gif","https://web.archive.org/web/20010516210343/http://www.linuxlabs.com/",
     "/assets/img/ads/icewalkers.gif","https://web.archive.org/web/20010517002008/http://www.icewalkers.com/",
-    "/assets/img/ads/win4lin.gif","https://web.archive.org/web/20010309112655/http://www.netraverse.com/",
+    "/assets/img/ads/win4lin.gif","https://web.archive.org/web/20010309112655/http://www.netraverse.com/", // literally a Windows virtual machine for Linux. what the fuck
     "/assets/img/ads/xmms.gif","https://web.archive.org/web/20020124061838im_/http://www.xmms.org/",
     "/assets/img/ads/xfce3.gif","https://web.archive.org/web/20011202172226im_/http://www.xfce.org/",
     "/assets/img/ads/turbolinux.gif","https://web.archive.org/web/20011203223913im_/http://www.turbolinux.com/",
     "/assets/img/ads/web-for-dummies.gif","https://web.archive.org/web/20011216094354im_/http://www.web-for-dummies.com/home.shtml",
     "/assets/img/ads/linuxapps.gif","https://web.archive.org/web/20010620222827/http://linuxapps.com/",
     "/assets/img/ads/tyra2.gif","https://web.archive.org/web/20000621044714/http://www.warpsite.de/",
+    "/assets/img/ads/rewards1.jpg","https://web.archive.org/web/20120528004904/http://www.rewards1.com",
+    "/assets/img/ads/richspsxparts.jpg","https://web.archive.org/web/20031026081604/http://www.richspsxparts.com/psxfo.html",
+    "/assets/img/ads/psxbackupsman.gif","https://web.archive.org/web/20021012061633/http://cdrbackupman.maxleft.com/main2.htm",
+    "/assets/img/ads/customps2.gif","https://web.archive.org/web/20040828033542/http://www.customps2.com/xcart/customer/",
+    "/assets/img/ads/customps2_2.gif","https://web.archive.org/web/20061103184040/http://www.customps2.com/site/",
+    "/assets/img/ads/customps2_3.gif","https://web.archive.org/web/20061117031152/http://www.customps2.com/site/",
+    "/assets/img/ads/customps2_4.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/", // at some point this website changed their name to "ClearXbox" likely because of the Xbox 360
+    "/assets/img/ads/customps2_5.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
+    "/assets/img/ads/customps2_6.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
+    "/assets/img/ads/customps2_7.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
+    "/assets/img/ads/modwhiz.gif","https://web.archive.org/web/20050817225536/http://www.modwhiz.com/store/catalog/",
+    "/assets/img/ads/ps2-swap-magic.gif","",
+    "/assets/img/ads/acegamestore.gif","https://web.archive.org/web/20060701045711/http://www.acegamestore.com/",
+    "/assets/img/ads/xcm1.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/xcm1.swf
+    "/assets/img/ads/xcm2.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM.swf
+    "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM_BM.swf
+    "/assets/img/ads/ultimate-console-guides.gif","https://web.archive.org/web/20070226101907/http://www.ultimateconsoleguides.com/",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
