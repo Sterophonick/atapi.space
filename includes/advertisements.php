@@ -10,6 +10,7 @@ $adList = array(
     "/assets/img/ads/f2a.jpg","https://web.archive.org/web/20060430214714/http://www.linker4u.com/pp/item_detail.asp?itemID={BED20706-33CF-4A2F-B958-85E1A552A0D1}",
     "/assets/img/ads/gbax.gif","https://web.archive.org/web/20050226021427/http://gbax.com/",
     "/assets/img/ads/gbax2.jpg","https://web.archive.org/web/20050305040243/http://www.gbax.com/new/devk.html",
+    "/assets/img/ads/gbax3.gif","https://web.archive.org/web/20050624022853/http://www.gbax.com/main.pl",
     "/assets/img/ads/gp2x.gif","https://web.archive.org/web/20081217050746/http://www.gp2xstore.com/",
     "/assets/img/ads/linker4u-ps2.gif","https://web.archive.org/web/20060516004053/http://www.linker4u.com/pp/item_detail.asp?itemID={0B79FCA7-7983-4A42-B3EC-BE32CC551595}",
     "/assets/img/ads/mrmodchips.jpg","https://web.archive.org/web/20050830001322/http://www.mrmodchips.com/catalog/",
@@ -55,6 +56,10 @@ $adList = array(
     "/assets/img/ads/divineo3.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/hdfury.gif","https://web.archive.org/web/20110408082113/http://www.hdfury.com/",
     "/assets/img/ads/divineo4.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    "/assets/img/ads/divineo5.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    "/assets/img/ads/divineo6.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    "/assets/img/ads/divineo7.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    "/assets/img/ads/divineo8.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/nokia.gif","https://web.archive.org/web/20150111073548/http://www.filibeto.org/mobile",
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
@@ -63,6 +68,9 @@ $adList = array(
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang4.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
+    "/assets/img/ads/liksang5.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
+    "/assets/img/ads/liksang6.gif","https://web.archive.org/web/20060323024840/http://www.lik-sang.com/list.php?nav=top&category=315", // image taken from xbox360.dcemu.co.uk
+    "/assets/img/ads/liksang7.gif","https://web.archive.org/web/20070000000000*/lik-sang.com",
     "/assets/img/ads/ps2.gif","",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
@@ -180,6 +188,7 @@ $adList = array(
     "/assets/img/ads/xcm2.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM.swf
     "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM_BM.swf
     "/assets/img/ads/ultimate-console-guides.gif","https://web.archive.org/web/20070226101907/http://www.ultimateconsoleguides.com/",
+    "/assets/img/ads/xtreme-mods.gif","https://web.archive.org/web/20050303003621/http://www.extreme-mods.com/",
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
