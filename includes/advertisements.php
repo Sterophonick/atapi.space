@@ -61,6 +61,7 @@ $adList = array(
     "/assets/img/ads/divineo6.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo7.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo8.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    "/assets/img/ads/divineo9.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/nokia.gif","https://web.archive.org/web/20150111073548/http://www.filibeto.org/mobile",
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
@@ -185,12 +186,24 @@ $adList = array(
     "/assets/img/ads/modwhiz.gif","https://web.archive.org/web/20050817225536/http://www.modwhiz.com/store/catalog/",
     "/assets/img/ads/ps2-swap-magic.gif","",
     "/assets/img/ads/acegamestore.gif","https://web.archive.org/web/20060701045711/http://www.acegamestore.com/",
-    "/assets/img/ads/xcm1.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/xcm1.swf
-    "/assets/img/ads/xcm2.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM.swf
-    "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // converted from swf at http://www.ps3news.com/banners/XCM_BM.swf
     "/assets/img/ads/ultimate-console-guides.gif","https://web.archive.org/web/20070226101907/http://www.ultimateconsoleguides.com/",
     "/assets/img/ads/xtreme-mods.gif","https://web.archive.org/web/20050303003621/http://www.extreme-mods.com/",
     "/assets/img/ads/gp2x-wiz.JPG","https://web.archive.org/web/20081207205830/http://gp2x.co.uk/",
+    "/assets/img/ads/xrom512.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/xrom512_2.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/xrom512_3.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/xrom512_4.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/xrom512_5.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/xavbox.gif","https://web.archive.org/web/20071011014825/http://www.xavbox.info/",
+    "/assets/img/ads/xbox-chameleon.gif","https://web.archive.org/web/20031012060028/http://www.easybuy2000.com/",
+    
+    // Ads that originated from Adobe Flash SWFs
+    // These are really cool and dynamic but really expensive when converting to gif
+    "/assets/img/ads/xcm1.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // http://www.ps3news.com/banners/xcm1.swf
+    "/assets/img/ads/xcm2.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // http://www.ps3news.com/banners/XCM.swf
+    "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // http://www.ps3news.com/banners/XCM_BM.swf
+    "/assets/img/ads/xrom_swf1.gif","https://web.archive.org/web/20050712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/gba/XROM/5331/5331_468x60.swf
+    "/assets/img/ads/xg-flash1.gif","https://web.archive.org/web/20030712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/gba/6079.swf
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
