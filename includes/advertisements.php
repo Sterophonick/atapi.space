@@ -37,7 +37,7 @@ $adList = array(
     "/assets/img/ads/retrobase.gif","https://web.archive.org/web/20050218030747/http://www.retrobase.net/",
     "/assets/img/ads/kmru.gif","",
     "/assets/img/ads/mame.gif","https://mamedev.org/",
-    "/assets/img/ads/gbahome.jpg","",
+    "/assets/img/ads/gbahome.jpg","https://web.archive.org/web/20031001071212/http://www.gbahome.com/main.asp", // unsure if this is actually the correct URL
     "/assets/img/ads/macmall.gif","",
     "/assets/img/ads/presario.gif","https://web.archive.org/web/20060113065332/http://www.microwarehouse.co.uk/",
     "/assets/img/ads/yahoo.gif","https://web.archive.org/web/20050828081818/http://pager.yahoo.com/",
@@ -73,13 +73,13 @@ $adList = array(
     "/assets/img/ads/liksang5.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang6.gif","https://web.archive.org/web/20060323024840/http://www.lik-sang.com/list.php?nav=top&category=315", // image taken from xbox360.dcemu.co.uk
     "/assets/img/ads/liksang7.gif","https://web.archive.org/web/20070000000000*/lik-sang.com",
-    "/assets/img/ads/ps2.gif","",
+    "/assets/img/ads/ps2.gif","https://pcsx2.net/",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
     "/assets/img/ads/windowsxp.gif","",
     "/assets/img/ads/garfield.gif","",
     "/assets/img/ads/playstation.gif","",
-    "/assets/img/ads/n64.gif","",
+    "/assets/img/ads/n64.gif","https://ultra64.ca/files/documentation/online-manuals/man/pro-man/start/index.html",
     "/assets/img/ads/mod-chip.gif","https://web.archive.org/web/20050608032340/http://www.mod-chip.com/",
     "/assets/img/ads/pinnacle.gif","",
     "/assets/img/ads/net2phone.gif","https://web.archive.org/web/20050628011416/http://net2phone.com/",
@@ -120,7 +120,7 @@ $adList = array(
     "/assets/img/ads/netscape3.gif","",
     "/assets/img/ads/navigator.gif","",
     "/assets/img/ads/xinga.gif","",
-    "/assets/img/ads/kbkids.jpeg","",
+    "/assets/img/ads/kbkids.jpeg","https://web.archive.org/web/20020213053150/http://www.kbtoys.com/vgames/indexGameBoyAdvance.html?ls=vgames",
     "/assets/img/ads/win-embedded.gif","",
     "/assets/img/ads/faprolinker.gif","",
     "/assets/img/ads/modchip-com.gif","",
@@ -138,15 +138,15 @@ $adList = array(
     "/assets/img/ads/vrml.gif","https://web.archive.org/web/19970629003853/http://vrml.sgi.com/intro.html",
     "/assets/img/ads/sonic_r.gif","https://web.archive.org/web/20180830145248/https://www.deviantart.com/comickpro/art/Tails-Doll-79228090",
     "/assets/img/ads/download.gif","",
-    "/assets/img/ads/ie4.gif","",
+    "/assets/img/ads/ie4.gif","https://www.firefox.com/en-US/",
     "/assets/img/ads/napsteralts.gif","",
     "/assets/img/ads/paying_too_much.gif","",
-    "/assets/img/ads/unreal.gif","",
+    "/assets/img/ads/unreal.gif","https://oldunreal.com/",
     "/assets/img/ads/via.gif","",
-    "/assets/img/ads/maxpayne.gif","",
+    "/assets/img/ads/maxpayne.gif","https://store.steampowered.com/app/12140/Max_Payne/",
     "/assets/img/ads/computermonkey.gif","",
     "/assets/img/ads/bizkit.gif","",
-    "/assets/img/ads/macromedia.gif","",
+    "/assets/img/ads/macromedia.gif","https://ruffle.rs/",
     "/assets/img/ads/soundblaster.gif","",
     "/assets/img/ads/macg4.gif","",
     "/assets/img/ads/cybertown.gif","https://web.archive.org/web/19970618111815/http://www.cybertown.com/",
@@ -156,7 +156,7 @@ $adList = array(
     "/assets/img/ads/dave-mac.gif","", //what exactly did this link to?
     "/assets/img/ads/webstar.gif","https://web.archive.org/web/19990417101044/http://www.reproduce.com/",
     "/assets/img/ads/piccolo-drive.gif","",
-    "/assets/img/ads/quake.jpeg","",
+    "/assets/img/ads/quake.jpeg","https://store.steampowered.com/app/2310/Quake/",
     "/assets/img/ads/tucows.gif","https://web.archive.org/web/19961228134206/http://www.tucows.com/",
     "/assets/img/ads/connecsoft-email.gif","",
     "/assets/img/ads/bell-isdn.gif","https://web.archive.org/web/19981201204451/http://www.bell-atl.com/",
@@ -196,6 +196,14 @@ $adList = array(
     "/assets/img/ads/xrom512_5.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/xavbox.gif","https://web.archive.org/web/20071011014825/http://www.xavbox.info/",
     "/assets/img/ads/xbox-chameleon.gif","https://web.archive.org/web/20031012060028/http://www.easybuy2000.com/",
+    "/assets/img/ads/planethardware.gif","https://web.archive.org/web/20010301212253/http://www.planethardware.com/",
+    "/assets/img/ads/planetduke.gif","https://web.archive.org/web/20001109022200/http://planetduke.com/",
+    "/assets/img/ads/planetduke2.gif","https://web.archive.org/web/20001109022200/http://planetduke.com/",
+    "/assets/img/ads/hl-shift-interview.gif","https://web.archive.org/web/20010502195013/http://www.planethalflife.com/features/interviews/gearbox/randypitchford.shtm",
+    "/assets/img/ads/planetquake.gif","https://web.archive.org/web/20001109022200/http://planetquake.com/",
+    "/assets/img/ads/radiospy.gif","https://web.archive.org/web/20010301190122/http://www.radiospy.com/",
+    "/assets/img/ads/3dap.gif","",
+    "/assets/img/ads/planetxbox.gif","https://web.archive.org/web/20001018114813/http://planetxbox.com/",
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
@@ -211,8 +219,8 @@ $adList = array(
     "/assets/img/ads/assembly04.gif","https://web.archive.org/web/20040701110914/http://www.assembly.org/",
 
     // made by @hootwheelz@blahaj.zone
-    "/assets/img/ads/sgi.gif","",
-    "/assets/img/ads/os2.gif","",
+    "/assets/img/ads/sgi.gif","https://web.archive.org/web/20000511091920/http://www.sgi.com/",
+    "/assets/img/ads/os2.gif","https://web.archive.org/web/20020206205124/http://www-3.ibm.com/software/os/warp/",
     "/assets/img/ads/afterburner.gif","https://web.archive.org/web/20030524123759/http://tritonlabs.com/",
     
     // made by 7nonsense.neocities.org
