@@ -52,20 +52,29 @@ $adList = array(
     "/assets/img/ads/ibm-buy.gif","https://web.archive.org/web/20000229080028/http://www.buy.com/",
     "/assets/img/ads/ibm97.gif","https://web.archive.org/web/19970103065909/http://www.worldavenue.com/",
     "/assets/img/ads/at-t-the-first-banner-1994.png","", // this originally was tied to AT&T but it's way way funnier if there's no link
+    
+    // Divineo Collection
+    // Console modding hardware vendor from China
     "/assets/img/ads/divineo1.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo2.jpg","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo3.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
-    "/assets/img/ads/hdfury.gif","https://web.archive.org/web/20110408082113/http://www.hdfury.com/",
     "/assets/img/ads/divineo4.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo5.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo6.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo7.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo8.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
     "/assets/img/ads/divineo9.gif","https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
+    
+    "/assets/img/ads/hdfury.gif","https://web.archive.org/web/20110408082113/http://www.hdfury.com/",
     "/assets/img/ads/nokia.gif","https://web.archive.org/web/20150111073548/http://www.filibeto.org/mobile",
     "/assets/img/ads/sun.gif","https://web.archive.org/web/19990208010422/http://sun.com/",
     "/assets/img/ads/dvd.gif","https://boxy.neocities.org/shrek2dvd/main",
     "/assets/img/ads/tridek.gif","",
+    
+    // Lik-Sang Collection
+    // Video games and third party console vendor
+    // Also vendor of modchips and whatnot
+    // Deleted in 2006 by Sony for... PSP reasons I think
     "/assets/img/ads/liksang.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang2.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang3.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
@@ -73,6 +82,7 @@ $adList = array(
     "/assets/img/ads/liksang5.gif","https://web.archive.org/web/20040000000000*/lik-sang.com",
     "/assets/img/ads/liksang6.gif","https://web.archive.org/web/20060323024840/http://www.lik-sang.com/list.php?nav=top&category=315", // image taken from xbox360.dcemu.co.uk
     "/assets/img/ads/liksang7.gif","https://web.archive.org/web/20070000000000*/lik-sang.com",
+    
     "/assets/img/ads/ps2.gif","https://pcsx2.net/",
     "/assets/img/ads/cd-r.gif","https://web.archive.org/web/20040618182818/http://reviews.cnet.com/2001-1_7-0.html",
     "/assets/img/ads/seti.gif","",
@@ -96,9 +106,9 @@ $adList = array(
     "/assets/img/ads/98semp.gif","",
     "/assets/img/ads/nec.gif","",
     "/assets/img/ads/toshiba.gif","",
-    "/assets/img/ads/nochoice.gif","http://toastytech.com/evil/index.html",
+    "/assets/img/ads/nochoice.gif","http://toastytech.com/evil/index.html", // the best anti-microsoft site i've ever seen
     "/assets/img/ads/consolefever.gif","https://web.archive.org/web/20050204195159/http://www.consolefever.com/customer/home.php",
-    "/assets/img/ads/OCH.gif","https://web.archive.org/web/20020802034137im_/http://www.cpufx.com/images/banners/OCH.gif",
+    "/assets/img/ads/OCH.gif","https://web.archive.org/web/20020531003731/http://overclockers.com/",
     "/assets/img/ads/bcentral.gif","",
     "/assets/img/ads/gifts.gif","",
     "/assets/img/ads/saroko.gif","",
@@ -176,13 +186,17 @@ $adList = array(
     "/assets/img/ads/rewards1.jpg","https://web.archive.org/web/20120528004904/http://www.rewards1.com",
     "/assets/img/ads/richspsxparts.jpg","https://web.archive.org/web/20031026081604/http://www.richspsxparts.com/psxfo.html",
     "/assets/img/ads/psxbackupsman.gif","https://web.archive.org/web/20021012061633/http://cdrbackupman.maxleft.com/main2.htm",
+    
+    // the CustomPS2 colleciton
+    // at some point this store changed their name to "ClearXbox" likely because of the Xbox 360
     "/assets/img/ads/customps2.gif","https://web.archive.org/web/20040828033542/http://www.customps2.com/xcart/customer/",
     "/assets/img/ads/customps2_2.gif","https://web.archive.org/web/20061103184040/http://www.customps2.com/site/",
     "/assets/img/ads/customps2_3.gif","https://web.archive.org/web/20061117031152/http://www.customps2.com/site/",
-    "/assets/img/ads/customps2_4.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/", // at some point this website changed their name to "ClearXbox" likely because of the Xbox 360
+    "/assets/img/ads/customps2_4.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
     "/assets/img/ads/customps2_5.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
     "/assets/img/ads/customps2_6.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
     "/assets/img/ads/customps2_7.gif","https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
+    
     "/assets/img/ads/modwhiz.gif","https://web.archive.org/web/20050817225536/http://www.modwhiz.com/store/catalog/",
     "/assets/img/ads/ps2-swap-magic.gif","",
     "/assets/img/ads/acegamestore.gif","https://web.archive.org/web/20060701045711/http://www.acegamestore.com/",
@@ -204,6 +218,32 @@ $adList = array(
     "/assets/img/ads/radiospy.gif","https://web.archive.org/web/20010301190122/http://www.radiospy.com/",
     "/assets/img/ads/3dap.gif","",
     "/assets/img/ads/planetxbox.gif","https://web.archive.org/web/20001018114813/http://planetxbox.com/",
+    "/assets/img/ads/yepp.gif","https://web.archive.org/web/20010608071013/http://www.samsungyepp.com/",
+    "/assets/img/ads/yepp2.gif","https://web.archive.org/web/20010608071013/http://www.samsungyepp.com/",
+    "/assets/img/ads/voodooextreme.gif","https://web.archive.org/web/20010202070400/http://voodooextreme.com/",
+    "/assets/img/ads/3dfx.gif","https://web.archive.org/web/20000620035237/http://www.3dfx.com/",
+    "/assets/img/ads/3dfx2.gif","https://web.archive.org/web/20000620035237/http://www.3dfx.com/",
+    "/assets/img/ads/3dfx3.gif","https://web.archive.org/web/20000620035237/http://www.3dfx.com/",
+    "/assets/img/ads/machinima.gif","https://web.archive.org/web/20001110114300/http://www.machinima.com/", // this is the same machinima.com like that you saw on YouTube up until around 2017 or so. i miss them a lot
+    "/assets/img/ads/ezattach.gif","https://web.archive.org/web/20000711012943/http://www.filepool.com/",
+    "/assets/img/ads/gamecave.gif","https://web.archive.org/web/20000229031350if_/http://gamecave.com/default.asp",
+    "/assets/img/ads/weenie.gif","", // what the fuck is a JavaScript Weenie?
+    "/assets/img/ads/sharkyextreme.gif","https://web.archive.org/web/20030621044819/http://www1.sharkyextreme.com/",
+    "/assets/img/ads/g3ti500.gif","", // some MSI board from 2001 or so. website needed.
+    "/assets/img/ads/epox.gif","https://web.archive.org/web/20041001014744/http://www.epox.com/", // this ad was captured in 2003 so the link is wrong. but this is the more interesting one anyway
+    "/assets/img/ads/abit.gif","https://web.archive.org/web/20031120175325/http://www.abit.com/", // redirects to motherboards.com. was there a real ABit site?
+    "/assets/img/ads/azzo.gif","https://web.archive.org/web/20030603170818/http://www.azzo.com/AF4/default.asp", // https://web.archive.org/web/20030913215052/http://www.hardocp.com/images/banners/azzo/azzo-052902.gif
+    "/assets/img/ads/via2.gif","",
+    "/assets/img/ads/netscape-whole.gif","https://web.archive.org/web/19961223155132/http://www.netscape.com/comprod/mirror/client_download.html",
+    "/assets/img/ads/office-mac.gif","",
+    "/assets/img/ads/winNT_evil.gif","",
+    "/assets/img/ads/vis_jpp.gif","",
+    "/assets/img/ads/micrografx.gif","https://web.archive.org/web/20000619140515/http://www.micrografx.com/",
+    "/assets/img/ads/macsurfshop.gif","",
+    "/assets/img/ads/macseminars.gif","",
+    "/assets/img/ads/director6.gif","",
+    "/assets/img/ads/ipod.gif","",
+    "/assets/img/ads/pac-mclan.gif","",
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
