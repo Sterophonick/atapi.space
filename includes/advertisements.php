@@ -294,7 +294,7 @@ function createBannerAd() {
 
     if(strlen($adLink)) $finalString .= ' href="' . $adLink . '"';
 
-    $finalString .= '><img id="stupidBannerAd" width="468px" height="60px" src="' . $adImg . '"></a><br/>';
+    $finalString .= '><img id="stupidBannerAd" height="60px" src="' . $adImg . '"></a><br/>';
 
     return $finalString;
 }
