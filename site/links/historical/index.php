@@ -367,6 +367,23 @@ Defunct site dedicated to Cybiko development.
 An artist from Denver who made a handful of PogoShell themes back in the day.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20030203001307/http://lhl.linuxgames.com/">Linux Half-Life</a><br />
+How-to and community for playing Half-Life on Linux using WINE, captured in 2003.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20030209054332/http://willows.com/">Willows Software</a><br />
+Developers of TWIN, a tool for running Windows apps on UNIX.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20060804153114/http://bewine.loungenet.org/">BwWine</a><br />
+WINE for BeOS.
+</p>
 
 <?php
 
