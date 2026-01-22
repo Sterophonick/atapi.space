@@ -381,7 +381,7 @@ Developers of TWIN, a tool for running Windows apps on UNIX.
 
 <br />
 <p>
-<a href="https://web.archive.org/web/20060804153114/http://bewine.loungenet.org/">BwWine</a><br />
+<a href="https://web.archive.org/web/20060804153114/http://bewine.loungenet.org/">BeWine</a><br />
 WINE for BeOS.
 </p>
 
