@@ -244,6 +244,7 @@ $adList = array(
     "/assets/img/ads/director6.gif","",
     "/assets/img/ads/ipod.gif","",
     "/assets/img/ads/pac-mclan.gif","",
+    "/assets/img/ads/superluigi.gif","https://web.archive.org/web/20090805202656/http://geocities.com/akaku43/SuperLuigi64.html",
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
