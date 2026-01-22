@@ -10,7 +10,7 @@ $customSideContent = <<<EOF
 EOF;
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
-echo constructPageHeader("Atapi's Domain! :: Web Links");
+echo constructPageHeader("Atapi's Domain! :: Links");
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 
