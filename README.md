@@ -2,7 +2,7 @@
 The source code to my website, https://atapi.space/.
 
 # Deploying
-- Requires PHP-FPM
+- Requires PHP-FPM, php-dom
 - Redirect 404 to `/404.php`
 - anything under `.git` is 403'd
 - path_regexp `/[^\/]$|^$/` used to redir to `{path}/`
