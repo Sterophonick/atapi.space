@@ -35,7 +35,7 @@ function countWebLinks() {
     $totalLinks += returnHrefCount("/site/links/shortwave/index.php");
     $totalLinks += returnHrefCount("/site/links/essays/index.php");
 
-    echo "Counting " . $totalLinks . " web links in 9 categories.";
+    echo "Counting " . $totalLinks . " links in 9 categories.";
 }
 
 ?>
