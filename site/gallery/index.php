@@ -447,7 +447,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     </td>
     <td>
     <img loading="lazy" class="galleryImg" src="/assets/img/gallery/cabbit.png"></a>
-    <p>January 206<br />cabbit<br /><a href="/files/cabbit.xcf">Source File</a><br /></p>
+    <p>January 2026<br />cabbit<br /><a href="/files/cabbit.xcf">Source File</a><br /></p>
     </td>
   </tr>
 </table>
