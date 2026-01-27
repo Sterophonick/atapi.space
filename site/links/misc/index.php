@@ -105,6 +105,12 @@ Plex if it was good.
 Web server that's simple to set up. This site operates on it!
 </p>
 
+<br />
+<p>
+<a href="https://krita.org/en/">Krita</a><br />
+FOSS artistry and animation program from KDE!
+</p>
+
 <?php
 
 echo constructPageFooter();

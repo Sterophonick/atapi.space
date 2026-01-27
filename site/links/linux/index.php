@@ -44,8 +44,8 @@ User-submitted PKGBUILDs for Arch Linux users.
 </p>
 <br />
 <p>
-<a href="https://gitlab.com/users/evlaV/projects">evalV</a><br />
-Open mirror of Valve's SteamOS source packages. Operated by a very odd person.
+<a href="https://github.com/evlav">evalV 2.0</a><br />
+Open mirror of Valve's SteamOS source packages.
 </p>
 <br />
 <p>
@@ -60,7 +60,7 @@ Vulkan-based implementation of D3D8, 9, 10, and 11 for Linux/WINE.
 <br />
 <p>
 <a href="https://github.com/HansKristian-Work/vkd3d-proton">vkd3d-proton</a><br />
-Vulkan-based implementation of Direct3D 12 for Proton.
+Vulkan-based implementation of Direct3D 12 for Proton. Fork of WINE's VKD3D.
 </p>
 <br />
 <p>
@@ -91,6 +91,30 @@ A team dedicated to bringing a polished Linux experience on Apple Silicon machin
 <p>
 <a href="https://www.free-penguin.org">Free Penguin Project</a><br />
 Free fabric and sewing patterns for making your own plush Tux toy!
+</p>
+
+<br />
+<p>
+<a href="https://blogs.kde.org/categories/this-week-in-plasma/">This Week in Plasma</a><br />
+KDE's weekly Plasma progress report, courtesy of developer Nathan Graham.
+</p>
+
+<br />
+<p>
+<a href="https://github.com/ilya-zlobintsev/LACT">LACT</a><br />
+Linux GPU Configuration and Monitoring Tool
+</p>
+
+<br />
+<p>
+<a href="https://www.supergoodcode.com/">Mike Blumenkrantz</a><br />
+Super. Good. Code.
+</p>
+
+<br />
+<p>
+<a href="https://www.collabora.com/">Collabora</a><br />
+Global open-source development and consulting firm.
 </p>
 
 <?php
