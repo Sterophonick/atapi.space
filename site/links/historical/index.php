@@ -1,5 +1,14 @@
 <?php
 
+$customSideContent = <<<EOF
+    <div class="sideFunFact window">
+        <h4>Note:</h4>
+        <p>
+            Some sites are marked with a little <a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> icon. These links require the use of Ruffle, which can be downloaded by clicking the icon.
+        </p>
+    </div>
+EOF;
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Links :: Historical");
 
@@ -413,6 +422,12 @@ Formerly CustomPS2.com, another home for Ghost Cases for various consoles.
 <p>
 <a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> <a href="https://web.archive.org/web/20000815082328/http://www.nfusegfx.com:80/">n.fuse gfx</a><br />
 Flash-based homepage for a web and graphic design firm.
+</p>
+
+<br />
+<p>
+<a href="https://yourethemannowdog.com/">You're the Man Now, Dog!</a><br />
+You're the Man Now, Dog!
 </p>
 
 <?php

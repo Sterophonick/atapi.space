@@ -9,8 +9,8 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Gaming");
 <p>Vidya gaemz!</p><br/>
 
 <p>
-<a href="https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/">dgVoodoo2</a><br />
-Reimplementation of Direct3D 1-9, Direct2D, and 3dfx Glide for DirectX 10, 11 and 12.
+<a href="https://github.com/elishacloud/dxwrapper">dxwrapper</a><br />
+DirectX wrapper for fixing various compatibility issues with older games on modern Windows/WINE.
 </p>
 
 <br />
@@ -64,7 +64,7 @@ Great resource for choosing parts to build your first PC.
 <br/>
 <p>
 <a href="https://prismlauncher.org/">Prism Launcher</a><br/>
-In-depth Minecraft Java launcher.
+In-depth, configurable Minecraft Java launcher.
 </p>
 
 <br/>
@@ -120,6 +120,19 @@ Super Mario Bros. deathmatch game.
 <a href="https://github.com/hedge-dev/UnleashedRecomp">Unleashed Recompiled</a><br/>
 Windows, macOS, and Linux port of Sonic Unleashed, recompiled from the Xbox 360 version.
 </p>
+
+<br/>
+<p>
+<a href="https://github.com/N64Recomp/N64Recomp">N64: Recompiled</a><br/>
+Wiseguy's tools to statically recompiled Nintendo 64 games, opening the door to enhanced PC ports.
+</p>
+
+<br/>
+<p>
+<a href="https://enhanced.townofsilenthill.com/SH2/">Silent Hill 2: Enhanced Edition</a><br/>
+They freaking fixed the PC port. They made it good. Holy crap.
+</p>
+
 
 <?php
 

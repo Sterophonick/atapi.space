@@ -96,13 +96,13 @@ Proxy server that redirects to a directory of websites and Wayback Machine captu
 <br />
 <p>
 <a href="https://jellyfin.org/">Jellyfin</a><br />
-Plex if it wasn't a commercial product.
+Plex if it was good.
 </p>
 
 <br />
 <p>
 <a href="https://caddyserver.com/">Caddy</a><br />
-Web server that's simple to set up, this site operates on it!
+Web server that's simple to set up. This site operates on it!
 </p>
 
 <?php
