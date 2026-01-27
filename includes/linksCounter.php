@@ -1,11 +1,27 @@
 <?php
 
-// this function merely counts the amount of times we say "href" in the Web Links subpages.
-// if we are to keep doing this, then there cannot be an href anywhere else in the php file. everything else is handled by the header and footer.
+// this function counts how many <a> tags there are in the html of a php doc, making sure to suppress warnings of malformed html
+// an <a> tag will not be counted if the attribute "skipcount" exists anywhere
 
 function returnHrefCount($file) {
     $currentDocument = file_get_contents($_SERVER['DOCUMENT_ROOT'] . $file);
-    return substr_count($currentDocument, "href");
+    
+    $dom = new DOMDocument();
+    @$dom->loadHTML($currentDocument);
+    
+    $links = $dom->getElementsByTagName('a');
+    
+    $linkCount = 0;
+    
+    foreach ($links as $link) {
+        if($link->hasAttribute('href')) {
+            if(! ($link->hasAttribute('skipcount'))) {
+                $linkCount++;
+            }
+        }
+    }
+    
+    return $linkCount;
 }
 
 function countWebLinks() {

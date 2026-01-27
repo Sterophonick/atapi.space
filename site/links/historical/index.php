@@ -385,6 +385,36 @@ Developers of TWIN, a tool for running Windows apps on UNIX.
 WINE for BeOS.
 </p>
 
+<br />
+<p>
+<a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> <a href="https://web.archive.org/web/20210611213053/https://www.2advanced.com/flashindex.htm">2Advanced Studios</a><br />
+Homepage for 2Advanced Studios. Site features awesome metalheart aesthetics.
+</p>
+
+<br />
+<p>
+<a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> <a href="https://wa007.com/2003/">Webagent 007</a><br />
+Homepage for WA007, a web design and marketing firm.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20070930230921/http://www.xcm.cc/">XCM</a><br />
+Homepage for Xbox Custom Mods, famous for the "Ghost Cases," but hosted many other third-party peripherals.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/">ClearXbox</a><br />
+Formerly CustomPS2.com, another home for Ghost Cases for various consoles.
+</p>
+
+<br />
+<p>
+<a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> <a href="https://web.archive.org/web/20000815082328/http://www.nfusegfx.com:80/">n.fuse gfx</a><br />
+Flash-based homepage for a web and graphic design firm.
+</p>
+
 <?php
 
 echo constructPageFooter();
