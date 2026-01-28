@@ -209,6 +209,7 @@ But that's my January 2025 update on gaming on Linux. It's very doable, but if y
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

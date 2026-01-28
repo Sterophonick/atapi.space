@@ -2,6 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/advertisements.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/blogSignature.php';
 
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to

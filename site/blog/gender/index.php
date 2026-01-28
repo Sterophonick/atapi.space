@@ -156,6 +156,7 @@ In truth, there's only one gender, and it's yours.<br/><br/>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

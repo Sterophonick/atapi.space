@@ -385,6 +385,7 @@ This isn't ALL of my music, but it's some that I think really deserved some high
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

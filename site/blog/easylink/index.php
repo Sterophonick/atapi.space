@@ -114,8 +114,10 @@ Category: Infodump<br/>
     Oh, and <a href="https://archive.org/details/easy-link-launch-pad">here's a download link to the software</a>. Feel free to do with it as you please.<br/><br/>
     <img width="720px" src="/assets/img/blog/easylink/deck.jpg">
 </p>
+
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

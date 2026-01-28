@@ -124,6 +124,7 @@ Content Warning // Language<br/>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

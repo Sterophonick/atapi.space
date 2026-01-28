@@ -184,6 +184,7 @@ Content Warning // Language
 </p>
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

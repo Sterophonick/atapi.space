@@ -247,6 +247,7 @@ service. Truthfully, use what you want.<br />
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

@@ -121,6 +121,7 @@ A good fallback option is to render WEBMs of scenes from Fortnite Festival or Ro
 <img width="384px" src="/assets/img/blog/yarg/lrb.png">
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

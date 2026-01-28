@@ -202,6 +202,7 @@ When we switch to a user, we will be sent to the page they were last visiting, b
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

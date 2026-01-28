@@ -89,6 +89,7 @@ You are done. Your game's music should now work correctly. play now for free vbu
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

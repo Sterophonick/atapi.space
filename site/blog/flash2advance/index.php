@@ -636,6 +636,7 @@ The bottom line? It's doable but there are many, many asterisks behind that sing
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

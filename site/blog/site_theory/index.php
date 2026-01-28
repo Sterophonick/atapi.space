@@ -103,6 +103,7 @@ That's pretty much it. Thanks for reading, you now have free kromer.<br/>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

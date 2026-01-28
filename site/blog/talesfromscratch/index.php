@@ -216,6 +216,7 @@ it.</p>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

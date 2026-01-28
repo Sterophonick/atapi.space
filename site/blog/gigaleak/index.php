@@ -823,6 +823,7 @@ Some of that Wii VC lot check stuff is interesting. Nintendo of Europe seemingly
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

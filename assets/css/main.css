@@ -385,3 +385,11 @@ a:hover .imgNoHover {
 .centeredList {
     text-align: left; display: inline-block; margin: 0;
 }
+
+.blogSig {
+    text-align: right;
+}
+
+.signImg {
+    width: 300px;
+}

@@ -9,6 +9,7 @@ echo constructPageHeader("Atapi's Domain!");
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

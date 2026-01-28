@@ -80,6 +80,7 @@ Anyway, this machine is one of many various machines all in the same line of pro
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

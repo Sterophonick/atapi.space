@@ -129,6 +129,7 @@ code</a><br />
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

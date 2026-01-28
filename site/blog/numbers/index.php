@@ -317,6 +317,7 @@ Satellite/Street images courtesy of Google<br/>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

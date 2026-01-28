@@ -188,6 +188,7 @@ Honorable mentions:<br/>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

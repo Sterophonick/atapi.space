@@ -250,6 +250,7 @@ Content Warning // Non-Vegan Cooking
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

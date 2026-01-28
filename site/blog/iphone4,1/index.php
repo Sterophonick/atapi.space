@@ -243,13 +243,13 @@ My first move is to downgrade to iOS 6.1.3, since I have a bit of nostalgia for 
         Credit to LukeZDG for creating Legacy iOS Toolkit<br/>
         Greetz to r/legacyjailbreak and r/setupapp<br/><br/>
         
-        A big fuck you to Apple<br/>
-        
+        A big fuck you to Apple
     </small>
 </p>
 
 <?php
 
+echo printBlogSig();
 echo constructPageFooter();
 
 ?>

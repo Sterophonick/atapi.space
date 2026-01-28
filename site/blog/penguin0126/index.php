@@ -553,4 +553,4 @@ This year, Intel has laid off a lot of employees who worked on the Linux stack, 
 <img loading="lazy" src="/assets/img/blog/penguin0126/kity.jpg">
 
 
-<?php echo constructPageFooter(); ?>
+<?php echo printBlogSig(); echo constructPageFooter(); ?>
