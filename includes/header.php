@@ -586,6 +586,7 @@ $musicPaths = array(
     "kulor - Our Time Machine Works!", "/assets/snd/music/time_machine.mp3",
     "Nightmargin ft. Eliza Velasquez and Michael Shirt - On Little Cat Feet", "/assets/snd/music/OnLittleCatFeet.mp3",
     "Alexander Brandon - Dark Groove (part 1)", "/assets/snd/music/dark_groove.mp3",
+    "Jay Tholen - Formations (Basidia)", "/assets/snd/music/formations.mp3",
 );
 
 ?>

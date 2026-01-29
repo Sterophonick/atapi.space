@@ -19,8 +19,8 @@ function toggle_visibility(cl){
 <h1 onclick="toggle_visibility('funny');"><img style="vertical-align:middle" src="/assets/img/pronouns/icon.png"> Pronouns</h1>
 <p>
 i have a blue hat and pronouns and no blue hair. sorry to disappoint.<br/>
-i'm a silly queer enby femboy ace kid thing, kinda a hodgepodge of whatever<br/>
-i prefer feminine compliments and pet names!<br/>
+i'm a weird evil feminine agender boy-shaped creature, labels defy me.<br/>
+however, i prefer compliments and pet names to be femme-leaning!<br/>
 </p>
 <br/>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
