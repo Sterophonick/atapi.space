@@ -96,7 +96,7 @@ Here's some links to cool netizens!<br/>
 <a href="https://aceraccoon.neocities.org/"><img src="/assets/img/buttons/aceracc.gif"></a>
 <a href="https://ne0nbandit.art/"><img src="/assets/img/buttons/ne0nbandit.png"></a>
 <a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
-<a href="https://genesisjam.neocities.org/"><img src="/assets/img/buttons/genesisjam.gif"></a>
+<a href="https://www.genesisjam.net/"><img src="/assets/img/buttons/genesisjam.gif"></a>
 </div>
 
 <br/>
