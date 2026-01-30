@@ -195,6 +195,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <a href="https://retroguru.com/"><img src="/assets/img/buttons/retroguru.png"></a>
 <img src="/assets/img/buttons/ac2001central.gif">
 <iframe src="//incr.easrng.net/badge?key=atapi_inc_key_dont_steal" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+<img src="/assets/img/buttons/freakmode.gif">
 </div>
 
 <span id="potat" style="display: none;">
