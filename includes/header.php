@@ -561,12 +561,13 @@ $quoteStrings = array(
     "We are Samurai... the keyboard cowboys.", "-- The Plague, Hackers (1995)",
     "If I were to go back and kick the Pope off his throne, I'd be the queen.", "-- Sandie \"The Goddess Bunny\" Crisp",
     "MAKE GIFS AT GIFSOUP.COM","",
+    "god forbid women do anything","",
     
     "Rest well, Burgerbecky.", "",
     
 );
 
-$musicPaths = array(
+$musicPathsList = array(
     "AceMan - Different ways", "/assets/snd/music/different_ways.mp3",
     "falcon/pulse+tdr - spineless", "/assets/snd/music/spineless.mp3",
     "TheDuccinator - Some Creatures", "/assets/snd/music/some_creatures.mp3",
@@ -593,12 +594,18 @@ $musicPaths = array(
 
     <header id="top">
         <div id="banner" class="window">
-            <h1><img class="pfp" width="64px" src="/assets/img/gallery/royla_crown.png"> Atapi's Domain!</h1>
+            <h1><img class="pfp" height="64px" src="/assets/img/gallery/royla_crown.png"> <i>Atapi's Domain!!</i></h1>
             <?php
+            
+            $quoteStringsSrc = $quoteStrings; // default to the total list
+            
+            if(isset($GLOBALS['customQuoteSelections'])) {
+                $quoteStringsSrc = $GLOBALS['customQuoteSelections'];
+            }
 
-            $quoteIndex = floor(mt_rand() % sizeof($quoteStrings) / 2) * 2;
-            $quoteQuote = $quoteStrings[$quoteIndex];
-            $quoteSource = $quoteStrings[$quoteIndex+1];
+            $quoteIndex = floor(mt_rand() % sizeof($quoteStringsSrc) / 2) * 2;
+            $quoteQuote = $quoteStringsSrc[$quoteIndex];
+            $quoteSource = $quoteStringsSrc[$quoteIndex+1];
             //Math.floor(Math.random() * musicPaths.length / 2) * 2; // get even random number
 
             $quoteTag = '<span style="font-size: 13pt" title="' . $quoteSource . "\">" . $quoteQuote . "</span>";
@@ -635,6 +642,12 @@ $musicPaths = array(
     
     <?php
     if(doWeShowMusicPlayer()){
+        $musicPaths = $musicPathsList; // default to the total list
+        
+        if(isset($GLOBALS['customMusicSelections'])) {
+            $musicPaths = $GLOBALS['customMusicSelections'];
+        }
+        
         $musicIndex = floor(mt_rand() % sizeof($musicPaths) / 2) * 2;
         $musicName = $musicPaths[$musicIndex];
         $musicPath = $musicPaths[$musicIndex+1];

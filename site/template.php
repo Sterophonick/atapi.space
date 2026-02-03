@@ -18,6 +18,14 @@ $customSideContent = <<<EOF
     </div>
 EOF;
 
+$customQuoteSelections = array(
+        "look, you can force a custom quote too!", "--test",
+);
+
+$customMusicSelections = array(
+    "per-page music demonstration!", "/assets/snd/music/different_ways.mp3",
+);
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain!");
 
