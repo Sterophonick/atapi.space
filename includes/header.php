@@ -168,6 +168,7 @@ $quoteStrings = array(
     "Tyranny requires constant effort. It breaks, it leaks. Authority is brittle. Oppression is the mask of fear.", "-- Karis Nemik, STAR WARS: Andor (S01E12)",
     "A shared sorrow is only half a sorrow.", "-- One Topic at a Time",
     "<b><u><i>THIS WEBSITE KILLS FASCISTS</b></u></i>", "",
+    "Okay.", "-- Nazi Puncher",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
@@ -562,6 +563,7 @@ $quoteStrings = array(
     "If I were to go back and kick the Pope off his throne, I'd be the queen.", "-- Sandie \"The Goddess Bunny\" Crisp",
     "MAKE GIFS AT GIFSOUP.COM","",
     "god forbid women do anything","",
+    "I feel like batman or halo.", "-- That guy whose Cybertruck blew up",
     
     "Rest well, Burgerbecky.", "",
     

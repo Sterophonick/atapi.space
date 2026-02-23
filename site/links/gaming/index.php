@@ -133,6 +133,12 @@ Wiseguy's tools to statically recompiled Nintendo 64 games, opening the door to 
 They freaking fixed the PC port. They made it good. Holy crap.
 </p>
 
+<br/>
+<p>
+<a href="https://downloads.khinsider.com/">Video Game Music on KHInsider</a><br/>
+Full albums in MP3 or FLAC of Video Game soundtracks.
+</p>
+
 
 <?php
 
