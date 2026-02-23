@@ -590,6 +590,8 @@ $musicPathsList = array(
     "Nightmargin ft. Eliza Velasquez and Michael Shirt - On Little Cat Feet", "/assets/snd/music/OnLittleCatFeet.mp3",
     "Alexander Brandon - Dark Groove (part 1)", "/assets/snd/music/dark_groove.mp3",
     "Jay Tholen - Formations (Basidia)", "/assets/snd/music/formations.mp3",
+    "Nightmargin ft. Eliza Velasquez and Michael Shirt - Geothermal", "/assets/snd/music/geothermal.mp3",
+    "Nightmargin ft. Eliza Velasquez and Michael Shirt - To Dream", "/assets/snd/music/to_dream.mp3",
 );
 
 ?>

@@ -287,6 +287,18 @@ border: 2px solid red;
     image-rendering: pixelated
 }
 
+a:active:hover img {
+    filter: drop-shadow( 1px  1px 0px #CFCFFF)
+    drop-shadow(-1px -1px 0px #CFCFFF)
+    drop-shadow( 1px -1px 0px #CFCFFF)
+    drop-shadow(-1px  1px 0px #CFCFFF);
+}
+
+/* specifically for buttons */
+.buttonCollection a img:active:hover {
+    transform: translateY(2px);
+}
+
 #welcome {
 max-width: 728px;
 height: 170px;

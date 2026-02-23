@@ -59,8 +59,8 @@ countWebLinks();
 ?>
 
 <br/><br/>
-Here's some links to cool netizens!<br/>
-<div id="buttons" class="pixelArt" style="width: 100%; margin: auto; font-size:0%">
+Here's some links to cool friends and other personal sites!!<br/>
+<div id="buttons" class="buttonCollection" style="width: 100%; margin: auto; font-size:0%">
 <a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
 <a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>
 <a href="https://elizafox.space/"><img src="/assets/img/buttons/elizafox.png"></a>
@@ -98,6 +98,7 @@ Here's some links to cool netizens!<br/>
 <a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
 <a href="https://www.genesisjam.net/"><img src="/assets/img/buttons/genesisjam.gif"></a>
 <a href="https://eeep.ee/"><img src="/assets/img/buttons/chfour.png" alt="chfour" width="88" height="31"></a>
+<a href="https://freeplay.floof.company/"><img src="/assets/img/buttons/freeplay.gif"></a>
 </div>
 
 <br/>
