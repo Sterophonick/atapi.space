@@ -108,6 +108,10 @@ I think she's the main reason I am such a cat lover, as opposed to the other cat
 </p><br/>
 
 <p>
+    If you ever represent either myself or my sona with an astrological symbol, it is mandatory that you use the male Mars symbol but colored pink. Smiles.<br/>
+    <img loading="lazy" width="64px" src="/assets/img/pronouns/mars-symbol.png"><br/><br/>
+
+<p>
     I think this pretty much covers everything! If you're drawing for me and have any other questions, please do not feel afraid to ask!
 </p>
 

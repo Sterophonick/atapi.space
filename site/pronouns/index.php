@@ -16,7 +16,7 @@ function toggle_visibility(cl){
 }
 </script>
 
-<h1 onclick="toggle_visibility('funny');"><img style="vertical-align:middle" src="/assets/img/pronouns/icon.png"> Pronouns</h1>
+<h1 onclick="toggle_visibility('funny');"><img style="vertical-align:middle" src="/assets/img/pronouns/icon.png"> Pronouns <img style="vertical-align:middle" src="/assets/img/pronouns/mars-symbol.png" height="48px"></h1>
 <p>
 i have a blue hat and pronouns and no blue hair. sorry to disappoint.<br/>
 i'm a weird evil feminine agender boy-shaped creature, labels defy me.<br/>
