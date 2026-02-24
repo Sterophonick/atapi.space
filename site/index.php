@@ -27,7 +27,7 @@ $customSideContent = <<<EOF
         <img class="pixelArt" src="/assets/img/buttons/atapi.gif"
         title="Made by @ZenithNeko and @ashie404!!! <3">
         <textarea id="homeButtonTextArea" rows="2" cols="10" readonly="" onclick="this.setSelectionRange(0, this.value.length)">
-            <a href="https://atapi.space/"><img width="88px" height="31px" src="https://atapi.space/assets/img/buttons/atapi.gif" alt="A red-and-pink checkerboard button with the text "Atapi" on it. There is also an icon of a little cat fursona."></a>
+            <a href="https://atapi.space/"><img width="88px" height="31px" src="https://atapi.space/assets/img/buttons/atapi.gif" alt="Atapi's button!"></a>
         </textarea>
     </div>
 EOF;
