@@ -99,6 +99,7 @@ Here's some links to cool friends and other personal sites!!<br/>
 <a href="https://www.genesisjam.net/"><img src="/assets/img/buttons/genesisjam.gif"></a>
 <a href="https://eeep.ee/"><img src="/assets/img/buttons/chfour.png" alt="chfour" width="88" height="31"></a>
 <a href="https://freeplay.floof.company/"><img src="/assets/img/buttons/freeplay.gif"></a>
+<a href="https://riedler.wien/"><img src="/assets/img/buttons/riedler.gif"></a>
 </div>
 
 <br/>
