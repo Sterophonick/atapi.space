@@ -1,5 +1,9 @@
 <?php
 
+$customMusicSelections = array(
+    "Melos Han-Tani - Nexus", "/assets/snd/music/nexus.mp3",
+);
+
 $customSideContent = <<<EOF
     <div class="sideFunFact window">
         <h4 style="text-align: center">Fun fact!</h4>

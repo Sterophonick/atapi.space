@@ -23,7 +23,7 @@ $customQuoteSelections = array(
 );
 
 $customMusicSelections = array(
-    "per-page music demonstration!", "/assets/snd/music/different_ways.mp3",
+    "Melos Han-Tani - Nexus", "/assets/snd/music/nexus.mp3",
 );
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
