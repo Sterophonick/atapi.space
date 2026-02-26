@@ -122,7 +122,7 @@ style="font-size:10pt; font-weight: bold; text-align: center;">
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Sexy<br/>
 <img title="Meh" style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> Handsome<br/>
 <img title="Please!" style="vertical-align:middle" src="/assets/img/pronouns/fluster.png"> Good Boy<br/>
-<img title="Meh" style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> Good Girl<br/>
+<img title="Explodes you with my mind" style="vertical-align:middle" src="/assets/img/pronouns/die.png"> Good Girl<br/>
 <img title="Please!" style="vertical-align:middle" src="/assets/img/pronouns/fluster.png"> Adorable<br/>
 </td>
 </tr>
