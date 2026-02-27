@@ -100,6 +100,7 @@ Here's some links to cool friends and other personal sites!!<br/>
 <a href="https://eeep.ee/"><img src="/assets/img/buttons/chfour.png" alt="chfour" width="88" height="31"></a>
 <a href="https://freeplay.floof.company/"><img src="/assets/img/buttons/freeplay.gif"></a>
 <a href="https://riedler.wien/"><img src="/assets/img/buttons/riedler.gif"></a>
+<a href="https://chasnah.com/" title="chasnah.com"><img src=""/assets/img/buttons/chasnah.gif" width="88" height="31"></a>
 </div>
 
 <br/>
