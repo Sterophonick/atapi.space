@@ -430,6 +430,13 @@ Flash-based homepage for a web and graphic design firm.
 You're the Man Now, Dog!
 </p>
 
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20070811102316/http://www.smashmyps3.com/">SmashMyPs3.com</a><br />
+Screw the Sonic PlayStation 3
+</p>
+
 <?php
 
 echo constructPageFooter();

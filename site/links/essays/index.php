@@ -17,6 +17,11 @@ An essay that takes a deep dive into fascism and the related AI-generated slop t
 <p>
 <a href="https://maia.crimew.gay/posts/anarchism-in-the-now/">anarchism starts in the now</a><br />
 There is still time.
+</p><br/>
+
+<p>
+<a href="https://www.sheeeeeeeep.art/the-worship-of-engineering.html">WORSHIP OF THE ENGINEER</a><br />
+No, no, no. I wasn't women that sent people to the moon. I assure you, it was SOFTWARE that sent people to the moon.
 </p>
 
 <?php
