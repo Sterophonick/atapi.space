@@ -36,8 +36,15 @@ Content Warning // Language<br/>
     <img loading="lazy" src="/assets/img/blog/schooldrive/2014_2.png" alt="A short paragraph about Hell's Half Acre written in a hard-to-read font."><br/><br/>
     
     One last thing: yeah man, that article sure does state that alright. You go, little dude. That's quite a final copy you've got there.<br/>
-    <img loading="lazy" src="/assets/img/blog/schooldrive/2014_3.png" alt="A short paragraph about cash crops in the southern colonies."><br/><br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2014_3.png" alt="A short paragraph about cash crops in the southern colonies."><br/>
+</p><br/>
+
+<h2 id="p1">2015</h2>
+<p>
+    2015 has a bit more to go through, one of the things I was obsessed with at the time was the unicode standard, primarily because you could <a href="https://web.archive.org/web/20150112073558/http://unicodeemoticons.com/">make silly little pictures with them</a>, and also because the symbols in question couldn't be typed on any standard QWERTY keyboard. That is, until I realized that on Firefox you can hold LCtrl+LShift and press U, and then type the hex code for the symbol you want.<br/><br/>
     
+    Anyway this untitled document from January 8th has many of these symbols, which, now, 11 years later, draw with colors and details!<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_1.png" alt="Some symbols and emoji."><br/>
 </p>
 
 

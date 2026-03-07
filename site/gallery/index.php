@@ -736,6 +736,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/lemonheep_cabbit.jpg">
                 <p>February 2025<br/>based on that funny ahh cabbit pic</p>
         </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/lemonheep_balloon.png">
+                <p>March 2026<br/>she put me in the funny water balloon</p>
+        </td>
     </tr>
 </table>
 
