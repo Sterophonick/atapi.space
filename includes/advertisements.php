@@ -262,7 +262,7 @@ $adList = array(
     "/assets/img/ads/xcm3.gif","https://web.archive.org/web/20070930230921/http://www.xcm.cc/", // http://www.ps3news.com/banners/XCM_BM.swf
     "/assets/img/ads/xrom_swf1.gif","https://web.archive.org/web/20050712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/gba/XROM/5331/5331_468x60.swf
     "/assets/img/ads/xg-flash1.gif","https://web.archive.org/web/20030712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/gba/6079.swf
-    "/assets/img/ads/ps3break.gif","https://web.archive.org/web/20110612182338/http://www.ps3usercheat.com/en/" // currently unknown source, i forgor
+    "/assets/img/ads/ps3break.gif","https://web.archive.org/web/20110612182338/http://www.ps3usercheat.com/en/", // currently unknown source, i forgor
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
