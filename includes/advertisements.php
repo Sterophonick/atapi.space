@@ -246,11 +246,11 @@ $adList = array(
     "/assets/img/ads/pac-mclan.gif","",
     "/assets/img/ads/superluigi.gif","https://web.archive.org/web/20090805202656/http://geocities.com/akaku43/SuperLuigi64.html",
     "/assets/img/ads/neoflash.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/", // neoflash held coding competitions and shit
-    "/assets/img/ads/neoflash-mk2.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/".
-    "/assets/img/ads/neoflash-3in1.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/".
-    "/assets/img/ads/neoflash-comp-2005.png","https://web.archive.org/web/20050220102805/http://neoflash.com/". // 768x99 but it's the same aspect ratio
-    "/assets/img/ads/neoflash-comp-2006.png","https://web.archive.org/web/20060202133240/http://www.neoflash.com/forum/index.php/board,36.0.html".
-    "/assets/img/ads/neoflash-summer-comp-2006.png","https://web.archive.org/web/20060613074714im_/http://www.neoflash.com/img/NEO-contest-2006-Spring-banner.jpg".
+    "/assets/img/ads/neoflash-mk2.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/",
+    "/assets/img/ads/neoflash-3in1.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/",
+    "/assets/img/ads/neoflash-comp-2005.png","https://web.archive.org/web/20050220102805/http://neoflash.com/", // 768x99 but it's the same aspect ratio
+    "/assets/img/ads/neoflash-comp-2006.png","https://web.archive.org/web/20060202133240/http://www.neoflash.com/forum/index.php/board,36.0.html",
+    "/assets/img/ads/neoflash-summer-comp-2006.png","https://web.archive.org/web/20060613074714im_/http://www.neoflash.com/img/NEO-contest-2006-Spring-banner.jpg",
     "/assets/img/ads/al-gunban4.gif","https://web.archive.org/web/20030208035930/http://www.act-labs.com/", //pc light gun
     "/assets/img/ads/xarcade.gif","",
     "/assets/img/ads/free-romz-de.gif","https://web.archive.org/web/20050405031155/http://free-romz.de/",
