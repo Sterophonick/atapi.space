@@ -294,7 +294,7 @@ $adList = array(
 function createBannerAd() {
     global $adList;
 
-    $finalString = "<a";
+    $finalString = "<a target=\"_blank\" ";
 
     $adIndex = floor(mt_rand() % sizeof($adList) / 2) * 2;
     $adImg = $adList[$adIndex];
