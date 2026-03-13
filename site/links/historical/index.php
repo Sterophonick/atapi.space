@@ -430,11 +430,40 @@ Flash-based homepage for a web and graphic design firm.
 You're the Man Now, Dog!
 </p>
 
-
 <br />
 <p>
 <a href="https://web.archive.org/web/20070811102316/http://www.smashmyps3.com/">SmashMyPs3.com</a><br />
-Screw the Sonic PlayStation 3
+Screw the Sony PlayStation 3
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20021201102224/http://www.playoffline.com/gb/">FC EMULATOR for GAMEBOY</a><br />
+Famicom emulator made for the Game Boy DMG! Also has links to an emulator for the WonderSwan!
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20030601081550/http://sourceforge.net/projects/javaboy/">Javaboy Advance</a><br />
+Lightweight Java VM for the Game Boy Advance!
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20110623205821/http://www.electronicabaugar.com/">Electronica Baugar</a><br />
+Abysmal website from Spain about video games.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20041020084742/http://www.dwelch.com/gba/roids.htm">GBA Asteroids Emulator</a><br />
+Slow emulation of the Asteroids machine for the Game Boy Advance.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20110929110930/http://natrium42.com/blog/">Natrium42's Blog</a><br />
+Hardware and software projects for the Nintendo DS
 </p>
 
 <?php
