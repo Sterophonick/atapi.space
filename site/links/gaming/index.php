@@ -139,6 +139,11 @@ They freaking fixed the PC port. They made it good. Holy crap.
 Full albums in MP3 or FLAC of Video Game soundtracks.
 </p>
 
+<br/>
+<p>
+<a href="https://arcanekids.com/">ARCANE KID$</a><br/>
+Small team that has developed surrealist artistic satire games such as <i>Sonic Dreams Collection</i> and <i>Bubsy 3d: BVtJTR</i>.
+</p>
 
 <?php
 

@@ -280,6 +280,11 @@ $adList = array(
     "/assets/img/ads/virtual_boy.gif","http://web.archive.org/web/19970128181120/http://www.nintendo.co.jp/n02/vue/index.html",
     "/assets/img/ads/mavica.gif","http://web.archive.org/web/20000621133757/http://www.sel.sony.com/SEL/consumer/dimaging/browse_the_products/digital_mavica_camera/mavica_models/index.html",
     "/assets/img/ads/psion.gif","http://www.jaapsch.net/psion/index.htm",
+    
+    // created by Arcane Kid$, for Bubsy 3d (parody)
+    // these are 99px in height but i'm lowkey not caring about size anymore
+    "/assets/img/ads/bubsy3d-1.png","https://bubsy3d.com/",
+    "/assets/img/ads/bubsy3d-2.png","https://bubsy3d.com/",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
