@@ -566,6 +566,7 @@ $quoteStrings = array(
     "I feel like batman or halo.", "-- That guy whose Cybertruck blew up",
     
     "Rest well, Burgerbecky.", "",
+    "the fastest way to the truth is a joke","-- Arcane Kids",
     
 );
 

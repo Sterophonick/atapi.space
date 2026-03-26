@@ -285,6 +285,9 @@ $adList = array(
     // these are 99px in height but i'm lowkey not caring about size anymore
     "/assets/img/ads/bubsy3d-1.png","https://bubsy3d.com/",
     "/assets/img/ads/bubsy3d-2.png","https://bubsy3d.com/",
+    
+    // absolute bullshit
+    "/assets/img/ads/KDE_plasma.gif","https://kde.org/plasma-desktop/",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
