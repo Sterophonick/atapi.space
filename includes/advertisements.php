@@ -289,6 +289,7 @@ $adList = array(
     
     // absolute bullshit
     "/assets/img/ads/KDE_plasma.gif","https://kde.org/plasma-desktop/",
+    "/assets/img/ads/devkitpro.gif","https://devkitpro.org/",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
