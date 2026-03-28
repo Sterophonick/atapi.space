@@ -145,6 +145,18 @@ Full albums in MP3 or FLAC of Video Game soundtracks.
 Small team that has developed surrealist artistic satire games such as <i>Sonic Dreams Collection</i> and <i>Bubsy 3d: BVtJTR</i>.
 </p>
 
+<br/>
+<p>
+<a href="https://nosgoth.net/">Nosgothic Realm</a><br/>
+Fan site dedicated to the <i>Legacy of Kain</i> series of games. 
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/rexglue/rexglue-sdk">ReXGlue</a><br/>
+Generic Xbox 360 Recompilation SDK and Runtime based on rexdex's recompiler and heavily operated on Xenia backend code.
+</p>
+
 <?php
 
 echo constructPageFooter();
