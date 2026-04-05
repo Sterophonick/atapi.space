@@ -6,6 +6,7 @@ $customSideContent = <<<EOF
     <div class="extraSidebar window">
         <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
         <ul style="font-size: 13pt">
+            <li>2026/04/05: Counter reset! Switched to gttfcount which allows for timed visits! Previous counter was at 226808.</li>
             <li>2025/12/29: new blog!! i summarize the current state of linux gaming again!</li>
             <li>2025/10/29: New blog post about a stupid iPhone</li>
             <li>2025/10/19: Lots of new gallery entries! Check 'em out!</li>

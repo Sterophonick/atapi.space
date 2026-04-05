@@ -80,8 +80,10 @@ function constructPageFooter() {
     <td>
     EOF;
 
-    $htmlPage .= hitCounter();
-
+    # $htmlPage .= hitCounter();
+    
+    $htmlPage .= '<img src="/includes/thirdparty/gttfcount/counter.php?page=global&size=small&tcolor=ff0000&bgcolor=000030&hours=1">';
+    
     $htmlPage .= <<<EOF
     <td>
     <img class="pixelArt" style="padding-left: 25px;" src="/assets/img/buttons/cc-by-nc.png">

@@ -9,3 +9,4 @@ The source code to my website, https://atapi.space/.
 - common attack vectors redirected to /site/troll.html
 - common bot user agents (GPTBot, Facebook, Meta, Google, etc) connections dropped
 - make `/files/` a directory listing
+- php gd extension is required for counter
