@@ -5,13 +5,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/lastfm.php';
 $customSideContent = <<<EOF
     <div class="extraSidebar window">
         <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
-        <div class="innerScrollBox" style="width: 229px; height: 350px;">
+        <div class="innerScrollBox" style="width: 215px; height: 200px;">
             <ul style="font-size: 13pt">
-                <li>2026/04/05: Counter reset! Switched to gttfcount which allows for timed visits! Previous counter was at 226808.</li>
-                <li>2025/12/29: new blog!! i summarize the current state of linux gaming again!</li>
-                <li>2025/10/29: New blog post about a stupid iPhone</li>
-                <li>2025/10/19: Lots of new gallery entries! Check 'em out!</li>
-                <li>2025/09/21: New site layout! Currently very work-in-progress, not everything is finished, but damn does the site look so much cooler.</li>
+                <li><yellow>2026/04/05</yellow><br/> Counter reset! Switched to gttfcount which allows for timed visits! Previous counter was at 226808.</li>
+                <li><yellow>2025/12/29</yellow><br/> new blog!! i summarize the current state of linux gaming again!</li>
+                <li><yellow>2025/10/29</yellow><br/> New blog post about a stupid iPhone</li>
+                <li><yellow>2025/10/19</yellow><br/> Lots of new gallery entries! Check 'em out!</li>
+                <li><yellow>2025/09/21</yellow><br/> New site layout! Currently very work-in-progress, not everything is finished, but damn does the site look so much cooler.</li>
             <ul>
         </div>
     </div>
