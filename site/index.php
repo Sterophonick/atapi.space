@@ -105,7 +105,7 @@ Initially, I created this website as a place to be a somewhat less professional 
 
 <div id="friday"><script type="text/javascript">friday();</script></div>
 
-<p>here's my ridiculous collection of buttons!</p>
+
 <div id="buttons" class="buttonCollection" style="width: 100%; margin: auto; font-size:0%">
 <a href="https://www.gameboy-advance.net/"><img src="/assets/img/buttons/gbanet.gif"></a>
 <a href="https://www.mamedev.org/"><img src="/assets/img/buttons/mame.gif"></a>

@@ -111,6 +111,13 @@ Web server that's simple to set up. This site operates on it!
 FOSS artistry and animation program from KDE!
 </p>
 
+<br />
+<p>
+<a href="https://int10h.org/oldschool-pc-fonts/">The Ultimate Oldschool PC Font Pack</a><br />
+TTF Font Files replicating text-mode typefaces for various IBM PCs and compatibles!
+</p>
+
+
 <?php
 
 echo constructPageFooter();
