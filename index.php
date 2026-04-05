@@ -120,6 +120,14 @@
                     <a href="https://www.stellafoxxie.com/"><img src="/assets/img/buttons/stellafoxxie.gif"></a>
                     
                     <a href="https://swiftyshq.neocities.org/"><img src="/assets/img/buttons/swiftyshq.png"></a>
+                    
+                    <a href="https://www.genesisjam.net/"><img src="/assets/img/buttons/genesisjam.gif"></a>
+                    <a href="https://eeep.ee/"><img src="/assets/img/buttons/chfour.png" alt="chfour" width="88" height="31"></a>
+                    <a href="https://freeplay.floof.company/"><img src="/assets/img/buttons/freeplay.gif"></a>
+                    <a href="https://riedler.wien/"><img src="/assets/img/buttons/riedler.gif"></a>
+                    <a href="https://chasnah.com/" title="chasnah.com"><img src="/assets/img/buttons/chasnah.gif" width="88" height="31"></a>
+                    <a href="https://msx.horse/"><img src="/assets/img/buttons/msx8831.gif"></a>
+                    <a href="https://pquirrel.neocities.org//"><img src="/assets/img/buttons/pquirrel.gif"></a>
                     </marquee>
                     <br/>
                     
