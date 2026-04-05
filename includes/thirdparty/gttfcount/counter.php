@@ -146,6 +146,7 @@ switch($fsize) {
     case 'medium': $img_width = $count_length*30; $img_height = 50; break;
     case 'large': $img_width = $count_length*43; $img_height = 74; break;
 }
+
 // Make font size 3/5th of image height
 $font_size = 24;
 

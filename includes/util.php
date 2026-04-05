@@ -1,6 +1,5 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/counter.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/advertisements.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/blogSignature.php';
 
