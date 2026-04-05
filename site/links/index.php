@@ -28,7 +28,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
     <col width="320px" />
 
     <tr>
-    <td><a href="emu/">Emulation / Retrogaming</a><br />Links for emulation and retro gaming alike.<br /></td>
+    <td><a href="emu/">Emulation / Retrogaming</a><br />MAME and mGBA. No other emulators allowed.<br /></td>
     <td><a href="linux/">Linux</a><br />Linux-related news and links.<br /></td>
     </tr>
 
@@ -44,7 +44,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
 
     <tr>
     <td><a href="misc/">Miscellaneous</a><br />Random oddball stuff that doesn't fit the other categories.<br /></td>
-    <td><a href="historical/">Historical</a><br />The internet's graveyard / retirement home.<br /></td>
+    <td><a href="historical/">Historical</a><br />Remnants of decades past.<br /></td>
     </tr>
     
     <tr>
