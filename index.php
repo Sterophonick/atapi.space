@@ -127,7 +127,9 @@
                     <a href="https://riedler.wien/"><img src="/assets/img/buttons/riedler.gif"></a>
                     <a href="https://chasnah.com/" title="chasnah.com"><img src="/assets/img/buttons/chasnah.gif" width="88" height="31"></a>
                     <a href="https://msx.horse/"><img src="/assets/img/buttons/msx8831.gif"></a>
-                    <a href="https://pquirrel.neocities.org//"><img src="/assets/img/buttons/pquirrel.gif"></a>
+                    <a href="https://pquirrel.neocities.org/"><img src="/assets/img/buttons/pquirrel.gif"></a>
+                    
+                    <a href="https://robophobia.org"><img src="/assets/img/buttons/robophobia.gif"></a>
                     </marquee>
                     <br/>
                     

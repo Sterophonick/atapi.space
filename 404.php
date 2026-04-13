@@ -1,5 +1,9 @@
 <?php
 
+$customQuoteSelections = array(
+    "Well, this is embarrassing.", "-- Firefox (old versions)",
+);
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: HTTP 404");
 

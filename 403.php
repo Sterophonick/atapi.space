@@ -1,5 +1,9 @@
 <?php
 
+$customQuoteSelections = array(
+    "Don't be so silly!", "-- Game Boy Camera",
+);
+
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: HTTP 403");
 
