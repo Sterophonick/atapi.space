@@ -148,7 +148,7 @@ Initially, I created this website as a place to be a somewhat less professional 
 <a href="https://www.vulkan.org/"><img src="/assets/img/buttons/vulkan.png"></a>
 <img src="/assets/img/buttons/despacito.gif">
 <a href="https://winehq.org/"><img src="/assets/img/buttons/wine.png"></a>
-<img src="/assets/img/buttons/scene.png">
+<a href="https://scene.org/"><img src="/assets/img/buttons/scene.png"></a>
 <a href="https://modarchive.org/"><img src="/assets/img/buttons/modarchive.gif"></a>
 <img src="/assets/img/buttons/geo.gif">
 <img src="/assets/img/buttons/atari.gif">
