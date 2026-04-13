@@ -265,11 +265,13 @@ $adList = array(
     "/assets/img/ads/awesome-iso.gif","https://web.archive.org/web/20020821184859/http://www.awesome-iso.com/",
     
     // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
-    "/assets/img/ads/dss-tester.gif","https://web.archive.org/web/20020803000412/http://www.dsstester.com/", // what is a DSS?
+    // other sites can be found at https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html
+    "/assets/img/ads/dss-tester.gif","https://web.archive.org/web/20020803000412/http://www.dsstester.com/",
     "/assets/img/ads/dss-online-store.gif","https://web.archive.org/web/20020605032720/http://www.dssonlinestore.com/dss.html",
     "/assets/img/ads/dish-town.jpg","https://web.archive.org/web/20020804212823/http://www.dishtown.com/",
     "/assets/img/ads/eb2k-dss.gif","https://web.archive.org/web/20020605223027/http://easybuy2000.com/", // easybuy2000 sighting
     "/assets/img/ads/dishdooda.gif","https://web.archive.org/web/20020802191126/http://www.dishdooda.com/",
+    "/assets/img/ads/soldertime.gif","https://web.archive.org/web/20020928114149/http://www.soldertime.com/", // i don't think this site is fully working but it's cool
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
