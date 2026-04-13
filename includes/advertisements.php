@@ -42,7 +42,7 @@ $adList = array(
     "/assets/img/ads/presario.gif","https://web.archive.org/web/20060113065332/http://www.microwarehouse.co.uk/",
     "/assets/img/ads/yahoo.gif","https://web.archive.org/web/20050828081818/http://pager.yahoo.com/",
     "/assets/img/ads/digital.gif","",
-    "/assets/img/ads/ringtone.jpg","",
+    "/assets/img/ads/ringtone.jpg","https://www.youtube.com/watch?v=oS2ZPeat-w4",
     "/assets/img/ads/kenobi.jpg","https://web.archive.org/web/20120508111732/https://monicawankenobi0.tripod.com/index.html", // what the hell?
     "/assets/img/ads/dollars4mail.gif","",
     "/assets/img/ads/pentium3.gif","",
