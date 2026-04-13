@@ -203,11 +203,15 @@ $adList = array(
     "/assets/img/ads/ultimate-console-guides.gif","https://web.archive.org/web/20070226101907/http://www.ultimateconsoleguides.com/",
     "/assets/img/ads/xtreme-mods.gif","https://web.archive.org/web/20050303003621/http://www.extreme-mods.com/",
     "/assets/img/ads/gp2x-wiz.JPG","https://web.archive.org/web/20081207205830/http://gp2x.co.uk/",
+    
+    // the X-ROM Collection
+    // EasyBuy2000 mae a number of ads specifically for the 512mbit X-ROM cartridge, not just as gif, but as swf as well
     "/assets/img/ads/xrom512.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/xrom512_2.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/xrom512_3.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/xrom512_4.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
     "/assets/img/ads/xrom512_5.gif","https://web.archive.org/web/20070712060028/http://www.easybuy2000.com/",
+    
     "/assets/img/ads/xavbox.gif","https://web.archive.org/web/20071011014825/http://www.xavbox.info/",
     "/assets/img/ads/xbox-chameleon.gif","https://web.archive.org/web/20031012060028/http://www.easybuy2000.com/",
     "/assets/img/ads/planethardware.gif","https://web.archive.org/web/20010301212253/http://www.planethardware.com/",
@@ -254,6 +258,17 @@ $adList = array(
     "/assets/img/ads/al_gunban4.gif","https://web.archive.org/web/20030208035930/http://www.act-labs.com/", //pc light gun
     "/assets/img/ads/xarcade.gif","",
     "/assets/img/ads/free-romz-de.gif","https://web.archive.org/web/20050405031155/http://free-romz.de/",
+    "/assets/img/ads/xboxmodchips.gif","https://web.archive.org/web/20030202045927/http://xboxmodchips.net/",
+    "/assets/img/ads/xbox-topsites.png","https://web.archive.org/web/20030104135347/http://www.xboxcw.co.uk/topsites/list.php?status=NOV",
+    "/assets/img/ads/the-console-corner.gif","https://web.archive.org/web/20030122131542/http://the-console-corner.com/",
+    "/assets/img/ads/chuddhack.gif","https://web.archive.org/web/20021129083207/http://chuddhack.com/",
+    "/assets/img/ads/awesome-iso.gif","https://web.archive.org/web/20020821184859/http://www.awesome-iso.com/",
+    
+    // communities related to DSS, Dish, and DirecTV
+    "/assets/img/ads/dss-tester.gif","https://web.archive.org/web/20020803000412/http://www.dsstester.com/", // what is a DSS?
+    "/assets/img/ads/dss-online-store.gif","https://web.archive.org/web/20020605032720/http://www.dssonlinestore.com/dss.html",
+    "/assets/img/ads/dish-town.jpg","https://web.archive.org/web/20020804212823/http://www.dishtown.com/",
+    "/assets/img/ads/eb2k-dss.gif","https://web.archive.org/web/20020605223027/http://easybuy2000.com/", // easybuy2000 sighting
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
