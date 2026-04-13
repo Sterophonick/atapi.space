@@ -261,6 +261,7 @@ $adList = array(
     "/assets/img/ads/xboxmodchips.gif","https://web.archive.org/web/20030202045927/http://xboxmodchips.net/",
     "/assets/img/ads/xbox-topsites.png","https://web.archive.org/web/20030104135347/http://www.xboxcw.co.uk/topsites/list.php?status=NOV",
     "/assets/img/ads/the-console-corner.gif","https://web.archive.org/web/20030122131542/http://the-console-corner.com/",
+    "/assets/img/ads/the-console-corner2.gif","https://web.archive.org/web/20040222131542/http://the-console-corner.com/",
     "/assets/img/ads/chuddhack.gif","https://web.archive.org/web/20021129083207/http://chuddhack.com/",
     "/assets/img/ads/awesome-iso.gif","https://web.archive.org/web/20020821184859/http://www.awesome-iso.com/",
     "/assets/img/ads/xbox-rules.gif","https://web.archive.org/web/20030424172556/http://xboxrules.com/",
@@ -269,6 +270,9 @@ $adList = array(
     "/assets/img/ads/earthbound-express.gif","https://web.archive.org/web/20000819071225/http://www.starmen.net/ebexpress/",
     "/assets/img/ads/starmen.gif","https://web.archive.org/web/20030417170725/http://starmen.net/",
     "/assets/img/ads/pcrules.gif","https://web.archive.org/web/20031006015729/http://www.pcrules.com/",
+    "/assets/img/ads/xbox-emulation.jpg","https://web.archive.org/web/20040208164035/http://www.xbox-emulation.co.uk/",
+    "/assets/img/ads/xboxhacks.gif","https://web.archive.org/web/20050322015223/http://www.newenglanditgroup.com/xboxhacks/phpbb2/index.php",
+    "/assets/img/ads/xbox100.gif","https://web.archive.org/web/20030223043214/http://www.xbox100.com/index.php?s=",
     
     // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
     // other sites can be found at https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html
