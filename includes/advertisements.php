@@ -264,11 +264,12 @@ $adList = array(
     "/assets/img/ads/chuddhack.gif","https://web.archive.org/web/20021129083207/http://chuddhack.com/",
     "/assets/img/ads/awesome-iso.gif","https://web.archive.org/web/20020821184859/http://www.awesome-iso.com/",
     
-    // communities related to DSS, Dish, and DirecTV
+    // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
     "/assets/img/ads/dss-tester.gif","https://web.archive.org/web/20020803000412/http://www.dsstester.com/", // what is a DSS?
     "/assets/img/ads/dss-online-store.gif","https://web.archive.org/web/20020605032720/http://www.dssonlinestore.com/dss.html",
     "/assets/img/ads/dish-town.jpg","https://web.archive.org/web/20020804212823/http://www.dishtown.com/",
     "/assets/img/ads/eb2k-dss.gif","https://web.archive.org/web/20020605223027/http://easybuy2000.com/", // easybuy2000 sighting
+    "/assets/img/ads/dishdooda.gif","https://web.archive.org/web/20020802191126/http://www.dishdooda.com/",
     
     // Ads that originated from Adobe Flash SWFs
     // These are really cool and dynamic but really expensive when converting to gif
