@@ -18,7 +18,7 @@
  </p>
 
  <?php
- echo 'Your destination is ' . $_GET['name'] . '.';
+ echo 'Your destination is <i>' . $_GET['name'] . '</i>.';
  ?>
 
  <p>
@@ -31,6 +31,7 @@
 
  <div class="window landWin2">
  <p>
+ <br/>
  To proceed, click the following link:<br/>
 
  <?php
@@ -41,6 +42,7 @@
  To go back, click this link:<br/>
  <a href="javascript:history.back()">Nevermind, take me back!</a><br/>
  </p>
+ <br/>
 </div>
 <br/>
 <br/>

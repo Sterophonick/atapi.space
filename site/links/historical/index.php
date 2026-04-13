@@ -474,7 +474,7 @@ Piracy group that sold/linked products for pirating the satellite signals for Di
 
 <br />
 <p>
-<a href="/interstitial.php?name=Hack100.com Randkings&dest=https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html">Hack100.com Rankings</a><br />
+<a href="/interstitial.php?name=Hack100.com Rankings&dest=https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html">Hack100.com Rankings</a><br />
 Hub linking a ton of (historical) sites related to pirating satellite television, including decrypting DSS for DirecTV.
 </p>
 
