@@ -478,6 +478,12 @@ Piracy group that sold/linked products for pirating the satellite signals for Di
 Hub linking a ton of (historical) sites related to pirating satellite television, including decrypting DSS for DirecTV.
 </p>
 
+<br />
+<p>
+<a href="http://classic.fobby.net/petition/mother3/">Mother 3 Petition Aftermathematics</a><br />
+Documentation relating to Starmen.net's Mother 3 Petition to Nintendo of America.
+</p>
+
 <?php
 
 echo constructPageFooter();
