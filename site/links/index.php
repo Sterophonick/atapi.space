@@ -59,7 +59,7 @@ countWebLinks();
 ?>
 
 <br/><br/>
-Here's some links to cool friends and other personal sites!!<br/>
+Other internet creatures!<br/>
 <div id="buttons" class="buttonCollection" style="width: 100%; margin: auto; font-size:0%">
 <a href="https://ashiecorner.xyz"><img src="/assets/img/buttons/ashie404.gif"></a>
 <a href="https://zencorner.xyz"><img src="/assets/img/buttons/zenithneko.gif"></a>

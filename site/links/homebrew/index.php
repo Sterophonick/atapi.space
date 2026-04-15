@@ -169,6 +169,12 @@ Website dedicated to a homebrew Z80 television game console created by the webma
 Toolkit for Linux and macOS for performing hax on legacy iOS devices. Also has more information and exploits relating to these devices.
 </p>
 
+<br />
+<p>
+<a href="http://jhallenworld.com/relay.html">Single Board Relay Computer</a><br />
+Joe Hallen's simple computer comprised of electromechanical relays instead of transistors.
+</p>
+
 <?php
 
 echo constructPageFooter();
