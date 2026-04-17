@@ -643,7 +643,7 @@ $musicPathsList = array(
     <table border="0" cellpadding="0" cellspacing="0px" width="1000px" align="center" id="mainContent">
         <td class="pageSidebar">
             <div id="musicWindow" class="window">
-                <h4>Now Playing:</h4>
+                <h4><img style="vertical-align: middle" src="/assets/img/global/cd.gif"> Now Playing:</h4>
     
     <?php
     if(doWeShowMusicPlayer()){
