@@ -442,12 +442,22 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
   </tr>
   <tr>
     <td>
-        <img loading="lazy" class="galleryImg" style="filter: drop-shadow(0 0 5px white);" src="/assets/img/gallery/get_it_white_boy.png"></a>
+        <img loading="lazy" class="galleryImg galleryGlow" src="/assets/img/gallery/get_it_white_boy.png"></a>
         <p>December 2025<br />oh yeah break it down white boy<br/>(traced from noodlefunny)<br /><a href="/files/get_it_white_boy.xcf">Source File</a><br /></p>
     </td>
     <td>
-    <img loading="lazy" class="galleryImg" src="/assets/img/gallery/cabbit.png"></a>
-    <p>January 2026<br />cabbit<br /><a href="/files/cabbit.xcf">Source File</a><br /></p>
+        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/cabbit.png"></a>
+        <p>January 2026<br />cabbit<br /><a href="/files/cabbit.xcf">Source File</a><br /></p>
+    </td>
+    
+    <td>
+        <img loading="lazy" class="galleryImg" src="/assets/img/gallery/cabbit.png"></a>
+        <p>January 2026<br />cabbit<br /><a href="/files/cabbit.xcf">Source File</a><br /></p>
+    </td>
+    
+    <td>
+        <img loading="lazy" class="galleryImg galleryGlow" src="/assets/img/gallery/drpepper.png"></a>
+        <p>April 2026<br />here have royal crown !!!<br /><a href="/files/drpepper.xcf">Source File</a><br /></p>
     </td>
   </tr>
 </table>
