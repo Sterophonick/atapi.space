@@ -123,7 +123,9 @@ $adList = array(
     "/assets/img/ads/freepenguin.png","https://www.free-penguin.org/",
     "/assets/img/ads/gp32_gbax.jpg","https://web.archive.org/web/20041204053612/http://www.gbax.com/new/gp32.html",
     "/assets/img/ads/psp_shk.gif","",
-    "/assets/img/ads/modchipman.gif","https://web.archive.org/web/20050204040847/http://modchipman.com/",
+    
+    "/assets/img/ads/modchipman.gif","https://web.archive.org/web/20050204040847/http://modchipman.com/", //2005
+    "/assets/img/ads/modchipman2.gif","https://web.archive.org/web/20030608071058/http://www.modchipman.com/catalog/default.php", //2003
     
     "/assets/img/ads/voice-email.gif","https://web.archive.org/web/20000621105910/http://www.bonzi.com/voiceemail/voice.asp",
     "/assets/img/ads/cyberspace.gif","",
@@ -273,6 +275,7 @@ $adList = array(
     "/assets/img/ads/xbox-emulation.jpg","https://web.archive.org/web/20040208164035/http://www.xbox-emulation.co.uk/",
     "/assets/img/ads/xboxhacks.gif","https://web.archive.org/web/20050322015223/http://www.newenglanditgroup.com/xboxhacks/phpbb2/index.php",
     "/assets/img/ads/xbox100.gif","https://web.archive.org/web/20030223043214/http://www.xbox100.com/index.php?s=",
+    "/assets/img/ads/conker.png","",
     
     // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
     // other sites can be found at https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html
