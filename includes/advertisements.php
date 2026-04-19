@@ -276,6 +276,8 @@ $adList = array(
     "/assets/img/ads/xboxhacks.gif","https://web.archive.org/web/20050322015223/http://www.newenglanditgroup.com/xboxhacks/phpbb2/index.php",
     "/assets/img/ads/xbox100.gif","https://web.archive.org/web/20030223043214/http://www.xbox100.com/index.php?s=",
     "/assets/img/ads/conker.png","",
+    "/assets/img/ads/freevideogames.gif","https://web.archive.org/web/20040110095317/http://freevideogames.com/",
+    "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
     
     // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
     // other sites can be found at https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html
