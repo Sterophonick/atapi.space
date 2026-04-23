@@ -104,7 +104,7 @@
                     <a href="https://micro.niko.lgbt/"><img src="/assets/img/buttons/micro.png"></a>
                     <a href="https://sneexy.synth.download/"><img src="/assets/img/buttons/sneexy.gif"></a>
                     <a href="https://j4.lc/"><img src="/assets/img/buttons/j4.png"></a>
-                    <a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
+                    <a href="https://www.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 
                     <a href="https://flurrys.nekoweb.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 

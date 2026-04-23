@@ -87,7 +87,7 @@ Other internet creatures!<br/>
 <a href="/interstitial.php?name=Xaselgio's Den&dest=https://xaselgio.net"><img src="/assets/img/buttons/xaselgio.gif"></a>
 <a href="https://cavernofremembrance.neocities.org"><img src="/assets/img/buttons/cavern2.gif"></a>
 <a href="https://planetclue.com"><img src="/assets/img/buttons/planetclue.gif"></a>
-<a href="https://web0.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
+<a href="https://www.halotroop.com/"><img src="/assets/img/buttons/halotroop.gif"></a>
 <a href="https://flurrys.nekoweb.org/"><img src="/assets/img/buttons/nescartridges.gif"></a>
 <a href="https://darksdomain.neocities.org/"><img src="/assets/img/buttons/darksdomain.gif"></a>
 <a href="https://melankorin.net/"><img src="/assets/img/buttons/melankorin.gif"></a>
