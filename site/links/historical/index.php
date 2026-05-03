@@ -484,6 +484,12 @@ Hub linking a ton of (historical) sites related to pirating satellite television
 Documentation relating to Starmen.net's Mother 3 Petition to Nintendo of America.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20070220105453/https://www.kernelthread.com/publications/gbaunix/">UNIX® on the Game Boy Advance</a><br />
+PDP-11 emulator for the Game Boy Advance running UNIX v5.
+</p>
+
 <?php
 
 echo constructPageFooter();
