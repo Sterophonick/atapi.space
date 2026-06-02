@@ -24,6 +24,9 @@ $navContents = <<<EOF
             <a href="#ezfont">EZFont Java 1.1</a>
         </li>
         <li>
+            <a href="#elmo">Elmo V.Smile</a>
+        </li>
+        <li>
             <a href="#misc">Miscellaneous</a>
         </li>
     </ul>
@@ -91,6 +94,13 @@ only work on old versions of Windows.</p>
 <a href="/files/EZFont Java 1.1.jar">.jar File</a><br />
 <a href="/files/asc.dat">Template <code>asc.dat</code></a><br />
 <br/>
+
+<h3 id="elmo">Elmo's World: Elmo's Big Discoveries (USA)</h3>
+<p>A game I owned as a wee one, this is the English USA release of it. All other known regions have already been dumped.</p>
+<img width="320px" class="pixelArt" src="/assets/img/dumps/elmo1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/elmo2.png"><br />
+<a href="/files/elmo.zip">ROM Dump</a><br />
+<br/>
+
 
 <h3 id="misc">Miscellaneous Stuff</h3>
 <a href="WavePluginManual/">PogoShell GSM Plugin ps2gsm Guide (Translated)</a><a href="/files/ps2gsm003.zip">
