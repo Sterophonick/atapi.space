@@ -104,6 +104,7 @@ Other internet creatures!<br/>
 <a href="https://msx.horse/"><img src="/assets/img/buttons/msx8831.gif"></a>
 <a href="https://pquirrel.neocities.org//"><img src="/assets/img/buttons/pquirrel.gif"></a>
 <a href="https://robophobia.org"><img src="/assets/img/buttons/robophobia.gif"></a>
+<a href="https://nixwiz.network"><img src="/assets/img/buttons/nxiwiz.gif"></a>
 </div>
 
 <br/>
