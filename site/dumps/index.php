@@ -97,7 +97,7 @@ only work on old versions of Windows.</p>
 
 <h3 id="elmo">Elmo's World: Elmo's Big Discoveries (USA)</h3>
 <p>A game I owned as a wee one, this is the English USA release of it. All other known regions have already been dumped.</p>
-<img width="320px" class="pixelArt" src="/assets/img/dumps/elmo1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/elmo2.png"><br />
+<img width="320px" class="pixelArt" src="/assets/img/dumps/elmo-1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/elmo-2.png"><br />
 <a href="/files/elmo.zip">ROM Dump</a><br />
 <br/>
 
