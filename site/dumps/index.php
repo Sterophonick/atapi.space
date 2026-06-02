@@ -24,7 +24,7 @@ $navContents = <<<EOF
             <a href="#ezfont">EZFont Java 1.1</a>
         </li>
         <li>
-            <a href="#elmo">Elmo V.Smile</a>
+            <a href="#elmo">Elmo's Big Discoveries</a>
         </li>
         <li>
             <a href="#misc">Miscellaneous</a>
@@ -96,7 +96,7 @@ only work on old versions of Windows.</p>
 <br/>
 
 <h3 id="elmo">Elmo's World: Elmo's Big Discoveries (USA)</h3>
-<p>A game I owned as a wee one, this is the English USA release of it. All other known regions have already been dumped.</p>
+<p>A game I owned as a wee one for the V.Smile, this is the English USA release of it. All other known regions have already been dumped. Intended for use with MAME but will work on any other V.Smile emulator.</p>
 <img width="320px" class="pixelArt" src="/assets/img/dumps/elmo-1.png"><img width="320px" class="pixelArt" src="/assets/img/dumps/elmo-2.png"><br />
 <a href="/files/elmo.zip">ROM Dump</a><br />
 <br/>
