@@ -5,6 +5,7 @@ $navContents = <<<EOF
         <li><a href="#p1">Prelude</a></li>
         <li><a href="#p2">The Parts</a></li>
         <li><a href="#p3">Assembly</a></li>
+        <li><a href="#p4">The Dump</a></li>
     </ul>
 EOF;
 
@@ -14,7 +15,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Elmo's Big Discoveries in C
 ?>
 
 <h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Elmo's Big Discoveries in Cartridge Dumping</h2>
-<p>La la la la! La la la la! Elmo's World!<br/></p><br/>
+<p>Also known as: Atapi Skimps Out.<br/></p><br/>
 <p>
 Jun X, 2026<br/>
 Category: Project<br/>
@@ -28,7 +29,7 @@ If you've been around me before, you might be acutely aware of a console known a
 <small>I wanna turn that controller into an fightstick for Arcade emulation.</small><br/>
 <br/>
 
-<p>Anyway, I'm not really here to review the V.Smile itself, rather I am here to talk about fun and interesting shit I did with one of its games.</p><br/>
+<p>Anyway, I'm not really here to review the V.Smile itself, rather I am here to talk about fun and interesting stuff I did with one of its games.</p><br/>
 
 <p>This is <i>Elmo's World: Elmo's Big Discoveries</i>, one of the 2005 releases for the system, a game that involves specifically the <i>Elmo's World</i> segment from <i>Sesame Street</i>. In this game, you play as Elmo and have to solve various matching puzzles such as for colors, shapes, animal sounds, what have you. </p>
 <img loading="lazy" width="640px" src="/assets/img/blog/elmobd/elmo1.jpg"><br/>
@@ -88,8 +89,94 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
 
 <h2 id="p4">The Dump</h2>
 <p>
-    To get the board firmware and dump instructions
+    To get the board firmware and dump instructions, you have to email Team-Europe to request them. Not really a big deal, I don't think this was designed as an open-source project for public use, it's much more niche.
 </p>
+<img loading="lazy" src="/assets/img/blog/elmobd/files1.png"><br/><br/>
+
+<p>
+    So, here's what you get. The firmware files, a program called "CoolTerm," and the instructions. There are versions of the firmware for 230400 baud on the V5 board, the one I built, and 115200/230400 baud for the V6 board, which has surface mount components and more cartridge slots. I flashed the V5 230400 baud firmware with <code>avrdude</code>.
+</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/files2.png"><br/><br/>
+
+<p>The <code>CoolTerm</code> folder is where the magic happens. <a href="https://freeware.the-meiers.org/">CoolTerm</a> is a terminal program that connects to a serial port for data transmission, but its big feature is the ability to export data as a raw <code>.txt</code> file via its configuration.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/coolterm1.png"><br/><br/>
+
+<p>The instructions say to do as follows:</p>
+
+<div style="display: inline-block; margin:auto; text-align: left;">
+    <ol>
+        <li>Attach your cartridge to the slot.</li>
+        <li>Attach the Arduino to the PC.</li>
+        <li>Use <code>devmgmt.msc</code> to determine the COM port the Arduino is exposed at.</li>
+        <li>Edit the <code>.stc</code> file of your chosen Baudrate to point to your COM port.</li>
+        <li>Open CoolTerm, load the <code>.stc</code> config file.</li>
+        <li>Press CTRL+R to direct a TXT document to capture data to.</li>
+        <li>Disconnect the Arduino.</li>
+        <li>Connect the Arduino, and within 1-2 seconds, hit the <code>Connect</code> button in CoolTerm. There will be a delay before data starts being transferred, but the Arduino will just start spitting the ROM contents out with no user input.</li>
+    </ol>
+</div>
+
+<p>...doesn't seem like the most intuitive means of operation, but whatever, I'll play by your rules.<br/><br/>For dumping V.Smile cartridges, the switches need to be in the following positions:</p>
+<div style="display: inline-block; margin:auto; text-align: left;">
+    <ul>
+        <li>Voltage: 3V</li>
+        <li>Bits: 16</li>
+        <li>ROM Size: 8MB</li>
+        <li>V.Smile-CS2: L</li>
+    </ul>
+</div>
+
+<p>That last switch is particularly interesting, since there were a very small handful of V.Smile cartridges that had two 8MiB ROMs, creating a total of 16 MB. That sets the second chip select line high or low to set what ROM you want active, so if you're dumping a 16 MiB game you'd stitch together the two 8 MiB dumps, one for the low ROM and one for the high ROM. Neat little trick.</p><br/>
+
+<p>One problem: I am a chronic Linux user. The only version of this program that is provided is for Windows, but I do know that Wine is capable of passing through serial devices to the guest Win32 sandbox as a COM device. Surely enough, <code>COM33</code> appears as a link to <code>/dev/ttyUSB0</code> for our clone Arduino board.</p><br/>
+
+<p>So, following the instructions, I plug my cartridge into the shield, and initiate the transfer.</p>
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/shield2.jpg"><br/><br/>
+
+<p>Quick tangent, I love how I don't have to disassemble the cartridge to put it in here, i can just shove it in, it's real nice.</p><br/>
+
+<p>Anyway, reading out the data and woahaohhhhhh, that does not look like machine code in the slightest.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/coolterm2.png"><br/><br/>
+
+<p>In fact, numerous things appear to be wrong with how this configuration is transferring data. This dump is just plain garbage data.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex1.png"><br/><br/>
+
+<p>The hell? I did everything right, what kind of dump is this? I try again, more garbage data. Check my solder connections, nothing is amiss here, no bridges, no cold joints, everything is good. In fact, some of these dumps vary in size as well. One came out to 8346358 bytes instead of the intended 8388608 bytes. Huh?????</p><br/>
+
+<p>Cue an embarrassing amount of troubleshooting, numerous things tried. Trying the V6 board firmware produced no good results (as expected), trying raw capture with <code>grabserial</code> mixed with some Unix pipes yields no change in the behavior, and I ultimately wind up asking Team-Europe for any pointers. In our conversation they point out how Chinese clone boards could potentially have issues with their baudrate, usually being a maximum of 115200 baud. I do not have a V5 firmware that is this speed. Lovely.</p><br/>
+
+<p>As a hailmary, I switch over to Windows to perform my dumps. Funny story, I have not used this Windows partition in months and months. It is slow and unbearable to use in this state because Windows wants to auto-update at all times. My graphics drivers are repeatedly being reset during my attempts. So I leave it alone and let it settle for like 30 minutes.<br/><br/>Come back and try a dump, and I get three different dumps, all of different sizes, within roughly 4K of each other.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex2.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex3.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex4.png"><br/><br/>
+
+<p>Yeah, man. I guess.</p><br/>
+
+<p>At this point, it's gotta be the Arduino clone. Defeatedly, I go and drop the extra money on a genuine Arduino Mega 2560 complete with its chunky USB Type-B connector and all. And now we wait.<br/><br/>
+
+In the meantime, I'm screwing with the carts again, and notice something so unbelievably stupid.<br/><br/>Let's play a game. Can you spot what's wrong with this image?</p>
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/bad_alignment.jpg"><br/><br/>
+
+<p>If you guessed "the cartridge is misaligned," then congratulations! You are correct! There is a considerable amount of wiggle room for the PCB to move side to side. I didn't realize this, like at all until this moment. But that is basically the entire reason as to why I'm reading bad data. address and data lines were overlapping and returning just plain garbage to the Arduino.</p>
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/bad_alignment2.jpg"><br/><br/>
+
+<p>So, now is the part where I disassemble my Elmo cartridge to ensure that I can get the pins correctly aligned for the dump. Here's the PCB for documentation's sake.</p>
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/elmo_pcb.jpg"><br/>
+<small>(The PCB in the previous photos is a different game)</small><br/><br/>
+
+<p>My <i>real</i> Arduino board arrives and I quickly give it its new hat.</p>
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/new_duino.jpg"><br/><br/>
+
+<p>Attempting the dump back in Linux once more, and the combination of ensuring the cartridge alignment and... <b><i>holy shit</b></i>.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/coolterm_wine_good.png"><br/><br/>
+
+<p>Just like that, we start getting good data... and then we don't. The dump still doesnt't boot in MAME at all. A few attempts later and I get a dump that <i>does</i> boot but it's corrupted and crashes when playing the intro sequence.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/bad_dump_mame.png"><br/><br/>
+
+<p>This attempt was 256 bytes too short, but it ends very similarly to the good German and French dumps. It ends at <code>7FFEFFh</code> instead of <code>7FFFFFh</code>. WHY???<br/><br/>
+
+At this point, I'm losing my mind. Is it Wine? Does Wine struggle with capturing serial data like this? I have no idea. So off to Windows-land we go once again. And more updates that interrupt the dump attempts causing shortened files. BUT.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/coolterm_win1.png"><br/><br/>
 
 <?php
 
