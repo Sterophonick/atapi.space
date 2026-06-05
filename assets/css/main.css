@@ -419,3 +419,8 @@ a:hover .imgNoHover {
 .galleryGlow {
     filter: drop-shadow(0 0 5px white);
 }
+
+ghost {
+    font-size: 12pt;
+    color: grey;
+}
