@@ -75,7 +75,7 @@ $navContents = <<<EOF
                     <a href="#roachtoon">Roachtoon</a>
                 </li>
                 <li>
-                    <a href="#LeoJrTheTanooki">LeoJrTheTanooki</a>
+                    <a href="#AceRaccoon">AceRaccoon</a>
                 </li>
                 <li>
                     <a href="#Kaznoot">Kaznoot</a>
@@ -946,13 +946,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 </table>
 
 <br/>
-<h3 id="LeoJrTheTanooki">LeoJrTheTanooki</h3>
+<h3 id="AceRaccoon">AceRaccoon</h3>
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
             <a href="https://wetdry.world/@LeoJrTheTanooki/109377978742306962" target="_blank"><img
                     loading="lazy" class="galleryImg" src="/assets/img/gallery/leojr_m12.png"></a>
                 <p>November 2022<br />MOTHER 1+2 on the EZ-FLASH OMEGA DE</p>
+        </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/ace_god.png">
+                <p>May 2026<br />One day...</p>
         </td>
     </tr>
 </table>
