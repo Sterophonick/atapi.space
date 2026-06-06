@@ -38,8 +38,11 @@ echo constructPageHeader("Atapi's Domain! :: Blog", $useRssLink = true);
 <a href="throwbck/">Dumping a Piece of Crap</a><br />
 <a href="flash2advance/">Flash2Advance-ing your Game Boy Advance</a><br />
 <a href="iphone4,1/">The Unholy Horror of the iPhone 4S</a><br />
-<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="penguin0126/">The State of the Linux Desktop (2026 Edition)</a><br />
+<a href="penguin0126/">The State of the Linux Desktop (2026 Edition)</a><br />
 <br/>
+
+<h2>2026</h2>
+<img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"><a href="elmobd/">Elmo's Big Discoveries in Cartridge Dumping</a><br />
 <?php
 
 echo constructPageFooter();

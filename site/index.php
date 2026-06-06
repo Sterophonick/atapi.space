@@ -7,6 +7,7 @@ $customSideContent = <<<EOF
         <h4 style="text-align: center"><img class="pixelArt" style="vertical-align:middle" src="/assets/img/global/new.gif"> Site Updates!</h4>
         <div class="innerScrollBox" style="width: 215px; height: 200px;">
             <ul style="font-size: 13pt">
+                <li><yellow>2026/06/05</yellow><br/> New blog!! I preserved a US V.Smile game that was undumped for some reason.</li>
                 <li><yellow>2026/04/05</yellow><br/> Counter reset! Switched to gttfcount which allows for timed visits! Previous counter was at 226808.</li>
                 <li><yellow>2025/12/29</yellow><br/> new blog!! i summarize the current state of linux gaming again!</li>
                 <li><yellow>2025/10/29</yellow><br/> New blog post about a stupid iPhone</li>

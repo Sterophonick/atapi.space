@@ -6,6 +6,7 @@ $navContents = <<<EOF
         <li><a href="#p2">The Parts</a></li>
         <li><a href="#p3">Assembly</a></li>
         <li><a href="#p4">The Dump</a></li>
+        <li><a href="#p5">Postmortem</a></li>
     </ul>
 EOF;
 
@@ -17,7 +18,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Elmo's Big Discoveries in C
 <h2><img style="vertical-align:middle" src="/assets/img/blog/icon.png"> Elmo's Big Discoveries in Cartridge Dumping</h2>
 <p>Also known as: Atapi Skimps Out.<br/></p><br/>
 <p>
-Jun X, 2026<br/>
+June 5, 2026<br/>
 Category: Project<br/>
 </p>
 <br />
@@ -150,7 +151,7 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex3.png"><br/>
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex4.png"><br/><br/>
 
-<p>Yeah, man. I guess.</p><br/>
+<p>Yeah, man. I guess.<br/><br/>Not is the dump inconssistent, but the data lines are being given stuff that otherwise doesn't exist in the physical ROM glob top. The first 64K of all V.Smile games is supposed to be zeroed out for some reason.</p><br/>
 
 <p>At this point, it's gotta be the Arduino clone. Defeatedly, I go and drop the extra money on a genuine Arduino Mega 2560 complete with its chunky USB Type-B connector and all. And now we wait.<br/><br/>
 
@@ -167,7 +168,7 @@ In the meantime, I'm screwing with the carts again, and notice something so unbe
 <p>My <i>real</i> Arduino board arrives and I quickly give it its new hat.</p>
 <img loading="lazy" width="720px" src="/assets/img/blog/elmobd/new_duino.jpg"><br/><br/>
 
-<p>Attempting the dump back in Linux once more, and the combination of ensuring the cartridge alignment and... <b><i>holy shit</b></i>.</p>
+<p>Attempting the dump back in Linux once more, and the combination of ensuring the cartridge alignment and... <b><i>holy crap</b></i>.</p>
 <img loading="lazy" src="/assets/img/blog/elmobd/coolterm_wine_good.png"><br/><br/>
 
 <p>Just like that, we start getting good data... and then we don't. The dump still doesnt't boot in MAME at all. A few attempts later and I get a dump that <i>does</i> boot but it's corrupted and crashes when playing the intro sequence.</p>
@@ -177,6 +178,54 @@ In the meantime, I'm screwing with the carts again, and notice something so unbe
 
 At this point, I'm losing my mind. Is it Wine? Does Wine struggle with capturing serial data like this? I have no idea. So off to Windows-land we go once again. And more updates that interrupt the dump attempts causing shortened files. BUT.</p>
 <img loading="lazy" src="/assets/img/blog/elmobd/coolterm_win1.png"><br/><br/>
+
+<p>The data ends with the correct terminating bytes, and it comes to the correct size of 8388608 bytes. The MD5 hash is <code>06efb73eac8f5e5ef2c009ff788ffefc</code>. Repeat the dump, we get the same hash. Once more, same hash.<br/><br/>
+
+Ladies and fricks, we got it.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/good_dump_mame.png"><br/><br/>
+
+<p>From here, I opened a <a href="https://github.com/mamedev/mame/pull/15433">pull request</a> for the MAME software lists and eventually uploaded the file to here, and that's really it. That's the funny Elmo game finally preserved. We can all go home to our families.</p><br/>
+
+<h2 id="p5">Postmortem: Serial Program Troubleshooting</h2>
+<p>
+    Just kidding, there's more.<br/><br/>
+    
+    You know that part where I used CoolTerm in Wine? Well, I learned in the process of this project that this program does indeed have a Linux version, but I ultimately stuck with the Windows version to establish a "known-good" result for using this dumper.<br/><br/>
+    
+    CoolTerm does have Linux versions, easily installable using the <a href="https://aur.archlinux.org/packages/coolterm-bin"><code>coolterm-bin</code></a> package on the AUR, but the official .zip archive on the website works too.<br/><br/>
+    
+    So, since we now know how this program works, let's give the Linux version a spin. All that needs to be done is to change the serial device path in the <code>.stc</code> config file to point to the block device, in my case being <code>/dev/ttyACM0</code>.<br/><br/>
+    
+    Booting it up, following the other instructions, and it seems to capture data fine. Look at the bottom status bar, we've captured about 3 MiB thus far in this screenshot.
+</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/coolterm_linux1.png"><br/><br/>
+
+<p>The big problem here is that it doesn't save the whole file. For whatever reason it's much, much slower to update the destination file. So what is reported as a full 8388608-byte capture has the final hundred kilobytes completely missing for some reason. It's progress but it saves an incomplete file, making it more or less useless to me. This dump, while the entire rest of it is a good dump, doesn't boot at all in MAME.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/file_details.png"><br/><br/>
+
+<p>Of course, we're doing just a raw serial capture, and the Arduino itself appears to stop transmitting any data when it reaches the end of the ROM, so we can probably get away with some more "Unixy" tools like <code>stty</code>.<br/>
+
+So, as a test I used <code>stty</code> to configure the port as a 230400 baud port, used <code>cat</code> to directly echo data from the serial port, and then forward it to a binary file.</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/stty1.png"><br/><br/>
+
+<p>Wait the six or so minutes for the dump to complete and...</p>
+<img loading="lazy" src="/assets/img/blog/elmobd/good_hash_stty.png"><br/><br/>
+
+<p>Great. Alright, fantastic. I didn't have to use Windows after all. I'm not mad. Please don't put it in the newspaper that I got mad.</p><br/>
+
+<p>And now, as a funny present, I offer you some of the interesting patterns that came up in all of my failed dumps.<p>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex6.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex7.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex8.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex9.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex10.png"><br/>
+<img loading="lazy" src="/assets/img/blog/elmobd/imhex11.png"><br/>
+
+<br/>
+
+<p>Special greetz go to Team-Europe for developing this cartridge dumper, Segher Boessenkool for writing the first SPG emulator, as well the MAME team for their work on perfecting emulation of SunPlus SPG and other u'nSP-based SoCs, without which this project would not have been possible.</p><br/>
+
+<img loading="lazy" width="720px" src="/assets/img/blog/elmobd/deck.jpg">
 
 <?php
 
