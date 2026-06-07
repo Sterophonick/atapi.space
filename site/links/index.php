@@ -106,6 +106,7 @@ Other internet creatures!<br/>
 <a href="https://robophobia.org"><img src="/assets/img/buttons/robophobia.gif"></a>
 <a href="https://nixwiz.network"><img src="/assets/img/buttons/nixwiz.gif"></a>
 <a href="https://enderman0125.ryuen.ca/"><img src="/assets/img/buttons/enderman0125.gif"></a>
+<a href="https://byespace.net/"><img src="/assets/img/buttons/byespace.gif"></a>
 </div>
 
 <br/>
