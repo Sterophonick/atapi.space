@@ -490,6 +490,12 @@ Documentation relating to Starmen.net's Mother 3 Petition to Nintendo of America
 PDP-11 emulator for the Game Boy Advance running UNIX v5.
 </p>
 
+<br />
+<p>
+<a href="http://mootan.hg.to/fmgbx/ez_fmgbx.html">EZ(XG) LinkerでFlashManager for GBxを使用する</a><br />
+Japanese webpage that details a mod for the EZ-Flash II or XG-Flash reader that allows for dumping DMG/CGB cartridges.
+</p>
+
 <?php
 
 echo constructPageFooter();
