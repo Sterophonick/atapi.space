@@ -251,12 +251,15 @@ $adList = array(
     "/assets/img/ads/ipod.gif","",
     "/assets/img/ads/pac-mclan.gif","",
     "/assets/img/ads/superluigi.gif","https://web.archive.org/web/20090805202656/http://geocities.com/akaku43/SuperLuigi64.html",
+    
+    // The NeoFlash collection
     "/assets/img/ads/neoflash.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/", // neoflash held coding competitions and shit
     "/assets/img/ads/neoflash-mk2.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/",
     "/assets/img/ads/neoflash-3in1.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/",
     "/assets/img/ads/neoflash-comp-2005.png","https://web.archive.org/web/20050220102805/http://neoflash.com/", // 768x99 but it's the same aspect ratio
     "/assets/img/ads/neoflash-comp-2006.png","https://web.archive.org/web/20060202133240/http://www.neoflash.com/forum/index.php/board,36.0.html",
     "/assets/img/ads/neoflash-summer-comp-2006.jpg","https://web.archive.org/web/20060701042350/http://www.neoflash.com/forum/index.php/board,36.0.html",
+    
     "/assets/img/ads/al_gunban4.gif","https://web.archive.org/web/20030208035930/http://www.act-labs.com/", //pc light gun
     "/assets/img/ads/xarcade.gif","",
     "/assets/img/ads/free-romz-de.gif","https://web.archive.org/web/20050405031155/http://free-romz.de/",
@@ -279,6 +282,10 @@ $adList = array(
     "/assets/img/ads/freevideogames.gif","https://web.archive.org/web/20040110095317/http://freevideogames.com/",
     "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
     
+    //IC2005 collection
+    "/assets/img/ads/ic2005.gif","https://web.archive.org/web/20070519151818/https://www.ic2005.com/shop/home.php",
+    "/assets/img/ads/ic2005_2.gif","https://web.archive.org/web/20070519151818/https://www.ic2005.com/shop/home.php",
+    
     // communities related to DSS and Satellite TV, and for decrypting DSS for DirecTV piracy
     // other sites can be found at https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html
     "/assets/img/ads/dss-tester.gif","https://web.archive.org/web/20020803000412/http://www.dsstester.com/",
@@ -297,6 +304,7 @@ $adList = array(
     "/assets/img/ads/xg-flash1.gif","https://web.archive.org/web/20030712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/gba/6079.swf
     "/assets/img/ads/ps3break.gif","https://web.archive.org/web/20110612182338/http://www.ps3usercheat.com/en/", // currently unknown source, i forgor
     "/assets/img/ads/neoflash-comp-2007.gif","https://web.archive.org/web/20071011074919/http://www.neoflash.com/forum/index.php?www;board=90", // it comes from neoflash, it took too long to render this that i forget exactly where
+    "/assets/img/ads/neoflash-comp-2010.gif","https://web.archive.org/web/20101229043518/http://www.neoflash.com/go/index.php?option=com_content&task=section&id=4&Itemid=30", // http://www.neoflash.com/img/neo_compo.swf, captured dec 29 2010
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
