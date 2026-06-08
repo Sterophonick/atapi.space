@@ -127,7 +127,7 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
     </ul>
 </div>
 
-<p>That last switch is particularly interesting, since there were a very small handful of V.Smile cartridges that had two 8MiB ROMs, creating a total of 16 MB. That sets the second chip select line high or low to set what ROM you want active, so if you're dumping a 16 MiB game you'd stitch together the two 8 MiB dumps, one for the low ROM and one for the high ROM. Neat little trick.</p><br/>
+<p>That last switch, <code>V.Smile-CS2</code>, is particularly interesting, since there were a very small handful of V.Smile cartridges that had two 8MiB ROMs, creating a total of 16 MB. That switch sets the second chip select line high or low to set what ROM you want active, so if you're dumping a 16 MiB game you'd stitch together the two 8 MiB dumps, one for the low ROM and one for the high ROM. Neat little trick.</p><br/>
 
 <p>One problem: I am a chronic Linux user. The only version of this program that is provided is for Windows, but I do know that Wine is capable of passing through serial devices to the guest Win32 sandbox as a COM device. Surely enough, <code>COM33</code> appears as a link to <code>/dev/ttyUSB0</code> for our clone Arduino board.</p><br/>
 
@@ -151,7 +151,7 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex3.png"><br/>
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex4.png"><br/><br/>
 
-<p>Yeah, man. I guess.<br/><br/>Not is the dump inconssistent, but the data lines are being given stuff that otherwise doesn't exist in the physical ROM glob top. The first 64K of all V.Smile games is supposed to be zeroed out for some reason.</p><br/>
+<p>Yeah, man. I guess.<br/><br/>Not only is the dump inconsistent, but the data lines are being given stuff that otherwise doesn't exist in the physical ROM glob top. The first 64K of all V.Smile games is supposed to be zeroed out for some reason.</p><br/>
 
 <p>At this point, it's gotta be the Arduino clone. Defeatedly, I go and drop the extra money on a genuine Arduino Mega 2560 complete with its chunky USB Type-B connector and all. And now we wait.<br/><br/>
 
@@ -192,7 +192,7 @@ Ladies and fricks, we got it.</p>
     
     You know that part where I used CoolTerm in Wine? Well, I learned in the process of this project that this program does indeed have a Linux version, but I ultimately stuck with the Windows version to establish a "known-good" result for using this dumper.<br/><br/>
     
-    CoolTerm does have Linux versions, easily installable using the <a href="https://aur.archlinux.org/packages/coolterm-bin"><code>coolterm-bin</code></a> package on the AUR, but the official .zip archive on the website works too.<br/><br/>
+    THe Linux builds are easily installable using the <a href="https://aur.archlinux.org/packages/coolterm-bin"><code>coolterm-bin</code></a> package on the AUR, but the official .zip archive on the website works too.<br/><br/>
     
     So, since we now know how this program works, let's give the Linux version a spin. All that needs to be done is to change the serial device path in the <code>.stc</code> config file to point to the block device, in my case being <code>/dev/ttyACM0</code>.<br/><br/>
     
