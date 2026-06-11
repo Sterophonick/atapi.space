@@ -283,12 +283,15 @@ $adList = array(
     "/assets/img/ads/freevideogames.gif","https://web.archive.org/web/20040110095317/http://freevideogames.com/",
     "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
     
-    // EasyBuy2000's own banners
+    // more EasyBuy2000 banners
     "/assets/img/ads/eb2k.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-2.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-3.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-4.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-5.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
+    "/assets/img/ads/eb2k-6.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
+    "/assets/img/ads/eb2k-solderless.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
+    "/assets/img/ads/xchip.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     
     //IC2005 collection
     "/assets/img/ads/ic2005.gif","https://web.archive.org/web/20070519151818/https://www.ic2005.com/shop/home.php",
@@ -313,6 +316,7 @@ $adList = array(
     "/assets/img/ads/ps3break.gif","https://web.archive.org/web/20110612182338/http://www.ps3usercheat.com/en/", // currently unknown source, i forgor
     "/assets/img/ads/neoflash-comp-2007.gif","https://web.archive.org/web/20071011074919/http://www.neoflash.com/forum/index.php?www;board=90", // it comes from neoflash, it took too long to render this that i forget exactly where
     "/assets/img/ads/neoflash-comp-2010.gif","https://web.archive.org/web/20101229043518/http://www.neoflash.com/go/index.php?option=com_content&task=section&id=4&Itemid=30", // http://www.neoflash.com/img/neo_compo.swf, captured dec 29 2010
+    "/assets/img/ads/eb2k-matrix.gif","https://web.archive.org/web/20050712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/xbox/matrix_468x60_xboxconnection5293.swf
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
