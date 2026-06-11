@@ -287,6 +287,8 @@ $adList = array(
     "/assets/img/ads/eb2k.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-2.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-3.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
+    "/assets/img/ads/eb2k-4.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
+    "/assets/img/ads/eb2k-5.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     
     //IC2005 collection
     "/assets/img/ads/ic2005.gif","https://web.archive.org/web/20070519151818/https://www.ic2005.com/shop/home.php",
