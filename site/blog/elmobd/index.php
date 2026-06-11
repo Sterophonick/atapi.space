@@ -223,7 +223,7 @@ So, as a test I used <code>stty</code> to configure the port as a 230400 baud po
 
 <br/>
 
-<p>Special greetz go to Team-Europe for developing this cartridge dumper, Segher Boessenkool for writing the first SPG emulator, as well the MAME team for their work on perfecting emulation of SunPlus SPG and other u'nSP-based SoCs, without which this project would not have been possible.</p><br/>
+<p>Special greetz go to Team-Europe for developing this cartridge dumper, Segher Boessenkool for writing the first SunPlus SPG emulator, as well the MAME team for their work on perfecting emulation of SPG and other u'nSP-based SoCs, without which this project would not have been possible.</p><br/>
 
 <img loading="lazy" width="720px" src="/assets/img/blog/elmobd/deck.jpg">
 
