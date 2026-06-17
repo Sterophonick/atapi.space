@@ -25,14 +25,14 @@ Category: Project<br/>
 <p id="p1">
 Sorry for no blogs for the last while, came down with Peggle Fever.<br/><br/>
 
-If you've been around me before, you might be acutely aware of a console known as the <i>V.Smile</i>, an edutainment machine that released in 2004, complete with bright colors, an adaptable paw-shaped controller, and a bunch of games featuring recognizable characters such as Elmo or Spider-Man, all teaching subjects such as math, problem-solving, shapes, colors, you get the idea. While the machine isn't particularly spectacular, I'd say it's a mile over giving a kid an iPad and telling them to run free on YouTube Kids for a few hours.</p>
+If you've been around me before, you might be acutely aware of a console known as the <i>V.Smile</i>, an edutainment machine that released in 2004, complete with bright colors, an adaptable paw-shaped controller, and a bunch of games featuring recognizable characters such as Elmo or Spider-Man, all teaching subjects like math, problem-solving, shapes, colors, you get the idea. While the machine isn't particularly spectacular, I'd say it's a mile over giving a kid an iPad and telling them to run free on YouTube Kids for a few hours.</p>
 <img loading="lazy" width="720px" src="/assets/img/blog/elmobd/vsmile1.jpg"><br/>
 <small>I wanna turn that controller into an fightstick for Arcade emulation.</small><br/>
 <br/>
 
 <p>Anyway, I'm not really here to review the V.Smile itself, rather I am here to talk about fun and interesting stuff I did with one of its games.</p><br/>
 
-<p>This is <i>Elmo's World: Elmo's Big Discoveries</i>, one of the 2005 releases for the system, a game that involves specifically the <i>Elmo's World</i> segment from <i>Sesame Street</i>. In this game, you play as Elmo and have to solve various matching puzzles such as for colors, shapes, animal sounds, what have you. </p>
+<p>This is <i>Elmo's World: Elmo's Big Discoveries</i>, one of the 2005 releases for the system. It's a game that involves specifically the <i>Elmo's World</i> segment from <i>Sesame Street</i>, where the player controls Elmo with the objective of solving various matching puzzles as they explore the map. These puzzles could range from numbers, colors, shapes, and objects.</p>
 <img loading="lazy" width="640px" src="/assets/img/blog/elmobd/elmo1.jpg"><br/>
 <small>Forgive the mildly destroyed label art, it is required to destroy it to open the games up.</small><br/><br/>
 
@@ -142,9 +142,9 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
 <p>In fact, numerous things appear to be wrong with how this configuration is transferring data. This dump is just plain garbage data.</p>
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex1.png"><br/><br/>
 
-<p>The hell? I did everything right, what kind of dump is this? I try again, more garbage data. Check my solder connections, nothing is amiss here, no bridges, no cold joints, everything is good. In fact, some of these dumps vary in size as well. One came out to 8346358 bytes instead of the intended 8388608 bytes. Huh?????</p><br/>
+<p>The hell? I did everything right, what kind of dump is this? I try again, and get more garbage data. Checking my solder connections yielded nothing amiss, no cold joints, no bridges, nothing. In fact, some of these dumps vary in size as well. One came out to 8346358 bytes instead of the intended 8388608 bytes. Huh?????</p><br/>
 
-<p>Cue an embarrassing amount of troubleshooting, numerous things tried. Trying the V6 board firmware produced no good results (as expected), trying raw capture with <code>grabserial</code> mixed with some Unix pipes yields no change in the behavior, and I ultimately wind up asking Team-Europe for any pointers. In our conversation they point out how Chinese clone boards could potentially have issues with their baudrate, usually being a maximum of 115200 baud. I do not have a V5 firmware that is this speed. Lovely.</p><br/>
+<p>Cue an embarrassing amount of troubleshooting, numerous things were tried in this process. Trying the V6 board firmware produced no good results (as expected), trying raw capture with <code>grabserial</code> mixed with some Unix pipes yields no change in the behavior, and I ultimately wind up asking Team-Europe for any pointers. In our conversation they point out how Chinese clone boards could potentially have issues with their baudrate, usually being a maximum of 115200 baud. I do not have a V5 firmware that is this speed. Lovely.</p><br/>
 
 <p>As a hailmary, I switch over to Windows to perform my dumps. Funny story, I have not used this Windows partition in months and months. It is slow and unbearable to use in this state because Windows wants to auto-update at all times. My graphics drivers are repeatedly being reset during my attempts. So I leave it alone and let it settle for like 30 minutes.<br/><br/>Come back and try a dump, and I get three different dumps, all of different sizes, within roughly 4K of each other.</p>
 <img loading="lazy" src="/assets/img/blog/elmobd/imhex2.png"><br/>
@@ -155,7 +155,7 @@ The cart edge connectors that I ordered <i>are</i> compatible with V.Smile Smart
 
 <p>At this point, it's gotta be the Arduino clone. Defeatedly, I go and drop the extra money on a genuine Arduino Mega 2560 complete with its chunky USB Type-B connector and all. And now we wait.<br/><br/>
 
-In the meantime, I'm screwing with the carts again, and notice something so unbelievably stupid.<br/><br/>Let's play a game. Can you spot what's wrong with this image?</p>
+In the meantime, I'm screwing with the carts again, and notice something unbelievably stupid.<br/><br/>Let's play a game. Can you spot what's wrong with this image?</p>
 <img loading="lazy" width="720px" src="/assets/img/blog/elmobd/bad_alignment.jpg"><br/><br/>
 
 <p>If you guessed "the cartridge is misaligned," then congratulations! You are correct! There is a considerable amount of wiggle room for the PCB to move side to side. I didn't realize this, like at all until this moment. But that is basically the entire reason as to why I'm reading bad data. address and data lines were overlapping and returning just plain garbage to the Arduino.</p>
@@ -200,7 +200,7 @@ Ladies and fricks, we got it.</p>
 </p>
 <img loading="lazy" src="/assets/img/blog/elmobd/coolterm_linux1.png"><br/><br/>
 
-<p>The big problem here is that it doesn't save the whole file. For whatever reason it's much, much slower to update the destination file. So what is reported as a full 8388608-byte capture has the final hundred kilobytes completely missing for some reason. It's progress but it saves an incomplete file, making it more or less useless to me. This dump, while the entire rest of it is a good dump, doesn't boot at all in MAME.</p>
+<p>The big problem here is that it doesn't save the whole file. For whatever reason, it's slower to update the destination file, and doesn't save the whole thing. So what is reported as a full 8388608-byte capture has the final hundred kilobytes completely missing. It's progress, but it saves an incomplete file, making it more or less useless to me. This dump, while the entire rest of it is a good dump, doesn't boot at all in MAME.</p>
 <img loading="lazy" src="/assets/img/blog/elmobd/file_details.png"><br/><br/>
 
 <p>Of course, we're doing just a raw serial capture, and the Arduino itself appears to stop transmitting any data when it reaches the end of the ROM, so we can probably get away with some more "Unixy" tools like <code>stty</code>.<br/>
