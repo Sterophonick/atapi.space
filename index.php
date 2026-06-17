@@ -132,6 +132,8 @@
                     <a href="https://robophobia.org"><img src="/assets/img/buttons/robophobia.gif"></a>
                     <a href="https://nixwiz.network"><img src="/assets/img/buttons/nixwiz.gif"></a>
                     <a href="https://enderman0125.ryuen.ca/"><img src="/assets/img/buttons/enderman0125.gif"></a>
+                    
+                    <a href="https://eli.toys/"><img src="/assets/img/buttons/eli.gif"></a>
                     </marquee>
                     <br/>
                     
