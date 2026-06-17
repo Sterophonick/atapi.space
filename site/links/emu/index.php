@@ -188,7 +188,7 @@ Database of handheld electronic toys and games.
 <br />
 <p>
 <a href="http://www.adventurevision.com/">AdventureVision.com</a><br />
-Website dedicated to the obscure tabletop game, the Extex Adventure Vision.
+Website dedicated to the obscure tabletop game, the Entex Adventure Vision.
 </p>
 <br/>
 <p>
