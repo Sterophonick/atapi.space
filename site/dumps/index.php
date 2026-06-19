@@ -117,7 +117,8 @@ and HEL.)</a><br />
 <a href="/files/Adpcm - 050612 (light).rar">Source code to NRX's ADPCM library. (Required for above source
 code.)</a><br />
 <a href="/files/Scratch-461.exe">Scratch 2 Offline Editor v461</a><br />
-<a href="/files/AdobeAIRInstaller.exe">Adobe AIR Installer (required for Scratch 2)</a>
+<a href="/files/AdobeAIRInstaller.exe">Adobe AIR Installer (required for Scratch 2)</a><br/><br/>
+<a href="flash/">Some Flash content I'm hosting for retro computers to play.</a>
 
 <?php
 
