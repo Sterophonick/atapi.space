@@ -14,11 +14,7 @@ function musicFocusCookie() {
     document.cookie = "focusplay=" + state + ";path=/";
 }
 
-function bgAnimCookie() {
-    var state = document.getElementById("disableBgAnim").checked;
-    document.cookie = "bganim=" + state + ";path=/";
-    
-    
+function updateBgAnim() {
     if(getCookieByName("bganim") == 'true') {
         document.body.classList.add('no-bg-anim');
     } else {
@@ -26,10 +22,18 @@ function bgAnimCookie() {
     }
 }
 
+function bgAnimCookie() {
+    var state = document.getElementById("disableBgAnim").checked;
+    document.cookie = "bganim=" + state + ";path=/";
+    
+    updateBgAnim();
+}
+
 
 function getCookieByName(name) {
     const cookies = document.cookie.split(';');
-    for (let cookie of cookies) {
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
         cookie = cookie.trim();
         if (cookie.startsWith(name + '=')) {
             return cookie.substring(name.length + 1);
@@ -55,6 +59,8 @@ if(window.location.pathname == "/site/") {
     showOneko();
 }
 
+//updateBgAnim();
+
 // make the musicplayer autoplay as necessary
 var player = document.getElementById("musicPlayer");
 player.volume = 0.30;
@@ -64,9 +70,3 @@ if(getCookieByName("autoplay") == 'false') {
 }
 
 document.getElementById("oneko").style.display = (getCookieByName("oneko") == "true" ? true : false ) ? 'none' : 'block';
-
-if(getCookieByName("bganim") == 'true') {
-    document.body.classList.add('no-bg-anim');
-} else {
-    document.body.classList.remove('no-bg-anim');
-}

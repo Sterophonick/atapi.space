@@ -33,10 +33,19 @@ function constructPageHeader($pageTitle, $useRssLink = false) {
     <meta charset="utf-8" />
     </head>
 
-    <body>
-    <div class="boxConstraint">
-
     EOF;
+    
+    if(isset($_COOKIE["bganim"])) {
+        if ($_COOKIE["bganim"] === 'true') {
+            $htmlPage .= '<body class="no-bg-anim">';
+        } else {
+            $htmlPage .= '<body>';
+        }
+    } else {
+        $htmlPage .= '<body>';
+    }
+        
+    $htmlPage .= '<div class="boxConstraint">';
 
     ob_start();
     $return = include $_SERVER['DOCUMENT_ROOT'] . "/includes/header.php";
