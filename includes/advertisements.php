@@ -344,6 +344,7 @@ $adList = array(
     "/assets/img/ads/KDE_plasma.gif","https://kde.org/plasma-desktop/",
     "/assets/img/ads/devkitpro.gif","https://devkitpro.org/",
     "/assets/img/ads/creeper-apocalypse.png","https://web.archive.org/web/20120228034613im_/http://samlancashire.com/quiz/creeper/",
+    "/assets/img/ads/download-music.png","https://cobalt.meowing.de/",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
