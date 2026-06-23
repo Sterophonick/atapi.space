@@ -137,6 +137,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#forest">forest / swiftyshq</a>
                 </li>
+                <li>
+                    <a href="#icyxzavien">icyxzavien</a>
+                </li>
             </ul>
 
         </li>
@@ -1201,6 +1204,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <a href="/assets/img/gallery/forest_atapi1.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/forest_atapi1_thumb.jpg"></a>
             <p>November 2025</br>bleh</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="icyxzavien">icyxzavien</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <a href="/assets/img/gallery/icyxzavien_wheelman.jpg"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/icyxzavien_wheelman_thumb.jpg"></a>
+            <p>June 2026</br>My name's Atapi Burik. I'm a wheelman.</p>
         </td>
     </tr>
 </table>
