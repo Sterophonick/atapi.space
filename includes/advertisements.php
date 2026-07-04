@@ -251,6 +251,13 @@ $adList = array(
     "/assets/img/ads/ipod.gif","",
     "/assets/img/ads/pac-mclan.gif","",
     "/assets/img/ads/superluigi.gif","https://web.archive.org/web/20090805202656/http://geocities.com/akaku43/SuperLuigi64.html",
+    "/assets/img/ads/alphapowerd.gif","https://web.archive.org/web/19970622131126/http://www.dec.com/alphaserver/",
+    
+    "/assets/img/ads/dream100.gif","",
+    "/assets/img/ads/dreamcast.gif","https://github.com/flyinghead/flycast",
+    "/assets/img/ads/intel-internet-video-phone-1996.gif","",
+    "/assets/img/ads/kromer.gif","https://kromercoin.com/",
+    "/assets/img/ads/ibmjava.gif","https://web.archive.org/web/20010410204759/http://www-106.ibm.com/developerworks/java/",
     
     // The NeoFlash collection
     "/assets/img/ads/neoflash.gif","https://web.archive.org/web/20060220102805/http://neoflash.com/", // neoflash held coding competitions and shit
@@ -345,6 +352,7 @@ $adList = array(
     "/assets/img/ads/devkitpro.gif","https://devkitpro.org/",
     "/assets/img/ads/creeper-apocalypse.png","https://web.archive.org/web/20120228034613im_/http://samlancashire.com/quiz/creeper/",
     "/assets/img/ads/download-music.png","https://cobalt.meowing.de/",
+    "/assets/img/ads/guineapig.gif","",
 
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
