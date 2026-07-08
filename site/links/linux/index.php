@@ -57,6 +57,13 @@ Open mirror of Valve's SteamOS source packages.
 <a href="https://github.com/doitsujin/dxvk">DXVK</a><br />
 Vulkan-based implementation of D3D8, 9, 10, and 11 for Linux/WINE.
 </p>
+
+<br />
+<p>
+<a href="https://github.com/WinterSnowfall/d7vk">D7VK</a><br />
+Fork of DXVK targetting D3D7, 6, 5, and 3.
+</p>
+
 <br />
 <p>
 <a href="https://github.com/HansKristian-Work/vkd3d-proton">vkd3d-proton</a><br />
