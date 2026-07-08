@@ -290,6 +290,10 @@ $adList = array(
     "/assets/img/ads/freevideogames.gif","https://web.archive.org/web/20040110095317/http://freevideogames.com/",
     "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
     
+    # GameCopyWorld
+    "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
+    "/assets/img/ads/gcw_2.jpg","https://gamecopyworld.com/games/index.php",
+    
     // more EasyBuy2000 banners
     "/assets/img/ads/eb2k.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",
     "/assets/img/ads/eb2k-2.gif","https://web.archive.org/web/20050207015349im_/http://www.easybuy2000.com/",

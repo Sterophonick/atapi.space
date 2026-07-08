@@ -9,6 +9,12 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Homebrew / Hacking");
 <p>Like the gaming section but if it was evil.</p><br/>
 
 <p>
+<a href="https://hacks.guide/">hacks.guide</a><br />
+Want to homebrew your consoles? This site here gives detailed instructions on how to do it right for various Nintendo machines as well as PlayStation Vita.
+</p>
+
+<br/>
+<p>
 <a href="https://github.com/studio8502/Sentinel-65X">Sentinel 65X</a><br />
 Cost-reduced 65816 hobbyist microcomputer.
 </p>
@@ -173,6 +179,18 @@ Toolkit for Linux and macOS for performing hax on legacy iOS devices. Also has m
 <p>
 <a href="http://jhallenworld.com/relay.html">Single Board Relay Computer</a><br />
 Joe Hallen's simple computer comprised of electromechanical relays instead of transistors.
+</p>
+
+<br/>
+<p>
+<a href="https://www.smwcentral.net/">SMW Central</a><br />
+Your primary Super Mario World ROM hacking resource since 2006.
+</p>
+
+<br/>
+<p>
+<a href="https://www.retrodotcards.com/">Retro Dot Cards</a><br />
+Purchaseable e-Reader cards for the Game Boy Advance!
 </p>
 
 <?php

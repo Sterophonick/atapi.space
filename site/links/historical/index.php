@@ -22,6 +22,13 @@ echo constructPageHeader("Atapi's Domain! :: Links :: Historical");
 Emanuel Schleussinger's homepage, hosting the old HAM GBA dev kit.
 </p>
 <br />
+
+<p>
+<a href="https://www.spacejam.com/1996/">Space Jam (1996)</a><br />
+1996 homepage for Space Jam. If this is taken down, the whole internet is basically screwed.
+</p>
+<br />
+
 <p>
 <a href="https://web.archive.org/web/20200611015937/https://gefiltergate.com/">GE Filtergate</a><br />
 Some guy's vulgar rants about his refrigerator's filter DRM.

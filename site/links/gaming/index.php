@@ -157,6 +157,12 @@ Fan site dedicated to the <i>Legacy of Kain</i> series of games.
 Generic Xbox 360 Recompilation SDK and Runtime based on rexdex's recompiler and heavily operated on Xenia backend code.
 </p>
 
+<br/>
+<p>
+<a href="https://gamecopyworld.com/games/index.php">GameCopyWorld</a><br/>
+Scene releases and cracks for many, many PC games!
+</p>
+
 <?php
 
 echo constructPageFooter();
