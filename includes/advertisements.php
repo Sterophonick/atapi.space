@@ -328,6 +328,7 @@ $adList = array(
     "/assets/img/ads/neoflash-comp-2007.gif","https://web.archive.org/web/20071011074919/http://www.neoflash.com/forum/index.php?www;board=90", // it comes from neoflash, it took too long to render this that i forget exactly where
     "/assets/img/ads/neoflash-comp-2010.gif","https://web.archive.org/web/20101229043518/http://www.neoflash.com/go/index.php?option=com_content&task=section&id=4&Itemid=30", // http://www.neoflash.com/img/neo_compo.swf, captured dec 29 2010
     "/assets/img/ads/eb2k-matrix.gif","https://web.archive.org/web/20050712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/xbox/matrix_468x60_xboxconnection5293.swf
+    "/assets/img/ads/linker4u-swf.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp", // http://www.ezf-advance.com/Flash-Card-Flash-banner.swf
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
