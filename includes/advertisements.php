@@ -289,6 +289,8 @@ $adList = array(
     "/assets/img/ads/conker.png","",
     "/assets/img/ads/freevideogames.gif","https://web.archive.org/web/20040110095317/http://freevideogames.com/",
     "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
+    "/assets/img/ads/hdadvance.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
+    "/assets/img/ads/flashlinker.jpg","https://web.archive.org/web/20050130000148/http://flashlinker.net/",
     
     # GameCopyWorld
     "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
