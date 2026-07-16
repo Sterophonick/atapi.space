@@ -198,14 +198,15 @@ With Computer Coding</a>.</p>
 <br />
 <h2 id="ScratchOddballs">Other Oddball Scratch Things</h2>
 <p>
+<a href="/files/Scratch 3D engine!.sb2">Scratch 3D Engine!</a> A 3D illusion created by making copies of sprites and stacking them vertically (Aug 31, 2014).<br />
 <a href="/files/Busting the Criminal.sb3">Busting the Criminal</a> - A barely complete Henry
-Stickmin fangame (January 9, 2016).<br />
-<a href="/files/Untitled-16.sb3">Untitled-16</a> - A sixth grade history poster (October 23,
+Stickmin fangame (Jan 9, 2016).<br />
+<a href="/files/Untitled-16.sb3">Untitled-16</a> - A sixth grade history poster (Oct 23,
                                                                                  2015).<br />
                                                                                  <a href="/files/Untitled-18.sb3">Untitled-18</a> - An unfinished sixth grade history poster
-                                                                                 (October 28, 2015).<br />
+                                                                                 (Oct 28, 2015).<br />
                                                                                  <a href="/files/Otzi trivia.sb3">Otzi Trivia</a> - A sixth grade history project about a mummy
-                                                                                 named Otzi (August 6, 2015).<br />
+                                                                                 named Otzi (Aug 6, 2015).<br />
                                                                                  </p>
                                                                                  <br />
 
