@@ -108,6 +108,7 @@ Other internet creatures!<br/>
 <a href="https://enderman0125.ryuen.ca/"><img src="/assets/img/buttons/enderman0125.gif"></a>
 <a href="https://byespace.net/"><img src="/assets/img/buttons/byespace.gif"></a>
 <a href="https://eli.toys/"><img src="/assets/img/buttons/eli.gif"></a>
+<a href="https://hiijax.net/"><img src="/assets/img/buttons/hiijax.gif"></a>
 </div>
 
 <br/>
