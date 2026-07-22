@@ -503,6 +503,12 @@ PDP-11 emulator for the Game Boy Advance running UNIX v5.
 Japanese webpage that details a mod for the EZ-Flash II or XG-Flash reader that allows for dumping DMG/CGB cartridges.
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20031204223712/http://www.bottledlight.com/mappy/index.html">Mappy VM</a><br />
+Website for a very early Game Boy Advance emulator, marketed to be an ARM virtual machine that was <i>like</i> a Game Boy Advance.
+</p>
+
 <?php
 
 echo constructPageFooter();
