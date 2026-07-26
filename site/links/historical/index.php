@@ -506,7 +506,13 @@ Japanese webpage that details a mod for the EZ-Flash II or XG-Flash reader that 
 <br />
 <p>
 <a href="https://web.archive.org/web/20031204223712/http://www.bottledlight.com/mappy/index.html">Mappy VM</a><br />
-Website for a very early Game Boy Advance emulator, marketed to be an ARM virtual machine that was <i>like</i> a Game Boy Advance.
+Website for a very early Game Boy Advance emulator, marketed to be an ARM virtual machine that was <i>similar</i> to the Game Boy Advance.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/19970708074120/http://www.adventuregoat.com/index.html">AdventureGoat Online</a><br />
+A Virtual Outdoors Adventure (without the dirty boots!)
 </p>
 
 <?php

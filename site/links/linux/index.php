@@ -14,8 +14,8 @@ Daily news for Linux distributions and hardware!
 </p>
 <br />
 <p>
-<a href="https://www.winehq.org/">WINEHQ</a><br />
-Main page for the WINE project.
+<a href="https://www.winehq.org/">WineHQ</a><br />
+Main page for the Wine project.
 </p>
 <br />
 <p>
@@ -122,6 +122,18 @@ Super. Good. Code.
 <p>
 <a href="https://www.collabora.com/">Collabora</a><br />
 Global open-source development and consulting firm.
+</p>
+
+<br />
+<p>
+<a href="https://test.winehq.org/data/">Wine Conformance Tests</a><br />
+Automated regression and API conformance tests for Wine. 
+</p>
+
+<br />
+<p>
+<a href="https://gitlab.freedesktop.org/pipewire/pipewire">PipeWire</a><br />
+The multimedia stack for Linux that basically fixed audio completely once it became standard.
 </p>
 
 <?php
