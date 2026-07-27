@@ -515,6 +515,19 @@ Website for a very early Game Boy Advance emulator, marketed to be an ARM virtua
 A Virtual Outdoors Adventure (without the dirty boots!)
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20040605174056/http://www.efa.cc/">ExtremeFlashAdvance</a><br />
+Home of the EFA-Linker family of legacy flashcarts.
+</p>
+
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20040810023740/http://www.xgflash2.com/">XG-Flash World</a><br />
+Home of the XG-Flash / Visoly family of legacy flashcarts. 
+</p>
+
 <?php
 
 echo constructPageFooter();
