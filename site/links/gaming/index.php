@@ -163,6 +163,18 @@ Generic Xbox 360 Recompilation SDK and Runtime based on rexdex's recompiler and 
 Scene releases and cracks for many, many PC games!
 </p>
 
+<br/>
+<p>
+<a href="https://noclip.website/">noclip.website</a><br/>
+Noclip around various maps from all sorts of video games, right in your browser!
+</p>
+
+<br/>
+<p>
+<a href="https://github.com/MorsGames/MoonChildFE/">Moon Child FE</a><br/>
+You've got the power to be his friend!
+</p>
+
 <?php
 
 echo constructPageFooter();
