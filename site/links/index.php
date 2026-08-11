@@ -109,6 +109,8 @@ Other internet creatures!<br/>
 <a href="https://byespace.net/"><img src="/assets/img/buttons/byespace.gif"></a>
 <a href="https://eli.toys/"><img src="/assets/img/buttons/eli.gif"></a>
 <a href="https://hiijax.net/"><img src="/assets/img/buttons/hiijax.gif"></a>
+<a href="https://keithhacks.cyou/"><img src="/assets/img/buttons/kaizo.gif"></a>
+<a href="https://lighty.pillow.gay/"><img src="/assets/img/buttons/lighty.png"></a>
 </div>
 
 <br/>
