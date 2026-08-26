@@ -151,7 +151,6 @@ $quoteStrings = array(
 
     // Political
     "trans rights are human rights, now and forever", "-- @LinusTechTip_",
-    "we can't kiss girls anymore. because of woke.", "-- Me",
     "Queer cats? In MY website? It's more likely than you think.", "",
     "enbies don't owe you androgyny, but you owe enbies all of your money!", "",
     "Thank god you're here, look what Antifa did!", "-- a cool magnet i found",
@@ -169,6 +168,7 @@ $quoteStrings = array(
     "A shared sorrow is only half a sorrow.", "-- One Topic at a Time",
     "<b><u><i>THIS WEBSITE KILLS FASCISTS</b></u></i>", "",
     "Okay.", "-- Nazi Puncher",
+    "Find out who you are and do it on purpose.", "-- dolly parton",
 
     // Sam & Max
     "He's in a better place now. Just kidding. He's in hell.", "-- Max",
