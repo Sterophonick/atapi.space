@@ -175,6 +175,12 @@ Noclip around various maps from all sorts of video games, right in your browser!
 You've got the power to be his friend!
 </p>
 
+<br/>
+<p>
+<a href="http://www.femicom.org/">FEMICOM Museum</a><br/>
+Hybrid-space community and museum dedicated to preserving and celebrating the history of electronic games and toys aimed at girls and young women.
+</p>
+
 <?php
 
 echo constructPageFooter();
