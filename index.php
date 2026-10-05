@@ -19,6 +19,7 @@
                     var audio = document.getElementById("ninVideoStartup");
                     audio.volume = 0.7;
                 </script>
+                <br/>
             </div>
             <br/>
             <div class="window landWin2">
