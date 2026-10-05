@@ -14,10 +14,6 @@
                 <!-- First container content -->
                 <br/>
                 <h2>Welcome to Atapi's Domain!</h2>
-                <p>
-                    <a href="https://www.mabsland.com/Adoption.html"><img src="/assets/img/landing/Censor_14b.gif"><br/></a>
-                    This website is rated WEB-14!<br/>
-                </p>
                 <audio id="ninVideoStartup" src="/assets/snd/landing/startup.mp3" autoplay></audio>
                 <script>
                     var audio = document.getElementById("ninVideoStartup");
@@ -47,6 +43,9 @@
                             <li>Tacky GIFs and buttons</li>
                             <li>Online interactions not rated by the ESRB</li>
                         </ul>
+                    </div>
+                    <div>
+                        <p>This website is intended for adults.</p>
                     </div>
                     <br/>
                     <a href="site/">
