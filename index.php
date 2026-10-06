@@ -44,9 +44,11 @@
                             <li>Online interactions not rated by the ESRB</li>
                         </ul>
                     </div>
+                    <br/>
                     <div>
                         <p>This website is intended for adults.</p>
                     </div>
+                    <br/>
                     <a href="site/">
                         <img src="/assets/img/landing/enter.gif"><br/>
                         Jump in!<br/>
