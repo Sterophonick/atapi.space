@@ -128,6 +128,12 @@ TTF Font Files replicating text-mode typefaces for various IBM PCs and compatibl
 <a href="https://crustywindo.ws/Main_Page">CrustyWindows</a><br />
 An archive cataloging hilarious bootleg versions of Windows.
 </p>
+<br />
+
+<p>
+<a href="https://thevintageweb.com/">The Vintage Web</a><br />
+Take me to a vintage website, please!
+</p>
 
 <?php
 

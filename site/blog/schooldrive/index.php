@@ -11,7 +11,7 @@ echo constructPageHeader("Atapi's Domain! :: Blog :: Primary School Funny Moment
 Aug ?, 2025<br/>
 Category: Infodump<br/>
 <span style="color: yellow">
-Content Warning // Language<br/>
+Content Warning // Potentially strange things I was taught in school<br/>
 </span>
 </p>
 <br />
@@ -41,10 +41,42 @@ Content Warning // Language<br/>
 
 <h2 id="p1">2015</h2>
 <p>
-    2015 has a bit more to go through, one of the things I was obsessed with at the time was the unicode standard, primarily because you could <a href="https://web.archive.org/web/20150112073558/http://unicodeemoticons.com/">make silly little pictures with them</a>, and also because the symbols in question couldn't be typed on any standard QWERTY keyboard. That is, until I realized that on Firefox you can hold LCtrl+LShift and press U, and then type the hex code for the symbol you want.<br/><br/>
+    2015 has a bit more to go through, one of the things I was obsessed with at the time was the unicode standard, primarily because you could <a href="https://web.archive.org/web/20150112073558/http://unicodeemoticons.com/">make silly little pictures with them</a>, and also because the symbols in question couldn't be typed on any standard QWERTY keyboard. That is, until I realized that on Linux, which the netbooks that the school had at the time ran, you can hold LCtrl+LShift and press U, and then type the hex code for the symbol you want.<br/><br/>
     
-    Anyway this untitled document from January 8th has many of these symbols, which, now, 11 years later, draw with colors and details!<br/>
-    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_1.png" alt="Some symbols and emoji."><br/>
+    Anyway, this untitled document from January 8th has many of these symbols, which, now, 11 years later, draw with colors and details!<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_1.png" alt="Some symbols and emoji."><br/><br/>
+    
+    This document, titled <code>How to type unicode characters like 🁩 or ✂ or ☂.docx</code> was probably just copypasted from somewhere, but it's still kinda worth nothing since it was part of my fixation.<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_2.png" alt="A guide showing various hex characters for certain symbol groups."><br/><br/>
+
+    This document, titled <code>unicode how-tos.docx</code> has more of the same, but stuff for specific faces and memes.<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_3.png" alt="Some multi-symbol pictographs and faces with their associated hex codes."><img loading="lazy" src="/assets/img/blog/schooldrive/2015_4.png" alt="Ditto."><br/><br/>
+    
+    This document, titled <code>DMS Helper URL.docx</code> had one single thing: a link to a Scratch project aimed at quick-on-your-feet arithmetic skills, intended to assist with our "Daily Math Skills" assignment in-class. For that assignment you'd be given roughly two minutes to complete a hundred or so simple arithmetic problems on a double-sided sheet. You can actually play this <a href="/site/projects/scratch/autodms/">here.</a><br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_5.png" alt="A single Scratch link."><br/><br/>
+    
+    Moooorrre Unicode Emoticons, baby. I actually printed this one out for class show-and-tell.<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_6.png" alt="More silly stuff."><img loading="lazy" src="/assets/img/blog/schooldrive/2015_7.png" alt="Ditto."><br/><br/>
+    
+    In fifth grade, we had a whole assignment where the class was divided in two: pro-Homework and anti-Homework. We were then instructed to write a page-long argumentative essay to justify our position, potentially persuading the other side to our position. As a ten-year-old that was definitely a much bigger ask than it is nowadays, what after seven more years of primary school and four years of college courses under my belt. Still though, I think my tween doofus was more concerned about making Scratch games than my academics.<br/>
+    <img loading="lazy" src="/assets/img/blog/schooldrive/2015_8_hw.png" alt="Part of a short essay about how homework shouldn't be handed out.'"><img loading="lazy" src="/assets/img/blog/schooldrive/2015_9_hw2.png" alt="The end of the essay, with a comment from my teacher about how it was a good essay."><br/><br/>
+    
+    "Vending machines are bad because they cause kids to get type-2 diabetes," okay firstly, as a soda and sweets addict how dare you.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_10_blood.png" alt="A paragraph essay about how vending machines cause blood sugar issues."><br/><br/>
+     
+     One of the interesting things about my archives is how other peoples' work often shows up, and early versions of it at that. I believe most of these cases are from doing in-class peer-reviews, where we would share our documents with each other over Google Drive, though this file wasn't in the "Shared With Me" section. Either way, this was 
+     a classmate's take on an essay about the dangers of Dodgeball.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_11_notmyessay.png" alt="An incomplete few-sentence essay with poor punctutation about why we should use foam balls for Dodgeball."><br/><br/>
+     
+     This was my version, the final copy at least. My favorite part is "My evidence is in a Youtube video. This is the URL," which actually made me start hysterically laughing when I came across it.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_12_myessay.png" alt="A more complete essay about the dangers of Dodgeball."><br/><br/>
+     
+     In early February, one of my classmates had asked to chat with me over Google Docs. He wanted to see the unicode stuff I was doing as well as some of the Scratch projects. Everything after this is just hex codes for Unicode characters.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_13_convo.png" alt="A conversation starting with 'How do you code' before it goes off the rails."><br/><br/>
+     
+     In August of 2014, Five Nights at Freddy's originally launched, and it had basically taken the entire playground by storm. My classmates who had phones at the time all were playing it before classes started as well as during the lunch period. Naturally, it worms its way into my Google Drive at that age, with this file being a complete how-two guide for FNaF 1 and 2, all copied from the Wiki.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_14_fnaf.png" alt="A guide for the first night of the first game.'"><img loading="lazy" src="/assets/img/blog/schooldrive/2015_15_fnaf2.png" alt="A guide for the first night of the second game."><img loading="lazy" src="/assets/img/blog/schooldrive/2015_16_fnaf3.png" alt="A table of rewards for FNaF 2's custom night, yoinked from the wiki at the time."><br/><br/>
+     
 </p>
 
 
