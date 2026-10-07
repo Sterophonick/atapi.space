@@ -201,6 +201,7 @@ src="/assets/img/buttons/siivagunner.png"></a>
 <iframe src="//incr.easrng.net/badge?key=atapi_inc_key_dont_steal" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
 <img src="/assets/img/buttons/freakmode.gif">
 <a href="https://cachyos.org"><img src="/assets/img/buttons/cachyos.png"></a>
+<a href="https://www.salliemae.com/"><img src="/assets/img/buttons/adultchat.gif"></a>
 </div>
 
 <span id="potat" style="display: none;">
