@@ -21,6 +21,12 @@ text-align: center;">
 <td><a href="rb4v3/"> <img height="160px" src="/assets/img/dumps/flash/rb4v3.jpg"> <br />Red Ball 4: Volume 3</a></td>
 <td><a href="ducklife/"> <img height="160px" src="/assets/img/dumps/flash/ducklife.png"> <br />Duck Life</a></td>
 </tr>
+<tr>
+<td><a href="hpm/"> <img width="240px" src="/assets/img/dumps/flash/hpm.png"> <br />Hyper Pixel Man</a></td>
+<td><a href="syobon/"> <img height="160px" src="/assets/img/dumps/flash/syobon.png"> <br />Syobon Action (4399)</a></td>
+<td><a href="spaceiskey/"> <img height="160px" src="/assets/img/dumps/flash/spaceiskey.png"> <br />Space is Key</a></td>
+</tr>
+
 
 </table
 
