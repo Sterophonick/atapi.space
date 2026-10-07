@@ -133,6 +133,7 @@
                     <a href="https://enderman0125.ryuen.ca/"><img src="/assets/img/buttons/enderman0125.gif"></a>
                     
                     <a href="https://eli.toys/"><img src="/assets/img/buttons/eli.gif"></a>
+                    <a href="https://fluoritebyte.name"><img width="88px" height="31px" src="/assets/img/buttons/illybyte.png"></a>
                     </marquee>
                     <br/>
                     
