@@ -16,13 +16,14 @@ Content Warning // Potentially strange things I was taught in school<br/>
 </p>
 <br />
 <p id="p0">
-    Here's an interesting fact: I was a child once. Betcha didn't know that. For millenia, people have wondered, "Has Atapi ever experienced the wonders of childhood?" To that I say, you bet your ass I did, and I've got the reciepts to prove it.<br/><br/>
+    Here's an interesting fact: I was a child once. Betcha didn't know that. For millenia, people have wondered, "Has Atapi ever experienced the wonders of childhood?" To that I say, you better believe I did, and I've got the reciepts to prove it.<br/><br/>
     
-    I'm kind of a data hoarder, I keep some stuff I'm sentimental about around for the sake of poking and laughing. To that extent, I own complete a complete of the Google Accounts I had before I graduated from high school.<br/>(yes, that's accounts, plural. long story)<br/><br/>
+    I'm kind of a data hoarder, I keep some stuff I'm sentimental about around for the sake of poking and laughing. To that extent, I own complete archives of the Google Accounts I had before I graduated from high school.<br/>(yes, that's accounts, plural. long story)<br/><br/>
     
     I think the earliest actual assignments go back to fall 2014, as that's when use of the Google Suite took off in my school district. We were using small <a href="https://www.cnet.com/reviews/hp-mini-5102-review/">HP Mini 5102</a> netbooks, everyone in the class had a number and that netbook in the little cart would belong to us for the school year. Before that school year they were running Ubuntu 10.04 before they got replaced with, some version of Zorin OS, probably what was the stable release at the time. There were a couple on the side that ran Fedora Linux though, but I digress.<br/><br/>
     
-    In addition there are associated email inboxes that I also picked up. I'll give you a look at some interesting things that happened, all censored for privacy of course.
+    In addition, there are associated email inboxes that I also picked up. I'll give you a look at some interesting things that are in here, all censored for privacy of course. I like playing show and tell.
+    
 </p><br/>
 
 <h2 id="p1">2014</h2>
@@ -77,6 +78,17 @@ Content Warning // Potentially strange things I was taught in school<br/>
      In August of 2014, Five Nights at Freddy's originally launched, and it had basically taken the entire playground by storm. My classmates who had phones at the time all were playing it before classes started as well as during the lunch period. Naturally, it worms its way into my Google Drive at that age, with this file being a complete how-two guide for FNaF 1 and 2, all copied from the Wiki.<br/>
      <img loading="lazy" src="/assets/img/blog/schooldrive/2015_14_fnaf.png" alt="A guide for the first night of the first game.'"><img loading="lazy" src="/assets/img/blog/schooldrive/2015_15_fnaf2.png" alt="A guide for the first night of the second game."><img loading="lazy" src="/assets/img/blog/schooldrive/2015_16_fnaf3.png" alt="A table of rewards for FNaF 2's custom night, yoinked from the wiki at the time."><br/><br/>
      
+     One of the things that we started doing in the latter months of fifth grade was a daily checklist. We'd have the same document for each week, documenting things like what we were reading at the time and if we met with the teacher that day.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_17_check1.png" alt="A monday daily checklist entry, discussing the plot of a book called Pinocula."><br/><br/>
+     
+     My obsession with emoji infiltrated this too, with it eventually getting me being in trouble. I was specifically looking for the Microsoft variants of these emojis since they had color. Of course, they looked much more simplistic than they do now.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_17_check2.png" alt="Various entries, each separated by a PNG of an emoji."><br/><br/>
+     
+     This particular entry caught my eye, as it notes that we played a game. Seeing the name "Outlast" confused the crap out of me, since Outlast isn't really a game that's appropriate for a ten-year-old, let alone in an educational setting.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/2015_18_check3.png" alt="Various entries, each separated by a PNG of an emoji."><br/><br/>
+     
+     Turns out, the Outlast that we played was a reading comprehension board game for children. Might as well be.<br/>
+     <img loading="lazy" src="/assets/img/blog/schooldrive/outlast.jpg" alt="Outlast game board."><br/><br/>
 </p>
 
 
