@@ -296,9 +296,9 @@ $adList = array(
     # escapade on 2026/10/7
     "/assets/img/ads/psp-images.jpg","https://web.archive.org/web/20080716032739/http://www.pspimages.net/",
     "/assets/img/ads/sonypspinfo.jpg","https://web.archive.org/web/20070102224345/http://www.sonypspinfo.com/",
-    "/assets/img/ads/pspeeps.jpg","https://web.archive.org/web/20061205042946/http://pspeeps.com/",
+    "/assets/img/ads/pspeeps.gif","https://web.archive.org/web/20061205042946/http://pspeeps.com/",
     "/assets/img/ads/psp-flash-gaming.gif","", // we have the banner to this one but there is no actual archive of the website
-    "/assets/img/ads/pnet4psp.png","https://web.archive.org/web/20060206212136/http://www.net4psp.com/", 
+    "/assets/img/ads/net4psp.jpg","https://web.archive.org/web/20060206212136/http://www.net4psp.com/", 
     "/assets/img/ads/modchipworld-xenium.gif","https://web.archive.org/web/20060209031745/http://www.modchipworld.com/", 
     "/assets/img/ads/boxwave.gif","https://web.archive.org/web/20060315144522/http://www.boxwave.com/", 
     "/assets/img/ads/pspnfo.jpg","https://web.archive.org/web/20060205145922/http://pspnfo.com/", 
