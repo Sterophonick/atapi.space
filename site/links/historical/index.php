@@ -528,6 +528,18 @@ Home of the EFA-Linker family of legacy flashcarts.
 Home of the XG-Flash / Visoly family of legacy flashcarts. 
 </p>
 
+<br />
+<p>
+<a href="https://web.archive.org/web/20060206194903/http://mypspportal.psparchive.de/">My PSP Portal</a><br />
+Some guy's portal for PSP Links.
+</p>
+
+<br />
+<p>
+<a href="https://web.archive.org/web/20060208184824/http://mintz.hushedcasket.com/">Halo: Portable</a><br />
+Some guy's Halo content for the PSP
+</p>
+
 <?php
 
 echo constructPageFooter();

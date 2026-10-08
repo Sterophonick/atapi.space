@@ -52,6 +52,7 @@ $adList = array(
     "/assets/img/ads/ibm-buy.gif","https://web.archive.org/web/20000229080028/http://www.buy.com/",
     "/assets/img/ads/ibm97.gif","https://web.archive.org/web/19970103065909/http://www.worldavenue.com/",
     "/assets/img/ads/at-t-the-first-banner-1994.png","", // this originally was tied to AT&T but it's way way funnier if there's no link
+    "/assets/img/ads/xbox-talk.gif","https://web.archive.org/web/20060206042316/http://xbox-talk.com/",
     
     // Divineo Collection
     // Console modding hardware vendor from China
@@ -292,6 +293,27 @@ $adList = array(
     "/assets/img/ads/hdadvance.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
     "/assets/img/ads/flashlinker.jpg","https://web.archive.org/web/20050130000148/http://flashlinker.net/",
     
+    # escapade on 2026/10/7
+    "/assets/img/ads/psp-images.jpg","https://web.archive.org/web/20080716032739/http://www.pspimages.net/",
+    "/assets/img/ads/sonypspinfo.jpg","https://web.archive.org/web/20070102224345/http://www.sonypspinfo.com/",
+    "/assets/img/ads/pspeeps.jpg","https://web.archive.org/web/20061205042946/http://pspeeps.com/",
+    "/assets/img/ads/psp-flash-gaming.gif","", // we have the banner to this one but there is no actual archive of the website
+    "/assets/img/ads/pnet4psp.png","https://web.archive.org/web/20060206212136/http://www.net4psp.com/", 
+    "/assets/img/ads/modchipworld-xenium.gif","https://web.archive.org/web/20060209031745/http://www.modchipworld.com/", 
+    "/assets/img/ads/boxwave.gif","https://web.archive.org/web/20060315144522/http://www.boxwave.com/", 
+    "/assets/img/ads/pspnfo.jpg","https://web.archive.org/web/20060205145922/http://pspnfo.com/", 
+    "/assets/img/ads/themexbox360.jpg","https://web.archive.org/web/20060208034230/http://www.themexbox360.com/", 
+    "/assets/img/ads/xtreme-psp.gif","https://web.archive.org/web/20060209033335/http://www.xtremepsp.com/", 
+    "/assets/img/ads/wii-planet.jpg","https://web.archive.org/web/20060715140729/http://trippedxd.tr.funpic.org/", 
+    "/assets/img/ads/wii-fii.jpg","https://web.archive.org/web/20060714175044/http://homepages.tesco.net/june.t/", 
+    "/assets/img/ads/wiispace.gif","https://web.archive.org/web/20070206014303/http://www.wiispace.com/", 
+    "/assets/img/ads/hack-mii-wii.jpg","https://web.archive.org/web/20070202211823/http://www.hackmiiwii.com/", 
+    "/assets/img/ads/hot-wii-sites.gif","https://web.archive.org/web/20060718010628/http://www.hot-wii-sites.com/", 
+    "/assets/img/ads/we-hate-wii.jpg","https://web.archive.org/web/20060710031325/http://www.wehatewii.com/", 
+    "/assets/img/ads/wiivolution.jpg","https://web.archive.org/web/20060808172907/http://www.wii-volution.com/", 
+    "/assets/img/ads/nintendo-wii-cheats.jpg","https://web.archive.org/web/20070121172242/http://www.nintendo-wii-cheats.com/", 
+    "/assets/img/ads/watch-wii.jpg","https://web.archive.org/web/20060627121238/http://www.watchwii.com/", 
+    
     # GameCopyWorld
     "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
     "/assets/img/ads/gcw_2.jpg","https://gamecopyworld.com/games/index.php",
@@ -331,6 +353,8 @@ $adList = array(
     "/assets/img/ads/neoflash-comp-2010.gif","https://web.archive.org/web/20101229043518/http://www.neoflash.com/go/index.php?option=com_content&task=section&id=4&Itemid=30", // http://www.neoflash.com/img/neo_compo.swf, captured dec 29 2010
     "/assets/img/ads/eb2k-matrix.gif","https://web.archive.org/web/20050712060028/http://www.easybuy2000.com/", // http://www.easybuy2000.com/banners/xbox/matrix_468x60_xboxconnection5293.swf
     "/assets/img/ads/linker4u-swf.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp", // http://www.ezf-advance.com/Flash-Card-Flash-banner.swf
+    "/assets/img/ads/liksang-psp.gif","https://web.archive.org/web/20060323020555/https://www.lik-sang.com/", // http://image.lik-sang.com/banner/campaign/psp/psp_468x60.swf
+
     
     // screw it, why don't we just advertise old demoparties now! :3
     "/assets/img/ads/breakpoint07.gif","https://web.archive.org/web/20070218142326/http://breakpoint.untergrund.net/",
