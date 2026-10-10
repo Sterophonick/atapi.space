@@ -314,6 +314,24 @@ $adList = array(
     "/assets/img/ads/nintendo-wii-cheats.jpg","https://web.archive.org/web/20070121172242/http://www.nintendo-wii-cheats.com/", 
     "/assets/img/ads/watch-wii.jpg","https://web.archive.org/web/20060627121238/http://www.watchwii.com/", 
     
+    # escapade on 2026/10/8
+    "/assets/img/ads/bannerxbox361.jpg","https://web.archive.org/web/20060221045733/http://xbox-361.com/", 
+    "/assets/img/ads/360news468x60.jpg","https://web.archive.org/web/20060208043212/http://www.xbox360news.com/", 
+    "/assets/img/ads/topsites_banner.gif","https://web.archive.org/web/20060203061035/http://www.planetxbox360.com/", 
+    "/assets/img/ads/hundreds.gif","https://web.archive.org/web/20060203061035/http://www.360style.net/", 
+    "/assets/img/ads/360lounge.gif","https://web.archive.org/web/20060203061035/http://www.planetxbox360.com/", 
+    "/assets/img/ads/xbox360logo.gif","https://web.archive.org/web/20060204133549/http://www.xbox360shop.net/", 
+    "/assets/img/ads/xboxlogotopsite.jpg","https://web.archive.org/web/20060203061035/http://www.xbox360newsresource.com/", 
+    "/assets/img/ads/xbox360talk.jpg","https://web.archive.org/web/20060203061035/http://www.xbox360talk.nl/", 
+    "/assets/img/ads/ps3lair.gif","https://web.archive.org/web/20060213000109/http://www.ps3lair.com/", 
+    "/assets/img/ads/ps3mob.jpg","https://web.archive.org/web/20060407020633/http://www.topgamesites.net/out.php?user=rgourley", 
+    "/assets/img/ads/nintendowiizone.gif","https://web.archive.org/web/20060707063449/http://www.nwiizone.com/", 
+    "/assets/img/ads/xbox-anti-cheat.jpg","https://web.archive.org/web/20070402172244/http://www.hdonlineracing.co.uk/", 
+    "/assets/img/ads/tourblackmesa.gif","https://web.archive.org/web/20060901223659/http://www.tourblackmesa.com/", 
+    "/assets/img/ads/doom-wad-station.jpg","https://web.archive.org/web/20070208080214/http://www.doomwadstation.com/", 
+    "/assets/img/ads/ps3spirit.jpg","https://web.archive.org/web/20071012121813/http://www.ps3spirit.fr/", 
+    "/assets/img/ads/runecheatz.gif","https://web.archive.org/web/20070510020017/http://www.runecheatz.com/", 
+    
     # GameCopyWorld
     "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
     "/assets/img/ads/gcw_2.jpg","https://gamecopyworld.com/games/index.php",
