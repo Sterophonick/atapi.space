@@ -52,7 +52,6 @@ $adList = array(
     "/assets/img/ads/ibm-buy.gif","https://web.archive.org/web/20000229080028/http://www.buy.com/",
     "/assets/img/ads/ibm97.gif","https://web.archive.org/web/19970103065909/http://www.worldavenue.com/",
     "/assets/img/ads/at-t-the-first-banner-1994.png","", // this originally was tied to AT&T but it's way way funnier if there's no link
-    "/assets/img/ads/xbox-talk.gif","https://web.archive.org/web/20060206042316/http://xbox-talk.com/",
     
     // Divineo Collection
     // Console modding hardware vendor from China
