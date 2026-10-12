@@ -89,7 +89,7 @@ $adList = array(
     "/assets/img/ads/windowsxp.gif","",
     "/assets/img/ads/garfield.gif","",
     "/assets/img/ads/playstation.gif","",
-    "/assets/img/ads/n64.gif","https://ultra64.ca/files/documentation/online-manuals/man/pro-man/start/index.html",
+    "/assets/img/ads/n64.gif","https://ultra64.ca/files/documentation/online-manuals/man/pro-man/start/index.html",  
     "/assets/img/ads/mod-chip.gif","https://web.archive.org/web/20050608032340/http://www.mod-chip.com/",
     "/assets/img/ads/pinnacle.gif","",
     "/assets/img/ads/net2phone.gif","https://web.archive.org/web/20050628011416/http://net2phone.com/",
@@ -291,6 +291,7 @@ $adList = array(
     "/assets/img/ads/modchipcom.gif","https://web.archive.org/web/20030331130718/http://modchip.com/",
     "/assets/img/ads/hdadvance.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
     "/assets/img/ads/flashlinker.jpg","https://web.archive.org/web/20050130000148/http://flashlinker.net/",
+    "/assets/img/ads/ipp.gif","https://web.archive.org/web/19961219220738/http://www.ipp.com/",
     
     # escapade on 2026/10/7
     "/assets/img/ads/psp-images.jpg","https://web.archive.org/web/20080716032739/http://www.pspimages.net/",
@@ -330,6 +331,13 @@ $adList = array(
     "/assets/img/ads/doom-wad-station.jpg","https://web.archive.org/web/20070208080214/http://www.doomwadstation.com/", 
     "/assets/img/ads/ps3spirit.jpg","https://web.archive.org/web/20071012121813/http://www.ps3spirit.fr/", 
     "/assets/img/ads/runecheatz.gif","https://web.archive.org/web/20070510020017/http://www.runecheatz.com/", 
+    
+    # WebTV Collection
+    "/assets/img/ads/webtv.gif","https://web.archive.org/web/20051001011956/http://www.webtv.com/pc/", 
+    "/assets/img/ads/webtv-surf1.gif","https://webtv.zone/info/index.html", 
+    "/assets/img/ads/webtv-store.gif","https://web.archive.org/web/19990508094908/http://webtv.com/products/Accessories.html", 
+    "/assets/img/ads/webtv-printer.jpg","https://web.archive.org/web/20010413012703/http://www.webtv.com/products/printers/index.html", 
+    
     
     # GameCopyWorld
     "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
