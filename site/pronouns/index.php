@@ -20,8 +20,7 @@ function toggle_visibility(cl){
 <p><i>"This whole thing smacks of gender."</i><br/></p><br/>
 <p>
 i have a blue hat and pronouns and no blue hair. sorry to disappoint.<br/>
-i'm a weird evil feminine agender boy-shaped creature, labels defy me.<br/>
-however, i prefer compliments and pet names to be femme-leaning!<br/>
+i'm a weird evil feminine agender boy-shaped creature. labels are stupid, but i'll try my best.<br/>
 </p>
 <br/>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
@@ -30,20 +29,14 @@ style="font-size:13pt; text-align: center;">
 <tr>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/ace.png"> Asexual</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/demiro.png"> Demiromantic</td>
-<td><img style="vertical-align:middle" src="/assets/img/pronouns/nb.png"> Non-binary</td>
 <td><img width="32px" style="vertical-align:middle" src="/assets/img/pronouns/agender.png"> Agender</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/femboy.png"> Femboy</td>
-<td><img style="vertical-align:middle" src="/assets/img/pronouns/heterorom.png"> Heteroromantic</td>
-</tr>
-
-</table>
-
-<table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
-style="font-size:16pt;  text-align: center;">
-<tr align="middle">
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/qpr.png"> Queerplatonic</td>
 </tr>
+
 </table>
+
+
 
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
 style="font-size:10pt; font-weight: bold; text-align: center;">
@@ -64,13 +57,15 @@ style="font-size:10pt; font-weight: bold; text-align: center;">
 <tr align="left" valign="top">
 <td>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> Atapi<br/>
+<img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> irl names<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Sterophonick<br/>
-<img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Stero<br/>
+<img title="Meh" style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> Stero<br/>
 </td>
 <td>
 <img title="Favorite" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> He/Him<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/heart.png"> She/Her<br/>
 <img title="Yes" style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> They/Them<br/>
+<img title="Meh" style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> It/Its<br/>
 <img title="Avoid" style="vertical-align:middle" src="/assets/img/pronouns/no.png"> Neopronouns<br/>
 </td>
 <td>
@@ -139,13 +134,13 @@ style="font-size:14pt; text-align: center;">
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/yes.png"> Yes</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/no.png"> Avoid</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/joke.png"> Jokingly</td>
-<td><img style="vertical-align:middle" src="/assets/img/pronouns/close.png"> Friends/Partners Only</td>
+<td><img style="vertical-align:middle" src="/assets/img/pronouns/close.png"> Close Friends/Partners Only</td>
 </tr>
 </table>
 <table class="fixed" align="center" border="0" cellspacing="10" cellpadding="0"
 style="font-size:16pt; text-align: center;">
 <tr>
-<td><img style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> Meh</td>
+<td><img style="vertical-align:middle" src="/assets/img/pronouns/meh.png"> Meh (Mostly if it's funny)</td>
 <td><img style="vertical-align:middle" src="/assets/img/pronouns/die.png"> Explodes you with my mind</td>
 </tr>
 </table>

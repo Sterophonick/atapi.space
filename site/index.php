@@ -89,7 +89,7 @@ function friday() {
 
 <h1><img style="vertical-align:middle" src="/assets/img/home/icon.png"> hiiiii!!! :3</h1>
 <p>
-Meowdy! I'm Atapi/Sterophonick <a href="pronouns/">(he/she/they)</a>, and welcome to my little corner of cyberspace! <br/><br/>
+Meowdy! I'm Atapi/Sterophonick <a href="pronouns/">(he/she/any)</a>, and welcome to my little corner of cyberspace! <br/><br/>
 
 <img width="192px" src="/assets/img/global/2024pfp.png" style="float: right; border-radius: 3px; border: solid red 3px;" alt="Cropped artwork of an anthro white cat with red and blue stripes. They are wearing a blue hat, a black shirt, and a dark red sweatshirt. They are also doing a peace sign and winking at the viewer.">
 
