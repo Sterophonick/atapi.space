@@ -265,7 +265,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
     <td>
         <img loading="lazy" class="galleryImg" src="/assets/img/gallery/AtapiDoll.png">
         <p>October 2021<br />Can you feel the sunshine?<br /><a href="/files/AtapiDoll.xcf">.XCF
-                    Download</a><br /><a href="files/Scareophonick.xcf">Halloween 2021 PFP .XCF Download</a></p>
+                    Download</a><br /><a href="/files/Scareophonick.xcf">Halloween 2021 PFP .XCF Download</a></p>
     </td>
     <td>
         <img loading="lazy" class="galleryImg" src="/assets/img/gallery/JennArtTrade10032021.png">
