@@ -292,6 +292,7 @@ $adList = array(
     "/assets/img/ads/hdadvance.gif","https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
     "/assets/img/ads/flashlinker.jpg","https://web.archive.org/web/20050130000148/http://flashlinker.net/",
     "/assets/img/ads/ipp.gif","https://web.archive.org/web/19961219220738/http://www.ipp.com/",
+    "/assets/img/ads/geocities.gif","https://web.archive.org/web/20000511124734/http://geocities.yahoo.com/join/", # LOL
     
     # escapade on 2026/10/7
     "/assets/img/ads/psp-images.jpg","https://web.archive.org/web/20080716032739/http://www.pspimages.net/",
