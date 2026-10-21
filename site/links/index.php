@@ -112,6 +112,7 @@ Other internet creatures!<br/>
 <a href="https://lighty.pillow.gay/"><img src="/assets/img/buttons/lighty.png"></a>
 <a href="https://neineon77.neocities.org/"><img src="/assets/img/buttons/neineon.png"></a>
 <a href="https://fluoritebyte.name"><img width="88px" height="31px" src="/assets/img/buttons/illybyte.png"></a>
+<a href="https://xyla.zip/"><img src="/assets/img/buttons/xyla.gif"></a>
 </div>
 
 <br/>

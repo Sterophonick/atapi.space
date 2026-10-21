@@ -134,6 +134,9 @@
                     
                     <a href="https://eli.toys/"><img src="/assets/img/buttons/eli.gif"></a>
                     <a href="https://fluoritebyte.name"><img width="88px" height="31px" src="/assets/img/buttons/illybyte.png"></a>
+                    
+                    <a href="https://xyla.zip/"><img src="/assets/img/buttons/xyla.gif"></a>
+                    
                     </marquee>
                     <br/>
                     
