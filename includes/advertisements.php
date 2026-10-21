@@ -333,6 +333,17 @@ $adList = array(
     "/assets/img/ads/ps3spirit.jpg","https://web.archive.org/web/20071012121813/http://www.ps3spirit.fr/", 
     "/assets/img/ads/runecheatz.gif","https://web.archive.org/web/20070510020017/http://www.runecheatz.com/", 
     
+    # escapade on 2026/10/21
+    "/assets/img/ads/the-console-corner3.gif","https://web.archive.org/web/20020930071240/http://www.the-console-corner.com/", 
+    "/assets/img/ads/mikobux.gif","https://web.archive.org/web/20020929183007/http://www.mikobux.com/", 
+    "/assets/img/ads/huwarehouse.gif","https://web.archive.org/web/20021017003847/http://www.huwarehouse.com/", 
+    "/assets/img/ads/thesatshack.gif","https://web.archive.org/web/20020930074111/http://www.thesatshack.com/", 
+    "/assets/img/ads/dssmatrix.gif","https://web.archive.org/web/20040420101356/http://www.dssmatrix.com/index.php?action=&id=", 
+    "/assets/img/ads/justmikobu.gif","https://web.archive.org/web/20021122033402/http://www.justmikobu.com/", 
+    "/assets/img/ads/dishlock.gif","https://web.archive.org/web/20021017062815/http://www.dishlock.com/", 
+    "/assets/img/ads/dss-newbies.gif","https://web.archive.org/web/20021105105514/http://dss-newbies.net/", 
+    "/assets/img/ads/privatesat.gif","https://web.archive.org/web/20021022143125/http://www.privatesat.com/", 
+    
     # WebTV Collection
     "/assets/img/ads/webtv.gif","https://web.archive.org/web/20051001011956/http://www.webtv.com/pc/", 
     "/assets/img/ads/webtv-surf1.gif","https://webtv.zone/info/index.html", 
