@@ -33,31 +33,53 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
     <?php echo $_SERVER['HTTP_USER_AGENT']; ?>
 </p>
 <br/>
-<h2>Server Specs</h2>
-<div id="toc" class="toc" style="width:60%; margin:auto; text-align: left;">
-    <ul>
-        <li>
-            1 vCPU core 5900X
-        </li>
-        <li>
-            1 GB RAM
-        </li>
-        <li>
-            Ubuntu 24.04
-        </li>
-        <li>
-            Caddy w/ PHP-FPM 8.3
-        </li>
-        <li>
-            Git: <code><?php
-                $test = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/.git/FETCH_HEAD');
-                $test_cut = substr($test, 0,40);
-                echo $test_cut;
-            ?></code>
-        </li>
-    </ul>
-</div>
-<br/>
+<h2>Server Information</h2>
+
+
+<ul class="centeredList">
+    <li>
+        CPU: <code><?php
+            $output = shell_exec('grep -m 1 "model name" /proc/cpuinfo | cut -d: -f2- | xargs');
+            echo $output;
+        ?></code>
+    </li>
+    <li>
+        Memory: <code><?php
+        # Note to self: Make sure you check which machine this is running on
+        # Otherwise you will run in circles trying to figure out why the memory is read wrong
+        $output = shell_exec('cat /proc/meminfo | grep "MemTotal:" | cut -d: -f2- | xargs');
+        echo $output;
+        ?></code>
+    </li>
+    <li>
+        Distribution: <code><?php
+        $output = shell_exec(' cat /etc/os-release | grep "PRETTY_NAME" | cut -d\" -f2');
+        echo $output;
+        ?></code>
+    </li>
+    <li>
+        Linux Kernel: <code><?php
+        $output = shell_exec('uname -r');
+        echo $output;
+        ?></code>
+    </li>
+    <li>
+        Web Server: <code><?php echo $_SERVER['SERVER_SOFTWARE'] ?></code>
+    </li>
+    <li>
+        PHP Version: <code><?php echo phpversion(); ?></code>
+    </li>
+    <li>
+        Commit: <code><?php
+            $test = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/.git/FETCH_HEAD');
+            $test_cut = substr($test, 0,40);
+            echo $test_cut;
+        ?></code>
+    </li>
+</ul>
+
+    
+<br/><br/>
 <h2>Anti-Scraping Measures</h2>
 <p>
     There's a measure that the Caddy server takes to silence AI scrapers. Your user agent is checked against a large regex snippet of known scrapers and bots. When a match is found, the connection is redirected to a 10GB tarpit file on Hetzner. This regex should be enough for most bost and scrapers, I'm sure there are some missing. If I ever do something that inhibits your ability to browse my site, please let me know!<br/>
