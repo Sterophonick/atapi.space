@@ -1231,7 +1231,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
 <table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
     <tr>
         <td>
-            <a href="/assets/img/gallery/vampy_ych_jun26/png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/vampy_ych_jun26_thumb.jpg"></a>
+            <a href="/assets/img/gallery/vampy_ych_jun26.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/vampy_ych_jun26_thumb.jpg"></a>
             <p>June 2026</br>Pride YCH!</p>
         </td>
     </tr>
