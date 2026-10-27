@@ -140,6 +140,9 @@ $navContents = <<<EOF
                 <li>
                     <a href="#icyxzavien">icyxzavien</a>
                 </li>
+                <li>
+                    <a href="#vampy">VampyBooXO</a>
+                </li>
             </ul>
 
         </li>
@@ -722,6 +725,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <a href="/assets/img/gallery/ashie_halloween2023.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/ashie_halloween2023_thumb.jpg"></a>
             <p>October 2023<br />He Returns</p>
         </td>
+        <td>
+            <a href="/assets/img/gallery/ashie_doll26.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/ashie_doll26_thumb.jpg"></a>
+            <p>October 2026<br />AtapiSnoz.exe</p>
+        </td>
     </tr>
 </table>
 
@@ -1215,6 +1222,17 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         <td>
             <a href="/assets/img/gallery/icyxzavien_wheelman.jpg"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/icyxzavien_wheelman_thumb.jpg"></a>
             <p>June 2026</br>My name's Atapi Burik. I'm a wheelman.</p>
+        </td>
+    </tr>
+</table>
+
+<br/>
+<h3 id="vampy">VampyBooXO</h3>
+<table loading="lazy" class="galleryTable" width="100%" align="center" border="0" cellspacing="10" cellpadding="0" style="text-align: center; font-size: 13pt;">
+    <tr>
+        <td>
+            <a href="/assets/img/gallery/vampy_ych_jun26/png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/vampy_ych_jun26_thumb.jpg"></a>
+            <p>June 2026</br>Pride YCH!</p>
         </td>
     </tr>
 </table>
