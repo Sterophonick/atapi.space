@@ -968,6 +968,10 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
             <img loading="lazy" class="galleryImg" src="/assets/img/gallery/ace_god.png">
                 <p>May 2026<br />One day...</p>
         </td>
+        <td>
+            <img loading="lazy" class="galleryImg" src="/assets/img/gallery/ace_bruhzone.png">
+            <p>October 2026<br />Bruh Zone</p>
+        </td>
     </tr>
 </table>
 
