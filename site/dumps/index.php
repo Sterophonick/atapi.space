@@ -27,6 +27,9 @@ $navContents = <<<EOF
             <a href="#elmo">Elmo's Big Discoveries</a>
         </li>
         <li>
+            <a href="#flash">Legacy Flash Content</a>
+        </li>
+        <li>
             <a href="#misc">Miscellaneous</a>
         </li>
     </ul>
