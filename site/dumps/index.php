@@ -101,6 +101,9 @@ only work on old versions of Windows.</p>
 <a href="/files/elmo.zip">ROM Dump</a><br />
 <br/>
 
+<h3 id="flash">Legacy Flash Content</h3>
+<p><a href="flash/">Over here</a> are some Flash games that I'm hosting to play on retro computers. Nothing all too special, but it's worth having here for fun.</p><br/>
+
 <h3 id="misc">Miscellaneous Stuff</h3>
 <a href="WavePluginManual/">PogoShell GSM Plugin ps2gsm Guide (Translated)</a><a href="/files/ps2gsm003.zip">
 (Plugin download)</a><br />
@@ -118,7 +121,6 @@ and HEL.)</a><br />
 code.)</a><br />
 <a href="/files/Scratch-461.exe">Scratch 2 Offline Editor v461</a><br />
 <a href="/files/AdobeAIRInstaller.exe">Adobe AIR Installer (required for Scratch 2)</a><br/><br/>
-<a href="flash/">Some Flash content I'm hosting for retro computers to play.</a>
 
 <?php
 
