@@ -425,7 +425,7 @@ $adList = array(
     // made by me!
     "/assets/img/ads/java-funny.gif","https://www.youtube.com/watch?v=jwJvj7BV41g", // idea came from friend jae
     "/assets/img/ads/scene-ad.png","https://www.scene.org/", // scene.org !!
-    "/assets/img/ads/tc-time.png","", // HAHAHAHAHAHAHA
+    "/assets/img/ads/tc-time.png","https://www.pictureofhotdog.com/", // HAHAHAHAHAHAHA
     
     // comes from the deltarune sweepstakes
     "/assets/img/ads/dr-secrets.gif","https://deltarune.com/code/",
