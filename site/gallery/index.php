@@ -727,7 +727,7 @@ echo constructPageHeader("Atapi's Domain! :: Gallery");
         </td>
         <td>
             <a href="/assets/img/gallery/ashie_doll26.png"><img loading="lazy" class="galleryImg" src="/assets/img/gallery/thumbs/ashie_doll26_thumb.jpg"></a>
-            <p>October 2026<br />AtapiSnoz.exe</p>
+            <p>October 2026<br />AtapiSnoz.exe<br/><a href="/files/ashie_doll26.7z">Krita Source File</a></p>
         </td>
     </tr>
 </table>
