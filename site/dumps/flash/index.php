@@ -28,6 +28,7 @@ text-align: center;">
 </tr>
 <tr>
 <td><a href="idek/"> <img width="240px" src="/assets/img/dumps/flash/idontevenknow.png"> <br />I Don't Even Know</a></td>
+<td><a href="run2/"> <img width="240px" src="/assets/img/dumps/flash/run2.png"> <br />Run 2</a></td>
 </tr>
 
 </table
