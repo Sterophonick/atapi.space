@@ -1,8 +1,10 @@
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php'; ?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="shortcut icon" href="/assets/img/global/favicon.png">
-        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="<?php echo whatStyleSheet();?>">
         <meta name="viewport" content="width=1024">
         <meta name="darkreader-lock">
         <title>ENTRYWAY</title>
@@ -149,7 +151,8 @@
                     
                     echo "Last modified: " . $output;
                     ?>
-                    <br/><br/>
+                    <br/>
+                    <small><a href="http://simple.atapi.space">On an older computer?</a></small><br/><br/>
                 </p>
             </div>
             <br/>

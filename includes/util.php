@@ -3,6 +3,15 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/advertisements.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/blogSignature.php';
 
+function areWeSimplified() {
+    $domain = $_SERVER['SERVER_NAME'];
+    if(str_contains($domain, "simple")) {
+        return true;
+    }
+    
+    return false;
+}
+
 # We use this function to assemble the HTML for the global page header
 # Doing this through PHP should be nicer for the user as we don't have to
 function constructPageHeader($pageTitle, $useRssLink = false) {
@@ -106,6 +115,8 @@ function constructPageFooter() {
     $htmlPage .= <<<EOF
         <small>
         <a href="/site/sitemap/">Site Map</a>
+        |
+        <a href="http://simple.atapi.space/">Simplified Site</a>
         |
         <a href="https://github.com/Sterophonick/atapi.space" target="_blank">Website Source</a>
         |
@@ -270,6 +281,9 @@ function doWeShowMusicPlayer() {
     if (str_contains($userAgent, "nintendo dsi")) {
         return false;
     }
+    
+    if(areWeSimplified())
+        return false;
 
     return true;
 }
@@ -296,12 +310,18 @@ function doWeShowOneko() {
      if (str_contains($userAgent, "nintendo dsi")) {
          return false;
      }
+     
+     if(areWeSimplified())
+         return false;
 
     return true;
 }
 
 function whatStyleSheet() {
-    return '/assets/css/main.css';
+    if(areWeSimplified())
+        return '/assets/css/main-simple.css';
+    else
+        return '/assets/css/main.css';
 }
 
 function doWeShowScratchEmbed() {

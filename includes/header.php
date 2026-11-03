@@ -667,6 +667,11 @@ $musicPathsList = array(
         $musicPlayer .= "<script>var forceStopPlayer = false;</script></div>"; // this provides plumbing for pages to stop the music player if needed
 
         echo $musicPlayer;
+    } else {
+        $musicPlayer = '<div id="headerMusicPlayer">';
+        $musicPlayer .= '<marquee speed="50%">Music Disabled</marquee>';
+        $musicPlayer .= '</div>';
+        echo $musicPlayer;
     }
     ?>
     </div>
