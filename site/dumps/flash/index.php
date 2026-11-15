@@ -31,6 +31,9 @@ text-align: center;">
 <td><a href="run2/"> <img height="160px" src="/assets/img/dumps/flash/run2.png"> <br />Run 2</a></td>
 <td><a href="portal/"> <img width="230px" src="/assets/img/dumps/flash/portal.png"> <br />Portal: The Flash Version</a></td>
 </tr>
+<tr>
+<td><a href="af2/"> <img height="160px" src="/assets/img/dumps/flash/af2.png"> <br />AF2</a></td>
+</tr>
 
 </table
 
