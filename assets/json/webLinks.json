@@ -145,7 +145,7 @@
                 "name": "Telnet BBS Guide",
                 "link": "https://www.telnetbbsguide.com/",
                 "desc": "List of active BBSes to connect to either via Telnet or via modem.",
-                "favicon": "telnetbbs"
+                "favicon": "default"
             },
             {
                 "name": "DCVG5K",
@@ -368,7 +368,7 @@
                 "name": "Matthew Carr's Website",
                 "link": "https://www.mrdictionary.net/",
                 "desc": "Site belonging to Matthew Carr, developer of Blast Arena Advance.",
-                "favicon": "mrdictionary"
+                "favicon": "default"
             },
             {
                 "name": "batari Basic",
@@ -404,7 +404,7 @@
                 "name": "Legacy iOS Kit",
                 "link": "https://github.com/LukeZGD/Legacy-iOS-Kit",
                 "desc": "Toolkit for Linux and macOS for performing hax on legacy iOS devices. Also has more information and exploits relating to these devices.",
-                "favicon": "legacyios"
+                "favicon": "github"
             },
             {
                 "name": "Single Board Relay Computer",
@@ -520,7 +520,7 @@
                 "name": "Mesa3D",
                 "link": "https://gitlab.freedesktop.org/mesa/mesa",
                 "desc": "Open-source OpenGL/Vulkan implementation, mostly designed for Linux and BSD.",
-                "favicon": "gitlab"
+                "favicon": "fdo"
             },
             {
                 "name": "CachyOS Linux",
@@ -568,13 +568,13 @@
                 "name": "Wine Conformance Tests",
                 "link": "https://test.winehq.org/data/",
                 "desc": "Automated regression and API conformance tests for Wine.",
-                "favicon": "winetest"
+                "favicon": "winehq"
             },
             {
                 "name": "PipeWire",
                 "link": "https://gitlab.freedesktop.org/pipewire/pipewire",
                 "desc": "The multimedia stack for Linux that basically fixed audio completely once it became standard.",
-                "favicon": "gitlab"
+                "favicon": "fdo"
             }
         ]
     },
@@ -904,7 +904,7 @@
         ]
     },
     
-    "hist": {
+    "historical": {
         "name": "Historical",
         "desc": "Defunct websites of interest.",
         "entries": [
@@ -942,6 +942,7 @@
                 "name": "The GeoCities Gallery",
                 "link": "https://geocities.restorativland.org/",
                 "desc": "RestorativLand's project to preserve hundreds of old GeoCities pages!",
+                "nsfw": "true",
                 "favicon": "default"
             },
             {
@@ -966,6 +967,7 @@
                 "name": "DarkFader.net",
                 "link": "https://web.archive.org/web/20170428071915/https://www.darkfader.net/",
                 "desc": "Now-defunct website belonging to a homebrew programmer by the name of DarkFader.",
+                "nsfw": "true",
                 "favicon": "darkfader"
             },
             {
@@ -1025,387 +1027,463 @@
             {
                 "name": "Q*bert for Game Boy",
                 "link": "https://web.archive.org/web/20241212033143/http://www.1000klub.com/Qbert/",
-                "desc": "Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert."
+                "desc": "Paul Chinn's webpage about his homebrew version of Q*bert that landed him a job with Majesco for the <i>real</i> version of Q*bert.",
+                "favicon": "default"
+                
             },
             {
                 "name": "Triton Labs",
                 "link": "https://web.archive.org/web/20030524123759/http://tritonlabs.com/",
-                "desc": "Independent company behind the Afterburner Game Boy Advance frontlight kit."
+                "desc": "Independent company behind the Afterburner Game Boy Advance frontlight kit.",
+                "favicon": "default"
             },
             {
                 "name": "GBAX.com",
                 "link": "https://web.archive.org/web/*/http://www.gbax.com/",
-                "desc": "Game Boy Advance coding competitons and hardware links."
+                "desc": "Game Boy Advance coding competitons and hardware links.",
+                "favicon": "default"
             },
             {
                 "name": "PocketHeaven Forum",
                 "link": "https://web.archive.org/web/*/http://pocketheaven.com/phpBB2/",
-                "desc": "Legacy forum for handheld discussion."
+                "desc": "Legacy forum for handheld discussion.",
+                "favicon": "default"
             },
             {
                 "name": "Divineo",
                 "link": "https://web.archive.org/web/20101106065123/http://www.divineo.com/cgi-bin/div-us/index.html",
-                "desc": "Defunct(?) storefront for modchips and other peripherals."
+                "desc": "Defunct(?) storefront for modchips and other peripherals.",
+                "favicon": "default"
             },
             {
                 "name": "EasyBuy2000",
                 "link": "https://web.archive.org/web/20010712060028/http://www.easybuy2000.com/",
-                "desc": "Defunct storefront for peripherals, modchips, and flashcarts."
+                "desc": "Defunct storefront for peripherals, modchips, and flashcarts.",
+                "favicon": "easybuy2000"
             },
             {
                 "name": "XG-Flash",
                 "link": "https://web.archive.org/web/20040623184437/http://www.xgflash2.com/",
-                "desc": "Official website for XG-Flash cartridges for the Game Boy Advance."
+                "desc": "Official website for XG-Flash cartridges for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "Linker4U",
                 "link": "https://web.archive.org/web/20050914154444/http://www.linker4u.com/pp/default.asp",
-                "desc": "Defunct storefront with a focus on flashcarts."
+                "desc": "Defunct storefront with a focus on flashcarts.",
+                "favicon": "default"
             },
             {
                 "name": "SuccessHK / SuperUFO",
                 "link": "https://web.archive.org/web/20050204170620/http://www.superufo.com/",
-                "desc": "Defunct storefront for a bunch of console accessories."
+                "desc": "Defunct storefront for a bunch of console accessories.",
+                "favicon": "default"
             },
             {
                 "name": "Saturn Expedition Committee",
                 "link": "https://sec.pn.to/",
-                "desc": "Home of some extremely early PSP demos and tools, including Nem's Hello World program."
+                "desc": "Home of some extremely early PSP demos and tools, including Nem's Hello World program.",
+                "favicon": "default"
             },
             {
                 "name": "Kuwanger.net",
                 "link": "https://web.archive.org/web/20150430211243/http://kuwanger.net/",
-                "desc": "The seldom-archived homepage for the late Michael \"Kuwanger\" Thornbury, who worked on a lot of PogoShell-related projects for the Game Boy Advance, including the PogoShell support for the EZ-Flash Omega family up until their passing in (we think) 2019. Later moved to kuwanger.altervista.org."
+                "desc": "The seldom-archived homepage for the late Michael \"Kuwanger\" Thornbury, who worked on a lot of PogoShell-related projects for the Game Boy Advance, including the PogoShell support for the EZ-Flash Omega family up until their passing in (we think) 2019. Later moved to kuwanger.altervista.org.",
+                "favicon": "default"
             },
             {
                 "name": "DragonBASIC",
                 "link": "https://web.archive.org/web/20040602225534/http://jm-basic.com/dragon/index.php",
-                "desc": "Defunct homepage for DragonBASIC, a BASIC dialect for the Game Boy Advance. Now redirects to a lewd Thai gambling site."
+                "desc": "Defunct homepage for DragonBASIC, a BASIC dialect for the Game Boy Advance. Now redirects to a lewd Thai gambling site.",
+                "favicon": "default"
             },
             {
                 "name": "Code Waves",
                 "link": "https://web.archive.org/web/20030531175642/http://www.codewaves.com/",
-                "desc": "Sergej Kravcenko's page for a non-commercial MOD player for the Game Boy Advance."
+                "desc": "Sergej Kravcenko's page for a non-commercial MOD player for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "Audio Advance",
                 "link": "https://belogic.com/gba/",
-                "desc": "Complete documentation on the Game Boy Advance audio system, plus some cool demos."
+                "desc": "Complete documentation on the Game Boy Advance audio system, plus some cool demos.",
+                "favicon": "default"
             },
             {
                 "name": "2004Mbit Competition",
                 "link": "https://2004mbit.gbadev.org/",
-                "desc": "512K game competiton held by gbadev.org in 2004. Actual cartridges were produced and are more or less unobtanium these days."
+                "desc": "512K game competiton held by gbadev.org in 2004. Actual cartridges were produced and are more or less unobtanium these days.",
+                "favicon": "default"
             },
             {
                 "name": "Chaosquake.de",
                 "link": "https://chaosquake.de/",
-                "desc": "Home of the game <i>Yuckfu!</i> from the 2004Mbit Competition. And some Quake 3 content."
+                "desc": "Home of the game <i>Yuckfu!</i> from the 2004Mbit Competition. And some Quake 3 content.",
+                "favicon": "chaosquake"
             },
             {
                 "name": "Splam",
                 "link": "https://web.archive.org/web/20030324131822/http://splam.emuhq.com/",
-                "desc": "Devlog of a never-finished, unreleased Commodore 64 emulator for the Game Boy Advance."
+                "desc": "Devlog of a never-finished, unreleased Commodore 64 emulator for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "Dolphin GBA",
                 "link": "https://web.archive.org/web/20051028172224/http://kyu.ifdef.jp/neta.html",
-                "desc": "Japanese website of a fake GameCube emulator for the Game Boy Advance (as in, playing GCN on GBA)."
+                "desc": "Japanese website of a fake GameCube emulator for the Game Boy Advance (as in, playing GCN on GBA).",
+                "favicon": "default"
             },
             {
                 "name": "gCubix",
                 "link": "https://web.archive.org/web/20030216042310/http://benjamin.francois.free.fr/artwork/gcubix/",
-                "desc": "Website dedicated to a (fake?) GameCube emulator for Unix. It also touts a million ports to random electronics. Lmao."
+                "desc": "Website dedicated to a (fake?) GameCube emulator for Unix. It also touts a million ports to random electronics. Lmao.",
+                "favicon": "default"
             },
             {
                 "name": "Quirky's GBA Remakes",
                 "link": "https://web.archive.org/web/20090829031702mp_/http://geocities.com/quirky_2k1/index.html",
-                "desc": "Quirky's website for GBA and NDS programming. Also home of the PocketBeeb emulator."
+                "desc": "Quirky's website for GBA and NDS programming. Also home of the PocketBeeb emulator.",
+                "favicon": "default"
             },
             {
                 "name": "X Millennium Advance",
                 "link": "https://web.archive.org/web/20060701205316/http://www.turboz.to/",
-                "desc": "Home of the Sharp X1 emulator for the Game Boy Advance."
+                "desc": "Home of the Sharp X1 emulator for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "We Love MZ-700",
                 "link": "http://www.maroon.dti.ne.jp/youkan/mz700/index.html",
-                "desc": "Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator for both the Game Boy Advance and for Windows. Also includes pages on the Casio PV-1000."
+                "desc": "Fan page for the Sharp MZ-700. Has a SharpSCII graphics editor and an emulator for both the Game Boy Advance and for Windows. Also includes pages on the Casio PV-1000.",
+                "favicon": "default"
             },
             {
                 "name": "Catapult Development System",
                 "link": "https://web.archive.org/web/20051027012901/http://www.nocturnal-central.com/catapult.php?cookieset=1",
-                "desc": "A custom language, simulator, and debugger created by Noctunal Entertainment for creating Game Boy Advance games."
+                "desc": "A custom language, simulator, and debugger created by Noctunal Entertainment for creating Game Boy Advance games.",
+                "favicon": "default"
             },
             {
                 "name": "Uli's Software Page",
                 "link": "https://web.archive.org/web/20181015114819/http://www.emulinks.de/software.html",
-                "desc": "An old page of someone's free software. Of note are a Forth interpreter, and a port of SDL 1.2.4, both for the Game Boy Advance."
+                "desc": "An old page of someone's free software. Of note are a Forth interpreter, and a port of SDL 1.2.4, both for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "PocketNES",
                 "link": "https://web.archive.org/web/20050303003813/http://www.pocketnes.org/",
-                "desc": "The site for the original PocketNES, originally created by Loopy, but eventually FluBBa made contributions, before the project ultimately went to Dwedit."
+                "desc": "The site for the original PocketNES, originally created by Loopy, but eventually FluBBa made contributions, before the project ultimately went to Dwedit.",
+                "favicon": "default"
             },
             {
                 "name": "Famicom Advance (FCA)",
                 "link": "https://web.archive.org/web/20020721073828/http://fca.ath.cx/",
-                "desc": "Another NES emulator for the Game Boy Advance."
+                "desc": "Another NES emulator for the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "SNESAdvance",
                 "link": "https://web.archive.org/web/20050317010551/http://www.snesadvance.org/",
-                "desc": "A very, very preliminary Super NES emulator for the Game Boy Advance, by Loopy and FluBBa."
+                "desc": "A very, very preliminary Super NES emulator for the Game Boy Advance, by Loopy and FluBBa.",
+                "favicon": "default"
             },
             {
                 "name": "Snes2Gba",
                 "link": "https://web.archive.org/web/20030202022558/http://snes2gba.vze.com/",
-                "desc": "Another Super NES emulator for the GBA. Downloads are all broken, as the webmaster used FTP for the download links."
+                "desc": "Another Super NES emulator for the GBA. Downloads are all broken, as the webmaster used FTP for the download links.",
+                "favicon": "default"
             },
             {
                 "name": "GBA Atari Lynx Emulator",
                 "link": "https://web.archive.org/web/20041128021821/http://www.geocities.com/psx_nemesis/",
-                "desc": "Blog posts and screenshots for an unnamed and unreleased Atari Lynx eulator running on a GBA."
+                "desc": "Blog posts and screenshots for an unnamed and unreleased Atari Lynx eulator running on a GBA.",
+                "favicon": "default"
             },
             {
                 "name": "GBAGI",
                 "link": "https://web.archive.org/web/20060820051445/http://www.bripro.com/gbagi/index.php",
-                "desc": "Interpreter for Adventure Game Interpreter games made by Sierra On-Line, written for the Game Boy Advance. Notably created by Brian Provinciano, who nowadays runs Vblank Entertainment, developer of games such as Retro City Rampage."
+                "desc": "Interpreter for Adventure Game Interpreter games made by Sierra On-Line, written for the Game Boy Advance. Notably created by Brian Provinciano, who nowadays runs Vblank Entertainment, developer of games such as Retro City Rampage.",
+                "favicon": "default"
             },
             {
                 "name": "Mini Amstrad Emulator",
                 "link": "https://web.archive.org/web/20210115204231/http://playeradvance.org/forum/showthread.php?t=765",
-                "desc": "PlayerAdvance thread for an Amstrad CPC emulator for the Game Boy Advance, created by NRX."
+                "desc": "PlayerAdvance thread for an Amstrad CPC emulator for the Game Boy Advance, created by NRX.",
+                "favicon": "default"
             },
             {
                 "name": "FooN",
-                "link": "https://web.archive.org/web/20200909031134/http://foon.pocketheaven.com/",
-                "desc": "\"Proudly Un-Advancing the Game Boy Advance,\" it was a ZX Spectrum emulator for the handheld, created by Strags Research."
+                "link": "https://web.archive.org/web/20060101004901/http://foon.pocketheaven.com/",
+                "desc": "\"Proudly Un-Advancing the Game Boy Advance,\" it was a ZX Spectrum emulator for the handheld, created by Strags Research.",
+                "favicon": "default"
             },
             {
                 "name": "ZXAdvance",
                 "link": "https://web.archive.org/web/20011023071834/http://zxadvance.gbaemu.com/",
-                "desc": "Another (better) ZX Spectrum emulator for the GBA, created by -The HiVE-."
+                "desc": "Another (better) ZX Spectrum emulator for the GBA, created by -The HiVE-.",
+                "favicon": "default"
             },
             {
                 "name": "SPC Emulator",
                 "link": "https://web.archive.org/web/20060622044052/http://forwardcoding.com/projects/spcemu.html",
-                "desc": "Gary Linscott's Super NES audio emulator for the GBA, created using dyanmic recompilation."
+                "desc": "Gary Linscott's Super NES audio emulator for the GBA, created using dyanmic recompilation.",
+                "favicon": "default"
             },
             {
                 "name": "Moonlight",
                 "link": "https://web.archive.org/web/20070213111906/http://home.att.ne.jp/blue/moonlight/",
-                "desc": "Japanese website belonging to a netizen by the name of \"Moonlight.\" Created various PogoShell plugins for the Game Boy Advance, as well as other things, such as a Sharp X68000 MDX music player."
+                "desc": "Japanese website belonging to a netizen by the name of \"Moonlight.\" Created various PogoShell plugins for the Game Boy Advance, as well as other things, such as a Sharp X68000 MDX music player.",
+                "favicon": "default"
             },
             {
                 "name": "FluBBa's Website",
                 "link": "https://web.archive.org/web/20120102211245/http://www.ndsretro.com/",
-                "desc": "NDSRetro, FluBBa's old site. Originally home to his emulators like NGPAdvance, SMSAdvance, SwanAdvance, and the like. Later moved on to Nintendo DS projects."
+                "desc": "NDSRetro, FluBBa's old site. Originally home to his emulators like NGPAdvance, SMSAdvance, SwanAdvance, and the like. Later moved on to Nintendo DS projects.",
+                "favicon": "flubba"
             },
             {
                 "name": "DrSMS",
                 "link": "https://www.webpersona.com/drsms/",
-                "desc": "Alternate Master System emulator for the Game Boy Advance. Less sound accuracy, different set of playable games."
+                "desc": "Alternate Master System emulator for the Game Boy Advance. Less sound accuracy, different set of playable games.",
+                "favicon": "default"
             },
             {
                 "name": "Bunny Advance",
                 "link": "https://web.archive.org/web/20060716045312/http://stdout.org/~luke/bunny/",
-                "desc": "A simple hand-drawn rabbit demo for the GBA, created using the SGADE. It even has a t-shirt design!"
+                "desc": "A simple hand-drawn rabbit demo for the GBA, created using the SGADE. It even has a t-shirt design!",
+                "favicon": "default"
             },
             {
                 "name": "MASO System",
                 "link": "https://web.archive.org/web/20111210193145/http://maso.r0x.free.fr/",
-                "desc": "Music and Sound system for the GBA."
+                "desc": "Music and Sound system for the GBA.",
+                "favicon": "default"
             },
             {
                 "name": "F.R.A.S.",
                 "link": "https://web.archive.org/web/20040213094247/http://www.gatesboy.com/fras/Specs.html",
-                "desc": "Free Realtime Audio System for the GBA."
+                "desc": "Free Realtime Audio System for the GBA.",
+                "favicon": "default"
             },
             {
                 "name": "The Complete X-ROM Guide",
                 "link": "https://web.archive.org/web/20071218162014/http://xromguide.50webs.com/index.htm",
-                "desc": "Iceman's manual on tools and usage for the X-ROM family of flashcarts, including PogoShell."
+                "desc": "Iceman's manual on tools and usage for the X-ROM family of flashcarts, including PogoShell.",
+                "favicon": "default"
             },
             {
                 "name": "SimonB Live from E3 2005",
                 "link": "https://gbadev.org/index.php?showinfo=1173",
-                "desc": "A photo of Simon Band holding a 2004Mbit cartridge, signed by none other than Shigeru Miyamoto."
+                "desc": "A photo of Simon Band holding a 2004Mbit cartridge, signed by none other than Shigeru Miyamoto.",
+                "favicon": "gbadev"
             },
             {
                 "name": "PogoShell",
                 "link": "https://web.archive.org/web/20050308133819/http://www.obsession.se/pocket/",
-                "desc": "Sasq's original page for PogoShell."
+                "desc": "Sasq's original page for PogoShell.",
+                "favicon": "default"
             },
             {
                 "name": "VX Heaven",
                 "link": "https://web.archive.org/web/20160228024219/https://vxheaven.org/",
-                "desc": "Or, Virus eXchange Heaven. A now-offline site dedicated to providing information, source code, and samples of computer viruses (or virii, as some would prefer). Samples will not be found here, there are mirrors on places such as GitHub."
+                "desc": "Or, Virus eXchange Heaven. A now-offline site dedicated to providing information, source code, and samples of computer viruses (or virii, as some would prefer). Samples will not be found here, there are mirrors on places such as GitHub.",
+                "favicon": "vxh"
             },
             {
                 "name": "RFID Viruses and Worms",
                 "link": "https://web.archive.org/web/20160902023507/http://www.rfidvirus.org/",
-                "desc": "Old website (2006) about attack vectors on RFID tags."
+                "desc": "Old website (2006) about attack vectors on RFID tags.",
+                "favicon": "default"
             },
             {
                 "name": "HappyApple.net",
                 "link": "https://web.archive.org/web/20040830011801/http://www.happyapple.net/",
-                "desc": "Defunct Chinese business that provided software and utilities for the Game Boy Advance, one of which was AppleShell, which became the base for the kernels that ran on the EZ-Flash III and EZ-Flash IV family. The only real product of theirs that has been preserved is an SDK for developing GBA programs in .NET."
+                "desc": "Defunct Chinese business that provided software and utilities for the Game Boy Advance, one of which was AppleShell, which became the base for the kernels that ran on the EZ-Flash III and EZ-Flash IV family. The only real product of theirs that has been preserved is an SDK for developing GBA programs in .NET.",
+                "favicon": "default"
             },
             {
                 "name": "Movie Advance (2005)",
                 "link": "https://web.archive.org/web/20050829223932/http://www.movieadvance.com/",
-                "desc": "English homepage for the GBA Movie Player, circa 2005."
+                "desc": "English homepage for the GBA Movie Player, circa 2005.",
+                "favicon": "default"
             },
             {
                 "name": "console-dev.de",
                 "link": "https://web.archive.org/web/20080430013216/http://www.console-dev.de/",
-                "desc": "Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) for the GBA."
+                "desc": "Website belonging to Peter Schraut, creator of the HAM Extension Library (HEL) for the GBA.",
+                "favicon": "consoledev"
             },
             {
                 "name": "Jeff Frohwein's Software / Hardware Dev'rs",
                 "link": "https://web.archive.org/web/20060201225329/http://www.devrs.com/",
-                "desc": "Jeff's site dedicated to homebrew software and electronics development."
+                "desc": "Jeff's site dedicated to homebrew software and electronics development.",
+                "favicon": "default"
             },
             {
                 "name": "DevCybiko",
                 "link": "https://web.archive.org/web/20060116022549/http://thinkable.us/DevCybiko/",
-                "desc": "Defunct site dedicated to Cybiko development."
+                "desc": "Defunct site dedicated to Cybiko development.",
+                "favicon": "default"
             },
             {
                 "name": "Alan Suel's PogoShell Themes",
                 "link": "https://web.archive.org/web/20080730091110/https://www.alansuel.com/c/morep.htm",
-                "desc": "An artist from Denver who made a handful of PogoShell themes back in the day."
+                "desc": "An artist from Denver who made a handful of PogoShell themes back in the day.",
+                "favicon": "default"
             },
             {
                 "name": "Linux Half-Life",
                 "link": "https://web.archive.org/web/20030203001307/http://lhl.linuxgames.com/",
-                "desc": "How-to and community for playing Half-Life on Linux using WINE, captured in 2003."
+                "desc": "How-to and community for playing Half-Life on Linux using WINE, captured in 2003.",
+                "favicon": "default"
             },
             {
                 "name": "Willows Software",
                 "link": "https://web.archive.org/web/20030209054332/http://willows.com/",
-                "desc": "Developers of TWIN, a tool for running Windows apps on UNIX."
+                "desc": "Developers of TWIN, a tool for running Windows apps on UNIX.",
+                "favicon": "default"
             },
             {
                 "name": "BeWine",
                 "link": "https://web.archive.org/web/20060804153114/http://bewine.loungenet.org/",
-                "desc": "WINE for BeOS."
+                "desc": "WINE for BeOS.",
+                "favicon": "bewine"
             },
             {
                 "name": "2Advanced Studios",
                 "link": "https://web.archive.org/web/20210611213053/https://www.2advanced.com/flashindex.htm",
-                "desc": "Homepage for 2Advanced Studios. Site features awesome metalheart aesthetics."
+                "desc": "Homepage for 2Advanced Studios. Site features awesome metalheart aesthetics.",
+                "favicon": "2advanced"
             },
             {
                 "name": "Webagent 007",
-                "link": "https://wa007.com/2003/",
-                "desc": "Homepage for WA007, a web design and marketing firm."
+                "link": "https://web.archive.org/web/20150324012001/http://www.wa007.com/2003/",
+                "desc": "Homepage for WA007, a web design and marketing firm.",
+                "favicon": "default"
             },
             {
                 "name": "XCM",
                 "link": "https://web.archive.org/web/20070930230921/http://www.xcm.cc/",
-                "desc": "Homepage for Xbox Custom Mods, famous for the \"Ghost Cases,\" but hosted many other third-party peripherals."
+                "desc": "Homepage for Xbox Custom Mods, famous for the \"Ghost Cases,\" but hosted many other third-party peripherals.",
+                "favicon": "default"
             },
             {
                 "name": "ClearXbox",
                 "link": "https://web.archive.org/web/20071011200617/http://www.clearxbox.com/site/",
-                "desc": "Formerly CustomPS2.com, another home for Ghost Cases for various consoles."
+                "desc": "Formerly CustomPS2.com, another home for Ghost Cases for various consoles.",
+                "favicon": "default"
             },
             {
                 "name": "n.fuse gfx",
                 "link": "https://web.archive.org/web/20000815082328/http://www.nfusegfx.com:80/",
-                "desc": "Flash-based homepage for a web and graphic design firm."
+                "desc": "Flash-based homepage for a web and graphic design firm.",
+                "favicon": "default"
             },
             {
                 "name": "You're the Man Now, Dog!",
-                "link": "https://yourethemannowdog.com/",
+                "link": "https://yourethemannowdog.ytmnd.com/",
                 "desc": "You're the Man Now, Dog!"
             },
             {
                 "name": "SmashMyPs3.com",
                 "link": "https://web.archive.org/web/20070811102316/http://www.smashmyps3.com/",
-                "desc": "Screw the Sony PlayStation 3"
+                "desc": "Screw the Sony PlayStation 3",
+                "favicon": "default"
             },
             {
                 "name": "FC EMULATOR for GAMEBOY",
                 "link": "https://web.archive.org/web/20021201102224/http://www.playoffline.com/gb/",
-                "desc": "Famicom emulator made for the Game Boy DMG! Also has links to an emulator for the WonderSwan!"
+                "desc": "Famicom emulator made for the Game Boy DMG! Also has links to an emulator for the WonderSwan!",
+                "favicon": "default"
             },
             {
                 "name": "Javaboy Advance",
                 "link": "https://web.archive.org/web/20030601081550/http://sourceforge.net/projects/javaboy/",
-                "desc": "Lightweight Java VM for the Game Boy Advance!"
+                "desc": "Lightweight Java VM for the Game Boy Advance!",
+                "favicon": "default"
             },
             {
                 "name": "Electronica Baugar",
                 "link": "https://web.archive.org/web/20110623205821/http://www.electronicabaugar.com/",
-                "desc": "Abysmal website from Spain about video games."
+                "desc": "Abysmal (awesome) website from Spain about video games."
             },
             {
                 "name": "GBA Asteroids Emulator",
                 "link": "https://web.archive.org/web/20041020084742/http://www.dwelch.com/gba/roids.htm",
-                "desc": "Slow emulation of the Asteroids machine for the Game Boy Advance."
+                "desc": "Slow emulation of the Asteroids arcade cabinet for the Game Boy Advance."
             },
             {
                 "name": "Natrium42's Blog",
                 "link": "https://web.archive.org/web/20110929110930/http://natrium42.com/blog/",
-                "desc": "Hardware and software projects for the Nintendo DS"
+                "desc": "Hardware and software projects for the Nintendo DS",
+                "favicon": "n42"
             },
             {
                 "name": "PirateDish.com",
                 "link": "https://web.archive.org/web/20021006135228/http://www.piratedish.com/home.htm",
-                "desc": "Piracy group that sold/linked products for pirating the satellite signals for Dish network."
+                "desc": "Piracy group that sold/linked products for pirating the satellite signals for Dish network.",
+                "favicon": "default"
             },
             {
                 "name": "Hack100.com Rankings",
                 "link": "https://web.archive.org/web/20020802195234/http://www.hack100.com/top100/all.html",
-                "desc": "Hub linking a ton of (historical) sites related to pirating satellite television, including decrypting DSS for DirecTV."
+                "desc": "Hub linking a ton of (historical) sites related to pirating satellite television, including decrypting DSS for DirecTV.",
+                "nsfw": "true",
+                "favicon": "default"
             },
             {
                 "name": "Mother 3 Petition Aftermathematics",
                 "link": "http://classic.fobby.net/petition/mother3/",
-                "desc": "Documentation relating to Starmen.net's Mother 3 Petition to Nintendo of America."
+                "desc": "Documentation relating to Starmen.net's Mother 3 Petition to Nintendo of America.",
+                "favicon": "fobby"
             },
             {
                 "name": "UNIX® on the Game Boy Advance",
                 "link": "https://web.archive.org/web/20070220105453/https://www.kernelthread.com/publications/gbaunix/",
-                "desc": "PDP-11 emulator for the Game Boy Advance running UNIX v5."
+                "desc": "PDP-11 emulator for the Game Boy Advance running UNIX v5.",
+                "favicon": "kernelthread"
             },
             {
                 "name": "EZ(XG) LinkerでFlashManager for GBxを使用する",
                 "link": "http://mootan.hg.to/fmgbx/ez_fmgbx.html",
-                "desc": "Japanese webpage that details a mod for the EZ-Flash II or XG-Flash reader that allows for dumping DMG/CGB cartridges."
+                "desc": "Japanese webpage that details a mod for the EZ-Flash II or XG-Flash reader that allows for dumping DMG/CGB cartridges.",
+                "favicon": "moontan"
             },
             {
                 "name": "Mappy VM",
                 "link": "https://web.archive.org/web/20031204223712/http://www.bottledlight.com/mappy/index.html",
-                "desc": "Website for a very early Game Boy Advance emulator, marketed to be an ARM virtual machine that was <i>similar</i> to the Game Boy Advance."
+                "desc": "Website for a very early Game Boy Advance emulator, marketed to be an ARM virtual machine that was <i>similar</i> to the Game Boy Advance.",
+                "favicon": "default"
             },
             {
                 "name": "AdventureGoat Online",
                 "link": "https://web.archive.org/web/19970708074120/http://www.adventuregoat.com/index.html",
-                "desc": "A Virtual Outdoors Adventure (without the dirty boots!)"
+                "desc": "A Virtual Outdoors Adventure (without the dirty boots!)",
+                "favicon": "default"
             },
             {
                 "name": "ExtremeFlashAdvance",
                 "link": "https://web.archive.org/web/20040605174056/http://www.efa.cc/",
-                "desc": "Home of the EFA-Linker family of legacy flashcarts."
+                "desc": "Home of the EFA-Linker family of legacy flashcarts.",
+                "favicon": "default"
             },
             {
                 "name": "XG-Flash World",
                 "link": "https://web.archive.org/web/20040810023740/http://www.xgflash2.com/",
-                "desc": "Home of the XG-Flash / Visoly family of legacy flashcarts."
+                "desc": "Home of the XG-Flash / Visoly family of legacy flashcarts.",
+                "favicon": "default"
             },
             {
                 "name": "My PSP Portal",
                 "link": "https://web.archive.org/web/20060206194903/http://mypspportal.psparchive.de/",
-                "desc": "Some guy's portal for PSP Links."
+                "desc": "Some guy's portal for PSP Links.",
+                "favicon": "default"
             },
             {
                 "name": "Halo: Portable",
                 "link": "https://web.archive.org/web/20060208184824/http://mintz.hushedcasket.com/",
-                "desc": "Some guy's Halo content for the PSP"
+                "desc": "Some guy's Halo content for the PSP",
+                "favicon": "default"
             }
         ]
     },
@@ -1417,52 +1495,62 @@
             {
                 "name": "Pouët",
                 "link": "https://pouet.net/",
-                "desc": "THE demoscene prod resource!"
+                "desc": "THE demoscene prod resource!",
+                "favicon": "pouet"
             },
             {
                 "name": "Keygen Jukebox",
                 "link": "https://keygenjukebox.net/",
-                "desc": "Online collection of keygen and cracktro music to listen to in your browser."
+                "desc": "Online collection of keygen and cracktro music to listen to in your browser.",
+                "favicon": "keygenjukebox"
             },
             {
                 "name": "modarchive",
                 "link": "https://modarchive.org/",
-                "desc": "Collection of Amiga MODs as well as other tracker files."
+                "desc": "Collection of Amiga MODs as well as other tracker files.",
+                "favicon": "modarchive"
             },
             {
                 "name": "SceneSat",
                 "link": "https://scenesat.com/",
-                "desc": "Demoscene radio."
+                "desc": "Demoscene radio.",
+                "favicon": "scenesat"
             },
             {
                 "name": "SCENE.ORG",
                 "link": "https://www.scene.org/",
-                "desc": "The International Demoscene Orgnaization. Comes with a file archive dating back 30 years, if not longer."
+                "desc": "The International Demoscene Orgnaization. Comes with a file archive dating back 30 years, if not longer.",
+                "favicon": "scene"
             },
             {
                 "name": "scene.hu",
                 "link": "https://www.scene.hu/",
-                "desc": "Hungarian demoscene resource."
+                "desc": "Hungarian demoscene resource.",
+                "favicon": "huscene"
             },
             {
                 "name": "modules.pl",
                 "link": "https://www.modules.pl/",
-                "desc": "Another tracker archive."
+                "desc": "Another tracker archive.",
+                "favicon": "default"
             },
             {
                 "name": "executable.graphics",
                 "link": "https://executable.graphics/",
-                "desc": "Visual art through the medium of software."
+                "desc": "Visual art through the medium of software.",
+                "favicon": "execg"
             },
             {
                 "name": "Demozoo",
                 "link": "https://demozoo.org/",
-                "desc": "Another demoscene resource."
+                "desc": "Another demoscene resource.",
+                "favicon": "demozoo"
             },
             {
                 "name": "MindCandy",
                 "link": "http://www.mindcandydvd.com/",
-                "desc": "PC Demos and the like, available on Blu-ray."
+                "desc": "PC Demos and the like, available on Blu-ray.",
+                "favicon": "mindcandy"
             }
         ]
     },
@@ -1474,72 +1562,86 @@
             {
                 "name": "Priyom",
                 "link": "https://priyom.org/",
-                "desc": "Online organization that monitors and documents activity of intelligence radio spy numbers stations."
+                "desc": "Online organization that monitors and documents activity of intelligence radio spy numbers stations.",
+                "favicon": "priyom"
             },
             {
                 "name": "ENIGMA 2000",
                 "link": "http://signalshed.com/",
-                "desc": "Legacy newsletter about shortwave spy numbers stations."
+                "desc": "Legacy newsletter about shortwave spy numbers stations.",
+                "favicon": "e2000"
             },
             {
                 "name": "53°44'N  0°26'W",
                 "link": "https://web.archive.org/web/20040526150326/http://www.simonmason.karoo.net/",
-                "desc": "Simon Mason's personal website, with a page dedicated to his research on numbers stations."
+                "desc": "Simon Mason's personal website, with a page dedicated to his research on numbers stations.",
+                "favicon": "default"
             },
             {
                 "name": "Crypto Museum",
                 "link": "https://www.cryptomuseum.com/",
-                "desc": "Virtual museum based in The Netherlands that preserves historical cipher machines, spy radio sets, and the like."
+                "desc": "Virtual museum based in The Netherlands that preserves historical cipher machines, spy radio sets, and the like.",
+                "favicon": "cryptmus"
             },
             {
                 "name": "Linkfanel's SDR Map",
                 "link": "http://rx.linkfanel.net",
-                "desc": "Worldwide map of known HF Radio WebSDR recievers."
+                "desc": "Worldwide map of known HF Radio WebSDR recievers.",
+                "favicon": "linkfanel"
             },
             {
                 "name": "WebSDR.org",
                 "link": "http://websdr.org/",
-                "desc": "Other collection of HF and VHF WebSDR receivers."
+                "desc": "Other collection of HF and VHF WebSDR receivers.",
+                "favicon": "default"
             },
             {
                 "name": "CQSSTV",
                 "link": "https://www.cqsstv.com/",
-                "desc": "Live SSTV reciever capturing images transmitted from all around the United States."
+                "desc": "Live SSTV reciever capturing images transmitted from all around the United States.",
+                "favicon": "cqsstv"
             },
             {
                 "name": "NOAA Weather Radio",
                 "link": "https://noaaweatherradio.org/",
-                "desc": "Listen to NOAA broadcasts live."
+                "desc": "Listen to NOAA broadcasts live.",
+                "favicon": "noaa"
             },
             {
                 "name": "Numbers & Oddities",
                 "link": "https://www.numbersoddities.nl/index.html",
-                "desc": "A newsletter and recordings for those interested in numbers stations."
+                "desc": "A newsletter and recordings for those interested in numbers stations.",
+                "favicon": "default"
             },
             {
                 "name": "HFUnderground",
                 "link": "https://www.hfunderground.com/board/",
-                "desc": "Pirate radio forum? Unsure of exact purpose."
+                "desc": "Pirate radio forum? Unsure of exact purpose.",
+                "favicon": "default"
             },
             {
                 "name": "Cuban Numbers Station",
                 "link": "https://www.qsl.net/py4zbz/eni.htm",
-                "desc": "Documentation on HM01's DFTM file transfers."
+                "desc": "Documentation on HM01's DFTM file transfers.",
+                "favicon": "qsl"
             },
             {
                 "name": "New Star Broadcast Station",
                 "link": "https://www.kentfoto.com/spooks/newstar.htm",
-                "desc": "Documentation on V13 \"New Star Broadcasting.\""
+                "desc": "Documentation on V13 \"New Star Broadcasting.\"",
+                "favicon": "default"
             },
             {
                 "name": "Asian Broadcasting Institute",
                 "link": "https://www.abiweb.jp/",
-                "desc": "Nonprofit established in 1979 to analyze radio broadcasting in China, Japan, North and South Korea, Taiwan, as well as other regions in the area."
+                "desc": "Nonprofit established in 1979 to analyze radio broadcasting in China, Japan, North and South Korea, Taiwan, as well as other regions in the area.",
+                "favicon": "abi"
             },
             {
                 "name": "ddr/sprachmg.cpp",
                 "link": "https://github.com/mamedev/mame/blob/master/src/mame/ddr/sprachmg.cpp",
-                "desc": "MAME source code for emulating the 32620 Speech/Morse Generator, produced by East Germany and used in various numbers stations."
+                "desc": "MAME source code for emulating the 32620 Speech/Morse Generator, produced by East Germany and used in various numbers stations.",
+                "favicon": "github"
             }
         ]
     },
@@ -1551,17 +1653,20 @@
             {
                 "name": "Synthetic Ghosts of a Past that Never Was",
                 "link": "https://neurosismancer.neocities.org/80snostalgiaslop",
-                "desc": "An essay that takes a deep dive into fascism and the related AI-generated slop that promotes sanitized, capitalist nostalgia."
+                "desc": "An essay that takes a deep dive into fascism and the related AI-generated slop that promotes sanitized, capitalist nostalgia.",
+                "favicon": "default"
             },
             {
                 "name": "anarchism starts in the now",
                 "link": "https://maia.crimew.gay/posts/anarchism-in-the-now/",
-                "desc": "There is still time."
+                "desc": "There is still time.",
+                "favicon": "crimew"
             },
             {
                 "name": "WORSHIP OF THE ENGINEER",
                 "link": "https://www.sheeeeeeeep.art/the-worship-of-engineering.html",
-                "desc": "No, no, no. I wasn't women that sent people to the moon. I assure you, it was SOFTWARE that sent people to the moon."
+                "desc": "No, no, no. I wasn't women that sent people to the moon. I assure you, it was SOFTWARE that sent people to the moon.",
+                "favicon": "sheerp"
             }
         ]
     }

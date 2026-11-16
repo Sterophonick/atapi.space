@@ -15,16 +15,24 @@ function returnTotalLinkCount() {
     return $linkCount;
 }
 
-function faviconSelectLogic($file) {
-    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/assets/img/links/favicons/" . $file . ".png")) {
-        return "default";
+function faviconSelectLogic($entry) {
+    if(array_key_exists("favicon", $entry)) {
+        if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/assets/img/links/favicons/" . $entry["favicon"] . ".png")) {
+            return "default";
+        }
+        
+        return $entry["favicon"];
     }
     
-    return $file;
+    return "default";
 }
 
 // expects entry data
 function printLinkLogic($entry) {
+    if(array_key_exists("nsfw", $entry)) {
+        return "/interstitial.php?name=" . $entry["name"] . "&dest=" . $entry["link"];
+    }
+    
     return $entry["link"];
 }
 
@@ -47,7 +55,7 @@ function printLinkData($category) {
         
         echo '<tr><td>';
         echo '<div class="linkImgContainer">';
-        echo '<img class="linkImg" width="48px" height="48px" src="/assets/img/links/favicons/' . faviconSelectLogic($entry["favicon"]) . '.png">';
+        echo '<img class="linkImg" style="filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));" width="48px" height="48px" src="/assets/img/links/favicons/' . faviconSelectLogic($entry) . '.png">';
         echo '</div>';
         echo '</td>';
         
