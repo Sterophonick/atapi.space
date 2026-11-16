@@ -12,7 +12,7 @@ EOF;
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/util.php';
 echo constructPageHeader("Atapi's Domain! :: Links");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCounter.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/linksCode.php';
 
 ?>
     <div id="hypnospace-header">

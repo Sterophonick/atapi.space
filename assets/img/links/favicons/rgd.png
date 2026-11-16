@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><title>Making sure you&#39;re not a bot!</title><link rel="stylesheet" href="/.within.website/x/xess/xess.min.css?cachebuster=v1.28.2"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex,nofollow"><style>
+        body,
+        html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .centered-div {
+            text-align: center;
+        }
+
+        #status {
+            font-variant-numeric: tabular-nums;
+        }
+
+        #progress {
+            display: none;
+            width: 90%;
+            width: min(20rem, 90%);
+            height: 2rem;
+            border-radius: 1rem;
+            overflow: hidden;
+            margin: 1rem 0 2rem;
+            outline-offset: 2px;
+            outline: #b16286 solid 4px;
+        }
+
+        .bar-inner {
+            background-color: #b16286;
+            height: 100%;
+            width: 0;
+            transition: width 0.25s ease-in;
+        }
+    	</style><script id="anubis_version" type="application/json">"v1.28.2"
+</script><script id="anubis_challenge" type="application/json">{"rules":{"algorithm":"metarefresh","difficulty":1},"challenge":{"issuedAt":"2026-11-16T05:34:29.779636403Z","metadata":{"Referer":"","User-Agent":"Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)","X-Real-IP":"78.62.131.89"},"id":"01a1e2d9-8993-7994-b05d-45f796523994","method":"metarefresh","randomData":"4cf607bdb3229297e7b2282fd7db00bc28a025d0c4598d8add4782b963af5736953cb1da12277b9139a6096a52d6af41092a5da84c85ae061e49f37bdb5aec6b","policyRuleHash":"dbf942088788cc96","difficulty":1,"spent":false,"extensions":null}}
+</script><script id="anubis_base_prefix" type="application/json">""
+</script><script id="anubis_public_url" type="application/json">""
+</script></head><body id="top"><script type="ignore"><a href="/.within.website/x/cmd/anubis/api/honeypot/f09d36d7-2521-4b02-9ccd-82836bea2c87/init">Don't click me</a></script><main><h1 id="title" class="centered-div">Making sure you&#39;re not a bot!</h1><div class="centered-div"><img id="image" style="width:100%;max-width:256px;" src="/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.28.2"> <img style="display:none;" style="width:100%;max-width:256px;" src="/.within.website/x/cmd/anubis/static/img/happy.webp?cacheBuster=v1.28.2"><p id="status">Loading...</p><p>Please wait a moment while we ensure the security of your connection.</p><meta http-equiv="refresh" content="2; url=/.within.website/x/cmd/anubis/api/pass-challenge?challenge=4cf607bdb3229297e7b2282fd7db00bc28a025d0c4598d8add4782b963af5736953cb1da12277b9139a6096a52d6af41092a5da84c85ae061e49f37bdb5aec6b&amp;id=01a1e2d9-8993-7994-b05d-45f796523994&amp;redir=%2Findex.php%2Ffavicon.ico"></div><footer><div class="centered-div"><p>Protected by <a href="https://github.com/TecharoHQ/anubis">Anubis</a> From <a href="https://techaro.lol">Techaro</a>. Made with ❤️ in 🇨🇦.</p><p>Mascot design by <a href="https://bsky.app/profile/celphase.bsky.social">CELPHASE</a>.</p><p>This website is running Anubis version <code>v1.28.2</code>.</p></div></footer></main></body></html>
