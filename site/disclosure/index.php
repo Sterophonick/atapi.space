@@ -20,14 +20,9 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 <br/>
 <h2>Legacy Support</h2>
 <p>
-    This site has an <a href="http://alt.atapi.space">HTTP alt</a> for old browsers and computers! I encourage people to use HTTPS whenever possible, but doing this should be fine since last I checked, I'm not a bank. Send me pics of this site on old computers! <3<br/>
+    While I encourage people to use HTTPS whenever possible, this website does have support for unencrypted HTTP, which should be fine since last I checked, I am not a bank. Additionally, if you were to visit <a href="http://simple.atapi.space/">simple.atapi.space</a>, you would be directed to a version of this site that has numerous features disabled as well as greatly simplified CSS. This should considerably lighten the load on much much older computers if you so desire! The primary thing that you would be missing would be things like game or YouTube embeds.<br/>
     <br/>
-    Known tested browsers:<br/>
-    Internet Explorer 5.0<br/>
-    Nintendo 3DS Browser<br/>
-    Nintendo DSi Browser<br/>
-    Nintendo Wii Internet Channel<br/>
-    K-Meleon<br/>
+    This website has been made with compatibility with Internet Explorer 6.0 in mind, but most browsers from that era should work okay, doubly so if you use the simplified version. Everything should still otherwise work and be readable.<br/>
     <br/>
     Your user agent:<br/>
     <?php echo $_SERVER['HTTP_USER_AGENT']; ?>
@@ -87,7 +82,7 @@ echo constructPageHeader("Atapi's Domain! :: Site & Privacy Info");
 <br/>
 <h2>Network Access</h2>
 <p>
-The port <code>:6502</code> is also open on this site's IP address, which is <code>185.167.61.248</code>. This should allow for evading weird DNS blocks and other firewalls. There is currently no HTTPS on this port though.
+The port <code>:6502</code> is also open on this site's IP address, which is <code>185.167.61.248</code>. This should allow for evading weird DNS blocks and other firewalls. There is currently no HTTPS on this port though. It breaks the ability to use the simplified site, but whatever.
 </p>
 <br/>
 <p>If you discover any security vulnerabilities PLEASE let me know about it!</p><br/>
@@ -101,14 +96,14 @@ The port <code>:6502</code> is also open on this site's IP address, which is <co
 <p>
 - Standard typeface is Motherish by ArtsyOmni, CJK Script is Zen Maru Gothic<br/>
 - Monospace typeface is Ubuntu Mono<br/>
-- CSS and layout inspiration from Kokoscript<br/>
+- CSS and layout inspiration from numerous places such as Kokoscript and NewGrounds.<br/>
 - Oneko.js by adryd325, graphic modified by ParkerCC<br/>
 - Background is an altered version of the MacOS 9 cats wallpaper<br/>
 - No copyright infringement intended<br/>
 - SGI, OS/2, and Afterburner ads by Hootwheelz<br/>
 - Hit Counter is <a href="https://codeberg.org/Chasnah/gttfcount">gttfcount</a> by Chasnah.<br/>
 <br/>
-No content on this website, past or present, can be used in connection with or to promote cryptocurrency, nor can it be used for promoting or train ing any form of artifical intelligence.<br/>
+No content on this website, past or present, can be used in connection with or to promote cryptocurrency, nor can it be used for promoting or training any form of artifical intelligence.<br/>
 </p>
 <br/>
 <img width="160px" src="/assets/img/disclosure/cat.gif"><br/>
