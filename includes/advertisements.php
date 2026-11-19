@@ -350,6 +350,7 @@ $adList = array(
     "/assets/img/ads/webtv-store.gif","https://web.archive.org/web/19990508094908/http://webtv.com/products/Accessories.html", 
     "/assets/img/ads/webtv-printer.jpg","https://web.archive.org/web/20010413012703/http://www.webtv.com/products/printers/index.html", 
     
+    "/assets/img/ads/alladvantage.gif","https://web.archive.org/web/20000408200927/http://www.alladvantage.com/home.asp?refid=",
     
     # GameCopyWorld
     "/assets/img/ads/gcw_1.jpg","https://gamecopyworld.com/games/index.php",
