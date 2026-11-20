@@ -4,7 +4,7 @@ $customSideContent = <<<EOF
     <div class="sideFunFact window">
         <h4>Pro tip:</h4>
         <p>
-            Linking as many things to your personal site as possible is a very good idea.
+            Linking as many things to your personal site as possible is a very good idea. If you are not linking to many different places from your own website, I will be at your door by nightfall.
         </p>
     </div>
 EOF;
