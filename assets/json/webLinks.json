@@ -1557,6 +1557,24 @@
                 "link": "http://lug00ber.m0f0.net/",
                 "desc": "Homepage of demoscene composer by the name of lug00ber.",
                 "favicon": "lug00ber"
+            },
+            {
+                "name": "Modland FTP Server",
+                "link": "https://modland.com/",
+                "desc": "Potentially the largest module archive in the world, home of over 500k+ modules in over 400 formats!",
+                "favicon": "default"
+            },
+            {
+                "name": "Demovibes",
+                "link": "https://www.demovibes.org/",
+                "desc": "Mixtapes from the Demoscene",
+                "favicon": "default"
+            },
+            {
+                "name": "VORC",
+                "link": "http://www.vorc.org/en/",
+                "desc": "VGM and Chiptune Site",
+                "favicon": "default"
             }
         ]
     },
