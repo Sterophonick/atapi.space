@@ -1358,9 +1358,15 @@
                 "button": "/assets/img/links/flashicon.gif"
             },
             {
-                "name": "Webagent 007",
+                "name": "Webagent 007 (2003)",
                 "link": "https://web.archive.org/web/20150324012001/http://www.wa007.com/2003/",
-                "desc": "Homepage for WA007, a web design and marketing firm.",
+                "desc": "2003 Homepage for WA007, a web design and marketing firm.",
+                "favicon": "default",
+                "button": "/assets/img/links/flashicon.gif"
+            },{
+                "name": "Webagent 007 (2010)",
+                "link": "https://web.archive.org/web/20100412053255/http://www.wa007.com/",
+                "desc": "Ditto, but from 2010. There's a whole new design!",
                 "favicon": "default",
                 "button": "/assets/img/links/flashicon.gif"
             },
