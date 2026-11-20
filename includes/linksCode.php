@@ -61,8 +61,19 @@ function printLinkData($category) {
         
         echo '<td>';
         echo '<div class="linkBody">';
+        echo '<div class="firstLine" style="height:31px">';
         
-        echo '<a href="' . printLinkLogic($entry) . '">' . $entry["name"] . '</a><br/>';
+        // print the link
+        echo '<a href="' . printLinkLogic($entry) . '">' . $entry["name"] . '</a>';
+        
+        // if there exists a button we must also print it :3
+        if(array_key_exists("button", $entry)) {
+            echo '<img style="display: flex; float: right;" src="' . $entry["button"] . '">';
+        }
+        
+        echo '<br/></div>';
+        
+        
         echo '<p>' . $entry["desc"] . '</p>';
         
         echo '</div>';

@@ -906,7 +906,7 @@
     
     "historical": {
         "name": "Historical",
-        "desc": "Defunct websites of interest.",
+        "desc": "Older places I've come across on my travels through the vast world of cyberspace!",
         "entries": [
             {
                 "name": "ngine.de",
@@ -946,9 +946,9 @@
                 "favicon": "default"
             },
             {
-                "name": "Headspin's Guide to Compression, Files Systems Screen Effects and MOD Players for the Gameboy Advance",
+                "name": "Headspin's Guide (to stuff on the GBA)",
                 "link": "https://web.archive.org/web/20121017041029/http://members.iinet.net.au/~freeaxs/gbacomp/",
-                "desc": "Headspin's guide to handling things like LZ77, Huffman, RLE, BIT, compression methods for GBA homebrew. Also covers things such as GBFS and varioud graphical effects.",
+                "desc": "Headspin's guide to handling things like LZ77, Huffman, RLE, BIT, compression methods for GBA homebrew. Also covers things such as GBFS and various graphical effects.",
                 "favicon": "default"
             },
             {
@@ -1191,7 +1191,8 @@
                 "name": "Snes2Gba",
                 "link": "https://web.archive.org/web/20030202022558/http://snes2gba.vze.com/",
                 "desc": "Another Super NES emulator for the GBA. Downloads are all broken, as the webmaster used FTP for the download links.",
-                "favicon": "default"
+                "favicon": "default",
+                "button": "/assets/img/links/flashicon.gif"
             },
             {
                 "name": "GBA Atari Lynx Emulator",
@@ -1353,13 +1354,15 @@
                 "name": "2Advanced Studios",
                 "link": "https://web.archive.org/web/20210611213053/https://www.2advanced.com/flashindex.htm",
                 "desc": "Homepage for 2Advanced Studios. Site features awesome metalheart aesthetics.",
-                "favicon": "2advanced"
+                "favicon": "2advanced",
+                "button": "/assets/img/links/flashicon.gif"
             },
             {
                 "name": "Webagent 007",
                 "link": "https://web.archive.org/web/20150324012001/http://www.wa007.com/2003/",
                 "desc": "Homepage for WA007, a web design and marketing firm.",
-                "favicon": "default"
+                "favicon": "default",
+                "button": "/assets/img/links/flashicon.gif"
             },
             {
                 "name": "XCM",
@@ -1377,7 +1380,8 @@
                 "name": "n.fuse gfx",
                 "link": "https://web.archive.org/web/20000815082328/http://www.nfusegfx.com:80/",
                 "desc": "Flash-based homepage for a web and graphic design firm.",
-                "favicon": "default"
+                "favicon": "default",
+                "button": "/assets/img/links/flashicon.gif"
             },
             {
                 "name": "You're the Man Now, Dog!",
@@ -1483,6 +1487,19 @@
                 "name": "Halo: Portable",
                 "link": "https://web.archive.org/web/20060208184824/http://mintz.hushedcasket.com/",
                 "desc": "Some guy's Halo content for the PSP",
+                "favicon": "default"
+            },
+            {
+                "name": "The PERN Project",
+                "link": "https://web.archive.org/web/20040613125141/http://thepernproject.com/index2.htm",
+                "desc": "The \"Nintedo\" Reverse Engineering Project, an older Game Boy Advance programming tutorial.",
+                "favicon": "default",
+                "button": "/assets/img/links/flashicon.gif"
+            },
+            {
+                "name": "GBA Hell - Gameboy Advance Underground",
+                "link": "https://web.archive.org/web/20040525074026/http://gbahell.com/",
+                "desc": "Barely put together website relating to the Game Boy Advance underground scene.",
                 "favicon": "default"
             }
         ]

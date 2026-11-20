@@ -4,7 +4,7 @@ $customSideContent = <<<EOF
     <div class="sideFunFact window">
         <h4>Note:</h4>
         <p>
-            Some sites are marked with a little <a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> icon. These links require the use of Ruffle, which can be downloaded by clicking the icon.
+            Some sites are marked with a little <a skipcount href="https://ruffle.rs/"><img title="This site uses Macromedia Flash. Install Ruffle to view it!" class="headerIcon" src="/assets/img/links/flashicon.gif"></a> icon. These links require the use of Ruffle on a modern browser. On a slightly older computer, make sure you have the Adobe Flash NPAPI extension installed.
         </p>
     </div>
 EOF;
