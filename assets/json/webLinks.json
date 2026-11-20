@@ -1551,6 +1551,12 @@
                 "link": "http://www.mindcandydvd.com/",
                 "desc": "PC Demos and the like, available on Blu-ray.",
                 "favicon": "mindcandy"
+            },
+            {
+                "name": "lug00ber",
+                "link": "http://lug00ber.m0f0.net/",
+                "desc": "Homepage of demoscene composer by the name of lug00ber.",
+                "favicon": "lug00ber"
             }
         ]
     },
