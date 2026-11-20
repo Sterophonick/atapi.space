@@ -10,6 +10,42 @@
                 "favicon": "mgba"
             },
             {
+                "name": "PCSX2",
+                "link": "https://pcsx2.net/",
+                "desc": "Open-source PlayStation 2 emulator!",
+                "favicon": "pcsx2"
+            },
+            {
+                "name": "RPCS3",
+                "link": "https://rpcs3.net/",
+                "desc": "Homepage for RPCS3, the open-source PlayStation 3 emulator.",
+                "favicon": "rpcs3"
+            },
+            {
+                "name": "Dolphin Emulator",
+                "link": "https://dolphin-emu.org/",
+                "desc": "Open-source GameCube and Wii emulator!",
+                "favicon": "dolphin"
+            },
+            {
+                "name": "DuckStation",
+                "link": "https://duckstation.org/",
+                "desc": "Fast and highly accurate PlayStation emulator!",
+                "favicon": "duckstation"
+            },
+            {
+                "name": "Xenia",
+                "link": "https://xenia.jp/",
+                "desc": "Homepage for Xenia, the Xbox 360 Research Emulator.",
+                "favicon": "xenia"
+            },
+            {
+                "name": "MAME",
+                "link": "https://mamedev.org/",
+                "desc": "Generic electronics emulator that preserves thousands of arcade games, computers, consoles, and miscellaneous electronics.",
+                "favicon": "mame"
+            },
+            {
                 "name": "Emulation General Wiki",
                 "link": "https://emulation.gametechwiki.com",
                 "desc": "An emulation wiki sprung from /emugen/.",
@@ -20,12 +56,6 @@
                 "link": "https://gbatemp.net/",
                 "desc": "Long-standing independent gaming underground board.",
                 "favicon": "gbatemp"
-            },
-            {
-                "name": "MAME",
-                "link": "https://mamedev.org/",
-                "desc": "Generic electronics emulator that preserves thousands of arcade games, computers, consoles, and miscellaneous electronics.",
-                "favicon": "mame"
             },
             {
                 "name": "The Cutting Room Floor",
@@ -178,18 +208,6 @@
                 "favicon": "mtxworld"
             },
             {
-                "name": "Xenia",
-                "link": "https://xenia.jp/",
-                "desc": "Homepage for Xenia, the Xbox 360 Research Emulator.",
-                "favicon": "xenia"
-            },
-            {
-                "name": "RPCS3",
-                "link": "https://rpcs3.net/",
-                "desc": "Homepage for RPCS3, the open-source PlayStation 3 emulator.",
-                "favicon": "rpcs3"
-            },
-            {
                 "name": "TRS-80 Color Computer Archive",
                 "link": "https://colorcomputerarchive.com/",
                 "desc": "File hosting for all sorts of programs and utilities for Tandy TRS-80 CoCo-family computers.",
@@ -227,7 +245,7 @@
             },
             {
                 "name": "Amigan Software",
-                "link": "https://www.miniarcade.com/",
+                "link": "https://amigan.1emu.net/releases/",
                 "desc": "Home of the WinArcadia emulator, as well as various other documentation and games for Signetics 2650 machines.",
                 "favicon": "amigan"
             }
@@ -900,6 +918,18 @@
                 "link": "http://www.femicom.org/",
                 "desc": "Hybrid-space community and museum dedicated to preserving and celebrating the history of electronic games and toys aimed at girls and young women.",
                 "favicon": "femicom"
+            },
+            {
+                "name": "Marathon Recompiled",
+                "link": "https://github.com/sonicnext-dev/marathonrecomp",
+                "desc": "Unofficial PC port for Sonic the Hedgehog (2006) created with Static Recompilation. AI slop free!",
+                "favicon": "github"
+            },
+            {
+                "name": "Cookie's Bustle",
+                "link": "https://cookies-bustle.net/",
+                "desc": "Fan site for downloads and patches relating to a point and click adventure by the name <i>Cookie's Bustle</i>.",
+                "favicon": "bustle"
             }
         ]
     },
