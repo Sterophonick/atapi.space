@@ -1537,6 +1537,12 @@
                 "link": "https://web.archive.org/web/20040525074026/http://gbahell.com/",
                 "desc": "Barely put together website relating to the Game Boy Advance underground scene.",
                 "favicon": "default"
+            },
+            {
+                "name": "PSPXMAG.COM - The PSP X Magazine",
+                "link": "https://web.archive.org/web/20060203154808/http://pspxmag.com/",
+                "desc": "PlayStation Portable resource magazine from back in the day.",
+                "favicon": "default"
             }
         ]
     },

@@ -353,6 +353,7 @@ $adList = array(
     "/assets/img/ads/directv-dsl.gif","",
     "/assets/img/ads/thinkpad-wires.gif","",
     "/assets/img/ads/gazoo.gif","",
+    "/assets/img/ads/n-gage.gif","https://web.archive.org/web/20050628082531/http://www.n-gage.com/", // gif from ngage.allack.co.uk
     
     # WebTV Collection
     "/assets/img/ads/webtv.gif","https://web.archive.org/web/20051001011956/http://www.webtv.com/pc/", 
