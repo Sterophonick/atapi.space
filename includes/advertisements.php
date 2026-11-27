@@ -344,6 +344,16 @@ $adList = array(
     "/assets/img/ads/dss-newbies.gif","https://web.archive.org/web/20021105105514/http://dss-newbies.net/", 
     "/assets/img/ads/privatesat.gif","https://web.archive.org/web/20021022143125/http://www.privatesat.com/", 
     
+    # escapade on 2026/11/26
+    "/assets/img/ads/pspblender.gif","https://www.youtube.com/watch?v=pYJtO_DehzY", 
+    "/assets/img/ads/ps2cover-supercard.gif","https://web.archive.org/web/20061215202239/http://www.ps2cover.com/nintendo-ds.shtml", 
+    "/assets/img/ads/neomax.gif","https://web.archive.org/web/20070104024224/http://www.modchipnow.com/neomax-1g-nds-linker-set-p-144.html?affiliate_banner_id=11&ref=130", 
+    "/assets/img/ads/top26.gif","https://web.archive.org/web/20050205114548/http://www.top26.net/", 
+    "/assets/img/ads/romulation.jpg","https://web.archive.org/web/20050409004652/http://www.romulation.net/", 
+    "/assets/img/ads/directv-dsl.gif","",
+    "/assets/img/ads/thinkpad-wires.gif","",
+    "/assets/img/ads/gazoo.gif","",
+    
     # WebTV Collection
     "/assets/img/ads/webtv.gif","https://web.archive.org/web/20051001011956/http://www.webtv.com/pc/", 
     "/assets/img/ads/webtv-surf1.gif","https://webtv.zone/info/index.html", 
